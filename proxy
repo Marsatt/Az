@@ -1,0 +1,47 @@
+#代理
+#20231001 a.001
+
+
+#TikTok视频无水印下载
+host, savetik.net, C
+host, snapxcdn.com, C
+
+#Z-Libly图书馆
+host, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu, C
+host, lib-3fsujil5cusci24v775f7qe3.1lib.fr, C
+#油猴
+host, greasyfork.org, C
+
+#天时，地球看pm2.5
+host, earth.nullschool.net, C
+host, gaia.nullschool.net, C
+
+#美國大使館，地球顯示mp2.5
+host, aqicn.org, C
+host, mapq.waqi.info, C
+
+#JD签到
+host, ghproxy.com, C
+
+#perplexity app
+host, 342251b-beta.perplexity.ai, C
+host, www.perplexity.ai, C
+
+# Flightradar24 app
+host, data-cloud.flightradar24.com, C
+host, mobile.flightradar24.com, C
+host, data-feed.flightradar24.com, C
+
+#Marine Traffic
+host, tiles.marinetraffic.com, C
+host, www.marinetraffic.com, C
+
+#嗯背單詞
+#牛津
+host, www.oxfordlearnersdictionaries.com, C
+#韋氏
+host, www.merriam-webster.com, C
+#朗文
+host, www.ldoceonline.com, C
+#柯林斯
+host, www.collinsdictionary.com, C
