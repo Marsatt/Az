@@ -29,7 +29,7 @@
 
 
 #剪影字幕提取網站
-host, https://jy.mzh.ren, 直鏈
+host, jy.mzh.ren, 直鏈
 
 #ip，測試網站在全國是否可以直鏈。
 host, www.itdog.cn, 直鏈
