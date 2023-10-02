@@ -1,6 +1,18 @@
 #代理
-#20231001 a.001
+#20231002 a.002
 
+
+#chrome瀏覽器，第二個flag顯示。
+host, geoip.furman.im, C
+
+#YouTuBe 雙語翻譯
+host, extension.dioco.io, C
+
+#TikTok 网页版
+host, sf16-website-login.neutral.ttwstatic.com, C
+
+#剪影字幕
+host-suffix, capcut.com, C
 
 #TikTok视频无水印下载
 host, savetik.net, C
