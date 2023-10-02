@@ -2,9 +2,6 @@
 #20231002 a.002
 
 
-#PullTube下載工具更新
-host, dl.devmate.com, C
-
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
 #chrome瀏覽器，Language Reactor翻譯工具。
