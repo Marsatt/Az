@@ -1,0 +1,42 @@
+#DouYin
+#20231002 a.001
+
+
+#抖音官網
+host, www.douyin.com, 直鏈
+#Bytetos 的一個數據收集器。Bytetos 是一個網路廣告公司，提供廣告服務和數據分析。該公司的數據收集器用於收集有關用戶在互聯網上的活動的數據。
+#收集的數據包括：
+#* 用戶的 IP 地址
+#* 用戶的瀏覽器信息
+#* 用戶訪問的網站
+#* 用戶在網站上花費的時間
+#* 用戶在網站上採取的行動
+#Host, lf-c-flwb.bytetos.com, 直鏈
+#Host, fonts.bytedance.com, 直鏈
+# ByteDance 的一個圖像服務器。ByteDance 是一家中國科技公司，擁有 TikTok、Douyin 等多個知名應用。p-pc-weboff.byteimg.com 用於存儲和提供 ByteDance 應用中使用的圖像。
+#p-pc-weboff.byteimg.com 收集的數據包括：
+#* 用戶訪問的網站
+#* 用戶查看的圖像
+#* 用戶的 IP 地址
+#* 用戶的瀏覽器信息
+#Host, p-pc-weboff.byteimg.com, 直鏈
+#Host, p3-pc-weboff.byteimg.com, 直鏈
+#是一個由奇舞團支持並維護的開源項目免費 CDN 服務，支持 HTTPS 和 HTTP/2，囊括上千個前端資源庫和 Google 字體庫。
+host, lib.baomitu.com, 直鏈
+#字節跳動-抖音-今日頭條，
+host, lf-cdn-tos.bytescm.com, 直鏈
+host, lf3-static.bytednsdoc.com, 直鏈
+host, lf3-cdn-tos.bytescm.com, 直鏈
+host, lf3-cdn-tos.bytegoofy.com, 直鏈
+host, lf6-cdn-tos.bytegoofy.com, 直鏈
+#ByteDance 創建的 API 服務平台。該平台提供多種 API，用於開發人員構建和運營應用程序。
+#api64.com 提供的 API 包括：
+#* 圖像 API：用於訪問和處理圖像。
+#* 文本 API：用於處理文本。
+#* 音頻 API：用於處理音頻。
+#* 視頻 API：用於處理視頻。
+#* 地理位置 API：用於獲取地理位置信息。
+#* 人工智能 API：用於實現人工智能功能。
+host, api64.com, 直鏈
+#抖音直播
+host, live.douyin.com, 直鏈
