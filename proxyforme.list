@@ -4,6 +4,8 @@
 
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
+#chrome瀏覽器，Language Reactor翻譯工具。
+host, lb.dioco.io, B
 
 #YouTuBe 雙語翻譯
 host, extension.dioco.io, C
