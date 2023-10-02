@@ -2,9 +2,13 @@
 #20231002 a.002
 
 
+#ios限免网站
+#appagg
+host, appagg.com, C
+
 #書籤-it-轉換類-批量全能轉換器
-host-suffix, xconvert.com, 直鏈
-host-suffix, hv.xconvert.com, 直鏈
+host-suffix, xconvert.com, C
+host-suffix, hv.xconvert.com, C
 
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
