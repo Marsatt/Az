@@ -28,9 +28,6 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
-#書籤-it-轉換類-批量全能轉換器
-host-suffix, xconvert.com, 直鏈
-host-suffix, hv.xconvert.com, 直鏈
 
 #剪影字幕提取網站
 host, jy.mzh.ren, 直鏈
