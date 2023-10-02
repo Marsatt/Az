@@ -28,6 +28,8 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
+#ip，測試網站在全國是否可以直鏈。
+host, www.itdog.cn, 直鏈
 
 #Easydict 有道詞典翻譯
 host, dict.youdao.com, 直链
