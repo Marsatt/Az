@@ -28,6 +28,37 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
+
+
+#ios限免网站
+#App Sliced
+host, cdnkey.appsliced.co, 直连
+host, appsliced.co, 直连
+#鲜面链接
+host, app.so, 直连
+host, media.ifanrusercontent.com, 直连
+host, mcache.ifanr.cn, 直连
+host, sso.ifanr.com, 直连
+#小眾软件
+host, meta.appinn.net, 直连
+host, www.appinn.com, 直连
+host, static1.appinn.com, 直连
+#appagg
+host, appagg.com, 直连
+
+#小人举牌🪧
+host, www.cnuseful.com, 直连
+
+#簡體繁體切換
+host, youtils.cc, 直连
+
+#影视📽️
+host, www.1bt0.com, 直连
+host, www.yinfans.me, 直连
+
+#www.ahhhhfs.com 資源網站
+host, www.ahhhhfs.com, 直连
+
 #繁體簡體互換網站
 host, youtils.cc, 直连
 
@@ -35,6 +66,8 @@ host, youtils.cc, 直连
 host, live-gitv-xj-yh.189smarthome.com, 直连
 host, cntv.sbs, 直连
 host, live.fanmingming.com, 直连
+
+
 
 
 #opencat
