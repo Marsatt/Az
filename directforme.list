@@ -28,15 +28,21 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
-#書籤-工具-it-ip欺詐查詢
+#IP
+
+#書籤-工具-it-ip是否欺詐查詢。
+host, scamalytics.com, 直鏈
+
+#書籤-工具-it-ip欺詐類型查看。
 host, ipinfo.io, 直鏈
 host, website-cdn.ipinfo.io, 直鏈
 
+#書籤-工具-it-ip，測試網站在全國是否可以直鏈。
+host, www.itdog.cn, 直鏈
+
+
 #剪影字幕提取網站
 host, jy.mzh.ren, 直鏈
-
-#ip，測試網站在全國是否可以直鏈。
-host, www.itdog.cn, 直鏈
 
 #Easydict 有道詞典翻譯
 host, dict.youdao.com, 直链
