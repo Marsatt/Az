@@ -2,6 +2,10 @@
 #20231002 a.002
 
 
+#書籤-it-轉換類-批量全能轉換器
+host-suffix, xconvert.com, 直鏈
+host-suffix, hv.xconvert.com, 直鏈
+
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
 #chrome瀏覽器，Language Reactor翻譯工具。
