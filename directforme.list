@@ -28,8 +28,11 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
-#IP
+#書籤-娛樂（字幕庫）
+host, zimuku.org, 直鏈
 
+
+#IP
 #書籤-工具-it-ip-DNS是否洩漏查詢。
 host, ipleak.net, 直鏈
 
