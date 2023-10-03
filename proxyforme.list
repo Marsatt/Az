@@ -2,6 +2,10 @@
 #20231002 a.002
 
 
+#game-蛇蛇貪吃
+host, game.snakesvc.com, C
+host, mail.snakesvc.com, C
+
 #火箭妹
 host, www.rocketgirls.space, C
 
@@ -36,6 +40,7 @@ host, snapxcdn.com, C
 #Z-Libly图书馆
 host, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu, C
 host, lib-3fsujil5cusci24v775f7qe3.1lib.fr, C
+
 #油猴
 host, greasyfork.org, C
 
