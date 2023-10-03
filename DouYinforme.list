@@ -21,8 +21,8 @@ host, www.douyin.com, 直鏈
 #* 用戶的瀏覽器信息
 #Host, p-pc-weboff.byteimg.com, 直鏈
 #Host, p3-pc-weboff.byteimg.com, 直鏈
-#是一個由奇舞團支持並維護的開源項目免費 CDN 服務，支持 HTTPS 和 HTTP/2，囊括上千個前端資源庫和 Google 字體庫。
-host, lib.baomitu.com, 直鏈
+#是一個由360支持並維護的開源項目免費 CDN 服務，支持 HTTPS 和 HTTP/2，囊括上千個前端資源庫和 Google 字體庫。
+#host, lib.baomitu.com, 直鏈
 #字節跳動-抖音-今日頭條，
 host, lf-cdn-tos.bytescm.com, 直鏈
 host, lf3-static.bytednsdoc.com, 直鏈
