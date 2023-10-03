@@ -58,6 +58,13 @@ host, www.perplexity.ai, C
 host, data-cloud.flightradar24.com, C
 host, mobile.flightradar24.com, C
 host, data-feed.flightradar24.com, C
+host, mobile-data.onetrust.io, B
+#AR顯示飛機照片（信息框下面，第二個框）。
+host, cdn.jetphotos.com, B
+#AR顯示飛機詳細信息1
+host, free.flightradar24.com, B
+#AR顯示飛機詳細信息2
+host, data-live.flightradar24.com, B
 
 #Marine Traffic
 host, tiles.marinetraffic.com, C
