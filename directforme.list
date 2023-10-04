@@ -1,5 +1,5 @@
 #直链
-#20231002 a.002
+#20231004 a.003
 
   
 #host,完全匹配：host, www.baidu.com, reject
@@ -45,6 +45,16 @@ host, website-cdn.ipinfo.io, 直鏈
 
 #書籤-工具-it-ip，測試網站在全國是否可以直鏈。
 host, www.itdog.cn, 直鏈
+
+
+#知乎
+HOST-SUFFIX,zhihu.com,直鏈
+HOST-SUFFIX,zhimg.com,直鏈
+IP-CIDR,103.41.167.226/32,直鏈
+IP-CIDR,103.41.167.234/31,直鏈
+IP-CIDR,103.41.167.236/32,直鏈
+IP-CIDR,118.89.204.198/32,直鏈
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,直鏈
 
 
 #剪影字幕提取網站
