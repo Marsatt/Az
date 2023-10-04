@@ -28,8 +28,7 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
-#書籤-娛樂（字幕庫）
-host, zimuku.org, 直鏈
+
 
 
 #IP
@@ -47,6 +46,14 @@ host, website-cdn.ipinfo.io, 直鏈
 host, www.itdog.cn, 直鏈
 
 
+#豆瓣
+HOST-SUFFIX,douban.com,DouBan
+HOST-SUFFIX,douban.fm,DouBan
+HOST-SUFFIX,doubanio.com,DouBan
+
+#書籤-娛樂（字幕庫）
+host, zimuku.org, 直鏈
+
 #知乎
 HOST-SUFFIX,zhihu.com,直鏈
 HOST-SUFFIX,zhimg.com,直鏈
@@ -55,7 +62,6 @@ IP-CIDR,103.41.167.234/31,直鏈
 IP-CIDR,103.41.167.236/32,直鏈
 IP-CIDR,118.89.204.198/32,直鏈
 IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,直鏈
-
 
 #剪影字幕提取網站
 host, jy.mzh.ren, 直鏈
