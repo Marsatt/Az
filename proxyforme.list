@@ -3,6 +3,7 @@
 
 
 #Twitch Dota2-顯示技能參數
+host, cdn.cloudflare.steamstatic.com, C
 host, dotatooltips.b-cdn.net, C
 host, assets.tangia.co, C
 host, tangiatwitchext-frontend.cf.tangia.co, C
