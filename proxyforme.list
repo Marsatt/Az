@@ -2,6 +2,11 @@
 #20231005 a.003
 
 
+#Twitch Dota2-顯示技能參數
+host, dotatooltips.b-cdn.net, C
+host, assets.tangia.co, C
+host, tangiatwitchext-frontend.cf.tangia.co, C
+
 #JDownloader 2-下載工具自動更新。
 host, update.jdownloader.org, C
 host-suffix, appwork.org, C
