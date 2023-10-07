@@ -47,9 +47,9 @@ host, www.itdog.cn, 直鏈
 
 
 #豆瓣
-HOST-SUFFIX,douban.com,DouBan
-HOST-SUFFIX,douban.fm,DouBan
-HOST-SUFFIX,doubanio.com,DouBan
+HOST-SUFFIX,douban.com,直鏈
+HOST-SUFFIX,douban.fm,直鏈
+HOST-SUFFIX,doubanio.com,直鏈
 
 #書籤-娛樂（字幕庫）
 host, zimuku.org, 直鏈
@@ -67,7 +67,7 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,直鏈
 host, jy.mzh.ren, 直鏈
 
 #Easydict 有道詞典翻譯
-host, dict.youdao.com, 直链
+host, dict.youdao.com, 直鏈
 
 #ios限免网站
 #App Sliced
