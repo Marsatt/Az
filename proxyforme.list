@@ -3,7 +3,7 @@
 
 
 #bbc
-bbc.com
+host, bbc.com, C
 
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, C
