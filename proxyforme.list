@@ -2,8 +2,6 @@
 #20231007 a.004
 
 
-#bbc
-#host, bbc.com, C
 
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, C
