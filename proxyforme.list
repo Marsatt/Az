@@ -1,5 +1,5 @@
 #代理
-#20231005 a.003
+#20231007 a.004
 
 
 #Twitch Dota2-顯示技能參數
@@ -15,6 +15,7 @@ host-suffix, appwork.org, C
 #game-蛇蛇貪吃
 host, game.snakesvc.com, C
 host, mail.snakesvc.com, C
+host, account.snakesvc.com, C
 
 #火箭妹
 host, www.rocketgirls.space, C
