@@ -2,14 +2,12 @@
 
 
 #chaturbate.jjgirls.com
-host, edge4-nrt.live.mmcdn.com, C
-host, b-fallback.pa.highwebmedia.com, C
+host-suffix, live.mmcdn.com, C
+host-suffix, highwebmedia.com, C
 host, a-fallback.pa.highwebmedia.com, C
 host, internet-up.ably-realtime.com, C
 host, cbjpeg.stream.highwebmedia.com, C
 host, roomimg.stream.highwebmedia.com, C
-host, static-assets.highwebmedia.com, C
-host, static-pub.highwebmedia.com, C
 
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, C
