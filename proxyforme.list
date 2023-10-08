@@ -76,6 +76,10 @@ host, mapq.waqi.info, C
 #JD签到
 host, ghproxy.com, C
 
+
+#theme park app
+host, c845.playfabapi.com, C
+
 #perplexity app
 host, 342251b-beta.perplexity.ai, C
 host, www.perplexity.ai, C
