@@ -1,5 +1,4 @@
 #代理
-#20231007 a.004
 
 
 #chaturbate.jjgirls.com
@@ -38,12 +37,15 @@ host, appagg.com, C
 host-suffix, xconvert.com, C
 host-suffix, hv.xconvert.com, C
 
+#Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
 #chrome瀏覽器，Language Reactor翻譯工具。
 host, lb.dioco.io, C
 #蠱惑狼進度條
 host, custom-progress-bar.com, C
+#Stream Found
+host, www.hlsloader.com, C
 
 #YouTuBe 雙語翻譯
 host, extension.dioco.io, C
