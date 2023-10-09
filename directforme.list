@@ -1,5 +1,4 @@
 #直链
-#20231004 a.003
 
   
 #host,完全匹配：host, www.baidu.com, reject
@@ -30,6 +29,9 @@
 
 
 
+#Chrome瀏覽器-flag（第一個）顯示國旗。
+host, myip.ms, 直鏈
+host, plugin.myip.ms, 直鏈
 
 #IP
 #書籤-工具-it-ip-DNS是否洩漏查詢。
