@@ -27,8 +27,10 @@
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
 
-
-
+#新浪
+host, k.sina.cn, 直鏈
+#搜狐
+host, www.sohu.com, 直鏈
 #網易
 host, www.163.com, 直鏈
 
