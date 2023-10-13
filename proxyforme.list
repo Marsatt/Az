@@ -83,6 +83,7 @@ host, c845.playfabapi.com, C
 #perplexity app
 host, 342251b-beta.perplexity.ai, C
 host, www.perplexity.ai, C
+host, api.revenuecat.com, C
 
 # Flightradar24 app
 host, data-cloud.flightradar24.com, C
