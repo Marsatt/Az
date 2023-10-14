@@ -19,11 +19,6 @@ host, tangiatwitchext-frontend.cf.tangia.co, C
 host, update.jdownloader.org, C
 host-suffix, appwork.org, C
 
-#game-蛇蛇貪吃
-host, game.snakesvc.com, C
-host, mail.snakesvc.com, C
-host, account.snakesvc.com, C
-
 #火箭妹
 host, www.rocketgirls.space, C
 
@@ -77,8 +72,6 @@ host, mapq.waqi.info, C
 host, ghproxy.com, C
 
 
-#theme park app
-host, c845.playfabapi.com, C
 
 #perplexity app
 host, imagedelivery.net, C
