@@ -30,7 +30,11 @@ host, metric.huya.com, HuYa
 host, statwup.huya.com, HuYa
 host-suffix, v.smtcdns.net, HuYa
 
+
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
 host-suffix, smtcdns.net, HuYa
 host-suffix, v.smtcdns.net, HuYa
+
+#虎牙主播信息日誌
+host, ylog.huya.com, HuYa
 
