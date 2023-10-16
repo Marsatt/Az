@@ -74,6 +74,8 @@ host, mapq.waqi.info, C
 #JD签到
 host, ghproxy.com, C
 
+#MAC keka
+host, u.keka.io, C
 
 
 #perplexity app
