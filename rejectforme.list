@@ -13,4 +13,4 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, 攔截
 
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
 #host-suffix, smtcdns.net, 攔截
-#host-suffix,v.smtcdns.net, 攔截
+#host-suffix, v.smtcdns.net, 攔截
