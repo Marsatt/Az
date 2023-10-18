@@ -86,12 +86,6 @@ host, jy.mzh.ren, 直鏈
 #Easydict 有道詞典翻譯
 host, dict.youdao.com, 直鏈
 
-#ios限免网站
-#小眾软件
-host, meta.appinn.net, 直鏈
-host, www.appinn.com, 直鏈
-host, static1.appinn.com, 直鏈
-
 #小人举牌🪧
 host, www.cnuseful.com, 直鏈
 
