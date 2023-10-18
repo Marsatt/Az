@@ -88,8 +88,8 @@ host, dict.youdao.com, 直鏈
 
 #ios限免网站
 #App Sliced
-host, cdnkey.appsliced.co, 直鏈
-host, appsliced.co, 直鏈
+#host, cdnkey.appsliced.co, 直鏈
+#host, appsliced.co, 直鏈
 #鲜面链接
 host, app.so, 直鏈
 host, media.ifanrusercontent.com, 直鏈
