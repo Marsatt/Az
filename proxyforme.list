@@ -86,12 +86,19 @@ host, ghproxy.com, C
 host, u.keka.io, C
 
 
+#Goodnote 6 app
+host, api.goodnotes.email, C
+host, api.goodnotes.com, C
+host, api.sprig.com, C
+host, isi.csan.goodnotes.com, C
+host, gn-shop-cdn-public.csan.goodnotes.com, C
+host, gn-shop.csan.goodnotes.com, C
+
 #perplexity app
 host, imagedelivery.net, C
 host, api.revenuecat.com, C
 host, 342251b-beta.perplexity.ai, C
 host, www.perplexity.ai, C
-
 
 # Flightradar24 app
 host, data-cloud.flightradar24.com, C
