@@ -9,6 +9,10 @@ host, internet-up.ably-realtime.com, C
 host, cbjpeg.stream.highwebmedia.com, C
 host, roomimg.stream.highwebmedia.com, C
 
+
+#Twitch
+host, sb.scorecardresearch.com, B
+host, api2.branch.io, B
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, C
 host, dotatooltips.b-cdn.net, C
