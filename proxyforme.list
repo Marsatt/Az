@@ -11,14 +11,14 @@ host, roomimg.stream.highwebmedia.com, C
 
 
 #Twitch
-#host, sb.scorecardresearch.com, C
-#host, api2.branch.io, C
-#host, cdn.branch.io, C
+host, sb.scorecardresearch.com, C
+host, api2.branch.io, C
+host, cdn.branch.io, C
 #Twitch Dota2-顯示技能參數
-#host, cdn.cloudflare.steamstatic.com, C
-#host, dotatooltips.b-cdn.net, C
-#host, assets.tangia.co, C
-#host, tangiatwitchext-frontend.cf.tangia.co, C
+host, cdn.cloudflare.steamstatic.com, C
+host, dotatooltips.b-cdn.net, C
+host, assets.tangia.co, C
+host, tangiatwitchext-frontend.cf.tangia.co, C
 
 #JDownloader 2-下載工具自動更新。
 host, update.jdownloader.org, C
