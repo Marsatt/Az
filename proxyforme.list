@@ -85,8 +85,7 @@ host, gaia.nullschool.net, C
 host, aqicn.org, C
 host, mapq.waqi.info, C
 
-#JD签到
-host, ghproxy.com, C
+
 
 #MAC keka
 host, u.keka.io, C
