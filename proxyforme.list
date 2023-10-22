@@ -11,9 +11,12 @@ host, roomimg.stream.highwebmedia.com, C
 
 
 #Twitch
-#host, sb.scorecardresearch.com, C
-#host, api2.branch.io, C
-#host, cdn.branch.io, C
+host, gql.twitch.tv, C
+host, pubsub-edge.twitch.tv, C
+host, irc-ws.chat.twitch.tv, C
+host, sb.scorecardresearch.com, C
+host, api2.branch.io, C
+host, cdn.branch.io, C
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, C
 host, dotatooltips.b-cdn.net, C
