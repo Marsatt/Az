@@ -11,6 +11,7 @@ host, roomimg.stream.highwebmedia.com, C
 
 
 #Twitch
+host, global.poe.live-video.net, C
 host, gql.twitch.tv, C
 host, pubsub-edge.twitch.tv, C
 host, irc-ws.chat.twitch.tv, C
