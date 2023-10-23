@@ -1,5 +1,6 @@
 #Twtich
 
+
 host, functions.soundalerts.com, Twitchforme
 host, extension.streamelements.com, Twitchforme
 host, cdn.streamelements.com, Twitchforme
@@ -9,7 +10,6 @@ host, video-edge-e46710.dfw02.abs.hls.ttvnw.net, Twitchforme
 host, sb.scorecardresearch.com, Twitchforme
 host, global.poe.live-video.net, Twitchforme
 host, pubsub-edge.twitch.tv, Twitchforme
-
 host, gql.twitch.tv, Twitchforme
 host, irc-ws.chat.twitch.tv, Twitchforme
 host, api2.branch.io, Twitchforme
