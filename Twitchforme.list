@@ -3,9 +3,9 @@
 
 #20231023
 #Mac and Phone and Ipad
-host, usher.ttvnw.net
-host, video-weaver.dfw02.hls.ttvnw.net
-host, video-edge-e46710.dfw02.abs.hls.ttvnw.net
+host, usher.ttvnw.net, Twitchforme
+host, video-weaver.dfw02.hls.ttvnw.net, Twitchforme
+host, video-edge-e46710.dfw02.abs.hls.ttvnw.net, Twitchforme
 #Phone and Ipad
 host, sb.scorecardresearch.com, Twitchforme
 host, global.poe.live-video.net, Twitchforme
