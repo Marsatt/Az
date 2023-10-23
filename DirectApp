@@ -1,0 +1,37 @@
+#DirectApp
+
+
+#opencat
+host, api.opencat.app, 直鏈
+#opencat 工坊服务
+host, t3wflvcn.lc-cn-n1-shared.com, 直鏈
+
+#美的空调
+host, sse.smartmidea.net, 直鏈
+host, iotsdk.midea.com, 直鏈
+host, recv.bi.ainirobot.com, 直鏈
+host, mp-prod.smartmidea.net, 直鏈
+host, mjfile-pro.smartmidea.net, 直鏈
+host, meijuresources.smartmidea.net, 直鏈
+
+#京东比价
+host, apapia-history.manmanbuy.com, 直鏈
+
+#阿里小号
+ip-cidr, 59.82.122.5/24, 直鏈
+
+#邮件APP绑定新浪邮箱
+host, pop.sina.com, 直鏈
+host, smtp.sina.com, 直鏈
+host, p29-smtp.mail.me.com, 直鏈
+host, p29-imap.mail.me.com, 直鏈
+
+#嗯背單詞
+#有道發音
+host, dict.youdao.com, 直鏈
+#有道词典
+host, www.youdao.com, 直鏈
+#Bing
+host, cn.bing.com, 直鏈
+#剑桥
+host, dictionary.cambridge.org, 直鏈
