@@ -1,14 +1,25 @@
 #Twtich
 
 
-#Twitch
-host, global.poe.live-video.net, Twitchforme
-host, gql.twitch.tv, Twitchforme
-host, pubsub-edge.twitch.tv, Twitchforme
-host, irc-ws.chat.twitch.tv, Twitchforme
+#20231023
+#Mac and Phone and Ipad
+host, usher.ttvnw.net
+host, video-weaver.dfw02.hls.ttvnw.net
+host, video-edge-e46710.dfw02.abs.hls.ttvnw.net
+#Phone and Ipad
 host, sb.scorecardresearch.com, Twitchforme
+host, global.poe.live-video.net, Twitchforme
+host, pubsub-edge.twitch.tv, Twitchforme
+
+
+#Very Old
+host, gql.twitch.tv, Twitchforme
+host, irc-ws.chat.twitch.tv, Twitchforme
 host, api2.branch.io, Twitchforme
 host, cdn.branch.io, Twitchforme
+
+
+
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, Twitchforme
 host, dotatooltips.b-cdn.net, Twitchforme
