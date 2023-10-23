@@ -1,9 +1,9 @@
 #Twtich
 
 
-#host, usher.ttvnw.net, Twitchforme
-#host, video-weaver.dfw02.hls.ttvnw.net, Twitchforme
-#host, video-edge-e46710.dfw02.abs.hls.ttvnw.net, Twitchforme
+host, usher.ttvnw.net, Twitchforme
+host, video-weaver.dfw02.hls.ttvnw.net, Twitchforme
+host, video-edge-e46710.dfw02.abs.hls.ttvnw.net, Twitchforme
 #host, sb.scorecardresearch.com, Twitchforme
 #host, global.poe.live-video.net, Twitchforme
 #host, pubsub-edge.twitch.tv, Twitchforme
