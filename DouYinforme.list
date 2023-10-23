@@ -13,12 +13,15 @@ host, lf6-cdn-tos.bytegoofy.com, 直鏈
 
 host, api64.com, 直鏈
 
+#抖音打開app 帳號掉了
+ip-cidr, 34.102.215.99/24, direct
 #抖音直播
 host, live.douyin.com, 直鏈
 #必須連接阿里巴巴廣告
 host, v2kylh81fh0r3c4u18gnzvipw36j5w4ei.mobgslb.tbcache.com, 直鏈
 
 #夜楓直播間
-ip-cidr, 60.222.14.163/24, 直鏈
+ip-cidr, 123.6.65.13/24, direct
+#ip-cidr, 60.222.14.163/24, 直鏈
 #KYO直播間
 ip-cidr, 219.154.251.164/24, 直鏈
