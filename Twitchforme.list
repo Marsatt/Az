@@ -1,6 +1,8 @@
 #Twtich
 
-
+host, functions.soundalerts.com, Twitchforme
+host, extension.streamelements.com, Twitchforme
+host, cdn.streamelements.com, Twitchforme
 host, usher.ttvnw.net, Twitchforme
 host, video-weaver.dfw02.hls.ttvnw.net, Twitchforme
 host, video-edge-e46710.dfw02.abs.hls.ttvnw.net, Twitchforme
