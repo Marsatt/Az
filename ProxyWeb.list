@@ -37,6 +37,9 @@ host, www.hlsloader.com, C
 #Language Reactor
 host, forum.languagelearningwithnetflix.com, C
 host, www.languagereactor.com, C
+#TwitchVodDownload
+host, streamscharts.com, C
+host, sullygnome.com, C
 
 #ios限免网站
 #App Sliced
