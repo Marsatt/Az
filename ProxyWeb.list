@@ -25,6 +25,7 @@ host, appagg.com, C
 host-suffix, xconvert.com, C
 host-suffix, hv.xconvert.com, C
 
+
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
@@ -40,6 +41,8 @@ host, www.languagereactor.com, C
 #TwitchVodDownload
 host, streamscharts.com, C
 host, sullygnome.com, C
+host, sullygnome.com, C
+
 
 #ios限免网站
 #App Sliced
