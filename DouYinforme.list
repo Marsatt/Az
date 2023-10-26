@@ -1,5 +1,8 @@
 #DouYin
 
+#大蓝
+ip-cidr, 60.29.252.229/24, direct
+
 
 #抖音官網
 host, www.douyin.com, 直鏈
