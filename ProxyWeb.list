@@ -2,9 +2,9 @@
 
 
 #vanillaVoice
-host, www.vanillavoice.com, C
+host, api.vanillavoice.com, C
 host, a.interactive32.com, C
-
+host, www.vanillavoice.com, C
 
 #chaturbate.jjgirls.com
 host-suffix, live.mmcdn.com, C
