@@ -2,6 +2,7 @@
 
 
 #vanillaVoice
+host, api.exchangerate.host, C
 host, api.vanillavoice.com, C
 host, a.interactive32.com, C
 host, www.vanillavoice.com, C
