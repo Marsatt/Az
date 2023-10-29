@@ -1,6 +1,10 @@
 #proxyweb
 
 
+#vanillaVoice
+host, www.vanillavoice.com, C
+
+
 #chaturbate.jjgirls.com
 host-suffix, live.mmcdn.com, C
 host-suffix, highwebmedia.com, C
@@ -8,7 +12,6 @@ host, a-fallback.pa.highwebmedia.com, C
 host, internet-up.ably-realtime.com, C
 host, cbjpeg.stream.highwebmedia.com, C
 host, roomimg.stream.highwebmedia.com, C
-
 
 #JDownloader 2-下載工具自動更新。
 host, update.jdownloader.org, C
