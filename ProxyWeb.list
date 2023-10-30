@@ -1,6 +1,10 @@
 #proxyweb
 
 
+#Poe
+host, aefd.nelreports.net, C
+host, m.gsmarena.com, C
+
 #vanillaVoice
 host, api.exchangerate.host, C
 host, api.vanillavoice.com, C
