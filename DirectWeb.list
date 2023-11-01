@@ -26,8 +26,9 @@
 #在默认情况下，Quantumult X 会启用「分流匹配优化」，大致的优先级先后顺序为：
 #HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
 
-#JD签到
-host, ghproxy.com, 直鏈
+
+#喵软件资源网
+#host, appmiu.com, 直鏈
 
 #新浪
 host, k.sina.cn, 直鏈
