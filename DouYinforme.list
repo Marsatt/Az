@@ -1,7 +1,13 @@
 #DouYin
 
+#bbc
+ip-cidr, 218.24.90.125/24, direct
 #大蓝
 ip-cidr, 60.29.252.229/24, direct
+#夜楓
+ip-cidr, 221.211.234.11/24, direct
+#KYO直播間
+ip-cidr, 219.154.251.164/24, 直鏈
 
 
 #抖音官網
@@ -22,10 +28,3 @@ ip-cidr, 34.102.215.99/24, direct
 host, live.douyin.com, 直鏈
 #必須連接阿里巴巴廣告
 host, v2kylh81fh0r3c4u18gnzvipw36j5w4ei.mobgslb.tbcache.com, 直鏈
-
-#夜楓
-ip-cidr, 221.211.234.11/24, direct
-#ip-cidr, 123.6.65.13/24, direct
-#ip-cidr, 60.222.14.163/24, 直鏈
-#KYO直播間
-ip-cidr, 219.154.251.164/24, 直鏈
