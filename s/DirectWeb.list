@@ -1,0 +1,79 @@
+#喵软件资源网
+DOMIAN, www.appmiu.com, 直鏈
+
+#新浪
+DOMIAN, k.sina.cn, 直鏈
+#搜狐
+DOMIAN, www.sohu.com, 直鏈
+#網易
+DOMIAN, www.163.com, 直鏈
+
+#百度百科
+#百度百科 圖片連結
+DOMIAN, bkimg.cdn.bcebos.com, 直鏈
+#百度百科 視頻連結
+DOMIAN, baikevideo.cdn.bcebos.com, 直鏈
+#百度百科 網頁排版
+DOMIAN, bkssl.bdimg.com, 直鏈
+#百度百科
+DOMIAN, baike.baidu.com, 直鏈
+
+#Chrome瀏覽器-flag（第一個）顯示國旗。
+DOMIAN, myip.ms, 直鏈
+DOMIAN, plugin.myip.ms, 直鏈
+
+#IP
+#書籤-工具-it-ip-DNS是否洩漏查詢。
+DOMIAN, ipleak.net, 直鏈
+
+#書籤-工具-it-ip是否欺詐查詢。
+DOMIAN, scamalytics.com, 直鏈
+
+#書籤-工具-it-ip欺詐類型查看。
+DOMIAN, ipinfo.io, 直鏈
+DOMIAN, website-cdn.ipinfo.io, 直鏈
+
+#書籤-工具-it-ip，測試網站在全國是否可以直鏈。
+DOMIAN, www.itdog.cn, 直鏈
+
+
+#豆瓣
+DOMIAN-SUFFIX,douban.com,直鏈
+DOMIAN-SUFFIX,douban.fm,直鏈
+DOMIAN-SUFFIX,doubanio.com,直鏈
+
+#書籤-娛樂（字幕庫）
+DOMIAN, zimuku.org, 直鏈
+
+#知乎
+DOMIAN-SUFFIX,zhihu.com,直鏈
+DOMIAN-SUFFIX,zhimg.com,直鏈
+IP-CIDR,103.41.167.226/32,直鏈
+IP-CIDR,103.41.167.234/31,直鏈
+IP-CIDR,103.41.167.236/32,直鏈
+IP-CIDR,118.89.204.198/32,直鏈
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,直鏈
+
+#剪影字幕提取網站
+DOMIAN, jy.mzh.ren, 直鏈
+
+#Easydict 有道詞典翻譯
+DOMIAN, dict.youdao.com, 直鏈
+
+#小人举牌🪧
+DOMIAN, www.cnuseful.com, 直鏈
+
+#簡體繁體切換
+DOMIAN, youtils.cc, 直鏈
+
+#www.ahhhhfs.com 資源網站
+DOMIAN, www.ahhhhfs.com, 直鏈
+
+#繁體簡體互換網站
+DOMIAN, youtils.cc, 直鏈
+
+#直播源m3u8 🌍global
+DOMIAN, live-gitv-xj-yh.189smarthome.com, 直鏈
+DOMIAN, cntv.sbs, 直鏈
+DOMIAN, live.fanmingming.com, 直鏈
+DOMIAN, tv.fanmingming.com, 直鏈
