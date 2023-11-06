@@ -18,7 +18,7 @@ DOMAIN, meijuresources.smartmidea.net, 直鏈
 DOMAIN, apapia-history.manmanbuy.com, 直鏈
 
 #阿里小号
-ip-cidr, 59.82.122.5/24, 直鏈
+IP-CIDR, 59.82.122.5/24, 直鏈
 
 #邮件APP绑定新浪邮箱
 DOMAIN, pop.sina.com, 直鏈
