@@ -1,0 +1,46 @@
+#proxyapp
+
+
+#MAC keka
+DOMAIN, u.keka.io, C
+
+
+#Goodnote 6 app
+DOMAIN, api.goodnotes.email, C
+DOMAIN, api.goodnotes.com, C
+DOMAIN, api.sprig.com, C
+DOMAIN, isi.csan.goodnotes.com, C
+DOMAIN, gn-shop-cdn-public.csan.goodnotes.com, C
+DOMAIN, gn-shop.csan.goodnotes.com, C
+
+#perplexity app
+DOMAIN, imagedelivery.net, C
+DOMAIN, api.revenuecat.com, C
+DOMAIN, 342251b-beta.perplexity.ai, C
+DOMAIN, www.perplexity.ai, C
+
+# Flightradar24 app
+DOMAIN, data-cloud.flightradar24.com, C
+DOMAIN, mobile.flightradar24.com, C
+DOMAIN, data-feed.flightradar24.com, C
+DOMAIN, mobile-data.onetrust.io, C
+#AR顯示飛機照片（信息框下面，第二個框）。
+DOMAIN, cdn.jetphotos.com, C
+#AR顯示飛機詳細信息1
+DOMAIN, free.flightradar24.com, C
+#AR顯示飛機詳細信息2
+DOMAIN, data-live.flightradar24.com, C
+
+#Marine Traffic
+DOMAIN, tiles.marinetraffic.com, C
+DOMAIN, www.marinetraffic.com, C
+
+#嗯背單詞
+#牛津
+DOMAIN, www.oxfordlearnersdictionaries.com, C
+#韋氏
+DOMAIN, www.merriam-webster.com, C
+#朗文
+DOMAIN, www.ldoceonline.com, C
+#柯林斯
+DOMAIN, www.collinsdictionary.com, C
