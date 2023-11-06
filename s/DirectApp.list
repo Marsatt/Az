@@ -2,36 +2,36 @@
 
 
 #opencat
-DOMIAN-SUFFIX, api.opencat.app, 直鏈
+DOMAIN, api.opencat.app, 直鏈
 #opencat 工坊服务
-DOMIAN-SUFFIX, t3wflvcn.lc-cn-n1-shared.com, 直鏈
+DOMAIN, t3wflvcn.lc-cn-n1-shared.com, 直鏈
 
 #美的空调
-DOMIAN-SUFFIX, sse.smartmidea.net, 直鏈
-DOMIAN-SUFFIX, iotsdk.midea.com, 直鏈
-DOMIAN-SUFFIX, recv.bi.ainirobot.com, 直鏈
-DOMIAN-SUFFIX, mp-prod.smartmidea.net, 直鏈
-DOMIAN-SUFFIX, mjfile-pro.smartmidea.net, 直鏈
-DOMIAN-SUFFIX, meijuresources.smartmidea.net, 直鏈
+DOMAIN, sse.smartmidea.net, 直鏈
+DOMAIN, iotsdk.midea.com, 直鏈
+DOMAIN, recv.bi.ainirobot.com, 直鏈
+DOMAIN, mp-prod.smartmidea.net, 直鏈
+DOMAIN, mjfile-pro.smartmidea.net, 直鏈
+DOMAIN, meijuresources.smartmidea.net, 直鏈
 
 #京东比价
-DOMIAN-SUFFIX, apapia-history.manmanbuy.com, 直鏈
+DOMAIN, apapia-history.manmanbuy.com, 直鏈
 
 #阿里小号
 ip-cidr, 59.82.122.5/24, 直鏈
 
 #邮件APP绑定新浪邮箱
-DOMIAN-SUFFIX, pop.sina.com, 直鏈
-DOMIAN-SUFFIX, smtp.sina.com, 直鏈
-DOMIAN-SUFFIX, p29-smtp.mail.me.com, 直鏈
-DOMIAN-SUFFIX, p29-imap.mail.me.com, 直鏈
+DOMAIN, pop.sina.com, 直鏈
+DOMAIN, smtp.sina.com, 直鏈
+DOMAIN, p29-smtp.mail.me.com, 直鏈
+DOMAIN, p29-imap.mail.me.com, 直鏈
 
 #嗯背單詞
 #有道發音
-DOMIAN-SUFFIX, dict.youdao.com, 直鏈
+DOMAIN, dict.youdao.com, 直鏈
 #有道词典
-DOMIAN-SUFFIX, www.youdao.com, 直鏈
+DOMAIN, www.youdao.com, 直鏈
 #Bing
-DOMIAN-SUFFIX, cn.bing.com, 直鏈
+DOMAIN, cn.bing.com, 直鏈
 #剑桥
-DOMIAN-SUFFIX, dictionary.cambridge.org, 直鏈
+DOMAIN, dictionary.cambridge.org, 直鏈
