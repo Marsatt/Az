@@ -1,0 +1,89 @@
+
+#Poe
+DOMAIN, aefd.nelreports.net, C
+DOMAIN, m.gsmarena.com, C
+
+#vanillaVoice
+DOMAIN, api.exchangerate.DOMAIN, C
+DOMAIN, api.vanillavoice.com, C
+DOMAIN, a.interactive32.com, C
+DOMAIN, www.vanillavoice.com, C
+
+#chaturbate.jjgirls.com
+DOMAIN-suffix, live.mmcdn.com, C
+DOMAIN-suffix, highwebmedia.com, C
+DOMAIN, a-fallback.pa.highwebmedia.com, C
+DOMAIN, internet-up.ably-realtime.com, C
+DOMAIN, cbjpeg.stream.highwebmedia.com, C
+DOMAIN, roomimg.stream.highwebmedia.com, C
+
+#JDownloader 2-下載工具自動更新。
+DOMAIN, update.jdownloader.org, C
+DOMAIN-suffix, appwork.org, C
+
+#火箭妹
+DOMAIN, www.rocketgirls.space, C
+
+#ios限免网站
+#appagg
+DOMAIN, appagg.com, C
+
+#書籤-it-轉換類-批量全能轉換器
+DOMAIN-suffix, xconvert.com, C
+DOMAIN-suffix, hv.xconvert.com, C
+
+
+#Chrome瀏覽器插件
+#chrome瀏覽器，第二個flag顯示。
+DOMAIN, geoip.furman.im, C
+#chrome瀏覽器，Language Reactor翻譯工具。
+DOMAIN, lb.dioco.io, C
+#蠱惑狼進度條
+DOMAIN, custom-progress-bar.com, C
+#Stream Found
+DOMAIN, www.hlsloader.com, C
+#Language Reactor
+DOMAIN, forum.languagelearningwithnetflix.com, C
+DOMAIN, www.languagereactor.com, C
+#TwitchVodDownload
+DOMAIN, streamscharts.com, C
+DOMAIN, sullygnome.com, C
+DOMAIN, sullygnome.com, C
+
+
+#ios限免网站
+#App Sliced
+DOMAIN, cdnkey.appsliced.co, 直鏈
+DOMAIN, appsliced.co, 直鏈
+
+#Serhiy 的一個個人網站，其中包含他開發的各種 API。Serhiy 是一位來自烏克蘭的軟件工程師，他喜歡開發 API。
+DOMAIN, api.serhiy.io, C
+
+#YouTuBe 雙語翻譯
+DOMAIN, extension.dioco.io, C
+
+#TikTok 网页版
+DOMAIN, sf16-website-login.neutral.ttwstatic.com, C
+
+#剪影字幕
+DOMAIN-suffix, capcut.com, C
+
+#TikTok视频无水印下载
+DOMAIN, savetik.net, C
+DOMAIN, snapxcdn.com, C
+
+#Z-Libly图书馆
+DOMAIN, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu, C
+DOMAIN, lib-3fsujil5cusci24v775f7qe3.1lib.fr, C
+
+#油猴
+DOMAIN, greasyfork.org, C
+DOMAIN, a.tampermonkey.net, C
+
+#天时，地球看pm2.5
+DOMAIN, earth.nullschool.net, C
+DOMAIN, gaia.nullschool.net, C
+
+#美國大使館，地球顯示mp2.5
+DOMAIN, aqicn.org, C
+DOMAIN, mapq.waqi.info, C
