@@ -4,36 +4,36 @@
 #虎牙 IOS
 #默认通的：20m線路6；3等一等也是通的。
 #20m線路3
-ip-cidr, 1.56.63.102/24, HuYa
+IP-CIDR, 1.56.63.102/24, HuYa
 #20m線路5
-ip-cidr, 119.167.224.144/24, HuYa
+IP-CIDR, 119.167.224.144/24, HuYa
 #20m線路14
-ip-cidr, 113.194.45.223/24, HuYa
+IP-CIDR, 113.194.45.223/24, HuYa
 #20m線路88
-ip-cidr, 220.195.134.41/24, HuYa
+IP-CIDR, 220.195.134.41/24, HuYa
 #10mb線路6
-ip-cidr, 112.90.95.73/24, HuYa
+IP-CIDR, 112.90.95.73/24, HuYa
 #10mb線路5
-ip-cidr, 116.153.90.108/24, HuYa
+IP-CIDR, 116.153.90.108/24, HuYa
 #10mb線路14
-ip-cidr, 125.39.186.84/24, HuYa
+IP-CIDR, 125.39.186.84/24, HuYa
 
 
 
 #虎牙 MACOS
 #虎牙 視頻連結地址
-DOMAIN-suffix, xycdn.com, HuYa
-DOMAIN-suffix, szbdyd.com, HuYa
-DOMAIN-suffix, bytefcdnrd.com, HuYa
-DOMAIN-suffix, livehwc3.cn, HuYa
+DOMAIN-SUFFIX, xycdn.com, HuYa
+DOMAIN-SUFFIX, szbdyd.com, HuYa
+DOMAIN-SUFFIX, bytefcdnrd.com, HuYa
+DOMAIN-SUFFIX, livehwc3.cn, HuYa
 DOMAIN, metric.huya.com, HuYa
 DOMAIN, statwup.huya.com, HuYa
-DOMAIN-suffix, v.smtcdns.net, HuYa
+DOMAIN-SUFFIX, v.smtcdns.net, HuYa
 
 
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
-DOMAIN-suffix, smtcdns.net, HuYa
-DOMAIN-suffix, v.smtcdns.net, HuYa
+DOMAIN-SUFFIX, smtcdns.net, HuYa
+DOMAIN-SUFFIX, v.smtcdns.net, HuYa
 
 #虎牙主播信息日誌
 DOMAIN, ylog.huya.com, HuYa
