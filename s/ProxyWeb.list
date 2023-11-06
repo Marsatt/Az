@@ -10,8 +10,8 @@ DOMAIN, a.interactive32.com, C
 DOMAIN, www.vanillavoice.com, C
 
 #chaturbate.jjgirls.com
-DOMAIN-suffix, live.mmcdn.com, C
-DOMAIN-suffix, highwebmedia.com, C
+DOMAIN-SUFFIX, live.mmcdn.com, C
+DOMAIN-SUFFIX, highwebmedia.com, C
 DOMAIN, a-fallback.pa.highwebmedia.com, C
 DOMAIN, internet-up.ably-realtime.com, C
 DOMAIN, cbjpeg.stream.highwebmedia.com, C
@@ -19,7 +19,7 @@ DOMAIN, roomimg.stream.highwebmedia.com, C
 
 #JDownloader 2-下載工具自動更新。
 DOMAIN, update.jdownloader.org, C
-DOMAIN-suffix, appwork.org, C
+DOMAIN-SUFFIX, appwork.org, C
 
 #火箭妹
 DOMAIN, www.rocketgirls.space, C
@@ -29,8 +29,8 @@ DOMAIN, www.rocketgirls.space, C
 DOMAIN, appagg.com, C
 
 #書籤-it-轉換類-批量全能轉換器
-DOMAIN-suffix, xconvert.com, C
-DOMAIN-suffix, hv.xconvert.com, C
+DOMAIN-SUFFIX, xconvert.com, C
+DOMAIN-SUFFIX, hv.xconvert.com, C
 
 
 #Chrome瀏覽器插件
@@ -66,7 +66,7 @@ DOMAIN, extension.dioco.io, C
 DOMAIN, sf16-website-login.neutral.ttwstatic.com, C
 
 #剪影字幕
-DOMAIN-suffix, capcut.com, C
+DOMAIN-SUFFIX, capcut.com, C
 
 #TikTok视频无水印下载
 DOMAIN, savetik.net, C
