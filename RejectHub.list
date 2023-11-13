@@ -1,11 +1,11 @@
-#Reject
+#huya
+host,cdnfile1.msstatic.com, 攔截
 
-
-#知乎去廣告
-HOST,appcloud2.in.zhihu.com, 攔截
-HOST,mqtt.zhihu.com, 攔截
-HOST,sugar.zhihu.com, 攔截
-USER-AGENT,AVOS*, 攔截
-IP-CIDR,118.89.204.198/32, 攔截
-IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, 攔截
+#zhihu
+host,appcloud2.in.zhihu.com, 攔截
+host,mqtt.zhihu.com, 攔截
+host,sugar.zhihu.com, 攔截
+user-agent,AVOS*, 攔截
+ip-cidr,118.89.204.198/32, 攔截
+ip6-cidr,2402:4e00:1200:ed00:0:9089:6dac:96b6/128, 攔截
 
