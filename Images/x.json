@@ -1,4 +1,8 @@
 {"name":"Marsatt","icons":
-  [{"name":"1x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/1x.png"},
-    {"name":"2x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/2x.png"}]
+  [
+    {"name":"1x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/1x.png"},
+    {"name":"2x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/2x.png"},
+    {"name":"3x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/3x.png"},
+    {"name":"4x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/4x.png"}
+  ]
   ,"description":"Just so happy"}
