@@ -1,6 +1,7 @@
 #WeChat
 
-
+#微信朋友圈視頻
+ip-cidr, 39.91.181.17/24, WeChat
 #微信顯示視頻
 ip-cidr, 153.3.246.54/24, WeChat
 ip-cidr, 218.60.51.40/24, WeChat
