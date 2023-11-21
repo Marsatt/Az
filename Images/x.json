@@ -1,15 +1,15 @@
 {"name":"Marsatt","icons":
   [
-    {"name":"1x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/1x.png"},
-    {"name":"2x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/2x.png"},
-    {"name":"3x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/3x.png"},
-    {"name":"4x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/4x.png"},
-    {"name":"5x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/5x.png"},
-    {"name":"6x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/6x.png"},
-    {"name":"7x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/7x.png"},
-    {"name":"8x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/8x.png"},
-    {"name":"9x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/9x.png"},
-    {"name":"10x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/10x.png"},
-    {"name":"11x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/11x.png"}
+    {"name":"001x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/001x.png"},
+    {"name":"002x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/002x.png"},
+    {"name":"003x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/003x.png"},
+    {"name":"004x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/004x.png"},
+    {"name":"005x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/005x.png"},
+    {"name":"006x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/006x.png"},
+    {"name":"007x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/007x.png"},
+    {"name":"008x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/008x.png"},
+    {"name":"009x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/009x.png"},
+    {"name":"010x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/010x.png"},
+    {"name":"011x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/011x.png"}
   ]
   ,"description":"Just so happy"}
