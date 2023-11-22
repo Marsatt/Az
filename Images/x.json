@@ -99,6 +99,7 @@
     {"name":"097x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/097x.png"},
     {"name":"098x.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/098x.png"},
     {"name":"alibaba01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/alibaba01.png"},
+    {"name":"applesettings01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/applesettings01.png"},
     {"name":"baidu01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/baidu01.png"},
     {"name":"bing01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/bing01.png"},
     {"name":"bing02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/bing02.png"},
@@ -113,6 +114,7 @@
     {"name":"edge02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/edge02.png"},
     {"name":"google01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/google01.png"},
     {"name":"google02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/google02.png"},
+    {"name":"google03.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/google03.png"},
     {"name":"huya01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/huya01.png"},
     {"name":"huya02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/huya02.png"},
     {"name":"instagram01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/instagram01.png"},
@@ -127,6 +129,8 @@
     {"name":"speedtest01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/speedtest01.png"},
     {"name":"spotify01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/spotify01.png"},
     {"name":"spotify02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/spotify02.png"},
+    {"name":"taobao01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/taobao01.png"},
+    {"name":"taobao02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/taobao02.png"},
     {"name":"telegram01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/telegram01.png"},
     {"name":"tesla01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/tesla01.png"},
     {"name":"tiktok01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/tiktok01.png"},
@@ -140,6 +144,8 @@
     {"name":"x01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/x01.png"},
     {"name":"xiaohongshu01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/xiaohongshu01.png"},
     {"name":"youtube01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/youtube01.png"},
+    {"name":"youtube02.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/youtube02.png"},
+    {"name":"youtube03.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/youtube03.png"},
     {"name":"zhifubao01.png","url":"https://raw.githubusercontent.com/Marsatt/Az/main/Images/Icon/zhifubao01.png"}
   ]
   ,"description":"Just so happy"}
