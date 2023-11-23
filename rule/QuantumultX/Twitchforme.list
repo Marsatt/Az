@@ -16,7 +16,6 @@ host, api2.branch.io, Twitchforme
 host, cdn.branch.io, Twitchforme
 
 
-
 #Twitch Dota2-顯示技能參數
 host, cdn.cloudflare.steamstatic.com, Twitchforme
 host, dotatooltips.b-cdn.net, Twitchforme
