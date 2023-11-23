@@ -16,7 +16,6 @@ DOMAIN, api2.branch.io, Twitchforme
 DOMAIN, cdn.branch.io, Twitchforme
 
 
-
 #Twitch Dota2-顯示技能參數
 DOMAIN, cdn.cloudflare.steamstatic.com, Twitchforme
 DOMAIN, dotatooltips.b-cdn.net, Twitchforme
