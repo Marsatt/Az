@@ -2,8 +2,6 @@
 
 #bbc
 IP-CIDR, 218.24.90.125/24, direct
-#大蓝
-IP-CIDR, 60.29.252.229/24, direct
 #黃毅
 IP-CIDR, 113.2.129.180/24, direct
 #夜楓
