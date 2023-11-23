@@ -10,7 +10,7 @@ ip-cidr, 1.56.63.102/24, HuYa
 ip-cidr, 113.201.98.13/24, HuYa
 ip-cidr, 119.167.224.144/24, HuYa
 #20m線路14
-ip-cidr, 123.6.72.62/24, dHuYa
+ip-cidr, 123.6.72.62/24, HuYa
 ip-cidr, 113.194.45.223/24, HuYa
 #20m線路88
 ip-cidr, 220.195.134.41/24, HuYa
