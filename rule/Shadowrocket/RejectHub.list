@@ -1,6 +1,7 @@
+#huya
+DOMAIN,cdnfile1.msstatic.com, 攔截
 
-
-#知乎去廣告
+#zhihu
 DOMAIN,appcloud2.in.zhihu.com, 攔截
 DOMAIN,mqtt.zhihu.com, 攔截
 DOMAIN,sugar.zhihu.com, 攔截
