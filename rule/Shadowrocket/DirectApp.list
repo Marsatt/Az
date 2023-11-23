@@ -1,6 +1,9 @@
 #DirectApp
 
 
+#蘋果天氣定位需要走阿里巴巴直鏈服務
+DOMAIN, dispatcher.is.autonavi.com, 直鏈
+
 #opencat
 DOMAIN, api.opencat.app, 直鏈
 #opencat 工坊服务
