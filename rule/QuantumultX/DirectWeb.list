@@ -1,32 +1,3 @@
-#直链
-
-  
-#host,完全匹配：host, www.baidu.com, reject
-#host-suffix,後綴匹配：host-suffix, doubleclick.net, reject
-#host-keyword,關鍵詞匹配：host-keyword, adservice, reject
-#host-wildcard,域名的匹配通配符時：host-wildcard, ad*.example.com, reject
-#ip-cidr與ip6-cidr：
-#ip-cidr, 8.8.8.8/32, direct
-#ip6-cidr, 2001:4860:4860::8888/128, direct
-#user-agent,匹配時：user-agent, TIM*, direct
-#在 iOS 15 系统后，系统出于隐私保护考虑，不再于 CONNECT 请求中提供 User-Agent，这意味着对于所有 HTTPS 请求，在未开启 MITM 时，User-Agent 均不可见且规则无法生效。
-
-#出站選擇
-#host-suffix, qq.com, direct, force-cellular
-#host-suffix, qq.com, direct, multi-interface
-#host-suffix, qq.com, direct, multi-interface-balance
-#host-suffix, qq.com, direct, via-interface=pdp_ip0
-#force-cellular：当处于 Wi-Fi 网络时仍使用蜂窝网络数据；
-#multi-interface：当处于 Wi-Fi网络时，同时使用 Wi-Fi 网络与蜂窝网络建立 TCP 鏈接，使用拥有最佳 TCP 握手值的鏈接来传输数据。
-#multi-interface-balance：当处于 Wi-Fi 网络时，均衡使用 Wi-Fi 网络与蜂窝网络，以提升并发任务的出口贷宽。
-#via-interface：指定出站接口
-#另外，还可以直接在「设置」底部的「其他设置」中，全局设置「出站接口」。
-
-#優先級別
-#在默认情况下，Quantumult X 会启用「分流匹配优化」，大致的优先级先后顺序为：
-#HOST > HOST-SUFFIX > HOST-WILDCARD > HOST-KEYWORD > USER-AGENT > IP类型规则 (IP-CIDR 等)
-
-
 #喵软件资源网
 host, www.appmiu.com, 直鏈
 
@@ -106,7 +77,6 @@ host, live-gitv-xj-yh.189smarthome.com, 直鏈
 host, cntv.sbs, 直鏈
 host, live.fanmingming.com, 直鏈
 host, tv.fanmingming.com, 直鏈
-
 
 
 
