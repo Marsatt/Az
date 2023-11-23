@@ -1,13 +1,11 @@
 #DouYin
 
 #bbc
-ip-cidr, 218.24.90.125/24, direct
-#大蓝
-ip-cidr, 60.29.252.229/24, direct
+ip-cidr, 218.24.90.125/24, 直鏈
 #黃毅
-ip-cidr, 113.2.129.180/24, direct
+ip-cidr, 113.2.129.180/24, 直鏈
 #夜楓
-ip-cidr, 221.211.234.11/24, direct
+ip-cidr, 221.211.234.11/24, 直鏈
 #KYO直播間
 ip-cidr, 219.154.251.164/24, 直鏈
 
@@ -25,7 +23,7 @@ host, lf6-cdn-tos.bytegoofy.com, 直鏈
 host, api64.com, 直鏈
 
 #抖音打開app 帳號掉了
-ip-cidr, 34.102.215.99/24, direct
+ip-cidr, 34.102.215.99/24, 直鏈
 #抖音直播
 host, live.douyin.com, 直鏈
 #必須連接阿里巴巴廣告
