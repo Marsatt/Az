@@ -1,7 +1,8 @@
-ip-cidr, 24.199.109.245/24, OpenAI
-ip-cidr, 146.190.146.107/24, OpenAI
-ip-cidr, 24.144.85.71/24, OpenAI
-Host, sfo3.turn.livekit.cloud, OpenAI
+#ip-cidr, 24.199.109.245/24, OpenAI
+#ip-cidr, 146.190.146.107/24, OpenAI
+#ip-cidr, 24.144.85.71/24, OpenAI
+#Host, sfo3.turn.livekit.cloud, OpenAI
+
 HOST, chatgpt.livekit.cloud, OpenAI
 
 HOST, api.statsig.com, OpenAI
