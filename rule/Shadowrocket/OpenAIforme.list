@@ -1,4 +1,9 @@
+IP-CIDR, 24.199.109.245/24, OpenAI
+IP-CIDR, 146.190.146.107/24, OpenAI
+IP-CIDR, 24.144.85.71/24, OpenAI
+DOMAIN, sfo3.turn.livekit.cloud, OpenAI
 DOMAIN, chatgpt.livekit.cloud, OpenAI
+
 DOMAIN, api.statsig.com, OpenAI
 DOMAIN, o33249.ingest.sentry.io, OpenAI
 DOMAIN, openai-api.arkoselabs.com, OpenAI
