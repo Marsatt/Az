@@ -12,7 +12,8 @@ ip-cidr, 218.60.51.40/24, WeChat
 #微信 附近的人加好友
 ip-cidr, 36.155.202.83/24, WeChat
 #微信 看朋友圈视频
-ip-cidr, 124.95.172.168/24, WeChat
+ip-cidr, 211.90.133.77/24, WeChat
+#ip-cidr, 124.95.172.168/24, WeChat
 #微信 发送gif
 ip-cidr, 124.95.173.56/24, WeChat
 ip-cidr, 202.97.231.99/24, WeChat
