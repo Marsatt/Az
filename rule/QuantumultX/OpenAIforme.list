@@ -5,13 +5,13 @@
 
 HOST, chatgpt.livekit.cloud, OpenAI
 
-HOST, api.statsig.com, OpenAI
-HOST, o33249.ingest.sentry.io, OpenAI
-HOST, openai-api.arkoselabs.com, OpenAI
-HOST-SUFFIX, cdn.cloudflare.net, OpenAI
-HOST-SUFFIX, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, OpenAI
-HOST-SUFFIX, openaicom.imgix.net, OpenAI
-HOST-SUFFIX, openaicomproductionae4b.blob.core.windows.net, OpenAI
-HOST-SUFFIX, openai.com, OpenAI
-HOST-SUFFIX, openaiapi-site.azureedge.net, OpenAI
-HOST-KEYWORD, openaicom-api, OpenAI
+#HOST, api.statsig.com, OpenAI
+#HOST, o33249.ingest.sentry.io, OpenAI
+#HOST, openai-api.arkoselabs.com, OpenAI
+#HOST-SUFFIX, cdn.cloudflare.net, OpenAI
+#HOST-SUFFIX, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, OpenAI
+#HOST-SUFFIX, openaicom.imgix.net, OpenAI
+#HOST-SUFFIX, openaicomproductionae4b.blob.core.windows.net, OpenAI
+#HOST-SUFFIX, openai.com, OpenAI
+#HOST-SUFFIX, openaiapi-site.azureedge.net, OpenAI
+#HOST-KEYWORD, openaicom-api, OpenAI
