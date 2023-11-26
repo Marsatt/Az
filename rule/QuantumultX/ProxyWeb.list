@@ -1,6 +1,9 @@
 #proxyweb
 
 
+#github瀏覽次數統計
+host, info.flagcounter.com, C
+
 #Poe
 host, aefd.nelreports.net, C
 host, m.gsmarena.com, C
