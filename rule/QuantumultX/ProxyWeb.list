@@ -1,5 +1,9 @@
-#proxyweb
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/ProxyWeb.list
 
+
+
+#開源圖標庫
+host, yesicon.app, C
 
 #github瀏覽次數統計
 host, info.flagcounter.com, C
