@@ -2,8 +2,8 @@
 
 
 
-#github瀏覽次數統計
-host, info.flagcounter.com, C
+#github拉庫
+host-suffix, ghproxy.com, C
 
 #Poe
 host, aefd.nelreports.net, C
