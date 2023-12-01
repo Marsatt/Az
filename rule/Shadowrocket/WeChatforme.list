@@ -4,8 +4,6 @@
 IP-CIDR, 116.140.44.238/24, WeChat
 #微信紅包發送
 DOMAIN, szshort.snspay.wechatpay.cn, WeChat
-#微信朋友圈視頻播放
-IP-CIDR, 116.131.225.38/24, WeChat
 #微信朋友圈視頻縮略圖查看
 IP-CIDR, 39.91.181.17/24, WeChat
 #微信顯示視頻
