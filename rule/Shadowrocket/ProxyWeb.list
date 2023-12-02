@@ -27,13 +27,6 @@ DOMAIN, roomimg.stream.highwebmedia.com, C
 DOMAIN, update.jdownloader.org, C
 DOMAIN-SUFFIX, appwork.org, C
 
-#火箭妹
-DOMAIN, www.rocketgirls.space, C
-
-#ios限免网站
-#appagg
-DOMAIN, appagg.com, C
-
 #書籤-it-轉換類-批量全能轉換器
 DOMAIN-SUFFIX, xconvert.com, C
 DOMAIN-SUFFIX, hv.xconvert.com, C
@@ -58,6 +51,8 @@ DOMAIN, sullygnome.com, C
 
 
 #ios限免网站
+#appagg
+DOMAIN, appagg.com, C
 #App Sliced
 DOMAIN, cdnkey.appsliced.co, 直鏈
 DOMAIN, appsliced.co, 直鏈

@@ -27,13 +27,6 @@ host, roomimg.stream.highwebmedia.com, C
 host, update.jdownloader.org, C
 host-suffix, appwork.org, C
 
-#火箭妹
-host, www.rocketgirls.space, C
-
-#ios限免网站
-#appagg
-host, appagg.com, C
-
 #書籤-it-轉換類-批量全能轉換器
 host-suffix, xconvert.com, C
 host-suffix, hv.xconvert.com, C
@@ -58,6 +51,8 @@ host, sullygnome.com, C
 
 
 #ios限免网站
+#appagg
+host, appagg.com, C
 #App Sliced
 host, cdnkey.appsliced.co, C
 host, appsliced.co, C
