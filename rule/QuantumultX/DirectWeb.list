@@ -3,6 +3,8 @@ host, www.appmiu.com, 直鏈
 
 #Greasy Fork 油猴腳本安裝
 host, update.greasyfork.org, 直鏈
+#Tampermonkey DouyuEx-鬥魚直播間增強插件
+host, www.doseeing.com, 直鏈
 
 #新浪
 host, k.sina.cn, 直鏈
