@@ -39,6 +39,7 @@ host, geoip.furman.im, C
 host, lb.dioco.io, C
 #蠱惑狼進度條
 host, custom-progress-bar.com, C
+host, custom-progressbar.com, C
 #Stream Found
 host, www.hlsloader.com, C
 #Language Reactor
