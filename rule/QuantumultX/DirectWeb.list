@@ -7,6 +7,11 @@ host, k.sina.cn, 直鏈
 host, www.sohu.com, 直鏈
 #網易
 host, www.163.com, 直鏈
+#有道詞典
+host, app-measurement.com, 直鏈
+host, shared.ydstatic.com, 直鏈
+host, ydlunacommon-cdn.nosdn.127.net, 直鏈
+host, shared-https.ydstatic.com, 直鏈
 
 #百度百科
 #百度百科 圖片連結
