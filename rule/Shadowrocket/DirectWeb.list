@@ -13,12 +13,6 @@ DOMIAN, update.greasyfork.org, 直鏈
 #Tampermonkey DouyuEx-鬥魚直播間增強插件
 DOMIAN, www.doseeing.com, 直鏈
 
-#新浪
-DOMIAN, k.sina.cn, 直鏈
-#搜狐
-DOMIAN, www.sohu.com, 直鏈
-#網易
-DOMIAN, www.163.com, 直鏈
 #有道詞典
 DOMIAN, app-measurement.com, 直鏈
 DOMIAN, shared.ydstatic.com, 直鏈
@@ -79,9 +73,6 @@ DOMIAN, dict.youdao.com, 直鏈
 
 #小人举牌🪧
 DOMIAN, www.cnuseful.com, 直鏈
-
-#簡體繁體切換
-DOMIAN, youtils.cc, 直鏈
 
 #www.ahhhhfs.com 資源網站
 DOMIAN, www.ahhhhfs.com, 直鏈

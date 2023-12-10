@@ -13,12 +13,6 @@ host, update.greasyfork.org, 直鏈
 #Tampermonkey DouyuEx-鬥魚直播間增強插件
 host, www.doseeing.com, 直鏈
 
-#新浪
-host, k.sina.cn, 直鏈
-#搜狐
-host, www.sohu.com, 直鏈
-#網易
-host, www.163.com, 直鏈
 #有道詞典
 host, app-measurement.com, 直鏈
 host, shared.ydstatic.com, 直鏈
@@ -79,9 +73,6 @@ host, dict.youdao.com, 直鏈
 
 #小人举牌🪧
 host, www.cnuseful.com, 直鏈
-
-#簡體繁體切換
-host, youtils.cc, 直鏈
 
 #www.ahhhhfs.com 資源網站
 host, www.ahhhhfs.com, 直鏈
