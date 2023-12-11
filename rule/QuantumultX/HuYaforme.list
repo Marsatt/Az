@@ -32,6 +32,7 @@ host-suffix, livehwc3.cn, HuYa
 host, metric.huya.com, HuYa
 host, statwup.huya.com, HuYa
 host-suffix, v.smtcdns.net, HuYa
+host-suffix, p2p.huya.com, HuYa
 
 
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
