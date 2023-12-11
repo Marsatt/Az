@@ -3,6 +3,9 @@
 
 #Chrome插件-Ghostery数据传输
 DOMAIN,cdn2.ghostery.com, 攔截
+DOMAIN, api.ghostery.net, 攔截
+#Chrome插件-劃詞翻譯
+DOMAIN, hcfy.app, 攔截
 
 #huya
 DOMAIN,cdnfile1.msstatic.com, 攔截
