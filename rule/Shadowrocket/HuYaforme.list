@@ -32,7 +32,7 @@ DOMAIN-SUFFIX, livehwc3.cn, HuYa
 DOMAIN, metric.huya.com, HuYa
 DOMAIN, statwup.huya.com, HuYa
 DOMAIN-SUFFIX, v.smtcdns.net, HuYa
-DOMAIN-SUFFIX, p2p.huya.com, HuYa
+DOMAIN-SUFFIX, node.ppio.cloud, HuYa
 
 
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
