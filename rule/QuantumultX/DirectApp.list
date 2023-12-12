@@ -33,7 +33,7 @@ host, p29-imap.mail.me.com, 直鏈
 #有道發音
 host, dict.youdao.com, 直鏈
 #有道词典
-host, www.youdao.com, 直鏈
+host, youdao.com, 直鏈
 #Bing
 host, cn.bing.com, 直鏈
 #剑桥
