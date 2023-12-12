@@ -25,6 +25,7 @@ host, update.greasyfork.org, 直鏈
 #Tampermonkey DouyuEx-鬥魚直播間增強插件
 host, doseeing.com, 直鏈
 host, www.doseeing.com, 直鏈
+HOST-SUFFIX, doseeing.com, 直鏈
 
 #有道詞典
 host, app-measurement.com, 直鏈
