@@ -1,4 +1,48 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/009-ProxyWeb.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/008-Pro.list
+
+#MAC keka
+DOMAIN, u.keka.io, C
+
+#Goodnote 6 app
+DOMAIN, api.goodnotes.email, C
+DOMAIN, api.goodnotes.com, C
+DOMAIN, api.sprig.com, C
+DOMAIN, isi.csan.goodnotes.com, C
+DOMAIN, gn-shop-cdn-public.csan.goodnotes.com, C
+DOMAIN, gn-shop.csan.goodnotes.com, C
+
+#perplexity app
+DOMAIN, imagedelivery.net, C
+DOMAIN, api.revenuecat.com, C
+DOMAIN, 342251b-beta.perplexity.ai, C
+DOMAIN, www.perplexity.ai, C
+
+# Flightradar24 app
+DOMAIN, data-cloud.flightradar24.com, C
+DOMAIN, mobile.flightradar24.com, C
+DOMAIN, data-feed.flightradar24.com, C
+DOMAIN, mobile-data.onetrust.io, C
+#AR顯示飛機照片（信息框下面，第二個框）。
+DOMAIN, cdn.jetphotos.com, C
+#AR顯示飛機詳細信息1
+DOMAIN, free.flightradar24.com, C
+#AR顯示飛機詳細信息2
+DOMAIN, data-live.flightradar24.com, C
+
+#Marine Traffic
+DOMAIN, tiles.marinetraffic.com, C
+DOMAIN, www.marinetraffic.com, C
+
+#嗯背單詞
+#牛津
+DOMAIN, www.oxfordlearnersdictionaries.com, C
+#韋氏
+DOMAIN, www.merriam-webster.com, C
+#朗文
+DOMAIN, www.ldoceonline.com, C
+#柯林斯
+DOMAIN, www.collinsdictionary.com, C
+
 
 #github拉庫
 DOMAIN-SUFFIX, ghproxy.com, C
@@ -30,7 +74,6 @@ DOMAIN-SUFFIX, appwork.org, C
 DOMAIN-SUFFIX, xconvert.com, C
 DOMAIN-SUFFIX, hv.xconvert.com, C
 
-
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
 DOMAIN, geoip.furman.im, C
@@ -48,7 +91,6 @@ DOMAIN, www.languagereactor.com, C
 DOMAIN, streamscharts.com, C
 DOMAIN, sullygnome.com, C
 DOMAIN, sullygnome.com, C
-
 
 #ios限免网站
 #appagg
