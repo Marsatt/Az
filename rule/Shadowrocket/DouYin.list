@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/041-DouYin.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Douyin.list
 
 #bbc
 IP-CIDR, 218.24.90.125/24, no-resolve

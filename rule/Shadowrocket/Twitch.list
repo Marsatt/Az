@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/012-Twitch.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Twitch.list
 
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
