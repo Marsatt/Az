@@ -1,0 +1,129 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Dir.list
+
+#蘋果天氣定位需要走阿里巴巴直鏈服務
+host, dispatcher.is.autonavi.com, 直鏈
+
+#opencat
+host, api.opencat.app, 直鏈
+#opencat 工坊服务
+host, t3wflvcn.lc-cn-n1-shared.com, 直鏈
+
+#美的空调
+host, sse.smartmidea.net, 直鏈
+host, iotsdk.midea.com, 直鏈
+host, recv.bi.ainirobot.com, 直鏈
+host, mp-prod.smartmidea.net, 直鏈
+host, mjfile-pro.smartmidea.net, 直鏈
+host, meijuresources.smartmidea.net, 直鏈
+
+#京东比价
+host, apapia-history.manmanbuy.com, 直鏈
+
+#阿里小号
+ip-cidr, 59.82.122.5/24, 直鏈
+
+#邮件APP绑定新浪邮箱
+host, pop.sina.com, 直鏈
+host, smtp.sina.com, 直鏈
+host, p29-smtp.mail.me.com, 直鏈
+host, p29-imap.mail.me.com, 直鏈
+
+#嗯背單詞
+#有道發音
+host, dict.youdao.com, 直鏈
+#有道词典
+host, www.youdao.com, 直鏈
+host, youdao.com, 直鏈
+#Bing
+host, cn.bing.com, 直鏈
+#剑桥
+host, dictionary.cambridge.org, 直鏈
+
+#小人举牌
+host, v1.qudou100.com, 直鏈
+host, www.jiuwa.net, 直鏈
+
+#AI免費扣圖
+host, bgsub.cn, 直鏈
+
+#文字轉語音ttsmaker.cn
+host, tts-file2.com, 直鏈
+host, s2.tts-file.com, 直鏈
+host, static.ttsmaker.cn, 直鏈
+host, freddyfeedback.com, 直鏈
+host, ttsmaker.cn, 直鏈
+
+#文字轉語音ttson.cn
+host, httpbin.org, 直鏈
+host, api.ttson.cn, 直鏈
+host, www.ttson.cn, 直鏈
+
+#喵软件资源网
+host, www.appmiu.com, 直鏈
+
+#Greasy Fork 油猴腳本安裝
+host, update.greasyfork.org, 直鏈
+#Tampermonkey DouyuEx-鬥魚直播間增強插件
+host, doseeing.com, 直鏈
+host, www.doseeing.com, 直鏈
+HOST-SUFFIX, doseeing.com, 直鏈
+
+#有道詞典
+host, app-measurement.com, 直鏈
+host, shared.ydstatic.com, 直鏈
+host, ydlunacommon-cdn.nosdn.127.net, 直鏈
+host, shared-https.ydstatic.com, 直鏈
+
+#百度百科
+#百度百科 圖片連結
+host, bkimg.cdn.bcebos.com, 直鏈
+#百度百科 視頻連結
+host, baikevideo.cdn.bcebos.com, 直鏈
+#百度百科 網頁排版
+host, bkssl.bdimg.com, 直鏈
+#百度百科
+host, baike.baidu.com, 直鏈
+
+#Chrome瀏覽器-flag（第一個）顯示國旗。
+host, myip.ms, 直鏈
+host, plugin.myip.ms, 直鏈
+
+#IP
+#書籤-工具-it-ip-DNS是否洩漏查詢。
+host, ipleak.net, 直鏈
+
+#書籤-工具-it-ip是否欺詐查詢。
+host, scamalytics.com, 直鏈
+
+#書籤-工具-it-ip欺詐類型查看。
+host, ipinfo.io, 直鏈
+host, website-cdn.ipinfo.io, 直鏈
+
+#書籤-工具-it-ip，測試網站在全國是否可以直鏈。
+host, www.itdog.cn, 直鏈
+
+
+#豆瓣
+HOST-SUFFIX,douban.com,直鏈
+HOST-SUFFIX,douban.fm,直鏈
+HOST-SUFFIX,doubanio.com,直鏈
+
+#書籤-娛樂（字幕庫）
+host, zimuku.org, 直鏈
+
+#知乎
+HOST-SUFFIX,zhihu.com,直鏈
+HOST-SUFFIX,zhimg.com,直鏈
+IP-CIDR,103.41.167.226/32,直鏈
+IP-CIDR,103.41.167.234/31,直鏈
+IP-CIDR,103.41.167.236/32,直鏈
+IP-CIDR,118.89.204.198/32,直鏈
+
+#剪影字幕提取網站
+host, jy.mzh.ren, 直鏈
+
+#www.ahhhhfs.com 資源網站
+host, www.ahhhhfs.com, 直鏈
+
+#繁體簡體互換網站
+host, youtils.cc, 直鏈

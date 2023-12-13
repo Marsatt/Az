@@ -1,0 +1,6 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/033-Pinduoduo.list
+
+DOMAIN-SUFFIX,pddpic.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,pinduoduo.net
+DOMAIN-SUFFIX,yangkeduo.com

@@ -1,2 +1,4 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/OpenAIforme.list
+
 host, sfo3.turn.livekit.cloud, OpenAI
 host, chatgpt.livekit.cloud, OpenAI

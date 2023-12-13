@@ -1,0 +1,6 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/XiaoHongShu.list
+
+HOST-SUFFIX,fengkongcloud.com,XiaoHongShu
+HOST-SUFFIX,xhscdn.com,XiaoHongShu
+HOST-SUFFIX,xhscdn.net,XiaoHongShu
+HOST-SUFFIX,xiaohongshu.com,XiaoHongShu

@@ -1,7 +1,5 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/ProxyWeb.list
 
-
-
 #github拉庫
 host-suffix, ghproxy.com, C
 

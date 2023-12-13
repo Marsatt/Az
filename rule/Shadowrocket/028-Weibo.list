@@ -1,0 +1,9 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/028-Weibo.list
+
+DOMAIN-SUFFIX,weibo.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-KEYWORD,weibo
+
+#新浪微博顯示縮略圖。
+DOMAIN-SUFFIX, sinaimg.cn, Weibo

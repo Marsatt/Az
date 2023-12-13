@@ -1,0 +1,4 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/OpenAIforme.list
+
+DOMAIN, sfo3.turn.livekit.cloud, OpenAI
+DOMAIN, chatgpt.livekit.cloud, OpenAI

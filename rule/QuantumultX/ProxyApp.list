@@ -1,5 +1,4 @@
-#proxyapp
-
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/ProxyWeb.list
 
 #MAC keka
 host, u.keka.io, C

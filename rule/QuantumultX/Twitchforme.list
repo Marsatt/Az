@@ -1,5 +1,4 @@
-#Twtich
-
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Twitchforme.list
 
 host, functions.soundalerts.com, Twitchforme
 host, extension.streamelements.com, Twitchforme

@@ -1,0 +1,27 @@
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Douyu.list
+
+#鬥魚 IOS
+#線路5、13，包括原畫2k60。
+IP-CIDR, 218.8.143.2/24, Douyu
+#720p 線路5。
+IP-CIDR, 124.166.237.227/24, Douyu
+
+#鬥魚彈幕
+IP-CIDR, 114.118.20.32/24, Douyu
+IP-CIDR, 218.24.115.208/24, Douyu
+IP-CIDR, 175.25.33.67/24, Douyu
+
+#鬥魚 MACOS
+#鬥魚 視頻連結地址
+DOMAIN-SUFFIX, edgesrv.com, Douyu
+
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyuba.cn
+DOMAIN-SUFFIX,douyucdn.cn
+DOMAIN-SUFFIX,douyucdn2.cn
+DOMAIN-SUFFIX,douyupcdn.cn
+DOMAIN-SUFFIX,douyuscdn.com
+DOMAIN-SUFFIX,douyutv.com
+DOMAIN-SUFFIX,doyonoc.com
+DOMAIN-SUFFIX,oywtv.com
