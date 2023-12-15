@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/027-Pinterest.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pinterest.list
 
 DOMAIN-SUFFIX,pin.it
 DOMAIN-SUFFIX,pinimg.com

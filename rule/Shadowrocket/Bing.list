@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/016-Bing.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Bing.list
 
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.com.cn

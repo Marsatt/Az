@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/040-XiaoHongShu.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/XiaoHongShu.list
 
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,xhscdn.com

@@ -1,6 +1,6 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/043-Speedtest.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Speedtest.list
 
-DOMAIN,speed.dler.io,Speedtest
+DOMAIN,speed.dler.io
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,cellmaps.com
 DOMAIN-SUFFIX,ekahau.cloud

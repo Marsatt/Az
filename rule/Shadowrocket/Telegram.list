@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/017-Telegram.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Telegram.list
 
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,comments.app

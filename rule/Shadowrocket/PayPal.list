@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/025-PayPal.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/PayPal.list
 
 DOMAIN-SUFFIX,account-paypal.info
 DOMAIN-SUFFIX,account-paypal.net

@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/003-BlockHttpDNS.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/BlockHttpDNS.list
 
 DOMAIN,dns.jd.com
 DOMAIN,dns.weibo.cn

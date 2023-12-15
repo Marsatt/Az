@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/032-Baidu.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Baidu.list
 
 DOMAIN-SUFFIX,17swan.com
 DOMAIN-SUFFIX,37swan.com

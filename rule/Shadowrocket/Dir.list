@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/044-Dir.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Dir.list
 
 #蘋果天氣定位需要走阿里巴巴直鏈服務
 DOMAIN, dispatcher.is.autonavi.com

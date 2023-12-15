@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/030-AliPay.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/AliPay.list
 
 DOMAIN-SUFFIX,alipay
 DOMAIN-SUFFIX,alipay-corp.com

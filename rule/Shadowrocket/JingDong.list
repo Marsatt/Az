@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/034-JingDong.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/JingDong.list
 
 DOMAIN-SUFFIX,1huizhan.com
 DOMAIN-SUFFIX,3.cn

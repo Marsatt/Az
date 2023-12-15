@@ -1,132 +1,132 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/008-Pro.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
 #MAC keka
-DOMAIN, u.keka.io, C
+DOMAIN, u.keka.io
 
 #Goodnote 6 app
-DOMAIN, api.goodnotes.email, C
-DOMAIN, api.goodnotes.com, C
-DOMAIN, api.sprig.com, C
-DOMAIN, isi.csan.goodnotes.com, C
-DOMAIN, gn-shop-cdn-public.csan.goodnotes.com, C
-DOMAIN, gn-shop.csan.goodnotes.com, C
+DOMAIN, api.goodnotes.email
+DOMAIN, api.goodnotes.com
+DOMAIN, api.sprig.com
+DOMAIN, isi.csan.goodnotes.com
+DOMAIN, gn-shop-cdn-public.csan.goodnotes.com
+DOMAIN, gn-shop.csan.goodnotes.com
 
 #perplexity app
-DOMAIN, imagedelivery.net, C
-DOMAIN, api.revenuecat.com, C
-DOMAIN, 342251b-beta.perplexity.ai, C
-DOMAIN, www.perplexity.ai, C
+DOMAIN, imagedelivery.net
+DOMAIN, api.revenuecat.com
+DOMAIN, 342251b-beta.perplexity.ai
+DOMAIN, www.perplexity.ai
 
 # Flightradar24 app
-DOMAIN, data-cloud.flightradar24.com, C
-DOMAIN, mobile.flightradar24.com, C
-DOMAIN, data-feed.flightradar24.com, C
-DOMAIN, mobile-data.onetrust.io, C
+DOMAIN, data-cloud.flightradar24.com
+DOMAIN, mobile.flightradar24.com
+DOMAIN, data-feed.flightradar24.com
+DOMAIN, mobile-data.onetrust.io
 #AR顯示飛機照片（信息框下面，第二個框）。
-DOMAIN, cdn.jetphotos.com, C
+DOMAIN, cdn.jetphotos.com
 #AR顯示飛機詳細信息1
-DOMAIN, free.flightradar24.com, C
+DOMAIN, free.flightradar24.com
 #AR顯示飛機詳細信息2
-DOMAIN, data-live.flightradar24.com, C
+DOMAIN, data-live.flightradar24.com
 
 #Marine Traffic
-DOMAIN, tiles.marinetraffic.com, C
-DOMAIN, www.marinetraffic.com, C
+DOMAIN, tiles.marinetraffic.com
+DOMAIN, www.marinetraffic.com
 
 #嗯背單詞
 #牛津
-DOMAIN, www.oxfordlearnersdictionaries.com, C
+DOMAIN, www.oxfordlearnersdictionaries.com
 #韋氏
-DOMAIN, www.merriam-webster.com, C
+DOMAIN, www.merriam-webster.com
 #朗文
-DOMAIN, www.ldoceonline.com, C
+DOMAIN, www.ldoceonline.com
 #柯林斯
-DOMAIN, www.collinsdictionary.com, C
+DOMAIN, www.collinsdictionary.com
 
 
 #github拉庫
-DOMAIN-SUFFIX, ghproxy.com, C
+DOMAIN-SUFFIX, ghproxy.com
 
 #Poe
-DOMAIN, aefd.nelreports.net, C
-DOMAIN, m.gsmarena.com, C
+DOMAIN, aefd.nelreports.net
+DOMAIN, m.gsmarena.com
 
 #vanillaVoice
-DOMAIN, api.exchangerate.DOMAIN, C
-DOMAIN, api.vanillavoice.com, C
-DOMAIN, a.interactive32.com, C
-DOMAIN, www.vanillavoice.com, C
+DOMAIN, api.exchangerate.DOMAIN
+DOMAIN, api.vanillavoice.com
+DOMAIN, a.interactive32.com
+DOMAIN, www.vanillavoice.com
 
 #chaturbate.jjgirls.com
-DOMAIN, chaturbate.jjgirls.com, C
-DOMAIN-SUFFIX, live.mmcdn.com, C
-DOMAIN-SUFFIX, highwebmedia.com, C
-DOMAIN, a-fallback.pa.highwebmedia.com, C
-DOMAIN, internet-up.ably-realtime.com, C
-DOMAIN, cbjpeg.stream.highwebmedia.com, C
-DOMAIN, roomimg.stream.highwebmedia.com, C
+DOMAIN, chaturbate.jjgirls.com
+DOMAIN-SUFFIX, live.mmcdn.com
+DOMAIN-SUFFIX, highwebmedia.com
+DOMAIN, a-fallback.pa.highwebmedia.com
+DOMAIN, internet-up.ably-realtime.com
+DOMAIN, cbjpeg.stream.highwebmedia.com
+DOMAIN, roomimg.stream.highwebmedia.com
 
 #JDownloader 2-下載工具自動更新。
-DOMAIN, update.jdownloader.org, C
-DOMAIN-SUFFIX, appwork.org, C
+DOMAIN, update.jdownloader.org
+DOMAIN-SUFFIX, appwork.org
 
 #書籤-it-轉換類-批量全能轉換器
-DOMAIN-SUFFIX, xconvert.com, C
-DOMAIN-SUFFIX, hv.xconvert.com, C
+DOMAIN-SUFFIX, xconvert.com
+DOMAIN-SUFFIX, hv.xconvert.com
 
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
-DOMAIN, geoip.furman.im, C
+DOMAIN, geoip.furman.im
 #chrome瀏覽器，Language Reactor翻譯工具。
-DOMAIN, lb.dioco.io, C
+DOMAIN, lb.dioco.io
 #蠱惑狼進度條
-DOMAIN, custom-progress-bar.com, C
-DOMAIN, custom-progressbar.com, C
+DOMAIN, custom-progress-bar.com
+DOMAIN, custom-progressbar.com
 #Stream Found
-DOMAIN, www.hlsloader.com, C
+DOMAIN, www.hlsloader.com
 #Language Reactor
-DOMAIN, forum.languagelearningwithnetflix.com, C
-DOMAIN, www.languagereactor.com, C
+DOMAIN, forum.languagelearningwithnetflix.com
+DOMAIN, www.languagereactor.com
 #TwitchVodDownload
-DOMAIN, streamscharts.com, C
-DOMAIN, sullygnome.com, C
-DOMAIN, sullygnome.com, C
+DOMAIN, streamscharts.com
+DOMAIN, sullygnome.com
+DOMAIN, sullygnome.com
 
 #ios限免网站
 #appagg
-DOMAIN, appagg.com, C
+DOMAIN, appagg.com
 #App Sliced
 DOMAIN, cdnkey.appsliced.co, 直鏈
 DOMAIN, appsliced.co, 直鏈
 
 #Serhiy 的一個個人網站，其中包含他開發的各種 API。Serhiy 是一位來自烏克蘭的軟件工程師，他喜歡開發 API。
-DOMAIN, api.serhiy.io, C
+DOMAIN, api.serhiy.io
 
 #YouTuBe 雙語翻譯
-DOMAIN, extension.dioco.io, C
+DOMAIN, extension.dioco.io
 
 #TikTok 网页版
-DOMAIN, sf16-website-login.neutral.ttwstatic.com, C
+DOMAIN, sf16-website-login.neutral.ttwstatic.com
 
 #剪影字幕
-DOMAIN-SUFFIX, capcut.com, C
+DOMAIN-SUFFIX, capcut.com
 
 #TikTok视频无水印下载
-DOMAIN, savetik.net, C
-DOMAIN, snapxcdn.com, C
+DOMAIN, savetik.net
+DOMAIN, snapxcdn.com
 
 #Z-Libly图书馆
-DOMAIN, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu, C
-DOMAIN, lib-3fsujil5cusci24v775f7qe3.1lib.fr, C
+DOMAIN, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu
+DOMAIN, lib-3fsujil5cusci24v775f7qe3.1lib.fr
 
 #油猴
-DOMAIN, greasyfork.org, C
-DOMAIN, a.tampermonkey.net, C
+DOMAIN, greasyfork.org
+DOMAIN, a.tampermonkey.net
 
 #天时，地球看pm2.5
-DOMAIN, earth.nullschool.net, C
-DOMAIN, gaia.nullschool.net, C
+DOMAIN, earth.nullschool.net
+DOMAIN, gaia.nullschool.net
 
 #美國大使館，地球顯示mp2.5
-DOMAIN, aqicn.org, C
-DOMAIN, mapq.waqi.info, C
+DOMAIN, aqicn.org
+DOMAIN, mapq.waqi.info

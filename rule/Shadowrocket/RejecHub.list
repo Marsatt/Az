@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/002-RejecHub.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/RejecHub.list
 
 #Chrome插件-Ghostery数据传输
 DOMAIN,cdn2.ghostery.com

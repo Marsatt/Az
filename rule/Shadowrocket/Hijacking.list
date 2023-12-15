@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/006-Hijacking.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Hijacking.list
 
 DOMAIN,geo2.adobe.com
 DOMAIN-SUFFIX,17gouwuba.com

@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/046-no-resolve.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/ChinaMax.list
 
 DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,p.bstarstatic.com

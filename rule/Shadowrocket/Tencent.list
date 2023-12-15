@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/037-Tencent.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Tencent.list
 
 DOMAIN-SUFFIX,1700.cn
 DOMAIN-SUFFIX,17roco.com

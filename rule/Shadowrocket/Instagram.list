@@ -1,4 +1,4 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/021-Instagram.list
+#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Instagram.list
 
 DOMAIN-SUFFIX,achat-followers-instagram.com
 DOMAIN-SUFFIX,acheter-followers-instagram.com
