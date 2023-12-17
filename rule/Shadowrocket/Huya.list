@@ -6,28 +6,6 @@ host, al.p2p.huya.com
 host, hw.p2p.huya.com
 host, tx.p2p.huya.com
 
-#虎牙 IOS
-#默认通的：20m線路6；3等一等也是通的。
-#20m線路3
-#IP-CIDR, 36.155.9.148/24, no-resolve
-#IP-CIDR, 1.56.63.102/24, no-resolve
-#20m線路5
-#IP-CIDR, 113.201.98.13/24, no-resolve
-#IP-CIDR, 119.167.224.144/24, no-resolve
-#20m線路14
-#IP-CIDR, 123.6.72.62/24, no-resolve
-#IP-CIDR, 113.194.45.223/24, no-resolve
-#20m線路88
-#IP-CIDR, 220.195.134.41/24, no-resolve
-#10mb線路6
-#IP-CIDR, 112.90.95.73/24, no-resolve
-#10mb線路5
-#IP-CIDR, 116.153.90.108/24, no-resolveuYa
-#10mb線路14
-#IP-CIDR, 125.39.186.84/24, no-resolve
-
-
-
 #虎牙 MACOS
 #虎牙 視頻連結地址
 DOMAIN-SUFFIX, xycdn.com
