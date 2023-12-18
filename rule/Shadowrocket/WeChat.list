@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/WeChat.list
 
+#微信發圖片
+IP-CIDR, 1.58.245.23/24,no-resolve
+#微信朋友圈視頻播放
+IP-CIDR, 218.61.163.43/24,no-resolve
 #微信視頻號
 IP-CIDR, 116.140.44.238/24,no-resolve
 #微信紅包發送

@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/WeChat.list
 
+#微信發圖片
+ip-cidr, 1.58.245.23/24, WeChat
+#微信朋友圈視頻播放
+ip-cidr, 218.61.163.43/24, WeChat
 #微信視頻號
 ip-cidr, 116.140.44.238/24, WeChat
 #微信紅包發送
