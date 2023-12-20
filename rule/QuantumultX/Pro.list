@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#kick直播平台
+host, dbxmjjzl5pc1g.cloudfront.net, C
+host-suffix, kick.com, C
+
 #MAC keka
 host, u.keka.io, C
 
