@@ -1,10 +1,10 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Huya.list
 
 #視頻不卡
-host, hs.p2p.huya.com, HuYa
-host, al.p2p.huya.com, HuYa
-host, hw.p2p.huya.com, HuYa
-host, tx.p2p.huya.com, HuYa
+#host, hs.p2p.huya.com, HuYa
+#host, al.p2p.huya.com, HuYa
+#host, hw.p2p.huya.com, HuYa
+#host, tx.p2p.huya.com, HuYa
 
 #虎牙 MACOS
 #虎牙 視頻連結地址
