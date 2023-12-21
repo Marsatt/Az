@@ -1,10 +1,10 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Huya.list
 
 #視頻不卡
-host, hs.p2p.huya.com
-host, al.p2p.huya.com
-host, hw.p2p.huya.com
-host, tx.p2p.huya.com
+#host, hs.p2p.huya.com
+#host, al.p2p.huya.com
+#host, hw.p2p.huya.com
+#host, tx.p2p.huya.com
 
 #虎牙 MACOS
 #虎牙 視頻連結地址
