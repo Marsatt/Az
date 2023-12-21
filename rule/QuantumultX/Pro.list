@@ -1,5 +1,10 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#Pornhub
+host, cdn1-smallimg.phncdn.com, C
+host-suffix, pornhub.com, C
+host-suffix, phncdn.com, C
+
 #kick直播平台
 host, dbxmjjzl5pc1g.cloudfront.net, C
 host-suffix, kick.com, C

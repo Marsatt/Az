@@ -1,5 +1,10 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#Pornhub
+DOMAIN, cdn1-smallimg.phncdn.com, C
+DOMAIN-SUFFIX, pornhub.com, C
+DOMAIN-SUFFIX, phncdn.com, C
+
 #kick直播平台
 DOMAIN, dbxmjjzl5pc1g.cloudfront.net
 DOMAIN-SUFFIX, kick.com
