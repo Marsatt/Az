@@ -1,5 +1,19 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#WIKI
+HOST-SUFFIX,mediawiki.org,C
+HOST-SUFFIX,wikibooks.org,C
+HOST-SUFFIX,wikidata.org,C
+HOST-SUFFIX,wikileaks.org,C
+HOST-SUFFIX,wikimedia.org,C
+HOST-SUFFIX,wikinews.org,C
+HOST-SUFFIX,wikipedia.org,C
+HOST-SUFFIX,wikiquote.org,C
+HOST-SUFFIX,wikisource.org,C
+HOST-SUFFIX,wikiversity.org,C
+HOST-SUFFIX,wikivoyage.org,C
+HOST-SUFFIX,wiktionary.org,C
+
 #Pornhub
 host, cdn1-smallimg.phncdn.com, C
 host-suffix, pornhub.com, C
