@@ -1,26 +1,20 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Huya.list
 
-#視頻不卡
-#host, hs.p2p.huya.com, HuYa
-#host, al.p2p.huya.com, HuYa
-#host, hw.p2p.huya.com, HuYa
-#host, tx.p2p.huya.com, HuYa
-
 #虎牙 MACOS
 #虎牙 視頻連結地址
 host-suffix, xycdn.com, HuYa
 host-suffix, szbdyd.com, HuYa
 host-suffix, bytefcdnrd.com, HuYa
 host-suffix, livehwc3.cn, HuYa
-host, metric.huya.com, HuYa
-host, statwup.huya.com, HuYa
-host-suffix, v.smtcdns.net, HuYa
+#host, metric.huya.com, HuYa
+#host, statwup.huya.com, HuYa
+#host-suffix, v.smtcdns.net, HuYa
 host-suffix, node.ppio.cloud, HuYa
 
 
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
 host-suffix, smtcdns.net, HuYa
-host-suffix, v.smtcdns.net, HuYa
+#host-suffix, v.smtcdns.net, HuYa
 
 #虎牙主播信息日誌
 host, ylog.huya.com, HuYa
