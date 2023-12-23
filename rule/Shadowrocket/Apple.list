@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Appleforme.list
 
+#天氣預報正常顯示
+DOMAIN, weather-analytics-events.apple.com
+
 DOMAIN,apps.apple.com
 DOMAIN,a1.mzstatic.com
 DOMAIN,a2.mzstatic.com

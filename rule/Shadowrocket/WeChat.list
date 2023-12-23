@@ -3,7 +3,8 @@
 #微信發圖片
 IP-CIDR, 1.58.245.23/24,no-resolve
 #微信朋友圈視頻播放
-IP-CIDR, 182.50.12.11/24,no-resolve
+IP-CIDR, 112.86.241.23/24,no-resolve
+#IP-CIDR, 182.50.12.11/24,no-resolve
 #IP-CIDR, 218.61.163.43/24,no-resolve
 #微信朋友圈視頻縮略圖查看
 IP-CIDR, 218.61.162.98/24,no-resolve

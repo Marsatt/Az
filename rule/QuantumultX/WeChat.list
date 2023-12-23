@@ -3,7 +3,8 @@
 #微信發圖片
 ip-cidr, 1.58.245.23/24, WeChat
 #微信朋友圈視頻播放
-ip-cidr, 182.50.12.11/24, WeChat
+ip-cidr, 112.86.241.23/24, WeChat
+#ip-cidr, 182.50.12.11/24, WeChat
 #ip-cidr, 218.61.163.43/24, WeChat
 #微信朋友圈視頻縮略圖查看
 ip-cidr, 218.61.162.98/24, WeChat

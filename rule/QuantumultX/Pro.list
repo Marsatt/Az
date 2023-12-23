@@ -1,5 +1,14 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#reddit.com
+host, www.redditstatic.com,C
+host-suffix, redd.it,C
+host-suffix, redditmedia.com,C
+host-suffix, reddit.com,C
+
+#北美論壇
+host, kantie.org,C
+
 #WIKI
 HOST-SUFFIX,mediawiki.org,C
 HOST-SUFFIX,wikibooks.org,C

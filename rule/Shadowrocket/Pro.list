@@ -1,5 +1,14 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#reddit.com
+DOMAIN, www.redditstatic.com
+DOMAIN-SUFFIX, redd.it
+DOMAIN-SUFFIX, redditmedia.com
+DOMAIN-SUFFIX, reddit.com
+
+#北美論壇
+DOMAIN, kantie.org
+
 #WIKI
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
