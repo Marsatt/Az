@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#myfreecams.com
+host-suffix, mfcimg.com,C
+host-suffix, myfreecams.com,C
+
 #reddit.com
 host, www.redditstatic.com,C
 host-suffix, redd.it,C
