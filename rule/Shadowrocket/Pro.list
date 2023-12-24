@@ -1,5 +1,46 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#fbjav.com
+DOMAIN, player.imcontent.me
+DOMAIN, images.imfb.xyz
+DOMAIN, fbjav.com
+DOMAIN, svjav.com
+
+#jable.tv
+DOMAIN-SUFFIX, mushroomtrack.com
+DOMAIN-SUFFIX, jable.tv
+
+#www.xvideos.com
+DOMAIN, www.xvideos.com
+DOMAIN-SUFFIX, xvideos-cdn.com
+
+#www.xnxx.com
+DOMAIN-SUFFIX, xnxx-cdn.com
+DOMAIN, www.xnxx.com
+
+#hplives.com
+DOMAIN, api.lovense-api.com
+DOMAIN-SUFFIX, stripchat.com
+DOMAIN-SUFFIX, doppiocdn.com
+DOMAIN-SUFFIX, doppiocdn.org
+DOMAIN-SUFFIX, sc-apps.com
+DOMAIN-SUFFIX, strpst.com
+DOMAIN, hplives.com
+DOMAIN, hpjav.tv
+
+#cloudflare.com（验证网站）
+DOMAIN-SUFFIX, cloudflare.com
+
+#www.missav.com
+DOMAIN, avdocker.com
+DOMAIN, v.hillwaver.com
+DOMAIN, cdnjs.cloudflare.com
+DOMAIN, a.nel.cloudflare.com
+DOMAIN, client-rapi-missav.recombee.com
+DOMAIN, i.rotriza.com
+DOMAIN-SUFFIX, geekwaver.com
+DOMAIN-SUFFIX, missav.com
+
 #myfreecams.com
 DOMAIN-SUFFIX, mfcimg.com
 DOMAIN-SUFFIX, myfreecams.com

@@ -1,5 +1,46 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#fbjav.com
+host, player.imcontent.me, C
+host, images.imfb.xyz, C
+host, fbjav.com, C
+host, svjav.com, C
+
+#jable.tv
+host-suffix, mushroomtrack.com, C
+host-suffix, jable.tv, C
+
+#www.xvideos.com
+host, www.xvideos.com, C
+host-suffix, xvideos-cdn.com, C
+
+#www.xnxx.com
+host-suffix, xnxx-cdn.com, C
+host, www.xnxx.com, C
+
+#hplives.com
+host, api.lovense-api.com, C
+host-suffix, stripchat.com, C
+host-suffix, doppiocdn.com, C
+host-suffix, doppiocdn.org, C
+host-suffix, sc-apps.com, C
+host-suffix, strpst.com, C
+host, hplives.com, C
+host, hpjav.tv, C
+
+#cloudflare.com（验证网站）
+host-suffix, cloudflare.com, C
+
+#www.missav.com
+host, avdocker.com, C
+host, v.hillwaver.com, C
+host, cdnjs.cloudflare.com, C
+host, a.nel.cloudflare.com, C
+host, client-rapi-missav.recombee.com, C
+host, i.rotriza.com, C
+host-suffix, geekwaver.com, C
+host-suffix, missav.com, C
+
 #myfreecams.com
 host-suffix, mfcimg.com,C
 host-suffix, myfreecams.com,C
