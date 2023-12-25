@@ -1,6 +1,7 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Huya.list
 
 #不卡
+DOMAIN-SUFFIX, bytefcdnrd.com
 DOMAIN-SUFFIX, p2p.huya.com
 
 #虎牙 MACOS

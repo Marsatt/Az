@@ -1,6 +1,7 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Huya.list
 
 #不卡
+host-suffix, bytefcdnrd.com, HuYa
 host-suffix, p2p.huya.com, HuYa
 
 #虎牙 MACOS
