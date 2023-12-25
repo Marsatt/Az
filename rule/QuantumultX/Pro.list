@@ -198,6 +198,12 @@ host, lib-3fsujil5cusci24v775f7qe3.1lib.fr, C
 #油猴
 host, greasyfork.org, C
 host, a.tampermonkey.net, C
+#Greasy Fork 油猴腳本安裝
+host, update.greasyfork.org, C
+#Tampermonkey DouyuEx-鬥魚直播間增強插件
+host, doseeing.com, C
+host, www.doseeing.com, C
+HOST-SUFFIX, doseeing.com, C
 
 #天时，地球看pm2.5
 host, earth.nullschool.net, C

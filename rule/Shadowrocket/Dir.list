@@ -61,13 +61,6 @@ DOMAIN, www.ttson.cn
 #喵软件资源网
 DOMAIN, www.appmiu.com
 
-#Greasy Fork 油猴腳本安裝
-DOMAIN, update.greasyfork.org
-#Tampermonkey DouyuEx-鬥魚直播間增強插件
-DOMAIN, doseeing.com
-DOMAIN, www.doseeing.com
-DOMAIN-SUFFIX, doseeing.com
-
 #有道詞典
 DOMAIN, app-measurement.com
 DOMAIN, shared.ydstatic.com

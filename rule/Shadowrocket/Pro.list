@@ -199,6 +199,12 @@ DOMAIN, lib-3fsujil5cusci24v775f7qe3.1lib.fr
 #油猴
 DOMAIN, greasyfork.org
 DOMAIN, a.tampermonkey.net
+#Greasy Fork 油猴腳本安裝
+DOMAIN, update.greasyfork.org
+#Tampermonkey DouyuEx-鬥魚直播間增強插件
+DOMAIN, doseeing.com
+DOMAIN, www.doseeing.com
+DOMAIN-SUFFIX, doseeing.com
 
 #天时，地球看pm2.5
 DOMAIN, earth.nullschool.net

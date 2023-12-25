@@ -61,13 +61,6 @@ host, www.ttson.cn, 直鏈
 #喵软件资源网
 host, www.appmiu.com, 直鏈
 
-#Greasy Fork 油猴腳本安裝
-host, update.greasyfork.org, 直鏈
-#Tampermonkey DouyuEx-鬥魚直播間增強插件
-host, doseeing.com, 直鏈
-host, www.doseeing.com, 直鏈
-HOST-SUFFIX, doseeing.com, 直鏈
-
 #有道詞典
 host, app-measurement.com, 直鏈
 host, shared.ydstatic.com, 直鏈
