@@ -1,20 +1,19 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Huya.list
 
+#不卡
+DOMAIN-SUFFIX, p2p.huya.com
+
 #虎牙 MACOS
 #虎牙 視頻連結地址
-DOMAIN-SUFFIX, xycdn.com
-DOMAIN-SUFFIX, szbdyd.com
-DOMAIN-SUFFIX, bytefcdnrd.com
-DOMAIN-SUFFIX, livehwc3.cn
-#DOMAIN, metric.huya.com
-#DOMAIN, statwup.huya.com
-#DOMAIN-SUFFIX, v.smtcdns.net
-DOMAIN-SUFFIX, node.ppio.cloud
+#DOMAIN-SUFFIX, xycdn.com
+#DOMAIN-SUFFIX, szbdyd.com
+#DOMAIN-SUFFIX, bytefcdnrd.com
+#DOMAIN-SUFFIX, livehwc3.cn
+#DOMAIN-SUFFIX, node.ppio.cloud
 
 
 #打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
 DOMAIN-SUFFIX, smtcdns.net
-#DOMAIN-SUFFIX, v.smtcdns.net
 
 #虎牙主播信息日誌
 DOMAIN, ylog.huya.com
