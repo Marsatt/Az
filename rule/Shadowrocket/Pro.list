@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#afreecatv
+DOMAIN-SUFFIX, afreecatv.com
+
 #fbjav.com
 DOMAIN, player.imcontent.me
 DOMAIN, images.imfb.xyz
