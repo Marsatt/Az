@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#mega下載網站
+DOMAIN, mega.nz
+DOMAIN-SUFFIX, mega.co.nz
+
 #afreecatv
 DOMAIN-SUFFIX, afreecatv.com
 

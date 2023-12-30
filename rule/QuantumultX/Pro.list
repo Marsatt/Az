@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#mega下載網站
+host, mega.nz, C
+host-suffix, mega.co.nz, C
+
 #afreecatv
 host-suffix, afreecatv.com, C
 
