@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#開源播放器iina
+host, www.iina.io, C
+
 #mega下載網站
 host, mega.nz, C
 host-suffix, mega.co.nz, C
