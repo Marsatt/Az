@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pinduoduo.list
 
+IP-CIDR,153.3.240.57/24, no-resolve
+IP-CIDR,114.110.97.97/24, no-resolve
+IP-CIDR,220.196.137.227/24, no-resolve
+IP-CIDR,114.110.97.30/24, no-resolve
 DOMAIN-SUFFIX,pddpic.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,pinduoduo.net

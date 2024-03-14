@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pinduoduo.list
 
+ip-cidr,153.3.240.57/24,Pinduoduo
+ip-cidr,114.110.97.97/24,Pinduoduo
+ip-cidr,220.196.137.227/24,Pinduoduo
+ip-cidr,114.110.97.30/24,Pinduoduo
 HOST-SUFFIX,pddpic.com,Pinduoduo
 HOST-SUFFIX,pinduoduo.com,Pinduoduo
 HOST-SUFFIX,pinduoduo.net,Pinduoduo
