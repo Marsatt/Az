@@ -1,34 +1,12 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Douyin.list
-
-#bbc
-IP-CIDR, 218.24.90.125/24, no-resolve
-#黃毅
-IP-CIDR, 113.2.129.180/24, no-resolve
-#夜楓
-IP-CIDR, 221.211.234.11/24, no-resolve
-#KYO直播間
-IP-CIDR, 219.154.251.164/24, no-resolve
-
-
-#抖音官網
-DOMAIN, www.douyin.com
-
-#字節跳動-抖音-今日頭條，
-DOMAIN, lf-cdn-tos.bytescm.com
-DOMAIN, lf3-static.bytednsdoc.com
-DOMAIN, lf3-cdn-tos.bytescm.com
-DOMAIN, lf3-cdn-tos.bytegoofy.com
-DOMAIN, lf6-cdn-tos.bytegoofy.com
-
-DOMAIN, api64.com
-
-#抖音打開app 帳號掉了
-IP-CIDR, 34.102.215.99/24, no-resolve
-#抖音直播
-DOMAIN, live.douyin.com
-#必須連接阿里巴巴廣告
-DOMAIN, v2kylh81fh0r3c4u18gnzvipw36j5w4ei.mobgslb.tbcache.com
-
+# NAME: DouYin
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-25 16:05:10
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 11
+# TOTAL: 13
+DOMAIN,lf3-static.bytednsdoc.com
+DOMAIN,v5-dy-o-abtest.zjcdn.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinpic.com

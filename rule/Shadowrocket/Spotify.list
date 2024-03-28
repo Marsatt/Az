@@ -1,13 +1,16 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Spotify.list
-
-DOMAIN,adeventtracker.spotify.com
-DOMAIN,adstudio-assets.scdn.co
-DOMAIN,audio-ak-spotify-com.akamaized.net
+# NAME: Spotify
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-25 16:02:58
+# DOMAIN: 6
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 19
+# IP-CIDR: 2
+# USER-AGENT: 1
+# TOTAL: 30
 DOMAIN,audio4-ak-spotify-com.akamaized.net
-DOMAIN,bloodhound.spotify.com
 DOMAIN,cdn-spotify-experiments.conductrics.com
 DOMAIN,heads-ak-spotify-com.akamaized.net
-DOMAIN,heads4-ak-spotify-com.akamaized.net
 DOMAIN,spotify.com.edgesuite.net
 DOMAIN,spotify.map.fastly.net
 DOMAIN,spotify.map.fastlylb.net
