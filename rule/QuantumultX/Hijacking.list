@@ -1,5 +1,11 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Hijacking.list
-
+# NAME: Hijacking
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-25 16:01:02
+# HOST: 1
+# HOST-SUFFIX: 185
+# IP-CIDR: 42
+# TOTAL: 228
 HOST,geo2.adobe.com,Hijacking
 HOST-SUFFIX,17gouwuba.com,Hijacking
 HOST-SUFFIX,186078.com,Hijacking

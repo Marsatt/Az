@@ -29,6 +29,15 @@ ip-cidr, 124.95.177.51/24, WeChat
 #微信餘額顯示
 host, szshort.mixpay.wechatpay.cn, WeChat
 
+# NAME: WeChat
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-25 16:04:37
+# HOST: 18
+# HOST-SUFFIX: 22
+# IP-ASN: 1
+# USER-AGENT: 2
+# TOTAL: 43
 HOST,apd-pcdnwxlogin.teg.tencent-cloud.net,WeChat
 HOST,btrace.qq.com,WeChat
 HOST,dl.wechat.com,WeChat

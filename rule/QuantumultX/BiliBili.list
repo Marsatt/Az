@@ -1,5 +1,12 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/BiliBili.list
-
+# NAME: BiliBili
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-25 16:03:04
+# HOST: 53
+# HOST-SUFFIX: 62
+# IP-CIDR: 8
+# USER-AGENT: 4
+# TOTAL: 127
 HOST,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com,BiliBili
 HOST,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com,BiliBili
@@ -92,6 +99,7 @@ HOST-SUFFIX,biligame.com,BiliBili
 HOST-SUFFIX,biligame.net,BiliBili
 HOST-SUFFIX,biligo.com,BiliBili
 HOST-SUFFIX,biliimg.com,BiliBili
+HOST-SUFFIX,biliintl.co,BiliBili
 HOST-SUFFIX,biliintl.com,BiliBili
 HOST-SUFFIX,biliplus.com,BiliBili
 HOST-SUFFIX,bilivideo.cn,BiliBili

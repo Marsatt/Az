@@ -29,24 +29,23 @@ IP-CIDR, 124.95.177.51/24,no-resolve
 #微信餘額顯示
 DOMAIN, szshort.mixpay.wechatpay.cn
 
+# NAME: WeChat
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-25 16:04:37
+# DOMAIN: 8
+# DOMAIN-SUFFIX: 22
+# IP-ASN: 1
+# USER-AGENT: 2
+# TOTAL: 33
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
-DOMAIN,dl.wechat.com
 DOMAIN,dldir1.qq.com
-DOMAIN,sgfindershort.wechat.com
-DOMAIN,sgilinkshort.wechat.com
-DOMAIN,sglong.wechat.com
-DOMAIN,sgminorshort.wechat.com
-DOMAIN,sgquic.wechat.com
-DOMAIN,sgshort.wechat.com
 DOMAIN,slife.xy-asia.com
 DOMAIN,soup.v.qq.com
-DOMAIN,tencentmap.wechat.com
 DOMAIN,vweixinf.tc.qq.com
 DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
-DOMAIN,wx.tenpay.com
-DOMAIN,wxapp.tc.qq.com
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
