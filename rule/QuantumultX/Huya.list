@@ -1,5 +1,10 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Huya.list
 
+ip-cidr, 211.91.243.92/24, HuYa
+ip-cidr, 124.95.162.117/24, HuYa
+ip-cidr, 42.81.4.30/24, HuYa
+ip-cidr, 60.223.217.248/24, HuYa
+
 #不卡
 host-suffix, bytefcdnrd.com, HuYa
 host-suffix, p2p.huya.com, HuYa
