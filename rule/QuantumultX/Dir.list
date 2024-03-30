@@ -3,6 +3,11 @@
 #蘋果天氣定位需要走阿里巴巴直鏈服務
 host, dispatcher.is.autonavi.com, 直鏈
 
+#油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
+host, www.doseeing.com, 直鏈
+host, www.douyuex.com, 直鏈
+host, doseeing.com, 直鏈
+
 #opencat
 host, api.opencat.app, 直鏈
 #opencat 工坊服务
@@ -125,8 +130,3 @@ host, www.ahhhhfs.com, 直鏈
 #繁體簡體互換網站
 host, youtils.cc, 直鏈
 
-#油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
-host, www.douyuex.com, 直鏈
-host, doseeing.com, 直鏈
-host, www.doseeing.com, 直鏈
-HOST-SUFFIX, doseeing.com, 直鏈
