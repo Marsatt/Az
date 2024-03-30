@@ -125,12 +125,6 @@ DOMAIN, www.ahhhhfs.com
 #繁體簡體互換網站
 DOMAIN, youtils.cc
 
-#油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
-DOMAIN, www.doseeing.com
-DOMAIN, www.douyuex.com
-DOMAIN, doseeing.com
-#DOMAIN-SUFFIX, doseeing.com
-
 
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
