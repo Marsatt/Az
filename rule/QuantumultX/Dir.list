@@ -20,6 +20,11 @@ host, meijuresources.smartmidea.net, 直鏈
 host, apapia-history.manmanbuy.com, 直鏈
 
 #阿里小号
+host, acs.m.taobao.com
+host, zconfig.alibabausercontent.com
+host, h-adashx.ut.taobao.com
+host, adashx.m.taobao.com
+host, ynuf.aliapp.org
 ip-cidr, 59.82.122.5/24, 直鏈
 
 #邮件APP绑定新浪邮箱

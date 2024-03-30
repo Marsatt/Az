@@ -20,7 +20,12 @@ DOMAIN, meijuresources.smartmidea.net
 DOMAIN, apapia-history.manmanbuy.com
 
 #阿里小号
-IP-CIDR, 59.82.122.5/24
+DOMAIN, acs.m.taobao.com
+DOMAIN, zconfig.alibabausercontent.com
+DOMAIN, h-adashx.ut.taobao.com
+DOMAIN, adashx.m.taobao.com
+DOMAIN, ynuf.aliapp.org
+IP-CIDR, 59.82.122.5/24,no-resolve
 
 #邮件APP绑定新浪邮箱
 DOMAIN, pop.sina.com
