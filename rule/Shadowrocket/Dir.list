@@ -87,14 +87,14 @@ DOMAIN, plugin.myip.ms
 
 #IP
 #書籤-工具-it-ip-DNS是否洩漏查詢。
-DOMAIN, ipleak.net
+#DOMAIN, ipleak.net
 
 #書籤-工具-it-ip是否欺詐查詢。
-DOMAIN, scamalytics.com
+#DOMAIN, scamalytics.com
 
 #書籤-工具-it-ip欺詐類型查看。
-DOMAIN, ipinfo.io
-DOMAIN, website-cdn.ipinfo.io
+#DOMAIN, ipinfo.io
+#DOMAIN, website-cdn.ipinfo.io
 
 #書籤-工具-it-ip，測試網站在全國是否可以直鏈。
 DOMAIN, www.itdog.cn
@@ -156,22 +156,3 @@ IP-CIDR6,::1/128,no-resolve
 IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
 IP-CIDR6,fd00::/8,no-resolve
-
-# Router managed 路由器管理域名
-DOMAIN,instant.arubanetworks.com
-DOMAIN,setmeup.arubanetworks.com
-DOMAIN,router.asus.com
-DOMAIN,www.asusrouter.com
-DOMAIN-SUFFIX,hiwifi.com
-DOMAIN-SUFFIX,leike.cc
-DOMAIN-SUFFIX,miwifi.com
-DOMAIN-SUFFIX,my.router
-DOMAIN-SUFFIX,p.to
-DOMAIN-SUFFIX,peiluyou.com
-DOMAIN-SUFFIX,phicomm.me
-DOMAIN-SUFFIX,router.ctc
-DOMAIN-SUFFIX,routerlogin.com
-DOMAIN-SUFFIX,tendawifi.com
-DOMAIN-SUFFIX,zte.home
-DOMAIN-SUFFIX,tplogin.cn
-DOMAIN-SUFFIX,wifi.cmcc
