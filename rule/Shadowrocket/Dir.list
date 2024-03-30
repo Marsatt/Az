@@ -129,7 +129,7 @@ DOMAIN, youtils.cc
 DOMAIN, www.douyuex.com
 DOMAIN, doseeing.com
 DOMAIN, www.doseeing.com
-DOMAIN-SUFFIX, doseeing.com
+#DOMAIN-SUFFIX, doseeing.com
 
 
 # 本地/局域网地址
