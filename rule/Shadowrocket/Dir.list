@@ -20,9 +20,6 @@ DOMAIN, meijuresources.smartmidea.net
 DOMAIN, apapia-history.manmanbuy.com
 
 #阿里小号
-#DOMAIN, zconfig.alibabausercontent.com
-#DOMAIN, adashx.m.taobao.com
-#DOMAIN, ynuf.aliapp.org
 DOMAIN, acs.m.taobao.com
 DOMAIN, h-adashx.ut.taobao.com
 IP-CIDR, 139.215.162.204/24,no-resolve
