@@ -1,5 +1,9 @@
 #天氣預報正常顯示
 DOMAIN, weather-analytics-events.apple.com
+DOMAIN, dispatcher.is.autonavi.com
+DOMAIN, ocsp.digicert.com
+DOMAIN, ocsp2.apple.com
+DOMAIN, weather-data.apple.com
 
 # NAME: Apple
 # AUTHOR: blackmatrix7
