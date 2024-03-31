@@ -1,5 +1,6 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Douyu.list
 
+IP-CIDR, 119.167.203.50/24, no-resolve
 IP-CIDR, 59.80.47.38/24, no-resolve
 IP-CIDR, 153.99.30.158/24, no-resolve
 IP-CIDR, 58.144.227.19/24, no-resolve
