@@ -121,9 +121,6 @@ IP-CIDR,103.41.167.234/31,直鏈
 IP-CIDR,103.41.167.236/32,直鏈
 IP-CIDR,118.89.204.198/32,直鏈
 
-#剪影字幕提取網站
-host, jy.mzh.ren, 直鏈
-
 #www.ahhhhfs.com 資源網站
 host, www.ahhhhfs.com, 直鏈
 
