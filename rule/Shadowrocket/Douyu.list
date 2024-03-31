@@ -1,12 +1,12 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Douyu.list
 
-ip-cidr, 59.80.47.38/24, no-resolve
-ip-cidr, 153.99.30.158/24, no-resolve
-ip-cidr, 58.144.227.19/24, no-resolve
-ip-cidr, 122.189.224.112/24, no-resolve
-ip-cidr, 116.148.164.27/24, no-resolve
-ip-cidr, 119.167.203.50/24, no-resolve
-ip-cidr, 61.162.174.168/24, no-resolve
+IP-CIDR, 59.80.47.38/24, no-resolve
+IP-CIDR, 153.99.30.158/24, no-resolve
+IP-CIDR, 58.144.227.19/24, no-resolve
+IP-CIDR, 122.189.224.112/24, no-resolve
+IP-CIDR, 116.148.164.27/24, no-resolve
+IP-CIDR, 119.167.203.50/24, no-resolve
+IP-CIDR, 61.162.174.168/24, no-resolve
 
 #鬥魚 IOS
 #線路5、13，包括原畫2k60。
