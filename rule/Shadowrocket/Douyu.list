@@ -1,4 +1,7 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Douyu.list
+IP-CIDR, 58.144.226.4/24, no-resolve
+
+DOMAIN, dotcounter.douyucdn.cn
+DOMAIN, dotserver.douyucdn.cn
 
 #鬥魚 MACOS
 #鬥魚 視頻連結地址
