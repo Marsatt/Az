@@ -1,5 +1,7 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Huya.list
 
+ip-cidr, 125.39.47.248/24, no-resolve
+ip-cidr, 183.232.11.4/24, no-resolve
 ip-cidr, 211.91.243.92/24, no-resolve
 ip-cidr, 124.95.162.117/24, no-resolve
 ip-cidr, 42.81.4.30/24, no-resolve
