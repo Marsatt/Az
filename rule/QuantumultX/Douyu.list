@@ -1,8 +1,5 @@
 ip-cidr, 58.144.226.4/24, Douyu
 
-host,  dotcounter.douyucdn.cn, Douyu
-host,  dotserver.douyucdn.cn, Douyu
-
 #鬥魚 MACOS
 #鬥魚 視頻連結地址
 host-suffix, edgesrv.com, Douyu
