@@ -1,8 +1,8 @@
 #163
-host, m.163.com
+host, m.163.com, 攔截
 
 #sina
-host, sina.com
+host, sina.com, 攔截
 
 #Chrome插件-Ghostery数据传输
 host, cdn2.ghostery.com, 攔截

@@ -1,9 +1,9 @@
 #天氣預報正常顯示
-HOST, weather-analytics-events.apple.com
-HOST, dispatcher.is.autonavi.com
-HOST, ocsp.digicert.com
-HOST, ocsp2.apple.com
-HOST, weather-data.apple.com
+HOST, weather-analytics-events.apple.com,Apple
+HOST, dispatcher.is.autonavi.com,Apple
+HOST, ocsp.digicert.com,Apple
+HOST, ocsp2.apple.com,Apple
+HOST, weather-data.apple.com,Apple
 
 # NAME: Apple
 # AUTHOR: blackmatrix7

@@ -169,8 +169,8 @@ host, custom-progressbar.com, C
 #Stream Found
 host, www.hlsloader.com, C
 #Language Reactor
-host, api-cdn.dioco.io
-host, api.dioco.io
+host, api-cdn.dioco.io, C
+host, api.dioco.io, C
 host, lb.dioco.io, C
 host, forum.languagelearningwithnetflix.com, C
 host, www.languagereactor.com, C
