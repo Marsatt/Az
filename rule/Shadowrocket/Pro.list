@@ -186,21 +186,8 @@ DOMAIN, appagg.com
 DOMAIN, cdnkey.appsliced.co, 直鏈
 DOMAIN, appsliced.co, 直鏈
 
-#Serhiy 的一個個人網站，其中包含他開發的各種 API。Serhiy 是一位來自烏克蘭的軟件工程師，他喜歡開發 API。
-#DOMAIN, api.serhiy.io
-
 #YouTuBe 雙語翻譯
 DOMAIN, extension.dioco.io
-
-#TikTok 网页版
-DOMAIN, sf16-website-login.neutral.ttwstatic.com
-
-#剪影字幕
-DOMAIN-SUFFIX, capcut.com
-
-#TikTok视频无水印下载
-DOMAIN, savetik.net
-DOMAIN, snapxcdn.com
 
 #Z-Libly图书馆
 DOMAIN, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu

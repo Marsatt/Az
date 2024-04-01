@@ -186,21 +186,8 @@ host, appagg.com, C
 host, cdnkey.appsliced.co, C
 host, appsliced.co, C
 
-#Serhiy 的一個個人網站，其中包含他開發的各種 API。Serhiy 是一位來自烏克蘭的軟件工程師，他喜歡開發 API。
-#host, api.serhiy.io, C
-
 #YouTuBe 雙語翻譯
 host, extension.dioco.io, C
-
-#TikTok 网页版
-host, sf16-website-login.neutral.ttwstatic.com, C
-
-#剪影字幕
-host-suffix, capcut.com, C
-
-#TikTok视频无水印下载
-host, savetik.net, C
-host, snapxcdn.com, C
 
 #Z-Libly图书馆
 host, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu, C
