@@ -163,8 +163,6 @@ host-suffix, hv.xconvert.com, C
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
 host, geoip.furman.im, C
-#chrome瀏覽器，Language Reactor翻譯工具。
-host, lb.dioco.io, C
 #蠱惑狼進度條
 host, custom-progress-bar.com, C
 host, custom-progressbar.com, C
@@ -173,6 +171,7 @@ host, www.hlsloader.com, C
 #Language Reactor
 host, api-cdn.dioco.io
 host, api.dioco.io
+host, lb.dioco.io, C
 host, forum.languagelearningwithnetflix.com, C
 host, www.languagereactor.com, C
 #TwitchVodDownload

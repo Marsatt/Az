@@ -130,7 +130,6 @@ DOMAIN, www.ldoceonline.com
 #柯林斯
 DOMAIN, www.collinsdictionary.com
 
-
 #github拉庫
 DOMAIN-SUFFIX, ghproxy.com
 
@@ -164,8 +163,6 @@ DOMAIN-SUFFIX, hv.xconvert.com
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
 DOMAIN, geoip.furman.im
-#chrome瀏覽器，Language Reactor翻譯工具。
-DOMAIN, lb.dioco.io
 #蠱惑狼進度條
 DOMAIN, custom-progress-bar.com
 DOMAIN, custom-progressbar.com
@@ -174,6 +171,7 @@ DOMAIN, www.hlsloader.com
 #Language Reactor
 DOMAIN, api-cdn.dioco.io
 DOMAIN, api.dioco.io
+DOMAIN, lb.dioco.io
 DOMAIN, forum.languagelearningwithnetflix.com
 DOMAIN, www.languagereactor.com
 #TwitchVodDownload
