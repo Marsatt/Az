@@ -1,7 +1,7 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Dir.list
 
-#蘋果天氣定位需要走阿里巴巴直鏈服務
-#DOMAIN, dispatcher.is.autonavi.com
+#蘋果
+DOMAIN, apple.com.cn
 
 #油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
 DOMAIN, www.doseeing.com
