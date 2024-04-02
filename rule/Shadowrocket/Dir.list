@@ -1,9 +1,11 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Dir.list
 
 #NIKE
+DOMAIN, nike.com.cn
 DOMAIN, www.nike.com.cn
 
 #adidas
+DOMAIN, adidas.com.cn
 DOMAIN, www.adidas.com.cn
 
 #蘋果
