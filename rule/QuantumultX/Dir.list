@@ -1,7 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Dir.list
 
 #蘋果
-#host, apple.com.cn, 直鏈
+host, www.apple.com.cn, 直鏈
+host, apple.com.cn, 直鏈
 
 #油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
 host, www.doseeing.com, 直鏈
