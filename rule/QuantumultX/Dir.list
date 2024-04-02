@@ -1,12 +1,12 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Dir.list
 
 #NIKE
-host, nike.com.cn, 直鏈
-host, www.nike.com.cn, 直鏈
+HOST-SUFFIX, nike.com.cn, 直鏈
+HOST-SUFFIX, www.nike.com.cn, 直鏈
 
 #adidas
-host, adidas.com.cn, 直鏈
-host, www.adidas.com.cn, 直鏈
+HOST-SUFFIX, adidas.com.cn, 直鏈
+HOST-SUFFIX, www.adidas.com.cn, 直鏈
 
 #蘋果
 host, www.apple.com.cn, 直鏈
