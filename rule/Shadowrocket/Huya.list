@@ -1,5 +1,13 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Huya.list
 
+IP-CIDR, 61.240.142.31/24, no-resolve
+IP-CIDR, 112.83.136.145/24, no-resolve
+IP-CIDR, 116.142.235.243/24, no-resolve
+IP-CIDR, 116.142.234.221/4, no-resolve
+IP-CIDR, 124.95.157.229/24, no-resolve
+IP-CIDR, 218.12.89.88/24, no-resolve
+IP-CIDR, 221.224.190.39/24, no-resolve
+
 IP-CIDR, 125.39.47.248/24, no-resolve
 IP-CIDR, 183.232.11.4/24, no-resolve
 IP-CIDR, 211.91.243.92/24, no-resolve
@@ -26,8 +34,8 @@ DOMAIN-SUFFIX, smtcdns.net
 #虎牙主播信息日誌
 DOMAIN, ylog.huya.com
 
-DOMAIN-SUFFIX,huya.com
-DOMAIN-SUFFIX,huyagame.cn
-DOMAIN-SUFFIX,msstatic.com
-DOMAIN-SUFFIX,peiwanlu.com
-DOMAIN-SUFFIX,snapplay.com
+DOMAIN-SUFFIX, huya.com
+DOMAIN-SUFFIX, huyagame.cn
+DOMAIN-SUFFIX, msstatic.com
+DOMAIN-SUFFIX, peiwanlu.com
+DOMAIN-SUFFIX, snapplay.com
