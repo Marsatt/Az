@@ -1,19 +1,22 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Huya.list
 
-ip-cidr, 61.240.142.31/24, HuYa
-ip-cidr, 112.83.136.145/24, HuYa
-ip-cidr, 116.142.235.243/24, HuYa
-ip-cidr, 116.142.234.221/4, HuYa
-ip-cidr, 124.95.157.229/24, HuYa
-ip-cidr, 218.12.89.88/24, HuYa
-ip-cidr, 221.224.190.39/24, HuYa
-
-ip-cidr, 125.39.47.248/24, HuYa
-ip-cidr, 183.232.11.4/24, HuYa
-ip-cidr, 211.91.243.92/24, HuYa
-ip-cidr, 124.95.162.117/24, HuYa
 ip-cidr, 42.81.4.30/24, HuYa
+ip-cidr, 59.36.216.78/24, HuYa
 ip-cidr, 60.223.217.248/24, HuYa
+ip-cidr, 61.240.142.31/24, HuYa
+ip-cidr, 110.6.159.114/24, HuYa
+ip-cidr, 112.83.136.145/24, HuYa
+ip-cidr, 116.142.234.221/24, HuYa
+ip-cidr, 116.142.235.243/24, HuYa
+ip-cidr, 124.95.157.229/24, HuYa
+ip-cidr, 124.95.162.117/24, HuYa
+ip-cidr, 125.39.47.248/24, HuYa
+ip-cidr, 175.6.41.180/24, HuYa
+ip-cidr, 183.232.11.48/24, HuYa
+ip-cidr, 218.12.89.88/24, HuYa
+ip-cidr, 211.91.243.92/24, HuYa
+ip-cidr, 221.224.190.39/24, HuYa
+ip-cidr, 223.87.182.197/24, HuYa
 
 #不卡
 host-suffix, bytefcdnrd.com, HuYa
