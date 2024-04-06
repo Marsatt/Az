@@ -1,5 +1,9 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#MacOS破解網站
+host, appstorrent.ru, C
+host, xmac.app, C
+
 #開源播放器iina
 host, www.iina.io, C
 
