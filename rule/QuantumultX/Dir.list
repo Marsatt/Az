@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Dir.list
 
+#阿里网盘
+host, alipan.com, 直鏈
+
 #NIKE
 HOST-SUFFIX, nike.com.cn, 直鏈
 HOST-SUFFIX, www.nike.com.cn, 直鏈
