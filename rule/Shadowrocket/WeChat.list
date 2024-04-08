@@ -1,51 +1,30 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/WeChat.list
+#QuantumultX
 
-#微信朋友圈视频缩略图+播放
-IP-CIDR, 139.215.148.151/24,no-resolve
-#微信發圖片
-IP-CIDR, 1.58.245.23/24,no-resolve
-#微信 看朋友圈
-IP-CIDR, 112.82.204.93/24,no-resolve
-#微信朋友圈視頻播放
-IP-CIDR, 112.86.241.23/24,no-resolve
-#微信朋友圈視頻縮略圖查看
-IP-CIDR, 218.61.162.98/24,no-resolve
-#微信視頻號
-IP-CIDR, 116.140.44.238/24,no-resolve
-#微信紅包發送
-DOMAIN, szshort.snspay.wechatpay.cn
-#微信顯示視頻
-IP-CIDR, 153.3.246.54/24,no-resolve
-IP-CIDR, 218.60.51.40/24,no-resolve
-#微信 附近的人加好友
-IP-CIDR, 36.155.202.83/24,no-resolve
-#微信 发送gif
-IP-CIDR, 124.95.173.56/24,no-resolve
-IP-CIDR, 202.97.231.99/24,no-resolve
-#微信 接收gif
-DOMAIN, vweixinf.tc.qq.com
-#微信 收发视频
-IP-CIDR, 124.95.177.51/24,no-resolve
-#微信餘額顯示
-DOMAIN, szshort.mixpay.wechatpay.cn
 
-# NAME: WeChat
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:04:37
-# DOMAIN: 8
-# DOMAIN-SUFFIX: 22
-# IP-ASN: 1
-# USER-AGENT: 2
-# TOTAL: 33
+
+
+
+
+
+
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,btrace.qq.com
+DOMAIN,dl.wechat.com
 DOMAIN,dldir1.qq.com
+DOMAIN,sgfindershort.wechat.com
+DOMAIN,sgilinkshort.wechat.com
+DOMAIN,sglong.wechat.com
+DOMAIN,sgminorshort.wechat.com
+DOMAIN,sgquic.wechat.com
+DOMAIN,sgshort.wechat.com
 DOMAIN,slife.xy-asia.com
 DOMAIN,soup.v.qq.com
+DOMAIN,tencentmap.wechat.com
 DOMAIN,vweixinf.tc.qq.com
 DOMAIN,weixin110.qq.com
 DOMAIN,wup.imtt.qq.com
+DOMAIN,wx.tenpay.com
+DOMAIN,wxapp.tc.qq.com
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
@@ -71,3 +50,41 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
 IP-ASN,132203,no-resolve
+
+#微信 消息顯示視頻
+IP-CIDR, 153.3.246.54/24,no-resolve
+IP-CIDR, 218.60.51.40/24,no-resolve
+#微信 朋友圈视频圖片顯示播放
+IP-CIDR, 139.215.148.151/24,no-resolve
+IP-CIDR, 112.86.241.23/24,no-resolve
+IP-CIDR, 218.61.162.98/24,no-resolve
+#微信 收發圖片
+IP-CIDR, 1.58.245.23/24,no-resolve
+#微信 收發视频
+IP-CIDR, 157.255.2.150/24,no-resolve
+IP-CIDR, 116.140.44.101/24,no-resolve
+IP-CIDR, 153.3.244.78/24,no-resolve
+IP-CIDR, 124.95.177.51/24,no-resolve
+#微信 发送gif
+IP-CIDR, 124.95.173.56/24,no-resolve
+IP-CIDR, 202.97.231.99/24,no-resolve
+#微信 接收gif
+DOMAIN, vweixinf.tc.qq.com
+#微信 看朋友圈
+IP-CIDR, 112.82.204.93/24,no-resolve
+#微信 視頻號
+IP-CIDR, 116.140.44.238/24,no-resolve
+#微信 附近的人加好友
+IP-CIDR, 36.155.202.83/24,no-resolve
+#微信 餘額顯示
+DOMAIN, szshort.mixpay.wechatpay.cn
+#微信 紅包發送
+DOMAIN, szshort.snspay.wechatpay.cn
+
+
+
+
+
+
+
+
