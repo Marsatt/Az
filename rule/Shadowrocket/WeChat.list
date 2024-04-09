@@ -61,6 +61,7 @@ IP-CIDR, 218.60.51.117/24, no-resolve
 IP-CIDR, 139.215.148.151/24, no-resolve
 IP-CIDR, 112.86.241.23/24, no-resolve
 IP-CIDR, 218.61.162.98/24, no-resolve
+IP-CIDR, 218.61.163.88/24, no-resolve
 #微信 收發圖片
 IP-CIDR, 1.58.245.23/24, no-resolve
 #微信 收發视频
