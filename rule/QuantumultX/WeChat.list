@@ -55,6 +55,9 @@ IP-ASN,132203,WeChat
 ip-cidr, 153.3.246.54/24, WeChat
 ip-cidr, 218.60.51.40/24, WeChat
 #微信 朋友圈视频圖片顯示播放
+ip-cidr, 116.140.44.91/24, WeChat
+ip-cidr, 112.86.241.23/24, WeChat
+ip-cidr, 218.60.51.117/24, WeChat
 ip-cidr, 139.215.148.151/24, WeChat
 ip-cidr, 112.86.241.23/24, WeChat
 ip-cidr, 218.61.162.98/24, WeChat
