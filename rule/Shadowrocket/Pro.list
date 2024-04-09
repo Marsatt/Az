@@ -180,7 +180,7 @@ DOMAIN, lb.dioco.io
 DOMAIN, forum.languagelearningwithnetflix.com
 DOMAIN, www.languagereactor.com
 #TwitchVodDownload
-DOMAIN, streamrecorder.io
+DOMAIN-SUFFIX, streamrecorder.io
 DOMAIN, streamscharts.com
 DOMAIN, sullygnome.com
 DOMAIN, sullygnome.com
