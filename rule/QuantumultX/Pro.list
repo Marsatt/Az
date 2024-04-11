@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#IMDB
+host, www.imdb.com, C
+
 #MacOS破解網站
 host, appstorrent.ru, C
 host, xmac.app, C

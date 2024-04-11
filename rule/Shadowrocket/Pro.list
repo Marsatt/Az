@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#IMDB
+DOMAIN, www.imdb.com
+
 #MacOS破解網站
 DOMAIN, appstorrent.ru
 DOMAIN, xmac.app
