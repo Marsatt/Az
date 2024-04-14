@@ -177,6 +177,7 @@ host, custom-progressbar.com, C
 #Stream Found
 host, www.hlsloader.com, C
 #Language Reactor
+host, api-cdn-plus.dioco.io, C
 host, api-cdn.dioco.io, C
 host, api.dioco.io, C
 host, lb.dioco.io, C
