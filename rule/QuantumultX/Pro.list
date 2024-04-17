@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#udio AI音乐制作
+host, www.udio.com, C
+
 #IMDB
 host, www.imdb.com, C
 
