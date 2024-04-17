@@ -2,7 +2,7 @@
 
 #udio AI音乐制作
 host, www.udio.com, C
-host, api.udio.com, C
+host-suffix, api.udio.com, C
 
 #IMDB
 host, www.imdb.com, C

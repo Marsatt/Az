@@ -2,7 +2,7 @@
 
 #udio AI音乐制作
 DOMAIN, www.udio.com
-DOMAIN, api.udio.com
+DOMAIN-SUFFIX, api.udio.com
 
 #IMDB
 DOMAIN, www.imdb.com
