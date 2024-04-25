@@ -11,7 +11,7 @@ DOMAIN, www.udio.com
 DOMAIN-SUFFIX, api.udio.com
 
 #suno AI音乐制作
-DOMAIN, www.suno.ai
+DOMAIN-SUFFIX, www.suno.ai
 
 #IMDB
 DOMAIN, www.imdb.com
