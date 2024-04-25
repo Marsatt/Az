@@ -10,6 +10,9 @@ DOMAIN-SUFFIX, boxjs.com
 DOMAIN, www.udio.com
 DOMAIN-SUFFIX, api.udio.com
 
+#suno AI音乐制作
+DOMAIN, suno.ai
+
 #IMDB
 DOMAIN, www.imdb.com
 
