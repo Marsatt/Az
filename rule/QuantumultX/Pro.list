@@ -11,7 +11,7 @@ host, www.udio.com, C
 host-suffix, api.udio.com, C
 
 #suno AI音乐制作
-host, suno.ai, C
+host-suffix, suno.ai, C
 
 #IMDB
 host, www.imdb.com, C
