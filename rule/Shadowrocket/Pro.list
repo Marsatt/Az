@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
+#TTS
+DOMAIN, voice.wangwangit.com
+
 #groq
 DOMAIN, api.groq.com
 
