@@ -1,82 +1,10 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Huya.list
-
-ip-cidr, 14.119.106.93/24, HuYa
-ip-cidr, 14.204.143.155/24, HuYa
-ip-cidr, 14.204.143.156/24, HuYa
-ip-cidr, 36.150.54.196/24, HuYa
-ip-cidr, 36.248.38.141/24, HuYa
-ip-cidr, 42.81.4.30/24, HuYa
-ip-cidr, 58.144.173.88/24, HuYa
-ip-cidr, 59.36.216.78/24, HuYa
-ip-cidr, 60.28.203.142/24, HuYa
-ip-cidr, 60.223.217.248/24, HuYa
-ip-cidr, 61.156.170.42/24, HuYa
-ip-cidr, 61.163.171.167/24, HuYa
-ip-cidr, 61.182.138.172/24, HuYa
-ip-cidr, 61.240.142.31/24, HuYa
-ip-cidr, 110.6.159.114/24, HuYa
-ip-cidr, 112.83.136.145/24, HuYa
-ip-cidr, 115.236.136.69/24, HuYa
-ip-cidr, 116.136.205.248/24, HuYa
-ip-cidr, 116.142.234.221/24, HuYa
-ip-cidr, 116.142.235.243/24, HuYa
-ip-cidr, 119.6.224.90/24, HuYa
-ip-cidr, 119.39.120.82/24, HuYa
-ip-cidr, 120.201.250.8/24, HuYa
-ip-cidr, 120.233.147.213/24, HuYa
-ip-cidr, 122.96.235.180/24, HuYa
-ip-cidr, 122.96.235.181/24, HuYa
-ip-cidr, 123.6.67.69/24, HuYa
-ip-cidr, 124.95.157.229/24, HuYa
-ip-cidr, 124.95.160.248/24, HuYa
-ip-cidr, 124.95.162.117/24, HuYa
-ip-cidr, 124.95.172.117/24, HuYa
-ip-cidr, 124.236.99.46/24, HuYa
-ip-cidr, 124.236.102.199/24, HuYa
-ip-cidr, 125.38.11.243/24, HuYa
-ip-cidr, 125.39.47.248/24, HuYa
-ip-cidr, 125.39.186.96/24, HuYa
-ip-cidr, 139.209.202.28/24, HuYa
-ip-cidr, 153.3.232.132/24, HuYa
-ip-cidr, 153.37.153.133/24, HuYa
-ip-cidr, 157.148.135.52/24, HuYa
-ip-cidr, 157.255.138.59/24, HuYa
-ip-cidr, 157.255.138.64/24, HuYa
-ip-cidr, 175.6.41.180/24, HuYa
-ip-cidr, 183.136.203.82/24, HuYa
-ip-cidr, 183.232.11.48/24, HuYa
-ip-cidr, 211.91.243.70/24, HuYa
-ip-cidr, 211.91.243.91/24, HuYa
-ip-cidr, 211.91.243.92/24, HuYa
-ip-cidr, 211.93.250.211/24, HuYa
-ip-cidr, 218.12.89.88/24, HuYa
-ip-cidr, 218.25.106.84/24, HuYa
-ip-cidr, 218.25.106.114/24, HuYa
-ip-cidr, 218.57.9.102/24, HuYa
-ip-cidr, 221.224.190.39/24, HuYa
-ip-cidr, 223.87.182.197/24, HuYa
-
-#不卡
-host-suffix, bytefcdnrd.com, HuYa
-host-suffix, p2p.huya.com, HuYa
-
-#虎牙 MACOS
-#虎牙 視頻連結地址
-#host-suffix, xycdn.com, HuYa
-#host-suffix, szbdyd.com, HuYa
-#host-suffix, bytefcdnrd.com, HuYa
-#host-suffix, livehwc3.cn, HuYa
-#host-suffix, node.ppio.cloud, HuYa
-
-
-#打开虎牙网站，自动访问騰訊視頻的 CDN 服務器。
-host-suffix, smtcdns.net, HuYa
-
-#虎牙主播信息日誌
-host, ylog.huya.com, HuYa
-
-HOST-SUFFIX, huya.com, HuYa
-HOST-SUFFIX, huyagame.cn, HuYa
-DOMAIN-SUFFIX, msstatic.com, HuYa
-HOST-SUFFIX, peiwanlu.com, HuYa
-HOST-SUFFIX, snapplay.com, HuYa
+# NAME: HuYa
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-04-29 13:35:15
+# HOST-SUFFIX: 4
+# TOTAL: 4
+HOST-SUFFIX,huya.com,HuYa
+HOST-SUFFIX,huyagame.cn,HuYa
+HOST-SUFFIX,peiwanlu.com,HuYa
+HOST-SUFFIX,snapplay.com,HuYa
