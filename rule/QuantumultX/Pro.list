@@ -1,5 +1,8 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#姿勢小王子
+host, bbs.zsxwz.com, C
+
 #TTS
 host, voice.wangwangit.com, C
 
