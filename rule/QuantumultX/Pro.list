@@ -2,6 +2,9 @@
 
 #在线免费影视网站
 host-suffix, tangrenjie.one, C
+host, cdn.polyfill.io, C
+host, cdn.kin6c1.com, C
+host, m3u.haiwaikan.com, C
 
 #姿勢小王子
 host, bbs.zsxwz.com, C
