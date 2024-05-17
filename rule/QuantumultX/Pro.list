@@ -1,7 +1,7 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
 #在线免费影视网站
-host, tangrenjie.one, C
+host-suffix, tangrenjie.one, C
 
 #姿勢小王子
 host, bbs.zsxwz.com, C

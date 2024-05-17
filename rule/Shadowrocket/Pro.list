@@ -1,7 +1,7 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
 
 #在线免费影视网站
-DOMAIN, tangrenjie.one
+DOMAIN-SUFFIX, tangrenjie.one
 
 #姿勢小王子
 DOMAIN, bbs.zsxwz.com
