@@ -1,5 +1,11 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Pro.list
 
+#huggingface
+host-suffix, huggingface.co, C
+
+#claude
+host-suffix, claude.ai, C
+
 #在线免费影视网站
 host-suffix, tangrenjie.one, C
 host, cdn.polyfill.io, C
