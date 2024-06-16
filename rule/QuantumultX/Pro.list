@@ -248,3 +248,42 @@ host, gaia.nullschool.net, C
 #美國大使館，地球顯示mp2.5
 host, aqicn.org, C
 host, mapq.waqi.info, C
+
+
+
+
+# DNS Leak from Shadowrocket Default
+host-suffix, dnsleaktest.com, C
+host-suffix, dnsleak.com, C
+host-suffix, expressvpn.com, C
+host-suffix, nordvpn.com, C
+host-suffix, surfshark.com, C
+host-suffix, ipleak.net, C
+host-suffix, perfect-privacy.com, C
+host-suffix, browserleaks.com, C
+host-suffix, browserleaks.org, C
+host-suffix, vpnunlimited.com, C
+host-suffix, whoer.net, C
+host-suffix, whrq.net, C
+
+# Astrill
+host-suffix, astrill.com, C
+host-suffix, astrill.org, C
+host-suffix, dnsleak.asn247.net, C
+
+# Surfshark
+host-suffix, surfshark.com, C
+host-suffix, surfsharkdns.com, C
+
+# Pixelscan
+host-suffix, pixelscan.net, C
+
+# PING0
+host, ipv4.ping0.cc, C
+host, ipv6.ping0.cc, C
+
+# IPAPI.CO
+host-suffix, ipapi.co, C
+
+# BrowserScan
+host, ip-scan.adspower.net, C
