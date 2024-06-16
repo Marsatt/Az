@@ -102,10 +102,6 @@ DOMAIN, baike.baidu.com
 DOMAIN, myip.ms
 DOMAIN, plugin.myip.ms
 
-#IP
-#書籤-工具-it-ip-DNS是否洩漏查詢。
-DOMAIN, ipleak.net
-
 #書籤-工具-it-ip是否欺詐查詢。
 DOMAIN, scamalytics.com
 

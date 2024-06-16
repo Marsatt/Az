@@ -102,10 +102,6 @@ host, baike.baidu.com, 直鏈
 host, myip.ms, 直鏈
 host, plugin.myip.ms, 直鏈
 
-#IP
-#書籤-工具-it-ip-DNS是否洩漏查詢。
-host, ipleak.net, 直鏈
-
 #書籤-工具-it-ip是否欺詐查詢。
 host, scamalytics.com, 直鏈
 
