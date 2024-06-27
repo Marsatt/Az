@@ -1,10 +1,6 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pro.list
-
 #huggingface
 DOMAIN-SUFFIX, huggingface.co
 
-#claude
-DOMAIN-SUFFIX, claude.ai
 
 #在线免费影视网站
 DOMAIN-SUFFIX, tangrenjie.one
@@ -17,9 +13,6 @@ DOMAIN, bbs.zsxwz.com
 
 #TTS
 DOMAIN, voice.wangwangit.com
-
-#groq
-DOMAIN, api.groq.com
 
 #boxjs
 DOMAIN-SUFFIX, boxjs.com
@@ -77,14 +70,11 @@ DOMAIN-SUFFIX, strpst.com
 DOMAIN, hplives.com
 DOMAIN, hpjav.tv
 
-#cloudflare.com（验证网站）
-DOMAIN-SUFFIX, cloudflare.com
-
 #www.missav.com
 DOMAIN, avdocker.com
 DOMAIN, v.hillwaver.com
-DOMAIN, cdnjs.cloudflare.com
-DOMAIN, a.nel.cloudflare.com
+#DOMAIN, cdnjs.cloudflare.com
+#DOMAIN, a.nel.cloudflare.com
 DOMAIN, client-rapi-missav.recombee.com
 DOMAIN, i.rotriza.com
 DOMAIN-SUFFIX, geekwaver.com
@@ -169,7 +159,7 @@ DOMAIN, www.ldoceonline.com
 #柯林斯
 DOMAIN, www.collinsdictionary.com
 
-#github拉庫
+#github
 DOMAIN-SUFFIX, ghproxy.com
 
 #Poe
@@ -248,42 +238,3 @@ DOMAIN, gaia.nullschool.net
 #美國大使館，地球顯示mp2.5
 DOMAIN, aqicn.org
 DOMAIN, mapq.waqi.info
-
-
-
-
-# DNS Leak from Shadowrocket Default
-DOMAIN-SUFFIX, dnsleaktest.com
-DOMAIN-SUFFIX, dnsleak.com
-DOMAIN-SUFFIX, expressvpn.com
-DOMAIN-SUFFIX, nordvpn.com
-DOMAIN-SUFFIX, surfshark.com
-DOMAIN-SUFFIX, ipleak.net
-DOMAIN-SUFFIX, perfect-privacy.com
-DOMAIN-SUFFIX, browserleaks.com
-DOMAIN-SUFFIX, browserleaks.org
-DOMAIN-SUFFIX, vpnunlimited.com
-DOMAIN-SUFFIX, whoer.net
-DOMAIN-SUFFIX, whrq.net
-
-# Astrill
-DOMAIN-SUFFIX, astrill.com
-DOMAIN-SUFFIX, astrill.org
-DOMAIN-SUFFIX, dnsleak.asn247.net
-
-# Surfshark
-DOMAIN-SUFFIX, surfshark.com
-DOMAIN-SUFFIX, surfsharkdns.com
-
-# Pixelscan
-DOMAIN-SUFFIX, pixelscan.net
-
-# PING0
-DOMAIN, ipv4.ping0.cc
-DOMAIN, ipv6.ping0.cc
-
-# IPAPI.CO
-DOMAIN-SUFFIX, ipapi.co
-
-# BrowserScan
-DOMAIN, ip-scan.adspower.net
