@@ -1,0 +1,55 @@
+#claude
+HOST-SUFFIX, claude.ai
+
+#groq
+host, api.groq.com
+
+#cloudflare.com（验证网站）
+HOST-SUFFIX, cloudflare.com
+
+#chaturbate.jjgirls.com
+#host, web.static.mmcdn.com
+#host, chaturbate.jjgirls.com
+#HOST-SUFFIX, live.mmcdn.com
+#HOST-SUFFIX, highwebmedia.com
+#host, a-fallback.pa.highwebmedia.com
+#host, internet-up.ably-realtime.com
+#host, cbjpeg.stream.highwebmedia.com
+#host, roomimg.stream.highwebmedia.com
+
+
+# DNS Leak from Shadowrocket Default
+HOST-SUFFIX, dnsleaktest.com
+HOST-SUFFIX, dnsleak.com
+HOST-SUFFIX, expressvpn.com
+HOST-SUFFIX, nordvpn.com
+HOST-SUFFIX, surfshark.com
+HOST-SUFFIX, ipleak.net
+HOST-SUFFIX, perfect-privacy.com
+HOST-SUFFIX, browserleaks.com
+HOST-SUFFIX, browserleaks.org
+HOST-SUFFIX, vpnunlimited.com
+HOST-SUFFIX, whoer.net
+HOST-SUFFIX, whrq.net
+
+# Astrill
+HOST-SUFFIX, astrill.com
+HOST-SUFFIX, astrill.org
+HOST-SUFFIX, dnsleak.asn247.net
+
+# Surfshark
+HOST-SUFFIX, surfshark.com
+HOST-SUFFIX, surfsharkdns.com
+
+# Pixelscan
+HOST-SUFFIX, pixelscan.net
+
+# PING0
+host, ipv4.ping0.cc
+host, ipv6.ping0.cc
+
+# IPAPI.CO
+HOST-SUFFIX, ipapi.co
+
+# BrowserScan
+host, ip-scan.adspower.net
