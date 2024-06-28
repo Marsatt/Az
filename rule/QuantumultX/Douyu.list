@@ -1,0 +1,16 @@
+ip-cidr, 58.144.226.4/24, Douyu
+
+#鬥魚 MACOS
+#鬥魚 視頻連結地址
+host-suffix, edgesrv.com, Douyu
+
+HOST-SUFFIX,douyu.com,Douyu
+HOST-SUFFIX,douyu.tv,Douyu
+HOST-SUFFIX,douyuba.cn,Douyu
+HOST-SUFFIX,douyucdn.cn,Douyu
+HOST-SUFFIX,douyucdn2.cn,Douyu
+HOST-SUFFIX,douyupcdn.cn,Douyu
+HOST-SUFFIX,douyuscdn.com,Douyu
+HOST-SUFFIX,douyutv.com,Douyu
+HOST-SUFFIX,doyonoc.com,Douyu
+HOST-SUFFIX,oywtv.com,Douyu
