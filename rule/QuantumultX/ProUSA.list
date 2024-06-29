@@ -8,14 +8,14 @@ host, api.groq.com
 HOST-SUFFIX, cloudflare.com
 
 #chaturbate.jjgirls.com
-#host, web.static.mmcdn.com
-#host, chaturbate.jjgirls.com
-#HOST-SUFFIX, live.mmcdn.com
-#HOST-SUFFIX, highwebmedia.com
-#host, a-fallback.pa.highwebmedia.com
-#host, internet-up.ably-realtime.com
-#host, cbjpeg.stream.highwebmedia.com
-#host, roomimg.stream.highwebmedia.com
+host, web.static.mmcdn.com
+host, chaturbate.jjgirls.com
+HOST-SUFFIX, live.mmcdn.com
+HOST-SUFFIX, highwebmedia.com
+host, a-fallback.pa.highwebmedia.com
+host, internet-up.ably-realtime.com
+host, cbjpeg.stream.highwebmedia.com
+host, roomimg.stream.highwebmedia.com
 
 
 # DNS Leak from Shadowrocket Default

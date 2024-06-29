@@ -172,16 +172,6 @@ host, api.vanillavoice.com
 host, a.interactive32.com
 host, www.vanillavoice.com
 
-#chaturbate.jjgirls.com
-host, web.static.mmcdn.com
-host, chaturbate.jjgirls.com
-HOST-SUFFIX, live.mmcdn.com
-HOST-SUFFIX, highwebmedia.com
-host, a-fallback.pa.highwebmedia.com
-host, internet-up.ably-realtime.com
-host, cbjpeg.stream.highwebmedia.com
-host, roomimg.stream.highwebmedia.com
-
 #JDownloader 2-下載工具自動更新。
 host, update.jdownloader.org
 HOST-SUFFIX, appwork.org
