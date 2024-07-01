@@ -1,3 +1,8 @@
+
+# NEW
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,cnn.com
+
 #huggingface
 DOMAIN-SUFFIX, huggingface.co
 
