@@ -1,8 +1,5 @@
 #https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Dir.list
 
-#csdn代码问答
-DOMAIN-SUFFIX, blog.csdn.net
-
 #NIKE
 DOMAIN-SUFFIX, nike.com.cn
 DOMAIN-SUFFIX, www.nike.com.cn
