@@ -1,7 +1,7 @@
 
 #Chrome瀏覽器-flag（第一個）顯示國旗。
-DOMAIN, myip.ms
-DOMAIN, plugin.myip.ms
+DOMAIN-SUFFIX, myip.ms
+#DOMAIN, plugin.myip.ms
 
 # zoom.earth 全球天氣
 hDOMAINost, tilecache.rainviewer.com
@@ -124,9 +124,9 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
 #Pornhub
-DOMAIN, cdn1-smallimg.phncdn.com, C
-DOMAIN-SUFFIX, pornhub.com, C
-DOMAIN-SUFFIX, phncdn.com, C
+DOMAIN, cdn1-smallimg.phncdn.com
+DOMAIN-SUFFIX, pornhub.com
+DOMAIN-SUFFIX, phncdn.com
 
 #kick直播平台
 DOMAIN, dbxmjjzl5pc1g.cloudfront.net

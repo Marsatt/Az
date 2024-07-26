@@ -1,7 +1,7 @@
 
 #Chrome瀏覽器-flag（第一個）顯示國旗。
-host, myip.ms, 直鏈
-host, plugin.myip.ms, 直鏈
+HOST-SUFFIX, myip.ms, 直鏈
+#host, plugin.myip.ms, 直鏈
 
 # zoom.earth 全球天氣
 host, tilecache.rainviewer.com
@@ -125,9 +125,9 @@ HOST-SUFFIX,wikivoyage.org
 HOST-SUFFIX,wiktionary.org
 
 #Pornhub
-host, cdn1-smallimg.phncdn.com, C
-HOST-SUFFIX, pornhub.com, C
-HOST-SUFFIX, phncdn.com, C
+host, cdn1-smallimg.phncdn.com
+HOST-SUFFIX, pornhub.com
+HOST-SUFFIX, phncdn.com
 
 #kick直播平台
 host, dbxmjjzl5pc1g.cloudfront.net
