@@ -1,4 +1,9 @@
 
+# zoom.earth 全球天氣
+host, tilecache.rainviewer.com
+host, tiles.zoom.earth
+host, zoom.earth
+
 # TTS
 HOST-SUFFIX,fish.audio
 
