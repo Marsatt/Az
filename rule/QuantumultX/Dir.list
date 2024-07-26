@@ -1,4 +1,3 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/QuantumultX/Dir.list
 
 #NIKE
 HOST-SUFFIX, nike.com.cn, 直鏈
@@ -94,10 +93,6 @@ host, baikevideo.cdn.bcebos.com, 直鏈
 host, bkssl.bdimg.com, 直鏈
 #百度百科
 host, baike.baidu.com, 直鏈
-
-#Chrome瀏覽器-flag（第一個）顯示國旗。
-host, myip.ms, 直鏈
-host, plugin.myip.ms, 直鏈
 
 #書籤-工具-it-ip是否欺詐查詢。
 host, scamalytics.com, 直鏈

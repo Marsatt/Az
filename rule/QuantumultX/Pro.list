@@ -1,4 +1,8 @@
 
+#Chrome瀏覽器-flag（第一個）顯示國旗。
+host, myip.ms, 直鏈
+host, plugin.myip.ms, 直鏈
+
 # zoom.earth 全球天氣
 host, tilecache.rainviewer.com
 host, tiles.zoom.earth
@@ -174,10 +178,6 @@ host, www.collinsdictionary.com
 
 #github
 HOST-SUFFIX, ghproxy.com
-
-#Poe
-host, aefd.nelreports.net
-host, m.gsmarena.com
 
 #vanillaVoice
 host, api.exchangerate.host
