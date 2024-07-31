@@ -1,9 +1,4 @@
 
-#m3u看CCTV
-DOMAIN-SUFFIX, live.cbncdn.cn
-DOMAIN, gromore.pangolin-sdk-toutiao.com
-DOMAIN, live.goodiptv.club
-
 #NIKE
 DOMAIN-SUFFIX, nike.com.cn
 DOMAIN-SUFFIX, www.nike.com.cn
