@@ -1,4 +1,9 @@
 
+#m3u看CCTV
+host-suffix, live.cbncdn.cn, 直鏈
+host, gromore.pangolin-sdk-toutiao.com, 直鏈
+host, live.goodiptv.club, 直鏈
+
 #NIKE
 HOST-SUFFIX, nike.com.cn, 直鏈
 HOST-SUFFIX, www.nike.com.cn, 直鏈

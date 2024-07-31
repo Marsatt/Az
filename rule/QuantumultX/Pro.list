@@ -3,11 +3,6 @@
 HOST-SUFFIX, myip.ms, 直鏈
 #host, plugin.myip.ms, 直鏈
 
-# zoom.earth 全球天氣
-host, tilecache.rainviewer.com
-host, tiles.zoom.earth
-host, zoom.earth
-
 # TTS
 HOST-SUFFIX,fish.audio
 
@@ -17,7 +12,6 @@ HOST-SUFFIX,cnn.com
 
 #huggingface
 HOST-SUFFIX, huggingface.co
-
 
 #在线免费影视网站
 HOST-SUFFIX, tangrenjie.one

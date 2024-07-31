@@ -3,11 +3,6 @@
 DOMAIN-SUFFIX, myip.ms
 #DOMAIN, plugin.myip.ms
 
-# zoom.earth 全球天氣
-hDOMAINost, tilecache.rainviewer.com
-DOMAIN, tiles.zoom.earth
-DOMAIN, zoom.earth
-
 # TTS
 DOMAIN-SUFFIX,fish.audio
 
