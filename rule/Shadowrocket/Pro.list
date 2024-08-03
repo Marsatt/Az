@@ -1,4 +1,10 @@
 
+#AV_BT搜索
+DOMAIN-SUFFIX, sukebei.nyaa.si
+
+#missav.com
+DOMAIN-SUFFIX, missav.com
+
 #Chrome瀏覽器-flag（第一個）顯示國旗。
 DOMAIN-SUFFIX, myip.ms
 #DOMAIN, plugin.myip.ms
@@ -80,16 +86,6 @@ DOMAIN-SUFFIX, sc-apps.com
 DOMAIN-SUFFIX, strpst.com
 DOMAIN, hplives.com
 DOMAIN, hpjav.tv
-
-#www.missav.com
-DOMAIN, avdocker.com
-DOMAIN, v.hillwaver.com
-#DOMAIN, cdnjs.cloudflare.com
-#DOMAIN, a.nel.cloudflare.com
-DOMAIN, client-rapi-missav.recombee.com
-DOMAIN, i.rotriza.com
-DOMAIN-SUFFIX, geekwaver.com
-DOMAIN-SUFFIX, missav.com
 
 #myfreecams.com
 DOMAIN-SUFFIX, mfcimg.com
@@ -212,8 +208,8 @@ DOMAIN, sullygnome.com
 #appagg
 DOMAIN, appagg.com
 #App Sliced
-DOMAIN, cdnkey.appsliced.co, 直鏈
-DOMAIN, appsliced.co, 直鏈
+DOMAIN, cdnkey.appsliced.co
+DOMAIN, appsliced.co
 
 #YouTuBe 雙語翻譯
 DOMAIN, extension.dioco.io

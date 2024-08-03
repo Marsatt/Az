@@ -1,7 +1,13 @@
 
+#AV_BT搜索
+HOST-SUFFIX, sukebei.nyaa.si
+
+#missav.com
+HOST-SUFFIX, missav.com
+
 #Chrome瀏覽器-flag（第一個）顯示國旗。
-HOST-SUFFIX, myip.ms, 直鏈
-#host, plugin.myip.ms, 直鏈
+HOST-SUFFIX, myip.ms
+#host, plugin.myip.ms
 
 # TTS
 HOST-SUFFIX,fish.audio
@@ -80,16 +86,6 @@ HOST-SUFFIX, sc-apps.com
 HOST-SUFFIX, strpst.com
 host, hplives.com
 host, hpjav.tv
-
-#www.missav.com
-host, avdocker.com
-host, v.hillwaver.com
-#host, cdnjs.cloudflare.com
-#host, a.nel.cloudflare.com
-host, client-rapi-missav.recombee.com
-host, i.rotriza.com
-HOST-SUFFIX, geekwaver.com
-HOST-SUFFIX, missav.com
 
 #myfreecams.com
 HOST-SUFFIX, mfcimg.com
@@ -212,8 +208,8 @@ host, sullygnome.com
 #appagg
 host, appagg.com
 #App Sliced
-host, cdnkey.appsliced.co, 直鏈
-host, appsliced.co, 直鏈
+host, cdnkey.appsliced.co
+host, appsliced.co
 
 #YouTuBe 雙語翻譯
 host, extension.dioco.io
