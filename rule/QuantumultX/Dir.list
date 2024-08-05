@@ -1,7 +1,12 @@
 
 #CSDN
-HOST-SUFFIX, csdn.net, 直鏈
-HOST-SUFFIX, csdnimg.cn, 直鏈
+HOST-SUFFIX, csdn.net
+host, csdnimg.cn, 直鏈
+host, g.csdnimg.cn, 直鏈
+host, img-blog.csdnimg.cn, 直鏈
+host, img-home.csdnimg.cn, 直鏈
+host, kunpeng-render.csdnimg.cn, 直鏈
+host, profile-avatar.csdnimg.cn, 直鏈
 
 #NIKE
 HOST-SUFFIX, nike.com.cn, 直鏈

@@ -1,7 +1,13 @@
 
 #CSDN
 DOMAIN-SUFFIX, csdn.net
-DOMAIN-SUFFIX, csdnimg.cn
+DOMAIN, csdnimg.cn
+DOMAIN, g.csdnimg.cn
+DOMAIN, img-blog.csdnimg.cn
+DOMAIN, img-home.csdnimg.cn
+DOMAIN, kunpeng-render.csdnimg.cn
+DOMAIN, profile-avatar.csdnimg.cn
+
 
 #NIKE
 DOMAIN-SUFFIX, nike.com.cn
