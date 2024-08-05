@@ -15,6 +15,10 @@ DOMAIN, nike.com.cn
 DOMAIN, www.nike.com.cn
 DOMAIN, static.nike.com.cn
 DOMAIN, accounts.nike.com.cn
+DOMAIN, analytics.nike.com.cn
+DOMAIN, api.nike.com.cn
+DOMAIN, optimizely.nike.com.cn
+DOMAIN, bot-mitigation.nike.com.cn
 
 #adidas
 DOMAIN, adidas.com.cn
