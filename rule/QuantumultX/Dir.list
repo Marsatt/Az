@@ -1,7 +1,7 @@
 #後綴：cn，前面必須：host
 
 #CSDN
-host-suffix, csdn.net
+host, csdn.net
 host, csdnimg.cn, 直鏈
 host, g.csdnimg.cn, 直鏈
 host, img-blog.csdnimg.cn, 直鏈
