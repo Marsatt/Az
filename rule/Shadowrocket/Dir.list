@@ -1,3 +1,4 @@
+#後綴：cn，前面必須：DOMAIN
 
 #CSDN
 DOMAIN-SUFFIX, csdn.net
@@ -10,12 +11,12 @@ DOMAIN, profile-avatar.csdnimg.cn
 
 
 #NIKE
-DOMAIN-SUFFIX, nike.com.cn
-DOMAIN-SUFFIX, www.nike.com.cn
+DOMAIN, nike.com.cn
+DOMAIN, www.nike.com.cn
 
 #adidas
-DOMAIN-SUFFIX, adidas.com.cn
-DOMAIN-SUFFIX, www.adidas.com.cn
+DOMAIN, adidas.com.cn
+DOMAIN, www.adidas.com.cn
 
 #蘋果
 DOMAIN, www.apple.com.cn

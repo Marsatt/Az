@@ -1,3 +1,4 @@
+#後綴：cn，前面必須：host
 
 #CSDN
 HOST-SUFFIX, csdn.net
@@ -9,12 +10,12 @@ host, kunpeng-render.csdnimg.cn, 直鏈
 host, profile-avatar.csdnimg.cn, 直鏈
 
 #NIKE
-HOST-SUFFIX, nike.com.cn, 直鏈
-HOST-SUFFIX, www.nike.com.cn, 直鏈
+HOST, nike.com.cn, 直鏈
+HOST, www.nike.com.cn, 直鏈
 
 #adidas
-HOST-SUFFIX, adidas.com.cn, 直鏈
-HOST-SUFFIX, www.adidas.com.cn, 直鏈
+HOST, adidas.com.cn, 直鏈
+HOST, www.adidas.com.cn, 直鏈
 
 #蘋果
 host, www.apple.com.cn, 直鏈
