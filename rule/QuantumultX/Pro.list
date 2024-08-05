@@ -1,4 +1,9 @@
 
+#Transcribe AI app
+host, firebaselogging-pa.googleapis.com
+host, app-analytics-services.com
+host, ep2.facebook.com
+
 #AV_BT搜索
 HOST-SUFFIX, sukebei.nyaa.si
 

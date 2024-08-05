@@ -1,4 +1,9 @@
 
+#Transcribe AI app
+DOMAIN, firebaselogging-pa.googleapis.com
+DOMAIN, app-analytics-services.com
+DOMAIN, ep2.facebook.com
+
 #AV_BT搜索
 DOMAIN-SUFFIX, sukebei.nyaa.si
 
