@@ -6,6 +6,7 @@ DOMAIN-SUFFIX, stripchat.com
 DOMAIN-SUFFIX, windy.com
 
 #Write&Improve
+DOMAIN, s3-eu-west-1.amazonaws.com
 DOMAIN, wandi-6402.kxcdn.com
 DOMAIN, writeandimprove.com
 DOMAIN, cassidy.englishlanguageitutoring.com

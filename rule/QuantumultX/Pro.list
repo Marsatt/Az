@@ -6,6 +6,7 @@ HOST-SUFFIX, stripchat.com
 HOST-SUFFIX, windy.com
 
 #Write&Improve
+host, s3-eu-west-1.amazonaws.com
 host, wandi-6402.kxcdn.com
 host, writeandimprove.com
 host, cassidy.englishlanguageitutoring.com
