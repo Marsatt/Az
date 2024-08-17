@@ -37,12 +37,6 @@ HOST-SUFFIX,cnn.com
 #huggingface
 HOST-SUFFIX, huggingface.co
 
-#在线免费影视网站
-HOST-SUFFIX, tangrenjie.one
-host, cdn.polyfill.io
-host, cdn.kin6c1.com
-host, m3u.haiwaikan.com
-
 #姿勢小王子
 host, bbs.zsxwz.com
 
@@ -152,12 +146,6 @@ host, isi.csan.goodnotes.com
 host, gn-shop-cdn-public.csan.goodnotes.com
 host, gn-shop.csan.goodnotes.com
 
-#perplexity app
-host, imagedelivery.net
-host, api.revenuecat.com
-host, 342251b-beta.perplexity.ai
-host, www.perplexity.ai
-
 # Flightradar24 app
 host, data-cloud.flightradar24.com
 host, mobile.flightradar24.com
@@ -220,14 +208,6 @@ host, www.languagereactor.com
 HOST-SUFFIX, streamrecorder.io
 host, streamscharts.com
 host, sullygnome.com
-host, sullygnome.com
-
-#ios限免网站
-#appagg
-host, appagg.com
-#App Sliced
-host, cdnkey.appsliced.co
-host, appsliced.co
 
 #YouTuBe 雙語翻譯
 host, extension.dioco.io
