@@ -1,4 +1,7 @@
-#https://raw.githubusercontent.com/Marsatt/Az/main/rule/Shadowrocket/Pinduoduo.list
+#!@
+
+#202408251047
+IP-CIDR,140.206.232.17/24, no-resolve
 
 IP-CIDR,153.3.240.57/24, no-resolve
 IP-CIDR,114.110.97.97/24, no-resolve
