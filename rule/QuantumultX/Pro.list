@@ -1,6 +1,8 @@
 
 #stripchat
 HOST-SUFFIX, stripchat.com
+HOST-SUFFIX, doppiocdn.media
+HOST-SUFFIX, oppiocdn.media
 
 #windy weather
 HOST-SUFFIX, windy.com
