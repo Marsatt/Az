@@ -1,5 +1,15 @@
 #後綴：cn，前面必須：host
 
+#IKEA
+host, www.ikea.cn, 直鏈
+host, srv.app.ikea.cn, 直鏈
+host, file.app.ikea.cn, 直鏈
+host, res.app.ikea.cn, 直鏈
+host, img.app.ikea.cn, 直鏈
+host, video.app.ikea.cn, 直鏈
+host, bff.app.ikea.cn, 直鏈
+
+
 #CSDN
 HOST-SUFFIX, csdn.net, 直鏈
 host, csdnimg.cn, 直鏈

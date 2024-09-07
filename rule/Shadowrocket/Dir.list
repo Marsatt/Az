@@ -1,5 +1,14 @@
 #後綴：cn，前面必須：DOMAIN
 
+#IKEA
+DOMAIN, www.ikea.cn
+DOMAIN, srv.app.ikea.cn
+DOMAIN, file.app.ikea.cn
+DOMAIN, res.app.ikea.cn
+DOMAIN, img.app.ikea.cn
+DOMAIN, video.app.ikea.cn
+DOMAIN, bff.app.ikea.cn
+
 #CSDN
 DOMAIN-SUFFIX, csdn.net
 DOMAIN, csdnimg.cn
