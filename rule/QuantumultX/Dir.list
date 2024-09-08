@@ -1,8 +1,8 @@
 #後綴：cn，前面必須：host
 
 #网易严选
-HOST-SUFFIX, 163.com
-HOST-SUFFIX, 127.com
+HOST-SUFFIX, 163.com, 直鏈
+HOST-SUFFIX, 127.com, 直鏈
 
 #IKEA
 host, www.ikea.cn, 直鏈
