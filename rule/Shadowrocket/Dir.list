@@ -1,16 +1,5 @@
 #後綴：cn，前面必須：DOMAIN
 
-#网易严选
-ip-cidr, 59.111.161.38/24,no-resolve
-ip-cidr, 59.111.161.39/24,no-resolve
-ip-cidr, 59.111.182.56/24,no-resolve
-ip-cidr, 59.111.182.57/24,no-resolve
-ip-cidr, 59.111.182.57/24,no-resolve
-ip-cidr, 106.2.83.107/24,no-resolve
-DOMAIN-SUFFIX, netease.im
-DOMAIN-SUFFIX, 163.com
-DOMAIN-SUFFIX, 127.com
-
 #IKEA
 DOMAIN, www.ikea.cn
 DOMAIN, srv.app.ikea.cn
