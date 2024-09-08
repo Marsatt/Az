@@ -2,6 +2,7 @@
 
 #网易严选
 ip-cidr, 59.111.182.56/24, 直鏈
+ip-cidr, 59.111.182.57/24, 直鏈
 ip-cidr, 106.2.83.107/24, 直鏈
 HOST-SUFFIX, 163.com, 直鏈
 HOST-SUFFIX, 127.com, 直鏈
