@@ -1,5 +1,9 @@
 #後綴：cn，前面必須：DOMAIN
 
+#网易严选
+DOMAIN-SUFFIX, 163.com
+DOMAIN-SUFFIX, 127.com
+
 #IKEA
 DOMAIN, www.ikea.cn
 DOMAIN, srv.app.ikea.cn
