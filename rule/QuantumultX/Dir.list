@@ -2,7 +2,6 @@
 
 #IKEA
 host, www.ikea.cn, 直鏈
-host, www.ikea.cn/cn/zh 直鏈
 host, srv.app.ikea.cn, 直鏈
 host, file.app.ikea.cn, 直鏈
 host, res.app.ikea.cn, 直鏈
