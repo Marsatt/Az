@@ -1,7 +1,7 @@
 #後綴：cn，前面必須：DOMAIN
 
 #网易严选
-ip-cidr, 59.111.182.57/24,no-resolve
+ip-cidr, 59.111.182.56/24,no-resolve
 ip-cidr, 106.2.83.102/24,no-resolve
 DOMAIN-SUFFIX, 163.com
 DOMAIN-SUFFIX, 127.com
