@@ -1,5 +1,8 @@
 #後綴：cn，前面必須：DOMAIN
 
+#roborock
+DOMAIN-SUFFIX, roborock.com
+
 #IKEA
 DOMAIN, www.ikea.cn
 DOMAIN, srv.app.ikea.cn

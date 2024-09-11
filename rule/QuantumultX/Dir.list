@@ -1,5 +1,8 @@
 #後綴：cn，前面必須：host
 
+#roborock
+HOST-SUFFIX, roborock.com
+
 #IKEA
 host, www.ikea.cn, 直鏈
 host, srv.app.ikea.cn, 直鏈
