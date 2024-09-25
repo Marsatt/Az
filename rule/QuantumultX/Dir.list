@@ -1,5 +1,8 @@
 #後綴：cn，前面必須：host
 
+#B站空降助手
+host, www.bsbsb.top
+
 #roborock
 HOST-SUFFIX, roborock.com
 

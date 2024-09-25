@@ -1,5 +1,8 @@
 #後綴：cn，前面必須：DOMAIN
 
+#B站空降助手
+DOMAIN, www.bsbsb.top
+
 #roborock
 DOMAIN-SUFFIX, roborock.com
 
