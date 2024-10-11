@@ -1,11 +1,22 @@
 #後綴：cn，前面必須：host
 
+#高德地图
+host, a-map.cn, 直鏈
+HOST-SUFFIX, a-map.co, 直鏈
+HOST-SUFFIX, a-map.link, 直鏈
+HOST-SUFFIX, a-map.vip, 直鏈
+HOST-SUFFIX, amap.com, 直鏈
+HOST-SUFFIX, amapauto.com, 直鏈
+HOST-SUFFIX, anav.com, 直鏈
+HOST-SUFFIX, autonavi.com, 直鏈
+HOST-SUFFIX, gaode.com, 直鏈
+
 #B站空降助手
-HOST, bsbsb.top
-HOST, www.bsbsb.top
+HOST, bsbsb.top, 直鏈
+HOST, www.bsbsb.top, 直鏈
 
 #roborock
-HOST-SUFFIX, roborock.com
+HOST-SUFFIX, roborock.com, 直鏈
 
 #IKEA
 host, www.ikea.cn, 直鏈
