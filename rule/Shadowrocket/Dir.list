@@ -1,16 +1,5 @@
 #後綴：cn，前面必須：DOMAIN
 
-#高德地图
-DOMAIN,a-map.cn
-DOMAIN-SUFFIX,a-map.co
-DOMAIN-SUFFIX,a-map.link
-DOMAIN-SUFFIX,a-map.vip
-DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,amapauto.com
-DOMAIN-SUFFIX,anav.com
-DOMAIN-SUFFIX,autonavi.com
-DOMAIN-SUFFIX,gaode.com
-
 #B站空降助手
 DOMAIN, bsbsb.top
 DOMAIN, www.bsbsb.top
