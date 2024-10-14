@@ -10,6 +10,7 @@ DOMAIN-SUFFIX,amapauto.com
 DOMAIN-SUFFIX,anav.com
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,gaode.com
+DOMAIN,m.amap.com
 
 
 #百度地图
@@ -42,6 +43,7 @@ DOMAIN, sv.map.baidu.com
 DOMAIN, ugc.map.baidu.com
 DOMAIN, upl.baidu.com
 DOMAIN, wappass.baidu.com
+DOMAIN, map.baidu.com
 
 #Baidu Maps & Related CDN (map.baidu.com & cdn.bcebos.com):
 DOMAIN, carowner-default.cdn.bcebos.com

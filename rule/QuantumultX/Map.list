@@ -10,6 +10,7 @@ HOST-SUFFIX, amapauto.com, 直鏈
 HOST-SUFFIX, anav.com, 直鏈
 HOST-SUFFIX, autonavi.com, 直鏈
 HOST-SUFFIX, gaode.com, 直鏈
+host, m.amap.com, 直鏈
 
 
 #百度地图
@@ -42,6 +43,7 @@ host, sv.map.baidu.com, 直鏈
 host, ugc.map.baidu.com, 直鏈
 host, upl.baidu.com, 直鏈
 host, wappass.baidu.com, 直鏈
+host, map.baidu.com, 直鏈
 
 #Baidu Maps & Related CDN (map.baidu.com & cdn.bcebos.com):
 host, carowner-default.cdn.bcebos.com, 直鏈
