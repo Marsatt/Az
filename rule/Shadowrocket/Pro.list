@@ -1,3 +1,9 @@
+#Tampermonkey 是一个流行的浏览器扩展，用于管理用户脚本（User Scripts）。这些脚本可以改变或增强网页的功能。Tampermonkey 支持多种浏览器，如 Chrome、Safari 和 Firefox，用户可以使用它定制和修改网页的行为。
+DOMAIN, www.tampermonkey.net
+
+#Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
+DOMAIN, objective-see.com
+
 #ikea.com
 DOMAIN, www.ikea.com
 
@@ -30,7 +36,8 @@ DOMAIN-SUFFIX, missav.com
 
 #Chrome瀏覽器-flag（第一個）顯示國旗。
 DOMAIN-SUFFIX, myip.ms
-#DOMAIN, plugin.myip.ms
+#Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
+DOMAIN, returnyoutubedislikeapi.com
 
 # TTS
 DOMAIN-SUFFIX,fish.audio
