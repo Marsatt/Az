@@ -14,6 +14,7 @@ host, m.amap.com, 直鏈
 
 
 #百度地图
+HOST-SUFFIX, map.baidu.com, 直鏈
 
 # Baidu Domains (baidu.com):
 host, als.baidu.com, 直鏈
@@ -21,34 +22,19 @@ host, api.tuisong.baidu.com, 直鏈
 host, appnavi.baidu.com, 直鏈
 host, bgg.baidu.com, 直鏈
 host, carowner.baidu.com, 直鏈
-host, client.map.baidu.com, 直鏈
-host, cnloc.map.baidu.com, 直鏈
-host, daup.map.baidu.com, 直鏈
-host, ecom.map.baidu.com, 直鏈
 host, h2tcbox.baidu.com, 直鏈
 host, integralwall.baidu.com, 直鏈
-host, locallife.map.baidu.com, 直鏈
 host, map-bizcenter.baidu.com, 直鏈
-host, map.baidu.com, 直鏈
 host, maphotel.baidu.com, 直鏈
 host, mbd.baidu.com, 直鏈
 host, navimon.baidu.com, 直鏈
-host, navimso.map.baidu.com, 直鏈
-host, newclient.map.baidu.com, 直鏈
-host, ofloc.map.baidu.com, 直鏈
-host, ps.map.baidu.com, 直鏈
-host, qclient.map.baidu.com, 直鏈
-host, route.map.baidu.com, 直鏈
-host, sv.map.baidu.com, 直鏈
-host, ugc.map.baidu.com, 直鏈
 host, upl.baidu.com, 直鏈
 host, wappass.baidu.com, 直鏈
-host, map.baidu.com, 直鏈
+
 
 #Baidu Maps & Related CDN (map.baidu.com & cdn.bcebos.com):
 host, carowner-default.cdn.bcebos.com, 直鏈
 host, cjh-amis.cdn.bcebos.com, 直鏈
-host, content.map.baidu.com, 直鏈
 host, dmpstatic.cdn.bcebos.com, 直鏈
 host, himg.bdimg.com, 直鏈
 host, hotel-pic.cdn.bcebos.com, 直鏈

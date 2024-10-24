@@ -14,6 +14,7 @@ DOMAIN,m.amap.com
 
 
 #百度地图
+DOMAIN-SUFFIX, map.baidu.com
 
 # Baidu Domains (baidu.com):
 DOMAIN, als.baidu.com
@@ -21,34 +22,19 @@ DOMAIN, api.tuisong.baidu.com
 DOMAIN, appnavi.baidu.com
 DOMAIN, bgg.baidu.com
 DOMAIN, carowner.baidu.com
-DOMAIN, client.map.baidu.com
-DOMAIN, cnloc.map.baidu.com
-DOMAIN, daup.map.baidu.com
-DOMAIN, ecom.map.baidu.com
 DOMAIN, h2tcbox.baidu.com
 DOMAIN, integralwall.baidu.com
-DOMAIN, locallife.map.baidu.com
 DOMAIN, map-bizcenter.baidu.com
-DOMAIN, map.baidu.com
 DOMAIN, maphotel.baidu.com
 DOMAIN, mbd.baidu.com
 DOMAIN, navimon.baidu.com
-DOMAIN, navimso.map.baidu.com
-DOMAIN, newclient.map.baidu.com
-DOMAIN, ofloc.map.baidu.com
-DOMAIN, ps.map.baidu.com
-DOMAIN, qclient.map.baidu.com
-DOMAIN, route.map.baidu.com
-DOMAIN, sv.map.baidu.com
-DOMAIN, ugc.map.baidu.com
 DOMAIN, upl.baidu.com
 DOMAIN, wappass.baidu.com
-DOMAIN, map.baidu.com
+
 
 #Baidu Maps & Related CDN (map.baidu.com & cdn.bcebos.com):
 DOMAIN, carowner-default.cdn.bcebos.com
 DOMAIN, cjh-amis.cdn.bcebos.com
-DOMAIN, content.map.baidu.com
 DOMAIN, dmpstatic.cdn.bcebos.com
 DOMAIN, himg.bdimg.com
 DOMAIN, hotel-pic.cdn.bcebos.com
