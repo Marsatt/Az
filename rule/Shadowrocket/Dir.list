@@ -1,5 +1,9 @@
 #後綴：cn，前面必須：DOMAIN
 
+#腾讯挪车码
+DOMAIN, appcfg.v.qq.com
+DOMAIN, launchwxacode.wxqcloud.qq.com.cn
+
 #B站空降助手
 DOMAIN, bsbsb.top
 DOMAIN, www.bsbsb.top

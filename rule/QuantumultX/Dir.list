@@ -1,5 +1,9 @@
 #後綴：cn，前面必須：host
 
+#腾讯挪车码
+host, appcfg.v.qq.com, 直鏈
+host, launchwxacode.wxqcloud.qq.com.cn, 直鏈
+
 #高德地图
 host, a-map.cn, 直鏈
 HOST-SUFFIX, a-map.co, 直鏈
