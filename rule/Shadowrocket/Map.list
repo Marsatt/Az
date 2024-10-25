@@ -16,23 +16,8 @@ DOMAIN,m.amap.com
 #百度地图
 DOMAIN-SUFFIX, map.baidu.com
 
-# Baidu Domains (baidu.com):
-DOMAIN, als.baidu.com
-DOMAIN, api.tuisong.baidu.com
-DOMAIN, appnavi.baidu.com
-DOMAIN, bgg.baidu.com
-DOMAIN, carowner.baidu.com
-DOMAIN, h2tcbox.baidu.com
-DOMAIN, integralwall.baidu.com
-DOMAIN, map-bizcenter.baidu.com
-DOMAIN, maphotel.baidu.com
-DOMAIN, mbd.baidu.com
-DOMAIN, navimon.baidu.com
-DOMAIN, upl.baidu.com
-DOMAIN, wappass.baidu.com
-
-
-#Baidu Maps & Related CDN (map.baidu.com & cdn.bcebos.com):
+#相关于百度地图应用及其CDN的域名：
+DOMAIN, lbsnavi.cdn.bcebos.com
 DOMAIN, carowner-default.cdn.bcebos.com
 DOMAIN, cjh-amis.cdn.bcebos.com
 DOMAIN, dmpstatic.cdn.bcebos.com
@@ -49,17 +34,27 @@ DOMAIN, mapcarowner-gz.cdn.bcebos.com
 DOMAIN, photo-meituan.cdn.bcebos.com
 DOMAIN, pic-map.cdn.bcebos.com
 DOMAIN, pic-online.cdn.bcebos.com
-DOMAIN, pic.rmb.bdstatic.com
 DOMAIN, poi-pic-gz.cdn.bcebos.com
 DOMAIN, poi-pic.cdn.bcebos.com
 DOMAIN, se-feed-bucket.cdn.bcebos.com
-
-#Other Baidu Subdomains (bdstatic.com, bdimg.com, etc.):
 DOMAIN, mapsv0.bdimg.com
+DOMAIN, vectormap0.bdimg.com
+#其他可能相关的域名（但与百度地图功能没有直接关联）：
+DOMAIN, als.baidu.com
+DOMAIN, api.tuisong.baidu.com
+DOMAIN, appnavi.baidu.com
+DOMAIN, bgg.baidu.com
+DOMAIN, carowner.baidu.com
+DOMAIN, h2tcbox.baidu.com
+DOMAIN, integralwall.baidu.com
+DOMAIN, map-bizcenter.baidu.com
+DOMAIN, maphotel.baidu.com
+DOMAIN, mbd.baidu.com
+DOMAIN, navimon.baidu.com
+DOMAIN, upl.baidu.com
+DOMAIN, wappass.baidu.com
 DOMAIN, mobads.baidu.com
 DOMAIN, now.bdstatic.com
 DOMAIN, pms-cdn.bdstatic.com
-DOMAIN, vectormap0.bdimg.com
-
-#Other Domains:
+#其他百度服务相关的域名：
 DOMAIN, huiduapi.nuomi.com
