@@ -3,6 +3,7 @@ HOST-SUFFIX,douyin.com,DouYin
 #关键词网址屏蔽
 host-keyword, zijie,DouYin
 host-keyword, douyin,DouYin
+host-keyword, toutiao,DouYin
 
 # NAME: DouYin
 # AUTHOR: blackmatrix7

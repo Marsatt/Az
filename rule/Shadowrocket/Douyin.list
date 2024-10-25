@@ -1,8 +1,9 @@
-DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX, douyin.com
 
 #关键词网址屏蔽
 DOMAIN-KEYWORD, zijie
 DOMAIN-KEYWORD, douyin
+DOMAIN-KEYWORD, toutiao
 
 # NAME: DouYin
 # AUTHOR: blackmatrix7
