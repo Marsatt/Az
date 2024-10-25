@@ -1,3 +1,6 @@
+#关键词网址屏蔽
+DOMAIN-KEYWORD, zijie
+
 #这是 Amazon Web Services (AWS) 的 S3 存储服务链接，具体为 Amazon S3 (Simple Storage Service) 的 美国东部 (us-east-1) 数据中心。S3 是用于存储数据文件的云服务，这个链接指向的数据可能与某个应用、网站或服务的资源文件有关。很多应用使用 AWS S3 来存储和传输数据，例如图片、视频或更新包。因此，这个链接可能是某个应用或插件在后台下载或上传资源时触发的。
 DOMAIN, us-std-00001.s3.dualstack.us-east-1.amazonaws.com
 

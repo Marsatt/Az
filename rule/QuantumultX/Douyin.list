@@ -1,5 +1,9 @@
 HOST-SUFFIX,douyin.com,DouYin
 
+#关键词网址屏蔽
+host-keyword, zijie,DouYin
+host-keyword, douyin,DouYin
+
 # NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
