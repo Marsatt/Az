@@ -6,6 +6,8 @@ DOMAIN-KEYWORD, alipay
 DOMAIN-KEYWORD, alipan
 DOMAIN-KEYWORD, aliyun
 
+#网商银行
+DOMAIN-SUFFIX, mybank.cn
 
 # NAME: Alibaba
 # AUTHOR: blackmatrix7

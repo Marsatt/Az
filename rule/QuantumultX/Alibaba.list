@@ -6,6 +6,8 @@ host-keyworld, alipay
 host-keyworld, alipan
 host-keyworld, aliyun
 
+#网商银行
+HOST-SUFFIX, mybank.cn
 
 # NAME: Alibaba
 # AUTHOR: blackmatrix7
