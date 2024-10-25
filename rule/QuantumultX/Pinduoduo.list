@@ -1,4 +1,8 @@
-#!@$
+#关键词网址屏蔽
+host-keyword, pinduoduo
+
+#202408251047
+ip-cidr,140.206.232.17/24,Pinduoduo
 
 ip-cidr,153.3.240.57/24,Pinduoduo
 ip-cidr,114.110.97.97/24,Pinduoduo
