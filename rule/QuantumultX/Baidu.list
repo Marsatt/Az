@@ -1,5 +1,5 @@
 #关键词网址屏蔽
-host-keyword, baidu, Baidu
+host-keyword, baidu
 
 # NAME: Baidu
 # AUTHOR: blackmatrix7
@@ -21,53 +21,6 @@ HOST-SUFFIX,apollo-share.com,Baidu
 HOST-SUFFIX,apollo.auto,Baidu
 HOST-SUFFIX,baeapps.com,Baidu
 HOST-SUFFIX,baetyl.tech,Baidu
-HOST-SUFFIX,baidu-1img.cn,Baidu
-HOST-SUFFIX,baidu-2img.cn,Baidu
-HOST-SUFFIX,baidu-3img.cn,Baidu
-HOST-SUFFIX,baidu-bank.cn,Baidu
-HOST-SUFFIX,baidu-bank.com,Baidu
-HOST-SUFFIX,baidu-cdn.cn,Baidu
-HOST-SUFFIX,baidu-cdn.com,Baidu
-HOST-SUFFIX,baidu-cdn.net,Baidu
-HOST-SUFFIX,baidu-img.cn,Baidu
-HOST-SUFFIX,baidu-int.com,Baidu
-HOST-SUFFIX,baidu-itm.com,Baidu
-HOST-SUFFIX,baidu-tech.com,Baidu
-HOST-SUFFIX,baidu.cn,Baidu
-HOST-SUFFIX,baidu.com,Baidu
-HOST-SUFFIX,baidu.com.cn,Baidu
-HOST-SUFFIX,baidu.com.hk,Baidu
-HOST-SUFFIX,baidu.hk,Baidu
-HOST-SUFFIX,baidu.mobi,Baidu
-HOST-SUFFIX,baiduads.com,Baidu
-HOST-SUFFIX,baiduapp.com,Baidu
-HOST-SUFFIX,baidubce.cn,Baidu
-HOST-SUFFIX,baidubce.com,Baidu
-HOST-SUFFIX,baidubce.com.cn,Baidu
-HOST-SUFFIX,baidubce.net.cn,Baidu
-HOST-SUFFIX,baidubcr.com,Baidu
-HOST-SUFFIX,baidubos.com,Baidu
-HOST-SUFFIX,baiducloudapi.com,Baidu
-HOST-SUFFIX,baiducontent.com,Baidu
-HOST-SUFFIX,baiduhui.com,Baidu
-HOST-SUFFIX,baidupcs.cn,Baidu
-HOST-SUFFIX,baidupcs.com,Baidu
-HOST-SUFFIX,baidupcs.com.cn,Baidu
-HOST-SUFFIX,baidupcs.net,Baidu
-HOST-SUFFIX,baidustatic.com,Baidu
-HOST-SUFFIX,baiduux.com,Baidu
-HOST-SUFFIX,baiduwaf.com,Baidu
-HOST-SUFFIX,baiduwebgame.com,Baidu
-HOST-SUFFIX,baiduxiaodai.cn,Baidu
-HOST-SUFFIX,baiduxiaodai.com,Baidu
-HOST-SUFFIX,baiduyangguang.org,Baidu
-HOST-SUFFIX,baiduyuncdn.cn,Baidu
-HOST-SUFFIX,baiduyuncdn.com,Baidu
-HOST-SUFFIX,baiduyuncdn.net,Baidu
-HOST-SUFFIX,baiduyundns.cn,Baidu
-HOST-SUFFIX,baiduyundns.com,Baidu
-HOST-SUFFIX,baiduyundns.net,Baidu
-HOST-SUFFIX,baiduyunwaf.com,Baidu
 HOST-SUFFIX,baifae.com,Baidu
 HOST-SUFFIX,baifubao.com,Baidu
 HOST-SUFFIX,baihangbao.cn,Baidu
@@ -266,35 +219,16 @@ HOST-SUFFIX,zybang.com,Baidu
 # HOST: 31
 # HOST-SUFFIX: 1
 # TOTAL: 32
-HOST,als.baidu.com,BaiDuTieBa
-HOST,cdn.hiphotos.baidu.com,BaiDuTieBa
-HOST,cpro.baidustatic.com,BaiDuTieBa
-HOST,crab.baidu.com,BaiDuTieBa
-HOST,dlswbr.baidu.com,BaiDuTieBa
 HOST,ecma.bdimg.com,BaiDuTieBa
-HOST,feed-image.baidu.com,BaiDuTieBa
 HOST,fex.bdstatic.com,BaiDuTieBa
-HOST,gomediago.baidu.com,BaiDuTieBa
-HOST,gsp0.baidu.com,BaiDuTieBa
 HOST,gss0.bdstatic.com,BaiDuTieBa
-HOST,hmma.baidu.com,BaiDuTieBa
 HOST,mediago-static.cdn.bcebos.com,BaiDuTieBa
-HOST,miaowu.baidu.com,BaiDuTieBa
-HOST,mobads-log.baidu.com,BaiDuTieBa
-HOST,mobads.baidu.com,BaiDuTieBa
 HOST,ns-strategy.cdn.bcebos.com,BaiDuTieBa
-HOST,nsclick.baidu.com,BaiDuTieBa
-HOST,passport.baidu.com,BaiDuTieBa
 HOST,sofire.bdstatic.com,BaiDuTieBa
-HOST,tb.himg.baidu.com,BaiDuTieBa
 HOST,tb1.bdstatic.com,BaiDuTieBa
 HOST,tb2.bdstatic.com,BaiDuTieBa
 HOST,tb3.bdstatic.com,BaiDuTieBa
 HOST,tb4.bdstatic.com,BaiDuTieBa
 HOST,tb5.bdstatic.com,BaiDuTieBa
 HOST,tb6.bdstatic.com,BaiDuTieBa
-HOST,tbmsg.baidu.com,BaiDuTieBa
 HOST,tieba-ares.cdn.bcebos.com,BaiDuTieBa
-HOST,tiebac.baidu.com,BaiDuTieBa
-HOST,tiebapic.baidu.com,BaiDuTieBa
-HOST-SUFFIX,tieba.baidu.com,BaiDuTieBa

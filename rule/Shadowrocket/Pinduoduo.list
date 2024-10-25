@@ -8,7 +8,6 @@ IP-CIDR,153.3.240.57/24, no-resolve
 IP-CIDR,114.110.97.97/24, no-resolve
 IP-CIDR,220.196.137.227/24, no-resolve
 IP-CIDR,114.110.97.30/24, no-resolve
-DOMAIN-SUFFIX,pinduoduo.net
 
 # NAME: Pinduoduo
 # AUTHOR: blackmatrix7
@@ -17,5 +16,4 @@ DOMAIN-SUFFIX,pinduoduo.net
 # DOMAIN-SUFFIX: 3
 # TOTAL: 3
 DOMAIN-SUFFIX,pddpic.com
-DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,yangkeduo.com
