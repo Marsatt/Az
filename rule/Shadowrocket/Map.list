@@ -1,0 +1,60 @@
+#後綴：cn，前面必須：DOMAIN
+
+#高德地图
+DOMAIN,a-map.cn
+DOMAIN-SUFFIX,a-map.co
+DOMAIN-SUFFIX,a-map.link
+DOMAIN-SUFFIX,a-map.vip
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,amapauto.com
+DOMAIN-SUFFIX,anav.com
+DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX,gaode.com
+DOMAIN,m.amap.com
+
+
+#百度地图
+DOMAIN-SUFFIX, map.baidu.com
+
+#相关于百度地图应用及其CDN的域名：
+DOMAIN, lbsnavi.cdn.bcebos.com
+DOMAIN, carowner-default.cdn.bcebos.com
+DOMAIN, cjh-amis.cdn.bcebos.com
+DOMAIN, dmpstatic.cdn.bcebos.com
+DOMAIN, himg.bdimg.com
+DOMAIN, hotel-pic.cdn.bcebos.com
+DOMAIN, internal-amis-res.cdn.bcebos.com
+DOMAIN, lbsugc.cdn.bcebos.com
+DOMAIN, low-frequency-vertical-industry.cdn.bcebos.com
+DOMAIN, map-push.cdn.bcebos.com
+DOMAIN, map-mobile-lbsapp.cdn.bcebos.com
+DOMAIN, map-mobile-opnimg.cdn.bcebos.com
+DOMAIN, map-mobile-resource.cdn.bcebos.com
+DOMAIN, mapcarowner-gz.cdn.bcebos.com
+DOMAIN, photo-meituan.cdn.bcebos.com
+DOMAIN, pic-map.cdn.bcebos.com
+DOMAIN, pic-online.cdn.bcebos.com
+DOMAIN, poi-pic-gz.cdn.bcebos.com
+DOMAIN, poi-pic.cdn.bcebos.com
+DOMAIN, se-feed-bucket.cdn.bcebos.com
+DOMAIN, mapsv0.bdimg.com
+DOMAIN, vectormap0.bdimg.com
+#其他可能相关的域名（但与百度地图功能没有直接关联）：
+DOMAIN, als.baidu.com
+DOMAIN, api.tuisong.baidu.com
+DOMAIN, appnavi.baidu.com
+DOMAIN, bgg.baidu.com
+DOMAIN, carowner.baidu.com
+DOMAIN, h2tcbox.baidu.com
+DOMAIN, integralwall.baidu.com
+DOMAIN, map-bizcenter.baidu.com
+DOMAIN, maphotel.baidu.com
+DOMAIN, mbd.baidu.com
+DOMAIN, navimon.baidu.com
+DOMAIN, upl.baidu.com
+DOMAIN, wappass.baidu.com
+DOMAIN, mobads.baidu.com
+DOMAIN, now.bdstatic.com
+DOMAIN, pms-cdn.bdstatic.com
+#其他百度服务相关的域名：
+DOMAIN, huiduapi.nuomi.com
