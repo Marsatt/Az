@@ -1,5 +1,3 @@
-#後綴：cn，前面必須：DOMAIN
-
 #白噪音网站
 DOMAIN, www.maokan.cc
 
@@ -16,34 +14,27 @@ DOMAIN-SUFFIX, roborock.com
 
 #IKEA
 DOMAIN, www.ikea.cn
-DOMAIN, srv.app.ikea.cn
-DOMAIN, file.app.ikea.cn
-DOMAIN, res.app.ikea.cn
-DOMAIN, img.app.ikea.cn
-DOMAIN, video.app.ikea.cn
-DOMAIN, bff.app.ikea.cn
+DOMAIN-SUFFIX, app.ikea.cn
 
 #CSDN
 DOMAIN-SUFFIX, csdn.net
-DOMAIN, csdnimg.cn
-DOMAIN, g.csdnimg.cn
-DOMAIN, img-blog.csdnimg.cn
-DOMAIN, img-home.csdnimg.cn
-DOMAIN, kunpeng-render.csdnimg.cn
-DOMAIN, profile-avatar.csdnimg.cn
+DOMAIN-SUFFIX, csdnimg.cn
+
+#nike
+DOMAIN-SUFFIX, nike.com.cn
+DOMAIN, ab.volices.com
+DOMAIN, gator.volces.com
 
 #adidas
-DOMAIN, adidas.com.cn
-DOMAIN, www.adidas.com.cn
+DOMAIN-SUFFIX, adidas.com.cn
 
 #蘋果
 DOMAIN, www.apple.com.cn
 DOMAIN, apple.com.cn
 
 #油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
-DOMAIN, www.doseeing.com
+DOMAIN-SUFFIX, doseeing.com
 DOMAIN, www.douyuex.com
-DOMAIN, doseeing.com
 
 #opencat
 DOMAIN, api.opencat.app
@@ -84,10 +75,6 @@ DOMAIN, youdao.com
 DOMAIN, cn.bing.com
 #剑桥
 DOMAIN, dictionary.cambridge.org
-
-#小人举牌
-DOMAIN, v1.qudou100.com
-DOMAIN, www.jiuwa.net
 
 #AI免費扣圖
 DOMAIN, bgsub.cn
@@ -133,11 +120,8 @@ DOMAIN, website-cdn.ipinfo.io
 #書籤-工具-it-ip，測試網站在全國是否可以直鏈。
 DOMAIN, www.itdog.cn
 
-
 #豆瓣
-DOMAIN-SUFFIX,douban.com
-DOMAIN-SUFFIX,douban.fm
-DOMAIN-SUFFIX,doubanio.com
+DOMAIN-KEYWORD,douban
 
 #書籤-娛樂（字幕庫）
 DOMAIN, zimuku.org
