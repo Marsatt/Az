@@ -1,5 +1,8 @@
 #後綴：cn，前面必須：DOMAIN
 
+#白噪音网站
+DOMAIN, www.maokan.cc
+
 #腾讯挪车码
 DOMAIN, appcfg.v.qq.com
 DOMAIN, launchwxacode.wxqcloud.qq.com.cn
