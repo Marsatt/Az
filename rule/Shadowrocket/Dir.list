@@ -16,6 +16,7 @@ DOMAIN-SUFFIX, roborock.com
 DOMAIN-SUFFIX, ikea.cn
 DOMAIN-SUFFIX, ikea.com.cn
 DOMAIN-SUFFIX, app.ikea.cn
+DOMAIN, web-assets.stylitics.com
 
 #CSDN
 DOMAIN-SUFFIX, csdn.net

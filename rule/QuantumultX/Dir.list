@@ -16,6 +16,8 @@ HOST-SUFFIX, roborock.com, 直鏈
 HOST-SUFFIX, ikea.cn, 直鏈
 HOST-SUFFIX, ikea.com.cn, 直鏈
 HOST-SUFFIX, app.ikea.cn, 直鏈
+HOST-SUFFIX, web-assets.stylitics.com, 直鏈
+
 
 #CSDN
 HOST-SUFFIX, csdn.net, 直鏈
