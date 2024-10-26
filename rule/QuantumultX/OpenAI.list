@@ -44,3 +44,20 @@ HOST-KEYWORD,openai,OpenAI
 IP-CIDR,24.199.123.28/32,OpenAI
 IP-CIDR,64.23.132.171/32,OpenAI
 IP-ASN,20473,OpenAI
+
+# NAME: Claude
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:28
+# HOST: 1
+# HOST-SUFFIX: 2
+# TOTAL: 3
+HOST,cdn.usefathom.com,Claude
+HOST-SUFFIX,anthropic.com,Claude
+HOST-SUFFIX,claude.ai,claude
+
+#groq
+host, api.groq.com
+
+#cloudflare.com（验证网站）
+HOST-SUFFIX, cloudflare.com

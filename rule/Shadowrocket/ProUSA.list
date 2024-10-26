@@ -1,12 +1,3 @@
-#claude
-DOMAIN-SUFFIX, claude.ai
-
-#groq
-DOMAIN, api.groq.com
-
-#cloudflare.com（验证网站）
-DOMAIN-SUFFIX, cloudflare.com
-
 #chaturbate.jjgirls.com
 DOMAIN, web.static.mmcdn.com
 DOMAIN, chaturbate.jjgirls.com
