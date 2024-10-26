@@ -13,7 +13,8 @@ DOMAIN, www.bsbsb.top
 DOMAIN-SUFFIX, roborock.com
 
 #IKEA
-DOMAIN, www.ikea.cn
+DOMAIN-SUFFIX, ikea.cn
+DOMAIN-SUFFIX, ikea.com.cn
 DOMAIN-SUFFIX, app.ikea.cn
 
 #CSDN
