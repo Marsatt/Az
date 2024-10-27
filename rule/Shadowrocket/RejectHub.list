@@ -11,9 +11,6 @@ DOMAIN-SUFFIX, mozilla.cloudflare-dns.com
 #是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
 DOMAIN, report-uri.mmcdn.com
 
-#这是 Amazon Web Services (AWS) 的 S3 存储服务链接，具体为 Amazon S3 (Simple Storage Service) 的 美国东部 (us-east-1) 数据中心。S3 是用于存储数据文件的云服务，这个链接指向的数据可能与某个应用、网站或服务的资源文件有关。很多应用使用 AWS S3 来存储和传输数据，例如图片、视频或更新包。因此，这个链接可能是某个应用或插件在后台下载或上传资源时触发的。
-DOMAIN, us-std-00001.s3.dualstack.us-east-1.amazonaws.com
-
 #这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
 DOMAIN, countly.cherpake.com
 
