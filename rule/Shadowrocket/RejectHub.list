@@ -5,6 +5,9 @@ DOMAIN-KEYWORD, zijie
 DOMAIN, hcfy.ai
 DOMAIN, kelee.one
 
+#火狐浏览器_流氓站点
+DOMAIN-SUFFIX, mozilla.cloudflare-dns.com
+
 #是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
 DOMAIN, report-uri.mmcdn.com
 
