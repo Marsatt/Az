@@ -1,6 +1,9 @@
 #关键词网址屏蔽
 DOMAIN-KEYWORD, twitch
 
+#离线观看插件
+DOMAIN-KEYWORD, cloudfront.net
+
 # NAME: Twitch
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
