@@ -33,7 +33,7 @@ DOMAIN-SUFFIX, adidas.com.cn
 #蘋果
 DOMAIN, www.apple.com.cn
 DOMAIN, apple.com.cn
-DOMAIN, ls.apple.com
+DOMAIN-SUFFIX, ls.apple.com
 
 #油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
 DOMAIN-SUFFIX, doseeing.com
