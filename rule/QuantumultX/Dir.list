@@ -34,6 +34,7 @@ HOST-SUFFIX, adidas.com.cn, 直鏈
 #蘋果
 host, www.apple.com.cn, 直鏈
 host, apple.com.cn, 直鏈
+host, ls.apple.com, 直鏈
 
 #油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
 HOST-SUFFIX, doseeing.com, 直鏈
