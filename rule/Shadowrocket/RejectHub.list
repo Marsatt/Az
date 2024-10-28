@@ -12,6 +12,8 @@ DOMAIN-SUFFIX, club
 
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
 DOMAIN-SUFFIX, software.charliemonroe.net
+DOMAIN-SUFFIX, downiestatistics.com
+
 #这个网址是 Paddle 的支付处理平台，用于处理在线支付和交易。
 DOMAIN-SUFFIX, paddle.com
 DOMAIN-SUFFIX, paddleapi.com
