@@ -5,6 +5,14 @@ HOST-KEYWORD, zijie
 host, hcfy.ai
 host, kelee.one
 
+#盗版程序
+#这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
+host-suffix, no-mad-world.club
+host-suffix, club
+
+#开源-输入法切换工具Input Source Pro
+host-suffix, inputsource.pro
+
 #这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
 host-suffix, wedata.net
 
