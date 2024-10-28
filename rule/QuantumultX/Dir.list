@@ -5,6 +5,10 @@ host, www.maokan.cc
 host, appcfg.v.qq.com, 直鏈
 host, launchwxacode.wxqcloud.qq.com.cn, 直鏈
 
+
+#哔哩哔哩查看个人首页
+host, at.alicdn.com
+
 #B站空降助手
 HOST, bsbsb.top, 直鏈
 HOST, www.bsbsb.top, 直鏈
