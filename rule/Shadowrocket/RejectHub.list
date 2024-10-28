@@ -5,6 +5,12 @@ DOMAIN-KEYWORD, zijie
 DOMAIN, hcfy.ai
 DOMAIN, kelee.one
 
+#这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
+DOMAIN-SUFFIX, wedata.net
+
+#AdGuard
+DOMAIN-SUFFIX, adtidy.org
+
 #火狐浏览器_流氓站点
 DOMAIN-SUFFIX, mozilla.cloudflare-dns.com
 
