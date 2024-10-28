@@ -4,14 +4,11 @@ DOMAIN, pqjc.site
 #LULU防火墙
 DOMAIN, objective-see.org
 
-#Tampermonkey 是一个流行的浏览器扩展，用于管理用户脚本（User Scripts）。这些脚本可以改变或增强网页的功能。Tampermonkey 支持多种浏览器，如 Chrome、Safari 和 Firefox，用户可以使用它定制和修改网页的行为。
-DOMAIN, www.tampermonkey.net
-
 #Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
-DOMAIN, objective-see.com
+DOMAIN-SUFFIX, objective-see.com
 
 #ikea.com
-DOMAIN, www.ikea.com
+DOMAIN-SUFFIX, ikea.com
 
 #stripchat
 DOMAIN-SUFFIX, stripchat.com
@@ -25,9 +22,8 @@ DOMAIN-SUFFIX, windy.com
 DOMAIN, s3-eu-west-1.amazonaws.com
 DOMAIN, wandi-6402.kxcdn.com
 DOMAIN, writeandimprove.com
-DOMAIN, cassidy.englishlanguageitutoring.com
-DOMAIN, usereventstore.englishlanguageitutoring.com
-DOMAIN, gateway.englishlanguageitutoring.com
+DOMAIN-SUFFIX, englishlanguageitutoring.com
+
 
 #Transcribe AI app
 DOMAIN, firebaselogging-pa.googleapis.com
@@ -46,66 +42,65 @@ DOMAIN-SUFFIX, myip.ms
 DOMAIN, returnyoutubedislikeapi.com
 
 # TTS
-DOMAIN-SUFFIX,fish.audio
+DOMAIN-SUFFIX, fish.audio
 
 # NEW
-DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX, bbc.com
+DOMAIN-SUFFIX, cnn.com
 
 #huggingface
 DOMAIN-SUFFIX, huggingface.co
 
 #姿勢小王子
-DOMAIN, bbs.zsxwz.com
+DOMAIN-SUFFIX, bbs.zsxwz.com
 
 #TTS
-DOMAIN, voice.wangwangit.com
+DOMAIN-SUFFIX, wangwangit.com
 
 #boxjs
 DOMAIN-SUFFIX, boxjs.com
 
 #udio AI音乐制作
-DOMAIN, www.udio.com
-DOMAIN-SUFFIX, api.udio.com
+DOMAIN-SUFFIX, udio.com
 
 #suno AI音乐制作
 DOMAIN-SUFFIX, suno.com
 DOMAIN-SUFFIX, suno.ai
 
 #IMDB
-DOMAIN, www.imdb.com
+DOMAIN-SUFFIX, imdb.com
 
 #MacOS破解網站
-DOMAIN, appstorrent.ru
-DOMAIN, xmac.app
+DOMAIN-SUFFIX, appstorrent.ru
+DOMAIN-SUFFIX, xmac.app
 
 #開源播放器iina
 DOMAIN, www.iina.io
 
 #mega下載網站
-DOMAIN, mega.nz
+DOMAIN-SUFFIX, mega.nz
 DOMAIN-SUFFIX, mega.co.nz
 
 #afreecatv
 DOMAIN-SUFFIX, afreecatv.com
 
 #fbjav.com
-DOMAIN, player.imcontent.me
-DOMAIN, images.imfb.xyz
-DOMAIN, fbjav.com
-DOMAIN, svjav.com
+DOMAIN-SUFFIX, player.imcontent.me
+DOMAIN-SUFFIX, images.imfb.xyz
+DOMAIN-SUFFIX, fbjav.com
+DOMAIN-SUFFIX, svjav.com
 
 #jable.tv
 DOMAIN-SUFFIX, mushroomtrack.com
 DOMAIN-SUFFIX, jable.tv
 
 #www.xvideos.com
-DOMAIN, www.xvideos.com
+DOMAIN-SUFFIX, xvideos.com
 DOMAIN-SUFFIX, xvideos-cdn.com
 
 #www.xnxx.com
 DOMAIN-SUFFIX, xnxx-cdn.com
-DOMAIN, www.xnxx.com
+DOMAIN-SUFFIX, xnxx.com
 
 #hplives.com
 DOMAIN, api.lovense-api.com
@@ -122,13 +117,13 @@ DOMAIN-SUFFIX, mfcimg.com
 DOMAIN-SUFFIX, myfreecams.com
 
 #reddit.com
-DOMAIN, www.redditstatic.com
+DOMAIN-SUFFIX, redditstatic.com
 DOMAIN-SUFFIX, redd.it
 DOMAIN-SUFFIX, redditmedia.com
 DOMAIN-SUFFIX, reddit.com
 
 #北美論壇
-DOMAIN, kantie.org
+DOMAIN-SUFFIX, kantie.org
 
 #WIKI
 DOMAIN-SUFFIX,mediawiki.org
@@ -145,67 +140,54 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
 #Pornhub
-DOMAIN, cdn1-smallimg.phncdn.com
 DOMAIN-SUFFIX, pornhub.com
 DOMAIN-SUFFIX, phncdn.com
 
 #kick直播平台
-DOMAIN, dbxmjjzl5pc1g.cloudfront.net
 DOMAIN-SUFFIX, kick.com
 
 #MAC keka
 DOMAIN, u.keka.io
 
 #Goodnote 6 app
-DOMAIN, api.goodnotes.email
-DOMAIN, api.goodnotes.com
+DOMAIN-SUFFIX, goodnotes.email
+DOMAIN-SUFFIX, goodnotes.com
 DOMAIN, api.sprig.com
-DOMAIN, isi.csan.goodnotes.com
-DOMAIN, gn-shop-cdn-public.csan.goodnotes.com
-DOMAIN, gn-shop.csan.goodnotes.com
+
 
 # Flightradar24 app
-DOMAIN, data-cloud.flightradar24.com
-DOMAIN, mobile.flightradar24.com
-DOMAIN, data-feed.flightradar24.com
+DOMAIN-SUFFIX, flightradar24.com
 DOMAIN, mobile-data.onetrust.io
 #AR顯示飛機照片（信息框下面，第二個框）。
 DOMAIN, cdn.jetphotos.com
-#AR顯示飛機詳細信息1
-DOMAIN, free.flightradar24.com
-#AR顯示飛機詳細信息2
-DOMAIN, data-live.flightradar24.com
 
 #Marine Traffic
-DOMAIN, tiles.marinetraffic.com
-DOMAIN, www.marinetraffic.com
+DOMAIN-SUFFIX, marinetraffic.com
 
 #嗯背單詞
 #牛津
-DOMAIN, www.oxfordlearnersdictionaries.com
+DOMAIN-SUFFIX, oxfordlearnersdictionaries.com
 #韋氏
-DOMAIN, www.merriam-webster.com
+DOMAIN-SUFFIX, merriam-webster.com
 #朗文
-DOMAIN, www.ldoceonline.com
+DOMAIN-SUFFIX, ldoceonline.com
 #柯林斯
-DOMAIN, www.collinsdictionary.com
+DOMAIN-SUFFIX, collinsdictionary.com
 
 #github
 DOMAIN-SUFFIX, ghproxy.com
 
 #vanillaVoice
 DOMAIN, api.exchangerate.DOMAIN
-DOMAIN, api.vanillavoice.com
 DOMAIN, a.interactive32.com
-DOMAIN, www.vanillavoice.com
+DOMAIN-SUFFIX, vanillavoice.com
 
 #JDownloader 2-下載工具自動更新。
-DOMAIN, update.jdownloader.org
+DOMAIN-SUFFIX, jdownloader.org
 DOMAIN-SUFFIX, appwork.org
 
 #書籤-it-轉換類-批量全能轉換器
 DOMAIN-SUFFIX, xconvert.com
-DOMAIN-SUFFIX, hv.xconvert.com
 
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
@@ -213,19 +195,16 @@ DOMAIN, geoip.furman.im
 #蠱惑狼進度條
 DOMAIN, custom-progress-bar.com
 DOMAIN, custom-progressbar.com
-#Stream Found
-DOMAIN, www.hlsloader.com
+#Stream Recorder
+DOMAIN-SUFFIX, hlsloader.com
 #Language Reactor
-DOMAIN, api-cdn-plus.dioco.io
-DOMAIN, api-cdn.dioco.io
-DOMAIN, api.dioco.io
-DOMAIN, lb.dioco.io
-DOMAIN, forum.languagelearningwithnetflix.com
-DOMAIN, www.languagereactor.com
+DOMAIN-SUFFIX, dioco.io
+DOMAIN-SUFFIX, languagelearningwithnetflix.com
+DOMAIN-SUFFIX, languagereactor.com
 #TwitchVodDownload
 DOMAIN-SUFFIX, streamrecorder.io
-DOMAIN, streamscharts.com
-DOMAIN, sullygnome.com
+DOMAIN-SUFFIX, streamscharts.com
+DOMAIN-SUFFIX, sullygnome.com
 
 #YouTuBe 雙語翻譯
 DOMAIN, extension.dioco.io
@@ -235,14 +214,11 @@ DOMAIN, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu
 DOMAIN, lib-3fsujil5cusci24v775f7qe3.1lib.fr
 
 #油猴
-DOMAIN, greasyfork.org
-DOMAIN, a.tampermonkey.net
-#Greasy Fork 油猴腳本安裝
-DOMAIN, update.greasyfork.org
+DOMAIN-SUFFIX, greasyfork.org
+DOMAIN-SUFFIX, tampermonkey.net
 
 #天时，地球看pm2.5
-DOMAIN, earth.nullschool.net
-DOMAIN, gaia.nullschool.net
+DOMAIN-SUFFIX, nullschool.net
 
 #美國大使館，地球顯示mp2.5
 DOMAIN, aqicn.org

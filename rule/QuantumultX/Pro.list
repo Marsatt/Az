@@ -4,30 +4,26 @@ host, pqjc.site
 #LULU防火墙
 host, objective-see.org
 
-#Tampermonkey 是一个流行的浏览器扩展，用于管理用户脚本（User Scripts）。这些脚本可以改变或增强网页的功能。Tampermonkey 支持多种浏览器，如 Chrome、Safari 和 Firefox，用户可以使用它定制和修改网页的行为。
-host, www.tampermonkey.net
-
 #Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
-host, objective-see.com
+host-suffix, objective-see.com
 
 #ikea.com
-host, www.ikea.com
+host-suffix, ikea.com
 
 #stripchat
-HOST-SUFFIX, stripchat.com
-HOST-SUFFIX, doppiocdn.media
-HOST-SUFFIX, oppiocdn.media
+host-suffix, stripchat.com
+host-suffix, doppiocdn.media
+host-suffix, oppiocdn.media
 
 #windy weather
-HOST-SUFFIX, windy.com
+host-suffix, windy.com
 
 #Write&Improve
 host, s3-eu-west-1.amazonaws.com
 host, wandi-6402.kxcdn.com
 host, writeandimprove.com
-host, cassidy.englishlanguageitutoring.com
-host, usereventstore.englishlanguageitutoring.com
-host, gateway.englishlanguageitutoring.com
+host-suffix, englishlanguageitutoring.com
+
 
 #Transcribe AI app
 host, firebaselogging-pa.googleapis.com
@@ -35,177 +31,163 @@ host, app-analytics-services.com
 host, ep2.facebook.com
 
 #AV_BT搜索
-HOST-SUFFIX, sukebei.nyaa.si
+host-suffix, sukebei.nyaa.si
 
 #missav.com
-HOST-SUFFIX, missav.com
+host-suffix, missav.com
 
 #Chrome瀏覽器-flag（第一個）顯示國旗。
-HOST-SUFFIX, myip.ms
+host-suffix, myip.ms
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
 host, returnyoutubedislikeapi.com
 
 # TTS
-HOST-SUFFIX,fish.audio
+host-suffix, fish.audio
 
 # NEW
-HOST-SUFFIX,bbc.com
-HOST-SUFFIX,cnn.com
+host-suffix, bbc.com
+host-suffix, cnn.com
 
 #huggingface
-HOST-SUFFIX, huggingface.co
+host-suffix, huggingface.co
 
 #姿勢小王子
-host, bbs.zsxwz.com
+host-suffix, bbs.zsxwz.com
 
 #TTS
-host, voice.wangwangit.com
+host-suffix, wangwangit.com
 
 #boxjs
-HOST-SUFFIX, boxjs.com
+host-suffix, boxjs.com
 
 #udio AI音乐制作
-host, www.udio.com
-HOST-SUFFIX, api.udio.com
+host-suffix, udio.com
 
 #suno AI音乐制作
-HOST-SUFFIX, suno.com
-HOST-SUFFIX, suno.ai
+host-suffix, suno.com
+host-suffix, suno.ai
 
 #IMDB
-host, www.imdb.com
+host-suffix, imdb.com
 
 #MacOS破解網站
-host, appstorrent.ru
-host, xmac.app
+host-suffix, appstorrent.ru
+host-suffix, xmac.app
 
 #開源播放器iina
 host, www.iina.io
 
 #mega下載網站
-host, mega.nz
-HOST-SUFFIX, mega.co.nz
+host-suffix, mega.nz
+host-suffix, mega.co.nz
 
 #afreecatv
-HOST-SUFFIX, afreecatv.com
+host-suffix, afreecatv.com
 
 #fbjav.com
-host, player.imcontent.me
-host, images.imfb.xyz
-host, fbjav.com
-host, svjav.com
+host-suffix, player.imcontent.me
+host-suffix, images.imfb.xyz
+host-suffix, fbjav.com
+host-suffix, svjav.com
 
 #jable.tv
-HOST-SUFFIX, mushroomtrack.com
-HOST-SUFFIX, jable.tv
+host-suffix, mushroomtrack.com
+host-suffix, jable.tv
 
 #www.xvideos.com
-host, www.xvideos.com
-HOST-SUFFIX, xvideos-cdn.com
+host-suffix, xvideos.com
+host-suffix, xvideos-cdn.com
 
 #www.xnxx.com
-HOST-SUFFIX, xnxx-cdn.com
-host, www.xnxx.com
+host-suffix, xnxx-cdn.com
+host-suffix, xnxx.com
 
 #hplives.com
 host, api.lovense-api.com
-HOST-SUFFIX, stripchat.com
-HOST-SUFFIX, doppiocdn.com
-HOST-SUFFIX, doppiocdn.org
-HOST-SUFFIX, sc-apps.com
-HOST-SUFFIX, strpst.com
+host-suffix, stripchat.com
+host-suffix, doppiocdn.com
+host-suffix, doppiocdn.org
+host-suffix, sc-apps.com
+host-suffix, strpst.com
 host, hplives.com
 host, hpjav.tv
 
 #myfreecams.com
-HOST-SUFFIX, mfcimg.com
-HOST-SUFFIX, myfreecams.com
+host-suffix, mfcimg.com
+host-suffix, myfreecams.com
 
 #reddit.com
-host, www.redditstatic.com
-HOST-SUFFIX, redd.it
-HOST-SUFFIX, redditmedia.com
-HOST-SUFFIX, reddit.com
+host-suffix, redditstatic.com
+host-suffix, redd.it
+host-suffix, redditmedia.com
+host-suffix, reddit.com
 
 #北美論壇
-host, kantie.org
+host-suffix, kantie.org
 
 #WIKI
-HOST-SUFFIX,mediawiki.org
-HOST-SUFFIX,wikibooks.org
-HOST-SUFFIX,wikidata.org
-HOST-SUFFIX,wikileaks.org
-HOST-SUFFIX,wikimedia.org
-HOST-SUFFIX,wikinews.org
-HOST-SUFFIX,wikipedia.org
-HOST-SUFFIX,wikiquote.org
-HOST-SUFFIX,wikisource.org
-HOST-SUFFIX,wikiversity.org
-HOST-SUFFIX,wikivoyage.org
-HOST-SUFFIX,wiktionary.org
+host-suffix,mediawiki.org
+host-suffix,wikibooks.org
+host-suffix,wikidata.org
+host-suffix,wikileaks.org
+host-suffix,wikimedia.org
+host-suffix,wikinews.org
+host-suffix,wikipedia.org
+host-suffix,wikiquote.org
+host-suffix,wikisource.org
+host-suffix,wikiversity.org
+host-suffix,wikivoyage.org
+host-suffix,wiktionary.org
 
 #Pornhub
-host, cdn1-smallimg.phncdn.com
-HOST-SUFFIX, pornhub.com
-HOST-SUFFIX, phncdn.com
+host-suffix, pornhub.com
+host-suffix, phncdn.com
 
 #kick直播平台
-host, dbxmjjzl5pc1g.cloudfront.net
-HOST-SUFFIX, kick.com
+host-suffix, kick.com
 
 #MAC keka
 host, u.keka.io
 
 #Goodnote 6 app
-host, api.goodnotes.email
-host, api.goodnotes.com
+host-suffix, goodnotes.email
+host-suffix, goodnotes.com
 host, api.sprig.com
-host, isi.csan.goodnotes.com
-host, gn-shop-cdn-public.csan.goodnotes.com
-host, gn-shop.csan.goodnotes.com
+
 
 # Flightradar24 app
-host, data-cloud.flightradar24.com
-host, mobile.flightradar24.com
-host, data-feed.flightradar24.com
+host-suffix, flightradar24.com
 host, mobile-data.onetrust.io
 #AR顯示飛機照片（信息框下面，第二個框）。
 host, cdn.jetphotos.com
-#AR顯示飛機詳細信息1
-host, free.flightradar24.com
-#AR顯示飛機詳細信息2
-host, data-live.flightradar24.com
 
 #Marine Traffic
-host, tiles.marinetraffic.com
-host, www.marinetraffic.com
+host-suffix, marinetraffic.com
 
 #嗯背單詞
 #牛津
-host, www.oxfordlearnersdictionaries.com
+host-suffix, oxfordlearnersdictionaries.com
 #韋氏
-host, www.merriam-webster.com
+host-suffix, merriam-webster.com
 #朗文
-host, www.ldoceonline.com
+host-suffix, ldoceonline.com
 #柯林斯
-host, www.collinsdictionary.com
+host-suffix, collinsdictionary.com
 
 #github
-HOST-SUFFIX, ghproxy.com
+host-suffix, ghproxy.com
 
 #vanillaVoice
 host, api.exchangerate.host
-host, api.vanillavoice.com
 host, a.interactive32.com
-host, www.vanillavoice.com
+host-suffix, vanillavoice.com
 
 #JDownloader 2-下載工具自動更新。
-host, update.jdownloader.org
-HOST-SUFFIX, appwork.org
+host-suffix, jdownloader.org
+host-suffix, appwork.org
 
 #書籤-it-轉換類-批量全能轉換器
-HOST-SUFFIX, xconvert.com
-HOST-SUFFIX, hv.xconvert.com
+host-suffix, xconvert.com
 
 #Chrome瀏覽器插件
 #chrome瀏覽器，第二個flag顯示。
@@ -213,19 +195,16 @@ host, geoip.furman.im
 #蠱惑狼進度條
 host, custom-progress-bar.com
 host, custom-progressbar.com
-#Stream Found
-host, www.hlsloader.com
+#Stream Recorder
+host-suffix, hlsloader.com
 #Language Reactor
-host, api-cdn-plus.dioco.io
-host, api-cdn.dioco.io
-host, api.dioco.io
-host, lb.dioco.io
-host, forum.languagelearningwithnetflix.com
-host, www.languagereactor.com
+host-suffix, dioco.io
+host-suffix, languagelearningwithnetflix.com
+host-suffix, languagereactor.com
 #TwitchVodDownload
-HOST-SUFFIX, streamrecorder.io
-host, streamscharts.com
-host, sullygnome.com
+host-suffix, streamrecorder.io
+host-suffix, streamscharts.com
+host-suffix, sullygnome.com
 
 #YouTuBe 雙語翻譯
 host, extension.dioco.io
@@ -235,14 +214,11 @@ host, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu
 host, lib-3fsujil5cusci24v775f7qe3.1lib.fr
 
 #油猴
-host, greasyfork.org
-host, a.tampermonkey.net
-#Greasy Fork 油猴腳本安裝
-host, update.greasyfork.org
+host-suffix, greasyfork.org
+host-suffix, tampermonkey.net
 
 #天时，地球看pm2.5
-host, earth.nullschool.net
-host, gaia.nullschool.net
+host-suffix, nullschool.net
 
 #美國大使館，地球顯示mp2.5
 host, aqicn.org
