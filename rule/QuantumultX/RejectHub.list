@@ -10,6 +10,15 @@ host, kelee.one
 host-suffix, no-mad-world.club
 host-suffix, club
 
+#网站的附加访问
+#stripchat.com
+host-suffix, loo3laej.com
+host-suffix, display.lovense-api.com
+
+#谷歌浏览器插件
+#bilibili哔哩哔哩下载助手
+host-suffix, csser.top
+
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
 host-suffix, software.charliemonroe.net
 host-suffix, downiestatistics.com
