@@ -18,7 +18,7 @@ DOMAIN-SUFFIX, mozilla.cloudflare-dns.com
 DOMAIN, report-uri.mmcdn.com
 
 #这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
-DOMAIN, countly.cherpake.com
+DOMAIN-SUFFIX, cherpake.com
 
 #与 Dark Reader 插件相关，它是一款用于在浏览器中启用暗色模式的扩展程序。这个链接可能是为了更新扩展程序或发送一些使用统计数据。
 DOMAIN, darkreader.org
