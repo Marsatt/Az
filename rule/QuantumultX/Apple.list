@@ -1,3 +1,6 @@
+#苹果公司的推送通知服务（Apple Push Notification service, APNs）的一部分。
+host-suffix, push.apple.com
+
 #Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
 HOST, apple-finance.query.yahoo.com
 
@@ -134,9 +137,7 @@ HOST,init-kt.apple.com,Apple
 HOST,init-p01md-lb.push-apple.com.akadns.net,Apple
 HOST,init-p01md.apple.com,Apple
 HOST,init-p01st-lb.push-apple.com.akadns.net,Apple
-HOST,init-p01st.push.apple.com,Apple
 HOST,init-s01st-lb.push-apple.com.akadns.net,Apple
-HOST,init-s01st.push.apple.com,Apple
 HOST,init.ess.apple.com,Apple
 HOST,init.itunes.apple.com,Apple
 HOST,iosapps-ssl.itunes.apple.com,Apple
