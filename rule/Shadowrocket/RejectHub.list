@@ -11,7 +11,7 @@ DOMAIN-SUFFIX, no-mad-world.club
 DOMAIN-SUFFIX, club
 
 #alfred.app 是 Alfred 的官方网站。Alfred 是一款流行的 macOS 应用程序，用于提高工作效率。它通过键盘快捷键、文本扩展和自定义工作流，帮助用户更快捷地启动应用、查找文件、执行系统命令和网络搜索等操作。许多 Mac 用户安装 Alfred 来替代或增强 macOS 自带的 Spotlight 功能。
-#DOMAIN-SUFFIX, alfred.app
+DOMAIN-SUFFIX, alfred.app
 
 #开源-输入法切换工具Input Source Pro
 DOMAIN-SUFFIX, inputsource.pro
