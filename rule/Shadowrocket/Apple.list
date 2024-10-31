@@ -1,3 +1,6 @@
+#Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
+DOMAIN, apple-finance.query.yahoo.com
+
 #苹果公司的推送通知服务（Apple Push Notification service, APNs）的一部分。
 DOMAIN-SUFFIX, push.apple.com
 
