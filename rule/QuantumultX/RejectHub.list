@@ -20,6 +20,8 @@ host-suffix, display.lovense-api.com
 host, www.fbsbx.com
 #bilibili
 host, passport.bilicomic.com
+#文字转语音_国内_ttsmaker.cn
+host-suffix, tts-file.com
 
 #谷歌浏览器插件
 #bilibili哔哩哔哩下载助手

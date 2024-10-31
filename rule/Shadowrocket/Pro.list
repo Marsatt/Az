@@ -45,8 +45,10 @@ DOMAIN, returnyoutubedislikeapi.com
 #aisaver.io
 DOMAIN-SUFFIX, aisaver.io
 DOMAIN, extensiondock.com
-# TTS
+# fish.audio
 DOMAIN-SUFFIX, fish.audio
+# fish.audio_下载语音
+DOMAIN-SUFFIX, r2.cloudflarestorage.com
 
 # NEW
 DOMAIN-SUFFIX, bbc.com
@@ -180,11 +182,6 @@ DOMAIN-SUFFIX, collinsdictionary.com
 
 #github
 DOMAIN-SUFFIX, ghproxy.com
-
-#vanillaVoice
-DOMAIN, api.exchangerate.DOMAIN
-DOMAIN, a.interactive32.com
-DOMAIN-SUFFIX, vanillavoice.com
 
 #JDownloader 2-下載工具自動更新。
 DOMAIN-SUFFIX, jdownloader.org

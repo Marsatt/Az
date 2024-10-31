@@ -20,6 +20,8 @@ DOMAIN-SUFFIX, display.lovense-api.com
 DOMAIN, www.fbsbx.com
 #bilibili
 DOMAIN, passport.bilicomic.com
+#文字转语音_国内_ttsmaker.cn
+DOMAIN-SUFFIX, tts-file.com
 
 #谷歌浏览器插件
 #bilibili哔哩哔哩下载助手

@@ -96,11 +96,6 @@ host, static.ttsmaker.cn, 直鏈
 host, freddyfeedback.com, 直鏈
 host, ttsmaker.cn, 直鏈
 
-#文字轉語音ttson.cn
-host, httpbin.org, 直鏈
-host, api.ttson.cn, 直鏈
-host, www.ttson.cn, 直鏈
-
 #喵软件资源网
 host, www.appmiu.com, 直鏈
 

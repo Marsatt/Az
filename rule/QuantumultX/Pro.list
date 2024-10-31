@@ -45,8 +45,10 @@ host, returnyoutubedislikeapi.com
 #aisaver.io
 host-suffix, aisaver.io
 host, extensiondock.com
-# TTS
+# fish.audio
 host-suffix, fish.audio
+# fish.audio_下载语音
+host-suffix, r2.cloudflarestorage.com
 
 # NEW
 host-suffix, bbc.com
@@ -180,11 +182,6 @@ host-suffix, collinsdictionary.com
 
 #github
 host-suffix, ghproxy.com
-
-#vanillaVoice
-host, api.exchangerate.host
-host, a.interactive32.com
-host-suffix, vanillavoice.com
 
 #JDownloader 2-下載工具自動更新。
 host-suffix, jdownloader.org
