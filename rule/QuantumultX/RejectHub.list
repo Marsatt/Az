@@ -7,6 +7,9 @@ host, kelee.one
 #由 Objective Development 提供的服务，主要用于地理位置相关的功能。
 host, geolocation.obdev.at
 
+#Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
+HOST, apple-finance.query.yahoo.com
+
 #盗版程序
 #这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
 host-suffix, no-mad-world.club
