@@ -8,6 +8,8 @@ DOMAIN, launchwxacode.wxqcloud.qq.com.cn
 
 #哔哩哔哩查看个人首页
 DOMAIN, at.alicdn.com
+#哔哩哔哩登录账号验证器
+DOMAIN-SUFFIX, geetest.com
 
 #B站空降助手
 DOMAIN, bsbsb.top

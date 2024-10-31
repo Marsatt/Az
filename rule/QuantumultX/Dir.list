@@ -8,6 +8,8 @@ host, launchwxacode.wxqcloud.qq.com.cn, 直鏈
 
 #哔哩哔哩查看个人首页
 host, at.alicdn.com
+#哔哩哔哩登录账号验证器
+host-suffix, geetest.com
 
 #B站空降助手
 HOST, bsbsb.top, 直鏈
