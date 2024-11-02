@@ -1,3 +1,13 @@
+#麦当劳
+host-suffix,mcd.cn
+host-suffix,mcdonalds.com.cn
+
+#肯德基
+host-suffix,hwwt8.com
+host-suffix,kfc.com.cn
+#账号登陆验证
+host,api.geevisit.com
+
 #白噪音网站
 host, www.maokan.cc
 
@@ -5,45 +15,43 @@ host, www.maokan.cc
 host, appcfg.v.qq.com, 直鏈
 host, launchwxacode.wxqcloud.qq.com.cn, 直鏈
 
-
 #哔哩哔哩查看个人首页
 host, at.alicdn.com
 #哔哩哔哩登录账号验证器
 host-suffix, geetest.com
 
 #B站空降助手
-HOST, bsbsb.top, 直鏈
-HOST, www.bsbsb.top, 直鏈
+host, bsbsb.top, 直鏈
+host, www.bsbsb.top, 直鏈
 
 #roborock
-HOST-SUFFIX, roborock.com, 直鏈
+host-suffix, roborock.com, 直鏈
 
 #IKEA
-HOST-SUFFIX, ikea.cn, 直鏈
-HOST-SUFFIX, ikea.com.cn, 直鏈
-HOST-SUFFIX, app.ikea.cn, 直鏈
-HOST-SUFFIX, web-assets.stylitics.com, 直鏈
-
+host-suffix, ikea.cn, 直鏈
+host-suffix, ikea.com.cn, 直鏈
+host-suffix, app.ikea.cn, 直鏈
+host-suffix, web-assets.stylitics.com, 直鏈
 
 #CSDN
-HOST-SUFFIX, csdn.net, 直鏈
-HOST-SUFFIX, csdnimg.cn, 直鏈
+host-suffix, csdn.net, 直鏈
+host-suffix, csdnimg.cn, 直鏈
 
 #nike
-HOST-SUFFIX, nike.com.cn, 直鏈
-HOST, ab.volices.com, 直鏈
-HOST, gator.volces.com, 直鏈
+host-suffix, nike.com.cn, 直鏈
+host, ab.volices.com, 直鏈
+host, gator.volces.com, 直鏈
 
 #adidas
-HOST-SUFFIX, adidas.com.cn, 直鏈
+host-suffix, adidas.com.cn, 直鏈
 
 #蘋果
 host, www.apple.com.cn, 直鏈
 host, apple.com.cn, 直鏈
-HOST-SUFFIX, ls.apple.com, 直鏈
+host-suffix, ls.apple.com, 直鏈
 
 #油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
-HOST-SUFFIX, doseeing.com, 直鏈
+host-suffix, doseeing.com, 直鏈
 host, www.douyuex.com, 直鏈
 
 #opencat
@@ -126,14 +134,14 @@ host, website-cdn.ipinfo.io, 直鏈
 host, www.itdog.cn, 直鏈
 
 #豆瓣
-HOST-keyword,douban
+host-keyword,douban
 
 #書籤-娛樂（字幕庫）
 host, zimuku.org, 直鏈
 
 #知乎
-HOST-SUFFIX,zhihu.com,直鏈
-HOST-SUFFIX,zhimg.com,直鏈
+host-suffix,zhihu.com,直鏈
+host-suffix,zhimg.com,直鏈
 IP-CIDR,103.41.167.226/32,直鏈
 IP-CIDR,103.41.167.234/31,直鏈
 IP-CIDR,103.41.167.236/32,直鏈

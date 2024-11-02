@@ -1,10 +1,19 @@
+#麦当劳
+DOMAIN-SUFFIX,mcd.cn
+DOMAIN-SUFFIX,mcdonalds.com.cn
+
+#肯德基
+DOMAIN-SUFFIX,hwwt8.com
+DOMAIN-SUFFIX,kfc.com.cn
+#账号登陆验证
+DOMAIN,api.geevisit.com
+
 #白噪音网站
 DOMAIN, www.maokan.cc
 
 #腾讯挪车码
 DOMAIN, appcfg.v.qq.com
 DOMAIN, launchwxacode.wxqcloud.qq.com.cn
-
 
 #哔哩哔哩查看个人首页
 DOMAIN, at.alicdn.com
