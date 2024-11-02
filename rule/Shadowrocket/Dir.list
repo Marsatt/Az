@@ -1,12 +1,16 @@
+#剂安安
+DOMAIN,app. jichacha.vip
+DOMAIN-SUFFIX, dcloud.net.cn
+
 #麦当劳
-DOMAIN-SUFFIX,mcd.cn
-DOMAIN-SUFFIX,mcdonalds.com.cn
+DOMAIN-SUFFIX, mcd.cn
+DOMAIN-SUFFIX, mcdonalds.com.cn
 
 #肯德基
-DOMAIN-SUFFIX,hwwt8.com
-DOMAIN-SUFFIX,kfc.com.cn
+DOMAIN-SUFFIX, hwwt8.com
+DOMAIN-SUFFIX, kfc.com.cn
 #账号登陆验证
-DOMAIN,api.geevisit.com
+DOMAIN, api.geevisit.com
 
 #白噪音网站
 DOMAIN, www.maokan.cc

@@ -1,12 +1,16 @@
+#剂安安
+host, app.jichacha.vip
+host-suffix, dcloud.net.cn
+
 #麦当劳
-host-suffix,mcd.cn
-host-suffix,mcdonalds.com.cn
+host-suffix, mcd.cn
+host-suffix, mcdonalds.com.cn
 
 #肯德基
-host-suffix,hwwt8.com
-host-suffix,kfc.com.cn
+host-suffix, hwwt8.com
+host-suffix, kfc.com.cn
 #账号登陆验证
-host,api.geevisit.com
+host, api.geevisit.com
 
 #白噪音网站
 host, www.maokan.cc
