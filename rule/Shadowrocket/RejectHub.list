@@ -7,6 +7,9 @@ DOMAIN, kelee.one
 #由 Objective Development 提供的服务，主要用于地理位置相关的功能。
 DOMAIN, geolocation.obdev.at
 
+#剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
+DOMAIN-SUFFIX, likecam.com
+
 #ViewerAttack 相关，这是一个与网络流量或用户行为分析有关的服务。
 DOMAIN, api.viewerattack.com
 
