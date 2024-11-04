@@ -1,3 +1,8 @@
+#大众点评
+DOMAIN,qcloud.dpfile.com
+DOMAIN-KEYWORD,dianping
+DOMAIN-KEYWORD,meituan
+
 #剂安安
 host, app.jichacha.vip
 host-suffix, dcloud.net.cn
@@ -16,8 +21,8 @@ host, api.geevisit.com
 host, www.maokan.cc
 
 #腾讯挪车码
-host, appcfg.v.qq.com, 直鏈
-host, launchwxacode.wxqcloud.qq.com.cn, 直鏈
+host, appcfg.v.qq.com
+host, launchwxacode.wxqcloud.qq.com.cn
 
 #哔哩哔哩查看个人首页
 host, at.alicdn.com
@@ -25,134 +30,136 @@ host, at.alicdn.com
 host-suffix, geetest.com
 
 #B站空降助手
-host, bsbsb.top, 直鏈
-host, www.bsbsb.top, 直鏈
+host, bsbsb.top
+host, www.bsbsb.top
 
 #roborock
-host-suffix, roborock.com, 直鏈
+host-suffix, roborock.com
 
 #IKEA
-host-suffix, ikea.cn, 直鏈
-host-suffix, ikea.com.cn, 直鏈
-host-suffix, app.ikea.cn, 直鏈
-host-suffix, web-assets.stylitics.com, 直鏈
+host-suffix, ikea.cn
+host-suffix, ikea.com.cn
+host-suffix, app.ikea.cn
+host-suffix, web-assets.stylitics.com
 
 #CSDN
-host-suffix, csdn.net, 直鏈
-host-suffix, csdnimg.cn, 直鏈
+host-suffix, csdn.net
+host-suffix, csdnimg.cn
 
 #nike
-host-suffix, nike.com.cn, 直鏈
-host, ab.volices.com, 直鏈
-host, gator.volces.com, 直鏈
+host, tab.volces.com
+host, gator.volces.com
+host-suffix, nike.com.cn
+host, ab.volices.com
+host, gator.volces.com
 
 #adidas
-host-suffix, adidas.com.cn, 直鏈
+host-suffix, adidas.com.cn
 
 #蘋果
-host, www.apple.com.cn, 直鏈
-host, apple.com.cn, 直鏈
-host-suffix, ls.apple.com, 直鏈
+host, www.apple.com.cn
+host, apple.com.cn
+host-suffix, ls.apple.com
 
 #油猴Tampermonkey DouyuEx-鬥魚直播間增強插件
-host-suffix, doseeing.com, 直鏈
-host, www.douyuex.com, 直鏈
+host-suffix, doseeing.com
+host, www.douyuex.com
 
 #opencat
-host, api.opencat.app, 直鏈
+host, api.opencat.app
 #opencat 工坊服务
-host, t3wflvcn.lc-cn-n1-shared.com, 直鏈
+host, t3wflvcn.lc-cn-n1-shared.com
 
 #美的空调
-host, sse.smartmidea.net, 直鏈
-host, iotsdk.midea.com, 直鏈
-host, recv.bi.ainirobot.com, 直鏈
-host, mp-prod.smartmidea.net, 直鏈
-host, mjfile-pro.smartmidea.net, 直鏈
-host, meijuresources.smartmidea.net, 直鏈
+host, sse.smartmidea.net
+host, iotsdk.midea.com
+host, recv.bi.ainirobot.com
+host, mp-prod.smartmidea.net
+host, mjfile-pro.smartmidea.net
+host, meijuresources.smartmidea.net
 
 #京东比价
-host, apapia-history.manmanbuy.com, 直鏈
+host, apapia-history.manmanbuy.com
 
 #阿里小号
-host, acs.m.taobao.com, 直鏈
-host, h-adashx.ut.taobao.com, 直鏈
-ip-cidr, 139.215.162.204/24, 直鏈
-ip-cidr, 59.82.121.225/24, 直鏈
-ip-cidr, 59.82.122.5/24, 直鏈
+host, acs.m.taobao.com
+host, h-adashx.ut.taobao.com
+ip-cidr, 139.215.162.204/24
+ip-cidr, 59.82.121.225/24
+ip-cidr, 59.82.122.5/24
 
 #邮件APP绑定新浪邮箱
-host, pop.sina.com, 直鏈
-host, smtp.sina.com, 直鏈
-host, p29-smtp.mail.me.com, 直鏈
-host, p29-imap.mail.me.com, 直鏈
+host, pop.sina.com
+host, smtp.sina.com
+host, p29-smtp.mail.me.com
+host, p29-imap.mail.me.com
 
 #嗯背單詞
 #有道發音
-host, dict.youdao.com, 直鏈
+host, dict.youdao.com
 #有道词典
-host, www.youdao.com, 直鏈
-host, youdao.com, 直鏈
+host, www.youdao.com
+host, youdao.com
 #Bing
-host, cn.bing.com, 直鏈
+host, cn.bing.com
 #剑桥
-host, dictionary.cambridge.org, 直鏈
+host, dictionary.cambridge.org
 
 #AI免費扣圖
-host, bgsub.cn, 直鏈
+host, bgsub.cn
 
 #文字轉語音ttsmaker.cn
-host, tts-file2.com, 直鏈
-host, s2.tts-file.com, 直鏈
-host, static.ttsmaker.cn, 直鏈
-host, freddyfeedback.com, 直鏈
-host, ttsmaker.cn, 直鏈
+host, tts-file2.com
+host, s2.tts-file.com
+host, static.ttsmaker.cn
+host, freddyfeedback.com
+host, ttsmaker.cn
 
 #喵软件资源网
-host, www.appmiu.com, 直鏈
+host, www.appmiu.com
 
 #有道詞典
-host, app-measurement.com, 直鏈
-host, shared.ydstatic.com, 直鏈
-host, ydlunacommon-cdn.nosdn.127.net, 直鏈
-host, shared-https.ydstatic.com, 直鏈
+host, app-measurement.com
+host, shared.ydstatic.com
+host, ydlunacommon-cdn.nosdn.127.net
+host, shared-https.ydstatic.com
 
 #百度百科
 #百度百科 圖片連結
-host, bkimg.cdn.bcebos.com, 直鏈
+host, bkimg.cdn.bcebos.com
 #百度百科 視頻連結
-host, baikevideo.cdn.bcebos.com, 直鏈
+host, baikevideo.cdn.bcebos.com
 #百度百科 網頁排版
-host, bkssl.bdimg.com, 直鏈
+host, bkssl.bdimg.com
 #百度百科
-host, baike.baidu.com, 直鏈
+host, baike.baidu.com
 
 #書籤-工具-it-ip是否欺詐查詢。
-host, scamalytics.com, 直鏈
+host, scamalytics.com
 
 #書籤-工具-it-ip欺詐類型查看。
-host, ipinfo.io, 直鏈
-host, website-cdn.ipinfo.io, 直鏈
+host, ipinfo.io
+host, website-cdn.ipinfo.io
 
 #書籤-工具-it-ip，測試網站在全國是否可以直鏈。
-host, www.itdog.cn, 直鏈
+host, www.itdog.cn
 
 #豆瓣
 host-keyword,douban
 
 #書籤-娛樂（字幕庫）
-host, zimuku.org, 直鏈
+host, zimuku.org
 
 #知乎
-host-suffix,zhihu.com,直鏈
-host-suffix,zhimg.com,直鏈
-IP-CIDR,103.41.167.226/32,直鏈
-IP-CIDR,103.41.167.234/31,直鏈
-IP-CIDR,103.41.167.236/32,直鏈
-IP-CIDR,118.89.204.198/32,直鏈
+host-suffix,zhihu.com
+host-suffix,zhimg.com
+IP-CIDR,103.41.167.226/32
+IP-CIDR,103.41.167.234/31
+IP-CIDR,103.41.167.236/32
+IP-CIDR,118.89.204.198/32
 
 #www.ahhhhfs.com 資源網站
-host, www.ahhhhfs.com, 直鏈
+host, www.ahhhhfs.com
 
 #繁體簡體互換網站
-host, youtils.cc, 直鏈
+host, youtils.cc

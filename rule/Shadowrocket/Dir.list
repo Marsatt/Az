@@ -1,3 +1,8 @@
+#大众点评
+DOMAIN,qcloud.dpfile.com,DIRECT
+DOMAIN-KEYWORD,dianping,DIRECT
+DOMAIN-KEYWORD,meituan,DIRECT
+
 #剂安安
 DOMAIN, app.jichacha.vip
 DOMAIN-SUFFIX, dcloud.net.cn
@@ -42,6 +47,8 @@ DOMAIN-SUFFIX, csdn.net
 DOMAIN-SUFFIX, csdnimg.cn
 
 #nike
+DOMAIN, tab.volces.com
+DOMAIN, gator.volces.com
 DOMAIN-SUFFIX, nike.com.cn
 DOMAIN, ab.volices.com
 DOMAIN, gator.volces.com
