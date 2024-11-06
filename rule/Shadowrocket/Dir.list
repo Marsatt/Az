@@ -1,7 +1,10 @@
+#顺丰快递查询
+DOMAIN-SUFFIX, sf-express.com
+
 #大众点评
-DOMAIN,qcloud.dpfile.com,DIRECT
-DOMAIN-KEYWORD,dianping,DIRECT
-DOMAIN-KEYWORD,meituan,DIRECT
+DOMAIN, qcloud.dpfile.com
+DOMAIN-KEYWORD, dianping
+DOMAIN-KEYWORD, meituan
 
 #剂安安
 DOMAIN, app.jichacha.vip

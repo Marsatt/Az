@@ -1,7 +1,10 @@
+#顺丰快递查询
+host-suffix, sf-express.com
+
 #大众点评
-DOMAIN,qcloud.dpfile.com
-DOMAIN-KEYWORD,dianping
-DOMAIN-KEYWORD,meituan
+host, qcloud.dpfile.com
+host-keyword, dianping
+host-keyword, meituan
 
 #剂安安
 host, app.jichacha.vip
