@@ -85,6 +85,7 @@ host, meijuresources.smartmidea.net
 host, apapia-history.manmanbuy.com
 
 #阿里小号
+host, eco.taobao.com
 host, acs.m.taobao.com
 host, h-adashx.ut.taobao.com
 ip-cidr, 139.215.162.204/24
