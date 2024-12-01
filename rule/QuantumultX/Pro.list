@@ -71,9 +71,10 @@ host-suffix, suno.ai
 host-suffix, imdb.com
 
 #MacOS软件破解網站
-host-suffix,vk.com,NS,NS
-host,unpkg.com,NS
-host-suffix,vk.com,NS
+host, unpkg.com
+host-suffix,vk.com
+host,unpkg.com
+host-suffix,vk.com
 host-suffix, appstorrent.ru
 host-suffix, xmac.app
 
