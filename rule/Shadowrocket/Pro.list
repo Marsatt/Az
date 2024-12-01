@@ -71,6 +71,9 @@ DOMAIN-SUFFIX, suno.ai
 DOMAIN-SUFFIX, imdb.com
 
 #MacOS破解網站
+DOMAIN-SUFFIX,vk.com,NS,NS
+DOMAIN,unpkg.com,NS
+DOMAIN-SUFFIX,vk.com,NS
 DOMAIN-SUFFIX, appstorrent.ru
 DOMAIN-SUFFIX, xmac.app
 
