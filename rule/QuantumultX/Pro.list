@@ -71,6 +71,7 @@ host-suffix, suno.ai
 host-suffix, imdb.com
 
 #MacOS软件破解網站
+host, psv4.userapi.com
 host, unpkg.com
 host-suffix,vk.com
 host,unpkg.com
