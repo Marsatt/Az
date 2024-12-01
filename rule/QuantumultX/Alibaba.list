@@ -1,10 +1,10 @@
 #关键词网址屏蔽
-host-keyworld, alibaba,Alibaba
-host-keyworld, taobao,Alibaba
-host-keyworld, tmall,Alibaba
-host-keyworld, alipay,Alibaba
-host-keyworld, alipan,Alibaba
-host-keyworld, aliyun,Alibaba
+host-keyword, alibaba,Alibaba
+host-keyword, taobao,Alibaba
+host-keyword, tmall,Alibaba
+host-keyword, alipay,Alibaba
+host-keyword, alipan,Alibaba
+host-keyword, aliyun,Alibaba
 
 #网商银行
 HOST-SUFFIX, mybank.cn,Alibaba
