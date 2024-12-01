@@ -185,6 +185,9 @@ host-suffix, appwork.org
 host-suffix, xconvert.com
 
 #Chrome瀏覽器插件
+#Click&Clean
+host,cdn.hotcleaner.com
+host,www.hotcleaner.com
 #Chrome瀏覽器-flag（第一個）顯示國旗。
 host-suffix, myip.ms
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
