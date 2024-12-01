@@ -24,7 +24,6 @@ DOMAIN, wandi-6402.kxcdn.com
 DOMAIN, writeandimprove.com
 DOMAIN-SUFFIX, englishlanguageitutoring.com
 
-
 #Transcribe AI app
 DOMAIN, firebaselogging-pa.googleapis.com
 DOMAIN, app-analytics-services.com
@@ -35,11 +34,6 @@ DOMAIN-SUFFIX, sukebei.nyaa.si
 
 #missav.com
 DOMAIN-SUFFIX, missav.com
-
-#Chrome瀏覽器-flag（第一個）顯示國旗。
-DOMAIN-SUFFIX, myip.ms
-#Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
-DOMAIN, returnyoutubedislikeapi.com
 
 #文字转语音
 #aisaver.io
@@ -191,6 +185,10 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
+#Chrome瀏覽器-flag（第一個）顯示國旗。
+DOMAIN-SUFFIX, myip.ms
+#Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
+DOMAIN, returnyoutubedislikeapi.com
 #chrome瀏覽器，第二個flag顯示。
 DOMAIN, geoip.furman.im
 #蠱惑狼進度條

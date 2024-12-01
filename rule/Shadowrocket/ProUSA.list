@@ -8,7 +8,6 @@ DOMAIN, internet-up.ably-realtime.com
 DOMAIN, cbjpeg.stream.highwebmedia.com
 DOMAIN, roomimg.stream.highwebmedia.com
 
-
 # DNS Leak from Shadowrocket Default
 DOMAIN-SUFFIX, dnsleaktest.com
 DOMAIN-SUFFIX, dnsleak.com
