@@ -1,9 +1,12 @@
 ip-cidr, 58.144.226.4/24, Douyu
 
-#鬥魚 MACOS
-#鬥魚 視頻連結地址
-host-suffix, edgesrv.com, Douyu
-
+# NAME: Douyu
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-08-29 02:12:23
+# HOST-SUFFIX: 13
+# TOTAL: 13
+HOST-SUFFIX,bytefcdnrd.com,Douyu
 HOST-SUFFIX,douyu.com,Douyu
 HOST-SUFFIX,douyu.tv,Douyu
 HOST-SUFFIX,douyuba.cn,Douyu
@@ -13,4 +16,6 @@ HOST-SUFFIX,douyupcdn.cn,Douyu
 HOST-SUFFIX,douyuscdn.com,Douyu
 HOST-SUFFIX,douyutv.com,Douyu
 HOST-SUFFIX,doyonoc.com,Douyu
+HOST-SUFFIX,edgesrv.com,Douyu
+HOST-SUFFIX,guguyuyin.com,Douyu
 HOST-SUFFIX,oywtv.com,Douyu

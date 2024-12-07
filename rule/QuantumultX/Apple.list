@@ -14,14 +14,14 @@ HOST, weather-data.apple.com,Apple
 # NAME: Apple
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-03-30 02:09:20
-# HOST: 267
+# UPDATED: 2024-12-07 02:11:40
+# HOST: 268
 # HOST-KEYWORD: 7
 # HOST-SUFFIX: 1549
-# HOST-WILDCARD: 8
+# HOST-WILDCARD: 15
 # IP-CIDR: 10
 # USER-AGENT: 23
-# TOTAL: 1864
+# TOTAL: 1872
 HOST,apps.apple.com,Apple
 HOST,a1.mzstatic.com,Apple
 HOST,a2.mzstatic.com,Apple
@@ -100,6 +100,7 @@ HOST,discussionschinese.apple.com,Apple
 HOST,download.developer.apple.com,Apple
 HOST,downloaddispatch.itunes.apple.com,Apple
 HOST,e16991.b.akamaiedge.net,Apple
+HOST,edge.apple,Apple
 HOST,experiments.apple.com,Apple
 HOST,fides-pol.apple.com,Apple
 HOST,gateway.icloud.com,Apple
@@ -137,7 +138,9 @@ HOST,init-kt.apple.com,Apple
 HOST,init-p01md-lb.push-apple.com.akadns.net,Apple
 HOST,init-p01md.apple.com,Apple
 HOST,init-p01st-lb.push-apple.com.akadns.net,Apple
+HOST,init-p01st.push.apple.com,Apple
 HOST,init-s01st-lb.push-apple.com.akadns.net,Apple
+HOST,init-s01st.push.apple.com,Apple
 HOST,init.ess.apple.com,Apple
 HOST,init.itunes.apple.com,Apple
 HOST,iosapps-ssl.itunes.apple.com,Apple
@@ -258,7 +261,6 @@ HOST,devimages-cdn.apple.com,Apple
 HOST,devstreaming-cdn.apple.com,Apple
 HOST,docs-assets.developer.apple.com,Apple
 HOST,gspe1-ssl.ls.apple.com,Apple
-HOST,hls-svod.itunes.apple.com,Apple
 HOST,hls.itunes.apple.com,Apple
 HOST,itunes.apple.com,Apple
 HOST,js-cdn.music.apple.com,Apple
@@ -284,6 +286,7 @@ HOST,fmfmobile.icloud.com,Apple
 HOST,fmipmobile.icloud.com,Apple
 HOST,statici.icloud.com,Apple
 HOST,amp-api.fitness.apple.com,Apple
+HOST,hls-svod.itunes.apple.com,Apple
 HOST,guzzoni.apple.com,Apple
 HOST,beta.apple.com,Apple
 HOST,www-cdn.icloud.com.akadns.net,Apple
@@ -1084,7 +1087,6 @@ HOST-SUFFIX,ibeatsbydre.cc,Apple
 HOST-SUFFIX,ibeatsbydre.com,Apple
 HOST-SUFFIX,ichat.co.in,Apple
 HOST-SUFFIX,icloud-content.com.cn,Apple
-HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,idvd.eu,Apple
 HOST-SUFFIX,igoshopping.net,Apple
 HOST-SUFFIX,ikids.com,Apple
@@ -1793,6 +1795,7 @@ HOST-SUFFIX,apzones.com,Apple
 HOST-SUFFIX,icloud-apple.cn,Apple
 HOST-SUFFIX,icloud-content.com,Apple
 HOST-SUFFIX,icloud-isupport.com,Apple
+HOST-SUFFIX,icloud-sandbox.com,Apple
 HOST-SUFFIX,icloud.ch,Apple
 HOST-SUFFIX,icloud.com,Apple
 HOST-SUFFIX,icloud.com.cn,Apple
@@ -1841,9 +1844,16 @@ HOST-WILDCARD,apple.*,Apple
 HOST-WILDCARD,apple.com.*,Apple
 HOST-WILDCARD,appleworldwidedeveloper.*.net,Apple
 HOST-WILDCARD,imac.*,Apple
+HOST-WILDCARD,init*.push-apple.com.akadns.net,Apple
+HOST-WILDCARD,init*.push.apple.com,Apple
+HOST-WILDCARD,ipad.*,Apple
+HOST-WILDCARD,ipadair.*,Apple
+HOST-WILDCARD,ipadmini.*,Apple
 HOST-WILDCARD,iphone.*,Apple
 HOST-WILDCARD,ipod.*,Apple
 HOST-WILDCARD,macbook.*,Apple
+HOST-WILDCARD,macbookair.*,Apple
+HOST-WILDCARD,macbookpro.*,Apple
 HOST-KEYWORD,apple-support.akadns.net,Apple
 HOST-KEYWORD,apple.com.akadns.net,Apple
 HOST-KEYWORD,apple.com.edgekey.net,Apple
@@ -1967,6 +1977,186 @@ HOST-SUFFIX,webkitgtk.org,AppleDev
 HOST-SUFFIX,webobjects.com,AppleDev
 HOST-SUFFIX,wpewebkit.org,AppleDev
 
+# NAME: AppleFirmware
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:17:41
+# HOST-SUFFIX: 173
+# TOTAL: 173
+HOST-SUFFIX,12diasdepresentesdeitunes.com,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.cl,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.co,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.co.cr,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.co.ni,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.co.ve,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.com,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.com.co,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.com.hn,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.com.ni,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.com.ve,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.cr,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.gt,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.hn,AppleFirmware
+HOST-SUFFIX,12diasderegalosdeitunes.pe,AppleFirmware
+HOST-SUFFIX,12joursdecadeauxdeitunes.com,AppleFirmware
+HOST-SUFFIX,aaplimg.com,AppleFirmware
+HOST-SUFFIX,app-store.wang,AppleFirmware
+HOST-SUFFIX,appe-store.com,AppleFirmware
+HOST-SUFFIX,apple-appstore.cn,AppleFirmware
+HOST-SUFFIX,apple-icloud.cn,AppleFirmware
+HOST-SUFFIX,apple-itunes.cn,AppleFirmware
+HOST-SUFFIX,apple-pay.com,AppleFirmware
+HOST-SUFFIX,apple-pay.rs,AppleFirmware
+HOST-SUFFIX,apple-pay.wang,AppleFirmware
+HOST-SUFFIX,appleaccount.net,AppleFirmware
+HOST-SUFFIX,appleappstore.cn,AppleFirmware
+HOST-SUFFIX,appleappstore.net,AppleFirmware
+HOST-SUFFIX,appleappstore.tv,AppleFirmware
+HOST-SUFFIX,appledarwin.com,AppleFirmware
+HOST-SUFFIX,appledarwin.net,AppleFirmware
+HOST-SUFFIX,appleicloud.cn,AppleFirmware
+HOST-SUFFIX,appleid-applemx.com,AppleFirmware
+HOST-SUFFIX,appleid-applemx.us,AppleFirmware
+HOST-SUFFIX,appleid-iclou.com,AppleFirmware
+HOST-SUFFIX,appleid-uk.us,AppleFirmware
+HOST-SUFFIX,appleid.berlin,AppleFirmware
+HOST-SUFFIX,appleid.com,AppleFirmware
+HOST-SUFFIX,appleid.hamburg,AppleFirmware
+HOST-SUFFIX,appleid.hk,AppleFirmware
+HOST-SUFFIX,applemx-icloud.com,AppleFirmware
+HOST-SUFFIX,appleone.audio,AppleFirmware
+HOST-SUFFIX,appleone.blog,AppleFirmware
+HOST-SUFFIX,appleone.chat,AppleFirmware
+HOST-SUFFIX,appleone.cloud,AppleFirmware
+HOST-SUFFIX,appleone.club,AppleFirmware
+HOST-SUFFIX,appleone.community,AppleFirmware
+HOST-SUFFIX,appleone.film,AppleFirmware
+HOST-SUFFIX,appleone.guide,AppleFirmware
+HOST-SUFFIX,appleone.host,AppleFirmware
+HOST-SUFFIX,appleone.space,AppleFirmware
+HOST-SUFFIX,appleone.tech,AppleFirmware
+HOST-SUFFIX,appleone.website,AppleFirmware
+HOST-SUFFIX,applepay.berlin,AppleFirmware
+HOST-SUFFIX,applepay.co.rs,AppleFirmware
+HOST-SUFFIX,applepay.com.tw,AppleFirmware
+HOST-SUFFIX,applepay.hamburg,AppleFirmware
+HOST-SUFFIX,applepay.hk,AppleFirmware
+HOST-SUFFIX,applepay.info,AppleFirmware
+HOST-SUFFIX,applepay.jp,AppleFirmware
+HOST-SUFFIX,applepay.rs,AppleFirmware
+HOST-SUFFIX,applepay.tv,AppleFirmware
+HOST-SUFFIX,applepaycash.cn,AppleFirmware
+HOST-SUFFIX,applepaycash.com.cn,AppleFirmware
+HOST-SUFFIX,applepaycash.net,AppleFirmware
+HOST-SUFFIX,applepaycash.tv,AppleFirmware
+HOST-SUFFIX,applepaymerchantsupplies.info,AppleFirmware
+HOST-SUFFIX,applepaysupplies.berlin,AppleFirmware
+HOST-SUFFIX,applepaysupplies.cn,AppleFirmware
+HOST-SUFFIX,applepaysupplies.com,AppleFirmware
+HOST-SUFFIX,applepaysupplies.com.cn,AppleFirmware
+HOST-SUFFIX,applepaysupplies.info,AppleFirmware
+HOST-SUFFIX,applepaysupplies.net,AppleFirmware
+HOST-SUFFIX,applepaysupplies.tv,AppleFirmware
+HOST-SUFFIX,applewallet.com,AppleFirmware
+HOST-SUFFIX,applewallet.tv,AppleFirmware
+HOST-SUFFIX,appsto.re,AppleFirmware
+HOST-SUFFIX,appstore.co.id,AppleFirmware
+HOST-SUFFIX,appstore.com,AppleFirmware
+HOST-SUFFIX,appstore.hk,AppleFirmware
+HOST-SUFFIX,appstore.my,AppleFirmware
+HOST-SUFFIX,appstore.ph,AppleFirmware
+HOST-SUFFIX,appstoreapple.cn,AppleFirmware
+HOST-SUFFIX,asto.re,AppleFirmware
+HOST-SUFFIX,crashlytics.com,AppleFirmware
+HOST-SUFFIX,darwinsource.com,AppleFirmware
+HOST-SUFFIX,darwinsource.org,AppleFirmware
+HOST-SUFFIX,darwinsourcecode.com,AppleFirmware
+HOST-SUFFIX,icloud-apple.cn,AppleFirmware
+HOST-SUFFIX,icloud-content.com,AppleFirmware
+HOST-SUFFIX,icloud-isupport.com,AppleFirmware
+HOST-SUFFIX,icloud.ch,AppleFirmware
+HOST-SUFFIX,icloud.com,AppleFirmware
+HOST-SUFFIX,icloud.com.akadns.net,AppleFirmware
+HOST-SUFFIX,icloud.com.cn,AppleFirmware
+HOST-SUFFIX,icloud.de,AppleFirmware
+HOST-SUFFIX,icloud.ee,AppleFirmware
+HOST-SUFFIX,icloud.fi,AppleFirmware
+HOST-SUFFIX,icloud.fr,AppleFirmware
+HOST-SUFFIX,icloud.hu,AppleFirmware
+HOST-SUFFIX,icloud.ie,AppleFirmware
+HOST-SUFFIX,icloud.is,AppleFirmware
+HOST-SUFFIX,icloud.jp,AppleFirmware
+HOST-SUFFIX,icloud.lv,AppleFirmware
+HOST-SUFFIX,icloud.net.cn,AppleFirmware
+HOST-SUFFIX,icloud.om,AppleFirmware
+HOST-SUFFIX,icloud.org,AppleFirmware
+HOST-SUFFIX,icloud.pt,AppleFirmware
+HOST-SUFFIX,icloud.ro,AppleFirmware
+HOST-SUFFIX,icloud.se,AppleFirmware
+HOST-SUFFIX,icloud.si,AppleFirmware
+HOST-SUFFIX,icloud.sk,AppleFirmware
+HOST-SUFFIX,icloud.vn,AppleFirmware
+HOST-SUFFIX,icloudads.net,AppleFirmware
+HOST-SUFFIX,icloudapple.cn,AppleFirmware
+HOST-SUFFIX,icloudbox.net,AppleFirmware
+HOST-SUFFIX,icloudbrowser.net,AppleFirmware
+HOST-SUFFIX,icloude.com,AppleFirmware
+HOST-SUFFIX,icloudhome.com,AppleFirmware
+HOST-SUFFIX,icloudmail.net,AppleFirmware
+HOST-SUFFIX,icloudmusic.net,AppleFirmware
+HOST-SUFFIX,icloudnet.net,AppleFirmware
+HOST-SUFFIX,icloudo.com,AppleFirmware
+HOST-SUFFIX,icloudo.de,AppleFirmware
+HOST-SUFFIX,icloudo.net,AppleFirmware
+HOST-SUFFIX,icloudos.de,AppleFirmware
+HOST-SUFFIX,icloudos.net,AppleFirmware
+HOST-SUFFIX,icloudpay.net,AppleFirmware
+HOST-SUFFIX,icloudsecure.net,AppleFirmware
+HOST-SUFFIX,icloudsetup.com,AppleFirmware
+HOST-SUFFIX,ids-apple.com,AppleFirmware
+HOST-SUFFIX,ios-icloud.com,AppleFirmware
+HOST-SUFFIX,itun.es,AppleFirmware
+HOST-SUFFIX,itunbes.com,AppleFirmware
+HOST-SUFFIX,ituneas.com,AppleFirmware
+HOST-SUFFIX,itunes-apple.cn,AppleFirmware
+HOST-SUFFIX,itunes-apple.com.akadns.net,AppleFirmware
+HOST-SUFFIX,itunes-radio.net,AppleFirmware
+HOST-SUFFIX,itunes.ca,AppleFirmware
+HOST-SUFFIX,itunes.co,AppleFirmware
+HOST-SUFFIX,itunes.co.th,AppleFirmware
+HOST-SUFFIX,itunes.com,AppleFirmware
+HOST-SUFFIX,itunes.hk,AppleFirmware
+HOST-SUFFIX,itunes.mx,AppleFirmware
+HOST-SUFFIX,itunes.org,AppleFirmware
+HOST-SUFFIX,itunes.rio,AppleFirmware
+HOST-SUFFIX,itunes.us,AppleFirmware
+HOST-SUFFIX,itunes12days.com,AppleFirmware
+HOST-SUFFIX,itunesapple.cn,AppleFirmware
+HOST-SUFFIX,itunesessentials.com,AppleFirmware
+HOST-SUFFIX,itunesfestivals.com,AppleFirmware
+HOST-SUFFIX,itunesiradio.com,AppleFirmware
+HOST-SUFFIX,ituneslatino.com,AppleFirmware
+HOST-SUFFIX,ituneslogin.net,AppleFirmware
+HOST-SUFFIX,itunesmatch.com,AppleFirmware
+HOST-SUFFIX,itunesparty.com,AppleFirmware
+HOST-SUFFIX,itunesradio.cn,AppleFirmware
+HOST-SUFFIX,itunesradio.com,AppleFirmware
+HOST-SUFFIX,itunesradio.com.cn,AppleFirmware
+HOST-SUFFIX,itunesradio.rio,AppleFirmware
+HOST-SUFFIX,itunesradio.tv,AppleFirmware
+HOST-SUFFIX,itunesradio.tw,AppleFirmware
+HOST-SUFFIX,itunesstore.co,AppleFirmware
+HOST-SUFFIX,itunesu.com,AppleFirmware
+HOST-SUFFIX,itunesu.net,AppleFirmware
+HOST-SUFFIX,iutunes.com,AppleFirmware
+HOST-SUFFIX,me.com,AppleFirmware
+HOST-SUFFIX,myappleid.com,AppleFirmware
+HOST-SUFFIX,myicloud.net,AppleFirmware
+HOST-SUFFIX,mylcloud.net,AppleFirmware
+HOST-SUFFIX,tvappstore.net,AppleFirmware
+HOST-SUFFIX,wwwicloud.com,AppleFirmware
+HOST-SUFFIX,wwwitunes.com,AppleFirmware
+
 # NAME: AppleID
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -1977,3 +2167,173 @@ HOST,appleid.apple.com,AppleID
 HOST,appleid.cdn-apple.com,AppleID
 HOST,gsa.apple.com,AppleID
 HOST,idmsa.apple.com,AppleID
+
+# NAME: AppleMail
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:14:52
+# HOST-SUFFIX: 2
+# TOTAL: 2
+HOST-SUFFIX,mail.icloud.com.cn,AppleMail
+HOST-SUFFIX,mail.me.com,AppleMail
+
+# NAME: AppleMedia
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:17:41
+# HOST-SUFFIX: 52
+# TOTAL: 52
+HOST-SUFFIX,aod.itunes.apple.com,AppleMedia
+HOST-SUFFIX,apple.comscoreresearch.com,AppleMedia
+HOST-SUFFIX,apple.news,AppleMedia
+HOST-SUFFIX,appleenews.com,AppleMedia
+HOST-SUFFIX,applemusic.berlin,AppleMedia
+HOST-SUFFIX,applemusic.co,AppleMedia
+HOST-SUFFIX,applemusic.com,AppleMedia
+HOST-SUFFIX,applemusic.com.au,AppleMedia
+HOST-SUFFIX,applemusic.hamburg,AppleMedia
+HOST-SUFFIX,applemusic.wang,AppleMedia
+HOST-SUFFIX,applemusicconnect.com,AppleMedia
+HOST-SUFFIX,applemusicfestival.com,AppleMedia
+HOST-SUFFIX,applenews.berlin,AppleMedia
+HOST-SUFFIX,applenews.hamburg,AppleMedia
+HOST-SUFFIX,applenews.tv,AppleMedia
+HOST-SUFFIX,applenewsformat.com,AppleMedia
+HOST-SUFFIX,appletv.com,AppleMedia
+HOST-SUFFIX,appletv.fr,AppleMedia
+HOST-SUFFIX,appletv.wang,AppleMedia
+HOST-SUFFIX,appletv4.cn,AppleMedia
+HOST-SUFFIX,appletv4.com.cn,AppleMedia
+HOST-SUFFIX,appletvapp.apple,AppleMedia
+HOST-SUFFIX,audio-ssl.itunes.apple.com,AppleMedia
+HOST-SUFFIX,audio.itunes.apple.com,AppleMedia
+HOST-SUFFIX,blobstore.apple.com,AppleMedia
+HOST-SUFFIX,hls-amt.itunes.apple.com,AppleMedia
+HOST-SUFFIX,hls.itunes.apple.com,AppleMedia
+HOST-SUFFIX,i-book.com,AppleMedia
+HOST-SUFFIX,i-book.net,AppleMedia
+HOST-SUFFIX,ibook.co.nz,AppleMedia
+HOST-SUFFIX,ibook.com,AppleMedia
+HOST-SUFFIX,ibook.eu,AppleMedia
+HOST-SUFFIX,ibook.net,AppleMedia
+HOST-SUFFIX,ibookpartner.com,AppleMedia
+HOST-SUFFIX,ibooksauthor.com,AppleMedia
+HOST-SUFFIX,imovie.eu,AppleMedia
+HOST-SUFFIX,imoviegallery.com,AppleMedia
+HOST-SUFFIX,imoviestage.com,AppleMedia
+HOST-SUFFIX,iphoto.eu,AppleMedia
+HOST-SUFFIX,iphoto.no,AppleMedia
+HOST-SUFFIX,iphoto.se,AppleMedia
+HOST-SUFFIX,iphoto.wang,AppleMedia
+HOST-SUFFIX,musickit.net,AppleMedia
+HOST-SUFFIX,mvod.itunes.apple.com,AppleMedia
+HOST-SUFFIX,news-assets.apple.com,AppleMedia
+HOST-SUFFIX,news-client.apple.com,AppleMedia
+HOST-SUFFIX,news-edge.apple.com,AppleMedia
+HOST-SUFFIX,news-events.apple.com,AppleMedia
+HOST-SUFFIX,play-edge.itunes.apple.com,AppleMedia
+HOST-SUFFIX,streamingaudio.itunes.apple.com,AppleMedia
+HOST-SUFFIX,tv.apple.com,AppleMedia
+HOST-SUFFIX,wwwapplemusic.com,AppleMedia
+
+# NAME: AppleMusic
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:14:52
+# HOST: 6
+# HOST-SUFFIX: 3
+# USER-AGENT: 1
+# TOTAL: 10
+HOST,aod-ssl.itunes.apple.com,AppleMusic
+HOST,aod.itunes.apple.com,AppleMusic
+HOST,audio-ssl.itunes.apple.com,AppleMusic
+HOST,audio.itunes.apple.com,AppleMusic
+HOST,mvod.itunes.apple.com,AppleMusic
+HOST,streamingaudio.itunes.apple.com,AppleMusic
+HOST-SUFFIX,applemusic.com,AppleMusic
+HOST-SUFFIX,blobstore.apple.com,AppleMusic
+HOST-SUFFIX,music.apple.com,AppleMusic
+USER-AGENT,Music*,AppleMusic
+
+# NAME: AppleNews
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:14:52
+# HOST: 2
+# USER-AGENT: 2
+# TOTAL: 4
+HOST,gspe1-ssl.ls.apple.com,AppleNews
+HOST,news-client-search.apple.com,AppleNews
+USER-AGENT,AppleNews*,AppleNews
+USER-AGENT,com.apple.news*,AppleNews
+
+# NAME: AppleProxy
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-05 02:11:18
+# HOST: 27
+# HOST-SUFFIX: 12
+# USER-AGENT: 5
+# TOTAL: 44
+HOST,api-glb-sea.smoot.apple.com,AppleProxy
+HOST,apple.comscoreresearch.com,AppleProxy
+HOST,books.itunes.apple.com,AppleProxy
+HOST,cdn.apple-cloudkit.com,AppleProxy
+HOST,cvws.icloud-content.com,AppleProxy
+HOST,developer.apple.com,AppleProxy
+HOST,devimages-cdn.apple.com,AppleProxy
+HOST,devstreaming-cdn.apple.com,AppleProxy
+HOST,docs-assets.developer.apple.com,AppleProxy
+HOST,gspe1-ssl.ls.apple.com,AppleProxy
+HOST,hls-svod.itunes.apple.com,AppleProxy
+HOST,itunes.apple.com,AppleProxy
+HOST,js-cdn.music.apple.com,AppleProxy
+HOST,lookup-api.apple.com,AppleProxy
+HOST,mask-api.icloud.com,AppleProxy
+HOST,mask-h2.icloud.com,AppleProxy
+HOST,mask.icloud.com,AppleProxy
+HOST,news-assets.apple.com,AppleProxy
+HOST,news-client.apple.com,AppleProxy
+HOST,news-edge.apple.com,AppleProxy
+HOST,news-events.apple.com,AppleProxy
+HOST,np-edge.itunes.apple.com,AppleProxy
+HOST,play-edge.itunes.apple.com,AppleProxy
+HOST,sandbox.itunes.apple.com,AppleProxy
+HOST,testflight.apple.com,AppleProxy
+HOST,tv.applemusic.com,AppleProxy
+HOST,uts-api.itunes.apple.com,AppleProxy
+HOST-SUFFIX,apple-dns.net,AppleProxy
+HOST-SUFFIX,apple.news,AppleProxy
+HOST-SUFFIX,apps.apple.com,AppleProxy
+HOST-SUFFIX,appsto.re,AppleProxy
+HOST-SUFFIX,audio-ssl.itunes.apple.com,AppleProxy
+HOST-SUFFIX,blobstore.apple.com,AppleProxy
+HOST-SUFFIX,cdn-apple.com,AppleProxy
+HOST-SUFFIX,digicert.com,AppleProxy
+HOST-SUFFIX,hls-amt.itunes.apple.com,AppleProxy
+HOST-SUFFIX,hls.itunes.apple.com,AppleProxy
+HOST-SUFFIX,ocsp.apple.com,AppleProxy
+HOST-SUFFIX,tv.apple.com,AppleProxy
+USER-AGENT,AppleNews*,AppleProxy
+USER-AGENT,AppleTV*,AppleProxy
+USER-AGENT,com.apple.news*,AppleProxy
+USER-AGENT,com.apple.trustd*,AppleProxy
+USER-AGENT,com.apple.tv*,AppleProxy
+
+# NAME: AppleTV
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:14:52
+# HOST: 6
+# HOST-SUFFIX: 1
+# USER-AGENT: 2
+# TOTAL: 9
+HOST,hls-amt.itunes.apple.com,AppleTV
+HOST,hls.itunes.apple.com,AppleTV
+HOST,np-edge.itunes.apple.com,AppleTV
+HOST,play-edge.itunes.apple.com,AppleTV
+HOST,tv.applemusic.com,AppleTV
+HOST,uts-api.itunes.apple.com,AppleTV
+HOST-SUFFIX,tv.apple.com,AppleTV
+USER-AGENT,AppleTV*,AppleTV
+USER-AGENT,com.apple.tv*,AppleTV
