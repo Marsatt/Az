@@ -4,6 +4,10 @@ DOMAIN-KEYWORD, zijie
 #未知
 DOMAIN, hcfy.ai
 DOMAIN, kelee.one
+
+#analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
+DOMAIN-SUFFIX, techsmith.com
+
 #由 Objective Development 提供的服务，主要用于地理位置相关的功能。
 DOMAIN, geolocation.obdev.at
 
