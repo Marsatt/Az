@@ -1,6 +1,16 @@
 #✈️
 DOMAIN, pqjc.site
 
+#chaturbate.jjgirls.com
+DOMAIN, web.static.mmcdn.com
+DOMAIN, chaturbate.jjgirls.com
+DOMAIN-SUFFIX, live.mmcdn.com
+DOMAIN-SUFFIX, highwebmedia.com
+DOMAIN, a-fallback.pa.highwebmedia.com
+DOMAIN, internet-up.ably-realtime.com
+DOMAIN, cbjpeg.stream.highwebmedia.com
+DOMAIN, roomimg.stream.highwebmedia.com
+
 # Maxming_GeoLite2
 DOMAIN-SUFFIX, maxmind.com
 
@@ -161,7 +171,6 @@ DOMAIN, u.keka.io
 DOMAIN-SUFFIX, goodnotes.email
 DOMAIN-SUFFIX, goodnotes.com
 DOMAIN, api.sprig.com
-
 
 # Flightradar24 app
 DOMAIN-SUFFIX, flightradar24.com

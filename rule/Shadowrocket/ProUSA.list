@@ -1,13 +1,3 @@
-#chaturbate.jjgirls.com
-DOMAIN, web.static.mmcdn.com
-DOMAIN, chaturbate.jjgirls.com
-DOMAIN-SUFFIX, live.mmcdn.com
-DOMAIN-SUFFIX, highwebmedia.com
-DOMAIN, a-fallback.pa.highwebmedia.com
-DOMAIN, internet-up.ably-realtime.com
-DOMAIN, cbjpeg.stream.highwebmedia.com
-DOMAIN, roomimg.stream.highwebmedia.com
-
 # DNS Leak from Shadowrocket Default
 DOMAIN-SUFFIX, dnsleaktest.com
 DOMAIN-SUFFIX, dnsleak.com

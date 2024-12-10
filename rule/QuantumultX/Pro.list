@@ -1,6 +1,16 @@
 #✈️
 host, pqjc.site
 
+#chaturbate.jjgirls.com
+host, web.static.mmcdn.com
+host, chaturbate.jjgirls.com
+HOST-SUFFIX, live.mmcdn.com
+HOST-SUFFIX, highwebmedia.com
+host, a-fallback.pa.highwebmedia.com
+host, internet-up.ably-realtime.com
+host, cbjpeg.stream.highwebmedia.com
+host, roomimg.stream.highwebmedia.com
+
 # Maxming_GeoLite2
 host-suffix, maxmind.com
 
@@ -161,7 +171,6 @@ host, u.keka.io
 host-suffix, goodnotes.email
 host-suffix, goodnotes.com
 host, api.sprig.com
-
 
 # Flightradar24 app
 host-suffix, flightradar24.com
