@@ -1,6 +1,9 @@
 #✈️
 host, pqjc.site
 
+# Maxming_GeoLite2
+host-suffix, maxmind.com
+
 #LULU防火墙
 host, objective-see.org
 

@@ -1,6 +1,9 @@
 #✈️
 DOMAIN, pqjc.site
 
+# Maxming_GeoLite2
+DOMAIN-SUFFIX, maxmind.com
+
 #LULU防火墙
 DOMAIN, objective-see.org
 
