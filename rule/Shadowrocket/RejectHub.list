@@ -4,7 +4,10 @@ DOMAIN-KEYWORD, zijie
 #未知
 DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, kelee.one
-DOMAIN-SUFFIX,hotfree123.com
+DOMAIN-SUFFIX, hotfree123.com
+
+#Mac开机运行监控系统开源工具，Stats。
+DOMAIN, api.serhiy.io
 
 #analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
 DOMAIN-SUFFIX, techsmith.com

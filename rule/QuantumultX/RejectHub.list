@@ -6,6 +6,9 @@ host-suffix, hcfy.ai
 host-suffix, kelee.one
 host-suffix, hotfree123.com
 
+#Mac开机运行监控系统开源工具，Stats。
+host, api.serhiy.io
+
 #analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
 host-suffix, techsmith.com
 
