@@ -136,10 +136,14 @@ host-suffix, mfcimg.com
 host-suffix, myfreecams.com
 
 #reddit.com
-host-suffix, redditstatic.com
-host-suffix, redd.it
-host-suffix, redditmedia.com
-host-suffix, reddit.com
+HOST-SUFFIX,redd.it
+HOST-SUFFIX,reddit.com
+HOST-SUFFIX,redditmail.com
+HOST-SUFFIX,redditmedia.com
+HOST-SUFFIX,redditstatic.com
+HOST-SUFFIX,reddituploads.com
+HOST-SUFFIX,reddituploads.com.cdn-cf.behance.net
+HOST-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
 
 #北美論壇
 host-suffix, kantie.org
