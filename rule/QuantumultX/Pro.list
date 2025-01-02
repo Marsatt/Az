@@ -60,7 +60,7 @@ host-suffix, r2.cloudflarestorage.com
 # NEW
 host-suffix, bbc.com
 host-suffix, cnn.com
-host-keyword, dailymail
+host-suffix, dailymail.co.uk
 host-suffix, reuters.com
 host-suffix, aljazeera.net
 

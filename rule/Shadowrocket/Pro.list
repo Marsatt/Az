@@ -60,7 +60,7 @@ DOMAIN-SUFFIX, r2.cloudflarestorage.com
 # NEW
 DOMAIN-SUFFIX, bbc.com
 DOMAIN-SUFFIX, cnn.com
-DOMAIN-KEYWORD, dailymail
+DOMAIN-SUFFIX, dailymail.co.uk
 DOMAIN-SUFFIX, reuters.com
 DOMAIN-SUFFIX, aljazeera.net
 
