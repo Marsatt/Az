@@ -60,6 +60,9 @@ host-suffix, r2.cloudflarestorage.com
 # NEW
 host-suffix, bbc.com
 host-suffix, cnn.com
+host-suffix, dailymail.co
+host-suffix, reuters.com
+host-suffix, aljazeera.net
 
 #huggingface
 host-suffix, huggingface.co

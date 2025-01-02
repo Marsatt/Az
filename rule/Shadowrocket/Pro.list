@@ -60,6 +60,9 @@ DOMAIN-SUFFIX, r2.cloudflarestorage.com
 # NEW
 DOMAIN-SUFFIX, bbc.com
 DOMAIN-SUFFIX, cnn.com
+DOMAIN-SUFFIX, dailymail.co
+DOMAIN-SUFFIX, reuters.com
+DOMAIN-SUFFIX, aljazeera.net
 
 #huggingface
 DOMAIN-SUFFIX, huggingface.co
