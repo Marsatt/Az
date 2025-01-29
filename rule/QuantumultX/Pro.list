@@ -265,3 +265,4 @@ host-suffix, nullschool.net
 #美國大使館，地球顯示mp2.5
 host, aqicn.org
 host, mapq.waqi.info
+host,api2.waqi.info,NSreetmap.org
