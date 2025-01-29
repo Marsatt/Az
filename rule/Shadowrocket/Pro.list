@@ -242,6 +242,8 @@ DOMAIN-SUFFIX, dioco.io
 DOMAIN-SUFFIX, languagelearningwithnetflix.com
 DOMAIN-SUFFIX, languagereactor.com
 #TwitchVodDownload
+DOMAIN, gachigasm.eu.srcdn.net
+DOMAIN, sockjs-us2.pusher.com
 DOMAIN-SUFFIX, streamrecorder.io
 DOMAIN-SUFFIX, streamscharts.com
 DOMAIN-SUFFIX, sullygnome.com

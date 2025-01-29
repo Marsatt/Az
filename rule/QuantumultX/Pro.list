@@ -242,6 +242,8 @@ host-suffix, dioco.io
 host-suffix, languagelearningwithnetflix.com
 host-suffix, languagereactor.com
 #TwitchVodDownload
+host, gachigasm.eu.srcdn.net
+host, sockjs-us2.pusher.com
 host-suffix, streamrecorder.io
 host-suffix, streamscharts.com
 host-suffix, sullygnome.com
