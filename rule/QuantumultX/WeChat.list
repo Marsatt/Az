@@ -1,37 +1,40 @@
-#关键词网址屏蔽
+#关键词
 host-keyword, wechat
 host-keyword, weixin
+
+# 消息视频读取
+ip-cidr, 116.140.45.20/32
 
 #附近的人-朋友圈
 ip-cidr, 42.59.25.65/32
 
 #微信 消息顯示視頻
-ip-cidr, 153.3.246.54/24, WeChat
-ip-cidr, 218.60.51.40/24, WeChat
+ip-cidr, 153.3.246.54/32, WeChat
+ip-cidr, 218.60.51.40/32, WeChat
 #微信 朋友圈视频
-ip-cidr, 112.82.204.93/24, WeChat
+ip-cidr, 112.82.204.93/32, WeChat
 #微信 朋友圈视频圖片顯示播放
-ip-cidr, 116.140.44.91/24, WeChat
-ip-cidr, 112.86.241.23/24, WeChat
-ip-cidr, 218.60.51.117/24, WeChat
-ip-cidr, 139.215.148.151/24, WeChat
-ip-cidr, 112.86.241.23/24, WeChat
-ip-cidr, 218.61.162.98/24, WeChat
-ip-cidr, 218.61.163.88/24, WeChat
+ip-cidr, 116.140.44.91/32, WeChat
+ip-cidr, 112.86.241.23/32, WeChat
+ip-cidr, 218.60.51.117/32, WeChat
+ip-cidr, 139.215.148.151/32, WeChat
+ip-cidr, 112.86.241.23/32, WeChat
+ip-cidr, 218.61.162.98/32, WeChat
+ip-cidr, 218.61.163.88/32, WeChat
 #微信 收發圖片
-ip-cidr, 1.58.245.23/24, WeChat
+ip-cidr, 1.58.245.23/32, WeChat
 #微信 收發视频
-ip-cidr, 157.255.2.150/24, WeChat
-ip-cidr, 116.140.44.101/24, WeChat
-ip-cidr, 153.3.244.78/24, WeChat
-ip-cidr, 124.95.177.51/24, WeChat
+ip-cidr, 157.255.2.150/32, WeChat
+ip-cidr, 116.140.44.101/32, WeChat
+ip-cidr, 153.3.244.78/32, WeChat
+ip-cidr, 124.95.177.51/32, WeChat
 #微信 发送gif
-ip-cidr, 124.95.173.56/24, WeChat
-ip-cidr, 202.97.231.99/24, WeChat
+ip-cidr, 124.95.173.56/32, WeChat
+ip-cidr, 202.97.231.99/32, WeChat
 #微信 視頻號
-ip-cidr, 116.140.44.238/24, WeChat
+ip-cidr, 116.140.44.238/32, WeChat
 #微信 附近的人加好友
-ip-cidr, 36.155.202.83/24, WeChat
+ip-cidr, 36.155.202.83/32, WeChat
 
 
 # NAME: WeChat
