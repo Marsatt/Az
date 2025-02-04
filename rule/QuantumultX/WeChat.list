@@ -2,9 +2,6 @@
 host-keyword, wechat
 host-keyword, weixin
 
-# 消息视频读取
-ip-cidr, 116.140.45.20/32
-
 #附近的人-朋友圈
 ip-cidr, 42.59.25.65/32
 
@@ -24,10 +21,12 @@ ip-cidr, 218.61.163.88/32, WeChat
 #微信 收發圖片
 ip-cidr, 1.58.245.23/32, WeChat
 #微信 收發视频
-ip-cidr, 157.255.2.150/32, WeChat
 ip-cidr, 116.140.44.101/32, WeChat
-ip-cidr, 153.3.244.78/32, WeChat
+ip-cidr, 116.140.45.20/32, WeChat
 ip-cidr, 124.95.177.51/32, WeChat
+ip-cidr, 153.3.244.78/32, WeChat
+ip-cidr, 157.255.2.150/32, WeChat
+ip-cidr, 218.60.51.16/32, WeChat
 #微信 发送gif
 ip-cidr, 124.95.173.56/32, WeChat
 ip-cidr, 202.97.231.99/32, WeChat

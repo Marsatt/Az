@@ -2,9 +2,6 @@
 DOMAIN-KEYWORD, wechat
 DOMAIN-KEYWORD, weixin
 
-# 消息视频读取
-IP-CIDR, 116.140.45.20/32, no-resolve
-
 #附近的人-朋友圈
 IP-CIDR, 42.59.25.65/32, no-resolve
 
@@ -24,10 +21,12 @@ IP-CIDR, 218.61.163.88/32, no-resolve
 #微信 收發圖片
 IP-CIDR, 1.58.245.23/32, no-resolve
 #微信 收發视频
-IP-CIDR, 157.255.2.150/32, no-resolve
 IP-CIDR, 116.140.44.101/32, no-resolve
-IP-CIDR, 153.3.244.78/32, no-resolve
+IP-CIDR, 116.140.45.20/32, no-resolve
 IP-CIDR, 124.95.177.51/32, no-resolve
+IP-CIDR, 153.3.244.78/32, no-resolve
+IP-CIDR, 157.255.2.150/32, no-resolve
+IP-CIDR, 218.60.51.16/32, no-resolve
 #微信 发送gif
 IP-CIDR, 124.95.173.56/32, no-resolve
 IP-CIDR, 202.97.231.99/32, no-resolve
