@@ -20,6 +20,7 @@ IP-CIDR, 218.61.162.98/32, no-resolve
 IP-CIDR, 218.61.163.88/32, no-resolve
 #微信 转发消息_iPhone
 IP-CIDR, 116.140.44.183/32, no-resolve
+IP-CIDR, 218.60.51.156/32, no-resolve
 #微信 转发消息_iPad
 IP-CIDR, 11.140.44.151/32, no-resolve
 #微信 發圖片iPhone

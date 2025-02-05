@@ -20,6 +20,7 @@ ip-cidr, 218.61.162.98/32, WeChat
 ip-cidr, 218.61.163.88/32, WeChat
 #微信 转发消息_iPhone
 ip-cidr, 116.140.44.183/32, WeChat
+ip-cidr, 218.60.51.156/32, WeChat
 #微信 转发消息_iPad
 ip-cidr, 11.140.44.151/32, WeChat
 #微信 發圖片_iPhone
