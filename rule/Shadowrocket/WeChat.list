@@ -20,6 +20,8 @@ IP-CIDR, 218.61.162.98/32, no-resolve
 IP-CIDR, 218.61.163.88/32, no-resolve
 #微信 收發圖片
 IP-CIDR, 1.58.245.23/32, no-resolve
+#微信 發视频_Mac
+IP-CIDR, 218.60.51.92/32, no-resolve
 #微信 收發视频
 IP-CIDR, 116.140.44.101/32, no-resolve
 IP-CIDR, 116.140.45.20/32, no-resolve
@@ -57,7 +59,7 @@ DOMAIN,wup.imtt.qq.com
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
-DOMAIN-SUFFIX,qlogo.cn
+#DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tenpay.com

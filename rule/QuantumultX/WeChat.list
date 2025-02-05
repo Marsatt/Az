@@ -20,6 +20,8 @@ ip-cidr, 218.61.162.98/32, WeChat
 ip-cidr, 218.61.163.88/32, WeChat
 #微信 收發圖片
 ip-cidr, 1.58.245.23/32, WeChat
+#微信 發视频_Mac
+ip-cidr, 218.60.51.92/32, WeChat
 #微信 收發视频
 ip-cidr, 116.140.44.101/32, WeChat
 ip-cidr, 116.140.45.20/32, WeChat
@@ -67,7 +69,7 @@ HOST,wxapp.tc.qq.com,WeChat
 HOST-SUFFIX,iot-tencent.com,WeChat
 HOST-SUFFIX,lbs.gtimg.com,WeChat
 HOST-SUFFIX,map.qq.com,WeChat
-HOST-SUFFIX,qlogo.cn,WeChat
+#HOST-SUFFIX,qlogo.cn,WeChat
 HOST-SUFFIX,qpic.cn,WeChat
 HOST-SUFFIX,servicewechat.com,WeChat
 HOST-SUFFIX,tenpay.com,WeChat
