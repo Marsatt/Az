@@ -1,31 +1,11 @@
 #Mac
-#收图片
-#发图片
-#收视频
-#发视频
-#收Gif
-#发Gif
-#转发
+IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #iPhone
-#收图片
-#发图片
-#收视频
-#发视频
-#收Gif
-#发Gif
-#转发
 
 
 #iPad
-#收图片
-#发图片
-#收视频
-#发视频
-#收Gif
-#发Gif
-#转发
 
 
 # NAME: WeChat
