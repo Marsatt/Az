@@ -29,6 +29,8 @@ ip-cidr, 218.60.51.13/32, WeChat
 ip-cidr, 218.60.51.18/32, WeChat
 ip-cidr, 218.60.51.92/32, WeChat
 ip-cidr, 218.60.51.119/32, WeChat
+#微信 收圖片_Mac
+ip-cidr, 116.140.44.206/32, WeChat
 #微信 收视频_iPhone
 ip-cidr, 218.60.51.20/32, WeChat
 ip-cidr, 218.60.51.39/32, WeChat

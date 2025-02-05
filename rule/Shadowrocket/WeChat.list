@@ -29,6 +29,8 @@ IP-CIDR, 218.60.51.13/32, no-resolve
 IP-CIDR, 218.60.51.18/32, no-resolve
 IP-CIDR, 218.60.51.92/32, no-resolve
 IP-CIDR, 218.60.51.119/32, no-resolve
+#微信 收圖片_Mac
+IP-CIDR, 116.140.44.206/32, no-resolve
 #微信 收视频_iPhone
 IP-CIDR, 218.60.51.20/32, no-resolve
 IP-CIDR, 218.60.51.39/32, no-resolve
