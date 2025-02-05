@@ -27,6 +27,7 @@ IP-CIDR, 124.95.177.51/32, no-resolve
 IP-CIDR, 153.3.244.78/32, no-resolve
 IP-CIDR, 157.255.2.150/32, no-resolve
 IP-CIDR, 218.60.51.16/32, no-resolve
+IP-CIDR, 218.60.51.34/32, no-resolve
 #微信 发送gif
 IP-CIDR, 124.95.173.56/32, no-resolve
 IP-CIDR, 202.97.231.99/32, no-resolve
