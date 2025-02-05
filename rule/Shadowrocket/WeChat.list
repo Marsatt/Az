@@ -18,6 +18,8 @@ IP-CIDR, 139.215.148.151/32, no-resolve
 IP-CIDR, 112.86.241.23/32, no-resolve
 IP-CIDR, 218.61.162.98/32, no-resolve
 IP-CIDR, 218.61.163.88/32, no-resolve
+#微信 转发pdd消息_iPad
+IP-CIDR, 11.140.44.151/32, no-resolve
 #微信 收發圖片
 IP-CIDR, 1.58.245.23/32, no-resolve
 #微信 發视频_Mac
