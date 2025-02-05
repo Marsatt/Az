@@ -23,7 +23,7 @@ ip-cidr, 11.140.44.151/32, WeChat
 #微信 收發圖片
 ip-cidr, 1.58.245.23/32, WeChat
 #微信 转發视频_Mac
-
+ip-cidr, 218.60.51.155/32, WeChat
 #微信 發视频_Mac
 ip-cidr, 218.60.51.13/32, WeChat
 ip-cidr, 218.60.51.18/32, WeChat

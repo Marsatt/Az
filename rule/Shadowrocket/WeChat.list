@@ -23,7 +23,7 @@ IP-CIDR, 11.140.44.151/32, no-resolve
 #微信 收發圖片
 IP-CIDR, 1.58.245.23/32, no-resolve
 #微信 转發视频_Mac
-
+IP-CIDR, 218.60.51.155/32, no-resolve
 #微信 發视频_Mac
 IP-CIDR, 218.60.51.13/32, no-resolve
 IP-CIDR, 218.60.51.18/32, no-resolve
