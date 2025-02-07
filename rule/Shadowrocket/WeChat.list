@@ -7,7 +7,8 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #iPad
-
+#20250207105247_收GIF
+IP-CIDR, 60.188.75.1/24, no-resolve
 
 # NAME: WeChat
 # AUTHOR: blackmatrix7
@@ -29,7 +30,8 @@ DOMAIN,wup.imtt.qq.com
 DOMAIN-SUFFIX,iot-tencent.com
 DOMAIN-SUFFIX,lbs.gtimg.com
 DOMAIN-SUFFIX,map.qq.com
-#DOMAIN-SUFFIX,qlogo.cn
+#20250207105235_iPhad_显示更新头像
+DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tenpay.com
