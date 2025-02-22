@@ -90,10 +90,11 @@ DOMAIN-SUFFIX, bijiago.com
 DOMAIN, eco.taobao.com
 DOMAIN, acs.m.taobao.com
 DOMAIN, h-adashx.ut.taobao.com
-IP-CIDR, 139.215.162.204/24,no-resolve
-IP-CIDR, 59.82.121.225/24,no-resolve
-IP-CIDR, 59.82.122.5/24,no-resolve
-IP-CIDR, 59.82.112.62/24,no-resolve
+IP-CIDR, 139.215.162.204/32,no-resolve
+IP-CIDR, 59.82.121.225/32,no-resolve
+IP-CIDR, 59.82.122.5/32,no-resolve
+IP-CIDR, 59.82.112.62/32,no-resolve
+IP-CIDR, 59.82.120.227/32,no-resolve
 
 #邮件APP绑定新浪邮箱
 DOMAIN, pop.sina.com
@@ -161,7 +162,7 @@ DOMAIN, zimuku.org
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 IP-CIDR,103.41.167.226/32, no-resolve
-IP-CIDR,103.41.167.234/31, no-resolve
+IP-CIDR,103.41.167.234/32, no-resolve
 IP-CIDR,103.41.167.236/32, no-resolve
 IP-CIDR,118.89.204.198/32, no-resolve
 
