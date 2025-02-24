@@ -95,6 +95,7 @@ IP-CIDR, 59.82.121.225/32,no-resolve
 IP-CIDR, 59.82.122.5/32,no-resolve
 IP-CIDR, 59.82.112.62/32,no-resolve
 IP-CIDR, 59.82.120.227/32,no-resolve
+IP-CIDR, 59.82.132.207/32,no-resolve
 
 #邮件APP绑定新浪邮箱
 DOMAIN, pop.sina.com
