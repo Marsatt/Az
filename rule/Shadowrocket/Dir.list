@@ -1,6 +1,12 @@
 #顺丰快递查询
 DOMAIN-SUFFIX, sf-express.com
 
+#涂鸦Wi-Fi温度计
+DOMAIN,images.tuyacn.com
+DOMAIN,a1-cn.iotwish.com
+DOMAIN,m1-cn.iotwish.com
+DOMAIN,tuyasmartiot.app.tuya.com
+
 #大众点评
 DOMAIN, qcloud.dpfile.com
 DOMAIN-KEYWORD, dianping
