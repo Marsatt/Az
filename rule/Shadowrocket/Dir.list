@@ -10,6 +10,7 @@ IP-CIDR, 59.82.112.62/32,no-resolve
 IP-CIDR, 59.82.120.227/32,no-resolve
 IP-CIDR, 59.82.132.207/32,no-resolve
 IP-CIDR, 203.119.204.17/32,no-resolve
+IP-CIDR, 203.119.238.234/32,no-resolve
 
 #顺丰快递查询
 DOMAIN-SUFFIX, sf-express.com
