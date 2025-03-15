@@ -73,6 +73,7 @@ DOMAIN-SUFFIX, bbc.com
 DOMAIN-SUFFIX, cnn.com
 DOMAIN-SUFFIX, dailymail.co.uk
 DOMAIN-SUFFIX, reuters.com
+DOMAIN-SUFFIX, aljazeera.com
 DOMAIN-SUFFIX, aljazeera.net
 
 #huggingface
