@@ -4,8 +4,8 @@ DOMAIN-KEYWORD, zijie
 DOMAIN-KEYWORD, toutiao
 
 URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+/[^/]*\.douyincdn\.com
+URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+/stage
 
-#URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+/pull.*\.douyincdn\.com
 
 # NAME: DouYin
 # AUTHOR: blackmatrix7
