@@ -1,8 +1,10 @@
 DOMAIN-SUFFIX, douyincdn.com
+DOMAIN-SUFFIX, flive.douyincdn
 DOMAIN-SUFFIX, douyinvod.com
 DOMAIN-SUFFIX, idouyinvod.com
 DOMAIN-SUFFIX, douyinpic.com
 DOMAIN-SUFFIX, douyin.com
+
 
 #关键词网址屏蔽
 DOMAIN-KEYWORD, zijie
