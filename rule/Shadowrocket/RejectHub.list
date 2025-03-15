@@ -16,11 +16,10 @@ DOMAIN-SUFFIX, techsmith.com
 DOMAIN, geolocation.obdev.at
 
 #抖音手机版，无用的网址。
-DOMAIN, pitaya.bytedance.com
-DOMAIN, www.bytedance.com
 DOMAIN, ecom5-normal-lf.ecombdapi.com
 DOMAIN, wiki5.baike.com
 DOMAIN, m.baike.com
+DOMAIN-SUFFIX, bytedance.com
 DOMAIN-SUFFIX, bytegecko.com
 DOMAIN-SUFFIX, qishui.com.com
 
