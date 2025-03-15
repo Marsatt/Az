@@ -16,7 +16,9 @@ DOMAIN-SUFFIX, techsmith.com
 DOMAIN, geolocation.obdev.at
 
 #抖音手机版，无用的网址。
-DOMAIN-SUFFIX, If-webcast-gr-sourcecdn.bytegecko.com
+DOMAIN, lf-webcast-sourcecdn-tos.bytegecko.com
+DOMAIN, pitaya.bytedance.com
+DOMAIN, ecom5-normal-lf.ecombdapi.com
 
 #剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
 DOMAIN-SUFFIX, likecam.com
