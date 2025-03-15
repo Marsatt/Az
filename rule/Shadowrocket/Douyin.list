@@ -4,7 +4,7 @@ DOMAIN-KEYWORD, zijie
 DOMAIN-KEYWORD, toutiao
 
 # URL-REGEX：匹配URL正则式。如“URL-REGEX,^https?://.+/item.+,REJECT”可以匹配到“https://www.example.com/item/abc/123”。
-URL-REGEX,^http://\d+\.\d+\.\d+\.\d+/pull-flv-l26\.douyincdn\.com/stage
+URL-REGEX,^http://\d+\.\d+\.\d+\.\d+/pull-flv-l\d+\.douyincdn\.com/stage
 
 # NAME: DouYin
 # AUTHOR: blackmatrix7
