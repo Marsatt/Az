@@ -7,8 +7,7 @@ DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
 
 
-URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+/([^/]*\.douyincdn\.com|stage/.*|gamereplay/.*|thirdgame/.*)
-
+URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com|stage/.*|gamereplay/.*|thirdgame.*)
 
 
 # NAME: DouYin
