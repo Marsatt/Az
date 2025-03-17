@@ -2,12 +2,12 @@
 DOMAIN-KEYWORD, douyin
 DOMAIN-KEYWORD, zijie
 DOMAIN-KEYWORD, toutiao
-DOMAIN-SUFFIX,byteimg.com
-DOMAIN-SUFFIX,ecombdimg.com
-DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX, byteimg.com
+DOMAIN-SUFFIX, ecombdimg.com
+DOMAIN-SUFFIX, ecombdapi.com
 
 
-URL-REGEX,^http://\d+\.\d+\.\d+\.\d+/([^/]*\.douyincdn\.com|stage|gamereplay)
+URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+/([^/]*\.douyincdn\.com|stage/.*|gamereplay/.*)
 
 
 
