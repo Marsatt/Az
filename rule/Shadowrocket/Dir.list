@@ -169,12 +169,12 @@ DOMAIN-KEYWORD,douban
 DOMAIN, zimuku.org
 
 #知乎
-DOMAIN-SUFFIX,zhihu.com
-DOMAIN-SUFFIX,zhimg.com
-IP-CIDR,103.41.167.226/32, no-resolve
-IP-CIDR,103.41.167.234/32, no-resolve
-IP-CIDR,103.41.167.236/32, no-resolve
-IP-CIDR,118.89.204.198/32, no-resolve
+DOMAIN-SUFFIX, zhihu.com
+DOMAIN-SUFFIX, zhimg.com
+IP-CIDR, 103.41.167.226/32, no-resolve
+IP-CIDR, 103.41.167.234/32, no-resolve
+IP-CIDR, 103.41.167.236/32, no-resolve
+IP-CIDR, 118.89.204.198/32, no-resolve
 
 #www.ahhhhfs.com 資源網站
 DOMAIN, www.ahhhhfs.com
