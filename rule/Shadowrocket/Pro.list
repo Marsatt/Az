@@ -30,10 +30,15 @@ DOMAIN-SUFFIX, objective-see.com
 #ikea.com
 DOMAIN-SUFFIX, ikea.com
 
-#stripchat
+#stripchat & hplives
+DOMAIN-KEYWORD, doppiocdn
+DOMAIN, api.lovense-api.com
 DOMAIN-SUFFIX, stripchat.com
-DOMAIN-SUFFIX, doppiocdn.media
 DOMAIN-SUFFIX, oppiocdn.media
+DOMAIN, hplives.com
+DOMAIN, hpjav.tv
+DOMAIN-SUFFIX, sc-apps.com
+DOMAIN-SUFFIX, strpst.com
 
 #windy weather
 DOMAIN-SUFFIX, windy.com
@@ -137,15 +142,7 @@ DOMAIN-SUFFIX, xvideos-cdn.com
 DOMAIN-SUFFIX, xnxx-cdn.com
 DOMAIN-SUFFIX, xnxx.com
 
-#hplives.com
-DOMAIN, api.lovense-api.com
-DOMAIN-SUFFIX, stripchat.com
-DOMAIN-SUFFIX, doppiocdn.com
-DOMAIN-SUFFIX, doppiocdn.org
-DOMAIN-SUFFIX, sc-apps.com
-DOMAIN-SUFFIX, strpst.com
-DOMAIN, hplives.com
-DOMAIN, hpjav.tv
+
 
 #myfreecams.com
 DOMAIN-SUFFIX, mfcimg.com
