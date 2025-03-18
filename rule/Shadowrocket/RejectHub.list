@@ -6,6 +6,9 @@ DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, kelee.one
 DOMAIN-SUFFIX, hotfree123.com
 
+#sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
+DOMAIN, sessions.bugsnag.com
+
 #Mac开机运行监控系统开源工具，Stats。
 DOMAIN, api.serhiy.io
 

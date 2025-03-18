@@ -1,4 +1,12 @@
-#关键词
+#电脑版
+DOMAIN-SUFFIX, ibytedapm.com
+DOMAIN-SUFFIX, bytescm.com
+DOMAIN-SUFFIX, bytegoofy.com
+DOMAIN-SUFFIX, yhgfb-cn-static.com
+DOMAIN-SUFFIX, bytetos.com
+
+
+#手机版
 DOMAIN-KEYWORD, douyin
 DOMAIN-KEYWORD, zijie
 DOMAIN-KEYWORD, toutiao
@@ -7,7 +15,9 @@ DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
 
 
+
 URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com|stage/.*|gamereplay/.*|thirdgame.*)
+
 
 
 # NAME: DouYin
