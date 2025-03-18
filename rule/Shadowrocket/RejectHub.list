@@ -8,6 +8,9 @@ DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-KEYWORD, zijie
 DOMAIN-KEYWORD, toutiao
 
+#抖音电脑版，无用的网址。
+IP-CIDR, 101.36.166.74/32, no-resolve
+
 #抖音手机版，无用的网址。
 IP-CIDR, 221.204.46.250/32, no-resolve
 DOMAIN, wiki5.baike.com
