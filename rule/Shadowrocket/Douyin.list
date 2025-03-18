@@ -1,5 +1,5 @@
 #电脑版
-#DOMAIN, api.feelgood.cn
+DOMAIN, api.feelgood.cn
 DOMAIN-SUFFIX, applogcdn.com
 DOMAIN-SUFFIX, bytedance.com
 DOMAIN-SUFFIX, bytednsdoc.com
@@ -9,12 +9,18 @@ DOMAIN-SUFFIX, bytetos.com
 DOMAIN-SUFFIX, bytetcc.com
 DOMAIN-SUFFIX, bytescm.com
 DOMAIN-SUFFIX, ibytedapm.com
+DOMAIN-SUFFIX, mobgslb.tbcache.com
+DOMAIN-SUFFIX, volcvideo.com
+DOMAIN-SUFFIX, volcvideos.com
 DOMAIN-SUFFIX, yhgfb-cn-static.com
+
+
+
+
 
 
 #手机版
 DOMAIN-KEYWORD, douyin
-
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
