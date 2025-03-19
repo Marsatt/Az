@@ -2,8 +2,10 @@
 DOMAIN, pqjc.site
 
 #yoonfroggy韩国直播网站
-DOMAIN-SUFFIX, chzzk.naver.com
+DOMAIN-SUFFIX, naver.com
 DOMAIN, ssl.pstatic.net
+DOMAIN, scv.band.us
+DOMAIN, nng-phinf.pstatic.net
 
 # Discord
 DOMAIN, discord.gg
