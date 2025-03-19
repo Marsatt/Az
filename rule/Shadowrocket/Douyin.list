@@ -4,6 +4,7 @@ DOMAIN-SUFFIX, applogcdn.com
 DOMAIN-SUFFIX, bytedance.com
 DOMAIN-SUFFIX, bytednsdoc.com
 DOMAIN-SUFFIX, bytefcdnrd.com
+DOMAIN-SUFFIX, bytegecko.com
 DOMAIN-SUFFIX, bytegoofy.com
 DOMAIN-SUFFIX, bytetos.com
 DOMAIN-SUFFIX, bytetcc.com
@@ -22,7 +23,7 @@ DOMAIN-SUFFIX, ecombdapi.com
 
 
 
-URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
+URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 
 
 
