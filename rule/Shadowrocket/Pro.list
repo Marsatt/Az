@@ -6,6 +6,7 @@ DOMAIN-SUFFIX, naver.com
 DOMAIN, ssl.pstatic.net
 DOMAIN, scv.band.us
 DOMAIN, nng-phinf.pstatic.net
+DOMAIN, ntm.pstatic.net
 
 # Discord
 DOMAIN, discord.gg
