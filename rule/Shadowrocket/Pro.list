@@ -3,6 +3,7 @@ DOMAIN, pqjc.site
 
 #yoonfroggy韩国直播网站
 DOMAIN-SUFFIX, chzzk.naver.com
+DOMAIN, ssl.pstatic.net
 
 # Discord
 DOMAIN, discord.gg
@@ -14,9 +15,6 @@ DOMAIN, chaturbate.jjgirls.com
 DOMAIN, internet-up.ably-realtime.com
 DOMAIN-SUFFIX, live.mmcdn.com
 DOMAIN-SUFFIX, highwebmedia.com
-
-
-
 
 # Maxming_GeoLite2
 DOMAIN-SUFFIX, maxmind.com
@@ -35,8 +33,8 @@ DOMAIN-KEYWORD, doppiocdn
 DOMAIN, api.lovense-api.com
 DOMAIN-SUFFIX, stripchat.com
 DOMAIN-SUFFIX, oppiocdn.media
-DOMAIN, hplives.com
-DOMAIN, hpjav.tv
+DOMAIN-SUFFIX, hplives.com
+DOMAIN-SUFFIX, hpjav.tv
 DOMAIN-SUFFIX, sc-apps.com
 DOMAIN-SUFFIX, strpst.com
 
@@ -141,8 +139,6 @@ DOMAIN-SUFFIX, xvideos-cdn.com
 #www.xnxx.com
 DOMAIN-SUFFIX, xnxx-cdn.com
 DOMAIN-SUFFIX, xnxx.com
-
-
 
 #myfreecams.com
 DOMAIN-SUFFIX, mfcimg.com
