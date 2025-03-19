@@ -5,7 +5,7 @@ DOMAIN, pqjc.site
 DOMAIN-SUFFIX, naver.com
 DOMAIN, ssl.pstatic.net
 #DOMAIN, scv.band.us
-URL-REGEX, ^https?://scv\.band\.us(/.*)?
+URL-REGEX,^https?://scv\.band\.us(/.*)?
 DOMAIN, nng-phinf.pstatic.net
 
 # Discord
