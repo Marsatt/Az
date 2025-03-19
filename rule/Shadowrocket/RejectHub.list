@@ -3,6 +3,11 @@ DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, kelee.one
 DOMAIN-SUFFIX, hotfree123.com
 
+#网易有道词典
+DOMAIN, gorgon.youdao.com
+DOMAIN, rlogs.youdao.com
+DOMAIN, mind.youdao.com
+
 #PDFgear_Mac版本
 DOMAIN-SUFFIX, pdfgear.com
 
