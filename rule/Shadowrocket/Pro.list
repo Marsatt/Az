@@ -3,13 +3,13 @@ DOMAIN, pqjc.site
 
 #爱壹帆
 DOMAIN-SUFFIX, iyf.tv
+DOMAIN-SUFFIX, bbbdata.xyz
 DOMAIN-SUFFIX, tfboyaac.com
 DOMAIN-SUFFIX, wyav.tv
 DOMAIN-SUFFIX, cobiad.xyz
 DOMAIN-SUFFIX, anygate.vip
 DOMAIN-SUFFIX, uutesti.com
 DOMAIN-SUFFIX, deniest.com
-
 
 #模块_重写 & 规则集转换
 DOMAIN, script.hub
