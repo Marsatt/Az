@@ -4,9 +4,7 @@ DOMAIN, pqjc.site
 #爱壹帆
 DOMAIN-SUFFIX, iyf.tv
 DOMAIN-SUFFIX, wyav.tv
-URL-REGEX,^https?://[a-zA-Z0-9]{3}data\.xyz
-URL-REGEX,^https?://cobia[a-zA-Z0-9]\.xyz
-URL-REGEX,^https?://[a-zA-Z0-9]{2}-[a-zA-Z0-9]{2}\.uutest[a-zA-Z0-9]?\.com
+DOMAIN, s1-e1.uutestb.com
 DOMAIN-SUFFIX, anygate.vip
 DOMAIN-SUFFIX, pipecdn.vip
 DOMAIN-SUFFIX, deniest.com
