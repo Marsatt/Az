@@ -4,23 +4,14 @@ DOMAIN, pqjc.site
 #爱壹帆
 DOMAIN-SUFFIX, iyf.tv
 DOMAIN-SUFFIX, wyav.tv
-DOMAIN-SUFFIX, aaadata.xyz
-DOMAIN-SUFFIX, bbbdata.xyz
-DOMAIN-SUFFIX, cccdata.xyz
-DOMAIN-SUFFIX, cobiad.xyz
-DOMAIN-SUFFIX, cobiae.xyz
+URL-REGEX,^[a-zA-Z0-9]{3}data\.xyz
+URL-REGEX,^https?://cobia[a-zA-Z0-9]\.xyz
+URL-REGEX,^https?://uutest[a-zA-Z0-9]\.com
 DOMAIN-SUFFIX, anygate.vip
 DOMAIN-SUFFIX, pipecdn.vip
 DOMAIN-SUFFIX, deniest.com
 DOMAIN-SUFFIX, dentisest.com
-DOMAIN-SUFFIX, uutesti.com
-DOMAIN-SUFFIX, uutestj.com
-DOMAIN-SUFFIX, uutestk.com
 DOMAIN-SUFFIX, tfboyaac.com
-
-
-
-
 
 #模块_重写 & 规则集转换
 DOMAIN, script.hub
