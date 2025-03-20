@@ -2,12 +2,8 @@
 DOMAIN, pqjc.site
 
 #爱壹帆
-DOMAIN, iyf.tv
-DOMAIN, www.iyf.tv
-DOMAIN, s1-e1.uutestb.com
-DOMAIN, s1-e1.uutestc.com
-DOMAIN, s1-e1.bbbdata.xyz
-DOMAIN, s1-e1.cccdata.xyz
+
+
 
 #模块_重写 & 规则集转换
 DOMAIN, script.hub
