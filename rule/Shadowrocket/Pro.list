@@ -4,7 +4,12 @@ DOMAIN, pqjc.site
 #爱壹帆
 DOMAIN-SUFFIX, iyf.tv
 DOMAIN-SUFFIX, wyav.tv
+
+#^https?://.+/item.+,REJECT”可以匹配到“https://www.example.com/item/abc/123”。
+
+#^https?://+data.xyz
 URL-REGEX,^[a-zA-Z0-9]{3}data\.xyz
+#URL-REGEX,[^\.][a-zA-Z0-9]{3}data\.xyz
 URL-REGEX,^https?://cobia[a-zA-Z0-9]\.xyz
 URL-REGEX,^https?://uutest[a-zA-Z0-9]\.com
 DOMAIN-SUFFIX, anygate.vip
