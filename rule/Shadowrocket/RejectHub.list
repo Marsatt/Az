@@ -2,6 +2,10 @@
 DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, hotfree123.com
 
+#微信电脑版，无用的网址。
+IP-CIDR, 42.59.25.14/32, no-resolve
+IP-CIDR, 42.59.25.40/32, no-resolve
+
 # 拼多多_无用的网址。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+/d.*id=
 
