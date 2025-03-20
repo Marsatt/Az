@@ -2,14 +2,11 @@
 DOMAIN, pqjc.site
 
 #爱壹帆
+DOMAIN-KEYWORD,s1-e1,NS
 DOMAIN,w.anygate.vip
 DOMAIN,sss1-e1.pipecdn.vip
 DOMAIN,token.anygate.vip
 DOMAIN-SUFFIX,iyf.tv
-
-
-
-
 
 #模块_重写 & 规则集转换
 DOMAIN, script.hub
@@ -236,6 +233,8 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
+#fetchv，网页视频下载工具。
+DOMAIN,fetchv.net
 #Click&Clean
 DOMAIN,cdn.hotcleaner.com
 DOMAIN,www.hotcleaner.com
