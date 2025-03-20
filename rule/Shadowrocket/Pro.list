@@ -12,6 +12,7 @@ DOMAIN-SUFFIX, deniest.com
 DOMAIN-SUFFIX, dentisest.com
 DOMAIN-SUFFIX, tfboyaac.com
 DOMAIN, s1-e1.bbbdata.xyz
+DOMAIN, s1-e1.cccdata.xyz
 
 #模块_重写 & 规则集转换
 DOMAIN, script.hub
