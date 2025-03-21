@@ -1,18 +1,19 @@
 #模块_京东去广告_开屏广告+精简我的页面产品推广
-DOMAIN-SUFFIX, kelee.one
+#DOMAIN-SUFFIX, kelee.one
 
 #阿里小号
 DOMAIN, eco.taobao.com
 DOMAIN, acs.m.taobao.com
 DOMAIN, h-adashx.ut.taobao.com
-IP-CIDR, 139.215.162.204/32,no-resolve
 IP-CIDR, 59.82.118.156/32,no-resolve
 IP-CIDR, 59.82.121.225/32,no-resolve
 IP-CIDR, 59.82.122.5/32,no-resolve
 IP-CIDR, 59.82.112.62/32,no-resolve
 IP-CIDR, 59.82.120.227/32,no-resolve
 IP-CIDR, 59.82.132.207/32,no-resolve
+IP-CIDR, 139.215.162.204/32,no-resolve
 IP-CIDR, 203.119.204.17/32,no-resolve
+IP-CIDR, 203.119.238.164/32,no-resolve
 IP-CIDR, 203.119.238.234/32,no-resolve
 
 #顺丰快递查询

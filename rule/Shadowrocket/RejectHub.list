@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, hotfree123.com
 
+#模块_京东去广告_开屏广告+精简我的页面产品推广
+DOMAIN-SUFFIX, kelee.one
+
 #微信电脑版，无用的网址。
 IP-CIDR, 42.59.25.14/32, no-resolve
 IP-CIDR, 42.59.25.40/32, no-resolve
