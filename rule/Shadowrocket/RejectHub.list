@@ -6,8 +6,8 @@ DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, kelee.one
 
 #微信电脑版，无用的网址。
-IP-CIDR, 42.59.25.14/32, no-resolve
-IP-CIDR, 42.59.25.40/32, no-resolve
+IP-CIDR, 42.59.25.1/24, no-resolve
+IP-CIDR, 124.95.177.1/24, no-resolve
 
 # 拼多多_无用的网址。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+/d.*id=
