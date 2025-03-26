@@ -6,6 +6,8 @@ DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, kelee.one
 
 #微信电脑版，无用的网址。
+#属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
+DOMAIN, secure.globalsign.com/cacert/gsgccr6alphasslca2023.crt
 IP-CIDR, 42.59.25.1/24, no-resolve
 IP-CIDR, 124.95.177.1/24, no-resolve
 
