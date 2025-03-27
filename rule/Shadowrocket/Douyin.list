@@ -20,9 +20,8 @@ DOMAIN-KEYWORD, douyin
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
-
-
-
+#抖音看视频，一半后会卡，解决办法。
+DOMAIN, 111-161-204-178.volcsiriusbd.com
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 
 
