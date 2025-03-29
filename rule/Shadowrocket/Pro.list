@@ -2,10 +2,9 @@
 DOMAIN, pqjc.site
 
 #爱壹帆
-DOMAIN-KEYWORD, s1-e1,NS
-DOMAIN, w.anygate.vip
+DOMAIN, timeprecei.com
+DOMAIN, anygate.vip
 DOMAIN, pipecdn.vip
-DOMAIN, token.anygate.vip
 DOMAIN-SUFFIX, iyf.tv
 
 #模块_重写 & 规则集转换
