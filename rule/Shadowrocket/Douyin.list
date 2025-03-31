@@ -19,31 +19,37 @@ DOMAIN-SUFFIX, volcvideos.com
 DOMAIN-SUFFIX, yhgfb-cn-static.com
 
 #手机版
-DOMAIN-SUFFIX, erer.homeborn.cn
-DOMAIN-SUFFIX, zijieapi.com
-DOMAIN-SUFFIX, ietheivaicai.com
-DOMAIN-SUFFIX, siomxity.net
 DOMAIN-KEYWORD, douyin
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
+DOMAIN-SUFFIX, erer.homeborn.cn
+DOMAIN-SUFFIX, ietheivaicai.com
+DOMAIN-SUFFIX, siomxity.net
+DOMAIN-SUFFIX, zijieapi.com
 #抖音看视频，一半后会卡，解决办法。
 DOMAIN, 111-161-204-178.volcsiriusbd.com
-URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
+URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 
 
 
 # NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:05:10
+# UPDATED: 2024-07-03 16:17:40
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 11
 # TOTAL: 13
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
 DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguavideo.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com

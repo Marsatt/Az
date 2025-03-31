@@ -27,9 +27,6 @@ DOMAIN, mind.youdao.com
 #PDFgear_Mac版本
 DOMAIN-SUFFIX, pdfgear.com
 
-#字节跳动
-DOMAIN-KEYWORD, toutiao
-
 #抖音电脑版，无用的网址。
 IP-CIDR, 101.36.166.1/24, no-resolve
 
