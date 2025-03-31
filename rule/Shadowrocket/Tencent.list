@@ -1,3 +1,6 @@
+#需要注释掉，关联 douyin.list
+#DOMAIN-SUFFIX,smtcdns.net
+
 # NAME: Tencent
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -285,7 +288,7 @@ DOMAIN-SUFFIX,shuame.com
 DOMAIN-SUFFIX,shurl.cn
 DOMAIN-SUFFIX,sixjoy.com
 DOMAIN-SUFFIX,smtcdns.com
-DOMAIN-SUFFIX,smtcdns.net
+#DOMAIN-SUFFIX,smtcdns.net
 DOMAIN-SUFFIX,snapplay.com
 DOMAIN-SUFFIX,soso.com
 DOMAIN-SUFFIX,spcdntip.com

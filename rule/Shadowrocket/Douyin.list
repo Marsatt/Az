@@ -1,3 +1,6 @@
+#关联 Tencent.list
+DOMAIN-SUFFIX,smtcdns.net
+
 #电脑版
 DOMAIN, api.feelgood.cn
 DOMAIN-SUFFIX, applogcdn.com
