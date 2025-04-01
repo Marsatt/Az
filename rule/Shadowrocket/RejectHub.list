@@ -9,6 +9,7 @@ DOMAIN, safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX, kelee.one
 
 #微信电脑版，无用的网址。
+DOMAIN, dldir1v6.qq.com
 #属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
 DOMAIN, secure.globalsign.com/cacert/gsgccr6alphasslca2023.crt
 IP-CIDR, 42.59.25.1/24, no-resolve
