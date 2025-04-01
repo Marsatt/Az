@@ -29,7 +29,7 @@ DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, zijieapi.com
 #抖音看视频，一半后会卡，解决办法。
 DOMAIN, 111-161-204-178.volcsiriusbd.com
-URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
+URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 
 
 
