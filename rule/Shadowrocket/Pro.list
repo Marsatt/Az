@@ -120,7 +120,8 @@ DOMAIN-SUFFIX, suno.ai
 #IMDB
 DOMAIN-SUFFIX, imdb.com
 
-#MacOS破解網站
+#MacOS破解網站 xm
+DOMAIN-SUFFIX, mediafire.com
 DOMAIN, psv4.userapi.com
 DOMAIN, unpkg.com
 DOMAIN-SUFFIX, vk.com
