@@ -23,7 +23,6 @@ DOMAIN-SUFFIX, yhgfb-cn-static.com
 DOMAIN-SUFFIX, z1cdn.com
 
 #手机版
-DOMAIN-KEYWORD, douyin
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
@@ -32,7 +31,6 @@ DOMAIN-SUFFIX, ietheivaicai.com
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, zijieapi.com
 #抖音看视频，一半后会卡，解决办法。
-DOMAIN, 111-161-204-178.volcsiriusbd.com
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 
 
