@@ -1,6 +1,7 @@
 #关联 Tencent.list
-DOMAIN-SUFFIX,smtcdns.net
+DOMAIN-SUFFIX, smtcdns.net
 
+DOMAIN-SUFFIX, douyin.com
 #电脑版
 DOMAIN, api.feelgood.cn
 DOMAIN-SUFFIX, applogcdn.com
@@ -44,14 +45,14 @@ URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.dou
 # TOTAL: 13
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,idouyinvod.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX, amemv.com
+DOMAIN-SUFFIX, douyincdn.com
+DOMAIN-SUFFIX, douyinpic.com
+DOMAIN-SUFFIX, douyinstatic.com
+DOMAIN-SUFFIX, douyinvod.com
+DOMAIN-SUFFIX, idouyinvod.com
+#DOMAIN-SUFFIX, ixigua.com
+#DOMAIN-SUFFIX, ixiguavideo.com
+DOMAIN-SUFFIX, pstatp.com
+DOMAIN-SUFFIX, snssdk.com
+#DOMAIN-SUFFIX, toutiao.com
