@@ -26,8 +26,15 @@ DOMAIN, nng-phinf.pstatic.net
 DOMAIN, ntm.pstatic.net
 
 # Discord
-DOMAIN, discord.gg
-DOMAIN, discord.com
+DOMAIN, cdn.discordapp.com
+DOMAIN, secure.globalsign.com
+DOMAIN-SUFFIX, click.discord.com
+DOMAIN-SUFFIX, discordapp.net
+DOMAIN-SUFFIX, discord.com
+DOMAIN-SUFFIX, discord.gg
+DOMAIN-SUFFIX, hcaptcha.com
+
+
 
 #chaturbate.jjgirls.com
 DOMAIN, web.static.mmcdn.com
