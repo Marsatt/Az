@@ -42,6 +42,8 @@ DOMAIN-SUFFIX, dcloud.net.cn
 #麦当劳
 DOMAIN-SUFFIX, mcd.cn
 DOMAIN-SUFFIX, mcdonalds.com.cn
+#优惠券显示图片
+DOMAIN-SUFFIX, cos.ap-shanghai.myqcloud.com
 
 #肯德基
 DOMAIN-SUFFIX, hwwt8.com

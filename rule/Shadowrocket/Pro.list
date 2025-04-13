@@ -4,9 +4,6 @@ DOMAIN, pqjc.site
 # Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
 DOMAIN-SUFFIX, cloudfront.net
 
-#图文英语
-DOMAIN-SUFFIX, englishilm.com
-
 #spankbang.com
 DOMAIN-SUFFIX, spankbang.com
 
