@@ -81,7 +81,8 @@ DOMAIN, fourhoi.com
 DOMAIN, r.trackwilltrk.com
 
 #文字转语音
-#aisaver.io
+#aisaver.io 有限制的免费
+DOMAIN, replicate.delivery
 DOMAIN-SUFFIX, aisaver.io
 DOMAIN, extensiondock.com
 # fish.audio
