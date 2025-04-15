@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, hotfree123.com
 
+# Twtich
+DOMAIN-SUFFIX, imrworldwide.com
+
 #chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
 DOMAIN, safebrowsing.urlsec.qq.com
 
