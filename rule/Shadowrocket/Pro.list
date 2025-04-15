@@ -8,14 +8,6 @@ DOMAIN-SUFFIX, cloudfront.net
 DOMAIN-SUFFIX, spankbang.com
 
 #爱壹帆
-DOMAIN-SUFFIX, cobiac.xyz
-DOMAIN-SUFFIX, uutestc.com
-DOMAIN-SUFFIX, pipecdn.vip
-DOMAIN-SUFFIX, anygate.vip
-DOMAIN-SUFFIX, waytogone.com
-DOMAIN-SUFFIX, deniest.com
-DOMAIN-SUFFIX, dentisest.com
-DOMAIN-SUFFIX, timeprecei.com
 DOMAIN-SUFFIX, iyf.tv
 
 #模块_重写 & 规则集转换
@@ -138,7 +130,7 @@ DOMAIN, www.iina.io
 DOMAIN-SUFFIX, mega.nz
 DOMAIN-SUFFIX, mega.co.nz
 
-#afreecatv
+#afreecatv & sooplive
 DOMAIN-SUFFIX, afreecatv.com
 DOMAIN-SUFFIX, sooplive.co.kr
 
@@ -165,14 +157,14 @@ DOMAIN-SUFFIX, mfcimg.com
 DOMAIN-SUFFIX, myfreecams.com
 
 #reddit.com
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,redditmail.com
-DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,redditstatic.com
-DOMAIN-SUFFIX,reddituploads.com
-DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
-DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
+DOMAIN-SUFFIX, redd.it
+DOMAIN-SUFFIX, reddit.com
+DOMAIN-SUFFIX, redditmail.com
+DOMAIN-SUFFIX, redditmedia.com
+DOMAIN-SUFFIX, redditstatic.com
+DOMAIN-SUFFIX, reddituploads.com
+DOMAIN-SUFFIX, reddituploads.com.cdn-cf.behance.net
+DOMAIN-SUFFIX, reddituploads.com.cdn-cf.dropbox.com
 
 #北美論壇
 DOMAIN-SUFFIX, kantie.org
@@ -243,8 +235,8 @@ DOMAIN-SUFFIX, xconvert.com
 #fetchv，网页视频下载工具。
 DOMAIN,fetchv.net
 #Click&Clean
-DOMAIN,cdn.hotcleaner.com
-DOMAIN,www.hotcleaner.com
+DOMAIN, cdn.hotcleaner.com
+DOMAIN, www.hotcleaner.com
 #Chrome瀏覽器-flag（第一個）顯示國旗。
 DOMAIN-SUFFIX, myip.ms
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
