@@ -4,6 +4,10 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #iPhone
+#朋友圈图片视频预览
+IP-CIDR, 58.251.59.44/32, no-resolve
+#朋友圈视频播放
+IP-CIDR, 119.188.206.100/32, no-resolve
 
 
 #iPad
