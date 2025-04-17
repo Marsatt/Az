@@ -1,6 +1,12 @@
 #✈️
 DOMAIN, pqjc.site
 
+#比特币信息查看
+DOMAIN, mempool.space
+
+#IP、域名、ASN查询
+DOMAIN, ping0.cc
+
 #抖音 & TikTok 视频下载
 DOMAIN-SUFFIX, tiksave.io
 DOMAIN, dl.snapcdn.app
