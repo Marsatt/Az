@@ -137,6 +137,9 @@ DOMAIN-SUFFIX, vk.com
 DOMAIN-SUFFIX, appstorrent.ru
 DOMAIN-SUFFIX, xmac.app
 
+#MacOS破解網站 appstorrent
+DOMAIN, appstorrent.org
+
 #開源播放器iina
 DOMAIN, www.iina.io
 
