@@ -1,7 +1,8 @@
-#电信网微信需要IP
+#/24
+IP-CIDR, 36.99.6.1/24, no-resolve
+IP-CIDR, 42.202.141.1/24, no-resolve
+IP-CIDR, 60.188.75.1/24, no-resolve
 IP-CIDR, 123.246.80.1/24, no-resolve
-#mac电脑发送：
-#123.246.80.149
 
 
 
@@ -9,7 +10,7 @@ IP-CIDR, 123.246.80.1/24, no-resolve
 #Mac
 #20250422125119_电信网_接收=图片+视频
 IP-CIDR, 123.24.80.190/32, no-resolve
-#20250422092148_电信网_发视频
+#20250422184623_电信网_发视频
 IP-CIDR, 42.202.154.40/32, no-resolve
 
 #20250205223911_图片+视频+转发
@@ -19,10 +20,9 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #iPhone
-#20250422095830_电信网_收发=图片+视频
-IP-CIDR, 42.202.141.1/24, no-resolve
-#mac电脑发送：
-#42.202.141.22
+
+
+
 
 #朋友圈图片视频预览
 IP-CIDR, 58.251.59.44/32, no-resolve
@@ -33,8 +33,9 @@ IP-CIDR, 119.188.206.100/32, no-resolve
 
 
 #iPad
-#20250207105247_收GIF
-IP-CIDR, 60.188.75.1/24, no-resolve
+
+
+
 
 # NAME: WeChat
 # AUTHOR: blackmatrix7
