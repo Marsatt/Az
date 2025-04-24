@@ -12,6 +12,7 @@ DOMAIN-SUFFIX, tiksave.io
 DOMAIN, dl.snapcdn.app
 
 #喵软件资源网
+DOMAIN, fontsapi.zeoseven.com
 DOMAIN-SUFFIX, appmiu.com
 
 # Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。

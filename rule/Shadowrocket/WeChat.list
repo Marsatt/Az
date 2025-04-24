@@ -1,9 +1,7 @@
 #/24
-##35-74
 IP-CIDR, 36.99.6.1/24, no-resolve
 IP-CIDR, 42.202.141.1/24, no-resolve
 IP-CIDR, 60.188.75.1/24, no-resolve
-##23-28-222-238
 IP-CIDR, 123.246.80.1/24, no-resolve
 
 
