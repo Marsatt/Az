@@ -2,6 +2,8 @@
 #DOMAIN-SUFFIX, kelee.one
 
 #慢慢买
+##慢慢买，小图片预览
+DOMAIN-SUFFIX, mmb-spu.oss-cn-shenzhen.aliyuncs.com
 DOMAIN-SUFFIX, manmanbuy.com
 
 #Chrome插件
@@ -39,6 +41,8 @@ DOMAIN,m1-cn.iotwish.com
 DOMAIN,tuyasmartiot.app.tuya.com
 
 #大众点评
+##买演唱会门票
+DOMAIN-SUFFIX, maoyan.com
 DOMAIN, qcloud.dpfile.com
 DOMAIN-KEYWORD, dianping
 DOMAIN-KEYWORD, meituan
