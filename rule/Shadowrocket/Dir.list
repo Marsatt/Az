@@ -109,7 +109,7 @@ DOMAIN-SUFFIX, adidas.com.cn
 
 #蘋果
 #苹果地图也需要这个高德网址：
-DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX, autonavi.com
 
 DOMAIN, www.apple.com.cn
 DOMAIN, apple.com.cn

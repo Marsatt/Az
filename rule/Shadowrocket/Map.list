@@ -2,17 +2,16 @@
 
 #高德地图
 #苹果地图也需要这个高德网址：
-DOMAIN-SUFFIX,autonavi.com
+DOMAIN-SUFFIX, autonavi.com
 
-DOMAIN,a-map.cn
-DOMAIN-SUFFIX,a-map.co
-DOMAIN-SUFFIX,a-map.link
-DOMAIN-SUFFIX,a-map.vip
-DOMAIN-SUFFIX,amap.com
-DOMAIN-SUFFIX,amapauto.com
-DOMAIN-SUFFIX,anav.com
-DOMAIN-SUFFIX,gaode.com
-DOMAIN,m.amap.com
+DOMAIN-SUFFIX, a-map.cn
+DOMAIN-SUFFIX, a-map.co
+DOMAIN-SUFFIX, a-map.link
+DOMAIN-SUFFIX, a-map.vip
+DOMAIN-SUFFIX, amap.com
+DOMAIN-SUFFIX, amapauto.com
+DOMAIN-SUFFIX, anav.com
+DOMAIN-SUFFIX, gaode.com
 
 
 #百度地图
