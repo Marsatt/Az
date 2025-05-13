@@ -668,8 +668,8 @@ DOMAIN, secure.brightcove.com
 DOMAIN, api.talkingdata.com
 DOMAIN, aeu.alicdn.com
 #20250513082507-耐克app快递查询
-DOMAIN, nikeordertracking.baozun.cn
-DOMAIN, nikeordertracking.baozun.com
+DOMAIN-SUFFIX, baozun.cn
+DOMAIN-SUFFIX, baozun.com
 #20250511085509
 DOMAIN, nikegroup.publicisgrowthos.com
 DOMAIN-SUFFIX, cpatrk.net
