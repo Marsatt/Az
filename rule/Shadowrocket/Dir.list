@@ -83,12 +83,6 @@ DOMAIN, www.bsbsb.top
 #roborock
 DOMAIN-SUFFIX, roborock.com
 
-#IKEA
-DOMAIN-SUFFIX, ikea.cn
-DOMAIN-SUFFIX, ikea.com.cn
-DOMAIN-SUFFIX, app.ikea.cn
-DOMAIN, web-assets.stylitics.com
-
 #CSDN
 DOMAIN-SUFFIX, csdn.net
 DOMAIN-SUFFIX, csdnimg.cn
@@ -208,11 +202,9 @@ IP-CIDR, 103.41.167.234/32, no-resolve
 IP-CIDR, 103.41.167.236/32, no-resolve
 IP-CIDR, 118.89.204.198/32, no-resolve
 
-#www.ahhhhfs.com 資源網站
-DOMAIN, www.ahhhhfs.com
-
 #繁體簡體互換網站
 DOMAIN, youtils.cc
+
 
 
 
@@ -269,6 +261,7 @@ DOMAIN-SUFFIX,route53.cn
 DOMAIN-SUFFIX,sagemaker.com.cn
 DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,z.cn
+
 
 
 
@@ -364,9 +357,9 @@ DOMAIN-SUFFIX,yichuangyun.com.cn
 
 
 
+
 #网商银行
 DOMAIN-SUFFIX, mybank.cn
-
 
 
 # NAME: AliPay
@@ -396,3 +389,289 @@ DOMAIN-SUFFIX,alipayplus.com
 DOMAIN-SUFFIX,ifaa.org.cn
 DOMAIN-SUFFIX,luohanacademy.com
 DOMAIN-SUFFIX,sinopayment.com.cn
+
+
+
+
+# NAME: ICBC
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:42
+# DOMAIN-SUFFIX: 58
+# TOTAL: 58
+DOMAIN-SUFFIX,95588.com
+DOMAIN-SUFFIX,95588.com.cn
+DOMAIN-SUFFIX,dccnet.com.cn
+DOMAIN-SUFFIX,icbc
+DOMAIN-SUFFIX,icbc-at.com
+DOMAIN-SUFFIX,icbc-cz.com
+DOMAIN-SUFFIX,icbc-ltd.com
+DOMAIN-SUFFIX,icbc-uk.com
+DOMAIN-SUFFIX,icbc-us.com
+DOMAIN-SUFFIX,icbc.ae
+DOMAIN-SUFFIX,icbc.be
+DOMAIN-SUFFIX,icbc.co.id
+DOMAIN-SUFFIX,icbc.co.jp
+DOMAIN-SUFFIX,icbc.co.kr
+DOMAIN-SUFFIX,icbc.co.nl
+DOMAIN-SUFFIX,icbc.com.au
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,icbc.com.es
+DOMAIN-SUFFIX,icbc.com.kh
+DOMAIN-SUFFIX,icbc.com.kw
+DOMAIN-SUFFIX,icbc.com.la
+DOMAIN-SUFFIX,icbc.com.mm
+DOMAIN-SUFFIX,icbc.com.mo
+DOMAIN-SUFFIX,icbc.com.mx
+DOMAIN-SUFFIX,icbc.com.pe
+DOMAIN-SUFFIX,icbc.com.pk
+DOMAIN-SUFFIX,icbc.com.qa
+DOMAIN-SUFFIX,icbc.com.sg
+DOMAIN-SUFFIX,icbc.com.vn
+DOMAIN-SUFFIX,icbc.de
+DOMAIN-SUFFIX,icbc.eu
+DOMAIN-SUFFIX,icbc.lu
+DOMAIN-SUFFIX,icbcalmaty.kz
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN-SUFFIX,icbcbr.com.br
+DOMAIN-SUFFIX,icbccs.com.cn
+DOMAIN-SUFFIX,icbccstz.com.cn
+DOMAIN-SUFFIX,icbci.com.hk
+DOMAIN-SUFFIX,icbcina.com
+DOMAIN-SUFFIX,icbcindia.com
+DOMAIN-SUFFIX,icbcit.com
+DOMAIN-SUFFIX,icbclondon.com
+DOMAIN-SUFFIX,icbcmanila.com.cn
+DOMAIN-SUFFIX,icbcme.ae
+DOMAIN-SUFFIX,icbcmoscow.ru
+DOMAIN-SUFFIX,icbcmy.com
+DOMAIN-SUFFIX,icbcnz.com
+DOMAIN-SUFFIX,icbcpanama.com
+DOMAIN-SUFFIX,icbcparis.fr
+DOMAIN-SUFFIX,icbcpl.com
+DOMAIN-SUFFIX,icbcstandard.com
+DOMAIN-SUFFIX,icbcstandardbank.com
+DOMAIN-SUFFIX,icbcstandardresources.com
+DOMAIN-SUFFIX,icbcstandardsecurities.com
+DOMAIN-SUFFIX,icbcswiss.com
+DOMAIN-SUFFIX,icbcthai.com
+DOMAIN-SUFFIX,icbkfs.com
+DOMAIN-SUFFIX,icbkus.com
+
+
+
+
+# NAME: CCB
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:39
+# DOMAIN-SUFFIX: 18
+# TOTAL: 18
+DOMAIN-SUFFIX,ccb-life.com.cn
+DOMAIN-SUFFIX,ccb.cn
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,ccb.com.cn
+DOMAIN-SUFFIX,ccbcos.com
+DOMAIN-SUFFIX,ccbfund.cn
+DOMAIN-SUFFIX,ccbfund.com
+DOMAIN-SUFFIX,ccbfund.com.cn
+DOMAIN-SUFFIX,ccbfutures.cn
+DOMAIN-SUFFIX,ccbfutures.com
+DOMAIN-SUFFIX,ccbhome.cn
+DOMAIN-SUFFIX,ccbhome.net
+DOMAIN-SUFFIX,ccbintl.com.hk
+DOMAIN-SUFFIX,ccbleasing.com
+DOMAIN-SUFFIX,ccblife-test.com.cn
+DOMAIN-SUFFIX,ccbseoul.com
+DOMAIN-SUFFIX,ccbtrust.com.cn
+DOMAIN-SUFFIX,ccbxt.com
+
+
+
+
+# NAME: McDonalds
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:53
+# DOMAIN-SUFFIX: 25
+# TOTAL: 25
+DOMAIN-SUFFIX,4008-517-517.cn
+DOMAIN-SUFFIX,aboutmcdonalds.com
+DOMAIN-SUFFIX,happymeal.co.nz
+DOMAIN-SUFFIX,happymeal.com.au
+DOMAIN-SUFFIX,mcd.com
+DOMAIN-SUFFIX,mcdelivery.co.id
+DOMAIN-SUFFIX,mcdelivery.co.kr
+DOMAIN-SUFFIX,mcdelivery.com.au
+DOMAIN-SUFFIX,mcdelivery.com.my
+DOMAIN-SUFFIX,mcdelivery.com.sg
+DOMAIN-SUFFIX,mcdelivery.com.tw
+DOMAIN-SUFFIX,mcdindonesia.com
+DOMAIN-SUFFIX,mcdonalds.ca
+DOMAIN-SUFFIX,mcdonalds.co.uk
+DOMAIN-SUFFIX,mcdonalds.com
+DOMAIN-SUFFIX,mcdonalds.com.cn
+DOMAIN-SUFFIX,mcdonalds.com.hk
+DOMAIN-SUFFIX,mcdonalds.hk
+DOMAIN-SUFFIX,mcdonalds.it
+DOMAIN-SUFFIX,mcdonalds.no
+DOMAIN-SUFFIX,mcdonalds.se
+DOMAIN-SUFFIX,mcdonaldsarabia.com
+DOMAIN-SUFFIX,mcdonaldsparties.co.nz
+DOMAIN-SUFFIX,mcdonaldsparties.com.au
+DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
+
+
+
+
+#IKEA
+#DOMAIN-SUFFIX, ikea.com.cn
+#DOMAIN, web-assets.stylitics.com
+
+
+# NAME: IKEA
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:17:58
+# DOMAIN-SUFFIX: 95
+# TOTAL: 95
+DOMAIN-SUFFIX,ikea.ae
+DOMAIN-SUFFIX,ikea.at
+DOMAIN-SUFFIX,ikea.au
+DOMAIN-SUFFIX,ikea.be
+DOMAIN-SUFFIX,ikea.bg
+DOMAIN-SUFFIX,ikea.bh
+DOMAIN-SUFFIX,ikea.ca
+DOMAIN-SUFFIX,ikea.ch
+DOMAIN-SUFFIX,ikea.cl
+DOMAIN-SUFFIX,ikea.cn
+DOMAIN-SUFFIX,ikea.co.at
+DOMAIN-SUFFIX,ikea.co.ca
+DOMAIN-SUFFIX,ikea.co.de
+DOMAIN-SUFFIX,ikea.co.id
+DOMAIN-SUFFIX,ikea.co.il
+DOMAIN-SUFFIX,ikea.co.jp
+DOMAIN-SUFFIX,ikea.co.kr
+DOMAIN-SUFFIX,ikea.co.om
+DOMAIN-SUFFIX,ikea.co.ph
+DOMAIN-SUFFIX,ikea.co.pl
+DOMAIN-SUFFIX,ikea.co.th
+DOMAIN-SUFFIX,ikea.co.uk
+DOMAIN-SUFFIX,ikea.com
+DOMAIN-SUFFIX,ikea.com.au
+DOMAIN-SUFFIX,ikea.com.cy
+DOMAIN-SUFFIX,ikea.com.de
+DOMAIN-SUFFIX,ikea.com.do
+DOMAIN-SUFFIX,ikea.com.eg
+DOMAIN-SUFFIX,ikea.com.gr
+DOMAIN-SUFFIX,ikea.com.hk
+DOMAIN-SUFFIX,ikea.com.in
+DOMAIN-SUFFIX,ikea.com.kw
+DOMAIN-SUFFIX,ikea.com.lv
+DOMAIN-SUFFIX,ikea.com.mx
+DOMAIN-SUFFIX,ikea.com.my
+DOMAIN-SUFFIX,ikea.com.om
+DOMAIN-SUFFIX,ikea.com.pl
+DOMAIN-SUFFIX,ikea.com.pr
+DOMAIN-SUFFIX,ikea.com.pt
+DOMAIN-SUFFIX,ikea.com.ro
+DOMAIN-SUFFIX,ikea.com.ru
+DOMAIN-SUFFIX,ikea.com.sa
+DOMAIN-SUFFIX,ikea.com.sg
+DOMAIN-SUFFIX,ikea.com.tr
+DOMAIN-SUFFIX,ikea.com.tw
+DOMAIN-SUFFIX,ikea.com.ua
+DOMAIN-SUFFIX,ikea.cz
+DOMAIN-SUFFIX,ikea.de
+DOMAIN-SUFFIX,ikea.dk
+DOMAIN-SUFFIX,ikea.do
+DOMAIN-SUFFIX,ikea.ee
+DOMAIN-SUFFIX,ikea.eg
+DOMAIN-SUFFIX,ikea.es
+DOMAIN-SUFFIX,ikea.fi
+DOMAIN-SUFFIX,ikea.fr
+DOMAIN-SUFFIX,ikea.gr
+DOMAIN-SUFFIX,ikea.hk
+DOMAIN-SUFFIX,ikea.hr
+DOMAIN-SUFFIX,ikea.hu
+DOMAIN-SUFFIX,ikea.ie
+DOMAIN-SUFFIX,ikea.in
+DOMAIN-SUFFIX,ikea.is
+DOMAIN-SUFFIX,ikea.it
+DOMAIN-SUFFIX,ikea.jo
+DOMAIN-SUFFIX,ikea.jp
+DOMAIN-SUFFIX,ikea.kr
+DOMAIN-SUFFIX,ikea.lt
+DOMAIN-SUFFIX,ikea.lv
+DOMAIN-SUFFIX,ikea.ma
+DOMAIN-SUFFIX,ikea.mx
+DOMAIN-SUFFIX,ikea.my
+DOMAIN-SUFFIX,ikea.net
+DOMAIN-SUFFIX,ikea.nl
+DOMAIN-SUFFIX,ikea.no
+DOMAIN-SUFFIX,ikea.om
+DOMAIN-SUFFIX,ikea.ph
+DOMAIN-SUFFIX,ikea.pl
+DOMAIN-SUFFIX,ikea.pr
+DOMAIN-SUFFIX,ikea.pt
+DOMAIN-SUFFIX,ikea.qa
+DOMAIN-SUFFIX,ikea.ro
+DOMAIN-SUFFIX,ikea.rs
+DOMAIN-SUFFIX,ikea.ru
+DOMAIN-SUFFIX,ikea.sa
+DOMAIN-SUFFIX,ikea.sg
+DOMAIN-SUFFIX,ikea.si
+DOMAIN-SUFFIX,ikea.sk
+DOMAIN-SUFFIX,ikea.ua
+DOMAIN-SUFFIX,ikea.us
+DOMAIN-SUFFIX,ingka-dt.cn
+DOMAIN-SUFFIX,ingka-internal.cn
+DOMAIN-SUFFIX,ingka-system.cn
+DOMAIN-SUFFIX,ingka.com
+DOMAIN-SUFFIX,ingka.dev
+DOMAIN-SUFFIX,ingkacentres.com
+
+
+
+
+# NAME: 12306
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:37
+# DOMAIN-SUFFIX: 15
+# TOTAL: 15
+DOMAIN-SUFFIX,12306.cn
+DOMAIN-SUFFIX,95306.cn
+DOMAIN-SUFFIX,95572.com
+DOMAIN-SUFFIX,china-railway.com.cn
+DOMAIN-SUFFIX,china-ric.com
+DOMAIN-SUFFIX,crct.com
+DOMAIN-SUFFIX,cre.cn
+DOMAIN-SUFFIX,crecc.com.cn
+DOMAIN-SUFFIX,creip.cn
+DOMAIN-SUFFIX,crscl.com.cn
+DOMAIN-SUFFIX,gzrailway.com.cn
+DOMAIN-SUFFIX,nntlj.com
+DOMAIN-SUFFIX,peoplerail.com
+DOMAIN-SUFFIX,rails.cn
+DOMAIN-SUFFIX,tdpress.com
+
+
+
+
+# NAME: MeiTuan
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:44
+# DOMAIN-SUFFIX: 7
+# TOTAL: 7
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,maoyan.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,mtyun.com
+DOMAIN-SUFFIX,neixin.cn
+DOMAIN-SUFFIX,sankuai.com
+
+
+
