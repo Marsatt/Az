@@ -88,21 +88,6 @@ DOMAIN-SUFFIX, roborock.com
 DOMAIN-SUFFIX, csdn.net
 DOMAIN-SUFFIX, csdnimg.cn
 
-#nike
-#20250513082507-耐克app快递查询
-DOMAIN,nikeordertracking.baozun.cn
-DOMAIN,nikeordertracking.baozun.com
-#20250511085509
-DOMAIN, nikegroup.publicisgrowthos.com
-DOMAIN-SUFFIX, cpatrk.net
-DOMAIN-SUFFIX, maiscrm.com
-##
-DOMAIN, tab.volces.com
-DOMAIN, gator.volces.com
-DOMAIN-SUFFIX, nike.com.cn
-DOMAIN, ab.volices.com
-DOMAIN, gator.volces.com
-
 #adidas
 DOMAIN-SUFFIX, adidas.com.cn
 
@@ -676,3 +661,42 @@ DOMAIN-SUFFIX,sankuai.com
 
 
 
+
+#nike
+#20250513131246
+#DOMAIN, secure.brightcove.com
+#DOMAIN, api.talkingdata.com
+DOMAIN, aeu.alicdn.com
+
+#20250513082507-耐克app快递查询
+DOMAIN, nikeordertracking.baozun.cn
+DOMAIN, nikeordertracking.baozun.com
+#20250511085509
+DOMAIN, nikegroup.publicisgrowthos.com
+DOMAIN-SUFFIX, cpatrk.net
+DOMAIN-SUFFIX, maiscrm.com
+##
+DOMAIN, tab.volces.com
+DOMAIN, gator.volces.com
+DOMAIN, ab.volices.com
+DOMAIN, gator.volces.com
+DOMAIN-SUFFIX, nike.com.cn
+
+
+# NAME: Nike
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:54
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
+DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,nike.com.br
+DOMAIN-SUFFIX,nike.com.hk
+DOMAIN-SUFFIX,nikecdn.com
+DOMAIN-SUFFIX,nikecloud.com
+DOMAIN-SUFFIX,nikeinc.com.cn
+DOMAIN-SUFFIX,nikestore.com.au
+DOMAIN-SUFFIX,niketracking.com
+DOMAIN-SUFFIX,static-nike.com
+DOMAIN-SUFFIX,swoo.sh
+DOMAIN-SUFFIX,swoosh.com
