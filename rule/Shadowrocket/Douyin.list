@@ -6,7 +6,6 @@ DOMAIN-SUFFIX, livehwc3.cn
 
 
 
-
 DOMAIN-SUFFIX, douyin.com
 
 #电脑版
@@ -34,6 +33,7 @@ DOMAIN-SUFFIX, z1cdn.com
 
 
 #手机版
+DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com

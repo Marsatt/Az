@@ -12,7 +12,7 @@ IP-CIDR, 182.40.66.1/24, no-resolve
 #20250422125119_电信网_接收=图片+视频
 IP-CIDR, 123.24.80.190/32, no-resolve
 #20250422184623_电信网_发视频
-IP-CIDR, 42.202.154.40/32, no-resolve
+IP-CIDR, 42.202.154.1/24, no-resolve
 
 #20250205223911_图片+视频+转发
 IP-CIDR, 218.60.51.1/24, no-resolve
@@ -21,6 +21,8 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #iPhone
+##加好友
+IP-CIDR, 125.88.199.1/24, no-resolve
 
 
 
