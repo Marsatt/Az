@@ -209,14 +209,6 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
-#Pornhub
-DOMAIN-SUFFIX, pornhub.org
-DOMAIN-SUFFIX, pornhub.com
-DOMAIN-SUFFIX, phncdn.com
-DOMAIN-SUFFIX, phprcdn.com
-#Pornhub_移动设备需要允许这个网址
-DOMAIN, video.sacdnssedge.com
-
 #kick直播平台
 DOMAIN-SUFFIX, kick.com
 

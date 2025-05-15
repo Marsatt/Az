@@ -1,3 +1,11 @@
+#Pornhub
+DOMAIN-SUFFIX, pornhub.org
+DOMAIN-SUFFIX, pornhub.com
+DOMAIN-SUFFIX, phncdn.com
+DOMAIN-SUFFIX, phprcdn.com
+#Pornhub_移动设备需要允许这个网址
+DOMAIN, video.sacdnssedge.com
+
 # DNS Leak from Shadowrocket Default
 DOMAIN-SUFFIX, dnsleaktest.com
 DOMAIN-SUFFIX, dnsleak.com
