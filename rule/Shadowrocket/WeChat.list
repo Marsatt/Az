@@ -23,7 +23,8 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 #iPhone
 ##加好友
 IP-CIDR, 125.88.199.1/24, no-resolve
-
+##朋友圈图片视频预览
+IP-CIDR, 42.202.153.52/32, no-resolve
 
 
 
