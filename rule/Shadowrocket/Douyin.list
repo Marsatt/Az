@@ -10,6 +10,7 @@ DOMAIN-SUFFIX, douyin.com
 
 #电脑版
 DOMAIN, api.feelgood.cn
+DOMAIN, lf-waf-js.byted-static.com
 DOMAIN-SUFFIX, applogcdn.com
 DOMAIN-SUFFIX, bytedance.com
 DOMAIN-SUFFIX, bytednsdoc.com
