@@ -514,12 +514,6 @@ DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
 
 
 
-
-#IKEA
-#DOMAIN-SUFFIX, ikea.com.cn
-#DOMAIN, web-assets.stylitics.com
-
-
 # NAME: IKEA
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
