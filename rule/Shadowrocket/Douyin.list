@@ -1,6 +1,9 @@
 #关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
+#这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
+DOMAIN-SUFFIX, v.smtcdns.com
+
 #关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
 
