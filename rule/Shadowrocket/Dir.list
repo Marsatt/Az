@@ -513,7 +513,9 @@ DOMAIN-SUFFIX,mcdonaldsparties.com.au
 DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
 
 
-#IKEA ~关联 Alibaba.list
+#IKEA
+#~关联 Alibaba.list
+DOMAIN-SUFFIX, oss-cn-shanghai.aliyuncs.com
 DOMAIN, polyfill.alicdn.com
 
 # NAME: IKEA
