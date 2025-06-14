@@ -224,6 +224,7 @@ DOMAIN-SUFFIX, goodnotes.com
 DOMAIN, api.sprig.com
 
 # Flightradar24 app
+DOMAIN-SUFFIX, privacy-center.org
 DOMAIN-SUFFIX, flightradar24.com
 DOMAIN, mobile-data.onetrust.io
 #AR顯示飛機照片（信息框下面，第二個框）。
