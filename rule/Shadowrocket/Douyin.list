@@ -41,6 +41,9 @@ DOMAIN-SUFFIX, z1cdn.com
 
 
 #手机版
+DOMAIN, conf-darwin.xycdn.com
+DOMAIN, ttxyajs.data.kuiniuca.com
+DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdimg.com
