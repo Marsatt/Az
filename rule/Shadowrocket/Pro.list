@@ -1,6 +1,13 @@
 #✈️
 DOMAIN, pqjc.site
 
+# 纽约时报
+DOMAIN-SUFFIX, nytimes.com
+DOMAIN-SUFFIX, nyt.com
+
+#华尔街日报
+DOMAIN-SUFFIX, wsj.com
+
 #v2ex
 DOMAIN, v2ex.com
 
