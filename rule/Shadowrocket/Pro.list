@@ -7,8 +7,9 @@ DOMAIN-SUFFIX, nyt.com
 
 #华尔街日报
 DOMAIN-SUFFIX, wsj.com
+DOMAIN-SUFFIX, wsj.net
 DOMAIN-SUFFIX, captcha-delivery.com
-
+ct.captcha-delivery.com:443
 #v2ex
 DOMAIN, v2ex.com
 
