@@ -263,6 +263,9 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
+#vidiq.com，YouTube查看播放量工具
+DOMAIN, api.vidiq.com
+DOMAIN, app.vidiq.com
 #fetchv，网页视频下载工具。
 DOMAIN,fetchv.net
 #Click&Clean
