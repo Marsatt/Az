@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, hotfree123.com
 
+# 成人直播/色情内容平台 上，如 Chaturbate、Stripchat 等，成人网站、直播平台、图片/视频内容加速。
+DOMAIN-SUFFIX, mmcdn.com
+
 # 根证书屏蔽
 DOMAIN-SUFFIX, globalsign.com
 
