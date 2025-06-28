@@ -1,6 +1,12 @@
 #模块_京东去广告_开屏广告+精简我的页面产品推广
 DOMAIN-SUFFIX, kelee.one
 
+#Folo
+##网易新闻
+DOMAIN-SUFFIX,cache.netease.com
+DOMAIN-SUFFIX,ws.126.net
+##财联社
+DOMAIN-SUFFIX,cls.cn
 
 #优衣库-uniqlo
 DOMAIN-SUFFIX, uniqlo.cn
