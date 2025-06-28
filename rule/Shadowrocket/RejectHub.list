@@ -86,7 +86,8 @@ DOMAIN-SUFFIX, no-mad-world.club
 DOMAIN-SUFFIX, club
 
 #网站的附加访问
-#stripchat.com
+#stripchat.com & hplives.com
+DOMAIN-SUFFIX, ststandard.com
 DOMAIN-SUFFIX, display.lovense-api.com
 #Instagram
 DOMAIN, www.fbsbx.com
