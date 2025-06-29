@@ -9,7 +9,7 @@ DOMAIN-SUFFIX, v.smtcdns.com
 
 #关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
-
+IP-CIDR, 101.36.166.1/24, no-resolve
 
 
 DOMAIN-SUFFIX, douyin.com
