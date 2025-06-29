@@ -282,8 +282,8 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
-#Chrome插件-劃詞翻譯
-DOMAIN, hcfy.app
+#hcfy.ai 是谷歌浏览器插件"划词翻译"扩展的官方网站。
+DOMAIN-SUFFIX, hcfy.ai
 #Chrome插件-Ghostery数据传输
 DOMAIN-SUFFIX, ghostery.net
 DOMAIN-SUFFIX, ghostery.com
