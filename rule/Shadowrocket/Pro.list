@@ -282,6 +282,11 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
+#Chrome插件-劃詞翻譯
+DOMAIN, hcfy.app
+#Chrome插件-Ghostery数据传输
+DOMAIN-SUFFIX, ghostery.net
+DOMAIN-SUFFIX, ghostery.com
 #vidiq.com，YouTube查看播放量工具
 DOMAIN, api.vidiq.com
 DOMAIN, app.vidiq.com

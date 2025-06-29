@@ -42,6 +42,8 @@ DOMAIN-SUFFIX, pdfgear.com
 
 #抖音
 ##抖音电脑版，无用的网址。
+DOMAIN-SUFFIX, livehwc4.com
+DOMAIN-SUFFIX, toutiaostatic.com
 IP-CIDR, 101.36.166.1/24, no-resolve
 ##抖音手机版，无用的网址。
 URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
@@ -153,9 +155,3 @@ DOMAIN-SUFFIX, 163.com
 
 #sina
 DOMAIN-SUFFIX, sina.com
-
-#Chrome插件-Ghostery数据传输
-DOMAIN-SUFFIX, ghostery.net
-DOMAIN-SUFFIX, ghostery.com
-#Chrome插件-劃詞翻譯
-DOMAIN, hcfy.app
