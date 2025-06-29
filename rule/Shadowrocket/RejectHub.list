@@ -41,7 +41,7 @@ DOMAIN-SUFFIX, pdfgear.com
 ##抖音电脑版，无用的网址。
 DOMAIN-SUFFIX, livehwc4.com
 DOMAIN-SUFFIX, toutiaostatic.com
-IP-CIDR, 101.36.166.1/24, no-resolve
+#IP-CIDR, 101.36.166.1/24, no-resolve
 ##抖音手机版，无用的网址。
 URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 IP-CIDR, 221.204.46.250/32, no-resolve
