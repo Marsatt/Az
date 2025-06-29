@@ -2,6 +2,8 @@
 DOMAIN, pqjc.site
 
 # v2ex.com
+#显示图片
+DOMAIN-SUFFIX, imgur.com
 DOMAIN-SUFFIX, v2ex.com
 
 #Folo
@@ -11,6 +13,9 @@ DOMAIN,media.zenfs.com
 DOMAIN,theinitium.com
 DOMAIN, unavatar.webp.se
 DOMAIN-SUFFIX, follow.is
+
+#NHK
+DOMAIN-SUFFIX, nhk.or.jp
 
 #纽约时报
 DOMAIN-SUFFIX, nytimes.com
