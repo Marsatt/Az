@@ -2,6 +2,11 @@
 DOMAIN-SUFFIX, kelee.one
 
 #Folo
+
+##格隆汇
+DOMAIN-SUFFIX,gelonghui.com
+##NGA
+DOMAIN-SUFFIX,nga.178.com
 ##网易新闻
 DOMAIN-SUFFIX,cache.netease.com
 DOMAIN-SUFFIX,ws.126.net
