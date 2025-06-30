@@ -294,8 +294,7 @@ DOMAIN-SUFFIX, hcfy.ai
 DOMAIN-SUFFIX, ghostery.net
 DOMAIN-SUFFIX, ghostery.com
 #vidiq.com，YouTube查看播放量工具
-DOMAIN, api.vidiq.com
-DOMAIN, app.vidiq.com
+DOMAIN-SUFFIX, vidiq.com
 #fetchv，网页视频下载工具。
 DOMAIN,fetchv.net
 #Click&Clean
