@@ -1,6 +1,9 @@
 #关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
+##抖音电脑版，无用的网址。
+IP-CIDR, 101.36.166.1/24, no-resolve
+
 #抖音_Chrome_油猴_显示抖音过万的真实人数
 DOMAIN, dyapi.phpnbw.com
 
