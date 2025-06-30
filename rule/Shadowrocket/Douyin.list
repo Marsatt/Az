@@ -17,6 +17,8 @@ DOMAIN-SUFFIX, livehwc3.cn
 DOMAIN-SUFFIX, douyin.com
 
 #电脑版
+##直播录制需要网址
+DOMAIN-SUFFIX, 100ycdn.com
 DOMAIN, api.feelgood.cn
 DOMAIN, lf-waf-js.byted-static.com
 DOMAIN-SUFFIX, applogcdn.com
@@ -32,9 +34,11 @@ DOMAIN-SUFFIX, douyinliving.com
 DOMAIN-SUFFIX, ibytedapm.com
 DOMAIN-SUFFIX, jomodns.com
 DOMAIN-SUFFIX, ksyungslb.com
+DOMAIN-SUFFIX, livehwc4.com
 DOMAIN-SUFFIX, mobgslb.tbcache.com
 DOMAIN-SUFFIX, ourdvsssvip.com
 DOMAIN-SUFFIX, sealaly.net
+DOMAIN-SUFFIX, vegslb.com
 DOMAIN-SUFFIX, volcvideo.com
 DOMAIN-SUFFIX, volcvideos.com
 DOMAIN-SUFFIX, volcsiriusbd.com
