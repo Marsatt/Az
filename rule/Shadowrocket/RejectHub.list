@@ -2,6 +2,15 @@
 DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, narakahunter.mvw
 
+#Deepseek
+DOMAIN-SUFFIX, intercom.com
+DOMAIN-SUFFIX, zztfly.com
+DOMAIN-SUFFIX, cmpassport.com
+
+#豆包
+DOMAIN-SUFFIX, ugsdk.cn
+DOMAIN-SUFFIX, oceancloudapi.com
+
 #Zoom Earth
 DOMAIN-SUFFIX, revenuecat.com
 
@@ -70,7 +79,6 @@ DOMAIN-SUFFIX, zhicyun.com
 #剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
 DOMAIN-SUFFIX, likecam.com
 DOMAIN-SUFFIX, ulikecam.com
-
 
 #sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
 DOMAIN, sessions.bugsnag.com
