@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, narakahunter.mvw
 
+#用户行为分析 & 实验性追踪 API
+DOMAIN-SUFFIX, amplitude.com
+
 #多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
 DOMAIN-SUFFIX, mg-cdn.com
 
