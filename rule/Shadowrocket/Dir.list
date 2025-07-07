@@ -655,14 +655,15 @@ DOMAIN-SUFFIX,tdpress.com
 
 
 #nike
-#20250513131246-网页版
+#网页版
+DOMAIN, manifest.prod.boltdns.net
 DOMAIN, secure.brightcove.com
 DOMAIN, api.talkingdata.com
 DOMAIN, aeu.alicdn.com
-#20250513082507-耐克app快递查询
+#耐克app快递查询
 DOMAIN-SUFFIX, baozun.cn
 DOMAIN-SUFFIX, baozun.com
-#20250511085509
+##
 DOMAIN, nikegroup.publicisgrowthos.com
 DOMAIN-SUFFIX, cpatrk.net
 DOMAIN-SUFFIX, maiscrm.com
@@ -671,8 +672,7 @@ DOMAIN, tab.volces.com
 DOMAIN, gator.volces.com
 DOMAIN, ab.volices.com
 DOMAIN, gator.volces.com
-DOMAIN-SUFFIX, nike.com.cn
-
+#DOMAIN-SUFFIX, nike.com.cn
 
 # NAME: Nike
 # AUTHOR: blackmatrix7
