@@ -672,7 +672,7 @@ DOMAIN, tab.volces.com
 DOMAIN, gator.volces.com
 DOMAIN, ab.volices.com
 DOMAIN, gator.volces.com
-#DOMAIN-SUFFIX, nike.com.cn
+DOMAIN-SUFFIX, nike.com.cn
 
 # NAME: Nike
 # AUTHOR: blackmatrix7
