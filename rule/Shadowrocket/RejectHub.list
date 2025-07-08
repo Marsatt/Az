@@ -7,6 +7,7 @@ DOMAIN-SUFFIX, narakahunter.mvw
 #Wechat微信_iPhone
 IP-CIDR, 42.202.141.12/32, no-resolve
 IP-CIDR, 42.202.141.13/32, no-resolve
+IP-CIDR, 42.202.153.50/32, no-resolve
 IP-CIDR, 42.202.154.19/32, no-resolve
 IP-CIDR, 42.202.154.21/32, no-resolve
 IP-CIDR, 42.202.154.211/32, no-resolve
