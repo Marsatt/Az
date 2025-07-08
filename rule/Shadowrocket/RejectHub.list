@@ -2,6 +2,14 @@
 DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, narakahunter.mvw
 
+
+#Wechat微信_iPhone
+IP-CIDR, 42.202.141.13/32, no-resolve
+IP-CIDR, 42.202.153.23/32, no-resolve
+IP-CIDR, 123.172.120.37/32, no-resolve
+IP-CIDR, 123.172.120.54/32, no-resolve
+
+
 #Deepseek
 DOMAIN-SUFFIX, intercom.com
 DOMAIN-SUFFIX, zztfly.com
