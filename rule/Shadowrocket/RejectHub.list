@@ -27,6 +27,7 @@ IP-CIDR, 123.172.120.37/32, no-resolve
 IP-CIDR, 123.172.120.41/32, no-resolve
 IP-CIDR, 123.172.120.54/32, no-resolve
 IP-CIDR, 123.172.120.75/32, no-resolve
+IP-CIDR, 123.172.120.78/32, no-resolve
 IP-CIDR, 123.172.120.87/32, no-resolve
 IP-CIDR, 123.172.120.88/32, no-resolve
 IP-CIDR, 123.172.120.93/32, no-resolve
@@ -34,6 +35,7 @@ IP-CIDR, 123.172.120.94/32, no-resolve
 IP-CIDR, 123.172.120.95/32, no-resolve
 IP-CIDR, 123.172.120.99/32, no-resolve
 IP-CIDR, 123.172.120.115/32, no-resolve
+IP-CIDR, 123.172.120.120/32, no-resolve
 IP-CIDR, 123.172.120.140/32, no-resolve
 IP-CIDR, 123.172.120.142/32, no-resolve
 IP-CIDR, 183.60.8.74/32, no-resolve
