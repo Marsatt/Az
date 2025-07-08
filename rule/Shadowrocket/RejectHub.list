@@ -14,8 +14,10 @@ IP-CIDR, 42.202.154.19/32, no-resolve
 IP-CIDR, 42.202.154.21/32, no-resolve
 IP-CIDR, 42.202.154.211/32, no-resolve
 IP-CIDR, 42.202.154.212/32, no-resolve
+IP-CIDR, 42.202.153.15/32, no-resolve
 IP-CIDR, 42.202.153.23/32, no-resolve
 IP-CIDR, 42.202.153.25/32, no-resolve
+IP-CIDR, 42.202.153.33/32, no-resolve
 IP-CIDR, 42.202.153.37/32, no-resolve
 IP-CIDR, 42.202.153.50/32, no-resolve
 IP-CIDR, 42.202.153.120/32, no-resolve
@@ -27,10 +29,12 @@ IP-CIDR, 123.172.120.54/32, no-resolve
 IP-CIDR, 123.172.120.75/32, no-resolve
 IP-CIDR, 123.172.120.87/32, no-resolve
 IP-CIDR, 123.172.120.88/32, no-resolve
+IP-CIDR, 123.172.120.93/32, no-resolve
 IP-CIDR, 123.172.120.94/32, no-resolve
 IP-CIDR, 123.172.120.95/32, no-resolve
 IP-CIDR, 123.172.120.99/32, no-resolve
 IP-CIDR, 123.172.120.115/32, no-resolve
+IP-CIDR, 123.172.120.140/32, no-resolve
 IP-CIDR, 123.172.120.142/32, no-resolve
 IP-CIDR, 183.60.8.74/32, no-resolve
 
