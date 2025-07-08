@@ -1,45 +1,47 @@
 #/24
-IP-CIDR, 36.99.6.1/24, no-resolve
-IP-CIDR, 42.202.141.1/24, no-resolve
-IP-CIDR, 60.188.75.1/24, no-resolve
-IP-CIDR, 123.172.120.1/24, no-resolve
-IP-CIDR, 123.184.101.1/24, no-resolve
-IP-CIDR, 123.246.80.1/24, no-resolve
-IP-CIDR, 182.40.66.1/24, no-resolve
-
-
-
-
-#Mac
-#20250422125119_电信网_接收=图片+视频
-IP-CIDR, 123.24.80.190/32, no-resolve
+#IP-CIDR, 36.99.6.1/24, no-resolve
+#IP-CIDR, 42.202.141.1/24, no-resolve
 #20250422184623_电信网_发视频
-IP-CIDR, 42.202.154.1/24, no-resolve
+#IP-CIDR, 42.202.154.1/24, no-resolve
+#IP-CIDR, 60.188.75.1/24, no-resolve
 
+#IP-CIDR, 123.172.120.1/24, no-resolve
+IP-CIDR, 123.172.120.119/32, no-resolve
+IP-CIDR, 123.172.120.127/32, no-resolve
+IP-CIDR, 123.172.120.144/32, no-resolve
+
+#IP-CIDR, 123.184.101.1/24, no-resolve
+#IP-CIDR, 123.246.80.1/24, no-resolve
+#加好友_iPhone
+IP-CIDR, 125.88.199.1/24, no-resolve
+
+IP-CIDR, 182.40.66.1/24, no-resolve
 #20250205223911_图片+视频+转发
 IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 
+#/32
+#20250708123310_朋友圈视频播放_iPhone
+IP-CIDR, 14.17.85.82/32, no-resolve
+#IP-CIDR, 14.17.85.94/32, no-resolve
+#IP-CIDR, 14.17.85.97/32, no-resolve
 
-#iPhone
-##加好友
-IP-CIDR, 125.88.199.1/24, no-resolve
-##朋友圈图片视频预览
-IP-CIDR, 42.202.153.52/32, no-resolve
+#20250708123438_朋友圈图片视频预览_iPhone
+#IP-CIDR, 42.202.153.52/32, no-resolve
+#IP-CIDR, 58.251.59.44/32, no-resolve
 
+#20250422125119_电信网_接收=图片+视频_Mac
+IP-CIDR, 123.24.80.190/32, no-resolve
 
-
-#朋友圈图片视频预览
-IP-CIDR, 58.251.59.44/32, no-resolve
-#朋友圈视频播放
+#20250708123442_朋友圈视频播放_iPhone
 IP-CIDR, 119.188.206.100/32, no-resolve
 
 
 
-
-#iPad
-
+##
+#20250708124147_微信钱包账单查询_iPhone
+DOMAIN-SUFFIX, wechatpay.cn
 
 
 
