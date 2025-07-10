@@ -15,9 +15,6 @@ DOMAIN,theinitium.com
 DOMAIN, unavatar.webp.se
 DOMAIN-SUFFIX, follow.is
 
-#NHK
-DOMAIN-SUFFIX, nhk.or.jp
-
 #纽约时报
 DOMAIN-SUFFIX, nytimes.com
 DOMAIN-SUFFIX, nyt.com
