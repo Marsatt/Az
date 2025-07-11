@@ -309,7 +309,9 @@ DOMAIN, www.hotcleaner.com
 DOMAIN-SUFFIX,dnslytics.com
 DOMAIN-SUFFIX,dnslytics.org
 DOMAIN-SUFFIX,dnslytics.uk
+
 DOMAIN, geoip.furman.im
+
 #蠱惑狼進度條
 DOMAIN, custom-progress-bar.com
 DOMAIN, custom-progressbar.com
