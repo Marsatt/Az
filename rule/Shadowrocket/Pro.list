@@ -300,8 +300,8 @@ DOMAIN, returnyoutubedislikeapi.com
 #Chrome瀏覽器，第*個flag顯示。
 #DOMAIN-SUFFIX, myip.ms
 
-#chrome瀏覽器，第*個flag顯示。
-#DOMAIN-SUFFIX,whatismyip.click
+#chrome瀏覽器，第3個flag顯示。
+DOMAIN-SUFFIX,whatismyip.click
 
 #chrome瀏覽器，第*個flag顯示。
 #DOMAIN-SUFFIX,webextension.org
