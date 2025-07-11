@@ -294,10 +294,11 @@ DOMAIN,fetchv.net
 #Click&Clean
 DOMAIN, cdn.hotcleaner.com
 DOMAIN, www.hotcleaner.com
-#Chrome瀏覽器-flag（第一個）顯示國旗。
-#DOMAIN-SUFFIX, myip.ms
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
-#DOMAIN, returnyoutubedislikeapi.com
+DOMAIN, returnyoutubedislikeapi.com
+
+#Chrome瀏覽器，第*個flag顯示。
+#DOMAIN-SUFFIX, myip.ms
 
 #chrome瀏覽器，第*個flag顯示。
 #DOMAIN-SUFFIX,whatismyip.click
