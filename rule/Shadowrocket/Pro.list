@@ -41,10 +41,6 @@ DOMAIN, ping0.cc
 DOMAIN-SUFFIX, tiksave.io
 DOMAIN, dl.snapcdn.app
 
-#喵软件资源网
-DOMAIN, fontsapi.zeoseven.com
-DOMAIN-SUFFIX, appmiu.com
-
 # Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
 DOMAIN-SUFFIX, cloudfront.net
 
@@ -299,10 +295,20 @@ DOMAIN,fetchv.net
 DOMAIN, cdn.hotcleaner.com
 DOMAIN, www.hotcleaner.com
 #Chrome瀏覽器-flag（第一個）顯示國旗。
-DOMAIN-SUFFIX, myip.ms
+#DOMAIN-SUFFIX, myip.ms
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
-DOMAIN, returnyoutubedislikeapi.com
-#chrome瀏覽器，第二個flag顯示。
+#DOMAIN, returnyoutubedislikeapi.com
+
+#chrome瀏覽器，第*個flag顯示。
+#DOMAIN-SUFFIX,whatismyip.click
+
+#chrome瀏覽器，第*個flag顯示。
+#DOMAIN-SUFFIX,webextension.org
+
+#chrome瀏覽器，图标是ip。IP Address and Domain Information。
+DOMAIN-SUFFIX,dnslytics.com
+DOMAIN-SUFFIX,dnslytics.org
+DOMAIN-SUFFIX,dnslytics.uk
 DOMAIN, geoip.furman.im
 #蠱惑狼進度條
 DOMAIN, custom-progress-bar.com
