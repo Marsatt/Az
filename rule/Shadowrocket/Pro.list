@@ -297,21 +297,18 @@ DOMAIN, www.hotcleaner.com
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
 DOMAIN, returnyoutubedislikeapi.com
 
-#Chrome瀏覽器，第*個flag顯示。
-#DOMAIN-SUFFIX, myip.ms
 
 #chrome瀏覽器，第3個flag顯示。
-DOMAIN-SUFFIX,whatismyip.click
-
-#chrome瀏覽器，第*個flag顯示。
-#DOMAIN-SUFFIX,webextension.org
+DOMAIN-SUFFIX, whatismyip.click
 
 #chrome瀏覽器，图标是ip。IP Address and Domain Information。
-DOMAIN-SUFFIX,dnslytics.com
-DOMAIN-SUFFIX,dnslytics.org
-DOMAIN-SUFFIX,dnslytics.uk
+DOMAIN-SUFFIX, dnslytics.com
+DOMAIN-SUFFIX, dnslytics.org
+DOMAIN-SUFFIX, dnslytics.uk
 
-DOMAIN, geoip.furman.im
+#未知
+#DOMAIN, geoip.furman.im
+
 
 #蠱惑狼進度條
 DOMAIN, custom-progress-bar.com
