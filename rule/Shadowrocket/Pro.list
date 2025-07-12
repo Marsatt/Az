@@ -307,7 +307,7 @@ DOMAIN-SUFFIX, dnslytics.org
 DOMAIN-SUFFIX, dnslytics.uk
 
 #未知
-#DOMAIN, geoip.furman.im
+###DOMAIN, geoip.furman.im
 
 
 #蠱惑狼進度條
