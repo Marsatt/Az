@@ -1,3 +1,32 @@
+#cloudflare.com（验证网站）
+DOMAIN-SUFFIX, cloudflare.com
+
+#grok
+DOMAIN,assets.x.ai
+DOMAIN,xai.chronosphere.io
+DOMAIN,prodregistryv2.org
+DOMAIN,api.mixpanel.com
+DOMAIN,featureassets.org
+DOMAIN,grok-v2.x.ai
+
+#groq
+DOMAIN, api.groq.com
+
+#claude
+DOMAIN,www.claudeusercontent.com
+
+# NAME: Claude
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:28
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 2
+# TOTAL: 3
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -44,24 +73,3 @@ DOMAIN-KEYWORD,openai
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
-
-
-#claude抓包
-DOMAIN,www.claudeusercontent.com
-
-# NAME: Claude
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:18:28
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 3
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
-
-#groq
-DOMAIN, api.groq.com
-
-#cloudflare.com（验证网站）
-DOMAIN-SUFFIX, cloudflare.com
