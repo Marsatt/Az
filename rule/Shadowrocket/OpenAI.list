@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX, cloudflare.com
 
 #grok
+DOMAIN-SUFFIX, grok.com
 DOMAIN,assets.x.ai
 DOMAIN,xai.chronosphere.io
 DOMAIN,prodregistryv2.org
