@@ -55,12 +55,16 @@ DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-SUFFIX, erer.homeborn.cn
 DOMAIN-SUFFIX, ietheivaicai.com
+DOMAIN-SUFFIX, jinritemai.com
+###ffh.jinritemai.com 抖音店铺排行榜
+###fxg.jinritemai.com 迪卡侬会员积分兑换
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, tt.x.bsgslb.cn
 DOMAIN-SUFFIX, zijieapi.com
 #抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 IP-CIDR, 36.104.134.75/32, no-resolve
+
 
 
 # NAME: DouYin
