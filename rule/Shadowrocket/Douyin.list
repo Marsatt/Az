@@ -1,8 +1,6 @@
 #关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
-#IP-CIDR, 101.36.166.1/24, no-resolve
-
 #抖音_Chrome_油猴_显示抖音过万的真实人数
 DOMAIN, dyapi.phpnbw.com
 
@@ -14,6 +12,7 @@ DOMAIN-SUFFIX, livehwc3.cn
 
 
 DOMAIN-SUFFIX, douyin.com
+
 
 #电脑版
 ##直播录制需要网址
@@ -47,6 +46,8 @@ DOMAIN-SUFFIX, z1cdn.com
 
 #手机版
 DOMAIN, conf-darwin.xycdn.com
+DOMAIN, render.ecombdpage.com
+#@!抖音寄件详情
 DOMAIN, ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, byteeffecttos.com
@@ -56,14 +57,15 @@ DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-SUFFIX, erer.homeborn.cn
 DOMAIN-SUFFIX, ietheivaicai.com
 DOMAIN-SUFFIX, jinritemai.com
-###ffh.jinritemai.com 抖音店铺排行榜
-###fxg.jinritemai.com 迪卡侬会员积分兑换
+#@!ffh.jinritemai.com 抖音店铺排行榜
+#@!fxg.jinritemai.com 迪卡侬会员积分兑换
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, tt.x.bsgslb.cn
 DOMAIN-SUFFIX, zijieapi.com
 #抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 IP-CIDR, 36.104.134.75/32, no-resolve
+
 
 
 
