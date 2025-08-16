@@ -15,8 +15,8 @@ DOMAIN-SUFFIX, douyin.com
 
 
 #电脑版
-##直播录制需要网址
 DOMAIN-SUFFIX, 100ycdn.com
+#@!直播录制需要网址
 DOMAIN, api.feelgood.cn
 DOMAIN, lf-waf-js.byted-static.com
 DOMAIN-SUFFIX, applogcdn.com
@@ -51,9 +51,13 @@ DOMAIN, render.ecombdpage.com
 DOMAIN, ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, byteeffecttos.com
+DOMAIN-SUFFIX, bytemastatic.com
+#@!优衣库需要的网址
 DOMAIN-SUFFIX, byteimg.com
-DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdapi.com
+DOMAIN-SUFFIX, ecombdimg.com
+DOMAIN-SUFFIX, ecombdstatic.com
+#@!抖音，消息查看物流，reject对应取消掉
 DOMAIN-SUFFIX, erer.homeborn.cn
 DOMAIN-SUFFIX, ietheivaicai.com
 DOMAIN-SUFFIX, jinritemai.com
@@ -65,6 +69,7 @@ DOMAIN-SUFFIX, zijieapi.com
 #抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 IP-CIDR, 36.104.134.75/32, no-resolve
+
 
 
 
