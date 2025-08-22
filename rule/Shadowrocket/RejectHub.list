@@ -1,7 +1,9 @@
 #未知
 DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, narakahunter.mvw
-
+#@!开机打开Chrome后显示的
+DOMAIN, ws-us2.pusher.com
+DOMAIN, geoip.furman.im
 
 
 #Wechat微信_iPhone
