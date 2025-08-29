@@ -81,13 +81,15 @@ DOMAIN-SUFFIX, dcloud.net.cn
 #麦当劳
 DOMAIN-SUFFIX, mcd.cn
 DOMAIN-SUFFIX, mcdonalds.com.cn
-#优惠券显示图片
+#@!优惠券显示页面_关联chinamax
+DOMAIN, static.portal101.cn
+#@!优惠券显示图片
 DOMAIN-SUFFIX, cos.ap-shanghai.myqcloud.com
 
 #肯德基
 DOMAIN-SUFFIX, hwwt8.com
 DOMAIN-SUFFIX, kfc.com.cn
-#账号登陆验证
+#@!账号登陆验证
 DOMAIN, api.geevisit.com
 
 #白噪音网站
