@@ -103,6 +103,7 @@ URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 IP-CIDR, 221.204.46.250/32, no-resolve
 DOMAIN, wiki5.baike.com
 DOMAIN, m.baike.com
+DOMAIN-SUFFIX, 0kkkkkt.com
 DOMAIN-SUFFIX, bytecdn.com
 DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, bytehwm.com
