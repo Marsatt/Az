@@ -282,6 +282,8 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
+DOMAIN, geoip.furman.im
+#@!应该是谷歌插件的第一个，显示旗子。
 #hcfy.ai 是谷歌浏览器插件"划词翻译"扩展的官方网站。
 DOMAIN-SUFFIX, hcfy.ai
 #Chrome插件-Ghostery数据传输
@@ -290,7 +292,7 @@ DOMAIN-SUFFIX, ghostery.com
 #vidiq.com，YouTube查看播放量工具
 DOMAIN-SUFFIX, vidiq.com
 #fetchv，网页视频下载工具。
-DOMAIN,fetchv.net
+DOMAIN, fetchv.net
 #Click&Clean
 DOMAIN, cdn.hotcleaner.com
 DOMAIN, www.hotcleaner.com
