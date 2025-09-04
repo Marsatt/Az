@@ -1,7 +1,9 @@
 #Notion
 DOMAIN-SUFFIX, notion.so
 DOMAIN-SUFFIX, notion.com
-#@!上传图片
+#@! iPhone正常访问Notion
+DOMAIN, http-inputs-notion.splunkcloud.com
+#@! 上传图片
 DOMAIN, img.notionusercontent.com
 #@！显示图片_关联amazon
 DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com
