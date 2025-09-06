@@ -1,11 +1,25 @@
+#stripchat & hplives
+DOMAIN-SUFFIX, loo3laej.com
+DOMAIN, mc.thedd.online
+DOMAIN, api.lovense-api.com
+DOMAIN-SUFFIX, doppiocdn.live
+DOMAIN-SUFFIX, doppiocdn.com
+DOMAIN-SUFFIX, doppiocdn.net
+DOMAIN-SUFFIX, stripchat.com
+DOMAIN-SUFFIX, oppiocdn.media
+DOMAIN-SUFFIX, hplives.com
+DOMAIN-SUFFIX, hpjav.tv
+DOMAIN-SUFFIX, sc-apps.com
+DOMAIN-SUFFIX, strpst.com
+
 #Notion
 DOMAIN-SUFFIX, notion.so
 DOMAIN-SUFFIX, notion.com
-#@! iPhone正常访问Notion
+#iPhone正常访问Notion
 DOMAIN, http-inputs-notion.splunkcloud.com
-#@! 上传图片
+#上传图片
 DOMAIN, img.notionusercontent.com
-#@！显示图片_关联amazon
+#显示图片_关联amazon
 DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com
 
 #谷歌Gemini
