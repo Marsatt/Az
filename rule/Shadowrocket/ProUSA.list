@@ -269,6 +269,8 @@ DOMAIN-SUFFIX, appwork.org
 DOMAIN-SUFFIX, xconvert.com
 
 #Chrome瀏覽器插件
+#沉浸式翻译（粉色图标）
+DOMAIN, config.immersivetranslate.com
 #TikTok视频下载、AI脚本与数据洞察-达人精灵
 DOMAIN-SUFFIX, kolsprite.com
 #应该是谷歌插件的第一个，显示旗子。
@@ -287,11 +289,8 @@ DOMAIN, cdn.hotcleaner.com
 DOMAIN, www.hotcleaner.com
 #Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
 DOMAIN, returnyoutubedislikeapi.com
-
-
 #chrome瀏覽器，第3個flag顯示。
 DOMAIN-SUFFIX, whatismyip.click
-
 #chrome瀏覽器，图标是ip。IP Address and Domain Information。
 DOMAIN-SUFFIX, dnslytics.com
 DOMAIN-SUFFIX, dnslytics.org
