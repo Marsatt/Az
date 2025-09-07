@@ -1,4 +1,88 @@
+#Z-Libly图书馆
+DOMAIN, dln1.ncdn.ec
+DOMAIN, z-library.sk
+
+#JDownloader 2-下載工具自動更新。
+DOMAIN-SUFFIX, jdownloader.org
+DOMAIN-SUFFIX, appwork.org
+
+# Flightradar24 app
+DOMAIN-SUFFIX, privacy-center.org
+DOMAIN-SUFFIX, flightradar24.com
+DOMAIN, mobile-data.onetrust.io
+#AR顯示飛機照片（信息框下面，第二個框）。
+DOMAIN, cdn.jetphotos.com
+
+#Marine Traffic
+DOMAIN-SUFFIX, marinetraffic.com
+
+#kick直播平台
+DOMAIN-SUFFIX, kick.com
+
+#jable.tv
+DOMAIN-SUFFIX, mushroomtrack.com
+DOMAIN-SUFFIX, jable.tv
+
+#www.xvideos.com
+DOMAIN-SUFFIX, xvideos.com
+DOMAIN-SUFFIX, xvideos-cdn.com
+
+#www.xnxx.com
+DOMAIN-SUFFIX, xnxx-cdn.com
+DOMAIN-SUFFIX, xnxx.com
+
+#myfreecams.com
+DOMAIN-SUFFIX, mfcimg.com
+DOMAIN-SUFFIX, myfreecams.com
+
+#afreecatv & sooplive
+DOMAIN-SUFFIX, afreecatv.com
+DOMAIN-SUFFIX, sooplive.co.kr
+
+#fbjav.com
+DOMAIN-SUFFIX, player.imcontent.me
+DOMAIN-SUFFIX, images.imfb.xyz
+DOMAIN-SUFFIX, fbjav.com
+DOMAIN-SUFFIX, svjav.com
+
+#MacOS破解網站 xm
+DOMAIN-SUFFIX, mediafire.com
+DOMAIN, psv4.userapi.com
+DOMAIN, unpkg.com
+DOMAIN-SUFFIX, vk.com
+DOMAIN, unpkg.com
+DOMAIN-SUFFIX, vk.com
+DOMAIN-SUFFIX, appstorrent.ru
+DOMAIN-SUFFIX, xmac.app
+
+#MacOS破解網站 appstorrent
+DOMAIN, appstorrent.org
+
+#missav.com
+DOMAIN-KEYWORD, missav
+DOMAIN-SUFFIX, njav.tv
+DOMAIN, surrit.com
+DOMAIN, fourhoi.com
+DOMAIN, r.trackwilltrk.com
+
+#ikea.com
+DOMAIN-SUFFIX, ikea.com
+
+# Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
+DOMAIN-SUFFIX, cloudfront.net
+
+#chaturbate.jjgirls.com
+##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
+DOMAIN-SUFFIX, highwebmedia.com
+#成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
+##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
+DOMAIN-SUFFIX, mmcdn.com
+DOMAIN, chaturbate.jjgirls.com
+DOMAIN, internet-up.ably-realtime.com
+
 #stripchat & hplives
+#@!显示主播预览图片
+DOMAIN, img.doppiocdn.org
 DOMAIN-SUFFIX, loo3laej.com
 DOMAIN, mc.thedd.online
 DOMAIN, api.lovense-api.com
