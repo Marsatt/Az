@@ -81,8 +81,12 @@ DOMAIN, chaturbate.jjgirls.com
 DOMAIN, internet-up.ably-realtime.com
 
 #stripchat & hplives
+#@!iPad播放需要的网址
+DOMAIN-SUFFIX, eizzih.com
+DOMAIN-SUFFIX, moengage.com
+DOMAIN-SUFFIX, striiiipst.com
 #@!显示主播预览图片
-DOMAIN, img.doppiocdn.org
+DOMAIN-SUFFIX, doppiocdn.org
 DOMAIN-SUFFIX, loo3laej.com
 DOMAIN, mc.thedd.online
 DOMAIN, api.lovense-api.com
