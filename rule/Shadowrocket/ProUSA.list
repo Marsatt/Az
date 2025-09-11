@@ -260,6 +260,8 @@ DOMAIN-SUFFIX, collinsdictionary.com
 
 #github
 DOMAIN-SUFFIX, ghproxy.com
+#authy
+DOMAIN-SUFFIX, authy.com
 
 #JDownloader 2-下載工具自動更新。
 DOMAIN-SUFFIX, jdownloader.org
