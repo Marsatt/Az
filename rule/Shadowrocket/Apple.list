@@ -1,3 +1,6 @@
+#苹果iMessage接收照片
+DOMAIN, query.ess.apple.com 
+
 #Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
 DOMAIN, apple-finance.query.yahoo.com
 
