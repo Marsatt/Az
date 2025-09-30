@@ -10,7 +10,6 @@ DOMAIN-SUFFIX, v.smtcdns.com
 #关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
 
-
 DOMAIN-SUFFIX, douyin.com
 
 
@@ -45,24 +44,26 @@ DOMAIN-SUFFIX, z1cdn.com
 
 
 #手机版
+#@!抖音寄件详情
 DOMAIN, conf-darwin.xycdn.com
 DOMAIN, render.ecombdpage.com
-#@!抖音寄件详情
+#@!优衣库需要的网址
 DOMAIN, ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, bytemastatic.com
-#@!优衣库需要的网址
+#@!抖音，消息查看物流，reject对应取消掉
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdstatic.com
-#@!抖音，消息查看物流，reject对应取消掉
 DOMAIN-SUFFIX, erer.homeborn.cn
 DOMAIN-SUFFIX, ietheivaicai.com
+#@!抖音店铺排行榜
+#@!迪卡侬会员积分兑换
 DOMAIN-SUFFIX, jinritemai.com
-#@!ffh.jinritemai.com 抖音店铺排行榜
-#@!fxg.jinritemai.com 迪卡侬会员积分兑换
+#@!抖音，手机版显示小黄车物品
+DOMAIN, promotion-h5.doupay.com
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, tt.x.bsgslb.cn
 DOMAIN-SUFFIX, zijieapi.com
