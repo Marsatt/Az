@@ -6,6 +6,9 @@ DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
 
+#LosslessCut_macOS
+DOMAIN, losslesscut.mifi.no
+
 #Wechat微信_iPhone
 IP-CIDR, 42.202.141.12/32, no-resolve
 IP-CIDR, 42.202.141.13/32, no-resolve
