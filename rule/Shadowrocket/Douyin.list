@@ -14,6 +14,7 @@ DOMAIN-SUFFIX, douyin.com
 
 
 #电脑版
+DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, 100ycdn.com
 #@!直播录制需要网址
 DOMAIN, api.feelgood.cn
