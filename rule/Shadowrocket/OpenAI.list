@@ -4,7 +4,7 @@ DOMAIN-SUFFIX, cloudflare.com
 #groq
 DOMAIN, api.groq.com
 DOMAIN, auth.grokusercontent.com
-DOMAIN, auth.x.ai
+DOMAIN-SUFFIX, x.ai
 
 #claude
 DOMAIN,www.claudeusercontent.com
