@@ -6,6 +6,9 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#Chrome插件_鼠标插件
+DOMAIN, api.crxmouse.com
+
 #沉浸式翻译_不需要的网址访问
 DOMAIN-SUFFIX, immersivetranslate.com
 DOMAIN-SUFFIX, immersivetranslate.cn
@@ -209,7 +212,7 @@ DOMAIN, score.traficmetrics.com
 #shottr
 DOMAIN, shottr.cc
 
-#163
+# 163
 DOMAIN-SUFFIX, 163.com
 
 #sina
