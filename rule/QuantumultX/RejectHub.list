@@ -1,211 +1,211 @@
 #未知
-HOST-SUFFIX, hotfree123.com
-HOST-SUFFIX, narakahunter.mvw
+HOST-SUFFIX, hotfree123.com,RejectHub
+HOST-SUFFIX, narakahunter.mvw,RejectHub
 #@!开机打开Chrome后显示的
-HOST, ws-us2.pusher.com
-HOST, geoip.furman.im
+HOST, ws-us2.pusher.com,RejectHub
+HOST, geoip.furman.im,RejectHub
 
 
 #Wechat微信_iPhone
-IP-CIDR, 42.202.141.12/32
-IP-CIDR, 42.202.141.13/32
-IP-CIDR, 42.202.141.116/32
-IP-CIDR, 42.202.153.25/32
-IP-CIDR, 42.202.153.50/32
-IP-CIDR, 42.202.154.19/32
-IP-CIDR, 42.202.154.21/32
-IP-CIDR, 42.202.154.211/32
-IP-CIDR, 42.202.154.212/32
-IP-CIDR, 42.202.153.15/32
-IP-CIDR, 42.202.153.23/32
-IP-CIDR, 42.202.153.25/32
-IP-CIDR, 42.202.153.33/32
-IP-CIDR, 42.202.153.37/32
-IP-CIDR, 42.202.153.50/32
-IP-CIDR, 42.202.153.120/32
-IP-CIDR, 42.202.154.212/32
-IP-CIDR, 123.172.120.22/32
-IP-CIDR, 123.172.120.37/32
-IP-CIDR, 123.172.120.41/32
-IP-CIDR, 123.172.120.54/32
-IP-CIDR, 123.172.120.75/32
-IP-CIDR, 123.172.120.78/32
-IP-CIDR, 123.172.120.87/32
-IP-CIDR, 123.172.120.88/32
-IP-CIDR, 123.172.120.93/32
-IP-CIDR, 123.172.120.94/32
-IP-CIDR, 123.172.120.95/32
-IP-CIDR, 123.172.120.99/32
-IP-CIDR, 123.172.120.115/32
-IP-CIDR, 123.172.120.120/32
-IP-CIDR, 123.172.120.140/32
-IP-CIDR, 123.172.120.142/32
-IP-CIDR, 183.60.8.74/32
+IP-CIDR, 42.202.141.12/32,RejectHub
+IP-CIDR, 42.202.141.13/32,RejectHub
+IP-CIDR, 42.202.141.116/32,RejectHub
+IP-CIDR, 42.202.153.25/32,RejectHub
+IP-CIDR, 42.202.153.50/32,RejectHub
+IP-CIDR, 42.202.154.19/32,RejectHub
+IP-CIDR, 42.202.154.21/32,RejectHub
+IP-CIDR, 42.202.154.211/32,RejectHub
+IP-CIDR, 42.202.154.212/32,RejectHub
+IP-CIDR, 42.202.153.15/32,RejectHub
+IP-CIDR, 42.202.153.23/32,RejectHub
+IP-CIDR, 42.202.153.25/32,RejectHub
+IP-CIDR, 42.202.153.33/32,RejectHub
+IP-CIDR, 42.202.153.37/32,RejectHub
+IP-CIDR, 42.202.153.50/32,RejectHub
+IP-CIDR, 42.202.153.120/32,RejectHub
+IP-CIDR, 42.202.154.212/32,RejectHub
+IP-CIDR, 123.172.120.22/32,RejectHub
+IP-CIDR, 123.172.120.37/32,RejectHub
+IP-CIDR, 123.172.120.41/32,RejectHub
+IP-CIDR, 123.172.120.54/32,RejectHub
+IP-CIDR, 123.172.120.75/32,RejectHub
+IP-CIDR, 123.172.120.78/32,RejectHub
+IP-CIDR, 123.172.120.87/32,RejectHub
+IP-CIDR, 123.172.120.88/32,RejectHub
+IP-CIDR, 123.172.120.93/32,RejectHub
+IP-CIDR, 123.172.120.94/32,RejectHub
+IP-CIDR, 123.172.120.95/32,RejectHub
+IP-CIDR, 123.172.120.99/32,RejectHub
+IP-CIDR, 123.172.120.115/32,RejectHub
+IP-CIDR, 123.172.120.120/32,RejectHub
+IP-CIDR, 123.172.120.140/32,RejectHub
+IP-CIDR, 123.172.120.142/32,RejectHub
+IP-CIDR, 183.60.8.74/32,RejectHub
 
 
 
 #Deepseek
-HOST-SUFFIX, intercom.com
-HOST-SUFFIX, zztfly.com
-HOST-SUFFIX, cmpassport.com
+HOST-SUFFIX, intercom.com,RejectHub
+HOST-SUFFIX, zztfly.com,RejectHub
+HOST-SUFFIX, cmpassport.com,RejectHub
 
 #豆包
-HOST-SUFFIX, ugsdk.cn
-HOST-SUFFIX, oceancloudapi.com
+HOST-SUFFIX, ugsdk.cn,RejectHub
+HOST-SUFFIX, oceancloudapi.com,RejectHub
 
 #Zoom Earth
-HOST-SUFFIX, revenuecat.com
+HOST-SUFFIX, revenuecat.com,RejectHub
 
 #用户行为分析 & 实验性追踪 API
-HOST-SUFFIX, amplitude.com
+HOST-SUFFIX, amplitude.com,RejectHub
 
 #多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
-HOST-SUFFIX, mg-cdn.com
+HOST-SUFFIX, mg-cdn.com,RejectHub
 
 #fpjs.io 是 FingerprintJS 浏览器指纹识别库
-HOST-SUFFIX, fpjs.io
+HOST-SUFFIX, fpjs.io,RejectHub
 
 #根证书屏蔽
-HOST-SUFFIX, globalsign.com
+HOST-SUFFIX, globalsign.com,RejectHub
 
 #Twtich
-HOST-SUFFIX, imrworldwide.com
+HOST-SUFFIX, imrworldwide.com,RejectHub
 
 #chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
-HOST, safebrowsing.urlsec.qq.com
+HOST, safebrowsing.urlsec.qq.com,RejectHub
 
 #微信电脑版，无用的网址。
-HOST, dldir1v6.qq.com
+HOST, dldir1v6.qq.com,RejectHub
 #属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
-HOST, secure.globalsign.com/cacert/gsgccr6alphasslca2023.crt
-IP-CIDR, 42.59.25.1/24
-IP-CIDR, 116.140.44.1/24
-IP-CIDR, 124.95.177.1/24
-IP-CIDR, 218.61.162.1/24
+HOST, secure.globalsign.com/cacert/gsgccr6alphasslca2023.crt,RejectHub
+IP-CIDR, 42.59.25.1/24,RejectHub
+IP-CIDR, 116.140.44.1/24,RejectHub
+IP-CIDR, 124.95.177.1/24,RejectHub
+IP-CIDR, 218.61.162.1/24,RejectHub
 
 #拼多多_无用的网址。
-IP-CIDR, 81.69.105.47
-URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+/d.*id=
+IP-CIDR, 81.69.105.47,RejectHub
+URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+/d.*id=,RejectHub
 
 #网易有道词典
-HOST, gorgon.youdao.com
-HOST, rlogs.youdao.com
-HOST, mind.youdao.com
+HOST, gorgon.youdao.com,RejectHub
+HOST, rlogs.youdao.com,RejectHub
+HOST, mind.youdao.com,RejectHub
 
 #PDFgear_Mac版本
-HOST-SUFFIX, pdfgear.com
+HOST-SUFFIX, pdfgear.com,RejectHub
 
 #抖音
 ##抖音电脑版，无用的网址。
-HOST-SUFFIX, huoshanstatic.com
-HOST-SUFFIX, toutiaostatic.com
+HOST-SUFFIX, huoshanstatic.com,RejectHub
+HOST-SUFFIX, toutiaostatic.com,RejectHub
 ##抖音手机版，无用的网址。
-URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
-IP-CIDR, 221.204.46.250/32
-HOST, wiki5.baike.com
-HOST, m.baike.com
-HOST-SUFFIX, 0kkkkkt.com
-HOST-SUFFIX, bytecdn.com
-HOST-SUFFIX, byteeffecttos.com
-HOST-SUFFIX, bytehwm.com
-HOST-SUFFIX, bytemaimg.com
-HOST-SUFFIX, cjjd14.com
-HOST-SUFFIX, ks-live.com
-HOST-SUFFIX, kuiniuca.com
-HOST-SUFFIX, ndcpp.com
-HOST-SUFFIX, ndcppx.com
-HOST-SUFFIX, onethingpcs.com
-HOST-SUFFIX, open-douyin.com
-HOST-SUFFIX, qishui.com
-HOST-SUFFIX, simoxity.net
-HOST-SUFFIX, siomxity.com
-HOST-SUFFIX, wasu.tv
-HOST-SUFFIX, zhicyun.com
+URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*),RejectHub
+IP-CIDR, 221.204.46.250/32,RejectHub
+HOST, wiki5.baike.com,RejectHub
+HOST, m.baike.com,RejectHub
+HOST-SUFFIX, 0kkkkkt.com,RejectHub
+HOST-SUFFIX, bytecdn.com,RejectHub
+HOST-SUFFIX, byteeffecttos.com,RejectHub
+HOST-SUFFIX, bytehwm.com,RejectHub
+HOST-SUFFIX, bytemaimg.com,RejectHub
+HOST-SUFFIX, cjjd14.com,RejectHub
+HOST-SUFFIX, ks-live.com,RejectHub
+HOST-SUFFIX, kuiniuca.com,RejectHub
+HOST-SUFFIX, ndcpp.com,RejectHub
+HOST-SUFFIX, ndcppx.com,RejectHub
+HOST-SUFFIX, onethingpcs.com,RejectHub
+HOST-SUFFIX, open-douyin.com,RejectHub
+HOST-SUFFIX, qishui.com,RejectHub
+HOST-SUFFIX, simoxity.net,RejectHub
+HOST-SUFFIX, siomxity.com,RejectHub
+HOST-SUFFIX, wasu.tv,RejectHub
+HOST-SUFFIX, zhicyun.com,RejectHub
 
 #剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
-HOST-SUFFIX, likecam.com
-HOST-SUFFIX, ulikecam.com
+HOST-SUFFIX, likecam.com,RejectHub
+HOST-SUFFIX, ulikecam.com,RejectHub
 
 #sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
-HOST, sessions.bugsnag.com
+HOST, sessions.bugsnag.com,RejectHub
 
 #Mac开机运行监控系统开源工具，Stats。
-HOST, api.serhiy.io
+HOST, api.serhiy.io,RejectHub
 
 #analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
-HOST-SUFFIX, techsmith.com
+HOST-SUFFIX, techsmith.com,RejectHub
 
 #由 Objective Development 提供的服务，主要用于地理位置相关的功能。
-HOST, geolocation.obdev.at
+HOST, geolocation.obdev.at,RejectHub
 
 #ViewerAttack 相关，这是一个与网络流量或用户行为分析有关的服务。
-HOST, api.viewerattack.com
+HOST, api.viewerattack.com,RejectHub
 
 #盗版程序
 #这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
-HOST-SUFFIX, no-mad-world.club
-HOST-SUFFIX, club
+HOST-SUFFIX, no-mad-world.club,RejectHub
+HOST-SUFFIX, club,RejectHub
 
 #网站的附加访问
-#stripchat.com & hplives.com
-HOST-SUFFIX, ststandard.com
-HOST-SUFFIX, display.lovense-api.com
+#stripchat.com & hplives.com,RejectHub
+HOST-SUFFIX, ststandard.com,RejectHub
+HOST-SUFFIX, display.lovense-api.com,RejectHub
 #Instagram
-HOST, www.fbsbx.com
+HOST, www.fbsbx.com,RejectHub
 #bilibili
-HOST, passport.bilicomic.com
-#文字转语音_国内_ttsmaker.cn
-HOST-SUFFIX, tts-file.com
-#文字转语音_aisaver.io
-HOST, cdn.zbaseglobal.com
+HOST, passport.bilicomic.com,RejectHub
+#文字转语音_国内_ttsmaker.cn,RejectHub
+HOST-SUFFIX, tts-file.com,RejectHub
+#文字转语音_aisaver.io,RejectHub
+HOST, cdn.zbaseglobal.com,RejectHub
 
 #谷歌浏览器插件
 #bilibili哔哩哔哩下载助手
-HOST-SUFFIX, csser.top
+HOST-SUFFIX, csser.top,RejectHub
 
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
-HOST-SUFFIX, software.charliemonroe.net
-HOST-SUFFIX, downiestatistics.com
+HOST-SUFFIX, software.charliemonroe.net,RejectHub
+HOST-SUFFIX, downiestatistics.com,RejectHub
 
 #屏蔽该网址可能导致无法正常激活或使用依赖于 Nalpeiron 授权的应用程序，可能影响软件的正常运行。因此，如果你使用需要 Nalpeiron 服务的应用，建议不屏蔽此网址。
-HOST, my.nalpeiron.com
+HOST, my.nalpeiron.com,RejectHub
 
 #这个网址是 Paddle 的支付处理平台，用于处理在线支付和交易。
-HOST-SUFFIX, paddle.com
-HOST-SUFFIX, paddleapi.com
+HOST-SUFFIX, paddle.com,RejectHub
+HOST-SUFFIX, paddleapi.com,RejectHub
 
 #alfred.app 是 Alfred 的官方网站。Alfred 是一款流行的 macOS 应用程序，用于提高工作效率。它通过键盘快捷键、文本扩展和自定义工作流，帮助用户更快捷地启动应用、查找文件、执行系统命令和网络搜索等操作。许多 Mac 用户安装 Alfred 来替代或增强 macOS 自带的 Spotlight 功能。
-HOST-SUFFIX, alfred.app
+HOST-SUFFIX, alfred.app,RejectHub
 
 #开源-输入法切换工具Input Source Pro
-HOST-SUFFIX, inputsource.pro
+HOST-SUFFIX, inputsource.pro,RejectHub
 
 #这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
-HOST-SUFFIX, wedata.net
+HOST-SUFFIX, wedata.net,RejectHub
 
 #AdGuard
-HOST-SUFFIX, adtidy.org
+HOST-SUFFIX, adtidy.org,RejectHub
 
 #火狐浏览器_流氓站点
-HOST-SUFFIX, mozilla.cloudflare-dns.com
+HOST-SUFFIX, mozilla.cloudflare-dns.com,RejectHub
 
 #这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
-HOST-SUFFIX, cherpake.com
+HOST-SUFFIX, cherpake.com,RejectHub
 
 #与 Dark Reader 插件相关，它是一款用于在浏览器中启用暗色模式的扩展程序。这个链接可能是为了更新扩展程序或发送一些使用统计数据。
-HOST, darkreader.org
+HOST, darkreader.org,RejectHub
 
 #该网站可能与一些系统或网络管理相关的API服务有关，帮助优化网络性能或跟踪访问流量。
-HOST, api64.com
+HOST, api64.com,RejectHub
 
 #这个域名可能是一个与流量分析或广告投放相关的网站，通常被用于网络分析和用户行为跟踪。
-HOST, score.traficmetrics.com
+HOST, score.traficmetrics.com,RejectHub
 
 #shottr
-HOST, shottr.cc
+HOST, shottr.cc,RejectHub
 
 #163
-HOST-SUFFIX, 163.com
+HOST-SUFFIX, 163.com,RejectHub
 
 #sina
-HOST-SUFFIX, sina.com
+HOST-SUFFIX, sina.com,RejectHub

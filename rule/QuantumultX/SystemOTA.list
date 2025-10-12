@@ -1,5 +1,5 @@
 #Chrome & Safari  设置👉隐私与安全👉安全👉不保护（不建议） & 设置👉安全性👉欺骗性站点❌
-HOST, safebrowsing.urlsec.qq.com
+HOST, safebrowsing.urlsec.qq.com,SystemOTA
 
 
 # NAME: SystemOTA

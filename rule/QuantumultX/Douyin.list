@@ -1,71 +1,71 @@
 #关联 Tencent.list
-HOST-SUFFIX, smtcdns.net
+HOST-SUFFIX, smtcdns.net,DouYin
 
 #抖音_Chrome_油猴_显示抖音过万的真实人数
-HOST, dyapi.phpnbw.com
+HOST, dyapi.phpnbw.com,DouYin
 
 #这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
-HOST-SUFFIX, v.smtcdns.com
+HOST-SUFFIX, v.smtcdns.com,DouYin
 
 #关联 ChinaMax.list
-HOST-SUFFIX, livehwc3.cn
+HOST-SUFFIX, livehwc3.cn,DouYin
 
 
-HOST-SUFFIX, douyin.com
+HOST-SUFFIX, douyin.com,DouYin
 
 
 #电脑版
-HOST-SUFFIX, 100ycdn.com
+HOST-SUFFIX, 100ycdn.com,DouYin
 #@!直播录制需要网址
 HOST, api.feelgood.cn
-HOST, lf-waf-js.byted-static.com
-HOST-SUFFIX, applogcdn.com
-HOST-SUFFIX, bytedance.com
-HOST-SUFFIX, bytednsdoc.com
-HOST-SUFFIX, bytefcdnrd.com
-HOST-SUFFIX, bytegecko.com
-HOST-SUFFIX, bytegoofy.com
-HOST-SUFFIX, bytetos.com
-HOST-SUFFIX, bytetcc.com
-HOST-SUFFIX, bytescm.com
-HOST-SUFFIX, douyinliving.com
-HOST-SUFFIX, ibytedapm.com
-HOST-SUFFIX, jomodns.com
-HOST-SUFFIX, ksyungslb.com
-HOST-SUFFIX, livehwc4.com
-HOST-SUFFIX, mobgslb.tbcache.com
-HOST-SUFFIX, ourdvsssvip.com
-HOST-SUFFIX, sealaly.net
-HOST-SUFFIX, vegslb.com
-HOST-SUFFIX, volcvideo.com
-HOST-SUFFIX, volcvideos.com
-HOST-SUFFIX, volcsiriusbd.com
-HOST-SUFFIX, yhgfb-cn-static.com
-HOST-SUFFIX, z1cdn.com
+HOST, lf-waf-js.byted-static.com,DouYin
+HOST-SUFFIX, applogcdn.com,DouYin
+HOST-SUFFIX, bytedance.com,DouYin
+HOST-SUFFIX, bytednsdoc.com,DouYin
+HOST-SUFFIX, bytefcdnrd.com,DouYin
+HOST-SUFFIX, bytegecko.com,DouYin
+HOST-SUFFIX, bytegoofy.com,DouYin
+HOST-SUFFIX, bytetos.com,DouYin
+HOST-SUFFIX, bytetcc.com,DouYin
+HOST-SUFFIX, bytescm.com,DouYin
+HOST-SUFFIX, douyinliving.com,DouYin
+HOST-SUFFIX, ibytedapm.com,DouYin
+HOST-SUFFIX, jomodns.com,DouYin
+HOST-SUFFIX, ksyungslb.com,DouYin
+HOST-SUFFIX, livehwc4.com,DouYin
+HOST-SUFFIX, mobgslb.tbcache.com,DouYin
+HOST-SUFFIX, ourdvsssvip.com,DouYin
+HOST-SUFFIX, sealaly.net,DouYin
+HOST-SUFFIX, vegslb.com,DouYin
+HOST-SUFFIX, volcvideo.com,DouYin
+HOST-SUFFIX, volcvideos.com,DouYin
+HOST-SUFFIX, volcsiriusbd.com,DouYin
+HOST-SUFFIX, yhgfb-cn-static.com,DouYin
+HOST-SUFFIX, z1cdn.com,DouYin
 
 
 #手机版
-HOST, conf-darwin.xycdn.com
-HOST, render.ecombdpage.com
+HOST, conf-darwin.xycdn.com,DouYin
+HOST, render.ecombdpage.com,DouYin
 #@!抖音寄件详情
-HOST, ttxyajs.data.kuiniuca.com
-HOST-SUFFIX, ahdohpiechei.com
-HOST-SUFFIX, byteeffecttos.com
-HOST-SUFFIX, bytemastatic.com
+HOST, ttxyajs.data.kuiniuca.com,DouYin
+HOST-SUFFIX, ahdohpiechei.com,DouYin
+HOST-SUFFIX, byteeffecttos.com,DouYin
+HOST-SUFFIX, bytemastatic.com,DouYin
 #@!优衣库需要的网址
-HOST-SUFFIX, byteimg.com
-HOST-SUFFIX, ecombdapi.com
-HOST-SUFFIX, ecombdimg.com
-HOST-SUFFIX, ecombdstatic.com
+HOST-SUFFIX, byteimg.com,DouYin
+HOST-SUFFIX, ecombdapi.com,DouYin
+HOST-SUFFIX, ecombdimg.com,DouYin
+HOST-SUFFIX, ecombdstatic.com,DouYin
 #@!抖音，消息查看物流，reject对应取消掉
-HOST-SUFFIX, erer.homeborn.cn
-HOST-SUFFIX, ietheivaicai.com
-HOST-SUFFIX, jinritemai.com
+HOST-SUFFIX, erer.homeborn.cn,DouYin
+HOST-SUFFIX, ietheivaicai.com,DouYin
+HOST-SUFFIX, jinritemai.com,DouYin
 #@!ffh.jinritemai.com 抖音店铺排行榜
 #@!fxg.jinritemai.com 迪卡侬会员积分兑换
-HOST-SUFFIX, siomxity.net
-HOST-SUFFIX, tt.x.bsgslb.cn
-HOST-SUFFIX, zijieapi.com
+HOST-SUFFIX, siomxity.net,DouYin
+HOST-SUFFIX, tt.x.bsgslb.cn,DouYin
+HOST-SUFFIX, zijieapi.com,DouYin
 #抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*), proxy_policy_name
 IP-CIDR, 36.104.134.75/32, no-resolve
