@@ -65,9 +65,6 @@ HOST-SUFFIX, mg-cdn.com,RejectHub
 #fpjs.io 是 FingerprintJS 浏览器指纹识别库
 HOST-SUFFIX, fpjs.io,RejectHub
 
-#根证书屏蔽
-HOST-SUFFIX, globalsign.com,RejectHub
-
 #Twtich
 HOST-SUFFIX, imrworldwide.com,RejectHub
 
@@ -77,7 +74,8 @@ HOST, safebrowsing.urlsec.qq.com,RejectHub
 #微信电脑版，无用的网址。
 HOST, dldir1v6.qq.com,RejectHub
 #属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
-HOST, secure.globalsign.com,RejectHub
+#根证书屏蔽
+HOST-SUFFIX, globalsign.com,RejectHub
 IP-CIDR, 42.59.25.1/24,RejectHub
 IP-CIDR, 116.140.44.1/24,RejectHub
 IP-CIDR, 124.95.177.1/24,RejectHub
