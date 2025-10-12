@@ -67,7 +67,7 @@ HOST-SUFFIX, siomxity.net,DouYin
 HOST-SUFFIX, tt.x.bsgslb.cn,DouYin
 HOST-SUFFIX, zijieapi.com,DouYin
 #抖音看视频，一半后会卡，解决办法。
-URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*),DouYin
+#URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*),DouYin
 IP-CIDR, 36.104.134.75/32, no-resolve
 
 
