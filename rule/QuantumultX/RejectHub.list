@@ -77,7 +77,7 @@ HOST, safebrowsing.urlsec.qq.com,RejectHub
 #微信电脑版，无用的网址。
 HOST, dldir1v6.qq.com,RejectHub
 #属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
-HOST, secure.globalsign.com/cacert/gsgccr6alphasslca2023.crt,RejectHub
+HOST, secure.globalsign.com,RejectHub
 IP-CIDR, 42.59.25.1/24,RejectHub
 IP-CIDR, 116.140.44.1/24,RejectHub
 IP-CIDR, 124.95.177.1/24,RejectHub
