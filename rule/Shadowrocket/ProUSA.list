@@ -175,9 +175,6 @@ DOMAIN-SUFFIX, reddituploads.com
 DOMAIN-SUFFIX, reddituploads.com.cdn-cf.behance.net
 DOMAIN-SUFFIX, reddituploads.com.cdn-cf.dropbox.com
 
-#北美論壇
-DOMAIN-SUFFIX, kantie.org
-
 #WIKI
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
