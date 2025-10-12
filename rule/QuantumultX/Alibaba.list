@@ -1,22 +1,11 @@
-#关键词网址屏蔽
-host-keyword, alibaba,Alibaba
-host-keyword, taobao,Alibaba
-host-keyword, tmall,Alibaba
-host-keyword, alipay,Alibaba
-host-keyword, alipan,Alibaba
-host-keyword, aliyun,Alibaba
-
-#网商银行
-HOST-SUFFIX, mybank.cn,Alibaba
-
 # NAME: Alibaba
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:03:46
-# HOST-SUFFIX: 1251
+# UPDATED: 2025-08-12 02:08:43
+# HOST-SUFFIX: 1266
 # IP-CIDR: 53
 # IP6-CIDR: 1
-# TOTAL: 1305
+# TOTAL: 1320
 HOST-SUFFIX,10029.com,Alibaba
 HOST-SUFFIX,1688.com,Alibaba
 HOST-SUFFIX,17lai.org,Alibaba
@@ -41,6 +30,37 @@ HOST-SUFFIX,aliapp-inc.com,Alibaba
 HOST-SUFFIX,aliapp.com,Alibaba
 HOST-SUFFIX,aliapp.org,Alibaba
 HOST-SUFFIX,aliappcdn.com,Alibaba
+HOST-SUFFIX,alibaba,Alibaba
+HOST-SUFFIX,alibaba-inc.com,Alibaba
+HOST-SUFFIX,alibaba.cn,Alibaba
+HOST-SUFFIX,alibaba.com,Alibaba
+HOST-SUFFIX,alibaba.com.cn,Alibaba
+HOST-SUFFIX,alibabacapital.com,Alibaba
+HOST-SUFFIX,alibabachengdun.com,Alibaba
+HOST-SUFFIX,alibabachengdun.net,Alibaba
+HOST-SUFFIX,alibabacloud.co.in,Alibaba
+HOST-SUFFIX,alibabacloud.com,Alibaba
+HOST-SUFFIX,alibabacloud.com.au,Alibaba
+HOST-SUFFIX,alibabacloud.com.hk,Alibaba
+HOST-SUFFIX,alibabacloud.com.my,Alibaba
+HOST-SUFFIX,alibabacloud.com.sg,Alibaba
+HOST-SUFFIX,alibabacloud.com.tw,Alibaba
+HOST-SUFFIX,alibabacorp.com,Alibaba
+HOST-SUFFIX,alibabadesign-enable.com,Alibaba
+HOST-SUFFIX,alibabadesign.cn,Alibaba
+HOST-SUFFIX,alibabadesign.com,Alibaba
+HOST-SUFFIX,alibabadns.com,Alibaba
+HOST-SUFFIX,alibabadoctor.com,Alibaba
+HOST-SUFFIX,alibabafuturehotel.com,Alibaba
+HOST-SUFFIX,alibabagroup.com,Alibaba
+HOST-SUFFIX,alibabainno.com,Alibaba
+HOST-SUFFIX,alibabaplanet.com,Alibaba
+HOST-SUFFIX,alibabastars.com,Alibaba
+HOST-SUFFIX,alibabatech.org,Alibaba
+HOST-SUFFIX,alibabatechqa.com,Alibaba
+HOST-SUFFIX,alibabaued.com,Alibaba
+HOST-SUFFIX,alibabausercontent.com,Alibaba
+HOST-SUFFIX,alibabawood.com,Alibaba
 HOST-SUFFIX,alibench.com,Alibaba
 HOST-SUFFIX,alicdn.com,Alibaba
 HOST-SUFFIX,alicdn.net,Alibaba
@@ -85,6 +105,15 @@ HOST-SUFFIX,alimebot.com,Alibaba
 HOST-SUFFIX,alimei.com,Alibaba
 HOST-SUFFIX,alimmdn.com,Alibaba
 HOST-SUFFIX,alios.cn,Alibaba
+HOST-SUFFIX,alipay.cn,Alibaba
+HOST-SUFFIX,alipay.com,Alibaba
+HOST-SUFFIX,alipay.com.cn,Alibaba
+HOST-SUFFIX,alipay.hk,Alibaba
+HOST-SUFFIX,alipaydns.com,Alibaba
+HOST-SUFFIX,alipaylog.com,Alibaba
+HOST-SUFFIX,alipaymo.com,Alibaba
+HOST-SUFFIX,alipayobjects.com,Alibaba
+HOST-SUFFIX,alipayplus.com,Alibaba
 HOST-SUFFIX,aliplus.com,Alibaba
 HOST-SUFFIX,aliqin.cn,Alibaba
 HOST-SUFFIX,aliresearch-internal.com,Alibaba
@@ -110,6 +139,114 @@ HOST-SUFFIX,alixiaomi.com,Alibaba
 HOST-SUFFIX,alixiaoyouhui.com,Alibaba
 HOST-SUFFIX,alixueyuan.net,Alibaba
 HOST-SUFFIX,aliypc.com,Alibaba
+HOST-SUFFIX,aliyun-inc.com,Alibaba
+HOST-SUFFIX,aliyun-iot-share.com,Alibaba
+HOST-SUFFIX,aliyun-znfhq.net,Alibaba
+HOST-SUFFIX,aliyun.com,Alibaba
+HOST-SUFFIX,aliyun.xin,Alibaba
+HOST-SUFFIX,aliyunbaas.com,Alibaba
+HOST-SUFFIX,aliyuncc.com,Alibaba
+HOST-SUFFIX,aliyuncdn.com,Alibaba
+HOST-SUFFIX,aliyuncdn.net,Alibaba
+HOST-SUFFIX,aliyunceng.com,Alibaba
+HOST-SUFFIX,aliyuncs.com,Alibaba
+HOST-SUFFIX,aliyunddos0024.com,Alibaba
+HOST-SUFFIX,aliyunddos1001.com,Alibaba
+HOST-SUFFIX,aliyunddos1002.com,Alibaba
+HOST-SUFFIX,aliyunddos1003.com,Alibaba
+HOST-SUFFIX,aliyunddos1004.com,Alibaba
+HOST-SUFFIX,aliyunddos1005.com,Alibaba
+HOST-SUFFIX,aliyunddos1006.com,Alibaba
+HOST-SUFFIX,aliyunddos1007.com,Alibaba
+HOST-SUFFIX,aliyunddos1008.com,Alibaba
+HOST-SUFFIX,aliyunddos1009.com,Alibaba
+HOST-SUFFIX,aliyunddos1010.com,Alibaba
+HOST-SUFFIX,aliyunddos1011.com,Alibaba
+HOST-SUFFIX,aliyunddos1012.com,Alibaba
+HOST-SUFFIX,aliyunddos1013.com,Alibaba
+HOST-SUFFIX,aliyunddos1014.com,Alibaba
+HOST-SUFFIX,aliyunddos1015.com,Alibaba
+HOST-SUFFIX,aliyunddos1016.com,Alibaba
+HOST-SUFFIX,aliyunddos1017.com,Alibaba
+HOST-SUFFIX,aliyunddos1018.com,Alibaba
+HOST-SUFFIX,aliyunddos1019.com,Alibaba
+HOST-SUFFIX,aliyunddos1020.com,Alibaba
+HOST-SUFFIX,aliyunddos1021.com,Alibaba
+HOST-SUFFIX,aliyunddos1022.com,Alibaba
+HOST-SUFFIX,aliyunddos1023.com,Alibaba
+HOST-SUFFIX,aliyunddos1024.com,Alibaba
+HOST-SUFFIX,aliyunddos1025.com,Alibaba
+HOST-SUFFIX,aliyunddos1026.com,Alibaba
+HOST-SUFFIX,aliyunddos1027.com,Alibaba
+HOST-SUFFIX,aliyunddos1028.com,Alibaba
+HOST-SUFFIX,aliyunddos1029.com,Alibaba
+HOST-SUFFIX,aliyunddos1030.com,Alibaba
+HOST-SUFFIX,aliyundrive.com,Alibaba
+HOST-SUFFIX,aliyundrive.net,Alibaba
+HOST-SUFFIX,aliyunduncc.com,Alibaba
+HOST-SUFFIX,aliyundunddos.com,Alibaba
+HOST-SUFFIX,aliyundunwaf.com,Alibaba
+HOST-SUFFIX,aliyunedu.net,Alibaba
+HOST-SUFFIX,aliyunga.com,Alibaba
+HOST-SUFFIX,aliyunga0004.com,Alibaba
+HOST-SUFFIX,aliyunga0005.com,Alibaba
+HOST-SUFFIX,aliyunga0006.com,Alibaba
+HOST-SUFFIX,aliyunga0007.com,Alibaba
+HOST-SUFFIX,aliyunga0008.com,Alibaba
+HOST-SUFFIX,aliyunga0009.com,Alibaba
+HOST-SUFFIX,aliyunga0010.com,Alibaba
+HOST-SUFFIX,aliyunga0011.com,Alibaba
+HOST-SUFFIX,aliyunga0012.com,Alibaba
+HOST-SUFFIX,aliyunga0013.com,Alibaba
+HOST-SUFFIX,aliyunga0014.com,Alibaba
+HOST-SUFFIX,aliyunga0015.com,Alibaba
+HOST-SUFFIX,aliyunga0016.com,Alibaba
+HOST-SUFFIX,aliyunga0017.com,Alibaba
+HOST-SUFFIX,aliyunga0018.com,Alibaba
+HOST-SUFFIX,aliyunga0019.com,Alibaba
+HOST-SUFFIX,aliyunga0020.com,Alibaba
+HOST-SUFFIX,aliyunga0021.com,Alibaba
+HOST-SUFFIX,aliyunga0022.com,Alibaba
+HOST-SUFFIX,aliyunga0023.com,Alibaba
+HOST-SUFFIX,aliyunga0024.com,Alibaba
+HOST-SUFFIX,aliyunga0025.com,Alibaba
+HOST-SUFFIX,aliyunga0026.com,Alibaba
+HOST-SUFFIX,aliyunga0027.com,Alibaba
+HOST-SUFFIX,aliyunga0028.com,Alibaba
+HOST-SUFFIX,aliyunga0029.com,Alibaba
+HOST-SUFFIX,aliyunga0030.com,Alibaba
+HOST-SUFFIX,aliyunga0031.com,Alibaba
+HOST-SUFFIX,aliyunga0032.com,Alibaba
+HOST-SUFFIX,aliyunga0033.com,Alibaba
+HOST-SUFFIX,aliyunga0034.com,Alibaba
+HOST-SUFFIX,aliyunga0035.com,Alibaba
+HOST-SUFFIX,aliyunga0036.com,Alibaba
+HOST-SUFFIX,aliyunga0037.com,Alibaba
+HOST-SUFFIX,aliyunga0038.com,Alibaba
+HOST-SUFFIX,aliyunga0039.com,Alibaba
+HOST-SUFFIX,aliyunga0040.com,Alibaba
+HOST-SUFFIX,aliyunga0041.com,Alibaba
+HOST-SUFFIX,aliyunga0042.com,Alibaba
+HOST-SUFFIX,aliyunga0043.com,Alibaba
+HOST-SUFFIX,aliyunga0044.com,Alibaba
+HOST-SUFFIX,aliyunga0045.com,Alibaba
+HOST-SUFFIX,aliyunga0046.com,Alibaba
+HOST-SUFFIX,aliyunga0047.com,Alibaba
+HOST-SUFFIX,aliyunga0048.com,Alibaba
+HOST-SUFFIX,aliyunga0049.com,Alibaba
+HOST-SUFFIX,aliyunga0050.com,Alibaba
+HOST-SUFFIX,aliyunga860004.com,Alibaba
+HOST-SUFFIX,aliyunga8601.com,Alibaba
+HOST-SUFFIX,aliyunga8602.com,Alibaba
+HOST-SUFFIX,aliyunga8603.com,Alibaba
+HOST-SUFFIX,aliyungf.com,Alibaba
+HOST-SUFFIX,aliyungrtn.com,Alibaba
+HOST-SUFFIX,aliyunidaas.com,Alibaba
+HOST-SUFFIX,aliyuniot.com,Alibaba
+HOST-SUFFIX,aliyunrtc.com,Alibaba
+HOST-SUFFIX,aliyunvcs.cn,Alibaba
+HOST-SUFFIX,aliyunvpc.com,Alibaba
+HOST-SUFFIX,aliyunwaf.com,Alibaba
 HOST-SUFFIX,alizhaopin.com,Alibaba
 HOST-SUFFIX,allinbots.com,Alibaba
 HOST-SUFFIX,alyms.cn,Alibaba
@@ -164,6 +301,8 @@ HOST-SUFFIX,cnrdn.com,Alibaba
 HOST-SUFFIX,cnzz.com,Alibaba
 HOST-SUFFIX,cnzz.net,Alibaba
 HOST-SUFFIX,cqhimalayanky.com,Alibaba
+HOST-SUFFIX,cs-eval.com,Alibaba
+HOST-SUFFIX,cthh9mnv.com,Alibaba
 HOST-SUFFIX,d10a.com,Alibaba
 HOST-SUFFIX,d11a.com,Alibaba
 HOST-SUFFIX,d22a.com,Alibaba
@@ -212,6 +351,7 @@ HOST-SUFFIX,ewsdxc.com,Alibaba
 HOST-SUFFIX,ewtp.com,Alibaba
 HOST-SUFFIX,ewtp.org,Alibaba
 HOST-SUFFIX,ex.puata.info,Alibaba
+HOST-SUFFIX,f09qgja1.com,Alibaba
 HOST-SUFFIX,f61a.com,Alibaba
 HOST-SUFFIX,f61b.com,Alibaba
 HOST-SUFFIX,fastidea.cc,Alibaba
@@ -610,6 +750,7 @@ HOST-SUFFIX,gfvip08aq.com,Alibaba
 HOST-SUFFIX,gfvip08ar.com,Alibaba
 HOST-SUFFIX,gfvip08as.com,Alibaba
 HOST-SUFFIX,gfvip08at.com,Alibaba
+HOST-SUFFIX,ggunk1tn.com,Alibaba
 HOST-SUFFIX,ghtianshancn.com,Alibaba
 HOST-SUFFIX,gktianshanjd.com,Alibaba
 HOST-SUFFIX,gomcloud.cn,Alibaba
@@ -661,6 +802,7 @@ HOST-SUFFIX,gts.work,Alibaba
 HOST-SUFFIX,gxic.club,Alibaba
 HOST-SUFFIX,gyhimalayanul.com,Alibaba
 HOST-SUFFIX,h5util.com,Alibaba
+HOST-SUFFIX,h7fpuyk8.com,Alibaba
 HOST-SUFFIX,haibaoyl.com,Alibaba
 HOST-SUFFIX,hemamax.com,Alibaba
 HOST-SUFFIX,hemaos.com,Alibaba
@@ -673,6 +815,10 @@ HOST-SUFFIX,hichina.net,Alibaba
 HOST-SUFFIX,hpearx.com,Alibaba
 HOST-SUFFIX,http.cn,Alibaba
 HOST-SUFFIX,htyssdf.com,Alibaba
+HOST-SUFFIX,hz.pre.tbusergw.taobao.net,Alibaba
+HOST-SUFFIX,hz.tbusergw.taobao.net,Alibaba
+HOST-SUFFIX,hzchengdun.com,Alibaba
+HOST-SUFFIX,hzchengdun.net,Alibaba
 HOST-SUFFIX,hzyzhp.com,Alibaba
 HOST-SUFFIX,i.ipinyou.com,Alibaba
 HOST-SUFFIX,ialicdn.com,Alibaba
@@ -800,6 +946,7 @@ HOST-SUFFIX,nghmesc.com,Alibaba
 HOST-SUFFIX,nhcilab.com,Alibaba
 HOST-SUFFIX,nic.xin,Alibaba
 HOST-SUFFIX,njibhu.com,Alibaba
+HOST-SUFFIX,nndz3xu7.com,Alibaba
 HOST-SUFFIX,nnjioko.com,Alibaba
 HOST-SUFFIX,noxnny.com,Alibaba
 HOST-SUFFIX,npmmirror.com,Alibaba
@@ -808,9 +955,11 @@ HOST-SUFFIX,nqmoui.com,Alibaba
 HOST-SUFFIX,nxtianshangb.com,Alibaba
 HOST-SUFFIX,okhimalayanzi.com,Alibaba
 HOST-SUFFIX,oklpoi.com,Alibaba
+HOST-SUFFIX,oshield.com,Alibaba
 HOST-SUFFIX,oyxdwx.com,Alibaba
 HOST-SUFFIX,pahhhf.com,Alibaba
 HOST-SUFFIX,pailitao.com,Alibaba
+HOST-SUFFIX,pepsitmall.com,Alibaba
 HOST-SUFFIX,pftianshanno.com,Alibaba
 HOST-SUFFIX,philanthropy.xin,Alibaba
 HOST-SUFFIX,phpwind.com,Alibaba
@@ -831,10 +980,12 @@ HOST-SUFFIX,qqwewew.com,Alibaba
 HOST-SUFFIX,quark.cn,Alibaba
 HOST-SUFFIX,qutao.com,Alibaba
 HOST-SUFFIX,qutianshanav.com,Alibaba
+HOST-SUFFIX,qwen.ai,Alibaba
 HOST-SUFFIX,qwqfzl.com,Alibaba
 HOST-SUFFIX,rdcnzz.com,Alibaba
 HOST-SUFFIX,rergdfh.com,Alibaba
 HOST-SUFFIX,rexpos.cn,Alibaba
+HOST-SUFFIX,rj.m.taobao.co,Alibaba
 HOST-SUFFIX,rocketmq.cloud,Alibaba
 HOST-SUFFIX,rosoyp.com,Alibaba
 HOST-SUFFIX,rtyhfg.com,Alibaba
@@ -961,11 +1112,20 @@ HOST-SUFFIX,supet.com,Alibaba
 HOST-SUFFIX,sxhimalayanqd.com,Alibaba
 HOST-SUFFIX,t-jh.cn,Alibaba
 HOST-SUFFIX,taeapp.com,Alibaba
+HOST-SUFFIX,taji-ai.com,Alibaba
 HOST-SUFFIX,tangping.com,Alibaba
 HOST-SUFFIX,tangping.com.cn,Alibaba
 HOST-SUFFIX,tanx.com,Alibaba
 HOST-SUFFIX,tanxlog.istreamsche.com,Alibaba
 HOST-SUFFIX,tao123.com,Alibaba
+HOST-SUFFIX,taobao,Alibaba
+HOST-SUFFIX,taobao.cn,Alibaba
+HOST-SUFFIX,taobao.com,Alibaba
+HOST-SUFFIX,taobao.org,Alibaba
+HOST-SUFFIX,taobao.wang,Alibaba
+HOST-SUFFIX,taobaocdn.com,Alibaba
+HOST-SUFFIX,taobaotest.com,Alibaba
+HOST-SUFFIX,taobaotesting.com,Alibaba
 HOST-SUFFIX,taobizhong.com,Alibaba
 HOST-SUFFIX,taohua.com,Alibaba
 HOST-SUFFIX,taojianghu.com,Alibaba
@@ -994,6 +1154,16 @@ HOST-SUFFIX,tianchi.com,Alibaba
 HOST-SUFFIX,tianmao.cn,Alibaba
 HOST-SUFFIX,tianmao.com,Alibaba
 HOST-SUFFIX,titianshanfz.com,Alibaba
+HOST-SUFFIX,tmall,Alibaba
+HOST-SUFFIX,tmall.com,Alibaba
+HOST-SUFFIX,tmall.hk,Alibaba
+HOST-SUFFIX,tmall.ru,Alibaba
+HOST-SUFFIX,tmallgenie.com,Alibaba
+HOST-SUFFIX,tmallgenieapi.com,Alibaba
+HOST-SUFFIX,tmallplay.cn,Alibaba
+HOST-SUFFIX,tmallplay.com.cn,Alibaba
+HOST-SUFFIX,tmallplay.net,Alibaba
+HOST-SUFFIX,tmalltv.com,Alibaba
 HOST-SUFFIX,tmjl.ai,Alibaba
 HOST-SUFFIX,tmqd.me,Alibaba
 HOST-SUFFIX,tmqd.so,Alibaba
@@ -1054,6 +1224,7 @@ HOST-SUFFIX,xinlingshou.cn,Alibaba
 HOST-SUFFIX,xppgsx.com,Alibaba
 HOST-SUFFIX,xrqorv.com,Alibaba
 HOST-SUFFIX,xsyeli.com,Alibaba
+HOST-SUFFIX,xtianlang.com,Alibaba
 HOST-SUFFIX,xunxi.com,Alibaba
 HOST-SUFFIX,xylofh.com,Alibaba
 HOST-SUFFIX,ybtianshantu.com,Alibaba
@@ -1154,14 +1325,4 @@ IP-CIDR,59.82.248.0/22,Alibaba
 IP-CIDR,72.254.0.0/16,Alibaba
 IP-CIDR,8.128.0.0/10,Alibaba
 IP-CIDR,8.208.0.0/12,Alibaba
-ip6-cidr,2400:b200::/32,Alibaba
-
-# NAME: AliPay
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:03:47
-# HOST-SUFFIX: 21
-# TOTAL: 21
-HOST-SUFFIX,ifaa.org.cn,AliPay
-HOST-SUFFIX,luohanacademy.com,AliPay
-HOST-SUFFIX,sinopayment.com.cn,AliPay
+IP6-CIDR,2400:b200::/32,Alibaba

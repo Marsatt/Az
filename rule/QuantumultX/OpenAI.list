@@ -1,16 +1,40 @@
-# NAME: OpenAI
+#cloudflare.com（验证网站）
+HOST-SUFFIX, cloudflare.com
+
+#groq
+HOST, api.groq.com
+HOST, auth.grokusercontent.com
+HOST, auth.x.ai
+
+#claude
+HOST,www.claudeusercontent.com
+
+# NAME: Claude
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-07-03 16:18:28
-# HOST: 8
+# HOST: 1
+# HOST-SUFFIX: 2
+# TOTAL: 3
+HOST,cdn.usefathom.com
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+
+
+
+
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:00
+# HOST: 7
 # HOST-KEYWORD: 1
 # HOST-SUFFIX: 24
 # IP-ASN: 1
 # IP-CIDR: 2
-# TOTAL: 36
+# TOTAL: 35
 HOST,browser-intake-datadoghq.com,OpenAI
 HOST,chat.openai.com.cdn.cloudflare.net,OpenAI
-HOST,gemini.google.com,OpenAI
 HOST,openai-api.arkoselabs.com,OpenAI
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,OpenAI
 HOST,openaicomproductionae4b.blob.core.windows.net,OpenAI
@@ -44,24 +68,3 @@ HOST-KEYWORD,openai,OpenAI
 IP-CIDR,24.199.123.28/32,OpenAI
 IP-CIDR,64.23.132.171/32,OpenAI
 IP-ASN,20473,OpenAI
-
-
-#claude抓包
-HOST,www.claudeusercontent.com,Claude
-
-# NAME: Claude
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:18:28
-# HOST: 1
-# HOST-SUFFIX: 2
-# TOTAL: 3
-HOST,cdn.usefathom.com,Claude
-HOST-SUFFIX,anthropic.com,Claude
-HOST-SUFFIX,claude.ai,claude
-
-#groq
-host, api.groq.com
-
-#cloudflare.com（验证网站）
-HOST-SUFFIX, cloudflare.com

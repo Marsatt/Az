@@ -680,13 +680,16 @@ USER-AGENT,Microsoft*
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
 
+
+
+
 # NAME: GitHub
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:14:51
+# UPDATED: 2025-06-12 02:06:19
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 29
-# TOTAL: 30
+# DOMAIN-SUFFIX: 30
+# TOTAL: 31
 DOMAIN-SUFFIX,atom.io
 DOMAIN-SUFFIX,dependabot.com
 DOMAIN-SUFFIX,ghcr.io
@@ -701,6 +704,7 @@ DOMAIN-SUFFIX,github.dev
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,githubhackathon.com
 DOMAIN-SUFFIX,githubnext.com
 DOMAIN-SUFFIX,githubpreview.dev
@@ -717,6 +721,9 @@ DOMAIN-SUFFIX,rawgithub.com
 DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
 DOMAIN-KEYWORD,github
+
+
+
 
 # NAME: OneDrive
 # AUTHOR: blackmatrix7
@@ -744,6 +751,9 @@ DOMAIN-KEYWORD,skydrive
 USER-AGENT,OneDrive*
 USER-AGENT,OneDriveiOSApp*
 
+
+
+
 # NAME: Teams
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -756,6 +766,9 @@ DOMAIN-SUFFIX,teams.cdn.live.net
 DOMAIN-SUFFIX,teams.live.com
 DOMAIN-SUFFIX,teams.microsoft.com
 
+
+
+
 # NAME: MicrosoftEdge
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -766,6 +779,10 @@ DOMAIN,edge.activity.windows.com
 DOMAIN,edge.microsoft.com
 DOMAIN,iecvlist.microsoft.com
 DOMAIN,msedge.api.cdp.microsoft.com
+
+
+
+
 
 # NAME: Bing
 # AUTHOR: blackmatrix7
@@ -782,6 +799,10 @@ DOMAIN-SUFFIX,bingapistatistics.com
 DOMAIN-SUFFIX,bingsandbox.com
 DOMAIN-SUFFIX,bingvisualsearch.com
 DOMAIN-SUFFIX,bingworld.com
+
+
+
+
 
 # NAME: Copilot
 # AUTHOR: blackmatrix7

@@ -1,35 +1,331 @@
-# DNS Leak from Shadowrocket Default
-HOST-SUFFIX, dnsleaktest.com
-HOST-SUFFIX, dnsleak.com
-HOST-SUFFIX, expressvpn.com
-HOST-SUFFIX, nordvpn.com
-HOST-SUFFIX, surfshark.com
-HOST-SUFFIX, ipleak.net
-HOST-SUFFIX, perfect-privacy.com
-HOST-SUFFIX, browserleaks.com
-HOST-SUFFIX, browserleaks.org
-HOST-SUFFIX, vpnunlimited.com
-HOST-SUFFIX, whoer.net
-HOST-SUFFIX, whrq.net
+#✈️
+HOST, pqjc.site
 
-# Astrill
-HOST-SUFFIX, astrill.com
-HOST-SUFFIX, astrill.org
-HOST-SUFFIX, dnsleak.asn247.net
+# v2ex.com
+#显示图片
+HOST-SUFFIX, imgur.com
+HOST-SUFFIX, v2ex.com
+HOST-SUFFIX, v2ex.co
 
-# Surfshark
-HOST-SUFFIX, surfshark.com
-HOST-SUFFIX, surfsharkdns.com
+#Folo
+##未知
+HOST,media.zenfs.com
+##端传媒
+HOST,theinitium.com
+HOST, unavatar.webp.se
+HOST-SUFFIX, follow.is
 
-# Pixelscan
-HOST-SUFFIX, pixelscan.net
+#纽约时报
+HOST-SUFFIX, nytimes.com
+HOST-SUFFIX, nyt.com
 
-# PING0
-host, ipv4.ping0.cc
-host, ipv6.ping0.cc
+#华尔街日报
+HOST-SUFFIX, wsj.com
+HOST-SUFFIX, wsj.net
+HOST-SUFFIX, captcha-delivery.com
+ct.captcha-delivery.com
 
-# IPAPI.CO
-HOST-SUFFIX, ipapi.co
+#v2ex
+HOST, v2ex.com
 
-# BrowserScan
-host, ip-scan.adspower.net
+#字幕转换网站
+HOST, www.syedgakbar.com
+
+#比特币信息查看
+HOST, mempool.space
+
+#IP、域名、ASN查询
+HOST, ping0.cc
+
+#抖音 & TikTok 视频下载
+HOST-SUFFIX, tiksave.io
+HOST, dl.snapcdn.app
+
+# Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
+HOST-SUFFIX, cloudfront.net
+
+#spankbang.com
+HOST-SUFFIX, ptgncdn.com
+HOST-SUFFIX, sb-cd.com
+HOST-SUFFIX, spankbang.com
+
+#爱壹帆
+HOST-SUFFIX, iyf.tv
+
+#模块_重写 & 规则集转换
+HOST, script.hub
+
+#naver & yoonfroggy韩国直播网站
+HOST-SUFFIX, akamaized.net
+HOST-SUFFIX, navercorp.com
+HOST-SUFFIX, pstatic.net
+HOST-SUFFIX, naver.com
+HOST, ssl.pstatic.net
+HOST, scv.band.us
+HOST, nng-phinf.pstatic.net
+HOST, ntm.pstatic.net
+
+#chaturbate.jjgirls.com
+##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
+HOST-SUFFIX, highwebmedia.com
+#成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
+##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
+HOST-SUFFIX, mmcdn.com
+HOST, chaturbate.jjgirls.com
+HOST, internet-up.ably-realtime.com
+
+# Maxming_GeoLite2
+HOST-SUFFIX, maxmind.com
+
+#LULU防火墙
+HOST, objective-see.org
+
+#Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
+HOST-SUFFIX, objective-see.com
+
+#ikea.com
+HOST-SUFFIX, ikea.com
+
+#Zoom Earth
+HOST-SUFFIX, zoom.earth
+
+#windy weather
+HOST-SUFFIX, windy.com
+
+#Write&Improve
+HOST, s3-eu-west-1.amazonaws.com
+HOST, wandi-6402.kxcdn.com
+HOST, writeandimprove.com
+HOST-SUFFIX, englishlanguageitutoring.com
+
+#Transcribe AI app
+HOST, firebaselogging-pa.googleapis.com
+HOST, app-analytics-services.com
+HOST, ep2.facebook.com
+
+#AV_BT搜索
+HOST-SUFFIX, sukebei.nyaa.si
+
+#missav.com
+HOST-KEYWORD, missav
+HOST-SUFFIX, njav.tv
+HOST, surrit.com
+HOST, fourhoi.com
+HOST, r.trackwilltrk.com
+
+#文字转语音
+#aisaver.io 有限制的免费
+HOST, replicate.delivery
+HOST-SUFFIX, aisaver.io
+HOST, extensiondock.com
+# fish.audio
+HOST-SUFFIX, fish.audio
+# fish.audio_下载语音
+HOST-SUFFIX, r2.cloudflarestorage.com
+
+# NEW
+HOST-SUFFIX, bbc.com
+HOST-SUFFIX, bbci.co.uk
+HOST-SUFFIX, cnn.com
+HOST-SUFFIX, dailymail.co.uk
+HOST-SUFFIX, reuters.com
+HOST-SUFFIX, aljazeera.com
+HOST-SUFFIX, aljazeera.net
+
+#huggingface
+HOST-SUFFIX, huggingface.co
+
+#姿勢小王子
+HOST-SUFFIX, bbs.zsxwz.com
+
+#TTS
+HOST-SUFFIX, wangwangit.com
+
+#boxjs
+HOST-SUFFIX, boxjs.com
+
+#udio AI音乐制作
+HOST-SUFFIX, udio.com
+
+#suno AI音乐制作
+HOST-SUFFIX, suno.com
+HOST-SUFFIX, suno.ai
+
+#IMDB
+HOST-SUFFIX, imdb.com
+
+#MacOS破解網站 xm
+HOST-SUFFIX, mediafire.com
+HOST, psv4.userapi.com
+HOST, unpkg.com
+HOST-SUFFIX, vk.com
+HOST, unpkg.com
+HOST-SUFFIX, vk.com
+HOST-SUFFIX, appstorrent.ru
+HOST-SUFFIX, xmac.app
+
+#MacOS破解網站 appstorrent
+HOST, appstorrent.org
+
+#開源播放器iina
+HOST, www.iina.io
+
+#mega下載網站
+HOST-SUFFIX, mega.nz
+HOST-SUFFIX, mega.co.nz
+
+#afreecatv & sooplive
+HOST-SUFFIX, afreecatv.com
+HOST-SUFFIX, sooplive.co.kr
+
+#fbjav.com
+HOST-SUFFIX, player.imcontent.me
+HOST-SUFFIX, images.imfb.xyz
+HOST-SUFFIX, fbjav.com
+HOST-SUFFIX, svjav.com
+
+#jable.tv
+HOST-SUFFIX, mushroomtrack.com
+HOST-SUFFIX, jable.tv
+
+#www.xvideos.com
+HOST-SUFFIX, xvideos.com
+HOST-SUFFIX, xvideos-cdn.com
+
+#www.xnxx.com
+HOST-SUFFIX, xnxx-cdn.com
+HOST-SUFFIX, xnxx.com
+
+#myfreecams.com
+HOST-SUFFIX, mfcimg.com
+HOST-SUFFIX, myfreecams.com
+
+#reddit.com
+HOST-SUFFIX, redd.it
+HOST-SUFFIX, reddit.com
+HOST-SUFFIX, redditmail.com
+HOST-SUFFIX, redditmedia.com
+HOST-SUFFIX, redditstatic.com
+HOST-SUFFIX, reddituploads.com
+HOST-SUFFIX, reddituploads.com.cdn-cf.behance.net
+HOST-SUFFIX, reddituploads.com.cdn-cf.dropbox.com
+
+#WIKI
+HOST-SUFFIX,mediawiki.org
+HOST-SUFFIX,wikibooks.org
+HOST-SUFFIX,wikidata.org
+HOST-SUFFIX,wikileaks.org
+HOST-SUFFIX,wikimedia.org
+HOST-SUFFIX,wikinews.org
+HOST-SUFFIX,wikipedia.org
+HOST-SUFFIX,wikiquote.org
+HOST-SUFFIX,wikisource.org
+HOST-SUFFIX,wikiversity.org
+HOST-SUFFIX,wikivoyage.org
+HOST-SUFFIX,wiktionary.org
+
+#kick直播平台
+HOST-SUFFIX, kick.com
+
+#MAC keka
+HOST, u.keka.io
+
+#Goodnote 6 app
+HOST-SUFFIX, goodnotes.email
+HOST-SUFFIX, goodnotes.com
+HOST, api.sprig.com
+
+# Flightradar24 app
+HOST-SUFFIX, privacy-center.org
+HOST-SUFFIX, flightradar24.com
+HOST, mobile-data.onetrust.io
+#AR顯示飛機照片（信息框下面，第二個框）。
+HOST, cdn.jetphotos.com
+
+#Marine Traffic
+HOST-SUFFIX, marinetraffic.com
+
+#嗯背單詞
+#牛津
+HOST-SUFFIX, oxfordlearnersdictionaries.com
+#韋氏
+HOST-SUFFIX, merriam-webster.com
+#朗文
+HOST-SUFFIX, ldoceonline.com
+#柯林斯
+HOST-SUFFIX, collinsdictionary.com
+
+#github
+HOST-SUFFIX, ghproxy.com
+
+#JDownloader 2-下載工具自動更新。
+HOST-SUFFIX, jdownloader.org
+HOST-SUFFIX, appwork.org
+
+#書籤-it-轉換類-批量全能轉換器
+HOST-SUFFIX, xconvert.com
+
+#Chrome瀏覽器插件
+#沉浸式翻译（粉色图标）
+HOST, config.immersivetranslate.com
+#TikTok视频下载、AI脚本与数据洞察-达人精灵
+HOST-SUFFIX, kolsprite.com
+#应该是谷歌插件的第一个，显示旗子。
+HOST, geoip.furman.im
+#hcfy.ai 是谷歌浏览器插件"划词翻译"扩展的官方网站。
+HOST-SUFFIX, hcfy.ai
+#Chrome插件-Ghostery数据传输
+HOST-SUFFIX, ghostery.net
+HOST-SUFFIX, ghostery.com
+#vidiq.com，YouTube查看播放量工具
+HOST-SUFFIX, vidiq.com
+#fetchv，网页视频下载工具。
+HOST, fetchv.net
+#Click&Clean
+HOST, cdn.hotcleaner.com
+HOST, www.hotcleaner.com
+#Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
+HOST, returnyoutubedislikeapi.com
+#chrome瀏覽器，第3個flag顯示。
+HOST-SUFFIX, whatismyip.click
+#chrome瀏覽器，图标是ip。IP Address and HOST Information。
+HOST-SUFFIX, dnslytics.com
+HOST-SUFFIX, dnslytics.org
+HOST-SUFFIX, dnslytics.uk
+
+#蠱惑狼進度條
+HOST, custom-progress-bar.com
+HOST, custom-progressbar.com
+#Stream Recorder
+HOST-SUFFIX, hlsloader.com
+#Language Reactor
+HOST-SUFFIX, dioco.io
+HOST-SUFFIX, languagelearningwithnetflix.com
+HOST-SUFFIX, languagereactor.com
+#TwitchVodDownload
+HOST, sockjs-us2.pusher.com
+HOST-SUFFIX, eu.srcdn.net
+HOST-SUFFIX, streamrecorder.io
+HOST-SUFFIX, streamscharts.com
+HOST-SUFFIX, sullygnome.com
+HOST-SUFFIX, voddownloader.com
+
+#YouTuBe 雙語翻譯
+HOST, extension.dioco.io
+
+#Z-Libly图书馆
+HOST, dln1.ncdn.ec
+HOST, z-library.sk
+
+#油猴
+HOST-SUFFIX, greasyfork.org
+HOST-SUFFIX, tampermonkey.net
+
+#天时，地球看pm2.5
+HOST-SUFFIX, nullschool.net
+
+#美國大使館，地球顯示mp2.5
+HOST, aqicn.org
+HOST, mapq.waqi.info
+HOST, api2.waqi.info,NSreetmap.org
+HOST, server.arcgisonline.com

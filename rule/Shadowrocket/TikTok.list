@@ -3,6 +3,9 @@ DOMAIN, sf16-website-login.neutral.ttwstatic.com
 #@!电脑版本打开TikTok需要上面2个网址。
 DOMAIN, api.snapkit.com
 
+
+
+
 # NAME: TikTok
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script

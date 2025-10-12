@@ -1,8 +1,15 @@
-#关键词网址屏蔽
-host-keyword, twitch
+#播放不出來視頻，需要這個網站開啟代理
+HOST, cdn.jsdelivr.net,Twitch
 
-#离线观看插件
-HOST-SUFFIX, cloudfront.net
+HOST, functions.soundalerts.com,Twitch
+HOST, extension.streamelements.com,Twitch
+HOST, cdn.streamelements.com,Twitch
+HOST, sb.scorecardresearch.com,Twitch
+HOST, api2.branch.io,Twitch
+DOMHOSTAIN, cdn.branch.io,Twitch
+
+
+
 
 # NAME: Twitch
 # AUTHOR: blackmatrix7

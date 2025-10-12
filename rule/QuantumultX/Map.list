@@ -1,5 +1,5 @@
-#後綴：cn，前面必須：host
-
+#苹果地图也需要这个高德网址：
+HOST-SUFFIX, autonavi.com, 直鏈
 #高德地图
 host, a-map.cn, 直鏈
 HOST-SUFFIX, a-map.co, 直鏈

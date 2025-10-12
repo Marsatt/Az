@@ -1,21 +1,96 @@
-HOST-SUFFIX,douyin.com,DouYin
+#关联 Tencent.list
+HOST-SUFFIX, smtcdns.net
 
-#关键词网址屏蔽
-host-keyword, zijie,DouYin
-host-keyword, douyin,DouYin
-host-keyword, toutiao,DouYin
+#抖音_Chrome_油猴_显示抖音过万的真实人数
+HOST, dyapi.phpnbw.com
+
+#这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
+HOST-SUFFIX, v.smtcdns.com
+
+#关联 ChinaMax.list
+HOST-SUFFIX, livehwc3.cn
+
+
+HOST-SUFFIX, douyin.com
+
+
+#电脑版
+HOST-SUFFIX, 100ycdn.com
+#@!直播录制需要网址
+HOST, api.feelgood.cn
+HOST, lf-waf-js.byted-static.com
+HOST-SUFFIX, applogcdn.com
+HOST-SUFFIX, bytedance.com
+HOST-SUFFIX, bytednsdoc.com
+HOST-SUFFIX, bytefcdnrd.com
+HOST-SUFFIX, bytegecko.com
+HOST-SUFFIX, bytegoofy.com
+HOST-SUFFIX, bytetos.com
+HOST-SUFFIX, bytetcc.com
+HOST-SUFFIX, bytescm.com
+HOST-SUFFIX, douyinliving.com
+HOST-SUFFIX, ibytedapm.com
+HOST-SUFFIX, jomodns.com
+HOST-SUFFIX, ksyungslb.com
+HOST-SUFFIX, livehwc4.com
+HOST-SUFFIX, mobgslb.tbcache.com
+HOST-SUFFIX, ourdvsssvip.com
+HOST-SUFFIX, sealaly.net
+HOST-SUFFIX, vegslb.com
+HOST-SUFFIX, volcvideo.com
+HOST-SUFFIX, volcvideos.com
+HOST-SUFFIX, volcsiriusbd.com
+HOST-SUFFIX, yhgfb-cn-static.com
+HOST-SUFFIX, z1cdn.com
+
+
+#手机版
+HOST, conf-darwin.xycdn.com
+HOST, render.ecombdpage.com
+#@!抖音寄件详情
+HOST, ttxyajs.data.kuiniuca.com
+HOST-SUFFIX, ahdohpiechei.com
+HOST-SUFFIX, byteeffecttos.com
+HOST-SUFFIX, bytemastatic.com
+#@!优衣库需要的网址
+HOST-SUFFIX, byteimg.com
+HOST-SUFFIX, ecombdapi.com
+HOST-SUFFIX, ecombdimg.com
+HOST-SUFFIX, ecombdstatic.com
+#@!抖音，消息查看物流，reject对应取消掉
+HOST-SUFFIX, erer.homeborn.cn
+HOST-SUFFIX, ietheivaicai.com
+HOST-SUFFIX, jinritemai.com
+#@!ffh.jinritemai.com 抖音店铺排行榜
+#@!fxg.jinritemai.com 迪卡侬会员积分兑换
+HOST-SUFFIX, siomxity.net
+HOST-SUFFIX, tt.x.bsgslb.cn
+HOST-SUFFIX, zijieapi.com
+#抖音看视频，一半后会卡，解决办法。
+URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*), proxy_policy_name
+IP-CIDR, 36.104.134.75/32, no-resolve
+
+
+
+
 
 # NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-04-29 13:36:21
+# UPDATED: 2025-06-06 09:18:50
 # HOST: 2
 # HOST-SUFFIX: 11
 # TOTAL: 13
 HOST,lf3-static.bytednsdoc.com,DouYin
 HOST,v5-dy-o-abtest.zjcdn.com,DouYin
 HOST-SUFFIX,amemv.com,DouYin
+HOST-SUFFIX,douyincdn.com,DouYin
+HOST-SUFFIX,douyinpic.com,DouYin
+HOST-SUFFIX,douyinstatic.com,DouYin
+HOST-SUFFIX,douyinvod.com,DouYin
+HOST-SUFFIX,idouyinvod.com,DouYin
 HOST-SUFFIX,ixigua.com,DouYin
 HOST-SUFFIX,ixiguavideo.com,DouYin
 HOST-SUFFIX,pstatp.com,DouYin
 HOST-SUFFIX,snssdk.com,DouYin
+HOST-SUFFIX,toutiao.com,DouYin

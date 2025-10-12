@@ -1,111 +1,211 @@
-#关键词网址屏蔽
-HOST-KEYWORD, zijie
-
 #未知
-host-suffix, hcfy.ai
-host-suffix, kelee.one
-host-suffix, hotfree123.com
+HOST-SUFFIX, hotfree123.com
+HOST-SUFFIX, narakahunter.mvw
+#@!开机打开Chrome后显示的
+HOST, ws-us2.pusher.com
+HOST, geoip.furman.im
 
-#Mac开机运行监控系统开源工具，Stats。
-host, api.serhiy.io
 
-#analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
-host-suffix, techsmith.com
+#Wechat微信_iPhone
+IP-CIDR, 42.202.141.12/32
+IP-CIDR, 42.202.141.13/32
+IP-CIDR, 42.202.141.116/32
+IP-CIDR, 42.202.153.25/32
+IP-CIDR, 42.202.153.50/32
+IP-CIDR, 42.202.154.19/32
+IP-CIDR, 42.202.154.21/32
+IP-CIDR, 42.202.154.211/32
+IP-CIDR, 42.202.154.212/32
+IP-CIDR, 42.202.153.15/32
+IP-CIDR, 42.202.153.23/32
+IP-CIDR, 42.202.153.25/32
+IP-CIDR, 42.202.153.33/32
+IP-CIDR, 42.202.153.37/32
+IP-CIDR, 42.202.153.50/32
+IP-CIDR, 42.202.153.120/32
+IP-CIDR, 42.202.154.212/32
+IP-CIDR, 123.172.120.22/32
+IP-CIDR, 123.172.120.37/32
+IP-CIDR, 123.172.120.41/32
+IP-CIDR, 123.172.120.54/32
+IP-CIDR, 123.172.120.75/32
+IP-CIDR, 123.172.120.78/32
+IP-CIDR, 123.172.120.87/32
+IP-CIDR, 123.172.120.88/32
+IP-CIDR, 123.172.120.93/32
+IP-CIDR, 123.172.120.94/32
+IP-CIDR, 123.172.120.95/32
+IP-CIDR, 123.172.120.99/32
+IP-CIDR, 123.172.120.115/32
+IP-CIDR, 123.172.120.120/32
+IP-CIDR, 123.172.120.140/32
+IP-CIDR, 123.172.120.142/32
+IP-CIDR, 183.60.8.74/32
 
-#由 Objective Development 提供的服务，主要用于地理位置相关的功能。
-host, geolocation.obdev.at
+
+
+#Deepseek
+HOST-SUFFIX, intercom.com
+HOST-SUFFIX, zztfly.com
+HOST-SUFFIX, cmpassport.com
+
+#豆包
+HOST-SUFFIX, ugsdk.cn
+HOST-SUFFIX, oceancloudapi.com
+
+#Zoom Earth
+HOST-SUFFIX, revenuecat.com
+
+#用户行为分析 & 实验性追踪 API
+HOST-SUFFIX, amplitude.com
+
+#多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
+HOST-SUFFIX, mg-cdn.com
+
+#fpjs.io 是 FingerprintJS 浏览器指纹识别库
+HOST-SUFFIX, fpjs.io
+
+#根证书屏蔽
+HOST-SUFFIX, globalsign.com
+
+#Twtich
+HOST-SUFFIX, imrworldwide.com
+
+#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
+HOST, safebrowsing.urlsec.qq.com
+
+#微信电脑版，无用的网址。
+HOST, dldir1v6.qq.com
+#属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
+HOST, secure.globalsign.com/cacert/gsgccr6alphasslca2023.crt
+IP-CIDR, 42.59.25.1/24
+IP-CIDR, 116.140.44.1/24
+IP-CIDR, 124.95.177.1/24
+IP-CIDR, 218.61.162.1/24
+
+#拼多多_无用的网址。
+IP-CIDR, 81.69.105.47
+URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+/d.*id=
+
+#网易有道词典
+HOST, gorgon.youdao.com
+HOST, rlogs.youdao.com
+HOST, mind.youdao.com
+
+#PDFgear_Mac版本
+HOST-SUFFIX, pdfgear.com
+
+#抖音
+##抖音电脑版，无用的网址。
+HOST-SUFFIX, huoshanstatic.com
+HOST-SUFFIX, toutiaostatic.com
+##抖音手机版，无用的网址。
+URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
+IP-CIDR, 221.204.46.250/32
+HOST, wiki5.baike.com
+HOST, m.baike.com
+HOST-SUFFIX, 0kkkkkt.com
+HOST-SUFFIX, bytecdn.com
+HOST-SUFFIX, byteeffecttos.com
+HOST-SUFFIX, bytehwm.com
+HOST-SUFFIX, bytemaimg.com
+HOST-SUFFIX, cjjd14.com
+HOST-SUFFIX, ks-live.com
+HOST-SUFFIX, kuiniuca.com
+HOST-SUFFIX, ndcpp.com
+HOST-SUFFIX, ndcppx.com
+HOST-SUFFIX, onethingpcs.com
+HOST-SUFFIX, open-douyin.com
+HOST-SUFFIX, qishui.com
+HOST-SUFFIX, simoxity.net
+HOST-SUFFIX, siomxity.com
+HOST-SUFFIX, wasu.tv
+HOST-SUFFIX, zhicyun.com
 
 #剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
-host-suffix, likecam.com
-host-suffix, ulikecam.com
+HOST-SUFFIX, likecam.com
+HOST-SUFFIX, ulikecam.com
+
+#sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
+HOST, sessions.bugsnag.com
+
+#Mac开机运行监控系统开源工具，Stats。
+HOST, api.serhiy.io
+
+#analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
+HOST-SUFFIX, techsmith.com
+
+#由 Objective Development 提供的服务，主要用于地理位置相关的功能。
+HOST, geolocation.obdev.at
 
 #ViewerAttack 相关，这是一个与网络流量或用户行为分析有关的服务。
-host, api.viewerattack.com
+HOST, api.viewerattack.com
 
 #盗版程序
 #这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
-host-suffix, no-mad-world.club
-host-suffix, club
+HOST-SUFFIX, no-mad-world.club
+HOST-SUFFIX, club
 
 #网站的附加访问
-#stripchat.com
-host-suffix, loo3laej.com
-host-suffix, display.lovense-api.com
+#stripchat.com & hplives.com
+HOST-SUFFIX, ststandard.com
+HOST-SUFFIX, display.lovense-api.com
 #Instagram
-host, www.fbsbx.com
+HOST, www.fbsbx.com
 #bilibili
-host, passport.bilicomic.com
+HOST, passport.bilicomic.com
 #文字转语音_国内_ttsmaker.cn
-host-suffix, tts-file.com
+HOST-SUFFIX, tts-file.com
 #文字转语音_aisaver.io
-host, cdn.zbaseglobal.com
+HOST, cdn.zbaseglobal.com
 
 #谷歌浏览器插件
 #bilibili哔哩哔哩下载助手
-host-suffix, csser.top
+HOST-SUFFIX, csser.top
 
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
-host-suffix, software.charliemonroe.net
-host-suffix, downiestatistics.com
+HOST-SUFFIX, software.charliemonroe.net
+HOST-SUFFIX, downiestatistics.com
 
 #屏蔽该网址可能导致无法正常激活或使用依赖于 Nalpeiron 授权的应用程序，可能影响软件的正常运行。因此，如果你使用需要 Nalpeiron 服务的应用，建议不屏蔽此网址。
-host, my.nalpeiron.com
+HOST, my.nalpeiron.com
 
 #这个网址是 Paddle 的支付处理平台，用于处理在线支付和交易。
-host-suffix, paddle.com
-host-suffix, paddleapi.com
+HOST-SUFFIX, paddle.com
+HOST-SUFFIX, paddleapi.com
 
 #alfred.app 是 Alfred 的官方网站。Alfred 是一款流行的 macOS 应用程序，用于提高工作效率。它通过键盘快捷键、文本扩展和自定义工作流，帮助用户更快捷地启动应用、查找文件、执行系统命令和网络搜索等操作。许多 Mac 用户安装 Alfred 来替代或增强 macOS 自带的 Spotlight 功能。
-host-suffix, alfred.app
+HOST-SUFFIX, alfred.app
 
 #开源-输入法切换工具Input Source Pro
-host-suffix, inputsource.pro
+HOST-SUFFIX, inputsource.pro
 
 #这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
-host-suffix, wedata.net
+HOST-SUFFIX, wedata.net
 
 #AdGuard
-host-suffix, adtidy.org
+HOST-SUFFIX, adtidy.org
 
 #火狐浏览器_流氓站点
-host-suffix, mozilla.cloudflare-dns.com
-
-#是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
-host, report-uri.mmcdn.com
+HOST-SUFFIX, mozilla.cloudflare-dns.com
 
 #这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
-host-suffix, cherpake.com, 攔截
+HOST-SUFFIX, cherpake.com
 
 #与 Dark Reader 插件相关，它是一款用于在浏览器中启用暗色模式的扩展程序。这个链接可能是为了更新扩展程序或发送一些使用统计数据。
-host, darkreader.org, 攔截
+HOST, darkreader.org
 
 #该网站可能与一些系统或网络管理相关的API服务有关，帮助优化网络性能或跟踪访问流量。
-host, api64.com, 攔截
+HOST, api64.com
 
 #这个域名可能是一个与流量分析或广告投放相关的网站，通常被用于网络分析和用户行为跟踪。
-host, score.traficmetrics.com, 攔截
+HOST, score.traficmetrics.com
 
 #shottr
-host, shottr.cc, 攔截
+HOST, shottr.cc
 
 #163
-host-suffix, 163.com, 攔截
+HOST-SUFFIX, 163.com
 
 #sina
-host-suffix, sina.com, 攔截
-
-#Chrome插件-Ghostery数据传输
-host-suffix, ghostery.net, 攔截
-host-suffix, ghostery.com, 攔截
-#Chrome插件-劃詞翻譯
-host, hcfy.app, 攔截
-
-#huya
-host, cdnfile1.msstatic.com, 攔截
-
-#zhihu
-host-suffix, zhihu.com, 攔截
-user-agent, AVOS*, 攔截
-ip-cidr, 118.89.204.198/32, 攔截
-ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128, 攔截
-
+HOST-SUFFIX, sina.com

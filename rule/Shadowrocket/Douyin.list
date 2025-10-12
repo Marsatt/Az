@@ -10,12 +10,11 @@ DOMAIN-SUFFIX, v.smtcdns.com
 #关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
 
+
 DOMAIN-SUFFIX, douyin.com
 
 
 #电脑版
-DOMAIN, vc-gate-edge.ndcpp.com
-DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, 100ycdn.com
 #@!直播录制需要网址
 DOMAIN, api.feelgood.cn
@@ -46,26 +45,24 @@ DOMAIN-SUFFIX, z1cdn.com
 
 
 #手机版
-#@!抖音寄件详情
 DOMAIN, conf-darwin.xycdn.com
 DOMAIN, render.ecombdpage.com
-#@!优衣库需要的网址
+#@!抖音寄件详情
 DOMAIN, ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, bytemastatic.com
-#@!抖音，消息查看物流，reject对应取消掉
+#@!优衣库需要的网址
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdstatic.com
+#@!抖音，消息查看物流，reject对应取消掉
 DOMAIN-SUFFIX, erer.homeborn.cn
 DOMAIN-SUFFIX, ietheivaicai.com
-#@!抖音店铺排行榜
-#@!迪卡侬会员积分兑换
 DOMAIN-SUFFIX, jinritemai.com
-#@!抖音，手机版显示小黄车物品
-DOMAIN, promotion-h5.doupay.com
+#@!ffh.jinritemai.com 抖音店铺排行榜
+#@!fxg.jinritemai.com 迪卡侬会员积分兑换
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, tt.x.bsgslb.cn
 DOMAIN-SUFFIX, zijieapi.com
@@ -80,17 +77,20 @@ IP-CIDR, 36.104.134.75/32, no-resolve
 # NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:17:40
+# UPDATED: 2025-06-06 09:18:50
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 11
 # TOTAL: 13
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX, amemv.com
-DOMAIN-SUFFIX, douyincdn.com
-DOMAIN-SUFFIX, douyinpic.com
-DOMAIN-SUFFIX, douyinstatic.com
-DOMAIN-SUFFIX, douyinvod.com
-DOMAIN-SUFFIX, idouyinvod.com
-DOMAIN-SUFFIX, pstatp.com
-DOMAIN-SUFFIX, snssdk.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,toutiao.com

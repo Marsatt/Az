@@ -1,20 +1,10 @@
 #未知
-DOMAIN, api.mousegesturesapi.com
 DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, narakahunter.mvw
 #@!开机打开Chrome后显示的
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
-#Chrome插件_鼠标插件
-DOMAIN, api.crxmouse.com
-
-#沉浸式翻译_不需要的网址访问
-DOMAIN-SUFFIX, immersivetranslate.com
-DOMAIN-SUFFIX, immersivetranslate.cn
-
-#LosslessCut_macOS
-DOMAIN, losslesscut.mifi.no
 
 #Wechat微信_iPhone
 IP-CIDR, 42.202.141.12/32, no-resolve
@@ -107,6 +97,7 @@ DOMAIN-SUFFIX, pdfgear.com
 
 #抖音
 ##抖音电脑版，无用的网址。
+DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
 ##抖音手机版，无用的网址。
 URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
@@ -121,6 +112,7 @@ DOMAIN-SUFFIX, bytemaimg.com
 DOMAIN-SUFFIX, cjjd14.com
 DOMAIN-SUFFIX, ks-live.com
 DOMAIN-SUFFIX, kuiniuca.com
+DOMAIN-SUFFIX, ndcpp.com
 DOMAIN-SUFFIX, ndcppx.com
 DOMAIN-SUFFIX, onethingpcs.com
 DOMAIN-SUFFIX, open-douyin.com
@@ -212,7 +204,7 @@ DOMAIN, score.traficmetrics.com
 #shottr
 DOMAIN, shottr.cc
 
-# 163
+#163
 DOMAIN-SUFFIX, 163.com
 
 #sina

@@ -1,272 +1,151 @@
-#✈️
-host, pqjc.site
-
-# Discord
-host, discord.gg
-host, discord.com
-
-#chaturbate.jjgirls.com
-host, web.static.mmcdn.com
-host, chaturbate.jjgirls.com
-HOST-SUFFIX, live.mmcdn.com
-HOST-SUFFIX, highwebmedia.com
-host, a-fallback.pa.highwebmedia.com
-host, internet-up.ably-realtime.com
-host, cbjpeg.stream.highwebmedia.com
-host, roomimg.stream.highwebmedia.com
-
-# Maxming_GeoLite2
-host-suffix, maxmind.com
-
-#LULU防火墙
-host, objective-see.org
-
-#Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
-host-suffix, objective-see.com
-
-#ikea.com
-host-suffix, ikea.com
-
-#stripchat
-host-suffix, stripchat.com
-host-suffix, doppiocdn.media
-host-suffix, oppiocdn.media
-
-#windy weather
-host-suffix, windy.com
-
-#Write&Improve
-host, s3-eu-west-1.amazonaws.com
-host, wandi-6402.kxcdn.com
-host, writeandimprove.com
-host-suffix, englishlanguageitutoring.com
-
-#Transcribe AI app
-host, firebaselogging-pa.googleapis.com
-host, app-analytics-services.com
-host, ep2.facebook.com
-
-#AV_BT搜索
-host-suffix, sukebei.nyaa.si
-
-#missav.com
-host-suffix, missav.com
-host-suffix, missav.ws
-host-suffix, missav.ai
-host-suffix, njav.tv
-host, surrit.com
-host, fourhoi.com
-host, client-rapi-missav.recombee.com
-host, r.trackwilltrk.com
-
-#文字转语音
-#aisaver.io
-host-suffix, aisaver.io
-host, extensiondock.com
-# fish.audio
-host-suffix, fish.audio
-# fish.audio_下载语音
-host-suffix, r2.cloudflarestorage.com
-
-# NEW
-host-suffix, bbc.com
-host-suffix, cnn.com
-host-suffix, dailymail.co.uk
-host-suffix, reuters.com
-host-suffix, aljazeera.net
-
-#huggingface
-host-suffix, huggingface.co
-
-#姿勢小王子
-host-suffix, bbs.zsxwz.com
-
-#TTS
-host-suffix, wangwangit.com
-
-#boxjs
-host-suffix, boxjs.com
-
-#udio AI音乐制作
-host-suffix, udio.com
-
-#suno AI音乐制作
-host-suffix, suno.com
-host-suffix, suno.ai
-
-#IMDB
-host-suffix, imdb.com
-
-#MacOS软件破解網站
-host, psv4.userapi.com
-host, unpkg.com
-host-suffix,vk.com
-host,unpkg.com
-host-suffix,vk.com
-host-suffix, appstorrent.ru
-host-suffix, xmac.app
-
-#開源播放器iina
-host, www.iina.io
-
-#mega下載網站
-host-suffix, mega.nz
-host-suffix, mega.co.nz
-
-#afreecatv
-host-suffix, afreecatv.com
-host-suffix, sooplive.co.kr
-
-#fbjav.com
-host-suffix, player.imcontent.me
-host-suffix, images.imfb.xyz
-host-suffix, fbjav.com
-host-suffix, svjav.com
-
-#jable.tv
-host-suffix, mushroomtrack.com
-host-suffix, jable.tv
-
-#www.xvideos.com
-host-suffix, xvideos.com
-host-suffix, xvideos-cdn.com
-
-#www.xnxx.com
-host-suffix, xnxx-cdn.com
-host-suffix, xnxx.com
-
-#hplives.com
-host, api.lovense-api.com
-host-suffix, stripchat.com
-host-suffix, doppiocdn.com
-host-suffix, doppiocdn.org
-host-suffix, sc-apps.com
-host-suffix, strpst.com
-host, hplives.com
-host, hpjav.tv
-
-#myfreecams.com
-host-suffix, mfcimg.com
-host-suffix, myfreecams.com
-
-#reddit.com
-HOST-SUFFIX,redd.it
-HOST-SUFFIX,reddit.com
-HOST-SUFFIX,redditmail.com
-HOST-SUFFIX,redditmedia.com
-HOST-SUFFIX,redditstatic.com
-HOST-SUFFIX,reddituploads.com
-HOST-SUFFIX,reddituploads.com.cdn-cf.behance.net
-HOST-SUFFIX,reddituploads.com.cdn-cf.dropbox.com
-
-#北美論壇
-host-suffix, kantie.org
-
-#WIKI
-host-suffix,mediawiki.org
-host-suffix,wikibooks.org
-host-suffix,wikidata.org
-host-suffix,wikileaks.org
-host-suffix,wikimedia.org
-host-suffix,wikinews.org
-host-suffix,wikipedia.org
-host-suffix,wikiquote.org
-host-suffix,wikisource.org
-host-suffix,wikiversity.org
-host-suffix,wikivoyage.org
-host-suffix,wiktionary.org
-
-#Pornhub
-host-suffix, pornhub.org
-host-suffix, pornhub.com
-host-suffix, phncdn.com
-host-suffix, phprcdn.com
-#Pornhub_移动设备需要允许这个网址
-host, video.sacdnssedge.com
-
-#kick直播平台
-host-suffix, kick.com
-
-#MAC keka
-host, u.keka.io
-
-#Goodnote 6 app
-host-suffix, goodnotes.email
-host-suffix, goodnotes.com
-host, api.sprig.com
-
-# Flightradar24 app
-host-suffix, flightradar24.com
-host, mobile-data.onetrust.io
-#AR顯示飛機照片（信息框下面，第二個框）。
-host, cdn.jetphotos.com
-
-#Marine Traffic
-host-suffix, marinetraffic.com
-
-#嗯背單詞
-#牛津
-host-suffix, oxfordlearnersdictionaries.com
-#韋氏
-host-suffix, merriam-webster.com
-#朗文
-host-suffix, ldoceonline.com
-#柯林斯
-host-suffix, collinsdictionary.com
-
-#github
-host-suffix, ghproxy.com
+#Z-Libly图书馆
+HOST, dln1.ncdn.ec
+HOST, z-library.sk
 
 #JDownloader 2-下載工具自動更新。
-host-suffix, jdownloader.org
-host-suffix, appwork.org
+HOST-SUFFIX, jdownloader.org
+HOST-SUFFIX, appwork.org
 
-#書籤-it-轉換類-批量全能轉換器
-host-suffix, xconvert.com
+# Flightradar24 app
+HOST-SUFFIX, privacy-center.org
+HOST-SUFFIX, flightradar24.com
+HOST, mobile-data.onetrust.io
+#AR顯示飛機照片（信息框下面，第二個框）。
+HOST, cdn.jetphotos.com
 
-#Chrome瀏覽器插件
-#Click&Clean
-host,cdn.hotcleaner.com
-host,www.hotcleaner.com
-#Chrome瀏覽器-flag（第一個）顯示國旗。
-host-suffix, myip.ms
-#Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
-host, returnyoutubedislikeapi.com
-#chrome瀏覽器，第二個flag顯示。
-host, geoip.furman.im
-#蠱惑狼進度條
-host, custom-progress-bar.com
-host, custom-progressbar.com
-#Stream Recorder
-host-suffix, hlsloader.com
-#Language Reactor
-host-suffix, dioco.io
-host-suffix, languagelearningwithnetflix.com
-host-suffix, languagereactor.com
-#TwitchVodDownload
-host, gachigasm.eu.srcdn.net
-host, sockjs-us2.pusher.com
-host-suffix, streamrecorder.io
-host-suffix, streamscharts.com
-host-suffix, sullygnome.com
-host-suffix, voddownloader.com
+#Marine Traffic
+HOST-SUFFIX, marinetraffic.com
 
-#YouTuBe 雙語翻譯
-host, extension.dioco.io
+#kick直播平台
+HOST-SUFFIX, kick.com
 
-#Z-Libly图书馆
-host, lib-4uegj2s7aktie6pmwal3qnkl.booksc.eu
-host, lib-3fsujil5cusci24v775f7qe3.1lib.fr
+#jable.tv
+HOST-SUFFIX, mushroomtrack.com
+HOST-SUFFIX, jable.tv
 
-#油猴
-host-suffix, greasyfork.org
-host-suffix, tampermonkey.net
+#www.xvideos.com
+HOST-SUFFIX, xvideos.com
+HOST-SUFFIX, xvideos-cdn.com
 
-#天时，地球看pm2.5
-host-suffix, nullschool.net
+#www.xnxx.com
+HOST-SUFFIX, xnxx-cdn.com
+HOST-SUFFIX, xnxx.com
 
-#美國大使館，地球顯示mp2.5
-host, aqicn.org
-host, mapq.waqi.info
-host, api2.waqi.info,NSreetmap.org
-host, server.arcgisonline.com
+#myfreecams.com
+HOST-SUFFIX, mfcimg.com
+HOST-SUFFIX, myfreecams.com
+
+#afreecatv & sooplive
+HOST-SUFFIX, afreecatv.com
+HOST-SUFFIX, sooplive.co.kr
+
+#fbjav.com
+HOST-SUFFIX, player.imcontent.me
+HOST-SUFFIX, images.imfb.xyz
+HOST-SUFFIX, fbjav.com
+HOST-SUFFIX, svjav.com
+
+#MacOS破解網站 xm
+HOST-SUFFIX, mediafire.com
+HOST, psv4.userapi.com
+HOST, unpkg.com
+HOST-SUFFIX, vk.com
+HOST, unpkg.com
+HOST-SUFFIX, vk.com
+HOST-SUFFIX, appstorrent.ru
+HOST-SUFFIX, xmac.app
+
+#MacOS破解網站 appstorrent
+HOST, appstorrent.org
+
+#missav.com
+HOST-KEYWORD, missav
+HOST-SUFFIX, njav.tv
+HOST, surrit.com
+HOST, fourhoi.com
+HOST, r.trackwilltrk.com
+
+#ikea.com
+HOST-SUFFIX, ikea.com
+
+# Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
+HOST-SUFFIX, cloudfront.net
+
+#chaturbate.jjgirls.com
+##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
+HOST-SUFFIX, highwebmedia.com
+#成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
+##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
+HOST-SUFFIX, mmcdn.com
+HOST, chaturbate.jjgirls.com
+HOST, internet-up.ably-realtime.com
+
+#stripchat & hplives
+#@!显示主播预览图片
+HOST, img.doppiocdn.org
+HOST-SUFFIX, loo3laej.com
+HOST, mc.thedd.online
+HOST, api.lovense-api.com
+HOST-SUFFIX, doppiocdn.live
+HOST-SUFFIX, doppiocdn.com
+HOST-SUFFIX, doppiocdn.net
+HOST-SUFFIX, stripchat.com
+HOST-SUFFIX, oppiocdn.media
+HOST-SUFFIX, hplives.com
+HOST-SUFFIX, hpjav.tv
+HOST-SUFFIX, sc-apps.com
+HOST-SUFFIX, strpst.com
+
+#Notion
+HOST-SUFFIX, notion.so
+HOST-SUFFIX, notion.com
+#iPhone正常访问Notion
+HOST, http-inputs-notion.splunkcloud.com
+#上传图片
+HOST, img.notionusercontent.com
+#显示图片_关联amazon
+HOST, prod-files-secure.s3.us-west-2.amazonaws.com
+
+#Pornhub
+HOST-SUFFIX, pornhub.org
+HOST-SUFFIX, pornhub.com
+HOST-SUFFIX, phncdn.com
+HOST-SUFFIX, phprcdn.com
+#Pornhub_移动设备需要允许这个网址
+HOST, video.sacdnssedge.com
+
+# DNS Leak from Shadowrocket Default
+HOST-SUFFIX, dnsleaktest.com
+HOST-SUFFIX, dnsleak.com
+HOST-SUFFIX, expressvpn.com
+HOST-SUFFIX, nordvpn.com
+HOST-SUFFIX, surfshark.com
+HOST-SUFFIX, ipleak.net
+HOST-SUFFIX, perfect-privacy.com
+HOST-SUFFIX, browserleaks.com
+HOST-SUFFIX, browserleaks.org
+HOST-SUFFIX, vpnunlimited.com
+HOST-SUFFIX, whoer.net
+HOST-SUFFIX, whrq.net
+
+# Astrill
+HOST-SUFFIX, astrill.com
+HOST-SUFFIX, astrill.org
+HOST-SUFFIX, dnsleak.asn247.net
+
+# Surfshark
+HOST-SUFFIX, surfshark.com
+HOST-SUFFIX, surfsharkdns.com
+
+# Pixelscan
+HOST-SUFFIX, pixelscan.net
+
+# PING0
+HOST, ipv4.ping0.cc
+HOST, ipv6.ping0.cc
+
+# IPAPI.CO
+HOST-SUFFIX, ipapi.co
+
+# BrowserScan
+HOST, ip-scan.adspower.net

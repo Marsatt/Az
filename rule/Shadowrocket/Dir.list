@@ -37,10 +37,8 @@ DOMAIN, acs.m.taobao.com
 DOMAIN, h-adashx.ut.taobao.com
 IP-CIDR, 203.119.204.1/24, no-resolve
 IP-CIDR, 203.119.238.1/24, no-resolve
-##
 IP-CIDR, 59.82.118.156/32, no-resolve
 IP-CIDR, 59.82.112.62/32, no-resolve
-IP-CIDR, 59.82.113.8, no-resolve
 IP-CIDR, 59.82.120.227/32, no-resolve
 IP-CIDR, 59.82.121.225/32, no-resolve
 IP-CIDR, 59.82.122.5/32, no-resolve
@@ -49,31 +47,6 @@ IP-CIDR, 139.215.162.204/32, no-resolve
 
 #顺丰快递查询
 DOMAIN-SUFFIX, sf-express.com
-
-#涂鸦Wi-Fi温度计
-DOMAIN,images.tuyacn.com
-DOMAIN,a1-cn.iotwish.com
-DOMAIN,m1-cn.iotwish.com
-DOMAIN,tuyasmartiot.app.tuya.com
-
-#大众点评 & 美团
-##买演唱会门票
-DOMAIN-SUFFIX, maoyan.com
-DOMAIN, qcloud.dpfile.com
-DOMAIN-KEYWORD, dianping
-# NAME: MeiTuan
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:36
-# DOMAIN-SUFFIX: 7
-# TOTAL: 7
-DOMAIN-SUFFIX,dianping.com
-DOMAIN-SUFFIX,maoyan.com
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,meituan.net
-DOMAIN-SUFFIX,mtyun.com
-DOMAIN-SUFFIX,neixin.cn
-DOMAIN-SUFFIX,sankuai.com
 
 #剂安安
 DOMAIN, app.jichacha.vip
@@ -220,6 +193,95 @@ IP-CIDR, 118.89.204.198/32, no-resolve
 DOMAIN, youtils.cc
 
 
+
+#网商银行
+DOMAIN-SUFFIX, mybank.cn
+
+
+
+
+#nike
+#网页版
+DOMAIN, manifest.prod.boltdns.net
+DOMAIN, secure.brightcove.com
+DOMAIN, api.talkingdata.com
+DOMAIN, aeu.alicdn.com
+#耐克app快递查询
+DOMAIN-SUFFIX, baozun.cn
+DOMAIN-SUFFIX, baozun.com
+DOMAIN, nikegroup.publicisgrowthos.com
+DOMAIN-SUFFIX, cpatrk.net
+DOMAIN-SUFFIX, maiscrm.com
+DOMAIN, tab.volces.com
+DOMAIN, gator.volces.com
+DOMAIN, ab.volices.com
+DOMAIN, gator.volces.com
+DOMAIN-SUFFIX, nike.com.cn
+
+# NAME: Nike
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:16:54
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
+DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,nike.com.br
+DOMAIN-SUFFIX,nike.com.hk
+DOMAIN-SUFFIX,nikecdn.com
+DOMAIN-SUFFIX,nikecloud.com
+DOMAIN-SUFFIX,nikeinc.com.cn
+DOMAIN-SUFFIX,nikestore.com.au
+DOMAIN-SUFFIX,niketracking.com
+DOMAIN-SUFFIX,static-nike.com
+DOMAIN-SUFFIX,swoo.sh
+DOMAIN-SUFFIX,swoosh.com
+
+
+
+
+#大众点评 & 美团
+##买演唱会门票
+DOMAIN-SUFFIX, maoyan.com
+DOMAIN, qcloud.dpfile.com
+DOMAIN-KEYWORD, dianping
+# NAME: MeiTuan
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:17:36
+# DOMAIN-SUFFIX: 7
+# TOTAL: 7
+DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,maoyan.com
+DOMAIN-SUFFIX,meituan.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,mtyun.com
+DOMAIN-SUFFIX,neixin.cn
+DOMAIN-SUFFIX,sankuai.com
+
+
+
+
+# NAME: DaMai
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:17:33
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
+DOMAIN-SUFFIX,baotoo.com
+DOMAIN-SUFFIX,damai.cn
+DOMAIN-SUFFIX,damaicdn.cn
+DOMAIN-SUFFIX,dmcdn.cn
+DOMAIN-SUFFIX,jtwsm.cn
+DOMAIN-SUFFIX,maikr.com
+DOMAIN-SUFFIX,maitix.com
+DOMAIN-SUFFIX,maitix.net
+DOMAIN-SUFFIX,piao.com.cn
+DOMAIN-SUFFIX,piaogroup.com
+DOMAIN-SUFFIX,yanchupiaojia.com
+
+
+
+
 # NAME: AmazonCN
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -273,6 +335,8 @@ DOMAIN-SUFFIX,route53.cn
 DOMAIN-SUFFIX,sagemaker.com.cn
 DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,z.cn
+
+
 
 
 # NAME: ChinaTelecom（中国电信）
@@ -366,8 +430,6 @@ DOMAIN-SUFFIX,ycy100.cn
 DOMAIN-SUFFIX,yichuangyun.com.cn
 
 
-#网商银行
-DOMAIN-SUFFIX, mybank.cn
 
 
 # NAME: AliPay
@@ -397,6 +459,8 @@ DOMAIN-SUFFIX,alipayplus.com
 DOMAIN-SUFFIX,ifaa.org.cn
 DOMAIN-SUFFIX,luohanacademy.com
 DOMAIN-SUFFIX,sinopayment.com.cn
+
+
 
 
 # NAME: ICBC
@@ -465,6 +529,8 @@ DOMAIN-SUFFIX,icbkfs.com
 DOMAIN-SUFFIX,icbkus.com
 
 
+
+
 # NAME: CCB
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -524,6 +590,8 @@ DOMAIN-SUFFIX,mcdonaldsarabia.com
 DOMAIN-SUFFIX,mcdonaldsparties.co.nz
 DOMAIN-SUFFIX,mcdonaldsparties.com.au
 DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
+
+
 
 
 #IKEA
@@ -631,84 +699,3 @@ DOMAIN-SUFFIX,ingka-system.cn
 DOMAIN-SUFFIX,ingka.com
 DOMAIN-SUFFIX,ingka.dev
 DOMAIN-SUFFIX,ingkacentres.com
-
-
-# NAME: 12306
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:37
-# DOMAIN-SUFFIX: 15
-# TOTAL: 15
-DOMAIN-SUFFIX,12306.cn
-DOMAIN-SUFFIX,95306.cn
-DOMAIN-SUFFIX,95572.com
-DOMAIN-SUFFIX,china-railway.com.cn
-DOMAIN-SUFFIX,china-ric.com
-DOMAIN-SUFFIX,crct.com
-DOMAIN-SUFFIX,cre.cn
-DOMAIN-SUFFIX,crecc.com.cn
-DOMAIN-SUFFIX,creip.cn
-DOMAIN-SUFFIX,crscl.com.cn
-DOMAIN-SUFFIX,gzrailway.com.cn
-DOMAIN-SUFFIX,nntlj.com
-DOMAIN-SUFFIX,peoplerail.com
-DOMAIN-SUFFIX,rails.cn
-DOMAIN-SUFFIX,tdpress.com
-
-
-#nike
-#网页版
-DOMAIN, manifest.prod.boltdns.net
-DOMAIN, secure.brightcove.com
-DOMAIN, api.talkingdata.com
-DOMAIN, aeu.alicdn.com
-#耐克app快递查询
-DOMAIN-SUFFIX, baozun.cn
-DOMAIN-SUFFIX, baozun.com
-##
-DOMAIN, nikegroup.publicisgrowthos.com
-DOMAIN-SUFFIX, cpatrk.net
-DOMAIN-SUFFIX, maiscrm.com
-##
-DOMAIN, tab.volces.com
-DOMAIN, gator.volces.com
-DOMAIN, ab.volices.com
-DOMAIN, gator.volces.com
-DOMAIN-SUFFIX, nike.com.cn
-
-# NAME: Nike
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:54
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
-DOMAIN-SUFFIX,nike.com
-DOMAIN-SUFFIX,nike.com.br
-DOMAIN-SUFFIX,nike.com.hk
-DOMAIN-SUFFIX,nikecdn.com
-DOMAIN-SUFFIX,nikecloud.com
-DOMAIN-SUFFIX,nikeinc.com.cn
-DOMAIN-SUFFIX,nikestore.com.au
-DOMAIN-SUFFIX,niketracking.com
-DOMAIN-SUFFIX,static-nike.com
-DOMAIN-SUFFIX,swoo.sh
-DOMAIN-SUFFIX,swoosh.com
-
-
-# NAME: DaMai
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:33
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
-DOMAIN-SUFFIX,baotoo.com
-DOMAIN-SUFFIX,damai.cn
-DOMAIN-SUFFIX,damaicdn.cn
-DOMAIN-SUFFIX,dmcdn.cn
-DOMAIN-SUFFIX,jtwsm.cn
-DOMAIN-SUFFIX,maikr.com
-DOMAIN-SUFFIX,maitix.com
-DOMAIN-SUFFIX,maitix.net
-DOMAIN-SUFFIX,piao.com.cn
-DOMAIN-SUFFIX,piaogroup.com
-DOMAIN-SUFFIX,yanchupiaojia.com
