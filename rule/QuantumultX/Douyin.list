@@ -17,7 +17,7 @@ HOST-SUFFIX, douyin.com,DouYin
 #电脑版
 HOST-SUFFIX, 100ycdn.com,DouYin
 #@!直播录制需要网址
-HOST, api.feelgood.cn
+HOST, api.feelgood.cn,DouYin
 HOST, lf-waf-js.byted-static.com,DouYin
 HOST-SUFFIX, applogcdn.com,DouYin
 HOST-SUFFIX, bytedance.com,DouYin
