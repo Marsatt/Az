@@ -1,8 +1,5 @@
-#关键词网址屏蔽
-DOMAIN-KEYWORD, telegram
-
-
-
+#Telegram证书
+DOMAIN-SUFFIX,ssl.com,Telegram
 
 # NAME: Telegram
 # AUTHOR: blackmatrix7

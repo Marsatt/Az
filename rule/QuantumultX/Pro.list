@@ -1,3 +1,6 @@
+#证书签发机构_国际版
+host-suffix, digicert.com
+
 #Z-Libly图书馆
 HOST, dln1.ncdn.ec
 HOST, z-library.sk

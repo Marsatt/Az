@@ -1,8 +1,5 @@
-#关键词网址屏蔽
-host-keyword, telegram
-
-
-
+#Telegram证书
+HOST-SUFFIX,ssl.com,Telegram
 
 # NAME: Telegram
 # AUTHOR: blackmatrix7

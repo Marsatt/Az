@@ -5,6 +5,8 @@ HOST-SUFFIX, narakahunter.mvw,RejectHub
 HOST, ws-us2.pusher.com,RejectHub
 HOST, geoip.furman.im,RejectHub
 
+#app_picsew
+host-suffix, picsew.app,RejectHub
 
 #Wechat微信_iPhone
 IP-CIDR, 42.202.141.12/32,RejectHub

@@ -5,6 +5,8 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#app_picsew
+DOMAIN-SUFFIX, picsew.app
 
 #Wechat微信_iPhone
 IP-CIDR, 42.202.141.12/32, no-resolve

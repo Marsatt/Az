@@ -6,7 +6,7 @@ HOST, extension.streamelements.com,Twitch
 HOST, cdn.streamelements.com,Twitch
 HOST, sb.scorecardresearch.com,Twitch
 HOST, api2.branch.io,Twitch
-DOMHOSTAIN, cdn.branch.io,Twitch
+HOST, cdn.branch.io,Twitch
 
 
 
