@@ -1,268 +1,268 @@
 #苹果商店搜索功能，全部代理也无法搜索。
-host, amp-api-search-edge.apps.apple.com
+host, amp-api-search-edge.apps.apple.com, Dir
 
 #证书签发机构_国内版
-host-suffix, digicert.cn
+host-suffix, digicert.cn, Dir
 
 #模块_京东去广告_开屏广告+精简我的页面产品推广
-HOST-SUFFIX, kelee.one
+HOST-SUFFIX, kelee.one, Dir
 
 #Deepseek
-HOST, chat.deepseek.com
+HOST, chat.deepseek.com, Dir
 
 #豆包
-HOST-SUFFIX, doubao.com
+HOST-SUFFIX, doubao.com, Dir
 
 ##网易新闻
-HOST-SUFFIX,cache.netease.com
-HOST-SUFFIX,ws.126.net
+HOST-SUFFIX,cache.netease.com, Dir
+HOST-SUFFIX,ws.126.net, Dir
 ##财联社
-HOST-SUFFIX,cls.cn
+HOST-SUFFIX,cls.cn, Dir
 
 #优衣库-uniqlo
-HOST-SUFFIX, uniqlo.cn
-HOST, t-web-data.fastretailing.cn
+HOST-SUFFIX, uniqlo.cn, Dir
+HOST, t-web-data.fastretailing.cn, Dir
 
 #慢慢买
 ##慢慢买，小图片预览
-HOST-SUFFIX, mmb-spu.oss-cn-shenzhen.aliyuncs.com
-HOST-SUFFIX, manmanbuy.com
+HOST-SUFFIX, mmb-spu.oss-cn-shenzhen.aliyuncs.com, Dir
+HOST-SUFFIX, manmanbuy.com, Dir
 
 #Chrome插件
 #哔哩哔哩视频下载
-HOST-SUFFIX, lemondl.com
+HOST-SUFFIX, lemondl.com, Dir
 
 #英语打字练习开源网站
-HOST-SUFFIX, picsum.photos
-HOST-SUFFIX, api.iconify.design
-HOST-SUFFIX, julebu.co
+HOST-SUFFIX, picsum.photos, Dir
+HOST-SUFFIX, api.iconify.design, Dir
+HOST-SUFFIX, julebu.co, Dir
 
 #阿里小号
-HOST, eco.taobao.com
-HOST, acs.m.taobao.com
-HOST, h-adashx.ut.taobao.com
-IP-CIDR, 203.119.204.1/24, no-resolve
-IP-CIDR, 203.119.238.1/24, no-resolve
-IP-CIDR, 59.82.118.156/32, no-resolve
-IP-CIDR, 59.82.112.62/32, no-resolve
-IP-CIDR, 59.82.120.227/32, no-resolve
-IP-CIDR, 59.82.121.225/32, no-resolve
-IP-CIDR, 59.82.122.5/32, no-resolve
-IP-CIDR, 59.82.132.207/32, no-resolve
-IP-CIDR, 139.215.162.204/32, no-resolve
+HOST, eco.taobao.com, Dir
+HOST, acs.m.taobao.com, Dir
+HOST, h-adashx.ut.taobao.com, Dir
+IP-CIDR, 203.119.204.1/24, Dir
+IP-CIDR, 203.119.238.1/24, Dir
+IP-CIDR, 59.82.118.156/32, Dir
+IP-CIDR, 59.82.112.62/32, Dir
+IP-CIDR, 59.82.120.227/32, Dir
+IP-CIDR, 59.82.121.225/32, Dir
+IP-CIDR, 59.82.122.5/32, Dir
+IP-CIDR, 59.82.132.207/32, Dir
+IP-CIDR, 139.215.162.204/32, Dir
 
 #顺丰快递查询
-HOST-SUFFIX, sf-express.com
+HOST-SUFFIX, sf-express.com, Dir
 
 #剂安安
-HOST, app.jichacha.vip
-HOST-SUFFIX, dcloud.net.cn
+HOST, app.jichacha.vip, Dir
+HOST-SUFFIX, dcloud.net.cn, Dir
 
 #麦当劳
-HOST-SUFFIX, mcd.cn
-HOST-SUFFIX, mcdonalds.com.cn
+HOST-SUFFIX, mcd.cn, Dir
+HOST-SUFFIX, mcdonalds.com.cn, Dir
 #@!优惠券显示页面_关联chinamax
-HOST, static.portal101.cn
+HOST, static.portal101.cn, Dir
 #@!优惠券显示图片
-HOST-SUFFIX, cos.ap-shanghai.myqcloud.com
+HOST-SUFFIX, cos.ap-shanghai.myqcloud.com, Dir
 
 #肯德基
-HOST-SUFFIX, hwwt8.com
-HOST-SUFFIX, kfc.com.cn
+HOST-SUFFIX, hwwt8.com, Dir
+HOST-SUFFIX, kfc.com.cn, Dir
 #@!账号登陆验证
-HOST, api.geevisit.com
+HOST, api.geevisit.com, Dir
 
 #白噪音网站
-HOST, www.maokan.cc
+HOST, www.maokan.cc, Dir
 
 #腾讯挪车码
-HOST, appcfg.v.qq.com
-HOST, launchwxacode.wxqcloud.qq.com.cn
+HOST, appcfg.v.qq.com, Dir
+HOST, launchwxacode.wxqcloud.qq.com.cn, Dir
 
 #哔哩哔哩查看个人首页
-HOST, at.alicdn.com
+HOST, at.alicdn.com, Dir
 #哔哩哔哩登录账号验证器
-HOST-SUFFIX, geetest.com
+HOST-SUFFIX, geetest.com, Dir
 
 #B站空降助手
-HOST, bsbsb.top
-HOST, www.bsbsb.top
+HOST, bsbsb.top, Dir
+HOST, www.bsbsb.top, Dir
 
 #roborock
-HOST-SUFFIX, roborock.com
+HOST-SUFFIX, roborock.com, Dir
 
 #CSDN
-HOST-SUFFIX, csdn.net
-HOST-SUFFIX, csdnimg.cn
+HOST-SUFFIX, csdn.net, Dir
+HOST-SUFFIX, csdnimg.cn, Dir
 
 #adidas
-HOST-SUFFIX, adidas.com.cn
+HOST-SUFFIX, adidas.com.cn, Dir
 
 #蘋果
 #苹果地图也需要这个高德网址：
-HOST-SUFFIX, autonavi.com
+HOST-SUFFIX, autonavi.com, Dir
 
-HOST, www.apple.com.cn
-HOST, apple.com.cn
-HOST-SUFFIX, ls.apple.com
+HOST, www.apple.com.cn, Dir
+HOST, apple.com.cn, Dir
+HOST-SUFFIX, ls.apple.com, Dir
 
 #油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
-HOST-SUFFIX, doseeing.com
-HOST, www.douyuex.com
+HOST-SUFFIX, doseeing.com, Dir
+HOST, www.douyuex.com, Dir
 
 #opencat
-HOST, api.opencat.app
+HOST, api.opencat.app, Dir
 #opencat 工坊服务
-HOST, t3wflvcn.lc-cn-n1-shared.com
+HOST, t3wflvcn.lc-cn-n1-shared.com, Dir
 
 #美的空调
-HOST, sse.smartmidea.net
-HOST, iotsdk.midea.com
-HOST, recv.bi.ainirobot.com
-HOST, mp-prod.smartmidea.net
-HOST, mjfile-pro.smartmidea.net
-HOST, meijuresources.smartmidea.net
+HOST, sse.smartmidea.net, Dir
+HOST, iotsdk.midea.com, Dir
+HOST, recv.bi.ainirobot.com, Dir
+HOST, mp-prod.smartmidea.net, Dir
+HOST, mjfile-pro.smartmidea.net, Dir
+HOST, meijuresources.smartmidea.net, Dir
 
 #京东比价
-HOST, apapia-history.manmanbuy.com
+HOST, apapia-history.manmanbuy.com, Dir
 #京东比价狗
-HOST-SUFFIX, bijiago.com
+HOST-SUFFIX, bijiago.com, Dir
 
 #邮件APP绑定新浪邮箱
-HOST, pop.sina.com
-HOST, smtp.sina.com
-HOST, p29-smtp.mail.me.com
-HOST, p29-imap.mail.me.com
+HOST, pop.sina.com, Dir
+HOST, smtp.sina.com, Dir
+HOST, p29-smtp.mail.me.com, Dir
+HOST, p29-imap.mail.me.com, Dir
 
 #嗯背單詞
 #有道發音
-HOST, dict.youdao.com
+HOST, dict.youdao.com, Dir
 #有道词典
-HOST, www.youdao.com
-HOST, youdao.com
+HOST, www.youdao.com, Dir
+HOST, youdao.com, Dir
 #Bing
-HOST, cn.bing.com
+HOST, cn.bing.com, Dir
 #剑桥
-HOST, dictionary.cambridge.org
+HOST, dictionary.cambridge.org, Dir
 
 #AI免費扣圖
-HOST, bgsub.cn
+HOST, bgsub.cn, Dir
 
 #文字轉語音ttsmaker.cn
-HOST, tts-file2.com
-HOST, s2.tts-file.com
-HOST, static.ttsmaker.cn
-HOST, freddyfeedback.com
-HOST, ttsmaker.cn
+HOST, tts-file2.com, Dir
+HOST, s2.tts-file.com, Dir
+HOST, static.ttsmaker.cn, Dir
+HOST, freddyfeedback.com, Dir
+HOST, ttsmaker.cn, Dir
 
 #有道詞典
-HOST, app-measurement.com
-HOST, shared.ydstatic.com
-HOST, ydlunacommon-cdn.nosdn.127.net
-HOST, shared-https.ydstatic.com
+HOST, app-measurement.com, Dir
+HOST, shared.ydstatic.com, Dir
+HOST, ydlunacommon-cdn.nosdn.127.net, Dir
+HOST, shared-https.ydstatic.com, Dir
 
 #百度百科
 #百度百科 圖片連結
-HOST, bkimg.cdn.bcebos.com
+HOST, bkimg.cdn.bcebos.com, Dir
 #百度百科 視頻連結
-HOST, baikevideo.cdn.bcebos.com
+HOST, baikevideo.cdn.bcebos.com, Dir
 #百度百科 網頁排版
-HOST, bkssl.bdimg.com
+HOST, bkssl.bdimg.com, Dir
 #百度百科
-HOST, baike.baidu.com
+HOST, baike.baidu.com, Dir
 
 #書籤-工具-it-ip是否欺詐查詢。
-HOST, scamalytics.com
+HOST, scamalytics.com, Dir
 
 #書籤-工具-it-ip欺詐類型查看。
-HOST, ipinfo.io
-HOST, website-cdn.ipinfo.io
+HOST, ipinfo.io, Dir
+HOST, website-cdn.ipinfo.io, Dir
 
 #書籤-工具-it-ip，測試網站在全國是否可以直鏈。
-HOST, www.itdog.cn
+HOST, www.itdog.cn, Dir
 
 #豆瓣
-HOST-KEYWORD,douban
+HOST-KEYWORD,douban, Dir
 
 #書籤-娛樂（字幕庫）
-HOST, zimuku.org
+HOST, zimuku.org, Dir
 
 #知乎
-HOST-SUFFIX, zhihu.com
-HOST-SUFFIX, zhimg.com
-IP-CIDR, 103.41.167.226/32, no-resolve
-IP-CIDR, 103.41.167.234/32, no-resolve
-IP-CIDR, 103.41.167.236/32, no-resolve
-IP-CIDR, 118.89.204.198/32, no-resolve
+HOST-SUFFIX, zhihu.com, Dir
+HOST-SUFFIX, zhimg.com, Dir
+IP-CIDR, 103.41.167.226/32, Dir
+IP-CIDR, 103.41.167.234/32, Dir
+IP-CIDR, 103.41.167.236/32, Dir
+IP-CIDR, 118.89.204.198/32, Dir
 
 #繁體簡體互換網站
-HOST, youtils.cc
+HOST, youtils.cc, Dir
 
 
 
 #网商银行
-HOST-SUFFIX, mybank.cn
+HOST-SUFFIX, mybank.cn, Dir
 
 
 
 
 #nike
 #网页版
-HOST, manifest.prod.boltdns.net
-HOST, secure.brightcove.com
-HOST, api.talkingdata.com
-HOST, aeu.alicdn.com
+HOST, manifest.prod.boltdns.net, Dir
+HOST, secure.brightcove.com, Dir
+HOST, api.talkingdata.com, Dir
+HOST, aeu.alicdn.com, Dir
 #耐克app快递查询
-HOST-SUFFIX, baozun.cn
-HOST-SUFFIX, baozun.com
-HOST, nikegroup.publicisgrowthos.com
-HOST-SUFFIX, cpatrk.net
-HOST-SUFFIX, maiscrm.com
-HOST, tab.volces.com
-HOST, gator.volces.com
-HOST, ab.volices.com
-HOST, gator.volces.com
-HOST-SUFFIX, nike.com.cn
+HOST-SUFFIX, baozun.cn, Dir
+HOST-SUFFIX, baozun.com, Dir
+HOST, nikegroup.publicisgrowthos.com, Dir
+HOST-SUFFIX, cpatrk.net, Dir
+HOST-SUFFIX, maiscrm.com, Dir
+HOST, tab.volces.com, Dir
+HOST, gator.volces.com, Dir
+HOST, ab.volices.com, Dir
+HOST, gator.volces.com, Dir
+HOST-SUFFIX, nike.com.cn, Dir
 
 # NAME: Nike
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:54
+# UPDATED: 2025-06-06 09:17:46
 # HOST-SUFFIX: 11
 # TOTAL: 11
-HOST-SUFFIX,nike.com
-HOST-SUFFIX,nike.com.br
-HOST-SUFFIX,nike.com.hk
-HOST-SUFFIX,nikecdn.com
-HOST-SUFFIX,nikecloud.com
-HOST-SUFFIX,nikeinc.com.cn
-HOST-SUFFIX,nikestore.com.au
-HOST-SUFFIX,niketracking.com
-HOST-SUFFIX,static-nike.com
-HOST-SUFFIX,swoo.sh
-HOST-SUFFIX,swoosh.com
+HOST-SUFFIX,nike.com,Nike
+HOST-SUFFIX,nike.com.br,Nike
+HOST-SUFFIX,nike.com.hk,Nike
+HOST-SUFFIX,nikecdn.com,Nike
+HOST-SUFFIX,nikecloud.com,Nike
+HOST-SUFFIX,nikeinc.com.cn,Nike
+HOST-SUFFIX,nikestore.com.au,Nike
+HOST-SUFFIX,niketracking.com,Nike
+HOST-SUFFIX,static-nike.com,Nike
+HOST-SUFFIX,swoo.sh,Nike
+HOST-SUFFIX,swoosh.com,Nike
 
 
 
 
 #大众点评 & 美团
 ##买演唱会门票
-HOST-SUFFIX, maoyan.com
-HOST, qcloud.dpfile.com
-HOST-KEYWORD, dianping
+HOST-SUFFIX, maoyan.com, Dir
+HOST, qcloud.dpfile.com, Dir
+HOST-KEYWORD, dianping, Dir
 # NAME: MeiTuan
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:17:36
 # HOST-SUFFIX: 7
 # TOTAL: 7
-HOST-SUFFIX,dianping.com
-HOST-SUFFIX,maoyan.com
-HOST-SUFFIX,meituan.com
-HOST-SUFFIX,meituan.net
-HOST-SUFFIX,mtyun.com
-HOST-SUFFIX,neixin.cn
-HOST-SUFFIX,sankuai.com
+HOST-SUFFIX,dianping.com, Dir
+HOST-SUFFIX,maoyan.com, Dir
+HOST-SUFFIX,meituan.com, Dir
+HOST-SUFFIX,meituan.net, Dir
+HOST-SUFFIX,mtyun.com, Dir
+HOST-SUFFIX,neixin.cn, Dir
+HOST-SUFFIX,sankuai.com, Dir
 
 
 
@@ -273,17 +273,17 @@ HOST-SUFFIX,sankuai.com
 # UPDATED: 2025-06-06 09:17:33
 # HOST-SUFFIX: 11
 # TOTAL: 11
-HOST-SUFFIX,baotoo.com
-HOST-SUFFIX,damai.cn
-HOST-SUFFIX,damaicdn.cn
-HOST-SUFFIX,dmcdn.cn
-HOST-SUFFIX,jtwsm.cn
-HOST-SUFFIX,maikr.com
-HOST-SUFFIX,maitix.com
-HOST-SUFFIX,maitix.net
-HOST-SUFFIX,piao.com.cn
-HOST-SUFFIX,piaogroup.com
-HOST-SUFFIX,yanchupiaojia.com
+HOST-SUFFIX,baotoo.com, Dir
+HOST-SUFFIX,damai.cn, Dir
+HOST-SUFFIX,damaicdn.cn, Dir
+HOST-SUFFIX,dmcdn.cn, Dir
+HOST-SUFFIX,jtwsm.cn, Dir
+HOST-SUFFIX,maikr.com, Dir
+HOST-SUFFIX,maitix.com, Dir
+HOST-SUFFIX,maitix.net, Dir
+HOST-SUFFIX,piao.com.cn, Dir
+HOST-SUFFIX,piaogroup.com, Dir
+HOST-SUFFIX,yanchupiaojia.com, Dir
 
 
 
@@ -294,146 +294,146 @@ HOST-SUFFIX,yanchupiaojia.com
 # UPDATED: 2024-01-08 16:03:00
 # HOST-SUFFIX: 47
 # TOTAL: 47
-HOST-SUFFIX,a2z.org.cn
-HOST-SUFFIX,aboutamazon.cn
-HOST-SUFFIX,alexafund.cn
-HOST-SUFFIX,alexafund.com.cn
-HOST-SUFFIX,amazon.cn
-HOST-SUFFIX,amazonaws.cn
-HOST-SUFFIX,amazonaws.com.cn
-HOST-SUFFIX,amazonbusiness.cn
-HOST-SUFFIX,amazonbusiness.com.cn
-HOST-SUFFIX,amazonchoice.cn
-HOST-SUFFIX,amazonchoice.com.cn
-HOST-SUFFIX,amazonchoices.cn
-HOST-SUFFIX,amazonchoices.com.cn
-HOST-SUFFIX,amazoninspire.cn
-HOST-SUFFIX,amazoninspire.com.cn
-HOST-SUFFIX,amazonlaunchpad.cn
-HOST-SUFFIX,amazonlaunchpad.com.cn
-HOST-SUFFIX,amazonlending.com.cn
-HOST-SUFFIX,amazonnow.cn
-HOST-SUFFIX,amazonnow.com.cn
-HOST-SUFFIX,amazonprimevideo.cn
-HOST-SUFFIX,amazonprimevideo.com.cn
-HOST-SUFFIX,amazonwebservices.com.cn
-HOST-SUFFIX,amazonworkdocs.cn
-HOST-SUFFIX,amazonworkdocs.com.cn
-HOST-SUFFIX,asfiovnxocqpcry.com.cn
-HOST-SUFFIX,assoc-amazon.cn
-HOST-SUFFIX,aws-border.cn
-HOST-SUFFIX,aws-icp-HOST-manager.cn
-HOST-SUFFIX,awsapps.cn
-HOST-SUFFIX,awsapps.com.cn
-HOST-SUFFIX,awsstatic.cn
-HOST-SUFFIX,cloudfront-test.cn
-HOST-SUFFIX,cloudfront.cn
-HOST-SUFFIX,kindle.cn
-HOST-SUFFIX,kindleoasis.cn
-HOST-SUFFIX,kindleoasis.com.cn
-HOST-SUFFIX,nwcdcloud.cn
-HOST-SUFFIX,nwcdcloud.com.cn
-HOST-SUFFIX,nwcddns.cn
-HOST-SUFFIX,nwcdinfosec.cn
-HOST-SUFFIX,primeday.cn
-HOST-SUFFIX,primeday.com.cn
-HOST-SUFFIX,route53.cn
-HOST-SUFFIX,sagemaker.com.cn
-HOST-SUFFIX,yamaxun.cn
-HOST-SUFFIX,z.cn
+HOST-SUFFIX,a2z.org.cn,AmazonCN
+HOST-SUFFIX,aboutamazon.cn,AmazonCN
+HOST-SUFFIX,alexafund.cn,AmazonCN
+HOST-SUFFIX,alexafund.com.cn,AmazonCN
+HOST-SUFFIX,amazon.cn,AmazonCN
+HOST-SUFFIX,amazonaws.cn,AmazonCN
+HOST-SUFFIX,amazonaws.com.cn,AmazonCN
+HOST-SUFFIX,amazonbusiness.cn,AmazonCN
+HOST-SUFFIX,amazonbusiness.com.cn,AmazonCN
+HOST-SUFFIX,amazonchoice.cn,AmazonCN
+HOST-SUFFIX,amazonchoice.com.cn,AmazonCN
+HOST-SUFFIX,amazonchoices.cn,AmazonCN
+HOST-SUFFIX,amazonchoices.com.cn,AmazonCN
+HOST-SUFFIX,amazoninspire.cn,AmazonCN
+HOST-SUFFIX,amazoninspire.com.cn,AmazonCN
+HOST-SUFFIX,amazonlaunchpad.cn,AmazonCN
+HOST-SUFFIX,amazonlaunchpad.com.cn,AmazonCN
+HOST-SUFFIX,amazonlending.com.cn,AmazonCN
+HOST-SUFFIX,amazonnow.cn,AmazonCN
+HOST-SUFFIX,amazonnow.com.cn,AmazonCN
+HOST-SUFFIX,amazonprimevideo.cn,AmazonCN
+HOST-SUFFIX,amazonprimevideo.com.cn,AmazonCN
+HOST-SUFFIX,amazonwebservices.com.cn,AmazonCN
+HOST-SUFFIX,amazonworkdocs.cn,AmazonCN
+HOST-SUFFIX,amazonworkdocs.com.cn,AmazonCN
+HOST-SUFFIX,asfiovnxocqpcry.com.cn,AmazonCN
+HOST-SUFFIX,assoc-amazon.cn,AmazonCN
+HOST-SUFFIX,aws-border.cn,AmazonCN
+HOST-SUFFIX,aws-icp-domain-manager.cn,AmazonCN
+HOST-SUFFIX,awsapps.cn,AmazonCN
+HOST-SUFFIX,awsapps.com.cn,AmazonCN
+HOST-SUFFIX,awsstatic.cn,AmazonCN
+HOST-SUFFIX,cloudfront-test.cn,AmazonCN
+HOST-SUFFIX,cloudfront.cn,AmazonCN
+HOST-SUFFIX,kindle.cn,AmazonCN
+HOST-SUFFIX,kindleoasis.cn,AmazonCN
+HOST-SUFFIX,kindleoasis.com.cn,AmazonCN
+HOST-SUFFIX,nwcdcloud.cn,AmazonCN
+HOST-SUFFIX,nwcdcloud.com.cn,AmazonCN
+HOST-SUFFIX,nwcddns.cn,AmazonCN
+HOST-SUFFIX,nwcdinfosec.cn,AmazonCN
+HOST-SUFFIX,primeday.cn,AmazonCN
+HOST-SUFFIX,primeday.com.cn,AmazonCN
+HOST-SUFFIX,route53.cn,AmazonCN
+HOST-SUFFIX,sagemaker.com.cn,AmazonCN
+HOST-SUFFIX,yamaxun.cn,AmazonCN
+HOST-SUFFIX,z.cn,AmazonCN
 
 
 
 
-# NAME: ChinaTelecom（中国电信）
+# NAME: ChinaTelecom
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:40
+# UPDATED: 2025-06-06 09:17:32
 # HOST-SUFFIX: 83
 # TOTAL: 83
-HOST-SUFFIX,01058511989.com
-HOST-SUFFIX,10000.gd.cn
-HOST-SUFFIX,189.cn
-HOST-SUFFIX,189jk.cn
-HOST-SUFFIX,189qas.com
-HOST-SUFFIX,21cn.com
-HOST-SUFFIX,21cn.net
-HOST-SUFFIX,21cnentmail.com
-HOST-SUFFIX,21cnimg.com
-HOST-SUFFIX,21cnsales.com
-HOST-SUFFIX,360sides.cn
-HOST-SUFFIX,360sides.com
-HOST-SUFFIX,360sides.net
-HOST-SUFFIX,4008100800.com
-HOST-SUFFIX,8009900800.com
-HOST-SUFFIX,bnet.cn
-HOST-SUFFIX,chinabnet.cn
-HOST-SUFFIX,chinatelecom-h.com
-HOST-SUFFIX,chinatelecom.cn
-HOST-SUFFIX,chinatelecom.com.cn
-HOST-SUFFIX,chinatelecom.net.cn
-HOST-SUFFIX,chinatelecom.org.cn
-HOST-SUFFIX,chinatelecomglobal.com
-HOST-SUFFIX,chntel.com
-HOST-SUFFIX,ctcdn.cn
-HOST-SUFFIX,ctcdn.com
-HOST-SUFFIX,ctcdn.com.cn
-HOST-SUFFIX,ctcdn.net
-HOST-SUFFIX,ctcdn.org
-HOST-SUFFIX,ctdns.cn
-HOST-SUFFIX,ctdns.com.cn
-HOST-SUFFIX,ctdns.net
-HOST-SUFFIX,ctdns.org
-HOST-SUFFIX,ctexcel.ca
-HOST-SUFFIX,ctexcel.com
-HOST-SUFFIX,ctexcel.com.hk
-HOST-SUFFIX,ctexcel.fr
-HOST-SUFFIX,ctexcel.us
-HOST-SUFFIX,cthcdn.cn
-HOST-SUFFIX,cthcdn.com
-HOST-SUFFIX,cthcdn.net
-HOST-SUFFIX,ctid.com.cn
-HOST-SUFFIX,ctlcdn.cn
-HOST-SUFFIX,ctlcdn.com
-HOST-SUFFIX,ctlcdn.net
-HOST-SUFFIX,ctmcdn.cn
-HOST-SUFFIX,ctmcdn.com
-HOST-SUFFIX,ctmcdn.net
-HOST-SUFFIX,ctrdc.com.cn
-HOST-SUFFIX,ctxcdn.cn
-HOST-SUFFIX,ctxcdn.com
-HOST-SUFFIX,ctxcdn.net
-HOST-SUFFIX,ctycdn.cn
-HOST-SUFFIX,ctycdn.com
-HOST-SUFFIX,ctycdn.net
-HOST-SUFFIX,ctycdn.net.cn
-HOST-SUFFIX,ctycdn.org
-HOST-SUFFIX,ctyun.cn
-HOST-SUFFIX,ctyun.com.cn
-HOST-SUFFIX,ctyunapi.cn
-HOST-SUFFIX,ctyunbdcsc.cn
-HOST-SUFFIX,ctyuncdn.cn
-HOST-SUFFIX,ctyuncdn.com
-HOST-SUFFIX,ctyuncdn.net
-HOST-SUFFIX,ctzcdn.cn
-HOST-SUFFIX,ctzcdn.com
-HOST-SUFFIX,ctzcdn.net
-HOST-SUFFIX,gd12349.com.cn
-HOST-SUFFIX,gdbnet.cn
-HOST-SUFFIX,gddc.com.cn
-HOST-SUFFIX,gdtel.com.cn
-HOST-SUFFIX,guangzhou.gd.cn
-HOST-SUFFIX,id6.me
-HOST-SUFFIX,iptv.gd.cn
-HOST-SUFFIX,iwuyou189.cn
-HOST-SUFFIX,iwuyou189.com
-HOST-SUFFIX,pzclub.cn
-HOST-SUFFIX,szny189.com
-HOST-SUFFIX,vnet.cn
-HOST-SUFFIX,wuyou189.cn
-HOST-SUFFIX,wuyou189.com
-HOST-SUFFIX,ycy100.cn
-HOST-SUFFIX,yichuangyun.com.cn
+HOST-SUFFIX,01058511989.com,ChinaTelecom
+HOST-SUFFIX,10000.gd.cn,ChinaTelecom
+HOST-SUFFIX,189.cn,ChinaTelecom
+HOST-SUFFIX,189jk.cn,ChinaTelecom
+HOST-SUFFIX,189qas.com,ChinaTelecom
+HOST-SUFFIX,21cn.com,ChinaTelecom
+HOST-SUFFIX,21cn.net,ChinaTelecom
+HOST-SUFFIX,21cnentmail.com,ChinaTelecom
+HOST-SUFFIX,21cnimg.com,ChinaTelecom
+HOST-SUFFIX,21cnsales.com,ChinaTelecom
+HOST-SUFFIX,360sides.cn,ChinaTelecom
+HOST-SUFFIX,360sides.com,ChinaTelecom
+HOST-SUFFIX,360sides.net,ChinaTelecom
+HOST-SUFFIX,4008100800.com,ChinaTelecom
+HOST-SUFFIX,8009900800.com,ChinaTelecom
+HOST-SUFFIX,bnet.cn,ChinaTelecom
+HOST-SUFFIX,chinabnet.cn,ChinaTelecom
+HOST-SUFFIX,chinatelecom-h.com,ChinaTelecom
+HOST-SUFFIX,chinatelecom.cn,ChinaTelecom
+HOST-SUFFIX,chinatelecom.com.cn,ChinaTelecom
+HOST-SUFFIX,chinatelecom.net.cn,ChinaTelecom
+HOST-SUFFIX,chinatelecom.org.cn,ChinaTelecom
+HOST-SUFFIX,chinatelecomglobal.com,ChinaTelecom
+HOST-SUFFIX,chntel.com,ChinaTelecom
+HOST-SUFFIX,ctcdn.cn,ChinaTelecom
+HOST-SUFFIX,ctcdn.com,ChinaTelecom
+HOST-SUFFIX,ctcdn.com.cn,ChinaTelecom
+HOST-SUFFIX,ctcdn.net,ChinaTelecom
+HOST-SUFFIX,ctcdn.org,ChinaTelecom
+HOST-SUFFIX,ctdns.cn,ChinaTelecom
+HOST-SUFFIX,ctdns.com.cn,ChinaTelecom
+HOST-SUFFIX,ctdns.net,ChinaTelecom
+HOST-SUFFIX,ctdns.org,ChinaTelecom
+HOST-SUFFIX,ctexcel.ca,ChinaTelecom
+HOST-SUFFIX,ctexcel.com,ChinaTelecom
+HOST-SUFFIX,ctexcel.com.hk,ChinaTelecom
+HOST-SUFFIX,ctexcel.fr,ChinaTelecom
+HOST-SUFFIX,ctexcel.us,ChinaTelecom
+HOST-SUFFIX,cthcdn.cn,ChinaTelecom
+HOST-SUFFIX,cthcdn.com,ChinaTelecom
+HOST-SUFFIX,cthcdn.net,ChinaTelecom
+HOST-SUFFIX,ctid.com.cn,ChinaTelecom
+HOST-SUFFIX,ctlcdn.cn,ChinaTelecom
+HOST-SUFFIX,ctlcdn.com,ChinaTelecom
+HOST-SUFFIX,ctlcdn.net,ChinaTelecom
+HOST-SUFFIX,ctmcdn.cn,ChinaTelecom
+HOST-SUFFIX,ctmcdn.com,ChinaTelecom
+HOST-SUFFIX,ctmcdn.net,ChinaTelecom
+HOST-SUFFIX,ctrdc.com.cn,ChinaTelecom
+HOST-SUFFIX,ctxcdn.cn,ChinaTelecom
+HOST-SUFFIX,ctxcdn.com,ChinaTelecom
+HOST-SUFFIX,ctxcdn.net,ChinaTelecom
+HOST-SUFFIX,ctycdn.cn,ChinaTelecom
+HOST-SUFFIX,ctycdn.com,ChinaTelecom
+HOST-SUFFIX,ctycdn.net,ChinaTelecom
+HOST-SUFFIX,ctycdn.net.cn,ChinaTelecom
+HOST-SUFFIX,ctycdn.org,ChinaTelecom
+HOST-SUFFIX,ctyun.cn,ChinaTelecom
+HOST-SUFFIX,ctyun.com.cn,ChinaTelecom
+HOST-SUFFIX,ctyunapi.cn,ChinaTelecom
+HOST-SUFFIX,ctyunbdcsc.cn,ChinaTelecom
+HOST-SUFFIX,ctyuncdn.cn,ChinaTelecom
+HOST-SUFFIX,ctyuncdn.com,ChinaTelecom
+HOST-SUFFIX,ctyuncdn.net,ChinaTelecom
+HOST-SUFFIX,ctzcdn.cn,ChinaTelecom
+HOST-SUFFIX,ctzcdn.com,ChinaTelecom
+HOST-SUFFIX,ctzcdn.net,ChinaTelecom
+HOST-SUFFIX,gd12349.com.cn,ChinaTelecom
+HOST-SUFFIX,gdbnet.cn,ChinaTelecom
+HOST-SUFFIX,gddc.com.cn,ChinaTelecom
+HOST-SUFFIX,gdtel.com.cn,ChinaTelecom
+HOST-SUFFIX,guangzhou.gd.cn,ChinaTelecom
+HOST-SUFFIX,id6.me,ChinaTelecom
+HOST-SUFFIX,iptv.gd.cn,ChinaTelecom
+HOST-SUFFIX,iwuyou189.cn,ChinaTelecom
+HOST-SUFFIX,iwuyou189.com,ChinaTelecom
+HOST-SUFFIX,pzclub.cn,ChinaTelecom
+HOST-SUFFIX,szny189.com,ChinaTelecom
+HOST-SUFFIX,vnet.cn,ChinaTelecom
+HOST-SUFFIX,wuyou189.cn,ChinaTelecom
+HOST-SUFFIX,wuyou189.com,ChinaTelecom
+HOST-SUFFIX,ycy100.cn,ChinaTelecom
+HOST-SUFFIX,yichuangyun.com.cn,ChinaTelecom
 
 
 
@@ -441,30 +441,30 @@ HOST-SUFFIX,yichuangyun.com.cn
 # NAME: AliPay
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:38
+# UPDATED: 2025-06-06 09:17:31
 # HOST-SUFFIX: 21
 # TOTAL: 21
-HOST-SUFFIX,alipay
-HOST-SUFFIX,alipay-corp.com
-HOST-SUFFIX,alipay-eco.com
-HOST-SUFFIX,alipay-inc.com
-HOST-SUFFIX,alipay-traffic.com
-HOST-SUFFIX,alipay.cn
-HOST-SUFFIX,alipay.com
-HOST-SUFFIX,alipay.com.cn
-HOST-SUFFIX,alipay.hk
-HOST-SUFFIX,alipay.net
-HOST-SUFFIX,alipaydesign.com
-HOST-SUFFIX,alipaydev.com
-HOST-SUFFIX,alipaydns.com
-HOST-SUFFIX,alipayeshop.com
-HOST-SUFFIX,alipaylog.com
-HOST-SUFFIX,alipaymo.com
-HOST-SUFFIX,alipayobjects.com
-HOST-SUFFIX,alipayplus.com
-HOST-SUFFIX,ifaa.org.cn
-HOST-SUFFIX,luohanacademy.com
-HOST-SUFFIX,sinopayment.com.cn
+HOST-SUFFIX,alipay,AliPay
+HOST-SUFFIX,alipay-corp.com,AliPay
+HOST-SUFFIX,alipay-eco.com,AliPay
+HOST-SUFFIX,alipay-inc.com,AliPay
+HOST-SUFFIX,alipay-traffic.com,AliPay
+HOST-SUFFIX,alipay.cn,AliPay
+HOST-SUFFIX,alipay.com,AliPay
+HOST-SUFFIX,alipay.com.cn,AliPay
+HOST-SUFFIX,alipay.hk,AliPay
+HOST-SUFFIX,alipay.net,AliPay
+HOST-SUFFIX,alipaydesign.com,AliPay
+HOST-SUFFIX,alipaydev.com,AliPay
+HOST-SUFFIX,alipaydns.com,AliPay
+HOST-SUFFIX,alipayeshop.com,AliPay
+HOST-SUFFIX,alipaylog.com,AliPay
+HOST-SUFFIX,alipaymo.com,AliPay
+HOST-SUFFIX,alipayobjects.com,AliPay
+HOST-SUFFIX,alipayplus.com,AliPay
+HOST-SUFFIX,ifaa.org.cn,AliPay
+HOST-SUFFIX,luohanacademy.com,AliPay
+HOST-SUFFIX,sinopayment.com.cn,AliPay
 
 
 
@@ -472,67 +472,67 @@ HOST-SUFFIX,sinopayment.com.cn
 # NAME: ICBC
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:42
+# UPDATED: 2025-06-06 09:17:35
 # HOST-SUFFIX: 58
 # TOTAL: 58
-HOST-SUFFIX,95588.com
-HOST-SUFFIX,95588.com.cn
-HOST-SUFFIX,dccnet.com.cn
-HOST-SUFFIX,icbc
-HOST-SUFFIX,icbc-at.com
-HOST-SUFFIX,icbc-cz.com
-HOST-SUFFIX,icbc-ltd.com
-HOST-SUFFIX,icbc-uk.com
-HOST-SUFFIX,icbc-us.com
-HOST-SUFFIX,icbc.ae
-HOST-SUFFIX,icbc.be
-HOST-SUFFIX,icbc.co.id
-HOST-SUFFIX,icbc.co.jp
-HOST-SUFFIX,icbc.co.kr
-HOST-SUFFIX,icbc.co.nl
-HOST-SUFFIX,icbc.com.au
-HOST-SUFFIX,icbc.com.cn
-HOST-SUFFIX,icbc.com.es
-HOST-SUFFIX,icbc.com.kh
-HOST-SUFFIX,icbc.com.kw
-HOST-SUFFIX,icbc.com.la
-HOST-SUFFIX,icbc.com.mm
-HOST-SUFFIX,icbc.com.mo
-HOST-SUFFIX,icbc.com.mx
-HOST-SUFFIX,icbc.com.pe
-HOST-SUFFIX,icbc.com.pk
-HOST-SUFFIX,icbc.com.qa
-HOST-SUFFIX,icbc.com.sg
-HOST-SUFFIX,icbc.com.vn
-HOST-SUFFIX,icbc.de
-HOST-SUFFIX,icbc.eu
-HOST-SUFFIX,icbc.lu
-HOST-SUFFIX,icbcalmaty.kz
-HOST-SUFFIX,icbcasia.com
-HOST-SUFFIX,icbcbr.com.br
-HOST-SUFFIX,icbccs.com.cn
-HOST-SUFFIX,icbccstz.com.cn
-HOST-SUFFIX,icbci.com.hk
-HOST-SUFFIX,icbcina.com
-HOST-SUFFIX,icbcindia.com
-HOST-SUFFIX,icbcit.com
-HOST-SUFFIX,icbclondon.com
-HOST-SUFFIX,icbcmanila.com.cn
-HOST-SUFFIX,icbcme.ae
-HOST-SUFFIX,icbcmoscow.ru
-HOST-SUFFIX,icbcmy.com
-HOST-SUFFIX,icbcnz.com
-HOST-SUFFIX,icbcpanama.com
-HOST-SUFFIX,icbcparis.fr
-HOST-SUFFIX,icbcpl.com
-HOST-SUFFIX,icbcstandard.com
-HOST-SUFFIX,icbcstandardbank.com
-HOST-SUFFIX,icbcstandardresources.com
-HOST-SUFFIX,icbcstandardsecurities.com
-HOST-SUFFIX,icbcswiss.com
-HOST-SUFFIX,icbcthai.com
-HOST-SUFFIX,icbkfs.com
-HOST-SUFFIX,icbkus.com
+HOST-SUFFIX,95588.com,ICBC
+HOST-SUFFIX,95588.com.cn,ICBC
+HOST-SUFFIX,dccnet.com.cn,ICBC
+HOST-SUFFIX,icbc,ICBC
+HOST-SUFFIX,icbc-at.com,ICBC
+HOST-SUFFIX,icbc-cz.com,ICBC
+HOST-SUFFIX,icbc-ltd.com,ICBC
+HOST-SUFFIX,icbc-uk.com,ICBC
+HOST-SUFFIX,icbc-us.com,ICBC
+HOST-SUFFIX,icbc.ae,ICBC
+HOST-SUFFIX,icbc.be,ICBC
+HOST-SUFFIX,icbc.co.id,ICBC
+HOST-SUFFIX,icbc.co.jp,ICBC
+HOST-SUFFIX,icbc.co.kr,ICBC
+HOST-SUFFIX,icbc.co.nl,ICBC
+HOST-SUFFIX,icbc.com.au,ICBC
+HOST-SUFFIX,icbc.com.cn,ICBC
+HOST-SUFFIX,icbc.com.es,ICBC
+HOST-SUFFIX,icbc.com.kh,ICBC
+HOST-SUFFIX,icbc.com.kw,ICBC
+HOST-SUFFIX,icbc.com.la,ICBC
+HOST-SUFFIX,icbc.com.mm,ICBC
+HOST-SUFFIX,icbc.com.mo,ICBC
+HOST-SUFFIX,icbc.com.mx,ICBC
+HOST-SUFFIX,icbc.com.pe,ICBC
+HOST-SUFFIX,icbc.com.pk,ICBC
+HOST-SUFFIX,icbc.com.qa,ICBC
+HOST-SUFFIX,icbc.com.sg,ICBC
+HOST-SUFFIX,icbc.com.vn,ICBC
+HOST-SUFFIX,icbc.de,ICBC
+HOST-SUFFIX,icbc.eu,ICBC
+HOST-SUFFIX,icbc.lu,ICBC
+HOST-SUFFIX,icbcalmaty.kz,ICBC
+HOST-SUFFIX,icbcasia.com,ICBC
+HOST-SUFFIX,icbcbr.com.br,ICBC
+HOST-SUFFIX,icbccs.com.cn,ICBC
+HOST-SUFFIX,icbccstz.com.cn,ICBC
+HOST-SUFFIX,icbci.com.hk,ICBC
+HOST-SUFFIX,icbcina.com,ICBC
+HOST-SUFFIX,icbcindia.com,ICBC
+HOST-SUFFIX,icbcit.com,ICBC
+HOST-SUFFIX,icbclondon.com,ICBC
+HOST-SUFFIX,icbcmanila.com.cn,ICBC
+HOST-SUFFIX,icbcme.ae,ICBC
+HOST-SUFFIX,icbcmoscow.ru,ICBC
+HOST-SUFFIX,icbcmy.com,ICBC
+HOST-SUFFIX,icbcnz.com,ICBC
+HOST-SUFFIX,icbcpanama.com,ICBC
+HOST-SUFFIX,icbcparis.fr,ICBC
+HOST-SUFFIX,icbcpl.com,ICBC
+HOST-SUFFIX,icbcstandard.com,ICBC
+HOST-SUFFIX,icbcstandardbank.com,ICBC
+HOST-SUFFIX,icbcstandardresources.com,ICBC
+HOST-SUFFIX,icbcstandardsecurities.com,ICBC
+HOST-SUFFIX,icbcswiss.com,ICBC
+HOST-SUFFIX,icbcthai.com,ICBC
+HOST-SUFFIX,icbkfs.com,ICBC
+HOST-SUFFIX,icbkus.com,ICBC
 
 
 
@@ -540,27 +540,27 @@ HOST-SUFFIX,icbkus.com
 # NAME: CCB
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:39
+# UPDATED: 2025-06-06 09:17:31
 # HOST-SUFFIX: 18
 # TOTAL: 18
-HOST-SUFFIX,ccb-life.com.cn
-HOST-SUFFIX,ccb.cn
-HOST-SUFFIX,ccb.com
-HOST-SUFFIX,ccb.com.cn
-HOST-SUFFIX,ccbcos.com
-HOST-SUFFIX,ccbfund.cn
-HOST-SUFFIX,ccbfund.com
-HOST-SUFFIX,ccbfund.com.cn
-HOST-SUFFIX,ccbfutures.cn
-HOST-SUFFIX,ccbfutures.com
-HOST-SUFFIX,ccbhome.cn
-HOST-SUFFIX,ccbhome.net
-HOST-SUFFIX,ccbintl.com.hk
-HOST-SUFFIX,ccbleasing.com
-HOST-SUFFIX,ccblife-test.com.cn
-HOST-SUFFIX,ccbseoul.com
-HOST-SUFFIX,ccbtrust.com.cn
-HOST-SUFFIX,ccbxt.com
+HOST-SUFFIX,ccb-life.com.cn,CCB
+HOST-SUFFIX,ccb.cn,CCB
+HOST-SUFFIX,ccb.com,CCB
+HOST-SUFFIX,ccb.com.cn,CCB
+HOST-SUFFIX,ccbcos.com,CCB
+HOST-SUFFIX,ccbfund.cn,CCB
+HOST-SUFFIX,ccbfund.com,CCB
+HOST-SUFFIX,ccbfund.com.cn,CCB
+HOST-SUFFIX,ccbfutures.cn,CCB
+HOST-SUFFIX,ccbfutures.com,CCB
+HOST-SUFFIX,ccbhome.cn,CCB
+HOST-SUFFIX,ccbhome.net,CCB
+HOST-SUFFIX,ccbintl.com.hk,CCB
+HOST-SUFFIX,ccbleasing.com,CCB
+HOST-SUFFIX,ccblife-test.com.cn,CCB
+HOST-SUFFIX,ccbseoul.com,CCB
+HOST-SUFFIX,ccbtrust.com.cn,CCB
+HOST-SUFFIX,ccbxt.com,CCB
 
 
 
@@ -568,140 +568,141 @@ HOST-SUFFIX,ccbxt.com
 # NAME: McDonalds
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:16:53
+# UPDATED: 2025-06-06 09:17:45
 # HOST-SUFFIX: 25
 # TOTAL: 25
-HOST-SUFFIX,4008-517-517.cn
-HOST-SUFFIX,aboutmcdonalds.com
-HOST-SUFFIX,happymeal.co.nz
-HOST-SUFFIX,happymeal.com.au
-HOST-SUFFIX,mcd.com
-HOST-SUFFIX,mcdelivery.co.id
-HOST-SUFFIX,mcdelivery.co.kr
-HOST-SUFFIX,mcdelivery.com.au
-HOST-SUFFIX,mcdelivery.com.my
-HOST-SUFFIX,mcdelivery.com.sg
-HOST-SUFFIX,mcdelivery.com.tw
-HOST-SUFFIX,mcdindonesia.com
-HOST-SUFFIX,mcdonalds.ca
-HOST-SUFFIX,mcdonalds.co.uk
-HOST-SUFFIX,mcdonalds.com
-HOST-SUFFIX,mcdonalds.com.cn
-HOST-SUFFIX,mcdonalds.com.hk
-HOST-SUFFIX,mcdonalds.hk
-HOST-SUFFIX,mcdonalds.it
-HOST-SUFFIX,mcdonalds.no
-HOST-SUFFIX,mcdonalds.se
-HOST-SUFFIX,mcdonaldsarabia.com
-HOST-SUFFIX,mcdonaldsparties.co.nz
-HOST-SUFFIX,mcdonaldsparties.com.au
-HOST-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
+HOST-SUFFIX,4008-517-517.cn,McDonalds
+HOST-SUFFIX,aboutmcdonalds.com,McDonalds
+HOST-SUFFIX,happymeal.co.nz,McDonalds
+HOST-SUFFIX,happymeal.com.au,McDonalds
+HOST-SUFFIX,mcd.com,McDonalds
+HOST-SUFFIX,mcdelivery.co.id,McDonalds
+HOST-SUFFIX,mcdelivery.co.kr,McDonalds
+HOST-SUFFIX,mcdelivery.com.au,McDonalds
+HOST-SUFFIX,mcdelivery.com.my,McDonalds
+HOST-SUFFIX,mcdelivery.com.sg,McDonalds
+HOST-SUFFIX,mcdelivery.com.tw,McDonalds
+HOST-SUFFIX,mcdindonesia.com,McDonalds
+HOST-SUFFIX,mcdonalds.ca,McDonalds
+HOST-SUFFIX,mcdonalds.co.uk,McDonalds
+HOST-SUFFIX,mcdonalds.com,McDonalds
+HOST-SUFFIX,mcdonalds.com.cn,McDonalds
+HOST-SUFFIX,mcdonalds.com.hk,McDonalds
+HOST-SUFFIX,mcdonalds.hk,McDonalds
+HOST-SUFFIX,mcdonalds.it,McDonalds
+HOST-SUFFIX,mcdonalds.no,McDonalds
+HOST-SUFFIX,mcdonalds.se,McDonalds
+HOST-SUFFIX,mcdonaldsarabia.com,McDonalds
+HOST-SUFFIX,mcdonaldsparties.co.nz,McDonalds
+HOST-SUFFIX,mcdonaldsparties.com.au,McDonalds
+HOST-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk,McDonalds
 
 
 
 
 #IKEA
 #~关联 Alibaba.list
-HOST-SUFFIX, oss-cn-shanghai.aliyuncs.com
-HOST, polyfill.alicdn.com
+HOST-SUFFIX, oss-cn-shanghai.aliyuncs.com, Dir
+HOST, polyfill.alicdn.com, Dir
+
 # NAME: IKEA
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:17:58
+# UPDATED: 2025-06-06 09:19:14
 # HOST-SUFFIX: 95
 # TOTAL: 95
-HOST-SUFFIX,ikea.ae
-HOST-SUFFIX,ikea.at
-HOST-SUFFIX,ikea.au
-HOST-SUFFIX,ikea.be
-HOST-SUFFIX,ikea.bg
-HOST-SUFFIX,ikea.bh
-HOST-SUFFIX,ikea.ca
-HOST-SUFFIX,ikea.ch
-HOST-SUFFIX,ikea.cl
-HOST-SUFFIX,ikea.cn
-HOST-SUFFIX,ikea.co.at
-HOST-SUFFIX,ikea.co.ca
-HOST-SUFFIX,ikea.co.de
-HOST-SUFFIX,ikea.co.id
-HOST-SUFFIX,ikea.co.il
-HOST-SUFFIX,ikea.co.jp
-HOST-SUFFIX,ikea.co.kr
-HOST-SUFFIX,ikea.co.om
-HOST-SUFFIX,ikea.co.ph
-HOST-SUFFIX,ikea.co.pl
-HOST-SUFFIX,ikea.co.th
-HOST-SUFFIX,ikea.co.uk
-HOST-SUFFIX,ikea.com
-HOST-SUFFIX,ikea.com.au
-HOST-SUFFIX,ikea.com.cy
-HOST-SUFFIX,ikea.com.de
-HOST-SUFFIX,ikea.com.do
-HOST-SUFFIX,ikea.com.eg
-HOST-SUFFIX,ikea.com.gr
-HOST-SUFFIX,ikea.com.hk
-HOST-SUFFIX,ikea.com.in
-HOST-SUFFIX,ikea.com.kw
-HOST-SUFFIX,ikea.com.lv
-HOST-SUFFIX,ikea.com.mx
-HOST-SUFFIX,ikea.com.my
-HOST-SUFFIX,ikea.com.om
-HOST-SUFFIX,ikea.com.pl
-HOST-SUFFIX,ikea.com.pr
-HOST-SUFFIX,ikea.com.pt
-HOST-SUFFIX,ikea.com.ro
-HOST-SUFFIX,ikea.com.ru
-HOST-SUFFIX,ikea.com.sa
-HOST-SUFFIX,ikea.com.sg
-HOST-SUFFIX,ikea.com.tr
-HOST-SUFFIX,ikea.com.tw
-HOST-SUFFIX,ikea.com.ua
-HOST-SUFFIX,ikea.cz
-HOST-SUFFIX,ikea.de
-HOST-SUFFIX,ikea.dk
-HOST-SUFFIX,ikea.do
-HOST-SUFFIX,ikea.ee
-HOST-SUFFIX,ikea.eg
-HOST-SUFFIX,ikea.es
-HOST-SUFFIX,ikea.fi
-HOST-SUFFIX,ikea.fr
-HOST-SUFFIX,ikea.gr
-HOST-SUFFIX,ikea.hk
-HOST-SUFFIX,ikea.hr
-HOST-SUFFIX,ikea.hu
-HOST-SUFFIX,ikea.ie
-HOST-SUFFIX,ikea.in
-HOST-SUFFIX,ikea.is
-HOST-SUFFIX,ikea.it
-HOST-SUFFIX,ikea.jo
-HOST-SUFFIX,ikea.jp
-HOST-SUFFIX,ikea.kr
-HOST-SUFFIX,ikea.lt
-HOST-SUFFIX,ikea.lv
-HOST-SUFFIX,ikea.ma
-HOST-SUFFIX,ikea.mx
-HOST-SUFFIX,ikea.my
-HOST-SUFFIX,ikea.net
-HOST-SUFFIX,ikea.nl
-HOST-SUFFIX,ikea.no
-HOST-SUFFIX,ikea.om
-HOST-SUFFIX,ikea.ph
-HOST-SUFFIX,ikea.pl
-HOST-SUFFIX,ikea.pr
-HOST-SUFFIX,ikea.pt
-HOST-SUFFIX,ikea.qa
-HOST-SUFFIX,ikea.ro
-HOST-SUFFIX,ikea.rs
-HOST-SUFFIX,ikea.ru
-HOST-SUFFIX,ikea.sa
-HOST-SUFFIX,ikea.sg
-HOST-SUFFIX,ikea.si
-HOST-SUFFIX,ikea.sk
-HOST-SUFFIX,ikea.ua
-HOST-SUFFIX,ikea.us
-HOST-SUFFIX,ingka-dt.cn
-HOST-SUFFIX,ingka-internal.cn
-HOST-SUFFIX,ingka-system.cn
-HOST-SUFFIX,ingka.com
-HOST-SUFFIX,ingka.dev
-HOST-SUFFIX,ingkacentres.com
+HOST-SUFFIX,ikea.ae,IKEA
+HOST-SUFFIX,ikea.at,IKEA
+HOST-SUFFIX,ikea.au,IKEA
+HOST-SUFFIX,ikea.be,IKEA
+HOST-SUFFIX,ikea.bg,IKEA
+HOST-SUFFIX,ikea.bh,IKEA
+HOST-SUFFIX,ikea.ca,IKEA
+HOST-SUFFIX,ikea.ch,IKEA
+HOST-SUFFIX,ikea.cl,IKEA
+HOST-SUFFIX,ikea.cn,IKEA
+HOST-SUFFIX,ikea.co.at,IKEA
+HOST-SUFFIX,ikea.co.ca,IKEA
+HOST-SUFFIX,ikea.co.de,IKEA
+HOST-SUFFIX,ikea.co.id,IKEA
+HOST-SUFFIX,ikea.co.il,IKEA
+HOST-SUFFIX,ikea.co.jp,IKEA
+HOST-SUFFIX,ikea.co.kr,IKEA
+HOST-SUFFIX,ikea.co.om,IKEA
+HOST-SUFFIX,ikea.co.ph,IKEA
+HOST-SUFFIX,ikea.co.pl,IKEA
+HOST-SUFFIX,ikea.co.th,IKEA
+HOST-SUFFIX,ikea.co.uk,IKEA
+HOST-SUFFIX,ikea.com,IKEA
+HOST-SUFFIX,ikea.com.au,IKEA
+HOST-SUFFIX,ikea.com.cy,IKEA
+HOST-SUFFIX,ikea.com.de,IKEA
+HOST-SUFFIX,ikea.com.do,IKEA
+HOST-SUFFIX,ikea.com.eg,IKEA
+HOST-SUFFIX,ikea.com.gr,IKEA
+HOST-SUFFIX,ikea.com.hk,IKEA
+HOST-SUFFIX,ikea.com.in,IKEA
+HOST-SUFFIX,ikea.com.kw,IKEA
+HOST-SUFFIX,ikea.com.lv,IKEA
+HOST-SUFFIX,ikea.com.mx,IKEA
+HOST-SUFFIX,ikea.com.my,IKEA
+HOST-SUFFIX,ikea.com.om,IKEA
+HOST-SUFFIX,ikea.com.pl,IKEA
+HOST-SUFFIX,ikea.com.pr,IKEA
+HOST-SUFFIX,ikea.com.pt,IKEA
+HOST-SUFFIX,ikea.com.ro,IKEA
+HOST-SUFFIX,ikea.com.ru,IKEA
+HOST-SUFFIX,ikea.com.sa,IKEA
+HOST-SUFFIX,ikea.com.sg,IKEA
+HOST-SUFFIX,ikea.com.tr,IKEA
+HOST-SUFFIX,ikea.com.tw,IKEA
+HOST-SUFFIX,ikea.com.ua,IKEA
+HOST-SUFFIX,ikea.cz,IKEA
+HOST-SUFFIX,ikea.de,IKEA
+HOST-SUFFIX,ikea.dk,IKEA
+HOST-SUFFIX,ikea.do,IKEA
+HOST-SUFFIX,ikea.ee,IKEA
+HOST-SUFFIX,ikea.eg,IKEA
+HOST-SUFFIX,ikea.es,IKEA
+HOST-SUFFIX,ikea.fi,IKEA
+HOST-SUFFIX,ikea.fr,IKEA
+HOST-SUFFIX,ikea.gr,IKEA
+HOST-SUFFIX,ikea.hk,IKEA
+HOST-SUFFIX,ikea.hr,IKEA
+HOST-SUFFIX,ikea.hu,IKEA
+HOST-SUFFIX,ikea.ie,IKEA
+HOST-SUFFIX,ikea.in,IKEA
+HOST-SUFFIX,ikea.is,IKEA
+HOST-SUFFIX,ikea.it,IKEA
+HOST-SUFFIX,ikea.jo,IKEA
+HOST-SUFFIX,ikea.jp,IKEA
+HOST-SUFFIX,ikea.kr,IKEA
+HOST-SUFFIX,ikea.lt,IKEA
+HOST-SUFFIX,ikea.lv,IKEA
+HOST-SUFFIX,ikea.ma,IKEA
+HOST-SUFFIX,ikea.mx,IKEA
+HOST-SUFFIX,ikea.my,IKEA
+HOST-SUFFIX,ikea.net,IKEA
+HOST-SUFFIX,ikea.nl,IKEA
+HOST-SUFFIX,ikea.no,IKEA
+HOST-SUFFIX,ikea.om,IKEA
+HOST-SUFFIX,ikea.ph,IKEA
+HOST-SUFFIX,ikea.pl,IKEA
+HOST-SUFFIX,ikea.pr,IKEA
+HOST-SUFFIX,ikea.pt,IKEA
+HOST-SUFFIX,ikea.qa,IKEA
+HOST-SUFFIX,ikea.ro,IKEA
+HOST-SUFFIX,ikea.rs,IKEA
+HOST-SUFFIX,ikea.ru,IKEA
+HOST-SUFFIX,ikea.sa,IKEA
+HOST-SUFFIX,ikea.sg,IKEA
+HOST-SUFFIX,ikea.si,IKEA
+HOST-SUFFIX,ikea.sk,IKEA
+HOST-SUFFIX,ikea.ua,IKEA
+HOST-SUFFIX,ikea.us,IKEA
+HOST-SUFFIX,ingka-dt.cn,IKEA
+HOST-SUFFIX,ingka-internal.cn,IKEA
+HOST-SUFFIX,ingka-system.cn,IKEA
+HOST-SUFFIX,ingka.com,IKEA
+HOST-SUFFIX,ingka.dev,IKEA
+HOST-SUFFIX,ingkacentres.com,IKEA
