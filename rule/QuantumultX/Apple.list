@@ -1,8 +1,8 @@
 #Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
-HOST, apple-finance.query.yahoo.com
+HOST, apple-finance.query.yahoo.com,Apple
 
 #苹果公司的推送通知服务（Apple Push Notification service, APNs）的一部分。
-host-suffix, push.apple.com
+host-suffix, push.apple.com,Apple
 
 #天氣預報正常顯示
 HOST, weather-analytics-events.apple.com,Apple

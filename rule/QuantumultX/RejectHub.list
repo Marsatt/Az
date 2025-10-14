@@ -6,7 +6,7 @@ HOST, ws-us2.pusher.com,RejectHub
 HOST, geoip.furman.im,RejectHub
 
 #chrome插件鼠标手势
-DOMAIN, api.mousegesturesapi.com
+DOMAIN, api.mousegesturesapi.com,RejectHub
 #chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
 HOST, safebrowsing.urlsec.qq.com,RejectHub
 

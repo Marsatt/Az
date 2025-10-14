@@ -1,9 +1,9 @@
 #京东旅游
-HOST-SUFFIX, rsscc.com
-HOST-SUFFIX, muniao.com
+HOST-SUFFIX, rsscc.com,JingDong
+HOST-SUFFIX, muniao.com,JingDong
 
 #手机版京东app
-IP-CIDR, 211.144.24.231/32
+IP-CIDR, 211.144.24.231/32,JingDong
 
 # NAME: JingDong
 # AUTHOR: blackmatrix7

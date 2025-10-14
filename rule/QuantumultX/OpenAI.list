@@ -1,13 +1,13 @@
 #cloudflare.com（验证网站）
-HOST-SUFFIX, cloudflare.com
+HOST-SUFFIX, cloudflare.com,OpenAI
 
 #groq
-HOST, api.groq.com
-HOST, auth.grokusercontent.com
-HOST, auth.x.ai
+HOST, api.groq.com,OpenAI
+HOST, auth.grokusercontent.com,OpenAI
+HOST, auth.x.ai,OpenAI
 
 #claude
-HOST,www.claudeusercontent.com
+HOST,www.claudeusercontent.com,OpenAI
 
 # NAME: Claude
 # AUTHOR: blackmatrix7
@@ -16,9 +16,9 @@ HOST,www.claudeusercontent.com
 # HOST: 1
 # HOST-SUFFIX: 2
 # TOTAL: 3
-HOST,cdn.usefathom.com
-HOST-SUFFIX,anthropic.com
-HOST-SUFFIX,claude.ai
+HOST,cdn.usefathom.com,OpenAI
+HOST-SUFFIX,anthropic.com,OpenAI
+HOST-SUFFIX,claude.ai,OpenAI
 
 
 
