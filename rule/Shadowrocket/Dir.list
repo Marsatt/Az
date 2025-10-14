@@ -1,3 +1,6 @@
+#苹果商店搜索功能，全部代理也无法搜索。
+DOMAIN, amp-api-search-edge.apps.apple.com
+
 #证书签发机构_国内版
 DOMAIN-SUFFIX, digicert.cn
 
