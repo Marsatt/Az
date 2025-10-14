@@ -1,154 +1,154 @@
 #证书签发机构_国际版
-DOMAIN-SUFFIX, digicert.com, Pro
+DOMAIN-SUFFIX, digicert.com
 
 #Z-Libly图书馆
-DOMAIN, dln1.ncdn.ec, Pro
-DOMAIN, z-library.sk, Pro
+DOMAIN, dln1.ncdn.ec
+DOMAIN, z-library.sk
 
 #JDownloader 2-下載工具自動更新。
-DOMAIN-SUFFIX, jdownloader.org, Pro
-DOMAIN-SUFFIX, appwork.org, Pro
+DOMAIN-SUFFIX, jdownloader.org
+DOMAIN-SUFFIX, appwork.org
 
 # Flightradar24 app
-DOMAIN-SUFFIX, privacy-center.org, Pro
-DOMAIN-SUFFIX, flightradar24.com, Pro
-DOMAIN, mobile-data.onetrust.io, Pro
+DOMAIN-SUFFIX, privacy-center.org
+DOMAIN-SUFFIX, flightradar24.com
+DOMAIN, mobile-data.onetrust.io
 #AR顯示飛機照片（信息框下面，第二個框）。
-DOMAIN, cdn.jetphotos.com, Pro
+DOMAIN, cdn.jetphotos.com
 
 #Marine Traffic
-DOMAIN-SUFFIX, marinetraffic.com, Pro
+DOMAIN-SUFFIX, marinetraffic.com
 
 #kick直播平台
-DOMAIN-SUFFIX, kick.com, Pro
+DOMAIN-SUFFIX, kick.com
 
 #jable.tv
-DOMAIN-SUFFIX, mushroomtrack.com, Pro
-DOMAIN-SUFFIX, jable.tv, Pro
+DOMAIN-SUFFIX, mushroomtrack.com
+DOMAIN-SUFFIX, jable.tv
 
 #www.xvideos.com
-DOMAIN-SUFFIX, xvideos.com, Pro
-DOMAIN-SUFFIX, xvideos-cdn.com, Pro
+DOMAIN-SUFFIX, xvideos.com
+DOMAIN-SUFFIX, xvideos-cdn.com
 
 #www.xnxx.com
-DOMAIN-SUFFIX, xnxx-cdn.com, Pro
-DOMAIN-SUFFIX, xnxx.com, Pro
+DOMAIN-SUFFIX, xnxx-cdn.com
+DOMAIN-SUFFIX, xnxx.com
 
 #myfreecams.com
-DOMAIN-SUFFIX, mfcimg.com, Pro
-DOMAIN-SUFFIX, myfreecams.com, Pro
+DOMAIN-SUFFIX, mfcimg.com
+DOMAIN-SUFFIX, myfreecams.com
 
 #afreecatv & sooplive
-DOMAIN-SUFFIX, afreecatv.com, Pro
-DOMAIN-SUFFIX, sooplive.co.kr, Pro
+DOMAIN-SUFFIX, afreecatv.com
+DOMAIN-SUFFIX, sooplive.co.kr
 
 #fbjav.com
-DOMAIN-SUFFIX, player.imcontent.me, Pro
-DOMAIN-SUFFIX, images.imfb.xyz, Pro
-DOMAIN-SUFFIX, fbjav.com, Pro
-DOMAIN-SUFFIX, svjav.com, Pro
+DOMAIN-SUFFIX, player.imcontent.me
+DOMAIN-SUFFIX, images.imfb.xyz
+DOMAIN-SUFFIX, fbjav.com
+DOMAIN-SUFFIX, svjav.com
 
 #MacOS破解網站 xm
-DOMAIN-SUFFIX, mediafire.com, Pro
-DOMAIN, psv4.userapi.com, Pro
-DOMAIN, unpkg.com, Pro
-DOMAIN-SUFFIX, vk.com, Pro
-DOMAIN, unpkg.com, Pro
-DOMAIN-SUFFIX, vk.com, Pro
-DOMAIN-SUFFIX, appstorrent.ru, Pro
-DOMAIN-SUFFIX, xmac.app, Pro
+DOMAIN-SUFFIX, mediafire.com
+DOMAIN, psv4.userapi.com
+DOMAIN, unpkg.com
+DOMAIN-SUFFIX, vk.com
+DOMAIN, unpkg.com
+DOMAIN-SUFFIX, vk.com
+DOMAIN-SUFFIX, appstorrent.ru
+DOMAIN-SUFFIX, xmac.app
 
 #MacOS破解網站 appstorrent
-DOMAIN, appstorrent.org, Pro
+DOMAIN, appstorrent.org
 
 #missav.com
-DOMAIN-KEYWORD, missav, Pro
-DOMAIN-SUFFIX, njav.tv, Pro
-DOMAIN, surrit.com, Pro
-DOMAIN, fourhoi.com, Pro
-DOMAIN, r.trackwilltrk.com, Pro
+DOMAIN-KEYWORD, missav
+DOMAIN-SUFFIX, njav.tv
+DOMAIN, surrit.com
+DOMAIN, fourhoi.com
+DOMAIN, r.trackwilltrk.com
 
 #ikea.com
-DOMAIN-SUFFIX, ikea.com, Pro
+DOMAIN-SUFFIX, ikea.com
 
 # Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
-DOMAIN-SUFFIX, cloudfront.net, Pro
+DOMAIN-SUFFIX, cloudfront.net
 
 #chaturbate.jjgirls.com
 ##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
-DOMAIN-SUFFIX, highwebmedia.com, Pro
+DOMAIN-SUFFIX, highwebmedia.com
 #成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
 ##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
-DOMAIN-SUFFIX, mmcdn.com, Pro
-DOMAIN, chaturbate.jjgirls.com, Pro
-DOMAIN, internet-up.ably-realtime.com, Pro
+DOMAIN-SUFFIX, mmcdn.com
+DOMAIN, chaturbate.jjgirls.com
+DOMAIN, internet-up.ably-realtime.com
 
 #stripchat & hplives
 #@!显示主播预览图片
-DOMAIN, img.doppiocdn.org, Pro
-DOMAIN-SUFFIX, loo3laej.com, Pro
-DOMAIN, mc.thedd.online, Pro
-DOMAIN, api.lovense-api.com, Pro
-DOMAIN-SUFFIX, doppiocdn.live, Pro
-DOMAIN-SUFFIX, doppiocdn.com, Pro
-DOMAIN-SUFFIX, doppiocdn.net, Pro
-DOMAIN-SUFFIX, stripchat.com, Pro
-DOMAIN-SUFFIX, oppiocdn.media, Pro
-DOMAIN-SUFFIX, hplives.com, Pro
-DOMAIN-SUFFIX, hpjav.tv, Pro
-DOMAIN-SUFFIX, sc-apps.com, Pro
-DOMAIN-SUFFIX, strpst.com, Pro
+DOMAIN, img.doppiocdn.org
+DOMAIN-SUFFIX, loo3laej.com
+DOMAIN, mc.thedd.online
+DOMAIN, api.lovense-api.com
+DOMAIN-SUFFIX, doppiocdn.live
+DOMAIN-SUFFIX, doppiocdn.com
+DOMAIN-SUFFIX, doppiocdn.net
+DOMAIN-SUFFIX, stripchat.com
+DOMAIN-SUFFIX, oppiocdn.media
+DOMAIN-SUFFIX, hplives.com
+DOMAIN-SUFFIX, hpjav.tv
+DOMAIN-SUFFIX, sc-apps.com
+DOMAIN-SUFFIX, strpst.com
 
 #Notion
-DOMAIN-SUFFIX, notion.so, Pro
-DOMAIN-SUFFIX, notion.com, Pro
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, notion.com
 #iPhone正常访问Notion
-DOMAIN, http-inputs-notion.splunkcloud.com, Pro
+DOMAIN, http-inputs-notion.splunkcloud.com
 #上传图片
-DOMAIN, img.notionusercontent.com, Pro
+DOMAIN, img.notionusercontent.com
 #显示图片_关联amazon
-DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com, Pro
+DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com
 
 #Pornhub
-DOMAIN-SUFFIX, pornhub.org, Pro
-DOMAIN-SUFFIX, pornhub.com, Pro
-DOMAIN-SUFFIX, phncdn.com, Pro
-DOMAIN-SUFFIX, phprcdn.com, Pro
+DOMAIN-SUFFIX, pornhub.org
+DOMAIN-SUFFIX, pornhub.com
+DOMAIN-SUFFIX, phncdn.com
+DOMAIN-SUFFIX, phprcdn.com
 #Pornhub_移动设备需要允许这个网址
-DOMAIN, video.sacdnssedge.com, Pro
+DOMAIN, video.sacdnssedge.com
 
 # DNS Leak from Shadowrocket Default
-DOMAIN-SUFFIX, dnsleaktest.com, Pro
-DOMAIN-SUFFIX, dnsleak.com, Pro
-DOMAIN-SUFFIX, expressvpn.com, Pro
-DOMAIN-SUFFIX, nordvpn.com, Pro
-DOMAIN-SUFFIX, surfshark.com, Pro
-DOMAIN-SUFFIX, ipleak.net, Pro
-DOMAIN-SUFFIX, perfect-privacy.com, Pro
-DOMAIN-SUFFIX, browserleaks.com, Pro
-DOMAIN-SUFFIX, browserleaks.org, Pro
-DOMAIN-SUFFIX, vpnunlimited.com, Pro
-DOMAIN-SUFFIX, whoer.net, Pro
-DOMAIN-SUFFIX, whrq.net, Pro
+DOMAIN-SUFFIX, dnsleaktest.com
+DOMAIN-SUFFIX, dnsleak.com
+DOMAIN-SUFFIX, expressvpn.com
+DOMAIN-SUFFIX, nordvpn.com
+DOMAIN-SUFFIX, surfshark.com
+DOMAIN-SUFFIX, ipleak.net
+DOMAIN-SUFFIX, perfect-privacy.com
+DOMAIN-SUFFIX, browserleaks.com
+DOMAIN-SUFFIX, browserleaks.org
+DOMAIN-SUFFIX, vpnunlimited.com
+DOMAIN-SUFFIX, whoer.net
+DOMAIN-SUFFIX, whrq.net
 
 # Astrill
-DOMAIN-SUFFIX, astrill.com, Pro
-DOMAIN-SUFFIX, astrill.org, Pro
-DOMAIN-SUFFIX, dnsleak.asn247.net, Pro
+DOMAIN-SUFFIX, astrill.com
+DOMAIN-SUFFIX, astrill.org
+DOMAIN-SUFFIX, dnsleak.asn247.net
 
 # Surfshark
-DOMAIN-SUFFIX, surfshark.com, Pro
-DOMAIN-SUFFIX, surfsharkdns.com, Pro
+DOMAIN-SUFFIX, surfshark.com
+DOMAIN-SUFFIX, surfsharkdns.com
 
 # Pixelscan
-DOMAIN-SUFFIX, pixelscan.net, Pro
+DOMAIN-SUFFIX, pixelscan.net
 
 # PING0
-DOMAIN, ipv4.ping0.cc, Pro
-DOMAIN, ipv6.ping0.cc, Pro
+DOMAIN, ipv4.ping0.cc
+DOMAIN, ipv6.ping0.cc
 
 # IPAPI.CO
-DOMAIN-SUFFIX, ipapi.co, Pro
+DOMAIN-SUFFIX, ipapi.co
 
 # BrowserScan
-DOMAIN, ip-scan.adspower.net, Pro
+DOMAIN, ip-scan.adspower.net

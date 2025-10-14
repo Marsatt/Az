@@ -1,154 +1,153 @@
 #证书签发机构_国际版
-host-suffix, digicert.com
+host-suffix, digicert.com, Pro
 
 #Z-Libly图书馆
-HOST, dln1.ncdn.ec
-HOST, z-library.sk
+HOST, dln1.ncdn.ec, Pro
+HOST, z-library.sk, Pro
 
 #JDownloader 2-下載工具自動更新。
-HOST-SUFFIX, jdownloader.org
-HOST-SUFFIX, appwork.org
+HOST-SUFFIX, jdownloader.org, Pro
+HOST-SUFFIX, appwork.org, Pro
 
 # Flightradar24 app
-HOST-SUFFIX, privacy-center.org
-HOST-SUFFIX, flightradar24.com
-HOST, mobile-data.onetrust.io
+HOST-SUFFIX, privacy-center.org, Pro
+HOST-SUFFIX, flightradar24.com, Pro
+HOST, mobile-data.onetrust.io, Pro
 #AR顯示飛機照片（信息框下面，第二個框）。
-HOST, cdn.jetphotos.com
+HOST, cdn.jetphotos.com, Pro
 
 #Marine Traffic
-HOST-SUFFIX, marinetraffic.com
+HOST-SUFFIX, marinetraffic.com, Pro
 
 #kick直播平台
-HOST-SUFFIX, kick.com
+HOST-SUFFIX, kick.com, Pro
 
 #jable.tv
-HOST-SUFFIX, mushroomtrack.com
-HOST-SUFFIX, jable.tv
+HOST-SUFFIX, mushroomtrack.com, Pro
+HOST-SUFFIX, jable.tv, Pro
 
 #www.xvideos.com
-HOST-SUFFIX, xvideos.com
-HOST-SUFFIX, xvideos-cdn.com
+HOST-SUFFIX, xvideos.com, Pro
+HOST-SUFFIX, xvideos-cdn.com, Pro
 
 #www.xnxx.com
-HOST-SUFFIX, xnxx-cdn.com
-HOST-SUFFIX, xnxx.com
+HOST-SUFFIX, xnxx-cdn.com, Pro
+HOST-SUFFIX, xnxx.com, Pro
 
 #myfreecams.com
-HOST-SUFFIX, mfcimg.com
-HOST-SUFFIX, myfreecams.com
+HOST-SUFFIX, mfcimg.com, Pro
+HOST-SUFFIX, myfreecams.com, Pro
 
 #afreecatv & sooplive
-HOST-SUFFIX, afreecatv.com
-HOST-SUFFIX, sooplive.co.kr
+HOST-SUFFIX, afreecatv.com, Pro
+HOST-SUFFIX, sooplive.co.kr, Pro
 
 #fbjav.com
-HOST-SUFFIX, player.imcontent.me
-HOST-SUFFIX, images.imfb.xyz
-HOST-SUFFIX, fbjav.com
-HOST-SUFFIX, svjav.com
+HOST-SUFFIX, player.imcontent.me, Pro
+HOST-SUFFIX, images.imfb.xyz, Pro
+HOST-SUFFIX, fbjav.com, Pro
+HOST-SUFFIX, svjav.com, Pro
 
 #MacOS破解網站 xm
-HOST-SUFFIX, mediafire.com
-HOST, psv4.userapi.com
-HOST, unpkg.com
-HOST-SUFFIX, vk.com
-HOST, unpkg.com
-HOST-SUFFIX, vk.com
-HOST-SUFFIX, appstorrent.ru
-HOST-SUFFIX, xmac.app
+HOST-SUFFIX, mediafire.com, Pro
+HOST, psv4.userapi.com, Pro
+HOST, unpkg.com, Pro
+HOST-SUFFIX, vk.com, Pro
+HOST, unpkg.com, Pro
+HOST-SUFFIX, vk.com, Pro
+HOST-SUFFIX, appstorrent.ru, Pro
+HOST-SUFFIX, xmac.app, Pro
 
 #MacOS破解網站 appstorrent
-HOST, appstorrent.org
+HOST, appstorrent.org, Pro
 
 #missav.com
-HOST-KEYWORD, missav
-HOST-SUFFIX, njav.tv
-HOST, surrit.com
-HOST, fourhoi.com
-HOST, r.trackwilltrk.com
+HOST-KEYWORD, missav, Pro
+HOST-SUFFIX, njav.tv, Pro
+HOST, surrit.com, Pro
+HOST, fourhoi.com, Pro
+HOST, r.trackwilltrk.com, Pro
 
 #ikea.com
-HOST-SUFFIX, ikea.com
+HOST-SUFFIX, ikea.com, Pro
 
 # Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
-HOST-SUFFIX, cloudfront.net
+HOST-SUFFIX, cloudfront.net, Pro
 
 #chaturbate.jjgirls.com
 ##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
-HOST-SUFFIX, highwebmedia.com
-#成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
+HOST-SUFFIX, highwebmedia.com, Pro
 ##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
-HOST-SUFFIX, mmcdn.com
-HOST, chaturbate.jjgirls.com
-HOST, internet-up.ably-realtime.com
+HOST-SUFFIX, mmcdn.com, Pro
+HOST, chaturbate.jjgirls.com, Pro
+HOST, internet-up.ably-realtime.com, Pro
 
 #stripchat & hplives
 #@!显示主播预览图片
-HOST, img.doppiocdn.org
-HOST-SUFFIX, loo3laej.com
-HOST, mc.thedd.online
-HOST, api.lovense-api.com
-HOST-SUFFIX, doppiocdn.live
-HOST-SUFFIX, doppiocdn.com
-HOST-SUFFIX, doppiocdn.net
-HOST-SUFFIX, stripchat.com
-HOST-SUFFIX, oppiocdn.media
-HOST-SUFFIX, hplives.com
-HOST-SUFFIX, hpjav.tv
-HOST-SUFFIX, sc-apps.com
-HOST-SUFFIX, strpst.com
+HOST, img.doppiocdn.org, Pro
+HOST-SUFFIX, loo3laej.com, Pro
+HOST, mc.thedd.online, Pro
+HOST, api.lovense-api.com, Pro
+HOST-SUFFIX, doppiocdn.live, Pro
+HOST-SUFFIX, doppiocdn.com, Pro
+HOST-SUFFIX, doppiocdn.net, Pro
+HOST-SUFFIX, stripchat.com, Pro
+HOST-SUFFIX, oppiocdn.media, Pro
+HOST-SUFFIX, hplives.com, Pro
+HOST-SUFFIX, hpjav.tv, Pro
+HOST-SUFFIX, sc-apps.com, Pro
+HOST-SUFFIX, strpst.com, Pro
 
 #Notion
-HOST-SUFFIX, notion.so
-HOST-SUFFIX, notion.com
+HOST-SUFFIX, notion.so, Pro
+HOST-SUFFIX, notion.com, Pro
 #iPhone正常访问Notion
-HOST, http-inputs-notion.splunkcloud.com
+HOST, http-inputs-notion.splunkcloud.com, Pro
 #上传图片
-HOST, img.notionusercontent.com
+HOST, img.notionusercontent.com, Pro
 #显示图片_关联amazon
-HOST, prod-files-secure.s3.us-west-2.amazonaws.com
+HOST, prod-files-secure.s3.us-west-2.amazonaws.com, Pro
 
 #Pornhub
-HOST-SUFFIX, pornhub.org
-HOST-SUFFIX, pornhub.com
-HOST-SUFFIX, phncdn.com
-HOST-SUFFIX, phprcdn.com
+HOST-SUFFIX, pornhub.org, Pro
+HOST-SUFFIX, pornhub.com, Pro
+HOST-SUFFIX, phncdn.com, Pro
+HOST-SUFFIX, phprcdn.com, Pro
 #Pornhub_移动设备需要允许这个网址
-HOST, video.sacdnssedge.com
+HOST, video.sacdnssedge.com, Pro
 
 # DNS Leak from Shadowrocket Default
-HOST-SUFFIX, dnsleaktest.com
-HOST-SUFFIX, dnsleak.com
-HOST-SUFFIX, expressvpn.com
-HOST-SUFFIX, nordvpn.com
-HOST-SUFFIX, surfshark.com
-HOST-SUFFIX, ipleak.net
-HOST-SUFFIX, perfect-privacy.com
-HOST-SUFFIX, browserleaks.com
-HOST-SUFFIX, browserleaks.org
-HOST-SUFFIX, vpnunlimited.com
-HOST-SUFFIX, whoer.net
-HOST-SUFFIX, whrq.net
+HOST-SUFFIX, dnsleaktest.com, Pro
+HOST-SUFFIX, dnsleak.com, Pro
+HOST-SUFFIX, expressvpn.com, Pro
+HOST-SUFFIX, nordvpn.com, Pro
+HOST-SUFFIX, surfshark.com, Pro
+HOST-SUFFIX, ipleak.net, Pro
+HOST-SUFFIX, perfect-privacy.com, Pro
+HOST-SUFFIX, browserleaks.com, Pro
+HOST-SUFFIX, browserleaks.org, Pro
+HOST-SUFFIX, vpnunlimited.com, Pro
+HOST-SUFFIX, whoer.net, Pro
+HOST-SUFFIX, whrq.net, Pro
 
-# Astrill
-HOST-SUFFIX, astrill.com
-HOST-SUFFIX, astrill.org
-HOST-SUFFIX, dnsleak.asn247.net
+#Astrill
+HOST-SUFFIX, astrill.com, Pro
+HOST-SUFFIX, astrill.org, Pro
+HOST-SUFFIX, dnsleak.asn247.net, Pro
 
 # Surfshark
-HOST-SUFFIX, surfshark.com
-HOST-SUFFIX, surfsharkdns.com
+HOST-SUFFIX, surfshark.com, Pro
+HOST-SUFFIX, surfsharkdns.com, Pro
 
 # Pixelscan
-HOST-SUFFIX, pixelscan.net
+HOST-SUFFIX, pixelscan.net, Pro
 
 # PING0
-HOST, ipv4.ping0.cc
-HOST, ipv6.ping0.cc
+HOST, ipv4.ping0.cc, Pro
+HOST, ipv6.ping0.cc, Pro
 
 # IPAPI.CO
-HOST-SUFFIX, ipapi.co
+HOST-SUFFIX, ipapi.co, Pro
 
 # BrowserScan
-HOST, ip-scan.adspower.net
+HOST, ip-scan.adspower.net, Pro
