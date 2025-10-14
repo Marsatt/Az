@@ -5,6 +5,11 @@ HOST-SUFFIX, narakahunter.mvw,RejectHub
 HOST, ws-us2.pusher.com,RejectHub
 HOST, geoip.furman.im,RejectHub
 
+#chrome插件鼠标手势
+DOMAIN, api.mousegesturesapi.com
+#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
+HOST, safebrowsing.urlsec.qq.com,RejectHub
+
 #app_picsew
 host-suffix, picsew.app,RejectHub
 
@@ -69,9 +74,6 @@ HOST-SUFFIX, fpjs.io,RejectHub
 
 #Twtich
 HOST-SUFFIX, imrworldwide.com,RejectHub
-
-#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
-HOST, safebrowsing.urlsec.qq.com,RejectHub
 
 #微信电脑版，无用的网址。
 HOST, dldir1v6.qq.com,RejectHub

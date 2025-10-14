@@ -5,6 +5,11 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#chrome插件鼠标手势
+DOMAIN, api.mousegesturesapi.com
+#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
+DOMAIN, safebrowsing.urlsec.qq.com
+
 #app_picsew
 DOMAIN-SUFFIX, picsew.app
 
@@ -69,9 +74,6 @@ DOMAIN-SUFFIX, fpjs.io
 
 #Twtich
 DOMAIN-SUFFIX, imrworldwide.com
-
-#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
-DOMAIN, safebrowsing.urlsec.qq.com
 
 #微信电脑版，无用的网址。
 DOMAIN, dldir1v6.qq.com

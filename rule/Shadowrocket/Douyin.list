@@ -12,7 +12,9 @@ DOMAIN-SUFFIX, livehwc3.cn
 
 
 DOMAIN-SUFFIX, douyin.com
-
+#####
+URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
+#####
 
 #电脑版
 DOMAIN-SUFFIX, 100ycdn.com
