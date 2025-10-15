@@ -11,8 +11,9 @@ HOST-SUFFIX, v.smtcdns.com,DouYin
 HOST-SUFFIX, livehwc3.cn,DouYin
 
 
-HOST-KEYWORD, douyin,DouYin
-HOST-KEYWORD, douyincdn,DouYin
+USER-AGENT, *douyin*,DouYin
+USER-AGENT, *douyincdn*,DouYin
+
 
 #电脑版
 HOST-SUFFIX, 100ycdn.com,DouYin
