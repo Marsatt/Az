@@ -100,8 +100,6 @@ HOST-SUFFIX, pdfgear.com,RejectHub
 ##抖音电脑版，无用的网址。
 HOST-SUFFIX, huoshanstatic.com,RejectHub
 HOST-SUFFIX, toutiaostatic.com,RejectHub
-##抖音手机版，无用的网址。
-URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*),RejectHub
 IP-CIDR, 221.204.46.250/32,RejectHub
 HOST, wiki5.baike.com,RejectHub
 HOST, m.baike.com,RejectHub
