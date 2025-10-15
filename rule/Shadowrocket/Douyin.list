@@ -13,9 +13,8 @@ DOMAIN-SUFFIX, livehwc3.cn
 
 DOMAIN-KEYWORD, douyin
 DOMAIN-KEYWORD, douyincdn
-#####
+
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
-#####
 
 #电脑版
 DOMAIN-SUFFIX, 100ycdn.com
