@@ -87,7 +87,6 @@ IP-CIDR, 218.61.162.1/24,RejectHub
 
 #拼多多_无用的网址。
 IP-CIDR, 81.69.105.47/32,RejectHub
-#URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+/d.*id=
 
 #网易有道词典
 HOST, gorgon.youdao.com,RejectHub
