@@ -11,7 +11,8 @@ DOMAIN-SUFFIX, v.smtcdns.com
 DOMAIN-SUFFIX, livehwc3.cn
 
 
-DOMAIN-SUFFIX, douyin.com
+DOMAIN-KEYWORD, douyin
+DOMAIN-KEYWORD, douyincdn
 #####
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 #####
