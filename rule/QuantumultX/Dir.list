@@ -1,6 +1,14 @@
 #苹果商店搜索功能，全部代理也无法搜索。
 host, amp-api-search-edge.apps.apple.com, Dir
 
+#蘋果
+#苹果地图也需要这个高德网址：
+HOST-SUFFIX, autonavi.com, Dir
+
+HOST, www.apple.com.cn, Dir
+HOST, apple.com.cn, Dir
+HOST-SUFFIX, ls.apple.com, Dir
+
 #证书签发机构_国内版
 host-suffix, digicert.cn, Dir
 
@@ -97,14 +105,6 @@ HOST-SUFFIX, csdnimg.cn, Dir
 
 #adidas
 HOST-SUFFIX, adidas.com.cn, Dir
-
-#蘋果
-#苹果地图也需要这个高德网址：
-HOST-SUFFIX, autonavi.com, Dir
-
-HOST, www.apple.com.cn, Dir
-HOST, apple.com.cn, Dir
-HOST-SUFFIX, ls.apple.com, Dir
 
 #油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
 HOST-SUFFIX, doseeing.com, Dir
