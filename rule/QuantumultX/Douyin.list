@@ -11,10 +11,6 @@ HOST-SUFFIX, v.smtcdns.com,DouYin
 HOST-SUFFIX, livehwc3.cn,DouYin
 
 
-USER-AGENT, *douyin*,DouYin
-USER-AGENT, *douyincdn*,DouYin
-
-
 #电脑版
 HOST-SUFFIX, 100ycdn.com,DouYin
 #@!直播录制需要网址
