@@ -5,6 +5,9 @@ HOST-SUFFIX, narakahunter.mvw,RejectHub
 HOST, ws-us2.pusher.com,RejectHub
 HOST, geoip.furman.im,RejectHub
 
+#iPhone&iPad控制mac_app
+host, rs.ltd
+
 #chrome插件鼠标手势
 DOMAIN, api.mousegesturesapi.com,RejectHub
 #chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
