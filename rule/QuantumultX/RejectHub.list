@@ -10,6 +10,7 @@ host, rs.ltd
 
 #chrome插件
 #油猴_沉浸式翻译
+host, ai.immersivetranslate.com
 host, s.immersivetranslate.com
 #chrome插件鼠标手势
 DOMAIN, api.mousegesturesapi.com,RejectHub
