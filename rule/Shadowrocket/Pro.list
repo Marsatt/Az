@@ -76,6 +76,7 @@ DOMAIN-SUFFIX, cloudfront.net
 
 #chaturbate.jjgirls.com
 ##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
+DOMAIN, assets.striiiipst
 DOMAIN-SUFFIX, highwebmedia.com
 #成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
 ##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
