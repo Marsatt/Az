@@ -1,17 +1,20 @@
 #未知
-HOST-SUFFIX, hotfree123.com,RejectHub
-HOST-SUFFIX, narakahunter.mvw,RejectHub
+host-suffix, hotfree123.com,RejectHub
+host-suffix, narakahunter.mvw,RejectHub
 #@!开机打开Chrome后显示的
-HOST, ws-us2.pusher.com,RejectHub
-HOST, geoip.furman.im,RejectHub
+host, ws-us2.pusher.com,RejectHub
+host, geoip.furman.im,RejectHub
 
 #iPhone&iPad控制mac_app
 host, rs.ltd
 
+#chrome插件
+#油猴_沉浸式翻译
+host, s.immersivetranslate.com
 #chrome插件鼠标手势
 DOMAIN, api.mousegesturesapi.com,RejectHub
 #chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
-HOST, safebrowsing.urlsec.qq.com,RejectHub
+host, safebrowsing.urlsec.qq.com,RejectHub
 
 #app_picsew
 host-suffix, picsew.app,RejectHub
@@ -55,34 +58,34 @@ IP-CIDR, 183.60.8.74/32,RejectHub
 
 
 #Deepseek
-HOST-SUFFIX, intercom.com,RejectHub
-HOST-SUFFIX, zztfly.com,RejectHub
-HOST-SUFFIX, cmpassport.com,RejectHub
+host-suffix, intercom.com,RejectHub
+host-suffix, zztfly.com,RejectHub
+host-suffix, cmpassport.com,RejectHub
 
 #豆包
-HOST-SUFFIX, ugsdk.cn,RejectHub
-HOST-SUFFIX, oceancloudapi.com,RejectHub
+host-suffix, ugsdk.cn,RejectHub
+host-suffix, oceancloudapi.com,RejectHub
 
 #Zoom Earth
-HOST-SUFFIX, revenuecat.com,RejectHub
+host-suffix, revenuecat.com,RejectHub
 
 #用户行为分析 & 实验性追踪 API
-HOST-SUFFIX, amplitude.com,RejectHub
+host-suffix, amplitude.com,RejectHub
 
 #多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
-HOST-SUFFIX, mg-cdn.com,RejectHub
+host-suffix, mg-cdn.com,RejectHub
 
 #fpjs.io 是 FingerprintJS 浏览器指纹识别库
-HOST-SUFFIX, fpjs.io,RejectHub
+host-suffix, fpjs.io,RejectHub
 
 #Twtich
-HOST-SUFFIX, imrworldwide.com,RejectHub
+host-suffix, imrworldwide.com,RejectHub
 
 #微信电脑版，无用的网址。
-HOST, dldir1v6.qq.com,RejectHub
+host, dldir1v6.qq.com,RejectHub
 #属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
 #根证书屏蔽
-HOST-SUFFIX, globalsign.com,RejectHub
+host-suffix, globalsign.com,RejectHub
 IP-CIDR, 42.59.25.1/24,RejectHub
 IP-CIDR, 116.140.44.1/24,RejectHub
 IP-CIDR, 124.95.177.1/24,RejectHub
@@ -92,122 +95,122 @@ IP-CIDR, 218.61.162.1/24,RejectHub
 IP-CIDR, 81.69.105.47/32,RejectHub
 
 #网易有道词典
-HOST, gorgon.youdao.com,RejectHub
-HOST, rlogs.youdao.com,RejectHub
-HOST, mind.youdao.com,RejectHub
+host, gorgon.youdao.com,RejectHub
+host, rlogs.youdao.com,RejectHub
+host, mind.youdao.com,RejectHub
 
 #PDFgear_Mac版本
-HOST-SUFFIX, pdfgear.com,RejectHub
+host-suffix, pdfgear.com,RejectHub
 
 #抖音
 ##抖音电脑版，无用的网址。
-HOST-SUFFIX, huoshanstatic.com,RejectHub
-HOST-SUFFIX, toutiaostatic.com,RejectHub
+host-suffix, huoshanstatic.com,RejectHub
+host-suffix, toutiaostatic.com,RejectHub
 IP-CIDR, 221.204.46.250/32,RejectHub
-HOST, wiki5.baike.com,RejectHub
-HOST, m.baike.com,RejectHub
-HOST-SUFFIX, 0kkkkkt.com,RejectHub
-HOST-SUFFIX, bytecdn.com,RejectHub
-HOST-SUFFIX, byteeffecttos.com,RejectHub
-HOST-SUFFIX, bytehwm.com,RejectHub
-HOST-SUFFIX, bytemaimg.com,RejectHub
-HOST-SUFFIX, cjjd14.com,RejectHub
-HOST-SUFFIX, ks-live.com,RejectHub
-HOST-SUFFIX, kuiniuca.com,RejectHub
-HOST-SUFFIX, ndcpp.com,RejectHub
-HOST-SUFFIX, ndcppx.com,RejectHub
-HOST-SUFFIX, onethingpcs.com,RejectHub
-HOST-SUFFIX, open-douyin.com,RejectHub
-HOST-SUFFIX, qishui.com,RejectHub
-HOST-SUFFIX, simoxity.net,RejectHub
-HOST-SUFFIX, siomxity.com,RejectHub
-HOST-SUFFIX, wasu.tv,RejectHub
-HOST-SUFFIX, zhicyun.com,RejectHub
+host, wiki5.baike.com,RejectHub
+host, m.baike.com,RejectHub
+host-suffix, 0kkkkkt.com,RejectHub
+host-suffix, bytecdn.com,RejectHub
+host-suffix, byteeffecttos.com,RejectHub
+host-suffix, bytehwm.com,RejectHub
+host-suffix, bytemaimg.com,RejectHub
+host-suffix, cjjd14.com,RejectHub
+host-suffix, ks-live.com,RejectHub
+host-suffix, kuiniuca.com,RejectHub
+host-suffix, ndcpp.com,RejectHub
+host-suffix, ndcppx.com,RejectHub
+host-suffix, onethingpcs.com,RejectHub
+host-suffix, open-douyin.com,RejectHub
+host-suffix, qishui.com,RejectHub
+host-suffix, simoxity.net,RejectHub
+host-suffix, siomxity.com,RejectHub
+host-suffix, wasu.tv,RejectHub
+host-suffix, zhicyun.com,RejectHub
 
 #剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
-HOST-SUFFIX, likecam.com,RejectHub
-HOST-SUFFIX, ulikecam.com,RejectHub
+host-suffix, likecam.com,RejectHub
+host-suffix, ulikecam.com,RejectHub
 
 #sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
-HOST, sessions.bugsnag.com,RejectHub
+host, sessions.bugsnag.com,RejectHub
 
 #Mac开机运行监控系统开源工具，Stats。
-HOST, api.serhiy.io,RejectHub
+host, api.serhiy.io,RejectHub
 
 #analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
-HOST-SUFFIX, techsmith.com,RejectHub
+host-suffix, techsmith.com,RejectHub
 
 #由 Objective Development 提供的服务，主要用于地理位置相关的功能。
-HOST, geolocation.obdev.at,RejectHub
+host, geolocation.obdev.at,RejectHub
 
 #ViewerAttack 相关，这是一个与网络流量或用户行为分析有关的服务。
-HOST, api.viewerattack.com,RejectHub
+host, api.viewerattack.com,RejectHub
 
 #盗版程序
 #这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
-HOST-SUFFIX, no-mad-world.club,RejectHub
-HOST-SUFFIX, club,RejectHub
+host-suffix, no-mad-world.club,RejectHub
+host-suffix, club,RejectHub
 
 #网站的附加访问
 #stripchat.com & hplives.com,RejectHub
-HOST-SUFFIX, ststandard.com,RejectHub
-HOST-SUFFIX, display.lovense-api.com,RejectHub
+host-suffix, ststandard.com,RejectHub
+host-suffix, display.lovense-api.com,RejectHub
 #Instagram
-HOST, www.fbsbx.com,RejectHub
+host, www.fbsbx.com,RejectHub
 #bilibili
-HOST, passport.bilicomic.com,RejectHub
+host, passport.bilicomic.com,RejectHub
 #文字转语音_国内_ttsmaker.cn,RejectHub
-HOST-SUFFIX, tts-file.com,RejectHub
+host-suffix, tts-file.com,RejectHub
 #文字转语音_aisaver.io,RejectHub
-HOST, cdn.zbaseglobal.com,RejectHub
+host, cdn.zbaseglobal.com,RejectHub
 
 #谷歌浏览器插件
 #bilibili哔哩哔哩下载助手
-HOST-SUFFIX, csser.top,RejectHub
+host-suffix, csser.top,RejectHub
 
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
-HOST-SUFFIX, software.charliemonroe.net,RejectHub
-HOST-SUFFIX, downiestatistics.com,RejectHub
+host-suffix, software.charliemonroe.net,RejectHub
+host-suffix, downiestatistics.com,RejectHub
 
 #屏蔽该网址可能导致无法正常激活或使用依赖于 Nalpeiron 授权的应用程序，可能影响软件的正常运行。因此，如果你使用需要 Nalpeiron 服务的应用，建议不屏蔽此网址。
-HOST, my.nalpeiron.com,RejectHub
+host, my.nalpeiron.com,RejectHub
 
 #这个网址是 Paddle 的支付处理平台，用于处理在线支付和交易。
-HOST-SUFFIX, paddle.com,RejectHub
-HOST-SUFFIX, paddleapi.com,RejectHub
+host-suffix, paddle.com,RejectHub
+host-suffix, paddleapi.com,RejectHub
 
 #alfred.app 是 Alfred 的官方网站。Alfred 是一款流行的 macOS 应用程序，用于提高工作效率。它通过键盘快捷键、文本扩展和自定义工作流，帮助用户更快捷地启动应用、查找文件、执行系统命令和网络搜索等操作。许多 Mac 用户安装 Alfred 来替代或增强 macOS 自带的 Spotlight 功能。
-HOST-SUFFIX, alfred.app,RejectHub
+host-suffix, alfred.app,RejectHub
 
 #开源-输入法切换工具Input Source Pro
-HOST-SUFFIX, inputsource.pro,RejectHub
+host-suffix, inputsource.pro,RejectHub
 
 #这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
-HOST-SUFFIX, wedata.net,RejectHub
+host-suffix, wedata.net,RejectHub
 
 #AdGuard
-HOST-SUFFIX, adtidy.org,RejectHub
+host-suffix, adtidy.org,RejectHub
 
 #火狐浏览器_流氓站点
-HOST-SUFFIX, mozilla.cloudflare-dns.com,RejectHub
+host-suffix, mozilla.cloudflare-dns.com,RejectHub
 
 #这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
-HOST-SUFFIX, cherpake.com,RejectHub
+host-suffix, cherpake.com,RejectHub
 
 #与 Dark Reader 插件相关，它是一款用于在浏览器中启用暗色模式的扩展程序。这个链接可能是为了更新扩展程序或发送一些使用统计数据。
-HOST, darkreader.org,RejectHub
+host, darkreader.org,RejectHub
 
 #该网站可能与一些系统或网络管理相关的API服务有关，帮助优化网络性能或跟踪访问流量。
-HOST, api64.com,RejectHub
+host, api64.com,RejectHub
 
 #这个域名可能是一个与流量分析或广告投放相关的网站，通常被用于网络分析和用户行为跟踪。
-HOST, score.traficmetrics.com,RejectHub
+host, score.traficmetrics.com,RejectHub
 
 #shottr
-HOST, shottr.cc,RejectHub
+host, shottr.cc,RejectHub
 
 #163
-HOST-SUFFIX, 163.com,RejectHub
+host-suffix, 163.com,RejectHub
 
 #sina
-HOST-SUFFIX, sina.com,RejectHub
+host-suffix, sina.com,RejectHub
