@@ -40,11 +40,6 @@ HOST-SUFFIX, manmanbuy.com, Dir
 #哔哩哔哩视频下载
 HOST-SUFFIX, lemondl.com, Dir
 
-#英语打字练习开源网站
-HOST-SUFFIX, picsum.photos, Dir
-HOST-SUFFIX, api.iconify.design, Dir
-HOST-SUFFIX, julebu.co, Dir
-
 #阿里小号
 HOST, eco.taobao.com, Dir
 HOST, acs.m.taobao.com, Dir

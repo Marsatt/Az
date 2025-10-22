@@ -40,11 +40,6 @@ DOMAIN-SUFFIX, manmanbuy.com
 #哔哩哔哩视频下载
 DOMAIN-SUFFIX, lemondl.com
 
-#英语打字练习开源网站
-DOMAIN-SUFFIX, picsum.photos
-DOMAIN-SUFFIX, api.iconify.design
-DOMAIN-SUFFIX, julebu.co
-
 #阿里小号
 DOMAIN, eco.taobao.com
 DOMAIN, acs.m.taobao.com
