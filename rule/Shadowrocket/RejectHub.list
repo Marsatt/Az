@@ -5,6 +5,9 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#阿里小号_拒绝
+DOMAIN, zconfig.alibabausercontent.com
+
 #iPhone&iPad控制mac_app
 DOMAIN, rs.ltd
 

@@ -46,10 +46,12 @@ DOMAIN, acs.m.taobao.com
 DOMAIN, h-adashx.ut.taobao.com
 IP-CIDR, 203.119.204.1/24, no-resolve
 IP-CIDR, 203.119.238.1/24, no-resolve
-IP-CIDR, 59.82.118.156/32, no-resolve
 IP-CIDR, 59.82.112.62/32, no-resolve
+IP-CIDR, 59.82.113.8/32, no-resolve
+IP-CIDR, 59.82.118.156/32, no-resolve
 IP-CIDR, 59.82.120.227/32, no-resolve
 IP-CIDR, 59.82.121.225/32, no-resolve
+IP-CIDR, 59.82.121.228/32, no-resolve
 IP-CIDR, 59.82.122.5/32, no-resolve
 IP-CIDR, 59.82.132.207/32, no-resolve
 IP-CIDR, 139.215.162.204/32, no-resolve

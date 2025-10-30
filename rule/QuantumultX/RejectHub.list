@@ -5,6 +5,9 @@ host-suffix, narakahunter.mvw,RejectHub
 host, ws-us2.pusher.com,RejectHub
 host, geoip.furman.im,RejectHub
 
+#阿里小号_拒绝
+host, zconfig.alibabausercontent.com
+
 #iPhone&iPad控制mac_app
 host, rs.ltd
 
