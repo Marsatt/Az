@@ -3,6 +3,7 @@ host-suffix, digicert.com, Pro
 
 #看股票app
 HOST-SUFFIX, tradingview.com
+HOST-SUFFIX, webullfintech.com
 
 #黄金
 HOST-SUFFIX, gold.org
