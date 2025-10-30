@@ -1,6 +1,12 @@
 #证书签发机构_国际版
 host-suffix, digicert.com, Pro
 
+#看股票app
+HOST-SUFFIX, tradingview.com
+
+#黄金
+HOST-SUFFIX, gold.org
+
 #Z-Libly图书馆
 HOST, dln1.ncdn.ec, Pro
 HOST, z-library.sk, Pro
