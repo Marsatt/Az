@@ -22,6 +22,8 @@ DOMAIN-SUFFIX,claude.ai
 
 
 
+#Sora
+HOST-SUFFIX,sora.com,OpenAI
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
