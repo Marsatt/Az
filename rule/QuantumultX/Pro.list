@@ -1,12 +1,15 @@
 #证书签发机构_国际版
 host-suffix, digicert.com, Pro
 
+#olived下载工具
+HOST, api.olived.app, Pro
+
 #看股票app
-HOST-SUFFIX, tradingview.com
-HOST-SUFFIX, webullfintech.com
+HOST-SUFFIX, tradingview.com, Pro
+HOST-SUFFIX, webullfintech.com, Pro
 
 #黄金
-HOST-SUFFIX, gold.org
+HOST-SUFFIX, gold.org, Pro
 
 #Z-Libly图书馆
 HOST, dln1.ncdn.ec, Pro

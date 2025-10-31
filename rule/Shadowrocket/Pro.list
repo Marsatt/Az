@@ -1,6 +1,9 @@
 #证书签发机构_国际版
 DOMAIN-SUFFIX, digicert.com
 
+#olived下载工具
+DOMAIN, api.olived.app
+
 #看股票app
 DOMAIN-SUFFIX, tradingview.com
 DOMAIN-SUFFIX, webullfintech.com
