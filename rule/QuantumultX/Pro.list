@@ -2,6 +2,9 @@
 host-suffix, digicert.com, Pro
 
 #olived下载工具
+HOST, ip-api.com, Pro
+HOST-SUFFIX, pusher.com, Pro
+HOST, olivedpro.api.luxcgo.com, Pro
 HOST, api.olived.app, Pro
 
 #看股票app

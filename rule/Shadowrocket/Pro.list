@@ -2,6 +2,9 @@
 DOMAIN-SUFFIX, digicert.com
 
 #olived下载工具
+DOMAIN, ip-api.com
+DOMAIN-SUFFIX, pusher.com
+DOMAIN, olivedpro.api.luxcgo.com
 DOMAIN, api.olived.app
 
 #看股票app
