@@ -1,4 +1,6 @@
 #cloudflare.com（验证网站）
+DOMAIN, cloudflare-dns.com
+DOMAIN-SUFFIX, cloudflareinsights.com
 DOMAIN-SUFFIX, cloudflare.com
 
 #groq
@@ -23,7 +25,11 @@ DOMAIN-SUFFIX,claude.ai
 
 
 #Sora
+DOMAIN,sora-cdn.oaistatic.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,assetsconfigcdn.org
 HOST-SUFFIX,sora.com,OpenAI
+
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
