@@ -18,9 +18,15 @@ URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.dou
 
 #电脑版
 DOMAIN-SUFFIX, 100ycdn.com
+#抖音创作者
+DOMAIN-SUFFIX, bytedanceapi.com
+DOMAIN,122-188-134-199-ad92b9c9.ldhy.click
+DOMAIN,sf1-cdn-tos.huoshanstatic.com
+
+
 #@!直播录制需要网址
 DOMAIN, api.feelgood.cn
-DOMAIN, lf-waf-js.byted-static.com
+DOMAIN-SUFFIX, byted-static.com
 DOMAIN-SUFFIX, applogcdn.com
 DOMAIN-SUFFIX, bytedance.com
 DOMAIN-SUFFIX, bytednsdoc.com

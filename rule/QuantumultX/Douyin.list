@@ -11,11 +11,22 @@ HOST-SUFFIX, v.smtcdns.com,DouYin
 HOST-SUFFIX, livehwc3.cn,DouYin
 
 
+HOST-KEYWORD, douyin,DouYin
+HOST-KEYWORD, douyincdn,DouYin
+
+#####
+
 #电脑版
 HOST-SUFFIX, 100ycdn.com,DouYin
+#抖音创作者
+HOST-SUFFIX, bytedanceapi.com,DouYin
+HOST,122-188-134-199-ad92b9c9.ldhy.click,DouYin
+HOST,sf1-cdn-tos.huoshanstatic.com,DouYin
+
+
 #@!直播录制需要网址
 #HOST, api.feelgood.cn,DouYin
-HOST, lf-waf-js.byted-static.com,DouYin
+HOST-SUFFIX, byted-static.com,DouYin
 HOST-SUFFIX, applogcdn.com,DouYin
 HOST-SUFFIX, bytedance.com,DouYin
 HOST-SUFFIX, bytednsdoc.com,DouYin
