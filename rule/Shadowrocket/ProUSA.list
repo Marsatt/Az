@@ -150,6 +150,7 @@ DOMAIN-SUFFIX, boxjs.com
 DOMAIN-SUFFIX, udio.com
 
 #suno AI音乐制作
+DOMAIN, img.clerk.com
 DOMAIN-SUFFIX, suno.com
 DOMAIN-SUFFIX, suno.ai
 

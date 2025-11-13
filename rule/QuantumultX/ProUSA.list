@@ -150,6 +150,7 @@ HOST-SUFFIX, boxjs.com, ProUSA
 HOST-SUFFIX, udio.com, ProUSA
 
 #suno AI音乐制作
+HOST, img.clerk.com, ProUSA
 HOST-SUFFIX, suno.com, ProUSA
 HOST-SUFFIX, suno.ai, ProUSA
 
