@@ -4,9 +4,9 @@ HOST-SUFFIX, cloudflareinsights.com,OpenAI
 HOST-SUFFIX, cloudflare.com,OpenAI
 
 #groq
-HOST, api.groq.com,OpenAI
-HOST, auth.grokusercontent.com,OpenAI
-HOST, auth.x.ai,OpenAI
+HOST-SUFFIX, groq.com,OpenAI
+HOST-SUFFIX, grokusercontent.com,OpenAI
+HOST-SUFFIX, x.ai,OpenAI
 
 #claude
 HOST,www.claudeusercontent.com,OpenAI

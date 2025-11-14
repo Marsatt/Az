@@ -4,9 +4,9 @@ DOMAIN-SUFFIX, cloudflareinsights.com
 DOMAIN-SUFFIX, cloudflare.com
 
 #groq
-DOMAIN, api.groq.com
-DOMAIN, auth.grokusercontent.com
-DOMAIN, auth.x.ai
+DOMAIN-SUFFIX, groq.com
+DOMAIN-SUFFIX, grokusercontent.com
+DOMAIN-SUFFIX, x.ai
 
 #claude
 DOMAIN,www.claudeusercontent.com
