@@ -4,6 +4,7 @@ DOMAIN-SUFFIX, cloudflareinsights.com
 DOMAIN-SUFFIX, cloudflare.com
 
 #groq
+DOMAIN-SUFFIX, grokipedia.com
 DOMAIN-SUFFIX, groq.com
 DOMAIN-SUFFIX, grokusercontent.com
 DOMAIN-SUFFIX, x.ai
