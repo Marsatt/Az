@@ -1,6 +1,10 @@
 #证书签发机构_国际版
 host-suffix, digicert.com, Pro
 
+#midjourney
+HOST,midjourney.ghost.io, Pro
+HOST-SUFFIX,statuspage.io, Pro
+HOST-SUFFIX,midjourney.com, Pro
 
 #看股票app
 HOST-SUFFIX, tradingview.com, Pro
