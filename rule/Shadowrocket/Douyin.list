@@ -10,6 +10,11 @@ DOMAIN-SUFFIX, v.smtcdns.com
 #关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
 
+#即梦AI
+DOMAIN, jimeng.jianying.com
+DOMAIN, lf3-lv-buz.vlabstatic.com
+
+
 
 DOMAIN-KEYWORD, douyin
 DOMAIN-KEYWORD, douyincdn
