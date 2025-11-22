@@ -175,9 +175,6 @@ DOMAIN, scamalytics.com
 DOMAIN, ipinfo.io
 DOMAIN, website-cdn.ipinfo.io
 
-#書籤-工具-it-ip，測試網站在全國是否可以直鏈。
-DOMAIN, www.itdog.cn
-
 #豆瓣
 DOMAIN-KEYWORD,douban
 
