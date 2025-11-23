@@ -3,6 +3,9 @@ DOMAIN, cloudflare-dns.com
 DOMAIN-SUFFIX, cloudflareinsights.com
 DOMAIN-SUFFIX, cloudflare.com
 
+#OpenAI浏览器_ChatGPT Atlas
+DOMAIN, browser-intake-datadoghq.com
+
 #groq
 DOMAIN-SUFFIX, grokipedia.com
 DOMAIN-SUFFIX, groq.com
