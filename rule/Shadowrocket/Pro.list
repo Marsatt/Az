@@ -10,9 +10,6 @@ DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX, tradingview.com
 DOMAIN-SUFFIX, webullfintech.com
 
-#黄金
-DOMAIN-SUFFIX, gold.org
-
 #Z-Libly图书馆
 DOMAIN, dln1.ncdn.ec
 DOMAIN, z-library.sk
