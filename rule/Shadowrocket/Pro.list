@@ -1,6 +1,12 @@
 #证书签发机构_国际版
 DOMAIN-SUFFIX, digicert.com
 
+#免费创建图片AI
+DOMAIN-SUFFIX, ideogram.ai
+
+#荔枝买Downie 4
+DOMAIN-SUFFIX, lizhi.shop
+
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
 DOMAIN-SUFFIX, software.charliemonroe.net
 DOMAIN-SUFFIX, downiestatistics.com
