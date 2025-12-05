@@ -182,7 +182,8 @@ DOMAIN, youtils.cc
 
 
 
-
+#阿里巴巴_基于阿里巴巴的服务
+DOMAIN-SUFFIX, alicdn.com
 #支付宝
 IP-CIDR,36.104.139.25/32, no-resolve
 IP-CIDR,42.101.76.244/32, no-resolve
