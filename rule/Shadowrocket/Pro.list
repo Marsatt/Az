@@ -1,6 +1,9 @@
 #证书签发机构_国际版
 DOMAIN-SUFFIX, digicert.com
 
+#免费的AI模型API
+DOMAIN-SUFFIX, groq.io
+
 #Chrome插件
 #datatool.vip，批量下载TikTok视频。
 DOMAIN-SUFFIX, datatool.vip
