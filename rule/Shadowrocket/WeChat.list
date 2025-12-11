@@ -19,6 +19,9 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #/32
+#20251211091057_iPhone微信发视频
+IP-CIDR, 123.172.120.140/32, no-resolve
+
 #20250708123310_朋友圈视频播放_iPhone
 IP-CIDR, 14.17.85.82/32, no-resolve
 IP-CIDR, 14.17.85.94/32, no-resolve
