@@ -204,6 +204,8 @@ DOMAIN, acs-mum.alibabachengdun.com
 DOMAIN, img.alicdn.com
 DOMAIN, mdn.alicdn.com
 #网商银行
+#$余利宝
+IP-CIDR, 36.104.134.83/32, no-resolve
 DOMAIN-SUFFIX, mybank.cn
 #阿里小号
 DOMAIN, eco.taobao.com
