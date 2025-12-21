@@ -127,6 +127,10 @@ DOMAIN-SUFFIX, sc-apps.com
 DOMAIN-SUFFIX, strpst.com
 
 #Notion
+#@!需要有亚马逊的链接
+DOMAIN, s3-us-west-2.amazonaws.com
+DOMAIN, cdn.cr-relay.com
+DOMAIN-SUFFIX, notionstats.com
 DOMAIN-SUFFIX, notion.so
 DOMAIN-SUFFIX, notion.com
 #iPhone正常访问Notion
