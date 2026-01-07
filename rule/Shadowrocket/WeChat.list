@@ -20,8 +20,11 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 #/32
 #20260103113021_Mac，转发消息需要的链接
+IP-CIDR, 36.104.157.14/32, no-resolve
 IP-CIDR, 36.104.157.63/32, no-resolve
+IP-CIDR, 36.104.157.66/32, no-resolve
 IP-CIDR, 36.104.157.69/32, no-resolve
+IP-CIDR, 36.104.157.73/32, no-resolve
 IP-CIDR, 36.104.157.86/32, no-resolve
 IP-CIDR, 36.104.152.90/32, no-resolve
 
