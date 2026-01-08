@@ -1,14 +1,18 @@
 #/24
+#20260108153301_Mac，发消息需要的链接
+IP-CIDR, 36.104.157.1/24, no-resolve
+
 IP-CIDR, 36.99.6.1/24, no-resolve
 IP-CIDR, 42.202.141.1/24, no-resolve
+
 #20250422184623_电信网_发视频
 IP-CIDR, 42.202.154.1/24, no-resolve
 IP-CIDR, 60.188.75.1/24, no-resolve
 
 IP-CIDR, 123.172.120.1/24, no-resolve
-
 IP-CIDR, 123.184.101.1/24, no-resolve
 IP-CIDR, 123.246.80.1/24, no-resolve
+
 #加好友_iPhone
 IP-CIDR, 125.88.199.1/24, no-resolve
 
@@ -19,14 +23,12 @@ IP-CIDR, 218.60.51.1/24, no-resolve
 
 
 #/32
-#20260103113021_Mac，转发消息需要的链接
-IP-CIDR, 36.104.157.14/32, no-resolve
-IP-CIDR, 36.104.157.63/32, no-resolve
-IP-CIDR, 36.104.157.66/32, no-resolve
-IP-CIDR, 36.104.157.69/32, no-resolve
-IP-CIDR, 36.104.157.73/32, no-resolve
-IP-CIDR, 36.104.157.86/32, no-resolve
-IP-CIDR, 36.104.152.90/32, no-resolve
+#20260108152829_Mac，发消息
+IP-CIDR, 36.104.157.64/32, no-resolve
+IP-CIDR, 49.65.51.196/32, no-resolve
+IP-CIDR, 180.102.97.27/32, no-resolve
+
+
 
 #20260103112259_iPad，拼多多好友代付发信息
 IP-CIDR, 180.109.53.92/32, no-resolve
