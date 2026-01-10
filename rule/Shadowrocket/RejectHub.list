@@ -98,6 +98,8 @@ IP-CIDR, 124.95.177.1/24, no-resolve
 IP-CIDR, 218.61.162.1/24, no-resolve
 
 #拼多多_无用的网址。
+#20260110211912
+DOMAIN, m.pinduoduo.net
 #202408251047
 IP-CIDR, 140.206.232.17/24, no-resolve
 # 第 1 类：精准命中所有 xxx/d?id=xxx（不管后面跟多少参数）
@@ -123,6 +125,7 @@ DOMAIN-SUFFIX, toutiaostatic.com
 ##抖音手机版，无用的网址。
 URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 IP-CIDR, 221.204.46.250/32, no-resolve
+DOMAIN, mon.toutiaocloud.com
 DOMAIN, wiki5.baike.com
 DOMAIN, m.baike.com
 DOMAIN-SUFFIX, 0kkkkkt.com
