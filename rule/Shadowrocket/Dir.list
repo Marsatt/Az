@@ -117,12 +117,6 @@ DOMAIN, apapia-history.manmanbuy.com
 #京东比价狗
 DOMAIN-SUFFIX, bijiago.com
 
-#邮件APP绑定新浪邮箱
-DOMAIN, pop.sina.com
-DOMAIN, smtp.sina.com
-DOMAIN, p29-smtp.mail.me.com
-DOMAIN, p29-imap.mail.me.com
-
 #嗯背單詞
 #有道發音
 DOMAIN, dict.youdao.com

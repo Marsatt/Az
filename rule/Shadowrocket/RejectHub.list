@@ -5,6 +5,9 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#20260113123700_Bose耳机app
+DOMAIN, nadc.data.api.bose.io
+
 #iPad更新app后自动访问这个监控网站
 DOMAIN-SUFFIX, dpdns.org
 
