@@ -1,5 +1,6 @@
 #/24
-#20260108153301_Mac，发消息需要的链接
+#20260124194714_Mac，发送需要的链接
+IP-CIDR, 36.104.152.1/24, no-resolve
 IP-CIDR, 36.104.157.1/24, no-resolve
 
 IP-CIDR, 36.99.6.1/24, no-resolve
@@ -32,11 +33,6 @@ IP-CIDR, 180.102.97.27/32, no-resolve
 
 #20260103112259_iPad，拼多多好友代付发信息
 IP-CIDR, 180.109.53.92/32, no-resolve
-#20260123191543_macOS，微信发消息
-IP-CIDR, 36.104.152.91/32, no-resolve
-IP-CIDR, 36.104.152.100/32, no-resolve
-IP-CIDR, 36.104.152.109/32, no-resolve
-IP-CIDR, 36.104.152.118/32, no-resolve
 
 
 #20251211091057_iPhone微信发视频
