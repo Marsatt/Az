@@ -5,6 +5,12 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#20260127200249_CleanMyMac
+DOMAIN-SUFFIX, macpaw.com
+DOMAIN-SUFFIX, devmate.com
+DOMAIN-SUFFIX, moonlock.com
+DOMAIN-SUFFIX, cleanmymac.com
+
 #20260113123700_Bose耳机app
 DOMAIN, nadc.data.api.bose.io
 
