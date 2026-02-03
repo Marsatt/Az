@@ -5,6 +5,13 @@ DOMAIN-SUFFIX, narakahunter.mvw
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
+#这俩是 美国 Stripe 的合法支付/CDN/监控域名
+DOMAIN, b.stripecdn.com
+DOMAIN, m.stripe.network
+
+#开源的Shutter Encoder打开后
+DOMAIN-SUFFIX, shutterencoder.com
+
 #20260127200249_CleanMyMac
 DOMAIN-SUFFIX, macpaw.com
 DOMAIN-SUFFIX, devmate.com
@@ -125,6 +132,12 @@ DOMAIN, mind.youdao.com
 DOMAIN-SUFFIX, pdfgear.com
 
 #抖音
+##抖音使用阿里巴巴服务器
+IP-CIDR, 8.134.241.67/32, no-resolve
+IP-CIDR, 8.133.123.137/32, no-resolve
+IP-CIDR, 8.133.123.138/32, no-resolve
+IP-CIDR, 8.133.123.139/32, no-resolve
+IP-CIDR, 8.133.123.140/32, no-resolve
 ##抖音电脑版，无用的网址。
 DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
@@ -135,6 +148,7 @@ DOMAIN, mon.toutiaocloud.com
 DOMAIN, wiki5.baike.com
 DOMAIN, m.baike.com
 DOMAIN-SUFFIX, 0kkkkkt.com
+DOMAIN-SUFFIX, bjmxy.net
 DOMAIN-SUFFIX, bytecdn.com
 DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, bytehwm.com
@@ -147,6 +161,7 @@ DOMAIN-SUFFIX, ndcppx.com
 DOMAIN-SUFFIX, onethingpcs.com
 DOMAIN-SUFFIX, open-douyin.com
 DOMAIN-SUFFIX, qishui.com
+DOMAIN-SUFFIX, qtaeixd.com
 DOMAIN-SUFFIX, simoxity.net
 DOMAIN-SUFFIX, siomxity.com
 DOMAIN-SUFFIX, wasu.tv

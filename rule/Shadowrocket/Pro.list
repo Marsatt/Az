@@ -1,6 +1,12 @@
 #证书签发机构_国际版
 DOMAIN-SUFFIX, digicert.com
 
+#未知
+##fastly.jsdelivr.net 是一个合法的、非常常见的 CDN 域名，全称是 jsDelivr 的 Fastly 节点。
+DOMAIN, fastly.jsdelivr.net
+##images.unsplash.com:443 是 Unsplash 的官方图像 CDN（内容分发网络）域名。Unsplash 是全球最大的免费高质量照片库之一（类似于 Pexels、Pixabay），提供海量免版权（CC0 许可）的图片，供任何人免费下载、使用、商用。
+DOMAIN, images.unsplash.com
+
 #免费的AI模型API
 DOMAIN-SUFFIX, groq.io
 
@@ -19,9 +25,9 @@ DOMAIN-SUFFIX, software.charliemonroe.net
 DOMAIN-SUFFIX, downiestatistics.com
 
 #midjourney
-DOMAIN,midjourney.ghost.io
-DOMAIN-SUFFIX,statuspage.io
-DOMAIN-SUFFIX,midjourney.com
+DOMAIN, midjourney.ghost.io
+DOMAIN-SUFFIX, statuspage.io
+DOMAIN-SUFFIX, midjourney.com
 
 #看股票app
 DOMAIN-SUFFIX, tradingview.com
