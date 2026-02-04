@@ -20,9 +20,10 @@ DOMAIN-SUFFIX, toutiaostatic.com
 ##抖音手机版，无用的网址。
 URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 IP-CIDR, 221.204.46.250/32, no-resolve
-DOMAIN, mon.toutiaocloud.com
-DOMAIN, wiki5.baike.com
 DOMAIN, m.baike.com
+DOMAIN, mon.toutiaocloud.com
+DOMAIN, mon.toutiaocloud.net
+DOMAIN, wiki5.baike.com
 DOMAIN-SUFFIX, 0kkkkkt.com
 DOMAIN-SUFFIX, bjmxy.net
 DOMAIN-SUFFIX, bytecdn.com
