@@ -80,6 +80,7 @@ DOMAIN, rs.ltd
 #chrome插件
 #沉浸式翻译
 DOMAIN-SUFFIX, immersivetranslate.com
+DOMAIN-SUFFIX, immersivetranslate.cn
 #chrome插件鼠标手势
 DOMAIN, api.crxmouse.com
 DOMAIN, api.mousegesturesapi.com
