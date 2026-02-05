@@ -251,9 +251,3 @@ DOMAIN, score.traficmetrics.com
 
 #shottr
 DOMAIN, shottr.cc
-
-#163
-DOMAIN-SUFFIX, 163.com
-
-#sina
-DOMAIN-SUFFIX, sina.com
