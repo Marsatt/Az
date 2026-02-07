@@ -20,9 +20,12 @@ DOMAIN-SUFFIX, ideogram.ai
 #荔枝买Downie 4
 DOMAIN-SUFFIX, lizhi.shop
 
+#Downie4 打开需要的网址_正版验证
+DOMAIN, licensing.charliemonroe.net
 #Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
 DOMAIN-SUFFIX, software.charliemonroe.net
 DOMAIN-SUFFIX, downiestatistics.com
+
 
 #midjourney
 DOMAIN, midjourney.ghost.io
