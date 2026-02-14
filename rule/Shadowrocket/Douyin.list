@@ -59,6 +59,8 @@ DOMAIN-SUFFIX, z1cdn.com
 
 
 #手机版
+#@!播放视频不卡了
+DOMAIN-SUFFIX, zjcdn.com
 #@!抖音评价上传图片
 DOMAIN, tos-d-x-lq.bytedancevod.com
 DOMAIN, conf-darwin.xycdn.com

@@ -7,6 +7,9 @@ DOMAIN, fastly.jsdelivr.net
 ##images.unsplash.com:443 是 Unsplash 的官方图像 CDN（内容分发网络）域名。Unsplash 是全球最大的免费高质量照片库之一（类似于 Pexels、Pixabay），提供海量免版权（CC0 许可）的图片，供任何人免费下载、使用、商用。
 DOMAIN, images.unsplash.com
 
+#Drafts app验证订阅
+DOMAIN, backend.getdrafts.com
+
 #免费的AI模型API
 DOMAIN-SUFFIX, groq.io
 
