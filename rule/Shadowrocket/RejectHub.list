@@ -8,7 +8,6 @@ DOMAIN, geoip.furman.im
 
 
 #抖音
-
 ##抖音使用阿里巴巴服务器
 IP-CIDR, 8.134.241.67/32, no-resolve
 IP-CIDR, 8.133.123.137/32, no-resolve

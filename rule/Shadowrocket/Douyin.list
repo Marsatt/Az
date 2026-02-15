@@ -59,8 +59,7 @@ DOMAIN-SUFFIX, z1cdn.com
 
 
 #手机版
-#@!播放视频不卡了
-DOMAIN-SUFFIX, zjcdn.com
+
 #@!抖音评价上传图片
 DOMAIN, tos-d-x-lq.bytedancevod.com
 DOMAIN, conf-darwin.xycdn.com
@@ -91,8 +90,8 @@ DOMAIN, m16.zhicyun.com
 
 
 
-
-# NAME: DouYin
+#@!播放视频不卡了
+DOMAIN-SUFFIX, zjcdn.com# NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:18:50
