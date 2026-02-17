@@ -2,6 +2,8 @@
 DOMAIN-SUFFIX, agentio.com
 DOMAIN-SUFFIX, hotfree123.com
 DOMAIN-SUFFIX, narakahunter.mvw
+#@!高德地图_统计
+DOMAIN-SUFFIX, qchannel01.cn
 #@!开机打开Chrome后显示的
 DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
