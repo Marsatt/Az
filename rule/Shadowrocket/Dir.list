@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,mail.me.com
 #苹果商店搜索功能，全部代理也无法搜索。
 DOMAIN, amp-api-search-edge.apps.apple.com
 
+#沃尔玛app
+DOMAIN-SUFFIX, walmartmobile.cn
+
 #抖音_好评
 DOMAIN, tos-d-x-lf.bytedancevod.com
 DOMAIN, tos-d-x-hl.bytedancevod.com
