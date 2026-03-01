@@ -229,6 +229,8 @@ DOMAIN-SUFFIX,wiktionary.org
 
 #kick直播平台
 DOMAIN-SUFFIX, kick.com
+#kick直播平台_Chrome下载VOD插件
+DOMAIN-SUFFIX, kick-video.download
 
 #MAC keka
 DOMAIN, u.keka.io
