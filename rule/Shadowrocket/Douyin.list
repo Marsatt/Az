@@ -91,7 +91,8 @@ DOMAIN, m16.zhicyun.com
 
 
 #@!播放视频不卡了
-DOMAIN-SUFFIX, zjcdn.com# NAME: DouYin
+DOMAIN-SUFFIX, zjcdn.com
+# NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2025-06-06 09:18:50
