@@ -241,6 +241,8 @@ DOMAIN, manifest.prod.boltdns.net
 DOMAIN, secure.brightcove.com
 DOMAIN, api.talkingdata.com
 DOMAIN, aeu.alicdn.com
+#订单查询
+DOMAIN, cf-app-waf.cfc.aliyuncs.com
 #耐克app快递查询
 DOMAIN-SUFFIX, baozun.cn
 DOMAIN-SUFFIX, baozun.com

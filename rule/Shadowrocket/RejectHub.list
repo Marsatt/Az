@@ -56,6 +56,10 @@ DOMAIN-SUFFIX, yingt.fun
 DOMAIN-SUFFIX, likecam.com
 DOMAIN-SUFFIX, ulikecam.com
 
+#nike
+#订单查询
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,tdum.alibaba.com
 
 #这俩是 美国 Stripe 的合法支付/CDN/监控域名
 DOMAIN, b.stripecdn.com
