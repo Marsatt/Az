@@ -244,14 +244,16 @@ DOMAIN, aeu.alicdn.com
 #订单查询
 DOMAIN, cf-app-waf.cfc.aliyuncs.com
 #耐克app快递查询
-DOMAIN-SUFFIX, baozun.cn
-DOMAIN-SUFFIX, baozun.com
-DOMAIN, nikegroup.publicisgrowthos.com
-DOMAIN-SUFFIX, cpatrk.net
-DOMAIN-SUFFIX, maiscrm.com
 DOMAIN, tab.volces.com
 DOMAIN, ab.volices.com
+DOMAIN, nikegroup.publicisgrowthos.com
+DOMAIN-SUFFIX, baozun.cn
+DOMAIN-SUFFIX, baozun.com
+DOMAIN-SUFFIX, cpatrk.net
+DOMAIN-SUFFIX, maiscrm.com
 DOMAIN-SUFFIX, nike.com.cn
+#nikeapp购买礼品卡需要的网址。
+DOMAIN, cloudauth-device.aliyuncs.com
 #是字节跳动云（火山引擎）的核心网络网关/加速服务_👉 Nike App 启动阶段必须依赖它，否则会卡在 Logo。
 DOMAIN, gator.volces.com
 
