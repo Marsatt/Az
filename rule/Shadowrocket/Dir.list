@@ -250,10 +250,10 @@ DOMAIN, nikegroup.publicisgrowthos.com
 DOMAIN-SUFFIX, cpatrk.net
 DOMAIN-SUFFIX, maiscrm.com
 DOMAIN, tab.volces.com
-DOMAIN, gator.volces.com
 DOMAIN, ab.volices.com
-DOMAIN, gator.volces.com
 DOMAIN-SUFFIX, nike.com.cn
+#是字节跳动云（火山引擎）的核心网络网关/加速服务_👉 Nike App 启动阶段必须依赖它，否则会卡在 Logo。
+DOMAIN, gator.volces.com
 
 # NAME: Nike
 # AUTHOR: blackmatrix7
