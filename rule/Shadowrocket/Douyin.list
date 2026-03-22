@@ -1,6 +1,18 @@
 #关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
+
+#抖音_好评
+DOMAIN, tos-d-x-lf.bytedancevod.com
+DOMAIN, tos-d-x-hl.bytedancevod.com
+#豆包
+DOMAIN-SUFFIX, doubao.com
+##豆包生成视频播放需要网址
+DOMAIN, v11-default.365yg.com
+##豆包去水印_github开源项目
+DOMAIN, www.jiagev.com
+
+
 #抖音_Chrome_油猴_显示抖音过万的真实人数
 DOMAIN, dyapi.phpnbw.com
 
