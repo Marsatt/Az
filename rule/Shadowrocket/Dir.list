@@ -7,42 +7,68 @@
 DOMAIN-SUFFIX,mail.icloud.com.cn
 DOMAIN-SUFFIX,mail.me.com
 
-#苹果商店搜索功能，全部代理也无法搜索。
-DOMAIN, amp-api-search-edge.apps.apple.com
-
-#沃尔玛app
-DOMAIN-SUFFIX, walmartmobile.cn
-
-#抖音_好评
-DOMAIN, tos-d-x-lf.bytedancevod.com
-DOMAIN, tos-d-x-hl.bytedancevod.com
-
-#迪卡侬
-DOMAIN-SUFFIX, decathlon.com.cn
-
-#拼多多
-IP-CIDR, 114.110.96.1/32, no-resolve
-IP-CIDR, 81.69.105.47/32, no-resolve
-
 #苹果
-#苹果地图也需要这个高德网址：
+##苹果商店搜索功能，全部代理也无法搜索。
+DOMAIN, amp-api-search-edge.apps.apple.com
+##苹果地图也需要这个高德网址：
 DOMAIN-SUFFIX, autonavi.com
 
 DOMAIN, www.apple.com.cn
 DOMAIN, apple.com.cn
 DOMAIN-SUFFIX, ls.apple.com
 
+
+#抖音_好评
+DOMAIN, tos-d-x-lf.bytedancevod.com
+DOMAIN, tos-d-x-hl.bytedancevod.com
+#豆包
+DOMAIN-SUFFIX, doubao.com
+##豆包去水印_github开源项目
+DOMAIN, www.jiagev.com
+
+
+#Chrome插件
+#哔哩哔哩视频下载
+DOMAIN-SUFFIX, lemondl.com
+
+#油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
+DOMAIN-SUFFIX, doseeing.com
+DOMAIN, www.douyuex.com
+
+
+#哔哩哔哩查看个人首页
+DOMAIN, at.alicdn.com
+##哔哩哔哩登录账号验证器
+DOMAIN-SUFFIX, geetest.com
+##B站空降助手
+DOMAIN, bsbsb.top
+DOMAIN, www.bsbsb.top
+
+
+#沃尔玛app
+DOMAIN-SUFFIX, walmartmobile.cn
+
+
+#迪卡侬
+DOMAIN-SUFFIX, decathlon.com.cn
+
+
+#拼多多
+IP-CIDR, 114.110.96.1/32, no-resolve
+IP-CIDR, 81.69.105.47/32, no-resolve
+
+
 #证书签发机构_国内版
 DOMAIN-SUFFIX, digicert.cn
+
 
 #模块_京东去广告_开屏广告+精简我的页面产品推广
 DOMAIN-SUFFIX, kelee.one
 
+
 #Deepseek
 DOMAIN, chat.deepseek.com
 
-#豆包
-DOMAIN-SUFFIX, doubao.com
 
 ##网易新闻
 DOMAIN-SUFFIX,cache.netease.com
@@ -50,74 +76,70 @@ DOMAIN-SUFFIX,ws.126.net
 ##财联社
 DOMAIN-SUFFIX,cls.cn
 
+
 #优衣库-uniqlo
 DOMAIN-SUFFIX, uniqlo.cn
 DOMAIN, t-web-data.fastretailing.cn
+
 
 #慢慢买
 ##慢慢买，小图片预览
 DOMAIN-SUFFIX, mmb-spu.oss-cn-shenzhen.aliyuncs.com
 DOMAIN-SUFFIX, manmanbuy.com
 
-#Chrome插件
-#哔哩哔哩视频下载
-DOMAIN-SUFFIX, lemondl.com
 
 #顺丰快递查询
 DOMAIN-SUFFIX, sf-express.com
+
 
 #剂安安
 DOMAIN, app.jichacha.vip
 DOMAIN-SUFFIX, dcloud.net.cn
 
+
 #麦当劳
 DOMAIN-SUFFIX, mcd.cn
 DOMAIN-SUFFIX, mcdonalds.com.cn
-#@!优惠券显示页面_关联chinamax
+##优惠券显示页面_关联chinamax
 DOMAIN, static.portal101.cn
-#@!优惠券显示图片
+##优惠券显示图片
 DOMAIN-SUFFIX, cos.ap-shanghai.myqcloud.com
+
 
 #肯德基
 DOMAIN-SUFFIX, hwwt8.com
 DOMAIN-SUFFIX, kfc.com.cn
-#@!账号登陆验证
+##账号登陆验证
 DOMAIN, api.geevisit.com
+
 
 #白噪音网站
 DOMAIN, www.maokan.cc
+
 
 #腾讯挪车码
 DOMAIN, appcfg.v.qq.com
 DOMAIN, launchwxacode.wxqcloud.qq.com.cn
 
-#哔哩哔哩查看个人首页
-DOMAIN, at.alicdn.com
-#哔哩哔哩登录账号验证器
-DOMAIN-SUFFIX, geetest.com
-
-#B站空降助手
-DOMAIN, bsbsb.top
-DOMAIN, www.bsbsb.top
 
 #roborock
 DOMAIN-SUFFIX, roborock.com
+
 
 #CSDN
 DOMAIN-SUFFIX, csdn.net
 DOMAIN-SUFFIX, csdnimg.cn
 
+
 #adidas
 DOMAIN-SUFFIX, adidas.com.cn
 
-#油猴TampermonkeyDouyuEx-鬥魚直播間增強插件
-DOMAIN-SUFFIX, doseeing.com
-DOMAIN, www.douyuex.com
 
 #opencat
 DOMAIN, api.opencat.app
 #opencat 工坊服务
 DOMAIN, t3wflvcn.lc-cn-n1-shared.com
+
 
 #美的空调
 DOMAIN, sse.smartmidea.net
@@ -127,10 +149,12 @@ DOMAIN, mp-prod.smartmidea.net
 DOMAIN, mjfile-pro.smartmidea.net
 DOMAIN, meijuresources.smartmidea.net
 
+
 #京东比价
 DOMAIN, apapia-history.manmanbuy.com
 #京东比价狗
 DOMAIN-SUFFIX, bijiago.com
+
 
 #嗯背單詞
 #有道發音
@@ -143,8 +167,10 @@ DOMAIN, cn.bing.com
 #剑桥
 DOMAIN, dictionary.cambridge.org
 
+
 #AI免費扣圖
 DOMAIN, bgsub.cn
+
 
 #文字轉語音ttsmaker.cn
 DOMAIN, tts-file2.com
@@ -153,11 +179,13 @@ DOMAIN, static.ttsmaker.cn
 DOMAIN, freddyfeedback.com
 DOMAIN, ttsmaker.cn
 
+
 #有道詞典
 DOMAIN, app-measurement.com
 DOMAIN, shared.ydstatic.com
 DOMAIN, ydlunacommon-cdn.nosdn.127.net
 DOMAIN, shared-https.ydstatic.com
+
 
 #百度百科
 #百度百科 圖片連結
@@ -169,18 +197,23 @@ DOMAIN, bkssl.bdimg.com
 #百度百科
 DOMAIN, baike.baidu.com
 
+
 #書籤-工具-it-ip是否欺詐查詢。
 DOMAIN, scamalytics.com
+
 
 #書籤-工具-it-ip欺詐類型查看。
 DOMAIN, ipinfo.io
 DOMAIN, website-cdn.ipinfo.io
 
+
 #豆瓣
 DOMAIN-KEYWORD,douban
 
+
 #書籤-娛樂（字幕庫）
 DOMAIN, zimuku.org
+
 
 #知乎
 DOMAIN-SUFFIX, zhihu.com
@@ -190,9 +223,9 @@ IP-CIDR, 103.41.167.234/32, no-resolve
 IP-CIDR, 103.41.167.236/32, no-resolve
 IP-CIDR, 118.89.204.198/32, no-resolve
 
+
 #繁體簡體互換網站
 DOMAIN, youtils.cc
-
 
 
 #阿里巴巴_基于阿里巴巴的服务
@@ -213,7 +246,7 @@ DOMAIN, acs-mum.alibabachengdun.com
 DOMAIN, img.alicdn.com
 DOMAIN, mdn.alicdn.com
 #网商银行
-#$余利宝
+##余利宝
 IP-CIDR, 36.104.134.83/32, no-resolve
 DOMAIN-SUFFIX, mybank.cn
 #阿里小号
@@ -634,7 +667,7 @@ DOMAIN-SUFFIX,xn--qhrx81fxh2a.xn--55qx5d.hk
 
 
 #IKEA
-#~关联 Alibaba.list
+###关联 Alibaba.list
 DOMAIN-SUFFIX, oss-cn-shanghai.aliyuncs.com
 DOMAIN, polyfill.alicdn.com
 # NAME: IKEA
