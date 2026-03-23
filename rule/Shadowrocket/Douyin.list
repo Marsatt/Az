@@ -8,7 +8,7 @@ DOMAIN, tos-d-x-hl.bytedancevod.com
 #豆包
 DOMAIN-SUFFIX, doubao.com
 ##豆包生成视频播放需要网址
-DOMAIN, v11-default.365yg.com
+DOMAIN-SUFFIX, 365yg.com
 ##豆包去水印_github开源项目
 DOMAIN, www.jiagev.com
 
