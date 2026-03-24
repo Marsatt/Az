@@ -18,13 +18,7 @@ DOMAIN, apple.com.cn
 DOMAIN-SUFFIX, ls.apple.com
 
 
-#抖音_好评
-DOMAIN, tos-d-x-lf.bytedancevod.com
-DOMAIN, tos-d-x-hl.bytedancevod.com
-#豆包
-DOMAIN-SUFFIX, doubao.com
-##豆包去水印_github开源项目
-DOMAIN, www.jiagev.com
+
 
 
 #Chrome插件
@@ -274,6 +268,7 @@ DOMAIN, manifest.prod.boltdns.net
 DOMAIN, secure.brightcove.com
 DOMAIN, api.talkingdata.com
 DOMAIN, aeu.alicdn.com
+DOMAIN-SUFFIX, captcha-pro-open.aliyuncs.com
 #订单查询
 DOMAIN, cf-app-waf.cfc.aliyuncs.com
 #耐克app快递查询
