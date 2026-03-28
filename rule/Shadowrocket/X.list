@@ -1,12 +1,10 @@
 #grok
-DOMAIN-SUFFIX, grok.com
-DOMAIN, accounts.x.ai
-DOMAIN, assets.x.ai
+DOMAIN-SUFFIX, x.ai
 DOMAIN, xai.chronosphere.io
 DOMAIN, prodregistryv2.org
 DOMAIN, api.mixpanel.com
 DOMAIN, featureassets.org
-DOMAIN, grok-v2.x.ai
+
 
 
 
