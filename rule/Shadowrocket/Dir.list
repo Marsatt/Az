@@ -166,14 +166,6 @@ DOMAIN, dictionary.cambridge.org
 DOMAIN, bgsub.cn
 
 
-#文字轉語音ttsmaker.cn
-DOMAIN, tts-file2.com
-DOMAIN, s2.tts-file.com
-DOMAIN, static.ttsmaker.cn
-DOMAIN, freddyfeedback.com
-DOMAIN, ttsmaker.cn
-
-
 #有道詞典
 DOMAIN, app-measurement.com
 DOMAIN, shared.ydstatic.com
@@ -271,6 +263,7 @@ DOMAIN, aeu.alicdn.com
 DOMAIN-SUFFIX, captcha-pro-open.aliyuncs.com
 #订单查询
 DOMAIN, cf-app-waf.cfc.aliyuncs.com
+DOMAIN, e7c7cc5a5e1c4dc1d146f5cce1b3606a.captcha-pro-open.aliyuncs.com
 #耐克app快递查询
 DOMAIN, tab.volces.com
 DOMAIN, ab.volices.com
