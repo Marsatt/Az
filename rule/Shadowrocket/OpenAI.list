@@ -22,6 +22,9 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 
 
+#grop
+DOMAIN-SUFFIX, groq.com
+
 
 #Sora
 DOMAIN,sora-cdn.oaistatic.com
