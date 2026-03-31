@@ -1,6 +1,9 @@
 #关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
+#手机版抖音播放视频
+DOMAIN, 6f38f926.ydycdn.com
+
 
 #抖音_好评
 DOMAIN, tos-d-x-lf.bytedancevod.com
