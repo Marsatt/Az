@@ -14,8 +14,8 @@ DOMAIN, backend.getdrafts.com
 DOMAIN-SUFFIX, groq.io
 
 #Chrome插件
-#datatool.vip，批量下载TikTok视频。
-DOMAIN-SUFFIX, datatool.vip
+#Pekka,下载TikTok视频。
+DOMAIN, api.tuhocvangioi.com
 
 #chapturist.com
 DOMAIN-SUFFIX, chapturist.com
