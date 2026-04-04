@@ -1,7 +1,7 @@
 #cloudflare.com（验证网站）
-DOMAIN, cloudflare-dns.com
+DOMAIN, cloudflare.com
+DOMAIN-SUFFIX, cloudflare-dns.com
 DOMAIN-SUFFIX, cloudflareinsights.com
-DOMAIN-SUFFIX, cloudflare.com
 
 
 #grok
