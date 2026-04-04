@@ -1,6 +1,5 @@
 #cloudflare.com（验证网站）
-DOMAIN, cloudflare.com
-DOMAIN, www.cloudflare.com
+DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflare-dns.com
 DOMAIN-SUFFIX, cloudflareinsights.com
 
