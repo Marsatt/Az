@@ -1,13 +1,5 @@
-#grok
-DOMAIN-SUFFIX, x.ai
-DOMAIN, xai.chronosphere.io
-DOMAIN, prodregistryv2.org
-DOMAIN, api.mixpanel.com
-DOMAIN, featureassets.org
-
-
-
-
+##14-line
+#DOMAIN-SUFFIX,grok.com
 
 # NAME: Twitter
 # AUTHOR: blackmatrix7
@@ -19,7 +11,7 @@ DOMAIN, featureassets.org
 # TOTAL: 33
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
-DOMAIN-SUFFIX,grok.com
+#DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co

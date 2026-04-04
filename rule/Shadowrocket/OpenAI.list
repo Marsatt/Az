@@ -3,6 +3,16 @@ DOMAIN, cloudflare-dns.com
 DOMAIN-SUFFIX, cloudflareinsights.com
 DOMAIN-SUFFIX, cloudflare.com
 
+
+#grok
+DOMAIN-SUFFIX, x.ai
+DOMAIN-KEYWORD,grok
+DOMAIN, xai.chronosphere.io
+DOMAIN, prodregistryv2.org
+DOMAIN, api.mixpanel.com
+DOMAIN, featureassets.org
+
+
 #OpenAI浏览器_ChatGPT Atlas
 DOMAIN, browser-intake-datadoghq.com
 
