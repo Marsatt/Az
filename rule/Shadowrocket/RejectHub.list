@@ -9,12 +9,6 @@ DOMAIN, ws-us2.pusher.com
 DOMAIN, geoip.furman.im
 
 
-#Intercom 是一个很常见的客户消息/客服聊天平台（类似 Zendesk、客服小助手），很多 App 会集成它的 SDK，让用户在 App 里直接聊天咨询、查看帮助文档、接收推送等。你在 Shadowrocket 里看到这个域名请求，几乎可以肯定是你手机上安装的某个 App 集成了 Intercom SDK，正在尝试连接它的客服/消息服务。
-DOMAIN-SUFFIX,intercom.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-
-
 #抖音
 ##抖音使用阿里巴巴服务器
 IP-CIDR, 8.134.241.67/32, no-resolve
