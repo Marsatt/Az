@@ -1,7 +1,26 @@
 #未知
+#DOMAIN-SUFFIX, narakahunter.mvw
+
+
+#合法的 AI 广告平台公司_主要业务：帮助品牌（尤其是广告主）自动化寻找 YouTube、Instagram 等平台的创作者（Creators），做创作者广告（Creator-led advertising / sponsored content）。_很多广告拦截工具（uBlock Origin、AdGuard、Pi-hole 等）会把广告相关域名、营销平台、追踪器列入 blocklist。即使你没主动访问，它也可能通过网页上的广告脚本、追踪像素、合作伙伴网站间接加载，属于广告/营销追踪类别。
 DOMAIN-SUFFIX, agentio.com
+
+
+#免费直播摄像头成人网站（Free Porn Cams / Live Webcam）。_隐私风险很高：这类网站通常会大量加载第三方追踪器、广告网络、弹窗、重定向，甚至可能有恶意软件或指纹追踪。很多 adblock 列表会直接把这类域名整个 block 掉。
 DOMAIN-SUFFIX, hotfree123.com
-DOMAIN-SUFFIX, narakahunter.mvw
+
+
+#百度地图
+##优比客思（UBiX）官方域名，他们主打 UBiMAX SDK，是一个移动广告聚合与智能营销平台，帮助 App 接入多家广告源（包括腾讯优量汇、字节、百度等），并进行用户行为追踪、广告效果归因、转化优化等。
+DOMAIN-SUFFIX, ubixioe.com
+##开屏广告_1rtb.net 是中国公司美数科技（AdxData / 美数DSP）旗下的实时竞价（RTB）广告平台。
+DOMAIN-SUFFIX, 1rtb.net.com
+##百度地图的IP定位 / 位置服务相关域名（bz 可能指 Baidu ZhiNeng 或类似内部模块，ipdx 指 IP-based positioning）。_主要用于：快速获取你的 IP 对应的粗略地理位置、辅助 GPS 定位、加速初始定位。_隐私角度：属于定位追踪类，会上传你的 IP 和设备信息来辅助定位。_影响不大（百度地图有 GPS + 基站 + WiFi 多重定位），但可能导致首次定位稍慢一点。
+DOMAIN, bz-ipdx.baidu.com
+#百度地图的打车 / 网约车服务接口（yongche = 拥车/用车，百度地图内置的打车聚合平台，类似滴滴/曹操等）。_主要用于：检查打车订单状态、附近车辆、比价等（即使你没叫车，App 也可能后台探测）。_与纯导航无关：这是商业广告/增值服务模块。_隐私角度：会收集位置来推送打车信息，属于广告/商业追踪类。
+DOMAIN, yongche.baidu.com
+
+
 ##高德地图_统计
 DOMAIN-SUFFIX, qchannel01.cn
 ##高德地图_阿里巴巴_统计

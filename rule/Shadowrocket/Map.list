@@ -15,6 +15,11 @@ DOMAIN, m.amap.com, 直鏈
 
 #百度地图
 DOMAIN-SUFFIX, map.baidu.com
+##导航轨迹跟踪，reject 可能影响路线实时更新、偏航提醒、前方高速公路危险事故/施工/事故预警 等实时播报功能。
+DOMAIN, tracknavi.baidu.com
+##地图数据加载，reject 可能导致地图画面加载慢或不完整。
+DOMAIN, itsmap3.baidu.com
+
 
 #相关于百度地图应用及其CDN的域名：
 DOMAIN, lbsnavi.cdn.bcebos.com
