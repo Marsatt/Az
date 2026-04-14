@@ -8,9 +8,9 @@ DOMAIN-SUFFIX, a-map.vip
 DOMAIN-SUFFIX, amap.com
 DOMAIN-SUFFIX, amapauto.com
 DOMAIN-SUFFIX, anav.com
-DOMAIN-SUFFIX, autonavi.com, 直鏈
+DOMAIN-SUFFIX, autonavi.com
 DOMAIN-SUFFIX, gaode.com
-DOMAIN, m.amap.com, 直鏈
+DOMAIN, m.amap.com
 
 
 #百度地图
