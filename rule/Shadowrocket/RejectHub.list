@@ -63,6 +63,7 @@ DOMAIN-SUFFIX, cjjd14.com
 DOMAIN-SUFFIX, ks-live.com
 DOMAIN-SUFFIX, ksyun.com
 DOMAIN-SUFFIX, kuiniuca.com
+DOMAIN-SUFFIX, manlaxycloud.com
 DOMAIN-SUFFIX, ndcpp.com
 DOMAIN-SUFFIX, ndcppx.com
 DOMAIN-SUFFIX, onethingpcs.com
@@ -74,6 +75,8 @@ DOMAIN-SUFFIX, simoxity.net
 DOMAIN-SUFFIX, siomxity.com
 DOMAIN-SUFFIX, sjxydc.com
 DOMAIN-SUFFIX, wasu.tv
+##可能就是抖音（字节跳动）或其他中国App使用的内部/第三方追踪或云服务域名之一
+DOMAIN-SUFFIX, wuchuyun.com
 DOMAIN-SUFFIX, xinqiucc.com
 DOMAIN-SUFFIX, ydycdn.com
 DOMAIN-SUFFIX, yingt.fun

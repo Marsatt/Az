@@ -17,6 +17,8 @@ DOMAIN, m.amap.com, 直鏈
 DOMAIN-SUFFIX, map.baidu.com
 ##导航轨迹跟踪，reject 可能影响路线实时更新、偏航提醒、前方高速公路危险事故/施工/事故预警 等实时播报功能。
 DOMAIN, tracknavi.baidu.com
+##导航事故聊天群里的图片显示。
+DOMAIN, cjh-ticket.cdn.bcebos.com
 ##地图数据加载，reject 可能导致地图画面加载慢或不完整。
 DOMAIN, itsmap3.baidu.com
 ##加载地图图标、POI（兴趣点）图片、导航箭头、路况图层素材、界面按钮等功能性静态文件。_这些资源是百度地图正常显示界面和地图内容所必需的（类似网页里的图片服务器）。_“百灵鸟2”和“百雀羚”都是百度内部给不同 CDN 节点起的代号（百度喜欢用鸟类、动物或品牌名给内部服务命名），不是广告专用。
@@ -32,13 +34,13 @@ DOMAIN, common.lcs.baidu.com
 
 
 #相关于百度地图应用及其CDN的域名：
-DOMAIN, lbsnavi.cdn.bcebos.com
+
 DOMAIN, carowner-default.cdn.bcebos.com
 DOMAIN, cjh-amis.cdn.bcebos.com
 DOMAIN, dmpstatic.cdn.bcebos.com
-DOMAIN, himg.bdimg.com
 DOMAIN, hotel-pic.cdn.bcebos.com
 DOMAIN, internal-amis-res.cdn.bcebos.com
+DOMAIN, lbsnavi.cdn.bcebos.com
 DOMAIN, lbsugc.cdn.bcebos.com
 DOMAIN, low-frequency-vertical-industry.cdn.bcebos.com
 DOMAIN, map-push.cdn.bcebos.com
@@ -52,6 +54,7 @@ DOMAIN, pic-online.cdn.bcebos.com
 DOMAIN, poi-pic-gz.cdn.bcebos.com
 DOMAIN, poi-pic.cdn.bcebos.com
 DOMAIN, se-feed-bucket.cdn.bcebos.com
+DOMAIN, himg.bdimg.com
 DOMAIN, mapsv0.bdimg.com
 DOMAIN, vectormap0.bdimg.com
 #其他可能相关的域名（但与百度地图功能没有直接关联）：
