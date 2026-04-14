@@ -11,6 +11,8 @@ DOMAIN-SUFFIX, hotfree123.com
 
 
 #百度地图
+##百度地图_运行后台无限触发网址
+IP-CIDR, 180.76.76.200/32, no-resolve
 ##优比客思（UBiX）官方域名，他们主打 UBiMAX SDK，是一个移动广告聚合与智能营销平台，帮助 App 接入多家广告源（包括腾讯优量汇、字节、百度等），并进行用户行为追踪、广告效果归因、转化优化等。
 DOMAIN-SUFFIX, ubixioe.com
 ##开屏广告_1rtb.net 是中国公司美数科技（AdxData / 美数DSP）旗下的实时竞价（RTB）广告平台。
