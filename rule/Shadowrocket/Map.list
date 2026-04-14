@@ -21,7 +21,7 @@ DOMAIN, tracknavi.baidu.com
 DOMAIN, itsmap3.baidu.com
 ##加载地图图标、POI（兴趣点）图片、导航箭头、路况图层素材、界面按钮等功能性静态文件。_这些资源是百度地图正常显示界面和地图内容所必需的（类似网页里的图片服务器）。_“百灵鸟2”和“百雀羚”都是百度内部给不同 CDN 节点起的代号（百度喜欢用鸟类、动物或品牌名给内部服务命名），不是广告专用。
 DOMAIN, baiqueling.baidu.com
-DOMAIN, bailinaniao2.baidu.com
+DOMAIN, bailingniao2.baidu.com
 
 
 #相关于百度地图应用及其CDN的域名：
