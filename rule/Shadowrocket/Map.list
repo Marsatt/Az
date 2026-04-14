@@ -22,6 +22,13 @@ DOMAIN, itsmap3.baidu.com
 ##加载地图图标、POI（兴趣点）图片、导航箭头、路况图层素材、界面按钮等功能性静态文件。_这些资源是百度地图正常显示界面和地图内容所必需的（类似网页里的图片服务器）。_“百灵鸟2”和“百雀羚”都是百度内部给不同 CDN 节点起的代号（百度喜欢用鸟类、动物或品牌名给内部服务命名），不是广告专用。
 DOMAIN, baiqueling.baidu.com
 DOMAIN, bailingniao2.baidu.com
+###百度地图_看路人发送的路况事故、施工等消息。
+##百度地图的 Push Information Management（推送信息管理）或 Personal Information Manager 服务。_主要用于：接收服务器推送的实时消息，包括用户上报的路况事件（事故、危险、施工等）、系统通知、个性化路况提醒等。_与用户路况事故信息的关系：非常关键。百度地图的“前方有人上报事故/危险”这类实时众包信息，很多是通过 push 通道下发的。
+DOMAIN, pim.baidu.com
+##百度地图的 Log Collection Service / 公共日志收集服务（LCS = Log Collection System）。_主要用于：上传你的使用日志、位置轨迹、路况上报数据，同时也可能下载一些公共配置或事件数据。
+DOMAIN, common.lcs.baidu.com
+
+
 
 
 #相关于百度地图应用及其CDN的域名：
