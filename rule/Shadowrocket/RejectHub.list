@@ -1,54 +1,106 @@
-#未知
-#DOMAIN-SUFFIX, narakahunter.mvw
+# ==============================
+# Reject 分流规则
+# ==============================
 
 
-#合法的 AI 广告平台公司_主要业务：帮助品牌（尤其是广告主）自动化寻找 YouTube、Instagram 等平台的创作者（Creators），做创作者广告（Creator-led advertising / sponsored content）。_很多广告拦截工具（uBlock Origin、AdGuard、Pi-hole 等）会把广告相关域名、营销平台、追踪器列入 blocklist。即使你没主动访问，它也可能通过网页上的广告脚本、追踪像素、合作伙伴网站间接加载，属于广告/营销追踪类别。
+# ── 盗版/未知来源程序 ─────────
+
+# 未知来源软件相关域名，可能为盗版程序广告模块
+DOMAIN-SUFFIX, no-mad-world.club
+DOMAIN-SUFFIX, club
+
+
+# ── 广告平台（通用）────────────
+
+# 合法 AI 广告平台，帮助品牌自动化寻找创作者做赞助内容，常被广告拦截工具列入 blocklist
 DOMAIN-SUFFIX, agentio.com
 
+# 实时竞价广告平台（RTB），美数科技旗下
+DOMAIN-SUFFIX, 1rtb.net
 
-#免费直播摄像头成人网站（Free Porn Cams / Live Webcam）。_隐私风险很高：这类网站通常会大量加载第三方追踪器、广告网络、弹窗、重定向，甚至可能有恶意软件或指纹追踪。很多 adblock 列表会直接把这类域名整个 block 掉。
+# UBiX 移动广告聚合平台（UBiMAX SDK），接入多家广告源并进行用户行为追踪、广告效果归因
+DOMAIN-SUFFIX, ubixioe.com
+
+# 多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
+DOMAIN-SUFFIX, mg-cdn.com
+
+
+# ── 成人网站 ──────────────────
+
+# 免费直播摄像头成人网站，大量加载第三方追踪器、广告网络，有恶意软件或指纹追踪风险
 DOMAIN-SUFFIX, hotfree123.com
 
+# stripchat.com / hplives.com 附属广告域名
+DOMAIN-SUFFIX, ststandard.com
 
-#百度地图
-##百度地图_运行后台无限触发网址
-IP-CIDR, 180.76.76.200/32, no-resolve
-##优比客思（UBiX）官方域名，他们主打 UBiMAX SDK，是一个移动广告聚合与智能营销平台，帮助 App 接入多家广告源（包括腾讯优量汇、字节、百度等），并进行用户行为追踪、广告效果归因、转化优化等。
-DOMAIN-SUFFIX, ubixioe.com
-##开屏广告_1rtb.net 是中国公司美数科技（AdxData / 美数DSP）旗下的实时竞价（RTB）广告平台。
-DOMAIN-SUFFIX, 1rtb.net
-##百度地图的IP定位 / 位置服务相关域名（bz 可能指 Baidu ZhiNeng 或类似内部模块，ipdx 指 IP-based positioning）。_主要用于：快速获取你的 IP 对应的粗略地理位置、辅助 GPS 定位、加速初始定位。_隐私角度：属于定位追踪类，会上传你的 IP 和设备信息来辅助定位。_影响不大（百度地图有 GPS + 基站 + WiFi 多重定位），但可能导致首次定位稍慢一点。
+# stripchat.com 附属互动设备 API（Lovense）
+DOMAIN-SUFFIX, display.lovense-api.com
+
+
+# ── 百度地图 ──────────────────
+
+# 百度移动广告服务（Mobile Ads），开屏广告主要来源之一
+DOMAIN, mobads.baidu.com
+
+# 百度移动广告分发服务（Mobile Baidu Distribution），开屏广告主要来源之一
+DOMAIN, mbd.baidu.com
+
+# 百度积分墙广告服务
+DOMAIN, integralwall.baidu.com
+
+# 百度广告/游戏推广相关，与地图核心功能无关
+DOMAIN, bgg.baidu.com
+
+# 百度推送营销 API，用于广告/营销消息推送
+DOMAIN, api.tuisong.baidu.com
+
+# Feed 流内容桶 CDN，用于信息流推荐/广告内容分发
+DOMAIN, se-feed-bucket.cdn.bcebos.com
+
+# DMP 静态资源（Data Management Platform），用于用户画像与广告定向
+DOMAIN, dmpstatic.cdn.bcebos.com
+
+# 百度信息流/新闻资讯静态资源，与地图导航无关
+DOMAIN, now.bdstatic.com
+
+# 百度地图活动/运营页面资源 CDN，通常用于加载广告活动图
+DOMAIN, pms-cdn.bdstatic.com
+
+# 百度 App Link Service，应用链接追踪服务，与导航功能无关
+DOMAIN, als.baidu.com
+
+# 百度 IP 定位辅助服务，上传 IP 和设备信息用于粗略定位，属定位追踪类，对 GPS 定位影响极小
 DOMAIN, bz-ipdx.baidu.com
-#百度地图的打车 / 网约车服务接口（yongche = 拥车/用车，百度地图内置的打车聚合平台，类似滴滴/曹操等）。_主要用于：检查打车订单状态、附近车辆、比价等（即使你没叫车，App 也可能后台探测）。_与纯导航无关：这是商业广告/增值服务模块。_隐私角度：会收集位置来推送打车信息，属于广告/商业追踪类。
+
+# 百度 H2T 工具箱服务，功能不明确，与导航无直接关系
+DOMAIN, h2tcbox.baidu.com
+
+# 百度地图内置打车聚合服务，属商业增值模块，会收集位置推送打车信息
 DOMAIN, yongche.baidu.com
 
+# 糯米（百度本地生活）API，与导航功能无直接关系
+DOMAIN, huiduapi.nuomi.com
 
-##高德地图_统计
+# 百度广告相关 IP
+IP-CIDR, 180.76.76.200/32, no-resolve
+
+
+# ── 高德地图 ──────────────────
+
+# 高德地图统计服务
 DOMAIN-SUFFIX, qchannel01.cn
-##高德地图_阿里巴巴_统计
+
+# 高德地图阿里巴巴安全统计服务
 DOMAIN-SUFFIX, alibabachengdun.net
-##开机打开Chrome后显示的
-DOMAIN, ws-us2.pusher.com
-DOMAIN, geoip.furman.im
 
 
-#小红书app_跟踪个人数据
-DOMAIN-SUFFIX, tianwenca.com
+# ── 抖音 ──────────────────────
 
-
-#抖音
-##抖音使用阿里巴巴服务器
-IP-CIDR, 8.134.241.67/32, no-resolve
-IP-CIDR, 8.133.123.137/32, no-resolve
-IP-CIDR, 8.133.123.138/32, no-resolve
-IP-CIDR, 8.133.123.139/32, no-resolve
-IP-CIDR, 8.133.123.140/32, no-resolve
-##抖音电脑版，无用的网址。
+# 抖音电脑版无用域名
 DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
-##抖音手机版，无用的网址。
-URL-REGEX,^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
-IP-CIDR, 221.204.46.250/32, no-resolve
+
+# 抖音手机版无用域名
 DOMAIN, m.baike.com
 DOMAIN, mon.toutiaocloud.com
 DOMAIN, mon.toutiaocloud.net
@@ -76,70 +128,41 @@ DOMAIN-SUFFIX, simoxity.net
 DOMAIN-SUFFIX, siomxity.com
 DOMAIN-SUFFIX, sjxydc.com
 DOMAIN-SUFFIX, wasu.tv
-##可能就是抖音（字节跳动）或其他中国App使用的内部/第三方追踪或云服务域名之一
 DOMAIN-SUFFIX, wuchuyun.com
 DOMAIN-SUFFIX, xinqiucc.com
 DOMAIN-SUFFIX, ydycdn.com
 DOMAIN-SUFFIX, yingt.fun
 
+# 抖音手机版无用 URL
+URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 
-#剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
+# 抖音使用的阿里巴巴服务器 IP
+IP-CIDR, 8.134.241.67/32, no-resolve
+IP-CIDR, 8.133.123.137/32, no-resolve
+IP-CIDR, 8.133.123.138/32, no-resolve
+IP-CIDR, 8.133.123.139/32, no-resolve
+IP-CIDR, 8.133.123.140/32, no-resolve
+
+# 抖音手机版无用 IP
+IP-CIDR, 221.204.46.250/32, no-resolve
+
+
+# ── 剪映 / Ulike Cam ──────────
+
+# 剪映 / Ulike Cam 直播互动服务相关
 DOMAIN-SUFFIX, likecam.com
 DOMAIN-SUFFIX, ulikecam.com
 
-#nike
-#订单查询
-DOMAIN-SUFFIX, aliapp.org
-DOMAIN-SUFFIX, tdum.alibaba.com
 
-#这俩是 美国 Stripe 的合法支付/CDN/监控域名
-DOMAIN, b.stripecdn.com
-DOMAIN, m.stripe.network
+# ── 微信 ──────────────────────
 
-#开源的Shutter Encoder打开后
-DOMAIN-SUFFIX, shutterencoder.com
+# 微信电脑版无用域名
+DOMAIN, dldir1v6.qq.com
 
-#20260127200249_CleanMyMac
-DOMAIN-SUFFIX, macpaw.com
-DOMAIN-SUFFIX, devmate.com
-DOMAIN-SUFFIX, moonlock.com
-DOMAIN-SUFFIX, cleanmymac.com
-
-#20260113123700_Bose耳机app
-DOMAIN, nadc.data.api.bose.io
-
-#iPad更新app后自动访问这个监控网站
-DOMAIN-SUFFIX, dpdns.org
-
-#阿里小号_拒绝
-DOMAIN, zconfig.alibabausercontent.com
-
-#iPhone&iPad控制mac_app
-DOMAIN, rs.ltd
-
-#chrome插件
-#沉浸式翻译
-DOMAIN-SUFFIX, immersivetranslate.com
-DOMAIN-SUFFIX, immersivetranslate.cn
-#chrome插件鼠标手势
-DOMAIN, api.crxmouse.com
-DOMAIN, api.mousegesturesapi.com
-#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
-DOMAIN, safebrowsing.urlsec.qq.com
-
-#app_picsew
-DOMAIN-SUFFIX, picsew.app
-
-#Wechat微信_iPhone
+# 微信 iPhone IP 段
 IP-CIDR, 42.202.141.12/32, no-resolve
 IP-CIDR, 42.202.141.13/32, no-resolve
 IP-CIDR, 42.202.141.116/32, no-resolve
-IP-CIDR, 42.202.153.25/32, no-resolve
-IP-CIDR, 42.202.153.50/32, no-resolve
-IP-CIDR, 42.202.154.19/32, no-resolve
-IP-CIDR, 42.202.154.21/32, no-resolve
-IP-CIDR, 42.202.154.211/32, no-resolve
-IP-CIDR, 42.202.154.212/32, no-resolve
 IP-CIDR, 42.202.153.15/32, no-resolve
 IP-CIDR, 42.202.153.23/32, no-resolve
 IP-CIDR, 42.202.153.25/32, no-resolve
@@ -147,6 +170,9 @@ IP-CIDR, 42.202.153.33/32, no-resolve
 IP-CIDR, 42.202.153.37/32, no-resolve
 IP-CIDR, 42.202.153.50/32, no-resolve
 IP-CIDR, 42.202.153.120/32, no-resolve
+IP-CIDR, 42.202.154.19/32, no-resolve
+IP-CIDR, 42.202.154.21/32, no-resolve
+IP-CIDR, 42.202.154.211/32, no-resolve
 IP-CIDR, 42.202.154.212/32, no-resolve
 IP-CIDR, 123.172.120.22/32, no-resolve
 IP-CIDR, 123.172.120.37/32, no-resolve
@@ -166,124 +192,49 @@ IP-CIDR, 123.172.120.142/32, no-resolve
 IP-CIDR, 183.60.8.74/32, no-resolve
 
 
+# ── 拼多多 ────────────────────
 
-#Deepseek
+# 拼多多无用 URL
+URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+
+URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+
+
+# 拼多多无用 IP 段
+IP-CIDR, 140.206.232.17/24, no-resolve
+
+
+# ── 小红书 ────────────────────
+
+# 小红书个人数据追踪
+DOMAIN-SUFFIX, tianwenca.com
+
+
+# ── 网易有道词典 ──────────────
+
+# 有道词典数据追踪与日志上报
+DOMAIN, gorgon.youdao.com
+DOMAIN, rlogs.youdao.com
+DOMAIN, mind.youdao.com
+
+
+# ── Deepseek ──────────────────
+
+# Deepseek 相关无用域名
 DOMAIN-SUFFIX, zztfly.com
 DOMAIN-SUFFIX, cmpassport.com
 
-#豆包
+
+# ── 豆包 ──────────────────────
+
+# 豆包相关无用域名
 DOMAIN-SUFFIX, ugsdk.cn
 DOMAIN-SUFFIX, oceancloudapi.com
 
-#Zoom Earth
-DOMAIN-SUFFIX, revenuecat.com
 
-#用户行为分析 & 实验性追踪 API
-DOMAIN-SUFFIX, amplitude.com
+# ── GlobalSign（根证书屏蔽）────
 
-#多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
-DOMAIN-SUFFIX, mg-cdn.com
-
-#fpjs.io 是 FingerprintJS 浏览器指纹识别库
-DOMAIN-SUFFIX, fpjs.io
-
-#Twtich
-DOMAIN-SUFFIX, imrworldwide.com
-
-#微信电脑版，无用的网址。
-DOMAIN, dldir1v6.qq.com
-#属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
-#根证书屏蔽
+# GlobalSign SSL/TLS 证书颁发机构根证书相关域名及 IP
 DOMAIN-SUFFIX, globalsign.com
 IP-CIDR, 42.59.25.1/24, no-resolve
 IP-CIDR, 116.140.44.1/24, no-resolve
 IP-CIDR, 124.95.177.1/24, no-resolve
 IP-CIDR, 218.61.162.1/24, no-resolve
-
-#拼多多_无用的网址。
-#202408251047
-IP-CIDR, 140.206.232.17/24, no-resolve
-# 第 1 类：精准命中所有 xxx/d?id=xxx（不管后面跟多少参数）
-URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+, REJECT
-# 第 2 类：精准命中所有 xxx/d4?appid=xxx（不管后面跟多少参数）
-URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+, REJECT
-
-
-#网易有道词典
-DOMAIN, gorgon.youdao.com
-DOMAIN, rlogs.youdao.com
-DOMAIN, mind.youdao.com
-
-#PDFgear_Mac版本
-DOMAIN-SUFFIX, pdfgear.com
-
-#sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
-DOMAIN, sessions.bugsnag.com
-
-#Mac开机运行监控系统开源工具，Stats。
-DOMAIN, api.serhiy.io
-
-#analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
-DOMAIN-SUFFIX, techsmith.com
-
-#由 Objective Development 提供的服务，主要用于地理位置相关的功能。
-DOMAIN, geolocation.obdev.at
-
-#ViewerAttack 相关，这是一个与网络流量或用户行为分析有关的服务。
-DOMAIN, api.viewerattack.com
-
-#盗版程序
-#这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
-DOMAIN-SUFFIX, no-mad-world.club
-DOMAIN-SUFFIX, club
-
-#网站的附加访问
-#stripchat.com & hplives.com
-DOMAIN-SUFFIX, ststandard.com
-DOMAIN-SUFFIX, display.lovense-api.com
-#Instagram
-DOMAIN, www.fbsbx.com
-#bilibili
-DOMAIN, passport.bilicomic.com
-#文字转语音_国内_ttsmaker.cn
-DOMAIN-SUFFIX, tts-file.com
-#文字转语音_aisaver.io
-DOMAIN, cdn.zbaseglobal.com
-
-#谷歌浏览器插件
-#bilibili哔哩哔哩下载助手
-DOMAIN-SUFFIX, csser.top
-
-#屏蔽该网址可能导致无法正常激活或使用依赖于 Nalpeiron 授权的应用程序，可能影响软件的正常运行。因此，如果你使用需要 Nalpeiron 服务的应用，建议不屏蔽此网址。
-DOMAIN, my.nalpeiron.com
-
-#这个网址是 Paddle 的支付处理平台，用于处理在线支付和交易。
-DOMAIN-SUFFIX, paddle.com
-DOMAIN-SUFFIX, paddleapi.com
-
-#alfred.app 是 Alfred 的官方网站。Alfred 是一款流行的 macOS 应用程序，用于提高工作效率。它通过键盘快捷键、文本扩展和自定义工作流，帮助用户更快捷地启动应用、查找文件、执行系统命令和网络搜索等操作。许多 Mac 用户安装 Alfred 来替代或增强 macOS 自带的 Spotlight 功能。
-DOMAIN-SUFFIX, alfred.app
-
-#开源-输入法切换工具Input Source Pro
-DOMAIN-SUFFIX, inputsource.pro
-
-#这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
-DOMAIN-SUFFIX, wedata.net
-
-#AdGuard
-DOMAIN-SUFFIX, adtidy.org
-
-#这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
-DOMAIN-SUFFIX, cherpake.com
-
-#与 Dark Reader 插件相关，它是一款用于在浏览器中启用暗色模式的扩展程序。这个链接可能是为了更新扩展程序或发送一些使用统计数据。
-DOMAIN, darkreader.org
-
-#该网站可能与一些系统或网络管理相关的API服务有关，帮助优化网络性能或跟踪访问流量。
-DOMAIN, api64.com
-
-#这个域名可能是一个与流量分析或广告投放相关的网站，通常被用于网络分析和用户行为跟踪。
-DOMAIN, score.traficmetrics.com
-
-#shottr
-DOMAIN, shottr.cc

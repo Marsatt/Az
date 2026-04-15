@@ -1,76 +1,146 @@
-#苹果地图也需要这个高德网址：
-DOMAIN-SUFFIX, autonavi.com
-#高德地图
+# ==============================
+# 百度地图 Direct 分流规则
+# ==============================
+
+
+# ── 核心服务 ──────────────────
+
+# 百度地图主域名
+DOMAIN-SUFFIX, map.baidu.com
+
+# 导航轨迹跟踪，reject 可能影响路线实时更新、偏航提醒、前方高速路危险/施工/事故预警等实时播报
+DOMAIN, tracknavi.baidu.com
+
+# 地图数据加载，reject 可能导致地图画面加载慢或不完整
+DOMAIN, itsmap3.baidu.com
+
+# 加载地图图标、POI 图片、导航箭头、路况图层素材、界面按钮等功能性静态文件，地图正常显示所必需
+DOMAIN, baiqueling.baidu.com
+
+# 同上，"百灵鸟2"是百度内部 CDN 节点代号，非广告专用
+DOMAIN, bailingniao2.baidu.com
+
+# Push 推送信息管理，接收用户上报的路况事件（事故、危险、施工等），实时众包路况信息通过此通道下发，非常关键
+DOMAIN, pim.baidu.com
+
+# 公共日志收集服务，上传使用日志和位置轨迹，也可能下载公共配置或事件数据
+DOMAIN, common.lcs.baidu.com
+
+
+# ── 百度地图 CDN ──────────────
+
+# 车主服务默认 CDN，与车主相关功能资源加载
+DOMAIN, carowner-default.cdn.bcebos.com
+
+# AMIS 低代码前端框架资源，用于地图内嵌页面 UI 渲染
+DOMAIN, cjh-amis.cdn.bcebos.com
+
+# 酒店图片 CDN，用于地图内酒店 POI 图片展示
+DOMAIN, hotel-pic.cdn.bcebos.com
+
+# 内部 AMIS 资源 CDN，地图内嵌页面组件资源
+DOMAIN, internal-amis-res.cdn.bcebos.com
+
+# LBS 导航资源 CDN，导航相关资源文件
+DOMAIN, lbsnavi.cdn.bcebos.com
+
+# LBS 用户生成内容 CDN，地图内用户上传的图片、评价等内容
+DOMAIN, lbsugc.cdn.bcebos.com
+
+# 低频垂直行业资源 CDN，地图内特定行业（如景区、停车场等）的资源
+DOMAIN, low-frequency-vertical-industry.cdn.bcebos.com
+
+# 地图推送资源 CDN，推送消息相关的图片、资源文件
+DOMAIN, map-push.cdn.bcebos.com
+
+# 百度地图移动端 LBS 应用资源 CDN
+DOMAIN, map-mobile-lbsapp.cdn.bcebos.com
+
+# 百度地图移动端开放图片资源 CDN，地图内 POI 开放图片
+DOMAIN, map-mobile-opnimg.cdn.bcebos.com
+
+# 百度地图移动端通用资源 CDN，地图 App 核心资源文件
+DOMAIN, map-mobile-resource.cdn.bcebos.com
+
+# 车主服务广州节点 CDN，车主相关功能的华南 CDN 节点
+DOMAIN, mapcarowner-gz.cdn.bcebos.com
+
+# 美团合作商户图片 CDN，地图内美团 POI 图片展示
+DOMAIN, photo-meituan.cdn.bcebos.com
+
+# 地图 POI 图片主 CDN
+DOMAIN, pic-map.cdn.bcebos.com
+
+# 在线图片通用 CDN，地图内各类在线图片资源
+DOMAIN, pic-online.cdn.bcebos.com
+
+# POI 图片广州节点 CDN，华南区域 POI 图片加速
+DOMAIN, poi-pic-gz.cdn.bcebos.com
+
+# POI 图片主节点 CDN
+DOMAIN, poi-pic.cdn.bcebos.com
+
+# 百度图片静态资源 CDN，地图 UI 图片资源
+DOMAIN, himg.bdimg.com
+
+# 百度地图瓦片图 CDN，地图底图加载核心域名
+DOMAIN, mapsv0.bdimg.com
+
+# 百度矢量地图 CDN，矢量地图渲染资源
+DOMAIN, vectormap0.bdimg.com
+
+
+# ── 百度地图关联服务 ──────────
+
+# 百度导航 App 相关服务，与地图 App 存在功能重叠
+DOMAIN, appnavi.baidu.com
+
+# 百度车主服务主域名，与车主功能相关
+DOMAIN, carowner.baidu.com
+
+# 百度地图商业中心服务，商户入驻/商业数据相关
+DOMAIN, map-bizcenter.baidu.com
+
+# 百度地图酒店服务主域名，地图内酒店预订功能
+DOMAIN, maphotel.baidu.com
+
+# 百度导航监控服务，导航数据上报/监控相关
+DOMAIN, navimon.baidu.com
+
+# 百度上传服务，用于用户上传图片、路况反馈等
+DOMAIN, upl.baidu.com
+
+# 百度 WAP 登录认证服务，账号登录相关
+DOMAIN, wappass.baidu.com
+
+
+# ==============================
+# 高德地图 / 苹果地图 Direct 分流规则
+# （苹果地图在中国大陆底层使用高德数据，autonavi.com 两者共用）
+# ==============================
+
+
+# ── 高德/苹果地图核心域名 ──────
+
+# 高德地图主域名（高德 App、高德 SDK、苹果地图底层数据均使用此域名）
+DOMAIN-SUFFIX, amap.com
+# 高德地图移动端 H5 页面（与 amap.com 存在功能重叠，单独列出以防漏匹配）
+# DOMAIN, m.amap.com
+
+# 高德地图备用短域名
 DOMAIN-SUFFIX, a-map.cn
 DOMAIN-SUFFIX, a-map.co
 DOMAIN-SUFFIX, a-map.link
 DOMAIN-SUFFIX, a-map.vip
-DOMAIN-SUFFIX, amap.com
-DOMAIN-SUFFIX, amapauto.com
-DOMAIN-SUFFIX, anav.com
+
+# AutoNavi（高德）底层导航数据域名，苹果地图在中国大陆依赖此域名提供地图数据
 DOMAIN-SUFFIX, autonavi.com
+
+# 高德汽车导航相关域名
+DOMAIN-SUFFIX, amapauto.com
+
+# 高德导航 SDK 相关域名
+DOMAIN-SUFFIX, anav.com
+
+# 高德地图品牌域名（"高德"拼音）
 DOMAIN-SUFFIX, gaode.com
-DOMAIN, m.amap.com
-
-
-#百度地图
-DOMAIN-SUFFIX, map.baidu.com
-##导航轨迹跟踪，reject 可能影响路线实时更新、偏航提醒、前方高速公路危险事故/施工/事故预警 等实时播报功能。
-DOMAIN, tracknavi.baidu.com
-##地图数据加载，reject 可能导致地图画面加载慢或不完整。
-DOMAIN, itsmap3.baidu.com
-##加载地图图标、POI（兴趣点）图片、导航箭头、路况图层素材、界面按钮等功能性静态文件。_这些资源是百度地图正常显示界面和地图内容所必需的（类似网页里的图片服务器）。_“百灵鸟2”和“百雀羚”都是百度内部给不同 CDN 节点起的代号（百度喜欢用鸟类、动物或品牌名给内部服务命名），不是广告专用。
-DOMAIN, baiqueling.baidu.com
-DOMAIN, bailingniao2.baidu.com
-###百度地图_看路人发送的路况事故、施工等消息。
-##百度地图的 Push Information Management（推送信息管理）或 Personal Information Manager 服务。_主要用于：接收服务器推送的实时消息，包括用户上报的路况事件（事故、危险、施工等）、系统通知、个性化路况提醒等。_与用户路况事故信息的关系：非常关键。百度地图的“前方有人上报事故/危险”这类实时众包信息，很多是通过 push 通道下发的。
-DOMAIN, pim.baidu.com
-##百度地图的 Log Collection Service / 公共日志收集服务（LCS = Log Collection System）。_主要用于：上传你的使用日志、位置轨迹、路况上报数据，同时也可能下载一些公共配置或事件数据。
-DOMAIN, common.lcs.baidu.com
-
-
-
-
-#相关于百度地图应用及其CDN的域名：
-
-DOMAIN, carowner-default.cdn.bcebos.com
-DOMAIN, cjh-amis.cdn.bcebos.com
-DOMAIN, dmpstatic.cdn.bcebos.com
-DOMAIN, hotel-pic.cdn.bcebos.com
-DOMAIN, internal-amis-res.cdn.bcebos.com
-DOMAIN, lbsnavi.cdn.bcebos.com
-DOMAIN, lbsugc.cdn.bcebos.com
-DOMAIN, low-frequency-vertical-industry.cdn.bcebos.com
-DOMAIN, map-push.cdn.bcebos.com
-DOMAIN, map-mobile-lbsapp.cdn.bcebos.com
-DOMAIN, map-mobile-opnimg.cdn.bcebos.com
-DOMAIN, map-mobile-resource.cdn.bcebos.com
-DOMAIN, mapcarowner-gz.cdn.bcebos.com
-DOMAIN, photo-meituan.cdn.bcebos.com
-DOMAIN, pic-map.cdn.bcebos.com
-DOMAIN, pic-online.cdn.bcebos.com
-DOMAIN, poi-pic-gz.cdn.bcebos.com
-DOMAIN, poi-pic.cdn.bcebos.com
-DOMAIN, se-feed-bucket.cdn.bcebos.com
-DOMAIN, himg.bdimg.com
-DOMAIN, mapsv0.bdimg.com
-DOMAIN, vectormap0.bdimg.com
-#其他可能相关的域名（但与百度地图功能没有直接关联）：
-DOMAIN, als.baidu.com
-DOMAIN, api.tuisong.baidu.com
-DOMAIN, appnavi.baidu.com
-DOMAIN, bgg.baidu.com
-DOMAIN, carowner.baidu.com
-DOMAIN, h2tcbox.baidu.com
-DOMAIN, integralwall.baidu.com
-DOMAIN, map-bizcenter.baidu.com
-DOMAIN, maphotel.baidu.com
-DOMAIN, mbd.baidu.com
-DOMAIN, navimon.baidu.com
-DOMAIN, upl.baidu.com
-DOMAIN, wappass.baidu.com
-DOMAIN, mobads.baidu.com
-DOMAIN, now.bdstatic.com
-DOMAIN, pms-cdn.bdstatic.com
-#其他百度服务相关的域名：
-DOMAIN, huiduapi.nuomi.com
