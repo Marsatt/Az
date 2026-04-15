@@ -56,6 +56,10 @@ DOMAIN-SUFFIX, yingt.fun
 DOMAIN-SUFFIX, likecam.com
 DOMAIN-SUFFIX, ulikecam.com
 
+#小红书📕
+##天文茶是一家提供行为遥测 / 数据采集 / 分析服务的中国公司（域名 tianwenca.com），其 SDK 主要用于 App 收集用户行为数据、遥测信息等。很多国内 App（包括部分直播、短视频或社交类应用）会集成这类第三方 SDK 来实现数据统计、用户画像、性能监控等功能。
+DOMAIN-SUFFIX, tianwenca.com
+
 #nike
 #订单查询
 DOMAIN-SUFFIX,aliapp.org
@@ -135,7 +139,6 @@ IP-CIDR, 123.172.120.142/32, no-resolve
 IP-CIDR, 183.60.8.74/32, no-resolve
 
 
-
 #Deepseek
 DOMAIN-SUFFIX, intercom.com
 DOMAIN-SUFFIX, zztfly.com
@@ -162,13 +165,7 @@ DOMAIN-SUFFIX, imrworldwide.com
 
 #微信电脑版，无用的网址。
 DOMAIN, dldir1v6.qq.com
-#属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
-#根证书屏蔽
-DOMAIN-SUFFIX, globalsign.com
-IP-CIDR, 42.59.25.1/24, no-resolve
-IP-CIDR, 116.140.44.1/24, no-resolve
-IP-CIDR, 124.95.177.1/24, no-resolve
-IP-CIDR, 218.61.162.1/24, no-resolve
+
 
 #拼多多_无用的网址。
 #202408251047

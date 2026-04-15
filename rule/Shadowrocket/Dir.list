@@ -183,6 +183,9 @@ DOMAIN, scamalytics.com
 DOMAIN, ipinfo.io
 DOMAIN, website-cdn.ipinfo.io
 
+#属于 GlobalSign，是一个全球知名的 SSL/TLS 根证书证书颁发机构（CA，Certificate Authority）。
+DOMAIN-SUFFIX, globalsign.com
+
 
 # ==============================
 # 阿里巴巴 & 支付宝相关
