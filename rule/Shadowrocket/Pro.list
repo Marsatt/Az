@@ -128,14 +128,16 @@ DOMAIN, chaturbate.jjgirls.com
 DOMAIN, internet-up.ably-realtime.com
 
 #stripchat & hplives
-#@!显示主播预览图片
-DOMAIN, img.doppiocdn.org
+##显示主播预览图片
 DOMAIN-SUFFIX, loo3laej.com
+## Stripchat 的静态资源服务器（assets = 资源文件），用于加载页面上的图片、JS 脚本、CSS 样式、模型头像、预览图、按钮图标等。_负责页面布局、缩略图、UI 元素等的加载。
+DOMAIN, assets.strpssts-ana.com
 DOMAIN, mc.thedd.online
 DOMAIN, api.lovense-api.com
 DOMAIN-SUFFIX, doppiocdn.live
 DOMAIN-SUFFIX, doppiocdn.com
 DOMAIN-SUFFIX, doppiocdn.net
+DOMAIN-SUFFIX, doppiocdn.org
 DOMAIN-SUFFIX, stripchat.com
 DOMAIN-SUFFIX, oppiocdn.media
 DOMAIN-SUFFIX, hplives.com
@@ -143,8 +145,8 @@ DOMAIN-SUFFIX, hpjav.tv
 DOMAIN-SUFFIX, sc-apps.com
 DOMAIN-SUFFIX, strpst.com
 
-#Notion
-#@!需要有亚马逊的链接
+# Notion
+## 需要有亚马逊的链接
 DOMAIN, s3-us-west-2.amazonaws.com
 DOMAIN, s3.us-west-2.amazonaws.com
 DOMAIN, cdn.cr-relay.com
