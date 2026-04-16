@@ -132,6 +132,7 @@ DOMAIN, internet-up.ably-realtime.com
 DOMAIN-SUFFIX, loo3laej.com
 ## Stripchat 的静态资源服务器（assets = 资源文件），用于加载页面上的图片、JS 脚本、CSS 样式、模型头像、预览图、按钮图标等。_负责页面布局、缩略图、UI 元素等的加载。
 DOMAIN, assets.strpssts-ana.com
+DOMAIN, chunks.doppiostreams.com
 DOMAIN, mc.thedd.online
 DOMAIN, api.lovense-api.com
 DOMAIN-SUFFIX, doppiocdn.live
