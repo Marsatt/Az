@@ -160,12 +160,21 @@ DOMAIN, img.notionusercontent.com
 #显示图片_关联amazon
 DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com
 
-#Pornhub
-DOMAIN-SUFFIX, pornhub.org
+# Pornhub
 DOMAIN-SUFFIX, pornhub.com
+## API / 登录 / 数据接口
 DOMAIN-SUFFIX, phncdn.com
+DOMAIN-SUFFIX, pornhubpremium.com
+DOMAIN-SUFFIX, pornhub.org
+## CDN资源（最关键🔥）
 DOMAIN-SUFFIX, phprcdn.com
-#Pornhub_移动设备需要允许这个网址
+DOMAIN-SUFFIX, phncdn.net
+## Pornhub 同一体系下的独立成人视频网站。它们有点类似“兄弟站”，但定位略有差异。
+DOMAIN-SUFFIX, youporn.com
+DOMAIN-SUFFIX, redtube.com
+DOMAIN-SUFFIX, tube8.com
+DOMAIN-SUFFIX, thumbzilla.com
+## Pornhub_移动设备需要允许这个网址
 DOMAIN, video.sacdnssedge.com
 
 # DNS Leak from Shadowrocket Default
