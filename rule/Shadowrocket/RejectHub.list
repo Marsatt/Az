@@ -3,10 +3,8 @@
 # ==============================
 
 
-# Agentio
 # AI 创作者广告平台，帮助品牌自动化寻找创作者做赞助内容，常被广告拦截工具列入 blocklist
 DOMAIN-SUFFIX, agentio.com
-
 
 # chaturbate.jjgirls.com
 DOMAIN-SUFFIX, gethogrider.com
@@ -25,15 +23,31 @@ DOMAIN-SUFFIX, mg-cdn.com
 
 
 # 高德地图
-# qchannel01.cn - 高德地图统计与数据上报域名（位置/行为埋点），高德 App、苹果地图（中国区）常用，属于统计追踪
+## qchannel01.cn - 高德地图统计与数据上报域名（位置/行为埋点），高德 App、苹果地图（中国区）常用，属于统计追踪
 DOMAIN-SUFFIX, qchannel01.cn
 
+
+# Chrome 插件
+# 浏览器隐私保护
+## Chrome / Safari 等浏览器开启隐私保护后访问
+DOMAIN, safebrowsing.urlsec.qq.com
 
 # Chrome 开机触发
 ## ws-us2.pusher.com - Pusher 实时 WebSocket 推送服务（美国节点），常被 Chrome 插件、实时通知工具使用，开机 Chrome 启动时触发
 DOMAIN, ws-us2.pusher.com
 
-## geoip.furman.im - GeoIP 地理位置查询服务（用于显示国家旗帜等插件），常被浏览器扩展（如 Yet Another Flags）调用
+# Chrome 插件 - 沉浸式翻译
+DOMAIN-SUFFIX, immersivetranslate.com
+DOMAIN-SUFFIX, immersivetranslate.cn
+
+# Chrome 插件 - 鼠标手势（CRX Mouse）
+DOMAIN, api.crxmouse.com
+DOMAIN, api.mousegesturesapi.com
+
+# Chrome 插件 - bilibili 下载助手
+DOMAIN-SUFFIX, csser.top
+
+# Chrome 插件 - geoip.furman.im - GeoIP 地理位置查询服务（用于显示国家旗帜等插件），常被浏览器扩展（如 Yet Another Flags）调用
 DOMAIN, geoip.furman.im
 
 
@@ -56,6 +70,8 @@ URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 IP-CIDR, 221.204.46.250/32, no-resolve
 
 ## 抖音手机版无用域名
+## 用于处理支付相关请求，例如：_发起支付订单_查询支付状态_订阅/内购验证_支付回调等
+DOMAIN, api.doupay.com
 DOMAIN, m.baike.com
 DOMAIN, mon.toutiaocloud.com
 DOMAIN, mon.toutiaocloud.net
@@ -91,7 +107,7 @@ DOMAIN-SUFFIX, yingt.fun
 
 
 # 剪映 / Ulike Cam
-# 提供直播或视频互动服务的平台
+## 提供直播或视频互动服务的平台
 DOMAIN-SUFFIX, likecam.com
 DOMAIN-SUFFIX, ulikecam.com
 
@@ -104,8 +120,15 @@ DOMAIN-SUFFIX, askdiandian.com
 DOMAIN-SUFFIX, tianwenca.com
 
 
+# 淘宝
+## 阿里巴巴集团内部的 统一用户/设备管理平台（类似“用户画像/设备指纹/风控”系统）。
+DOMAIN-SUFFIX, alibabachengdun.net
+
+## ccrc 很可能指阿里巴巴内部的 Client Customer Relations Center 或类似客户端客户关系/数据中心模块（也可能与风控、客服数据相关）。_处理客户端与阿里后台的数据同步、配置拉取、客户行为上报等请求，常用于 App 的后台数据交互。
+DOMAIN, client-ccrc.alibaba.com
+
 # SenPlayer
-# 统计用户使用情况（看了哪些视频、播放时长等），可能推送广告/推荐或集成第三方数据采集 SDK
+## 统计用户使用情况（看了哪些视频、播放时长等），可能推送广告/推荐或集成第三方数据采集 SDK
 DOMAIN-SUFFIX, ldhy.click
 
 
@@ -131,13 +154,13 @@ DOMAIN-SUFFIX, tdum.alibaba.com
 
 
 # Stripe
-# 美国 Stripe 合法支付/CDN/监控域名
+## 美国 Stripe 合法支付/CDN/监控域名
 DOMAIN, b.stripecdn.com
 DOMAIN, m.stripe.network
 
 
 # Shutter Encoder
-# 开源视频编码工具
+## 开源视频编码工具
 DOMAIN-SUFFIX, shutterencoder.com
 
 
@@ -154,12 +177,12 @@ DOMAIN, nadc.data.api.bose.io
 
 
 # iPad 监控域名
-# iPad 更新 App 后自动访问此监控域名
+## iPad 更新 App 后自动访问此监控域名
 DOMAIN-SUFFIX, dpdns.org
 
 
 # 阿里小号
-# 阿里小号配置接口，拒绝
+## 阿里小号配置接口，拒绝
 DOMAIN, zconfig.alibabausercontent.com
 
 
@@ -167,19 +190,7 @@ DOMAIN, zconfig.alibabausercontent.com
 DOMAIN, rs.ltd
 
 
-# Chrome 插件 - 沉浸式翻译
-DOMAIN-SUFFIX, immersivetranslate.com
-DOMAIN-SUFFIX, immersivetranslate.cn
 
-
-# Chrome 插件 - 鼠标手势（CRX Mouse）
-DOMAIN, api.crxmouse.com
-DOMAIN, api.mousegesturesapi.com
-
-
-# 浏览器隐私保护
-# Chrome / Safari 等浏览器开启隐私保护后访问
-DOMAIN, safebrowsing.urlsec.qq.com
 
 
 # Picsew
@@ -235,22 +246,22 @@ DOMAIN-SUFFIX, oceancloudapi.com
 
 
 # Zoom Earth
-# RevenueCat - 订阅管理服务
+## RevenueCat - 订阅管理服务
 DOMAIN-SUFFIX, revenuecat.com
 
 
 # Amplitude
-# 用户行为分析与实验性追踪 API
+## 用户行为分析与实验性追踪 API
 DOMAIN-SUFFIX, amplitude.com
 
 
 # FingerprintJS
-# 浏览器指纹识别库
+## 浏览器指纹识别库
 DOMAIN-SUFFIX, fpjs.io
 
 
 # Twitch
-# 第三方受众测量与追踪服务（Nielsen / IMRS）
+## 第三方受众测量与追踪服务（Nielsen / IMRS）
 DOMAIN-SUFFIX, imrworldwide.com
 
 
@@ -277,7 +288,7 @@ DOMAIN-SUFFIX, pdfgear.com
 
 
 # Bugsnag
-# 错误监控与崩溃分析服务
+## 错误监控与崩溃分析服务
 DOMAIN, sessions.bugsnag.com
 
 
@@ -286,17 +297,17 @@ DOMAIN, api.serhiy.io
 
 
 # TechSmith（Camtasia / Snagit）
-# TechSmith 分析服务域名
+## TechSmith 分析服务域名
 DOMAIN-SUFFIX, techsmith.com
 
 
 # Objective Development（Little Snitch 等）
-# 地理位置相关功能服务
+## 地理位置相关功能服务
 DOMAIN, geolocation.obdev.at
 
 
 # ViewerAttack
-# 网络流量或用户行为分析服务
+## 网络流量或用户行为分析服务
 DOMAIN, api.viewerattack.com
 
 
@@ -322,12 +333,11 @@ DOMAIN-SUFFIX, tts-file.com
 DOMAIN, cdn.zbaseglobal.com
 
 
-# Chrome 插件 - bilibili 下载助手
-DOMAIN-SUFFIX, csser.top
+
 
 
 # Nalpeiron
-# 屏蔽可能导致依赖 Nalpeiron 授权的应用无法正常激活或使用
+## 屏蔽可能导致依赖 Nalpeiron 授权的应用无法正常激活或使用
 DOMAIN, my.nalpeiron.com
 
 
