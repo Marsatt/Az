@@ -3,6 +3,9 @@
 # ==============================
 
 
+#macOS，开源输入法rime，鼠鬚管
+DOMAIN-SUFFIX, rime.im
+
 # AI 创作者广告平台，帮助品牌自动化寻找创作者做赞助内容，常被广告拦截工具列入 blocklist
 DOMAIN-SUFFIX, agentio.com
 
