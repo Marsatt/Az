@@ -3,26 +3,42 @@
 # ==============================
 
 
+
+
 #macOS，开源输入法rime，鼠鬚管
 DOMAIN-SUFFIX, rime.im
+
 
 # AI 创作者广告平台，帮助品牌自动化寻找创作者做赞助内容，常被广告拦截工具列入 blocklist
 DOMAIN-SUFFIX, agentio.com
 
+
 # chaturbate.jjgirls.com
 DOMAIN-SUFFIX, gethogrider.com
+
 
 # Hotfree123 - 免费成人直播摄像头网站，大量加载第三方追踪器、广告网络，有恶意软件或指纹追踪风险
 DOMAIN-SUFFIX, hotfree123.com
 
-# stripchat.com / hplives.com 附属广告域名
-DOMAIN-SUFFIX, ststandard.com
 
-# stripchat.com 附属互动设备 API（Lovense）
+# stripchat.com / hplives.com
+## 用户行为分析 + 推送服务的 CDN
+DOMAIN-SUFFIX, cdn.moengage.com
+## 附属广告域名
+DOMAIN-SUFFIX, ststandard.com
+## stripchat.com 附属互动设备 API（Lovense）
 DOMAIN-SUFFIX, display.lovense-api.com
+
 
 # 多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
 DOMAIN-SUFFIX, mg-cdn.com
+
+
+# 百度地图
+## 百度（Baidu）自家的广告/追踪相关域名，属于百度广告投放或广告素材分发系统
+DOMAIN-SUFFIX, h2tcbox.baidu.com
+## 百度地图 App 集成了这个 SDK，因为它有地图广告、推广位、商业化合作（比如商家推广、打车联动等）。
+DOMAIN-SUFFIX, ubixioe.com
 
 
 # 高德地图
@@ -31,26 +47,19 @@ DOMAIN-SUFFIX, qchannel01.cn
 
 
 # Chrome 插件
-# 浏览器隐私保护
-## Chrome / Safari 等浏览器开启隐私保护后访问
+## 浏览器隐私保护 Chrome / Safari 等浏览器开启隐私保护后访问
 DOMAIN, safebrowsing.urlsec.qq.com
-
-# Chrome 开机触发
-## ws-us2.pusher.com - Pusher 实时 WebSocket 推送服务（美国节点），常被 Chrome 插件、实时通知工具使用，开机 Chrome 启动时触发
+## Chrome 开机触发 ws-us2.pusher.com - Pusher 实时 WebSocket 推送服务（美国节点），常被 Chrome 插件、实时通知工具使用，开机 Chrome 启动时触发
 DOMAIN, ws-us2.pusher.com
-
-# Chrome 插件 - 沉浸式翻译
+## Chrome 插件 - 沉浸式翻译
 DOMAIN-SUFFIX, immersivetranslate.com
 DOMAIN-SUFFIX, immersivetranslate.cn
-
-# Chrome 插件 - 鼠标手势（CRX Mouse）
+## Chrome 插件 - 鼠标手势（CRX Mouse）
 DOMAIN, api.crxmouse.com
 DOMAIN, api.mousegesturesapi.com
-
-# Chrome 插件 - bilibili 下载助手
+## Chrome 插件 - bilibili 下载助手
 DOMAIN-SUFFIX, csser.top
-
-# Chrome 插件 - geoip.furman.im - GeoIP 地理位置查询服务（用于显示国家旗帜等插件），常被浏览器扩展（如 Yet Another Flags）调用
+## Chrome 插件 - geoip.furman.im - GeoIP 地理位置查询服务（用于显示国家旗帜等插件），常被浏览器扩展（如 Yet Another Flags）调用
 DOMAIN, geoip.furman.im
 
 
@@ -62,17 +71,14 @@ IP-CIDR, 8.133.123.138/32, no-resolve
 IP-CIDR, 8.133.123.139/32, no-resolve
 IP-CIDR, 8.133.123.140/32, no-resolve
 
+# 抖音
 ## 抖音电脑版无用域名
 DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
-
 ## 抖音手机版无用 URL
 URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
-
 ## 抖音手机版无用 IP
 IP-CIDR, 221.204.46.250/32, no-resolve
-
-## 抖音手机版无用域名
 ## 用于处理支付相关请求，例如：_发起支付订单_查询支付状态_订阅/内购验证_支付回调等
 DOMAIN, api.doupay.com
 DOMAIN, m.baike.com
@@ -104,7 +110,6 @@ DOMAIN-SUFFIX, wuchuyun.com
 DOMAIN-SUFFIX, wuchuyun.net
 DOMAIN-SUFFIX, xinqiucc.com
 DOMAIN-SUFFIX, ydycdn.com
-
 ## 抖音另类结尾域名
 DOMAIN-SUFFIX, bdgp.cc
 DOMAIN-SUFFIX, wasu.tv
@@ -120,7 +125,6 @@ DOMAIN-SUFFIX, ulikecam.com
 # 小红书
 ## 小红书收购的 AI 助手《点点》
 DOMAIN-SUFFIX, askdiandian.com
-
 ## 天文茶 - 行为遥测/数据采集/分析服务，SDK 主要用于 App 收集用户行为数据、遥测信息等
 DOMAIN-SUFFIX, tianwenca.com
 
@@ -129,8 +133,10 @@ DOMAIN-SUFFIX, tianwenca.com
 ## 阿里巴巴集团内部的 统一用户/设备管理平台（类似“用户画像/设备指纹/风控”系统）。
 DOMAIN-SUFFIX, alibabachengdun.net
 
+
 ## ccrc 很可能指阿里巴巴内部的 Client Customer Relations Center 或类似客户端客户关系/数据中心模块（也可能与风控、客服数据相关）。_处理客户端与阿里后台的数据同步、配置拉取、客户行为上报等请求，常用于 App 的后台数据交互。
 DOMAIN, client-ccrc.alibaba.com
+
 
 # SenPlayer
 ## 统计用户使用情况（看了哪些视频、播放时长等），可能推送广告/推荐或集成第三方数据采集 SDK
@@ -193,9 +199,6 @@ DOMAIN, zconfig.alibabausercontent.com
 
 # iPhone / iPad 控制 Mac
 DOMAIN, rs.ltd
-
-
-
 
 
 # Picsew
