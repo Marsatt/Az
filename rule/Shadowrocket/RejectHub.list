@@ -75,6 +75,8 @@ IP-CIDR, 8.133.123.140/32, no-resolve
 ## 抖音电脑版无用域名
 DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
+## 抖音电脑版上传视频
+DOMAIN-SUFFIX, bytedancevod.com
 ## 抖音手机版无用 URL
 URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 ## 抖音手机版无用 IP
