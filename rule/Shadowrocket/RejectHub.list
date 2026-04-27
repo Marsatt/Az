@@ -3,9 +3,11 @@
 # ==============================
 
 
+# OneTrust 是全球最大的 Cookie 合规 / 隐私同意管理平台（专门帮助网站遵守 GDPR、CCPA 等隐私法律）。 这个域名负责加载 Cookie 同意弹窗（Cookie Banner） 的脚本。 如果以后遇到某个网站因为它彻底打不开（极少见），可以临时放行一次。
+DOMAIN-SUFFIX, cookielaw.org
 
 
-#macOS，开源输入法rime，鼠鬚管
+# macOS，开源输入法rime，鼠鬚管
 DOMAIN-SUFFIX, rime.im
 
 
