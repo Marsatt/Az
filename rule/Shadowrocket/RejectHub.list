@@ -25,10 +25,6 @@ DOMAIN-SUFFIX, rime.im
 DOMAIN-SUFFIX, agentio.com
 
 
-# chaturbate.jjgirls.com
-DOMAIN-SUFFIX, gethogrider.com
-
-
 # Hotfree123 - 免费成人直播摄像头网站，大量加载第三方追踪器、广告网络，有恶意软件或指纹追踪风险
 DOMAIN-SUFFIX, hotfree123.com
 
@@ -59,6 +55,10 @@ DOMAIN-SUFFIX, qchannel01.cn
 
 
 # Chrome 插件
+## Dark Reader_浏览器暗色模式扩展，可能用于更新扩展程序或发送使用统计数据
+DOMAIN, darkreader.org
+## 浏览器扩展开发者工具（ExtensionTools / Hog Rider），常被一些 TikTok 下载器、YouTube 工具、扩展转换工具等使用。
+DOMAIN-SUFFIX, gethogrider.com
 ## 浏览器隐私保护 Chrome / Safari 等浏览器开启隐私保护后访问
 DOMAIN, safebrowsing.urlsec.qq.com
 ## Chrome 开机触发 ws-us2.pusher.com - Pusher 实时 WebSocket 推送服务（美国节点），常被 Chrome 插件、实时通知工具使用，开机 Chrome 启动时触发
@@ -390,11 +390,6 @@ DOMAIN-SUFFIX, mozilla.cloudflare-dns.com
 # Cherpake
 # Mac/iOS 远程控制、屏幕镜像类应用，countly 用于跟踪用户活动和行为分析
 DOMAIN-SUFFIX, cherpake.com
-
-
-# Dark Reader
-# 浏览器暗色模式扩展，可能用于更新扩展程序或发送使用统计数据
-DOMAIN, darkreader.org
 
 
 # 流量分析追踪
