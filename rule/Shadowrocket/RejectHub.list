@@ -2,6 +2,11 @@
 # Reject 分流规则
 # ==============================
 
+
+# Localize 是一个网站/网页多语言翻译与本地化（Localization）服务平台。_由于你之前在用 Downie 4 下载 YouTube 相关内容，这个请求也可能来自浏览器中打开的某个 YouTube 工具网站、扩展相关页面，或其他使用了 Localize 翻译的网站。_cdn.localizejs.com 专门用来加载 Localize 的 JavaScript SDK、翻译脚本、语言包、配置等静态资源。_当一个网站集成了 Localize 服务后，它会通过这个 CDN 自动检测页面内容并进行实时翻译（支持多语言切换）。简单说：这是一个网站多语言翻译工具的后端资源服务器。很多国际网站（尤其是面向全球用户的 SaaS、电商、工具类网站）会使用 Localize 来实现多语言支持。
+cdn.localizejs.com
+
+
 # Intercom 是一家知名的美国客户消息平台（Customer Messaging Platform），主要提供： 1.App 内聊天（In-App Messenger） 2.客服支持聊天窗口 3.用户引导（产品 tours、帮助中心） 4.推送消息、自动化营销等功能。_static.intercomassets.com 专门用于托管 静态资源，比如：1.聊天窗口的图标、图片、样式文件（CSS、JS）2.Messenger 界面所需的各种资源_很多 App（尤其是国外工具类、生产力 App）会集成 Intercom SDK，让用户可以直接在 App 里联系客服或获取帮助。
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,intercomcdn.com
