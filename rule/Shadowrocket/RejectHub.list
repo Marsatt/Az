@@ -2,6 +2,16 @@
 # Reject 分流规则
 # ==============================
 
+# Intercom 是一家知名的美国客户消息平台（Customer Messaging Platform），主要提供： 1.App 内聊天（In-App Messenger） 2.客服支持聊天窗口 3.用户引导（产品 tours、帮助中心） 4.推送消息、自动化营销等功能。_static.intercomassets.com 专门用于托管 静态资源，比如：1.聊天窗口的图标、图片、样式文件（CSS、JS）2.Messenger 界面所需的各种资源_很多 App（尤其是国外工具类、生产力 App）会集成 Intercom SDK，让用户可以直接在 App 里联系客服或获取帮助。
+DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,intercomcdn.com
+## Deepseek 也使用了这个👇。
+DOMAIN-SUFFIX,intercom.com
+
+# Deepseek
+DOMAIN-SUFFIX, zztfly.com
+DOMAIN-SUFFIX, cmpassport.com
+
 
 # OneTrust 是全球最大的 Cookie 合规 / 隐私同意管理平台（专门帮助网站遵守 GDPR、CCPA 等隐私法律）。 这个域名负责加载 Cookie 同意弹窗（Cookie Banner） 的脚本。 如果以后遇到某个网站因为它彻底打不开（极少见），可以临时放行一次。
 DOMAIN-SUFFIX, cookielaw.org
@@ -66,14 +76,14 @@ DOMAIN, geoip.furman.im
 
 
 # 抖音
+## 抖音指纹上报服务器。
+DOMAIN-SUFFIX, dahhxxttxs.com
 ## 抖音使用阿里巴巴服务器
 IP-CIDR, 8.134.241.67/32, no-resolve
 IP-CIDR, 8.133.123.137/32, no-resolve
 IP-CIDR, 8.133.123.138/32, no-resolve
 IP-CIDR, 8.133.123.139/32, no-resolve
 IP-CIDR, 8.133.123.140/32, no-resolve
-
-# 抖音
 ## 抖音电脑版无用域名
 DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
@@ -244,12 +254,6 @@ IP-CIDR, 183.60.8.74/32, no-resolve
 
 ## 微信电脑版无用域名
 DOMAIN, dldir1v6.qq.com
-
-
-# Deepseek
-DOMAIN-SUFFIX, intercom.com
-DOMAIN-SUFFIX, zztfly.com
-DOMAIN-SUFFIX, cmpassport.com
 
 
 # 豆包
