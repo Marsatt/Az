@@ -54,6 +54,8 @@ DOMAIN-SUFFIX, lemondl.com
 # ==============================
 # 沃尔玛中国 App
 DOMAIN-SUFFIX, walmartmobile.cn
+## 沃尔玛微信小程序
+DOMAIN-SUFFIX, ghsmpwalmart.com
 
 # 迪卡侬中国官网 & App
 DOMAIN-SUFFIX, decathlon.com.cn
