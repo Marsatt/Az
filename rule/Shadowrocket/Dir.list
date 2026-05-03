@@ -52,6 +52,9 @@ DOMAIN-SUFFIX, lemondl.com
 # ==============================
 # 购物 & 生活服务 App
 # ==============================
+# 宜家国内开发票网址
+DOMAIN, etaxpro.bizapps.cn
+
 # 沃尔玛中国 App
 DOMAIN-SUFFIX, walmartmobile.cn
 ## 沃尔玛微信小程序
