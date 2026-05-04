@@ -49,6 +49,20 @@ DOMAIN, www.bsbsb.top
 # 哔哩哔哩视频下载插件（LemonDownload）所需域名
 DOMAIN-SUFFIX, lemondl.com
 
+
+# ==============================
+# 政府 & 发票 App
+# ==============================
+# 云闪付
+## 银联商户平台相关
+DOMAIN,mpool.unionpay.com
+## 云闪付核心官方域名（强烈建议直连，否则支付、登录、优惠等功能可能异常）
+DOMAIN-SUFFIX,95516.net
+DOMAIN-SUFFIX,95516.com
+## 中国银联品牌域名
+DOMAIN-SUFFIX,cup.com.cn
+
+
 # ==============================
 # 购物 & 生活服务 App
 # ==============================
