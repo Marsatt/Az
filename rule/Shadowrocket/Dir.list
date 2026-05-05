@@ -88,6 +88,9 @@ DOMAIN-SUFFIX, kelee.one
 # 优衣库中国（Uniqlo）
 DOMAIN-SUFFIX, uniqlo.cn
 DOMAIN, t-web-data.fastretailing.cn
+## 微信小程序优衣库
+## TalkingData（谈思数据）的 H5 统计/埋点域名。_TalkingData 是一家国内老牌的移动数据分析和用户行为追踪平台（类似于友盟、GrowingIO、神策等）。_h5.udrig.com 专门用于微信小程序的统计上报，主要功能包括：1.App（小程序）启动、页面浏览、用户事件埋点。_2.用户行为分析（点击、停留时间、转化等）。_3.数据收集和上报。_3.数据收集和上报。_优衣库微信小程序（以及很多其他小程序）集成了 TalkingData SDK，用于帮助优衣库官方分析小程序的使用数据、用户画像、转化效果等。_当你打开优衣库小程序时，它会在加载页面、渲染内容的过程中向 h5.udrig.com 发送统计请求。
+DOMAIN-SUFFIX, udrig.com
 
 # 慢慢买（比价工具，小图片预览）
 DOMAIN-SUFFIX, mmb-spu.oss-cn-shenzhen.aliyuncs.com

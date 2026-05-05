@@ -1,51 +1,52 @@
-#关联 Tencent.list
+# 关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
-#手机版抖音播放视频
+# iPad抖音
+## 字节跳动专门用于特效（Effects） 相关的域名（effect = 特效）。_抖音（尤其是播放带特效、滤镜、美颜、贴纸的视频时）会从这个 CDN 拉取特效资源。_很多热门视频都使用了字节的特效模板，播放时必须加载这些资源才能正常显示效果。如果屏蔽或加载失败，视频可能会出现无特效、画面异常、卡顿或直接无法正常播放。
+DOMAIN-SUFFIX, byteeffecttos.com
+
+# 手机版抖音播放视频
 DOMAIN, 6f38f926.ydycdn.com
 
-
-#抖音_好评上传图片
+# 抖音购物_好评上传图片
 DOMAIN, tos-d-x-lf.bytedancevod.com
 DOMAIN, tos-d-x-hl.bytedancevod.com
-#豆包
+
+# 豆包
 DOMAIN-SUFFIX, doubao.com
-##豆包生成视频播放需要网址
+## 豆包生成视频播放需要网址
 DOMAIN-SUFFIX, 365yg.com
-##豆包去水印_github开源项目
+## 豆包去水印_github开源项目
 DOMAIN, www.jiagev.com
 
-
-#抖音_Chrome_油猴_显示抖音过万的真实人数
+# 抖音_Chrome_油猴_显示抖音过万的真实人数
 DOMAIN, dyapi.phpnbw.com
 
-#这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
+# 这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
 DOMAIN-SUFFIX, v.smtcdns.com
 
-#关联 ChinaMax.list
+# 关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
 
-#即梦AI
+# 即梦AI
 DOMAIN, jimeng.jianying.com
 DOMAIN, lf3-lv-buz.vlabstatic.com
 DOMAIN-SUFFIX,byteacctimg.com
 DOMAIN-SUFFIX,vlabvod.com
 
 
-DOMAIN-KEYWORD, douyin
-DOMAIN-KEYWORD, douyincdn
-
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 
-#电脑版
+
+# 电脑版
 DOMAIN-SUFFIX, 100ycdn.com
-#抖音创作者
+## 抖音创作者
 DOMAIN-SUFFIX, bytedanceapi.com
 DOMAIN,122-188-134-199-ad92b9c9.ldhy.click
 DOMAIN,sf1-cdn-tos.huoshanstatic.com
 
 
-#@!直播录制需要网址
+## 直播录制需要网址
 DOMAIN, api.feelgood.cn
 DOMAIN-SUFFIX, byted-static.com
 DOMAIN-SUFFIX, applogcdn.com
@@ -73,39 +74,39 @@ DOMAIN-SUFFIX, yhgfb-cn-static.com
 DOMAIN-SUFFIX, z1cdn.com
 
 
-#手机版
+# iPhone抖音
 
-#@!抖音评价上传图片
+## 抖音评价上传图片
 DOMAIN, tos-d-x-lq.bytedancevod.com
 DOMAIN, conf-darwin.xycdn.com
 DOMAIN, render.ecombdpage.com
-#@!抖音寄件详情
+## 抖音寄件详情
 DOMAIN, ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, bytemastatic.com
-#@!优衣库需要的网址
+## 抖音优衣库需要的网址
 DOMAIN-SUFFIX, byteimg.com
 DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdstatic.com
-#@!抖音，消息查看物流，reject对应取消掉
+## 抖音，消息查看物流，reject对应取消掉
 DOMAIN-SUFFIX, erer.homeborn.cn
 DOMAIN-SUFFIX, ietheivaicai.com
 DOMAIN-SUFFIX, jinritemai.com
-#@!ffh.jinritemai.com 抖音店铺排行榜
-#@!fxg.jinritemai.com 迪卡侬会员积分兑换
+## ffh.jinritemai.com 抖音店铺排行榜
+## fxg.jinritemai.com 迪卡侬会员积分兑换
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, tt.x.bsgslb.cn
 DOMAIN-SUFFIX, zijieapi.com
-#抖音看视频，一半后会卡，解决办法。
+## 抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 IP-CIDR, 36.104.134.75/32, no-resolve
 DOMAIN, m16.zhicyun.com
 
 
 
-#@!播放视频不卡了
+## 播放视频不卡了
 DOMAIN-SUFFIX, zjcdn.com
 # NAME: DouYin
 # AUTHOR: blackmatrix7
