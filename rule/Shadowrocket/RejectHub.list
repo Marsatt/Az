@@ -92,6 +92,8 @@ IP-CIDR, 8.133.123.140/32, no-resolve
 ## 抖音电脑版无用域名
 DOMAIN-SUFFIX, huoshanstatic.com
 DOMAIN-SUFFIX, toutiaostatic.com
+## 抖音网页版社交 feed 和互动功能的资源加载服务器。
+DOMAIN, lf3-social.iesdouyin.com
 ## 抖音电脑版上传视频 字节跳动（ByteDance）官方的视频存储与上传服务器，属于 BytePlus Video On Demand (VOD) 服务。
 DOMAIN-SUFFIX, bytedancevod.com
 ## 抖音手机版无用 URL

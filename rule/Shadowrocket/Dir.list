@@ -186,6 +186,7 @@ DOMAIN, baike.baidu.com
 DOMAIN-KEYWORD, douban
 
 # 字幕库（娱乐工具）
+DOMAIN, s.zimuku.org
 DOMAIN, zimuku.org
 
 # 知乎
