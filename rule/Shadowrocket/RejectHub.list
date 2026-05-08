@@ -60,6 +60,8 @@ DOMAIN-SUFFIX, qchannel01.cn
 
 
 # Chrome 插件
+## metricuser.com 是一个专门提供用户行为数据收集和周期性上报服务的平台。_这个域名常见于Instagram 下载器、Reels 下载、TikTok 下载等类型的浏览器扩展（例如 “Exta Pro: Instagram Downloader” 等插件会每 6 小时向它发送一次请求）。
+DOMAIN-SUFFIX, metricuser.com
 ## Dark Reader_浏览器暗色模式扩展，可能用于更新扩展程序或发送使用统计数据
 DOMAIN, darkreader.org
 ## 浏览器扩展开发者工具（ExtensionTools / Hog Rider），常被一些 TikTok 下载器、YouTube 工具、扩展转换工具等使用。
