@@ -60,23 +60,25 @@ DOMAIN, mobile-data.onetrust.io
 #AR顯示飛機照片（信息框下面，第二個框）。
 DOMAIN, cdn.jetphotos.com
 
-#Marine Traffic
+# Marine Traffic
 DOMAIN-SUFFIX, marinetraffic.com
 
-#kick直播平台
+# kick直播平台
 DOMAIN-SUFFIX, kick.com
-##播放录像需要的亚马逊网址
+## Pusher 是一家提供**实时通信（Realtime）**服务的公司。_Kick App 用它实现直播聊天室实时消息（弹幕、礼物、用户互动等）。_这是 Kick 直播核心功能依赖的服务之一。
+DOMAIN, js.pusher.com
+## 播放录像需要的亚马逊网址
 DOMAIN, segments.mediatailor.us-west-2.amazonaws.com
 
-#jable.tv
+# jable.tv
 DOMAIN-SUFFIX, mushroomtrack.com
 DOMAIN-SUFFIX, jable.tv
 
-#www.xvideos.com
+# www.xvideos.com
 DOMAIN-SUFFIX, xvideos.com
 DOMAIN-SUFFIX, xvideos-cdn.com
 
-#www.xnxx.com
+# www.xnxx.com
 DOMAIN-SUFFIX, xnxx-cdn.com
 DOMAIN-SUFFIX, xnxx.com
 

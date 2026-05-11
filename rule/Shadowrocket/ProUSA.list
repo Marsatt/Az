@@ -311,7 +311,8 @@ DOMAIN-SUFFIX, sullygnome.com
 DOMAIN-SUFFIX, voddownloader.com
 ## streamrecorder.io官网，同时也是chrome插件。
 DOMAIN-SUFFIX, streamrecorder.io
-DOMAIN, feelsbadman.eu.srcdn.net
+DOMAIN-SUFFIX, eu.srcdn.net
+
 
 # YouTuBe 雙語翻譯
 DOMAIN, extension.dioco.io
