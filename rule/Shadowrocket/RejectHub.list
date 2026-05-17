@@ -232,7 +232,7 @@ DOMAIN, rs.ltd
 DOMAIN-SUFFIX, picsew.app
 
 
-# 微信 iPhone
+# 微信
 ## 微信 iPhone IP 段
 IP-CIDR, 42.202.141.12/32, no-resolve
 IP-CIDR, 42.202.141.13/32, no-resolve
@@ -264,9 +264,16 @@ IP-CIDR, 123.172.120.115/32, no-resolve
 IP-CIDR, 123.172.120.120/32, no-resolve
 IP-CIDR, 123.172.120.142/32, no-resolve
 IP-CIDR, 183.60.8.74/32, no-resolve
-
 ## 微信电脑版无用域名
 DOMAIN, dldir1v6.qq.com
+## 微信电脑版关闭后，腾讯云 / 腾讯公司（中国天津电信节点）。
+### 你关闭网页版微信后，防火墙还提示这个 IP 请求，是因为网页版微信在关闭/退出时，浏览器进程并没有立即完全断开连接，还会发送最后的心跳包、登出通知、或清理会话等请求。这个 IP 就是腾讯用来接收这些信号的服务器之一。
+### 用途：主要用于腾讯系产品，包括：
+#### 1.网页版微信（web.wechat.com / web.weixin.qq.com）。
+#### 2.QQ、微信 PC 版的部分后台服务。
+#### 3.登录、心跳、保活、消息同步、文件传输等
+#### 与 chinamax关联
+IP-CIDR, 42.81.179.153/32, no-resolve
 
 
 # 豆包
