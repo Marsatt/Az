@@ -4,6 +4,15 @@ DOMAIN-SUFFIX, smtcdns.net
 # 抖音官网
 DOMAIN-SUFFIX, douyin.com
 
+# 电脑版
+DOMAIN-SUFFIX, 100ycdn.com
+## 抖音整个社交模块
+DOMAIN-SUFFIX, iesdouyin.com
+## 抖音创作者
+DOMAIN-SUFFIX, bytedanceapi.com
+DOMAIN,122-188-134-199-ad92b9c9.ldhy.click
+DOMAIN,sf1-cdn-tos.huoshanstatic.com
+
 # iPad抖音
 ## 字节跳动专门用于特效（Effects） 相关的域名（effect = 特效）。_抖音（尤其是播放带特效、滤镜、美颜、贴纸的视频时）会从这个 CDN 拉取特效资源。_很多热门视频都使用了字节的特效模板，播放时必须加载这些资源才能正常显示效果。如果屏蔽或加载失败，视频可能会出现无特效、画面异常、卡顿或直接无法正常播放。
 DOMAIN-SUFFIX, byteeffecttos.com
@@ -39,14 +48,6 @@ DOMAIN-SUFFIX,vlabvod.com
 
 
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
-
-
-# 电脑版
-DOMAIN-SUFFIX, 100ycdn.com
-## 抖音创作者
-DOMAIN-SUFFIX, bytedanceapi.com
-DOMAIN,122-188-134-199-ad92b9c9.ldhy.click
-DOMAIN,sf1-cdn-tos.huoshanstatic.com
 
 
 ## 直播录制需要网址
