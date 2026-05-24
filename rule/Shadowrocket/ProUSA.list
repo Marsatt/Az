@@ -2,12 +2,20 @@
 DOMAIN, pqjc.site
 DOMAIN, xn--mes358aby2apfg.com
 
+
+#星财富app 老虎证券
+DOMAIN-SUFFIX, fosunhanig.com
+
 # OKX 欧易 分流规则
-DOMAIN-SUFFIX,okx.com
-DOMAIN-SUFFIX,okex.com
-DOMAIN-SUFFIX,okx-api.com
-DOMAIN-SUFFIX,okex-api.com
-DOMAIN-SUFFIX,okcoin.com
+DOMAIN-SUFFIX, okx.com
+DOMAIN-SUFFIX, okex.com
+DOMAIN-SUFFIX, okx-api.com
+DOMAIN-SUFFIX, okex-api.com
+DOMAIN-SUFFIX, okcoin.com
+DOMAIN-KEYWORD, www.okx-dns
+## CoinAll 是一家加密货币交易所（Cryptocurrency Exchange），曾经是 OKEx（现 OKX） 的战略合作伙伴，是 OKEx 早期推出的合作伙伴交易所之一。
+### 专门用来存放和加速加载静态文件，例如：网站图片、Logo、图标。_用户头像。_交易页面所需的 CSS、JS 资源。_公告 PDF、活动图片等。
+DOMAIN-SUFFIX, static.coinall.ltd
 
 # 免费电子域名服务，dpdns.org属于非盈利项目，给个人/项目免费注册子域名。托管Shadowrocket的配置文件、模块、规则集、主题等(比如lowertop的GitHub仓库就直接用lowertop.dpdns.org来分发配置)。
 DOMAIN, lowertop.dpdns.org
