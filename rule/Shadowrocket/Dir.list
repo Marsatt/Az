@@ -236,15 +236,7 @@ DOMAIN, acs-mum.alibabachengdun.com
 IP-CIDR, 36.104.134.83/32, no-resolve
 DOMAIN-SUFFIX, mybank.cn
 
-# 阿里小号
-DOMAIN, eco.taobao.com
-DOMAIN, acs.m.taobao.com
-DOMAIN, h-adashx.ut.taobao.com
-# 阿里小号部分 IP
-IP-CIDR, 203.119.204.1/24, no-resolve
-IP-CIDR, 203.119.238.1/24, no-resolve
-IP-CIDR, 59.82.112.62/32, no-resolve
-# （其余 59.82.x.x IP 已省略，可按需保留）
+
 
 
 # ==============================
