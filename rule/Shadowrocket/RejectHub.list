@@ -3,6 +3,23 @@
 # ==============================
 
 
+# ==============================
+# Tiger Trade (老虎证券) 分流规则
+# ==============================
+# 第三方统计 / 埋点（强烈建议 reject）
+DOMAIN, metrics.tigerbrokers.com
+DOMAIN, analytics.tigerbrokers.com
+DOMAIN, amplitude.com
+DOMAIN, appsflyer.com
+
+
+# 星财富（复星财富 / Fosun Wealth） - 港股美股交易 App
+## 可 block 的非核心域名（广告、营销、H5页面）
+DOMAIN, mktdata.fswchains.com
+DOMAIN, h5.fotechwealth.com
+DOMAIN-SUFFIX, fosunhanig.com
+
+
 # kick直播平台
 ## Expo 是开发 React Native App 的主流框架（Kick App 是用 React Native + Expo 开发的）。_u.expo.dev 用于 Expo 的更新服务（EAS Updates）、配置拉取、推送等。_很多 Expo App 启动时都会检查更新或加载配置。
 DOMAIN-SUFFIX, expo.dev
@@ -303,10 +320,10 @@ DOMAIN-SUFFIX, imrworldwide.com
 
 # 拼多多
 ## 拼多多无用 URL（精准匹配 /d?id= 参数请求）
-URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+, REJECT
+URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+
 
 ## 拼多多无用 URL（精准匹配 /d4?appid= 参数请求）
-URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+, REJECT
+URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+
 
 ## 拼多多无用 IP 段
 IP-CIDR, 140.206.232.17/24, no-resolve

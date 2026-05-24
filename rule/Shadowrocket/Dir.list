@@ -8,6 +8,24 @@ DOMAIN-SUFFIX,mail.icloud.com.cn
 DOMAIN-SUFFIX,mail.me.com
 
 
+
+
+# ==============================
+# Tiger Trade (老虎证券) 分流规则
+# ==============================
+# DOMAIN, aws.tigerbrokers.com
+# DOMAIN, aliyun.tigerbrokers.com
+
+
+# 星财富（复星财富 / Fosun Wealth） - 港股美股交易 App
+## 核心业务接口（强烈建议直连）
+DOMAIN, api1.skytigris.cn
+## 极光一键登录验证 SDK（登录必需）
+DOMAIN, sdk.verification.jiguang.cn
+## 港股行情数据（阿里云）
+DOMAIN, hangqingprod-hk.oss-accelerate.aliyuncs.com
+
+
 # ==============================
 # 苹果系统 & App Store 相关（iPhone 重度使用）
 # ==============================
