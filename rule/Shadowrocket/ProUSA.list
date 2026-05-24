@@ -3,6 +3,11 @@ DOMAIN, pqjc.site
 DOMAIN, xn--mes358aby2apfg.com
 
 
+# apple 苹果设备configuration（设备配置与激活）
+## iCloud 同步配置（备忘录、联系人、日历等）。_推送通知服务配置。_Apple ID 账户状态验证。_设备与 iCloud 服务的连接协商。
+DOMAIN,configuration.apple.com
+
+
 #星财富app 老虎证券
 DOMAIN-SUFFIX, fosunhanig.com
 
