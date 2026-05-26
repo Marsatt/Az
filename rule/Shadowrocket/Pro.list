@@ -8,7 +8,6 @@ DOMAIN-SUFFIX, digicert.com
 # ==============================
 ## ── DOMAIN（精确匹配，按字母排序）──────
 DOMAIN, 1rpc.io
-DOMAIN, api.binance.com
 DOMAIN, api.bitget.com
 DOMAIN, bitgetapp.com
 DOMAIN, cloudflare-eth.com
@@ -29,6 +28,7 @@ DOMAIN, safepal.com
 DOMAIN, support.safepal.com
 DOMAIN, wallet.safepal.com
 ## ── DOMAIN-SUFFIX（后缀匹配，按字母排序）──────
+DOMAIN-SUFFIX, binance.com
 DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.vision
 DOMAIN-SUFFIX, bnbchain.org
