@@ -2,6 +2,43 @@
 DOMAIN-SUFFIX, digicert.com
 
 
+# ==============================
+# Web3 / 区块链 / 钱包 RPC & API 规则
+# 包含 Tiger Trade + SafePal
+# ==============================
+## ── DOMAIN（精确匹配，按字母排序）──────
+DOMAIN, 1rpc.io
+DOMAIN, api.binance.com
+DOMAIN, api.bitget.com
+DOMAIN, bitgetapp.com
+DOMAIN, cloudflare-eth.com
+DOMAIN, cypress.fautor.app
+DOMAIN, eth-mainnet.nodereal.io
+DOMAIN, eth-mainnet.public.blastapi.io
+DOMAIN, id.fiat24.com
+DOMAIN, klaytn.api.onfinality.io
+DOMAIN, klaytn.blockpi.network
+DOMAIN, mainnet.base.org
+DOMAIN, mainnet.infura.io
+DOMAIN, polygon.drpc.org
+DOMAIN, pulse.walletconnect.com
+DOMAIN, songbird-api.flare.network
+## SafePal 钱包相关域名
+DOMAIN, api.safepal.com
+DOMAIN, safepal.com
+DOMAIN, support.safepal.com
+DOMAIN, wallet.safepal.com
+## ── DOMAIN-SUFFIX（后缀匹配，按字母排序）──────
+DOMAIN-SUFFIX, binance.org
+DOMAIN-SUFFIX, binance.vision
+DOMAIN-SUFFIX, bnbchain.org
+DOMAIN-SUFFIX, defibit.io
+DOMAIN-SUFFIX, fantom.network
+DOMAIN-SUFFIX, ninicoin.io
+DOMAIN-SUFFIX, rsk.co
+DOMAIN-SUFFIX, safepal.com
+
+
 # QuantumultX系统更新
 DOMAIN, receiptcheck.quantumult.app
 
