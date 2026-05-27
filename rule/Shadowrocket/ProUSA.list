@@ -14,11 +14,15 @@ DOMAIN, api.bitget.com
 DOMAIN, api.mexc.co
 DOMAIN, api.onesignal.com
 DOMAIN, bnp.safehw.com
+DOMAIN, cloudauth-device.cn-hongkong.aliyuncs.com
 DOMAIN, cloudflare-eth.com
+DOMAIN, contendvc.cnouyi.pizza
 DOMAIN, cypress.fautor.app
 DOMAIN, ekr.zdassets.com
 DOMAIN, flare.rpc.thirdweb.com
 DOMAIN, flare.solidifi.app
+DOMAIN, www.gnmobile1.com
+DOMAIN, www.gnmobile2.com
 DOMAIN, icons.llama.fi
 DOMAIN, icons.llamao.fi
 DOMAIN, id.fiat24.com
@@ -44,6 +48,7 @@ DOMAIN, solana-mainnet.g.alchemy.com
 DOMAIN, songbird-api.flare.network
 DOMAIN, static.sosovalue.com
 DOMAIN, static.zdassets.com
+DOMAIN, vod-license-b.bytepluscdn.com
 DOMAIN, ws-subscriptions-clob.polymarket.com
 DOMAIN-SUFFIX, binance.com
 DOMAIN-SUFFIX, binance.org
@@ -85,6 +90,7 @@ DOMAIN-SUFFIX, okx-api.com
 DOMAIN-SUFFIX, okex-api.com
 DOMAIN-SUFFIX, okcoin.com
 DOMAIN-SUFFIX, okx.com.cdn.cloudflare.net
+DOMAIN-SUFFIX, apollox.finance
 DOMAIN-KEYWORD, www.okx-dns
 ## CoinAll 是一家加密货币交易所（Cryptocurrency Exchange），曾经是 OKEx（现 OKX） 的战略合作伙伴，是 OKEx 早期推出的合作伙伴交易所之一。
 ### 专门用来存放和加速加载静态文件，例如：网站图片、Logo、图标。_用户头像。_交易页面所需的 CSS、JS 资源。_公告 PDF、活动图片等。
