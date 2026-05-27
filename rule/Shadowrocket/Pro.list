@@ -2,60 +2,6 @@
 DOMAIN-SUFFIX, digicert.com
 
 
-# ==============================
-# Web3 / 区块链 / 钱包 RPC & API 规则
-# 包含 Tiger Trade + SafePal + 其他
-# ==============================
-## ── DOMAIN(精确匹配,按字母排序)──────
-DOMAIN, 1rpc.io
-DOMAIN, api.bitget.com
-DOMAIN, api.mexc.co
-DOMAIN, cloudflare-eth.com
-DOMAIN, cypress.fautor.app
-DOMAIN, ekr.zdassets.com
-DOMAIN, flare.rpc.thirdweb.com
-DOMAIN, flare.solidifi.app
-DOMAIN, icons.llama.fi
-DOMAIN, id.fiat24.com
-DOMAIN, klaytn.api.onfinality.io
-DOMAIN, klaytn.blockpi.network
-DOMAIN, mainnet.base.org
-DOMAIN, mainnet.infura.io
-DOMAIN, polygon.drpc.org
-DOMAIN, pulse.walletconnect.com
-DOMAIN, rpc.bitlayer.org
-DOMAIN, rpc.bitlayer-rpc.com
-DOMAIN, rpc.blast.io
-DOMAIN, rpc-core.icecreamswap.com
-DOMAIN, rpc.coredao.org
-DOMAIN, rpc.xlayer.tech
-DOMAIN, rpc-mainnet.matic.quiknode.pro
-DOMAIN, s.pvcliping.com
-DOMAIN, sapphire.oasis.io
-DOMAIN, sgb.ftso.com.au
-DOMAIN, songbird-api.flare.network
-DOMAIN, static.zdassets.com
-DOMAIN, ws-subscriptions-clob.polymarket.com
-DOMAIN, bnp.safehw.com
-## ── DOMAIN-SUFFIX(后缀匹配,按字母排序)──────
-DOMAIN-SUFFIX, binance.com
-DOMAIN-SUFFIX, binance.org
-DOMAIN-SUFFIX, binance.vision
-DOMAIN-SUFFIX, bitgetapp.com
-DOMAIN-SUFFIX, blastapi.io
-DOMAIN-SUFFIX, bnbchain.org
-DOMAIN-SUFFIX, defibit.io
-DOMAIN-SUFFIX, fantom.network
-DOMAIN-SUFFIX, isafepal.com
-DOMAIN-SUFFIX, mexc.com
-DOMAIN-SUFFIX, ninicoin.io
-DOMAIN-SUFFIX, nodereal.io
-DOMAIN-SUFFIX, rsk.co
-DOMAIN-SUFFIX, safepal.com
-DOMAIN-SUFFIX, taiko.xyz
-DOMAIN-SUFFIX, zendesk.com
-
-
 # QuantumultX系统更新
 DOMAIN, receiptcheck.quantumult.app
 

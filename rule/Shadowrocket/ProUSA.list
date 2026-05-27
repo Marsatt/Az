@@ -8,38 +8,74 @@ DOMAIN, xn--mes358aby2apfg.com
 DOMAIN,configuration.apple.com
 
 
-# ==============================
-# Tiger Trade (老虎证券) 分流规则
-# ==============================
-# ── 必须直连（DIRECT）核心域名 ──────
-## 这些是 App 核心业务、行情、交易、登录相关，必须直连，否则容易卡顿、无法登录、行情不更新
-DOMAIN-SUFFIX, tigerbrokers.com
-DOMAIN-SUFFIX, tigerbrokers.com.hk
-DOMAIN-SUFFIX, itiger.com
-DOMAIN, api.tigerbrokers.com
-DOMAIN, trade.tigerbrokers.com
-DOMAIN, quote.tigerbrokers.com
+# Web3 / 区块链 / 钱包 RPC & API 规则
+DOMAIN, 1rpc.io
+DOMAIN, api.bitget.com
+DOMAIN, api.mexc.co
+DOMAIN, api.onesignal.com
+DOMAIN, bnp.safehw.com
+DOMAIN, cloudflare-eth.com
+DOMAIN, cypress.fautor.app
+DOMAIN, ekr.zdassets.com
+DOMAIN, flare.rpc.thirdweb.com
+DOMAIN, flare.solidifi.app
+DOMAIN, icons.llama.fi
+DOMAIN, icons.llamao.fi
+DOMAIN, id.fiat24.com
+DOMAIN, klaytn.api.onfinality.io
+DOMAIN, klaytn.blockpi.network
+DOMAIN, mainnet.base.org
+DOMAIN, mainnet.infura.io
+DOMAIN, polygon.drpc.org
+DOMAIN, pulse.walletconnect.com
+DOMAIN, relay.walletconnect.com
+DOMAIN, rpc.ankr.com
+DOMAIN, rpc.bitlayer-rpc.com
+DOMAIN, rpc.bitlayer.org
+DOMAIN, rpc.blast.io
+DOMAIN, rpc.coredao.org
+DOMAIN, rpc.xlayer.tech
+DOMAIN, rpc-core.icecreamswap.com
+DOMAIN, rpc-mainnet.matic.quiknode.pro
+DOMAIN, s.pvcliping.com
+DOMAIN, sapphire.oasis.io
+DOMAIN, sgb.ftso.com.au
+DOMAIN, solana-mainnet.g.alchemy.com
+DOMAIN, songbird-api.flare.network
+DOMAIN, static.sosovalue.com
+DOMAIN, static.zdassets.com
+DOMAIN, ws-subscriptions-clob.polymarket.com
+DOMAIN-SUFFIX, binance.com
+DOMAIN-SUFFIX, binance.org
+DOMAIN-SUFFIX, binance.vision
+DOMAIN-SUFFIX, bitgetapp.com
+DOMAIN-SUFFIX, blastapi.io
+DOMAIN-SUFFIX, bnbchain.org
+DOMAIN-SUFFIX, coingecko.com
+DOMAIN-SUFFIX, defibit.io
+DOMAIN-SUFFIX, fantom.network
+DOMAIN-SUFFIX, isafepal.com
+DOMAIN-SUFFIX, mexc.com
+DOMAIN-SUFFIX, ninicoin.io
+DOMAIN-SUFFIX, nodereal.io
+DOMAIN-SUFFIX, rsk.co
+DOMAIN-SUFFIX, taiko.xyz
+DOMAIN-SUFFIX, walletconnect.com
+DOMAIN-SUFFIX, zendesk.com
+
+
+# SafePal 钱包
+DOMAIN-SUFFIX, safepal.com
+
+
+# Tiger Trade 老虎证券
 DOMAIN, tigr-api.com
 DOMAIN, tigr-quote.com
-## 行情与数据相关（建议直连）
-DOMAIN, us-quote.tigerbrokers.com
-DOMAIN, hk-quote.tigerbrokers.com
-DOMAIN, quote-api.tigerbrokers.com
-## 登录、验证、推送相关
-DOMAIN, auth.tigerbrokers.com
-DOMAIN, push.tigerbrokers.com
-DOMAIN, account.tigerbrokers.com
-
-
-
-
-# 星财富（复星财富 / Fosun Wealth） - 港股美股交易 App
-## 核心业务接口（强烈建议直连）
-DOMAIN, api1.skytigris.cn
-## 极光一键登录验证 SDK（登录必需）
-DOMAIN, sdk.verification.jiguang.cn
-## 港股行情数据（阿里云）
-DOMAIN, hangqingprod-hk.oss-accelerate.aliyuncs.com
+DOMAIN-SUFFIX, itigerup.com
+DOMAIN-SUFFIX, itiger.com
+DOMAIN-SUFFIX, tigerbrokers.com
+DOMAIN-SUFFIX, tigerbrokers.com.hk
+DOMAIN-SUFFIX, tigertrade.app
 
 
 # OKX 欧易 分流规则
@@ -48,10 +84,12 @@ DOMAIN-SUFFIX, okex.com
 DOMAIN-SUFFIX, okx-api.com
 DOMAIN-SUFFIX, okex-api.com
 DOMAIN-SUFFIX, okcoin.com
+DOMAIN-SUFFIX, okx.com.cdn.cloudflare.net
 DOMAIN-KEYWORD, www.okx-dns
 ## CoinAll 是一家加密货币交易所（Cryptocurrency Exchange），曾经是 OKEx（现 OKX） 的战略合作伙伴，是 OKEx 早期推出的合作伙伴交易所之一。
 ### 专门用来存放和加速加载静态文件，例如：网站图片、Logo、图标。_用户头像。_交易页面所需的 CSS、JS 资源。_公告 PDF、活动图片等。
 DOMAIN-SUFFIX, static.coinall.ltd
+
 
 # 免费电子域名服务，dpdns.org属于非盈利项目，给个人/项目免费注册子域名。托管Shadowrocket的配置文件、模块、规则集、主题等(比如lowertop的GitHub仓库就直接用lowertop.dpdns.org来分发配置)。
 DOMAIN, lowertop.dpdns.org
