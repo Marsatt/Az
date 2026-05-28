@@ -1,14 +1,20 @@
-# ✈️
+# ==============================
+# ✈️ 机场 / 代理节点
+# ==============================
 DOMAIN, pqjc.site
 DOMAIN, xn--mes358aby2apfg.com
 
 
-# apple 苹果设备configuration（设备配置与激活）
-## iCloud 同步配置（备忘录、联系人、日历等）。_推送通知服务配置。_Apple ID 账户状态验证。_设备与 iCloud 服务的连接协商。
-DOMAIN,configuration.apple.com
+# ==============================
+# 🍎 Apple 苹果
+# ==============================
+# 设备配置与激活、iCloud 同步、推送通知、Apple ID 验证
+DOMAIN, configuration.apple.com
 
 
-# Web3 / 区块链 / 钱包 RPC & API 规则
+# ==============================
+# 🌐 Web3 / 区块链 / 钱包 RPC & API
+# ==============================
 DOMAIN, 1rpc.io
 DOMAIN, api.bitget.com
 DOMAIN, api.mexc.co
@@ -21,8 +27,6 @@ DOMAIN, cypress.fautor.app
 DOMAIN, ekr.zdassets.com
 DOMAIN, flare.rpc.thirdweb.com
 DOMAIN, flare.solidifi.app
-DOMAIN, www.gnmobile1.com
-DOMAIN, www.gnmobile2.com
 DOMAIN, icons.llama.fi
 DOMAIN, icons.llamao.fi
 DOMAIN, id.fiat24.com
@@ -31,7 +35,6 @@ DOMAIN, klaytn.blockpi.network
 DOMAIN, mainnet.base.org
 DOMAIN, mainnet.infura.io
 DOMAIN, polygon.drpc.org
-DOMAIN, pulse.walletconnect.com
 DOMAIN, relay.walletconnect.com
 DOMAIN, rpc.ankr.com
 DOMAIN, rpc.bitlayer-rpc.com
@@ -50,6 +53,8 @@ DOMAIN, static.sosovalue.com
 DOMAIN, static.zdassets.com
 DOMAIN, vod-license-b.bytepluscdn.com
 DOMAIN, ws-subscriptions-clob.polymarket.com
+DOMAIN, www.gnmobile1.com
+DOMAIN, www.gnmobile2.com
 DOMAIN-SUFFIX, binance.com
 DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.vision
@@ -69,11 +74,28 @@ DOMAIN-SUFFIX, walletconnect.com
 DOMAIN-SUFFIX, zendesk.com
 
 
-# SafePal 钱包
+# ── SafePal 钱包 ──────────────────
+# 覆盖 api / wallet / support 等所有子域名
 DOMAIN-SUFFIX, safepal.com
 
 
-# Tiger Trade 老虎证券
+# ── OKX 欧易 ──────────────────────
+# okex 是 OKX 的旧域名，apollox 是旗下衍生品平台
+DOMAIN-SUFFIX, apollox.finance
+DOMAIN-SUFFIX, okex-api.com
+DOMAIN-SUFFIX, okex.com
+DOMAIN-SUFFIX, okcoin.com
+DOMAIN-SUFFIX, okx-api.com
+DOMAIN-SUFFIX, okx.com
+DOMAIN-SUFFIX, okx.com.cdn.cloudflare.net
+# CoinAll 是 OKX 早期合作交易所，此域名用于静态资源加速
+DOMAIN-SUFFIX, static.coinall.ltd
+DOMAIN-KEYWORD, www.okx-dns
+
+
+# ==============================
+# 🐯 Tiger Trade 老虎证券
+# ==============================
 DOMAIN, tigr-api.com
 DOMAIN, tigr-quote.com
 DOMAIN-SUFFIX, itigerup.com
@@ -83,221 +105,344 @@ DOMAIN-SUFFIX, tigerbrokers.com.hk
 DOMAIN-SUFFIX, tigertrade.app
 
 
-# OKX 欧易 分流规则
-DOMAIN-SUFFIX, okx.com
-DOMAIN-SUFFIX, okex.com
-DOMAIN-SUFFIX, okx-api.com
-DOMAIN-SUFFIX, okex-api.com
-DOMAIN-SUFFIX, okcoin.com
-DOMAIN-SUFFIX, okx.com.cdn.cloudflare.net
-DOMAIN-SUFFIX, apollox.finance
-DOMAIN-KEYWORD, www.okx-dns
-## CoinAll 是一家加密货币交易所（Cryptocurrency Exchange），曾经是 OKEx（现 OKX） 的战略合作伙伴，是 OKEx 早期推出的合作伙伴交易所之一。
-### 专门用来存放和加速加载静态文件，例如：网站图片、Logo、图标。_用户头像。_交易页面所需的 CSS、JS 资源。_公告 PDF、活动图片等。
-DOMAIN-SUFFIX, static.coinall.ltd
+# ==============================
+# 🔞 成人直播平台
+# ==============================
 
+# ── Chaturbate ────────────────────
+DOMAIN, chaturbate.jjgirls.com
 
-# 免费电子域名服务，dpdns.org属于非盈利项目，给个人/项目免费注册子域名。托管Shadowrocket的配置文件、模块、规则集、主题等(比如lowertop的GitHub仓库就直接用lowertop.dpdns.org来分发配置)。
-DOMAIN, lowertop.dpdns.org
+# ── Stripchat / HPLives / XLoveCam / CAM4
+# 母公司 HighWebMedia 旗下平台；strpssts 系列域名负责静态资源加载
+DOMAIN, assets.striiiipst.com
+DOMAIN, assets.strpssts-ana.com
+DOMAIN-SUFFIX, highwebmedia.com
+DOMAIN-SUFFIX, hpjav.tv
+DOMAIN-SUFFIX, hplives.com
+DOMAIN-SUFFIX, loo3laej.com
+DOMAIN-SUFFIX, sc-app.com
+DOMAIN-SUFFIX, stripchat.com
+DOMAIN-SUFFIX, strpssts.net
+DOMAIN-SUFFIX, strpst.com
 
-# SSL.com 是一家全球知名的证书颁发机构（CA，Certificate Authority
-DOMAIN-SUFFIX, ssl.com
+# ── Doppio CDN（直播流与静态资源加速）──
+DOMAIN, chunks.doppiostreams.com
+DOMAIN-SUFFIX, doppiocdn.com
+DOMAIN-SUFFIX, doppiocdn.live
+DOMAIN-SUFFIX, doppiocdn.net
+DOMAIN-SUFFIX, doppiocdn.org
+DOMAIN-SUFFIX, oppiocdn.media
 
-# v2ex.com
-## 显示图片
-DOMAIN-SUFFIX, imgur.com
-DOMAIN-SUFFIX, v2ex.com
-DOMAIN-SUFFIX, v2ex.co
+# ── Lovense（互动设备 API）────────────
+DOMAIN, api.lovense-api.com
 
-# Folo
-DOMAIN-SUFFIX, folo.is
-## 未知
-DOMAIN, media.zenfs.com
-## 端传媒
-DOMAIN, theinitium.com
-DOMAIN, unavatar.webp.se
-DOMAIN-SUFFIX, follow.is
+# ── Ably（实时通信协议）──────────────
+DOMAIN, internet-up.ably-realtime.com
+DOMAIN, ws-up.ably-realtime.com
 
-# 纽约时报
-DOMAIN-SUFFIX, nytimes.com
-DOMAIN-SUFFIX, nyt.com
+# ── MissAV ───────────────────────
+DOMAIN, fourhoi.com
+DOMAIN, surrit.com
+DOMAIN-KEYWORD, missav
+DOMAIN-SUFFIX, njav.tv
 
-# 华尔街日报
-DOMAIN-SUFFIX, wsj.com
-DOMAIN-SUFFIX, wsj.net
-DOMAIN-SUFFIX, captcha-delivery.com
-
-# 字幕转换网站
-DOMAIN, www.syedgakbar.com
-
-# 比特币信息查看
-DOMAIN, mempool.space
-
-# IP、域名、ASN查询
-DOMAIN, ping0.cc
-
-# 抖音 & TikTok 视频下载
-DOMAIN-SUFFIX, tiksave.io
-DOMAIN, dl.snapcdn.app
-
-# Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
-DOMAIN-SUFFIX, cloudfront.net
-
-# spankbang.com
+# ── SpankBang ────────────────────
 DOMAIN-SUFFIX, ptgncdn.com
 DOMAIN-SUFFIX, sb-cd.com
 DOMAIN-SUFFIX, spankbang.com
 
-# 模块_重写 & 规则集转换
-DOMAIN, script.hub
+# ── fbjav / svjav ─────────────────
+DOMAIN-SUFFIX, fbjav.com
+DOMAIN-SUFFIX, images.imfb.xyz
+DOMAIN-SUFFIX, player.imcontent.me
+DOMAIN-SUFFIX, svjav.com
 
-# naver & yoonfroggy韩国直播网站
-DOMAIN-SUFFIX, akamaized.net
-DOMAIN-SUFFIX, navercorp.com
-DOMAIN-SUFFIX, pstatic.net
-DOMAIN-SUFFIX, naver.com
-DOMAIN, ssl.pstatic.net
-DOMAIN, scv.band.us
+# ── jable.tv ─────────────────────
+DOMAIN-SUFFIX, jable.tv
+DOMAIN-SUFFIX, mushroomtrack.com
+
+# ── xvideos ──────────────────────
+DOMAIN-SUFFIX, xvideos-cdn.com
+DOMAIN-SUFFIX, xvideos.com
+
+# ── xnxx ─────────────────────────
+DOMAIN-SUFFIX, xnxx-cdn.com
+DOMAIN-SUFFIX, xnxx.com
+
+# ── MyFreeCams ───────────────────
+DOMAIN-SUFFIX, mfcimg.com
+DOMAIN-SUFFIX, myfreecams.com
+
+# ── AV / BT 搜索 ──────────────────
+DOMAIN-SUFFIX, sukebei.nyaa.si
+
+
+# ==============================
+# 📱 直播平台（非成人）
+# ==============================
+
+# ── AfreecaTV / SoopLive（韩国直播）──
+DOMAIN-SUFFIX, afreecatv.com
+DOMAIN-SUFFIX, sooplive.co.kr
+
+# ── Naver / YoonFroggy（韩国直播）────
+# pstatic.net 是 Naver 的静态资源 CDN
 DOMAIN, nng-phinf.pstatic.net
 DOMAIN, ntm.pstatic.net
+DOMAIN, scv.band.us
+DOMAIN, ssl.pstatic.net
+DOMAIN-SUFFIX, akamaized.net
+DOMAIN-SUFFIX, naver.com
+DOMAIN-SUFFIX, navercorp.com
+DOMAIN-SUFFIX, pstatic.net
 
-# chaturbate.jjgirls.com
-## 成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
-DOMAIN-SUFFIX, highwebmedia.com
-## 成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
-## 是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
-DOMAIN-SUFFIX, mmcdn.com
-DOMAIN, chaturbate.jjgirls.com
-DOMAIN, internet-up.ably-realtime.com
+# ── Kick 直播 ────────────────────
+DOMAIN-SUFFIX, kick-video.download
+DOMAIN-SUFFIX, kick.com
 
-# Maxming_GeoLite2
+# ── Twitch ───────────────────────
+# Amazon CloudFront CDN，Twitch 视频流走此域名
+DOMAIN-SUFFIX, cloudfront.net
+
+
+# ==============================
+# 📰 新闻媒体
+# ==============================
+
+# BBC
+DOMAIN-SUFFIX, bbc.com
+DOMAIN-SUFFIX, bbci.co.uk
+
+# CNN
+DOMAIN-SUFFIX, cnn.com
+
+# Daily Mail
+DOMAIN-SUFFIX, dailymail.co.uk
+
+# Reuters
+DOMAIN-SUFFIX, reuters.com
+
+# Al Jazeera
+DOMAIN-SUFFIX, aljazeera.com
+DOMAIN-SUFFIX, aljazeera.net
+
+# 纽约时报
+DOMAIN-SUFFIX, nyt.com
+DOMAIN-SUFFIX, nytimes.com
+
+# 华尔街日报
+DOMAIN-SUFFIX, captcha-delivery.com
+DOMAIN-SUFFIX, wsj.com
+DOMAIN-SUFFIX, wsj.net
+
+# 端传媒（香港独立媒体）
+DOMAIN, theinitium.com
+
+
+# ==============================
+# 🤖 AI 工具
+# ==============================
+
+# HuggingFace（开源模型平台）
+DOMAIN-SUFFIX, huggingface.co
+
+# Suno（AI 音乐制作）
+DOMAIN, img.clerk.com
+DOMAIN-SUFFIX, suno.ai
+DOMAIN-SUFFIX, suno.com
+
+# Udio（AI 音乐制作）
+DOMAIN-SUFFIX, udio.com
+
+# Replicate（AI 模型推理）
+DOMAIN, replicate.delivery
+
+# AISaver（文字转语音，有限免费）
+DOMAIN-SUFFIX, aisaver.io
+DOMAIN, extensiondock.com
+
+# Fish Audio（语音合成与下载）
+DOMAIN-SUFFIX, fish.audio
+DOMAIN-SUFFIX, r2.cloudflarestorage.com
+
+
+# ==============================
+# 🛠️ 开发者工具
+# ==============================
+
+# GitHub（代码托管）
+DOMAIN-SUFFIX, ghproxy.com
+
+# Script Hub（模块转换）
+DOMAIN, script.hub
+
+# BoxJS（脚本管理）
+DOMAIN-SUFFIX, boxjs.com
+
+# Shadowrocket 配置分发（dpdns 免费子域名）
+DOMAIN, lowertop.dpdns.org
+
+# SSL.com（SSL 证书颁发机构）
+DOMAIN-SUFFIX, ssl.com
+
+# MaxMind GeoLite2（IP 地理位置数据库）
 DOMAIN-SUFFIX, maxmind.com
 
-# LULU防火墙
-DOMAIN, objective-see.org
 
-# Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
-DOMAIN-SUFFIX, objective-see.com
+# ==============================
+# 🧩 Chrome 浏览器插件
+# ==============================
 
-# ikea.com
-DOMAIN-SUFFIX, ikea.com
+# 沉浸式翻译（配置接口）
+DOMAIN, config.immersivetranslate.com
 
-# Zoom Earth
-DOMAIN-SUFFIX, zoom.earth
+# 划词翻译 hcfy.ai
+DOMAIN-SUFFIX, hcfy.ai
 
-# windy weather
+# Ghostery（隐私保护插件）
+DOMAIN-SUFFIX, ghostery.com
+DOMAIN-SUFFIX, ghostery.net
+
+# VidIQ（YouTube 数据分析）
+DOMAIN-SUFFIX, vidiq.com
+
+# FetchV（网页视频下载）
+DOMAIN, fetchv.net
+
+# Click & Clean（浏览器清理）
+DOMAIN, cdn.hotcleaner.com
+DOMAIN, www.hotcleaner.com
+
+# Return YouTube Dislike（恢复踩数显示）
+DOMAIN, returnyoutubedislikeapi.com
+
+# IP Address and Domain Information 插件
+DOMAIN-SUFFIX, dnslytics.com
+DOMAIN-SUFFIX, dnslytics.org
+DOMAIN-SUFFIX, dnslytics.uk
+
+# WhatIsMyIP 插件
+DOMAIN-SUFFIX, whatismyip.click
+
+# 蛊惑狼进度条插件
+DOMAIN, custom-progress-bar.com
+DOMAIN, custom-progressbar.com
+
+# Stream Recorder（直播录制）
+DOMAIN-SUFFIX, hlsloader.com
+
+# Language Reactor（语言学习）
+DOMAIN-SUFFIX, dioco.io
+DOMAIN-SUFFIX, languagelearningwithnetflix.com
+DOMAIN-SUFFIX, languagereactor.com
+
+# Twitch VOD 下载插件
+DOMAIN, sockjs-us2.pusher.com
+DOMAIN-SUFFIX, eu.srcdn.net
+DOMAIN-SUFFIX, streamscharts.com
+DOMAIN-SUFFIX, sullygnome.com
+DOMAIN-SUFFIX, streamrecorder.io
+DOMAIN-SUFFIX, voddownloader.com
+
+# TikTok 数据分析 / 达人精灵插件
+DOMAIN-SUFFIX, kolsprite.com
+
+# GeoIP 显示旗帜插件
+DOMAIN, geoip.furman.im
+
+# YouTube 双语翻译插件（dioco 子域）
+DOMAIN, extension.dioco.io
+
+
+# ==============================
+# 🌍 地图 / 天气 / 航班
+# ==============================
+
+# Windy（天气预报）
 DOMAIN-SUFFIX, windy.com
 
-# Write&Improve
+# Zoom Earth（卫星地图）
+DOMAIN-SUFFIX, zoom.earth
+
+# Flightradar24（航班追踪）
+DOMAIN, cdn.jetphotos.com
+DOMAIN, mobile-data.onetrust.io
+DOMAIN-SUFFIX, flightradar24.com
+DOMAIN-SUFFIX, privacy-center.org
+
+# Marine Traffic（船舶追踪）
+DOMAIN-SUFFIX, marinetraffic.com
+
+# 天时 / Nullschool（PM2.5 地球可视化）
+DOMAIN-SUFFIX, nullschool.net
+
+# AQICN（美国大使馆 PM2.5 数据）
+DOMAIN, api2.waqi.info
+DOMAIN, aqicn.org
+DOMAIN, mapq.waqi.info
+DOMAIN, server.arcgisonline.com
+
+
+# ==============================
+# 📚 学习 / 阅读
+# ==============================
+
+# 在线词典
+DOMAIN-SUFFIX, collinsdictionary.com
+DOMAIN-SUFFIX, ldoceonline.com
+DOMAIN-SUFFIX, merriam-webster.com
+DOMAIN-SUFFIX, oxfordlearnersdictionaries.com
+
+# Write & Improve（剑桥英语写作练习）
 DOMAIN, s3-eu-west-1.amazonaws.com
 DOMAIN, wandi-6402.kxcdn.com
 DOMAIN, writeandimprove.com
 DOMAIN-SUFFIX, englishlanguageitutoring.com
 
-#Transcribe AI app
-DOMAIN, firebaselogging-pa.googleapis.com
-DOMAIN, app-analytics-services.com
-DOMAIN, ep2.facebook.com
+# Z-Library（电子书图书馆）
+DOMAIN, dln1.ncdn.ec
+DOMAIN, z-library.sk
 
-# AV_BT搜索
-DOMAIN-SUFFIX, sukebei.nyaa.si
+# Wikipedia & Wikimedia 系列
+DOMAIN-SUFFIX, mediawiki.org
+DOMAIN-SUFFIX, wikibooks.org
+DOMAIN-SUFFIX, wikidata.org
+DOMAIN-SUFFIX, wikileaks.org
+DOMAIN-SUFFIX, wikimedia.org
+DOMAIN-SUFFIX, wikinews.org
+DOMAIN-SUFFIX, wikipedia.org
+DOMAIN-SUFFIX, wikiquote.org
+DOMAIN-SUFFIX, wikisource.org
+DOMAIN-SUFFIX, wikiversity.org
+DOMAIN-SUFFIX, wikivoyage.org
+DOMAIN-SUFFIX, wiktionary.org
 
-# missav.com
-DOMAIN-KEYWORD, missav
-DOMAIN-SUFFIX, njav.tv
-DOMAIN, surrit.com
-DOMAIN, fourhoi.com
-DOMAIN, r.trackwilltrk.com
-
-# 文字转语音
-## aisaver.io 有限制的免费
-DOMAIN, replicate.delivery
-DOMAIN-SUFFIX, aisaver.io
-DOMAIN, extensiondock.com
-## fish.audio
-DOMAIN-SUFFIX, fish.audio
-## fish.audio_下载语音
-DOMAIN-SUFFIX, r2.cloudflarestorage.com
-
-# NEW
-DOMAIN-SUFFIX, bbc.com
-DOMAIN-SUFFIX, bbci.co.uk
-DOMAIN-SUFFIX, cnn.com
-DOMAIN-SUFFIX, dailymail.co.uk
-DOMAIN-SUFFIX, reuters.com
-DOMAIN-SUFFIX, aljazeera.com
-DOMAIN-SUFFIX, aljazeera.net
-
-# huggingface
-DOMAIN-SUFFIX, huggingface.co
-
-# 姿勢小王子
-DOMAIN-SUFFIX, bbs.zsxwz.com
-
-# TTS
-DOMAIN-SUFFIX, wangwangit.com
-
-# boxjs
-DOMAIN-SUFFIX, boxjs.com
-
-# udio AI音乐制作
-DOMAIN-SUFFIX, udio.com
-
-#suno AI音乐制作
-DOMAIN, img.clerk.com
-DOMAIN-SUFFIX, suno.com
-DOMAIN-SUFFIX, suno.ai
-
-# IMDB
+# IMDB（电影数据库）
 DOMAIN-SUFFIX, imdb.com
 
-# MacOS破解網站 xm
-DOMAIN-SUFFIX, mediafire.com
-DOMAIN, psv4.userapi.com
-DOMAIN, unpkg.com
-DOMAIN-SUFFIX, vk.com
-DOMAIN, unpkg.com
-DOMAIN-SUFFIX, vk.com
-DOMAIN-SUFFIX, appstorrent.ru
-DOMAIN-SUFFIX, xmac.app
+# V2EX（技术社区）
+DOMAIN, media.zenfs.com
+DOMAIN-SUFFIX, imgur.com
+DOMAIN-SUFFIX, v2ex.co
+DOMAIN-SUFFIX, v2ex.com
 
-# MacOS破解網站 appstorrent
-DOMAIN, appstorrent.org
+# Folo / Follow（RSS 阅读器）
+DOMAIN, unavatar.webp.se
+DOMAIN-SUFFIX, follow.is
+DOMAIN-SUFFIX, folo.is
 
-# 開源播放器iina
-DOMAIN, www.iina.io
+# 姿势小王子（论坛）
+DOMAIN-SUFFIX, bbs.zsxwz.com
 
-# mega下載網站
-DOMAIN-SUFFIX, mega.nz
-DOMAIN-SUFFIX, mega.co.nz
+# TTS 文字转语音工具
+DOMAIN-SUFFIX, wangwangit.com
 
-# afreecatv & sooplive
-DOMAIN-SUFFIX, afreecatv.com
-DOMAIN-SUFFIX, sooplive.co.kr
 
-# fbjav.com
-DOMAIN-SUFFIX, player.imcontent.me
-DOMAIN-SUFFIX, images.imfb.xyz
-DOMAIN-SUFFIX, fbjav.com
-DOMAIN-SUFFIX, svjav.com
+# ==============================
+# 🎵 音乐 / 视频娱乐
+# ==============================
 
-# jable.tv
-DOMAIN-SUFFIX, mushroomtrack.com
-DOMAIN-SUFFIX, jable.tv
-
-# www.xvideos.com
-DOMAIN-SUFFIX, xvideos.com
-DOMAIN-SUFFIX, xvideos-cdn.com
-
-# www.xnxx.com
-DOMAIN-SUFFIX, xnxx-cdn.com
-DOMAIN-SUFFIX, xnxx.com
-
-# myfreecams.com
-DOMAIN-SUFFIX, mfcimg.com
-DOMAIN-SUFFIX, myfreecams.com
-
-# reddit.com
+# Reddit
 DOMAIN-SUFFIX, redd.it
 DOMAIN-SUFFIX, reddit.com
 DOMAIN-SUFFIX, redditmail.com
@@ -307,127 +452,70 @@ DOMAIN-SUFFIX, reddituploads.com
 DOMAIN-SUFFIX, reddituploads.com.cdn-cf.behance.net
 DOMAIN-SUFFIX, reddituploads.com.cdn-cf.dropbox.com
 
-# WIKI
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
+# TikTok / 抖音视频下载
+DOMAIN, dl.snapcdn.app
+DOMAIN-SUFFIX, tiksave.io
 
-# kick直播平台
-DOMAIN-SUFFIX, kick.com
-#kick直播平台_Chrome下载VOD插件
-DOMAIN-SUFFIX, kick-video.download
 
-# MAC keka
+# ==============================
+# 💻 macOS 软件
+# ==============================
+
+# IINA（开源播放器）
+DOMAIN, www.iina.io
+
+# Keka（解压工具自动更新）
 DOMAIN, u.keka.io
 
-# Goodnote 6 app
-DOMAIN-SUFFIX, goodnotes.email
-DOMAIN-SUFFIX, goodnotes.com
-DOMAIN, api.sprig.com
-
-# Flightradar24 app
-DOMAIN-SUFFIX, privacy-center.org
-DOMAIN-SUFFIX, flightradar24.com
-DOMAIN, mobile-data.onetrust.io
-# AR顯示飛機照片（信息框下面，第二個框）。
-DOMAIN, cdn.jetphotos.com
-
-# Marine Traffic
-DOMAIN-SUFFIX, marinetraffic.com
-
-#嗯背單詞
-# 牛津
-DOMAIN-SUFFIX, oxfordlearnersdictionaries.com
-# 韋氏
-DOMAIN-SUFFIX, merriam-webster.com
-# 朗文
-DOMAIN-SUFFIX, ldoceonline.com
-# 柯林斯
-DOMAIN-SUFFIX, collinsdictionary.com
-
-# github
-DOMAIN-SUFFIX, ghproxy.com
-
-# JDownloader 2-下載工具自動更新。
-DOMAIN-SUFFIX, jdownloader.org
+# JDownloader 2（下载工具自动更新）
 DOMAIN-SUFFIX, appwork.org
+DOMAIN-SUFFIX, jdownloader.org
 
-# 書籤-it-轉換類-批量全能轉換器
+# macOS 破解站 XMac
+DOMAIN, psv4.userapi.com
+DOMAIN, unpkg.com
+DOMAIN-SUFFIX, appstorrent.ru
+DOMAIN-SUFFIX, mediafire.com
+DOMAIN-SUFFIX, vk.com
+DOMAIN-SUFFIX, xmac.app
+
+# macOS 破解站 AppStorrent
+DOMAIN, appstorrent.org
+
+# Mega 云存储下载
+DOMAIN-SUFFIX, mega.co.nz
+DOMAIN-SUFFIX, mega.nz
+
+# LuLu 防火墙（macOS 安全工具）
+DOMAIN, objective-see.org
+DOMAIN-SUFFIX, objective-see.com
+
+
+# ==============================
+# 🛍️ 其他工具 / 网站
+# ==============================
+
+# Goodnotes 6
+DOMAIN, api.sprig.com
+DOMAIN-SUFFIX, goodnotes.com
+DOMAIN-SUFFIX, goodnotes.email
+
+# xConvert（批量格式转换）
 DOMAIN-SUFFIX, xconvert.com
 
-# Chrome瀏覽器插件
-## 沉浸式翻译（粉色图标）
-DOMAIN, config.immersivetranslate.com
-## TikTok视频下载、AI脚本与数据洞察-达人精灵
-DOMAIN-SUFFIX, kolsprite.com
-## 应该是谷歌插件的第一个，显示旗子。
-DOMAIN, geoip.furman.im
-## hcfy.ai 是谷歌浏览器插件"划词翻译"扩展的官方网站。
-DOMAIN-SUFFIX, hcfy.ai
-## Chrome插件-Ghostery数据传输
-DOMAIN-SUFFIX, ghostery.net
-DOMAIN-SUFFIX, ghostery.com
-## vidiq.com，YouTube查看播放量工具
-DOMAIN-SUFFIX, vidiq.com
-# fetchv，网页视频下载工具。
-DOMAIN, fetchv.net
-## Click&Clean
-DOMAIN, cdn.hotcleaner.com
-DOMAIN, www.hotcleaner.com
-## Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
-DOMAIN, returnyoutubedislikeapi.com
-## chrome瀏覽器，第3個flag顯示。
-DOMAIN-SUFFIX, whatismyip.click
-## chrome瀏覽器，图标是ip。IP Address and Domain Information。
-DOMAIN-SUFFIX, dnslytics.com
-DOMAIN-SUFFIX, dnslytics.org
-DOMAIN-SUFFIX, dnslytics.uk
-## 蠱惑狼進度條
-DOMAIN, custom-progress-bar.com
-DOMAIN, custom-progressbar.com
-## Stream Recorder
-DOMAIN-SUFFIX, hlsloader.com
-## Language Reactor
-DOMAIN-SUFFIX, dioco.io
-DOMAIN-SUFFIX, languagelearningwithnetflix.com
-DOMAIN-SUFFIX, languagereactor.com
-## TwitchVodDownload
-DOMAIN, sockjs-us2.pusher.com
-DOMAIN-SUFFIX, eu.srcdn.net
-DOMAIN-SUFFIX, streamscharts.com
-DOMAIN-SUFFIX, sullygnome.com
-DOMAIN-SUFFIX, voddownloader.com
-## streamrecorder.io官网，同时也是chrome插件。
-DOMAIN-SUFFIX, streamrecorder.io
-DOMAIN-SUFFIX, eu.srcdn.net
-
-
-# YouTuBe 雙語翻譯
-DOMAIN, extension.dioco.io
-
-# Z-Libly图书馆
-DOMAIN, dln1.ncdn.ec
-DOMAIN, z-library.sk
-
-# 油猴
-DOMAIN-SUFFIX, sleazyfork.org
+# 油猴脚本（用户脚本管理）
 DOMAIN-SUFFIX, greasyfork.org
+DOMAIN-SUFFIX, sleazyfork.org
 DOMAIN-SUFFIX, tampermonkey.net
 
-# 天时，地球看pm2.5
-DOMAIN-SUFFIX, nullschool.net
+# Bitcoin 链上数据查看
+DOMAIN, mempool.space
 
-# 美國大使館，地球顯示mp2.5
-DOMAIN, aqicn.org
-DOMAIN, mapq.waqi.info
-DOMAIN, api2.waqi.info
-DOMAIN, server.arcgisonline.com
+# IP / 域名 / ASN 查询
+DOMAIN, ping0.cc
+
+# 字幕转换工具
+DOMAIN, www.syedgakbar.com
+
+# IKEA
+DOMAIN-SUFFIX, ikea.com

@@ -1,226 +1,270 @@
-#证书签发机构_国际版
+# ==============================
+# 🛠️ 代理工具 / 系统
+# ==============================
+
+# QuantumultX 订阅校验
+DOMAIN, receiptcheck.quantumult.app
+
+# jsDelivr CDN（常见开源资源加速节点）
+DOMAIN, fastly.jsdelivr.net
+
+# SSL 证书颁发机构（国际版）
 DOMAIN-SUFFIX, digicert.com
 
 
-# QuantumultX系统更新
-DOMAIN, receiptcheck.quantumult.app
+# ==============================
+# 🔍 IP / DNS / 隐私检测
+# ==============================
 
-##fastly.jsdelivr.net 是一个合法的、非常常见的 CDN 域名，全称是 jsDelivr 的 Fastly 节点。
-DOMAIN, fastly.jsdelivr.net
-##images.unsplash.com:443 是 Unsplash 的官方图像 CDN（内容分发网络）域名。Unsplash 是全球最大的免费高质量照片库之一（类似于 Pexels、Pixabay），提供海量免版权（CC0 许可）的图片，供任何人免费下载、使用、商用。
-DOMAIN, images.unsplash.com
+# Ping0（IP 信息查询，含 IPv4 / IPv6 子域）
+DOMAIN-SUFFIX, ping0.cc
 
-#Drafts app验证订阅
-DOMAIN, backend.getdrafts.com
+# IPAPI（IP 地理位置查询）
+DOMAIN-SUFFIX, ipapi.co
 
-#免费的AI模型API
-DOMAIN-SUFFIX, groq.io
+# BrowserScan（浏览器指纹检测）
+DOMAIN, ip-scan.adspower.net
 
-#Chrome插件
-#Pekka,下载TikTok视频。
-DOMAIN, api.tuhocvangioi.com
+# Pixelscan（指纹检测）
+DOMAIN-SUFFIX, pixelscan.net
 
-#chapturist.com
-DOMAIN-SUFFIX, chapturist.com
-
-#免费创建图片AI
-DOMAIN-SUFFIX, ideogram.ai
-
-#荔枝买Downie 4
-DOMAIN-SUFFIX, lizhi.shop
-
-#Downie4 打开需要的网址_正版验证
-DOMAIN, licensing.charliemonroe.net
-#Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
-DOMAIN-SUFFIX, software.charliemonroe.net
-DOMAIN-SUFFIX, downiestatistics.com
-
-
-#midjourney
-DOMAIN, midjourney.ghost.io
-DOMAIN-SUFFIX, statuspage.io
-DOMAIN-SUFFIX, midjourney.com
-
-#看股票app
-DOMAIN-SUFFIX, tradingview.com
-DOMAIN-SUFFIX, webullfintech.com
-
-#Z-Libly图书馆
-DOMAIN, dln1.ncdn.ec
-DOMAIN, z-library.sk
-
-#JDownloader 2-下載工具自動更新。
-DOMAIN-SUFFIX, jdownloader.org
-DOMAIN-SUFFIX, appwork.org
-
-# Flightradar24 app
-DOMAIN-SUFFIX, privacy-center.org
-DOMAIN-SUFFIX, flightradar24.com
-DOMAIN, mobile-data.onetrust.io
-#AR顯示飛機照片（信息框下面，第二個框）。
-DOMAIN, cdn.jetphotos.com
-
-# Marine Traffic
-DOMAIN-SUFFIX, marinetraffic.com
-
-# kick直播平台
-DOMAIN-SUFFIX, kick.com
-## Pusher 是一家提供**实时通信（Realtime）**服务的公司。_Kick App 用它实现直播聊天室实时消息（弹幕、礼物、用户互动等）。_这是 Kick 直播核心功能依赖的服务之一。
-DOMAIN, js.pusher.com
-## 播放录像需要的亚马逊网址
-DOMAIN, segments.mediatailor.us-west-2.amazonaws.com
-
-# jable.tv
-DOMAIN-SUFFIX, mushroomtrack.com
-DOMAIN-SUFFIX, jable.tv
-
-# www.xvideos.com
-DOMAIN-SUFFIX, xvideos.com
-DOMAIN-SUFFIX, xvideos-cdn.com
-
-# www.xnxx.com
-DOMAIN-SUFFIX, xnxx-cdn.com
-DOMAIN-SUFFIX, xnxx.com
-
-#myfreecams.com
-DOMAIN-SUFFIX, mfcimg.com
-DOMAIN-SUFFIX, myfreecams.com
-
-#afreecatv & sooplive & pandalive
-DOMAIN-SUFFIX, afreecatv.com
-DOMAIN-SUFFIX, sooplive.com
-DOMAIN-SUFFIX, sooplive.co.kr
-DOMAIN-SUFFIX, pandalive.co.kr
-DOMAIN-SUFFIX, pandalive.com
-
-#fbjav.com
-DOMAIN-SUFFIX, player.imcontent.me
-DOMAIN-SUFFIX, images.imfb.xyz
-DOMAIN-SUFFIX, fbjav.com
-DOMAIN-SUFFIX, svjav.com
-
-#MacOS破解網站 xm
-DOMAIN-SUFFIX, mediafire.com
-DOMAIN, psv4.userapi.com
-DOMAIN, unpkg.com
-DOMAIN-SUFFIX, vk.com
-DOMAIN, unpkg.com
-DOMAIN-SUFFIX, vk.com
-DOMAIN-SUFFIX, appstorrent.ru
-DOMAIN-SUFFIX, xmac.app
-
-#MacOS破解網站 appstorrent
-DOMAIN, appstorrent.org
-
-#missav.com
-DOMAIN-KEYWORD, missav
-DOMAIN-SUFFIX, njav.tv
-DOMAIN, surrit.com
-DOMAIN, fourhoi.com
-DOMAIN, r.trackwilltrk.com
-
-#ikea.com
-DOMAIN-SUFFIX, ikea.com
-
-# Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
-DOMAIN-SUFFIX, cloudfront.net
-
-#chaturbate.jjgirls.com
-## 实时通信
-DOMAIN, ws-up.ably-realtime.com
-##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
-DOMAIN, assets.striiiipst.com
-DOMAIN-SUFFIX, highwebmedia.com
-
-#成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
-##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
-DOMAIN-SUFFIX, mmcdn.com
-DOMAIN, chaturbate.jjgirls.com
-DOMAIN, internet-up.ably-realtime.com
-
-#stripchat & hplives
-##显示主播预览图片
-DOMAIN-SUFFIX, loo3laej.com
-## Stripchat 的静态资源服务器（assets = 资源文件），用于加载页面上的图片、JS 脚本、CSS 样式、模型头像、预览图、按钮图标等。_负责页面布局、缩略图、UI 元素等的加载。
-DOMAIN, assets.strpssts-ana.com
-DOMAIN, chunks.doppiostreams.com
-DOMAIN, mc.thedd.online
-DOMAIN, api.lovense-api.com
-DOMAIN-SUFFIX, doppiocdn.live
-DOMAIN-SUFFIX, doppiocdn.com
-DOMAIN-SUFFIX, doppiocdn.net
-DOMAIN-SUFFIX, doppiocdn.org
-DOMAIN-SUFFIX, stripchat.com
-DOMAIN-SUFFIX, oppiocdn.media
-DOMAIN-SUFFIX, hplives.com
-DOMAIN-SUFFIX, hpjav.tv
-DOMAIN-SUFFIX, sc-apps.com
-DOMAIN-SUFFIX, strpst.com
-
-# Notion
-## 需要有亚马逊的链接
-DOMAIN, s3-us-west-2.amazonaws.com
-DOMAIN, s3.us-west-2.amazonaws.com
-DOMAIN, cdn.cr-relay.com
-DOMAIN-SUFFIX, notionstats.com
-DOMAIN-SUFFIX, notion.so
-DOMAIN-SUFFIX, notion.com
-#iPhone正常访问Notion
-DOMAIN, http-inputs-notion.splunkcloud.com
-#上传图片
-DOMAIN, img.notionusercontent.com
-#显示图片_关联amazon
-DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com
-
-# Pornhub
-DOMAIN-SUFFIX, pornhub.com
-## API / 登录 / 数据接口
-DOMAIN-SUFFIX, phncdn.com
-DOMAIN-SUFFIX, pornhubpremium.com
-DOMAIN-SUFFIX, pornhub.org
-## CDN资源（最关键🔥）
-DOMAIN-SUFFIX, phprcdn.com
-DOMAIN-SUFFIX, phncdn.net
-## Pornhub 同一体系下的独立成人视频网站。它们有点类似“兄弟站”，但定位略有差异。
-DOMAIN-SUFFIX, youporn.com
-DOMAIN-SUFFIX, redtube.com
-DOMAIN-SUFFIX, tube8.com
-DOMAIN-SUFFIX, thumbzilla.com
-## Pornhub_移动设备需要允许这个网址
-DOMAIN, video.sacdnssedge.com
-
-# DNS Leak from Shadowrocket Default
-DOMAIN-SUFFIX, dnsleaktest.com
-DOMAIN-SUFFIX, dnsleak.com
-DOMAIN-SUFFIX, expressvpn.com
-DOMAIN-SUFFIX, nordvpn.com
-DOMAIN-SUFFIX, surfshark.com
-DOMAIN-SUFFIX, ipleak.net
-DOMAIN-SUFFIX, perfect-privacy.com
+# ── DNS 泄漏检测工具 ──────────────
 DOMAIN-SUFFIX, browserleaks.com
 DOMAIN-SUFFIX, browserleaks.org
-DOMAIN-SUFFIX, vpnunlimited.com
+DOMAIN-SUFFIX, dnsleak.com
+DOMAIN-SUFFIX, dnsleaktest.com
+DOMAIN-SUFFIX, ipleak.net
+DOMAIN-SUFFIX, perfect-privacy.com
 DOMAIN-SUFFIX, whoer.net
 DOMAIN-SUFFIX, whrq.net
 
-# Astrill
+# ── VPN 服务商（用于泄漏测试页面）──
+DOMAIN-SUFFIX, expressvpn.com
+DOMAIN-SUFFIX, nordvpn.com
+DOMAIN-SUFFIX, vpnunlimited.com
+
+# ── Astrill VPN ───────────────────
+DOMAIN, dnsleak.asn247.net
 DOMAIN-SUFFIX, astrill.com
 DOMAIN-SUFFIX, astrill.org
-DOMAIN-SUFFIX, dnsleak.asn247.net
 
-# Surfshark
+# ── Surfshark VPN ─────────────────
 DOMAIN-SUFFIX, surfshark.com
 DOMAIN-SUFFIX, surfsharkdns.com
 
-# Pixelscan
-DOMAIN-SUFFIX, pixelscan.net
 
-# PING0
-DOMAIN, ipv4.ping0.cc
-DOMAIN, ipv6.ping0.cc
+# ==============================
+# 📱 App 订阅与验证
+# ==============================
 
-# IPAPI.CO
-DOMAIN-SUFFIX, ipapi.co
+# Drafts app（订阅验证）
+DOMAIN, backend.getdrafts.com
 
-# BrowserScan
-DOMAIN, ip-scan.adspower.net
+# Downie 4（正版验证 + 统计，合并 charliemonroe 子域）
+DOMAIN-SUFFIX, charliemonroe.net
+DOMAIN-SUFFIX, downiestatistics.com
+
+# 荔枝（购买 Downie 4 的平台）
+DOMAIN-SUFFIX, lizhi.shop
+
+
+# ==============================
+# 🤖 AI 工具
+# ==============================
+
+# Midjourney（AI 图像生成）
+DOMAIN, midjourney.ghost.io
+DOMAIN-SUFFIX, midjourney.com
+DOMAIN-SUFFIX, statuspage.io
+
+# Ideogram（免费 AI 图像生成）
+DOMAIN-SUFFIX, ideogram.ai
+
+# Groq（免费 AI 模型 API）
+DOMAIN-SUFFIX, groq.io
+
+
+# ==============================
+# 📈 金融 / 投资
+# ==============================
+
+# TradingView（股票 / 行情图表）
+DOMAIN-SUFFIX, tradingview.com
+
+# Webull（富途牛牛旗下美股 app）
+DOMAIN-SUFFIX, webullfintech.com
+
+
+# ==============================
+# 📝 效率工具
+# ==============================
+
+# Notion（笔记与协作）
+# S3 用于文件存储，splunkcloud 用于日志，cdn.cr-relay 用于内容分发
+DOMAIN, cdn.cr-relay.com
+DOMAIN, http-inputs-notion.splunkcloud.com
+DOMAIN, img.notionusercontent.com
+DOMAIN, prod-files-secure.s3.us-west-2.amazonaws.com
+DOMAIN, s3-us-west-2.amazonaws.com
+DOMAIN, s3.us-west-2.amazonaws.com
+DOMAIN-SUFFIX, notion.com
+DOMAIN-SUFFIX, notion.so
+DOMAIN-SUFFIX, notionstats.com
+
+# Chapturist（文档工具）
+DOMAIN-SUFFIX, chapturist.com
+
+
+# ==============================
+# 🌐 图片 / 媒体资源
+# ==============================
+
+# Unsplash（免版权图库 CDN）
+DOMAIN, images.unsplash.com
+
+
+# ==============================
+# 🎬 视频 / 直播（非成人）
+# ==============================
+
+# Kick 直播平台
+# Pusher 提供实时聊天弹幕服务；MediaTailor 用于 VOD 回放
+DOMAIN, js.pusher.com
+DOMAIN, segments.mediatailor.us-west-2.amazonaws.com
+DOMAIN, sockjs-us2.pusher.com
+DOMAIN-SUFFIX, kick.com
+
+# Twitch / Amazon CloudFront CDN（直播流加速）
+DOMAIN-SUFFIX, cloudfront.net
+
+# AfreecaTV / SoopLive / PandaLive（韩国直播）
+DOMAIN-SUFFIX, afreecatv.com
+DOMAIN-SUFFIX, pandalive.co.kr
+DOMAIN-SUFFIX, pandalive.com
+DOMAIN-SUFFIX, sooplive.co.kr
+DOMAIN-SUFFIX, sooplive.com
+
+
+# ==============================
+# 🔞 成人内容平台
+# ==============================
+
+# ── Chaturbate ────────────────────
+DOMAIN, chaturbate.jjgirls.com
+
+# ── Stripchat / HPLives / XLoveCam / CAM4
+# 母公司 HighWebMedia 旗下平台；strpssts 系列负责静态资源
+DOMAIN, assets.striiiipst.com
+DOMAIN, assets.strpssts-ana.com
+DOMAIN-SUFFIX, highwebmedia.com
+DOMAIN-SUFFIX, hpjav.tv
+DOMAIN-SUFFIX, hplives.com
+DOMAIN-SUFFIX, loo3laej.com
+DOMAIN-SUFFIX, sc-app.com
+DOMAIN-SUFFIX, stripchat.com
+DOMAIN-SUFFIX, strpssts.net
+DOMAIN-SUFFIX, strpst.com
+
+# ── Doppio CDN（直播流与静态资源加速）──
+DOMAIN, chunks.doppiostreams.com
+DOMAIN-SUFFIX, doppiocdn.com
+DOMAIN-SUFFIX, doppiocdn.live
+DOMAIN-SUFFIX, doppiocdn.net
+DOMAIN-SUFFIX, doppiocdn.org
+DOMAIN-SUFFIX, oppiocdn.media
+
+# ── Lovense（互动设备 API）────────────
+DOMAIN, api.lovense-api.com
+
+# ── Ably（实时通信协议）──────────────
+DOMAIN, internet-up.ably-realtime.com
+DOMAIN, ws-up.ably-realtime.com
+
+# ── Pornhub 及旗下兄弟站 ─────────────
+# phncdn / phprcdn 是核心 CDN；兄弟站共用同一套基础设施
+DOMAIN, video.sacdnssedge.com
+DOMAIN-SUFFIX, phprcdn.com
+DOMAIN-SUFFIX, phncdn.com
+DOMAIN-SUFFIX, phncdn.net
+DOMAIN-SUFFIX, pornhub.com
+DOMAIN-SUFFIX, pornhub.org
+DOMAIN-SUFFIX, pornhubpremium.com
+DOMAIN-SUFFIX, redtube.com
+DOMAIN-SUFFIX, thumbzilla.com
+DOMAIN-SUFFIX, tube8.com
+DOMAIN-SUFFIX, youporn.com
+
+# ── MissAV ───────────────────────
+DOMAIN, fourhoi.com
+DOMAIN, surrit.com
+DOMAIN-KEYWORD, missav
+DOMAIN-SUFFIX, njav.tv
+
+# ── SpankBang ─────────────────────
+DOMAIN-SUFFIX, ptgncdn.com
+DOMAIN-SUFFIX, sb-cd.com
+DOMAIN-SUFFIX, spankbang.com
+
+# ── fbjav / svjav ─────────────────
+DOMAIN-SUFFIX, fbjav.com
+DOMAIN-SUFFIX, images.imfb.xyz
+DOMAIN-SUFFIX, player.imcontent.me
+DOMAIN-SUFFIX, svjav.com
+
+# ── jable.tv ─────────────────────
+DOMAIN-SUFFIX, jable.tv
+DOMAIN-SUFFIX, mushroomtrack.com
+
+# ── xvideos ──────────────────────
+DOMAIN-SUFFIX, xvideos-cdn.com
+DOMAIN-SUFFIX, xvideos.com
+
+# ── xnxx ─────────────────────────
+DOMAIN-SUFFIX, xnxx-cdn.com
+DOMAIN-SUFFIX, xnxx.com
+
+# ── MyFreeCams ───────────────────
+DOMAIN-SUFFIX, mfcimg.com
+DOMAIN-SUFFIX, myfreecams.com
+
+
+# ==============================
+# 🌍 地图 / 航班 / 船舶
+# ==============================
+
+# Flightradar24（航班追踪）
+# cdn.jetphotos 用于 AR 显示飞机照片
+DOMAIN, cdn.jetphotos.com
+DOMAIN, mobile-data.onetrust.io
+DOMAIN-SUFFIX, flightradar24.com
+DOMAIN-SUFFIX, privacy-center.org
+
+# Marine Traffic（船舶追踪）
+DOMAIN-SUFFIX, marinetraffic.com
+
+
+# ==============================
+# 💻 macOS 软件
+# ==============================
+
+# macOS 破解站 XMac
+DOMAIN, psv4.userapi.com
+DOMAIN, unpkg.com
+DOMAIN-SUFFIX, appstorrent.ru
+DOMAIN-SUFFIX, mediafire.com
+DOMAIN-SUFFIX, vk.com
+DOMAIN-SUFFIX, xmac.app
+
+# macOS 破解站 AppStorrent
+DOMAIN, appstorrent.org
+
+# IKEA
+DOMAIN-SUFFIX, ikea.com
+
+# JDownloader 2（下载工具自动更新）
+DOMAIN-SUFFIX, appwork.org
+DOMAIN-SUFFIX, jdownloader.org
+
+# Z-Library（电子书图书馆）
+DOMAIN, dln1.ncdn.ec
+DOMAIN, z-library.sk

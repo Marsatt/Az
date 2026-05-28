@@ -1,131 +1,147 @@
 # ==============================
-# Reject 分流规则
+# 🚫 REJECT 拦截规则
+# 说明：此文件仅收录需要主动拦截的域名
+# 分类：追踪 / 广告 / 行为分析 / 指纹识别 /
+#       数据上报 / 恶意域名 / 中国 App 埋点
 # ==============================
 
 
-# Cloudflare 的共享CDN IP
-IP-CIDR, 104.21.26.21/32, no-resolve
+# ──────────────────────────────
+# 📡 通用追踪 / 行为上报
+# ──────────────────────────────
+
+# Firebase 行为追踪，记录 App 内操作并上报给 Google
+DOMAIN, firebaselogging-pa.googleapis.com
+
+# 被 Norton 标记为恶意追踪，Apple 隐私报告亦有记录
+DOMAIN, app-analytics-services.com
+
+# Facebook 跨 App / 跨网站追踪像素
+DOMAIN, ep2.facebook.com
+
+# 网页流量分析追踪服务
+DOMAIN, api64.com
+DOMAIN, score.traficmetrics.com
+
+# MeetMe CDN，用于用户行为上报与 CSP 安全报告收集
+# 被 Chaturbate、Stripchat 等多个成人平台共用
+DOMAIN-SUFFIX, mmcdn.com
 
 
-# Tiger Trade (老虎证券) 分流规则
-## 第三方统计 / 埋点（强烈建议 reject）
-DOMAIN, metrics.tigerbrokers.com
-DOMAIN, analytics.tigerbrokers.com
-DOMAIN, amplitude.com
-DOMAIN, appsflyer.com
+# ──────────────────────────────
+# 📊 用户行为分析 / A-B 实验平台
+# ──────────────────────────────
+
+# Amplitude，用户行为分析与实验追踪（Tiger Trade、Kick 等 App 使用）
+DOMAIN-SUFFIX, amplitude.com
+
+# FingerprintJS，浏览器 / 设备指纹识别库
+DOMAIN-SUFFIX, fpjs.io
+
+# Nielsen IMRS，第三方受众测量与跨站追踪（Twitch 使用）
+DOMAIN-SUFFIX, imrworldwide.com
+
+# Bugsnag，崩溃分析与错误监控上报
+DOMAIN, sessions.bugsnag.com
+
+# Stats（开源 Mac 系统监控工具的统计接口）
+DOMAIN, api.serhiy.io
+
+# ViewerAttack，网络流量或用户行为分析服务
+DOMAIN, api.viewerattack.com
+
+# Braze，用户增长与营销平台（推送通知 / App 内消息 / 行为分析）
+DOMAIN-SUFFIX, braze.com
+DOMAIN-SUFFIX, braze.eu
+
+# Intercom，客服消息平台（App 内聊天窗口 / 用户引导 / 推送）
+# Deepseek 也使用此服务
+DOMAIN-SUFFIX, intercom.com
+DOMAIN-SUFFIX, intercomassets.com
+DOMAIN-SUFFIX, intercomcdn.com
 
 
-# kick直播平台
-## Expo 是开发 React Native App 的主流框架（Kick App 是用 React Native + Expo 开发的）。_u.expo.dev 用于 Expo 的更新服务（EAS Updates）、配置拉取、推送等。_很多 Expo App 启动时都会检查更新或加载配置。
-DOMAIN-SUFFIX, expo.dev
-## Datadog 是专业的应用性能监控 + 日志 + 错误追踪平台。_Kick 用 Datadog 来监控 App 性能、崩溃报告、用户行为等。_:123 是 NTP（时间同步）端口，Datadog 用它确保 App 时间准确（便于日志记录）。
-DOMAIN-SUFFIX, datadog.pool.ntp.org
+# ──────────────────────────────
+# 🎯 广告投放 / 营销平台
+# ──────────────────────────────
 
-
-# Localize 是一个网站/网页多语言翻译与本地化（Localization）服务平台。_由于你之前在用 Downie 4 下载 YouTube 相关内容，这个请求也可能来自浏览器中打开的某个 YouTube 工具网站、扩展相关页面，或其他使用了 Localize 翻译的网站。_cdn.localizejs.com 专门用来加载 Localize 的 JavaScript SDK、翻译脚本、语言包、配置等静态资源。_当一个网站集成了 Localize 服务后，它会通过这个 CDN 自动检测页面内容并进行实时翻译（支持多语言切换）。简单说：这是一个网站多语言翻译工具的后端资源服务器。很多国际网站（尤其是面向全球用户的 SaaS、电商、工具类网站）会使用 Localize 来实现多语言支持。
-DOMAIN-SUFFIX, cdn.localizejs.com
-
-
-# Intercom 是一家知名的美国客户消息平台（Customer Messaging Platform），主要提供： 1.App 内聊天（In-App Messenger） 2.客服支持聊天窗口 3.用户引导（产品 tours、帮助中心） 4.推送消息、自动化营销等功能。_static.intercomassets.com 专门用于托管 静态资源，比如：1.聊天窗口的图标、图片、样式文件（CSS、JS）2.Messenger 界面所需的各种资源_很多 App（尤其是国外工具类、生产力 App）会集成 Intercom SDK，让用户可以直接在 App 里联系客服或获取帮助。
-DOMAIN-SUFFIX,intercomassets.com
-DOMAIN-SUFFIX,intercomcdn.com
-## Deepseek 也使用了这个👇。
-DOMAIN-SUFFIX,intercom.com
-
-# Deepseek
-DOMAIN-SUFFIX, zztfly.com
-DOMAIN-SUFFIX, cmpassport.com
-
-
-# OneTrust 是全球最大的 Cookie 合规 / 隐私同意管理平台（专门帮助网站遵守 GDPR、CCPA 等隐私法律）。 这个域名负责加载 Cookie 同意弹窗（Cookie Banner） 的脚本。 如果以后遇到某个网站因为它彻底打不开（极少见），可以临时放行一次。
-DOMAIN-SUFFIX, cookielaw.org
-
-
-# macOS，开源输入法rime，鼠鬚管
-DOMAIN-SUFFIX, rime.im
-
-
-# AI 创作者广告平台，帮助品牌自动化寻找创作者做赞助内容，常被广告拦截工具列入 blocklist
+# Agentio，AI 创作者广告平台，已被多个广告拦截工具列入 blocklist
 DOMAIN-SUFFIX, agentio.com
 
-
-# Hotfree123 - 免费成人直播摄像头网站，大量加载第三方追踪器、广告网络，有恶意软件或指纹追踪风险
-DOMAIN-SUFFIX, hotfree123.com
-
-
-# stripchat.com / hplives.com
-## 用户行为分析 + 推送服务的 CDN
-DOMAIN-SUFFIX, cdn.moengage.com
-## 附属广告域名
-DOMAIN-SUFFIX, ststandard.com
-## stripchat.com 附属互动设备 API（Lovense）
-DOMAIN-SUFFIX, display.lovense-api.com
-
-
-# 多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
+# MG CDN，多用于成人直播 / 色情广告平台，有追踪脚本加载风险
 DOMAIN-SUFFIX, mg-cdn.com
 
+# Ststandard，Stripchat 附属广告域名
+DOMAIN-SUFFIX, ststandard.com
 
-# 百度地图
-## 百度（Baidu）自家的广告/追踪相关域名，属于百度广告投放或广告素材分发系统
-DOMAIN-SUFFIX, h2tcbox.baidu.com
-## 百度地图 App 集成了这个 SDK，因为它有地图广告、推广位、商业化合作（比如商家推广、打车联动等）。
-DOMAIN-SUFFIX, ubixioe.com
-
-
-# 高德地图
-## qchannel01.cn - 高德地图统计与数据上报域名（位置/行为埋点），高德 App、苹果地图（中国区）常用，属于统计追踪
-DOMAIN-SUFFIX, qchannel01.cn
-
-
-# Chrome 插件
-## metricuser.com 是一个专门提供用户行为数据收集和周期性上报服务的平台。_这个域名常见于Instagram 下载器、Reels 下载、TikTok 下载等类型的浏览器扩展（例如 “Exta Pro: Instagram Downloader” 等插件会每 6 小时向它发送一次请求）。
+# MetricUser，用户行为周期性上报平台
+# 常见于 Instagram / TikTok 下载类 Chrome 插件
 DOMAIN-SUFFIX, metricuser.com
-## Dark Reader_浏览器暗色模式扩展，可能用于更新扩展程序或发送使用统计数据
-DOMAIN, darkreader.org
-## 浏览器扩展开发者工具（ExtensionTools / Hog Rider），常被一些 TikTok 下载器、YouTube 工具、扩展转换工具等使用。
+
+# GetHogRider，浏览器扩展开发者工具
+# 常被 TikTok 下载器、YouTube 工具类插件使用
 DOMAIN-SUFFIX, gethogrider.com
-## 浏览器隐私保护 Chrome / Safari 等浏览器开启隐私保护后访问
-DOMAIN, safebrowsing.urlsec.qq.com
-## Chrome 开机触发 ws-us2.pusher.com - Pusher 实时 WebSocket 推送服务（美国节点），常被 Chrome 插件、实时通知工具使用，开机 Chrome 启动时触发
-DOMAIN, ws-us2.pusher.com
-## Chrome 插件 - 沉浸式翻译
-DOMAIN-SUFFIX, immersivetranslate.com
-DOMAIN-SUFFIX, immersivetranslate.cn
-## Chrome 插件 - 鼠标手势（CRX Mouse）
-DOMAIN, api.crxmouse.com
-DOMAIN, api.mousegesturesapi.com
-## Chrome 插件 - bilibili 下载助手
-DOMAIN-SUFFIX, csser.top
-## Chrome 插件 - geoip.furman.im - GeoIP 地理位置查询服务（用于显示国家旗帜等插件），常被浏览器扩展（如 Yet Another Flags）调用
-DOMAIN, geoip.furman.im
+
+# Hotfree123，免费成人直播网站，大量第三方追踪器与恶意脚本
+DOMAIN-SUFFIX, hotfree123.com
+
+# MoEngage CDN，用户行为分析 + 推送服务 CDN（Stripchat 使用）
+DOMAIN-SUFFIX, cdn.moengage.com
 
 
-# 抖音
-## 抖音指纹上报服务器。
+# ──────────────────────────────
+# 🔴 Tiger Trade 老虎证券 — 追踪埋点
+# ──────────────────────────────
+
+# 老虎证券 App 内部统计与埋点上报接口
+DOMAIN, metrics.tigerbrokers.com
+DOMAIN, analytics.tigerbrokers.com
+
+# AppsFlyer，移动端广告归因与追踪 SDK
+DOMAIN-SUFFIX, appsflyer.com
+
+
+# ──────────────────────────────
+# 🎮 Kick 直播 — 监控 / 上报
+# ──────────────────────────────
+
+# Datadog，应用性能监控 + 日志 + 错误追踪平台（Kick App 使用）
+DOMAIN-SUFFIX, datadog.pool.ntp.org
+
+# Expo 更新服务，React Native App 配置拉取与推送（Kick App 使用）
+# ⚠️ 屏蔽后 Kick App 可能无法检查更新，通常不影响正常使用
+DOMAIN-SUFFIX, expo.dev
+
+
+# ──────────────────────────────
+# 🀄 抖音 / 字节跳动 — 追踪埋点
+# ──────────────────────────────
+
+# 抖音设备指纹上报服务器
 DOMAIN-SUFFIX, dahhxxttxs.com
-## 抖音使用阿里巴巴服务器
-IP-CIDR, 8.134.241.67/32, no-resolve
+
+# 抖音电脑版无用静态资源域名
+DOMAIN-SUFFIX, huoshanstatic.com
+DOMAIN-SUFFIX, toutiaostatic.com
+
+# 抖音手机版无用 URL（精准匹配 /trace/ 路径请求）
+URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
+
+# 抖音手机版无用 IP
+IP-CIDR, 221.204.46.250/32, no-resolve
+
+# 抖音使用的阿里巴巴服务器 IP 段
 IP-CIDR, 8.133.123.137/32, no-resolve
 IP-CIDR, 8.133.123.138/32, no-resolve
 IP-CIDR, 8.133.123.139/32, no-resolve
 IP-CIDR, 8.133.123.140/32, no-resolve
-## 抖音电脑版无用域名
-DOMAIN-SUFFIX, huoshanstatic.com
-DOMAIN-SUFFIX, toutiaostatic.com
-## 抖音电脑版上传视频 字节跳动（ByteDance）官方的视频存储与上传服务器，属于 BytePlus Video On Demand (VOD) 服务。
-DOMAIN-SUFFIX, bytedancevod.com
-## 抖音手机版无用 URL
-URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
-## 抖音手机版无用 IP
-IP-CIDR, 221.204.46.250/32, no-resolve
-## 用于处理支付相关请求，例如：_发起支付订单_查询支付状态_订阅/内购验证_支付回调等
-DOMAIN, api.doupay.com
-DOMAIN, m.baike.com
+IP-CIDR, 8.134.241.67/32, no-resolve
+
+# 抖音附属域名（无核心功能，属数据服务 / 冗余 CDN）
 DOMAIN, mon.toutiaocloud.com
 DOMAIN, mon.toutiaocloud.net
-DOMAIN, wiki5.baike.com
 DOMAIN-SUFFIX, 0kkkkkt.com
+DOMAIN-SUFFIX, bdgp.cc
 DOMAIN-SUFFIX, bjmxy.net
 DOMAIN-SUFFIX, bytecdn.com
 DOMAIN-SUFFIX, bytehwm.com
@@ -144,108 +160,69 @@ DOMAIN-SUFFIX, qtaeixd.com
 DOMAIN-SUFFIX, simoxity.net
 DOMAIN-SUFFIX, siomxity.com
 DOMAIN-SUFFIX, sjxydc.com
-## 抖音（字节跳动）或其他中国App使用的内部/第三方追踪或云服务域名之一
+DOMAIN-SUFFIX, wasu.tv
 DOMAIN-SUFFIX, wuchuyun.com
 DOMAIN-SUFFIX, wuchuyun.net
 DOMAIN-SUFFIX, xinqiucc.com
 DOMAIN-SUFFIX, ydycdn.com
-## 抖音另类结尾域名
-DOMAIN-SUFFIX, bdgp.cc
-DOMAIN-SUFFIX, wasu.tv
 DOMAIN-SUFFIX, yingt.fun
 
 
-# 剪映 / Ulike Cam
-## 提供直播或视频互动服务的平台
+# ──────────────────────────────
+# ✂️ 剪映 / Ulike Cam — 追踪埋点
+# ──────────────────────────────
+
+# 直播或视频互动服务域名（字节系）
 DOMAIN-SUFFIX, likecam.com
 DOMAIN-SUFFIX, ulikecam.com
 
 
-# 小红书
-## 小红书收购的 AI 助手《点点》
-DOMAIN-SUFFIX, askdiandian.com
-## 天文茶 - 行为遥测/数据采集/分析服务，SDK 主要用于 App 收集用户行为数据、遥测信息等
-DOMAIN-SUFFIX, tianwenca.com
+# ──────────────────────────────
+# 🛍️ 拼多多 — 追踪埋点
+# ──────────────────────────────
+
+# 拼多多无用 URL（精准匹配 /d?id= 参数请求）
+URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+
+
+# 拼多多无用 URL（精准匹配 /d4?appid= 参数请求）
+URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+
+
+# 拼多多无用 IP 段
+IP-CIDR, 140.206.232.17/24, no-resolve
 
 
-# 淘宝
-## 阿里巴巴集团内部的 统一用户/设备管理平台（类似“用户画像/设备指纹/风控”系统）。
+# ──────────────────────────────
+# 📦 淘宝 / 阿里巴巴 — 追踪埋点
+# ──────────────────────────────
+
+# 阿里巴巴统一用户 / 设备管理与风控平台（设备指纹）
 DOMAIN-SUFFIX, alibabachengdun.net
 
-
-## ccrc 很可能指阿里巴巴内部的 Client Customer Relations Center 或类似客户端客户关系/数据中心模块（也可能与风控、客服数据相关）。_处理客户端与阿里后台的数据同步、配置拉取、客户行为上报等请求，常用于 App 的后台数据交互。
+# 阿里巴巴客户端数据同步 / 行为上报接口
 DOMAIN, client-ccrc.alibaba.com
 
+# 阿里小号配置接口
+DOMAIN, zconfig.alibabausercontent.com
 
-# SenPlayer
-## 统计用户使用情况（看了哪些视频、播放时长等），可能推送广告/推荐或集成第三方数据采集 SDK
-DOMAIN-SUFFIX, ldhy.click
-
-
-# Document（Readdle）
-## Braze - 美国用户增长与营销平台，用于用户行为分析、推送通知、App 内消息、个性化内容卡片、营销自动化
-DOMAIN-SUFFIX, braze.com
-DOMAIN-SUFFIX, braze.eu
-
-## 存放订阅页面里的图片、背景、配置等资源
-assets.pawwalls.com
-
-## 专门提供订阅界面中用到的各种图标
-icons.pawwalls.com
-
-## Readdle 自己的中间件服务器，作为桥梁帮助 Documents App 与 RevenueCat 等第三方订阅服务通信，处理订阅验证、配置拉取、支付相关请求
-middleman.apps.readdle.com
-
-
-# Nike
-## 订单查询使用的阿里系域名，与 Nike 核心功能无关
+# Nike 订单查询使用的阿里系追踪域名，与 Nike 核心功能无关
 DOMAIN-SUFFIX, aliapp.org
 DOMAIN-SUFFIX, tdum.alibaba.com
 
 
-# Stripe
-## 美国 Stripe 合法支付/CDN/监控域名
-DOMAIN, b.stripecdn.com
-DOMAIN, m.stripe.network
+# ──────────────────────────────
+# 🔴 微信 / 腾讯 — 追踪埋点
+# ──────────────────────────────
 
+# 微信电脑版无用域名
+DOMAIN, dldir1v6.qq.com
 
-# Shutter Encoder
-## 开源视频编码工具
-DOMAIN-SUFFIX, shutterencoder.com
+# 腾讯安全防护上报（QQ / 微信 PC 后台心跳包）
+DOMAIN, safebrowsing.urlsec.qq.com
 
+# 微信 / QQ 腾讯云节点（关闭网页版微信后发送的退出心跳包）
+IP-CIDR, 42.81.179.153/32, no-resolve
 
-# CleanMyMac
-DOMAIN-SUFFIX, macpaw.com
-DOMAIN-SUFFIX, devmate.com
-DOMAIN-SUFFIX, moonlock.com
-DOMAIN-SUFFIX, cleanmymac.com
-
-
-# Bose
-# Bose 耳机 App 数据上报接口
-DOMAIN, nadc.data.api.bose.io
-
-
-# iPad 监控域名
-## iPad 更新 App 后自动访问此监控域名
-DOMAIN-SUFFIX, dpdns.org
-
-
-# 阿里小号
-## 阿里小号配置接口，拒绝
-DOMAIN, zconfig.alibabausercontent.com
-
-
-# iPhone / iPad 控制 Mac
-DOMAIN, rs.ltd
-
-
-# Picsew
-DOMAIN-SUFFIX, picsew.app
-
-
-# 微信
-## 微信 iPhone IP 段
+# 微信 iPhone IP 段
 IP-CIDR, 42.202.141.12/32, no-resolve
 IP-CIDR, 42.202.141.13/32, no-resolve
 IP-CIDR, 42.202.141.116/32, no-resolve
@@ -276,158 +253,103 @@ IP-CIDR, 123.172.120.115/32, no-resolve
 IP-CIDR, 123.172.120.120/32, no-resolve
 IP-CIDR, 123.172.120.142/32, no-resolve
 IP-CIDR, 183.60.8.74/32, no-resolve
-## 微信电脑版无用域名
-DOMAIN, dldir1v6.qq.com
-## 微信电脑版关闭后，腾讯云 / 腾讯公司（中国天津电信节点）。
-### 你关闭网页版微信后，防火墙还提示这个 IP 请求，是因为网页版微信在关闭/退出时，浏览器进程并没有立即完全断开连接，还会发送最后的心跳包、登出通知、或清理会话等请求。这个 IP 就是腾讯用来接收这些信号的服务器之一。
-### 用途：主要用于腾讯系产品，包括：
-#### 1.网页版微信（web.wechat.com / web.weixin.qq.com）。
-#### 2.QQ、微信 PC 版的部分后台服务。
-#### 3.登录、心跳、保活、消息同步、文件传输等
-#### 与 chinamax关联
-IP-CIDR, 42.81.179.153/32, no-resolve
 
 
-# 豆包
-DOMAIN-SUFFIX, ugsdk.cn
+# ──────────────────────────────
+# 📱 小红书 — 追踪埋点
+# ──────────────────────────────
+
+# 点点 AI 助手（小红书收购）
+DOMAIN-SUFFIX, askdiandian.com
+
+# 天文茶，行为遥测 / 数据采集 SDK
+DOMAIN-SUFFIX, tianwenca.com
+
+
+# ──────────────────────────────
+# 🎵 豆包 — 追踪埋点
+# ──────────────────────────────
+
 DOMAIN-SUFFIX, oceancloudapi.com
+DOMAIN-SUFFIX, ugsdk.cn
 
 
-# Zoom Earth
-## RevenueCat - 订阅管理服务
-DOMAIN-SUFFIX, revenuecat.com
+# ──────────────────────────────
+# 📖 有道词典 — 追踪埋点
+# ──────────────────────────────
 
-
-# Amplitude
-## 用户行为分析与实验性追踪 API
-DOMAIN-SUFFIX, amplitude.com
-
-
-# FingerprintJS
-## 浏览器指纹识别库
-DOMAIN-SUFFIX, fpjs.io
-
-
-# Twitch
-## 第三方受众测量与追踪服务（Nielsen / IMRS）
-DOMAIN-SUFFIX, imrworldwide.com
-
-
-# 拼多多
-## 拼多多无用 URL（精准匹配 /d?id= 参数请求）
-URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+
-
-## 拼多多无用 URL（精准匹配 /d4?appid= 参数请求）
-URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+
-
-## 拼多多无用 IP 段
-IP-CIDR, 140.206.232.17/24, no-resolve
-
-
-# 网易有道词典
-## 数据追踪与日志上报
+# 数据追踪与日志上报接口
 DOMAIN, gorgon.youdao.com
-DOMAIN, rlogs.youdao.com
 DOMAIN, mind.youdao.com
+DOMAIN, rlogs.youdao.com
 
 
-# PDFgear（Mac 版）
-DOMAIN-SUFFIX, pdfgear.com
+# ──────────────────────────────
+# 🗺️ 百度地图 — 追踪埋点
+# ──────────────────────────────
+
+# 百度广告投放 / 广告素材分发系统
+DOMAIN-SUFFIX, h2tcbox.baidu.com
+
+# 百度地图广告 SDK（商业推广联动）
+DOMAIN-SUFFIX, ubixioe.com
 
 
-# Bugsnag
-## 错误监控与崩溃分析服务
-DOMAIN, sessions.bugsnag.com
+# ──────────────────────────────
+# 🗺️ 高德地图 — 追踪埋点
+# ──────────────────────────────
+
+# 高德地图位置 / 行为埋点上报（苹果地图中国区亦使用）
+DOMAIN-SUFFIX, qchannel01.cn
 
 
-# Stats（Mac 开机监控系统开源工具）
-DOMAIN, api.serhiy.io
+# ──────────────────────────────
+# 📹 SenPlayer — 追踪埋点
+# ──────────────────────────────
+
+# 统计用户播放行为，可能含第三方数据采集 SDK
+DOMAIN-SUFFIX, ldhy.click
 
 
-# TechSmith（Camtasia / Snagit）
-## TechSmith 分析服务域名
+# ──────────────────────────────
+# ⚠️ 恶意 / 可疑域名
+# ──────────────────────────────
+
+# 盗版程序广告模块域名，未知来源软件
+# ⚠️ 建议检查 Mac 是否安装了未知来源的软件或扩展
+DOMAIN-SUFFIX, no-mad-world.club
+
+# Missav 追踪跳转链接（含 track 关键词）
+DOMAIN, r.trackwilltrk.com
+
+# Stripchat / 成人平台数据上报节点
+DOMAIN, mc.thedd.online
+
+# Cloudflare 的共享 CDN IP（可疑流量节点）
+IP-CIDR, 104.21.26.21/32, no-resolve
+
+
+# ──────────────────────────────
+# ⚙️ 其他待确认规则
+# ──────────────────────────────
+# ⚠️ 以下域名屏蔽后可能影响正常功能，请谨慎处理
+
+# OneTrust，Cookie 合规 / 隐私同意弹窗脚本
+# 屏蔽后部分网站 Cookie 弹窗消失（通常无副作用）
+DOMAIN-SUFFIX, cookielaw.org
+
+# Localize JS CDN，网站多语言翻译工具资源服务器
+# 屏蔽后使用 Localize 的网站翻译功能失效
+DOMAIN-SUFFIX, cdn.localizejs.com
+
+# TechSmith 分析服务（Camtasia / Snagit）
+# 屏蔽后软件分析上报停止，不影响核心功能
 DOMAIN-SUFFIX, techsmith.com
 
-
-# Objective Development（Little Snitch 等）
-## 地理位置相关功能服务
-DOMAIN, geolocation.obdev.at
-
-
-# ViewerAttack
-## 网络流量或用户行为分析服务
-DOMAIN, api.viewerattack.com
-
-
-# 盗版程序
-## 未知来源软件相关域名，可能为盗版程序广告模块，建议检查 Mac 上是否安装了未知来源的软件或扩展
-DOMAIN-SUFFIX, no-mad-world.club
-DOMAIN-SUFFIX, club
-
-
-# Instagram
-DOMAIN, www.fbsbx.com
-
-
-# bilibili
-DOMAIN, passport.bilicomic.com
-
-
-# 文字转语音 - TTSMaker（ttsmaker.cn）
-DOMAIN-SUFFIX, tts-file.com
-
-
-# 文字转语音 - AISaver（aisaver.io）
-DOMAIN, cdn.zbaseglobal.com
-
-
-
-
-
-# Nalpeiron
-## 屏蔽可能导致依赖 Nalpeiron 授权的应用无法正常激活或使用
+# Nalpeiron，软件授权验证服务
+# ⚠️ 屏蔽后依赖 Nalpeiron 授权的应用可能无法激活
 DOMAIN, my.nalpeiron.com
 
-
-# Paddle
-# 在线支付处理平台，许多独立开发软件（如 Shottr、Alfred）的支付/验证网关，屏蔽后可能导致软件掉激活
-DOMAIN-SUFFIX, paddle.com
-DOMAIN-SUFFIX, paddleapi.com
-
-
-# Alfred
-# macOS 效率工具，通过键盘快捷键、文本扩展和自定义工作流提升操作效率
-DOMAIN-SUFFIX, alfred.app
-
-
-# Input Source Pro
-# 开源输入法切换工具
-DOMAIN-SUFFIX, inputsource.pro
-
-
-# AutoPagerize
-# 自动加载网页下一页内容的插件，从 wedata.net 获取配置文件以支持不同网站的自动分页功能
-DOMAIN-SUFFIX, wedata.net
-
-
-# AdGuard
-DOMAIN-SUFFIX, adtidy.org
-
-
-# Firefox（火狐浏览器）
-# 流氓站点
-DOMAIN-SUFFIX, mozilla.cloudflare-dns.com
-
-
-# Cherpake
-# Mac/iOS 远程控制、屏幕镜像类应用，countly 用于跟踪用户活动和行为分析
-DOMAIN-SUFFIX, cherpake.com
-
-
-# 流量分析追踪
-DOMAIN, api64.com
-DOMAIN, score.traficmetrics.com
-
-
-# Shottr
-DOMAIN, shottr.cc
+# RevenueCat，订阅管理服务
+# ⚠️ 屏蔽后订阅状态无法同步，可能导致 App 内订阅失效
+DOMAIN-SUFFIX, revenuecat.com
