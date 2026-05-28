@@ -4,305 +4,285 @@
 # UPDATED: 2025-06-06 09:15:11
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-DOMAIN-SUFFIX,mail.icloud.com.cn
-DOMAIN-SUFFIX,mail.me.com
+DOMAIN-SUFFIX, mail.icloud.com.cn
+DOMAIN-SUFFIX, mail.me.com
 
 
 
 
 # ==============================
-# Tiger Trade (老虎证券) 分流规则
+# 🍎 苹果系统 & App Store
 # ==============================
-# DOMAIN, aws.tigerbrokers.com
-# DOMAIN, aliyun.tigerbrokers.com
 
+# 苹果中国官网（部分服务重定向）
+DOMAIN-SUFFIX, apple.com.cn
 
-# 星财富（复星财富 / Fosun Wealth） - 港股美股交易 App
-## 核心业务接口（强烈建议直连）
-DOMAIN, api1.skytigris.cn
-## 极光一键登录验证 SDK（登录必需）
-DOMAIN, sdk.verification.jiguang.cn
-## 港股行情数据（阿里云）
-DOMAIN, hangqingprod-hk.oss-accelerate.aliyuncs.com
-
-
-# ==============================
-# 苹果系统 & App Store 相关（iPhone 重度使用）
-# ==============================
-# 苹果中国官网（苹果官网中国版，部分服务重定向使用）
-DOMAIN, www.apple.com.cn
-DOMAIN, apple.com.cn
-
-# ls.apple.com 系列 - Apple 位置服务、地图、查找设备等常用后端
+# Apple 位置服务 / 地图 / 查找设备等后端
 DOMAIN-SUFFIX, ls.apple.com
 
-# App Store 搜索功能专用接口（全部走代理经常无法搜索，必须直连）
-# 用于 App Store 搜索应用、游戏等
+# App Store 搜索接口（走代理会导致无法搜索，必须直连）
 DOMAIN, amp-api-search-edge.apps.apple.com
 
-# 高德地图（苹果地图在中国大陆底层使用高德数据）
-# 苹果地图 + 高德 App 都依赖此域名
+# 高德地图（苹果地图在中国大陆底层数据来源）
 DOMAIN-SUFFIX, autonavi.com
 
+
 # ==============================
-# Chrome 插件 & 视频/直播增强插件
+# 🔧 Chrome 插件 & 视频增强
 # ==============================
 
-# 油猴 Tampermonkey 斗鱼直播间增强插件（DouyuEx）
-# doseeing.com 是插件数据接口和排行榜相关
-DOMAIN-SUFFIX, doseeing.com
-# 斗鱼增强插件官网/接口
+# 斗鱼直播增强插件（DouyuEx）数据接口与排行榜
 DOMAIN, www.douyuex.com
+DOMAIN-SUFFIX, doseeing.com
 
-# 哔哩哔哩查看个人首页、图片等资源（阿里 CDN）
+# 哔哩哔哩阿里 CDN（个人主页 / 图片等资源）
 DOMAIN, at.alicdn.com
 
-# 哔哩哔哩登录账号验证器（GeeTest 行为式验证码，国内常见验证码服务）
+# GeeTest 行为验证码（B 站登录验证）
 DOMAIN-SUFFIX, geetest.com
 
-# B站空降助手（视频时间点跳转工具）
-DOMAIN, bsbsb.top
-DOMAIN, www.bsbsb.top
+# B 站空降助手（视频时间点跳转工具）
+DOMAIN-SUFFIX, bsbsb.top
 
-# 哔哩哔哩视频下载插件（LemonDownload）所需域名
+# 哔哩哔哩视频下载插件 LemonDownload
 DOMAIN-SUFFIX, lemondl.com
 
 
 # ==============================
-# 政府 & 发票 App
+# 🏦 支付 & 金融
 # ==============================
-# 云闪付
-## 银联商户平台相关
-DOMAIN,mpool.unionpay.com
-## 云闪付核心官方域名（强烈建议直连，否则支付、登录、优惠等功能可能异常）
-DOMAIN-SUFFIX,95516.net
-DOMAIN-SUFFIX,95516.com
-## 中国银联品牌域名
-DOMAIN-SUFFIX,cup.com.cn
 
+# ── 云闪付 ───────────────────────
+# 银联商户平台、核心服务、品牌域名
+DOMAIN, mpool.unionpay.com
+DOMAIN-SUFFIX, 95516.com
+DOMAIN-SUFFIX, 95516.net
+DOMAIN-SUFFIX, cup.com.cn
 
-# ==============================
-# 购物 & 生活服务 App
-# ==============================
-# 宜家国内开发票网址
-DOMAIN, etaxpro.bizapps.cn
-
-# 沃尔玛中国 App
-DOMAIN-SUFFIX, walmartmobile.cn
-## 沃尔玛微信小程序
-DOMAIN-SUFFIX, ghsmpwalmart.com
-
-# 迪卡侬中国官网 & App
-DOMAIN-SUFFIX, decathlon.com.cn
-
-# 拼多多（部分直连 IP，解决加载问题）
-IP-CIDR, 114.110.96.1/32, no-resolve
-IP-CIDR, 81.69.105.47/32, no-resolve
-
-# 京东去广告模块（kelee.one）
-# 用于去除京东开屏广告和精简我的页面推广
-DOMAIN-SUFFIX, kelee.one
-
-# 优衣库中国（Uniqlo）
-DOMAIN-SUFFIX, uniqlo.cn
-DOMAIN, t-web-data.fastretailing.cn
-## 微信小程序优衣库
-## TalkingData（谈思数据）的 H5 统计/埋点域名。_TalkingData 是一家国内老牌的移动数据分析和用户行为追踪平台（类似于友盟、GrowingIO、神策等）。_h5.udrig.com 专门用于微信小程序的统计上报，主要功能包括：1.App（小程序）启动、页面浏览、用户事件埋点。_2.用户行为分析（点击、停留时间、转化等）。_3.数据收集和上报。_3.数据收集和上报。_优衣库微信小程序（以及很多其他小程序）集成了 TalkingData SDK，用于帮助优衣库官方分析小程序的使用数据、用户画像、转化效果等。_当你打开优衣库小程序时，它会在加载页面、渲染内容的过程中向 h5.udrig.com 发送统计请求。
-DOMAIN-SUFFIX, udrig.com
-
-# 慢慢买（比价工具，小图片预览）
-DOMAIN-SUFFIX, mmb-spu.oss-cn-shenzhen.aliyuncs.com
-DOMAIN-SUFFIX, manmanbuy.com
-
-# 顺丰快递查询
-DOMAIN-SUFFIX, sf-express.com
-
-# 剂安安（药品/健康相关 App）
-DOMAIN, app.jichacha.vip
-DOMAIN-SUFFIX, dcloud.net.cn
-
-# 麦当劳中国 App
-DOMAIN-SUFFIX, mcd.cn
-DOMAIN-SUFFIX, mcdonalds.com.cn
-
-# 肯德基中国 App
-DOMAIN-SUFFIX, hwwt8.com
-DOMAIN-SUFFIX, kfc.com.cn
-
-# ==============================
-# 餐饮/优惠券相关资源
-# ==============================
-# 优惠券显示页面（关联 chinamax）
-DOMAIN, static.portal101.cn
-# 优惠券显示图片（腾讯云 COS）
-DOMAIN-SUFFIX, cos.ap-shanghai.myqcloud.com
-
-# 肯德基账号登陆验证
-DOMAIN, api.geevisit.com
-
-# ==============================
-# 其他常用 App & 服务
-# ==============================
-# 腾讯挪车码（微信小程序相关）
-DOMAIN, appcfg.v.qq.com
-DOMAIN, launchwxacode.wxqcloud.qq.com.cn
-
-# 石头扫地机器人（Roborock）
-DOMAIN-SUFFIX, roborock.com
-
-# CSDN（技术博客 & App）
-DOMAIN-SUFFIX, csdn.net
-DOMAIN-SUFFIX, csdnimg.cn
-
-# adidas 中国
-DOMAIN-SUFFIX, adidas.com.cn
-
-# OpenCat（AI 聊天工具）
-DOMAIN, api.opencat.app
-# OpenCat 工坊服务（LeanCloud 相关）
-DOMAIN, t3wflvcn.lc-cn-n1-shared.com
-
-# 美的空调 App & IoT 服务
-DOMAIN, sse.smartmidea.net
-DOMAIN, iotsdk.midea.com
-DOMAIN, recv.bi.ainirobot.com
-DOMAIN, mp-prod.smartmidea.net
-DOMAIN, mjfile-pro.smartmidea.net
-DOMAIN, meijuresources.smartmidea.net
-
-# 京东比价 & 京东比价狗
-DOMAIN, apapia-history.manmanbuy.com
-DOMAIN-SUFFIX, bijiago.com
-
-# 有道词典 & 有道发音
-DOMAIN, dict.youdao.com
-DOMAIN, www.youdao.com
-DOMAIN, youdao.com
-DOMAIN, shared.ydstatic.com
-DOMAIN, ydlunacommon-cdn.nosdn.127.net
-DOMAIN, shared-https.ydstatic.com
-
-# Bing 中国搜索
-DOMAIN, cn.bing.com
-
-# 剑桥词典
-DOMAIN, dictionary.cambridge.org
-
-# AI 免费抠图工具
-DOMAIN, bgsub.cn
-
-# 有道词典埋点/测量（可观察是否能 reject）
-DOMAIN, app-measurement.com
-
-# 百度百科（图片、视频、排版）
-DOMAIN, bkimg.cdn.bcebos.com
-DOMAIN, baikevideo.cdn.bcebos.com
-DOMAIN, bkssl.bdimg.com
-DOMAIN, baike.baidu.com
-
-# 豆瓣（关键词匹配，覆盖多个子域名）
-DOMAIN-KEYWORD, douban
-
-# 字幕库（娱乐工具）
-DOMAIN, s.zimuku.org
-DOMAIN, zimuku.org
-
-# 知乎
-DOMAIN-SUFFIX, zhihu.com
-DOMAIN-SUFFIX, zhimg.com
-# 知乎部分服务器 IP（直连更稳定）
-IP-CIDR, 103.41.167.226/32, no-resolve
-IP-CIDR, 103.41.167.234/32, no-resolve
-IP-CIDR, 103.41.167.236/32, no-resolve
-IP-CIDR, 118.89.204.198/32, no-resolve
-
-# 繁体/简体转换工具
-DOMAIN, youtils.cc
-
-# IP/网站安全查询工具
-DOMAIN, scamalytics.com
-DOMAIN, ipinfo.io
-DOMAIN, website-cdn.ipinfo.io
-
-#属于 GlobalSign，是一个全球知名的 SSL/TLS 根证书证书颁发机构（CA，Certificate Authority）。
-DOMAIN-SUFFIX, globalsign.com
-
-
-# ==============================
-# 阿里巴巴 & 支付宝相关
-# ==============================
-# 阿里巴巴 CDN 等通用资源
-DOMAIN-SUFFIX, alicdn.com
-DOMAIN, mdn.alicdn.com
-DOMAIN, img.alicdn.com
-DOMAIN, aeu.alicdn.com
-
-# 支付宝相关（直连 IP + 部分域名）
+# ── 支付宝 ───────────────────────
+DOMAIN, acs-mum.alibabachengdun.com
+DOMAIN, cdn.ynuf.aliapp.org
 IP-CIDR, 36.104.139.25/32, no-resolve
-IP-CIDR, 42.101.76.244/32, no-resolve
 IP-CIDR, 42.101.76.243/32, no-resolve
+IP-CIDR, 42.101.76.244/32, no-resolve
+IP-CIDR, 42.202.152.237/32, no-resolve
 IP-CIDR, 42.202.213.231/32, no-resolve
 IP-CIDR, 42.202.213.232/32, no-resolve
-IP-CIDR, 42.202.152.237/32, no-resolve
 IP-CIDR, 123.184.145.101/32, no-resolve
 IP-CIDR, 123.184.145.102/32, no-resolve
 IP-CIDR, 182.201.241.91/32, no-resolve
-DOMAIN, cdn.ynuf.aliapp.org
-DOMAIN, acs-mum.alibabachengdun.com
 
-# 网商银行（余利宝等）
-IP-CIDR, 36.104.134.83/32, no-resolve
+# ── 网商银行（余利宝等）────────────
 DOMAIN-SUFFIX, mybank.cn
-
-
-
-
-# ==============================
-# DeepSeek & 其他 AI / 新闻
-# ==============================
-# DeepSeek AI 聊天
-DOMAIN, chat.deepseek.com
-
-# 网易新闻（缓存 & WS）
-DOMAIN-SUFFIX, cache.netease.com
-DOMAIN-SUFFIX, ws.126.net
-
-# 财联社
-DOMAIN-SUFFIX, cls.cn
+IP-CIDR, 36.104.134.83/32, no-resolve
 
 
 # ==============================
-# Nike（耐克）相关
+# 🛍️ 购物 & 生活服务
 # ==============================
-# Nike 网页版视频/资源
+
+# ── 阿里巴巴 CDN ──────────────────
+# DOMAIN-SUFFIX 已覆盖所有子域名（mdn / img / aeu 无需单独列出）
+DOMAIN-SUFFIX, alicdn.com
+
+# ── 宜家 ─────────────────────────
+# 国内开票网址
+DOMAIN, etaxpro.bizapps.cn
+DOMAIN-SUFFIX, ikea.com
+
+# ── 沃尔玛中国 ───────────────────
+DOMAIN-SUFFIX, ghsmpwalmart.com
+DOMAIN-SUFFIX, walmartmobile.cn
+
+# ── 迪卡侬中国 ───────────────────
+DOMAIN-SUFFIX, decathlon.com.cn
+
+# ── 拼多多 ───────────────────────
+IP-CIDR, 81.69.105.47/32, no-resolve
+IP-CIDR, 114.110.96.1/32, no-resolve
+
+# ── 京东 ─────────────────────────
+# 京东比价 & 比价狗
+DOMAIN, apapia-history.manmanbuy.com
+DOMAIN-SUFFIX, bijiago.com
+# 京东去广告模块
+DOMAIN-SUFFIX, kelee.one
+
+# ── 优衣库中国 ───────────────────
+DOMAIN, t-web-data.fastretailing.cn
+# TalkingData 微信小程序埋点（优衣库等小程序使用）
+DOMAIN-SUFFIX, udrig.com
+DOMAIN-SUFFIX, uniqlo.cn
+
+# ── 慢慢买（比价工具）────────────
+DOMAIN, mmb-spu.oss-cn-shenzhen.aliyuncs.com
+DOMAIN-SUFFIX, manmanbuy.com
+
+# ── 顺丰快递 ─────────────────────
+DOMAIN-SUFFIX, sf-express.com
+
+# ── 麦当劳中国 ───────────────────
+DOMAIN-SUFFIX, mcd.cn
+DOMAIN-SUFFIX, mcdonalds.com.cn
+
+# ── 肯德基中国 ───────────────────
+# geevisit 用于账号登录验证
+DOMAIN, api.geevisit.com
+DOMAIN-SUFFIX, hwwt8.com
+DOMAIN-SUFFIX, kfc.com.cn
+
+# ── adidas 中国 ──────────────────
+DOMAIN-SUFFIX, adidas.com.cn
+
+# ── 优惠券相关资源 ────────────────
+# 腾讯云 COS 图片存储
+DOMAIN-SUFFIX, cos.ap-shanghai.myqcloud.com
+# 优惠券展示页面
+DOMAIN, static.portal101.cn
+
+
+# ==============================
+# 🏃 Nike 耐克
+# ==============================
+
+# Nike 核心域名
+DOMAIN-SUFFIX, nike.com.cn
+# TalkingData 数据追踪（Nike 使用）
+DOMAIN, api.talkingdata.com
+
+# Nike 网页版视频 / 资源（Brightcove 视频平台）
 DOMAIN, manifest.prod.boltdns.net
 DOMAIN, secure.brightcove.com
 
-# Nike 数据追踪（TalkingData）
-DOMAIN, api.talkingdata.com
-
-# Nike 验证码相关（阿里云）
+# Nike 阿里云验证码 & WAF
+DOMAIN, cf-app-waf.cfc.aliyuncs.com
 DOMAIN-SUFFIX, captcha-pro-open.aliyuncs.com
 
-# Nike 订单查询 & WAF
-DOMAIN, cf-app-waf.cfc.aliyuncs.com
-
-# Nike App 快递查询 & 其他
-DOMAIN, tab.volces.com
-DOMAIN, ab.volices.com
+# Nike 订单与 CRM 相关
 DOMAIN, nikegroup.publicisgrowthos.com
 DOMAIN-SUFFIX, baozun.cn
 DOMAIN-SUFFIX, baozun.com
 DOMAIN-SUFFIX, cpatrk.net
 DOMAIN-SUFFIX, maiscrm.com
-DOMAIN-SUFFIX, nike.com.cn
 
 # Nike 购买礼品卡设备认证
 DOMAIN, cloudauth-device.aliyuncs.com
 
-# Nike App 启动必须依赖的火山引擎（字节跳动云）加速网关
-# 否则会卡在 Logo 界面
+# Nike App 启动依赖的火山引擎加速网关（屏蔽会卡在 Logo 界面）
 DOMAIN, gator.volces.com
+DOMAIN, tab.volces.com
+DOMAIN, ab.volices.com
+
+
+# ==============================
+# 🤖 AI 工具
+# ==============================
+
+# DeepSeek AI 聊天
+DOMAIN, chat.deepseek.com
+
+# OpenCat（AI 聊天工具）
+DOMAIN, api.opencat.app
+# OpenCat 工坊服务（LeanCloud）
+DOMAIN, t3wflvcn.lc-cn-n1-shared.com
+
+# AI 免费抠图工具
+DOMAIN, bgsub.cn
+
+
+# ==============================
+# 📱 其他常用 App & 服务
+# ==============================
+
+# ── 腾讯挪车码（微信小程序）─────────
+DOMAIN, appcfg.v.qq.com
+DOMAIN, launchwxacode.wxqcloud.qq.com.cn
+
+# ── 石头扫地机器人 ────────────────
+DOMAIN-SUFFIX, roborock.com
+
+# ── 美的空调 App & IoT ────────────
+DOMAIN, iotsdk.midea.com
+DOMAIN, meijuresources.smartmidea.net
+DOMAIN, mjfile-pro.smartmidea.net
+DOMAIN, mp-prod.smartmidea.net
+DOMAIN, recv.bi.ainirobot.com
+DOMAIN, sse.smartmidea.net
+
+# ── 剂安安（药品 / 健康 App）────────
+DOMAIN, app.jichacha.vip
+DOMAIN-SUFFIX, dcloud.net.cn
+
+# ── 网易新闻 ─────────────────────
+DOMAIN-SUFFIX, cache.netease.com
+DOMAIN-SUFFIX, ws.126.net
+
+# ── 财联社 ───────────────────────
+DOMAIN-SUFFIX, cls.cn
+
+# ── Bose 耳机 App ─────────────────
+DOMAIN, nadc.data.api.bose.io
+
+
+# ==============================
+# 📚 学习 / 词典 / 百科
+# ==============================
+
+# ── 有道词典 ─────────────────────
+# DOMAIN-SUFFIX 覆盖主域名及 www / dict 子域
+DOMAIN-SUFFIX, youdao.com
+DOMAIN, shared-https.ydstatic.com
+DOMAIN, shared.ydstatic.com
+DOMAIN, ydlunacommon-cdn.nosdn.127.net
+
+# ── 百度百科 ─────────────────────
+DOMAIN, baike.baidu.com
+DOMAIN, baikevideo.cdn.bcebos.com
+DOMAIN, bkimg.cdn.bcebos.com
+DOMAIN, bkssl.bdimg.com
+
+# ── 剑桥词典 ─────────────────────
+DOMAIN, dictionary.cambridge.org
+
+# ── Bing 中国搜索 ─────────────────
+DOMAIN, cn.bing.com
+
+# ── 豆瓣 ─────────────────────────
+DOMAIN-KEYWORD, douban
+
+# ── 知乎 ─────────────────────────
+DOMAIN-SUFFIX, zhihu.com
+DOMAIN-SUFFIX, zhimg.com
+IP-CIDR, 103.41.167.226/32, no-resolve
+IP-CIDR, 103.41.167.234/32, no-resolve
+IP-CIDR, 103.41.167.236/32, no-resolve
+IP-CIDR, 118.89.204.198/32, no-resolve
+
+# ── CSDN（技术博客）──────────────
+DOMAIN-SUFFIX, csdn.net
+DOMAIN-SUFFIX, csdnimg.cn
+
+# ── 字幕库 ───────────────────────
+DOMAIN-SUFFIX, zimuku.org
+
+
+# ==============================
+# 🔧 工具 & 查询
+# ==============================
+
+# IP / 网站安全查询
+DOMAIN, ipinfo.io
+DOMAIN, scamalytics.com
+DOMAIN, website-cdn.ipinfo.io
+
+# 繁简转换工具
+DOMAIN, youtils.cc
+
+# Google / Firebase 行为测量（部分国内 App 依赖，直连避免功能异常）
+DOMAIN, app-measurement.com
+
+# GlobalSign 根证书颁发机构（SSL/TLS CA）
+DOMAIN-SUFFIX, globalsign.com
 
 
 
