@@ -43,6 +43,10 @@ DOMAIN-SUFFIX, mmcdn.com
 # 📊 用户行为分析 / A-B 实验平台
 # ──────────────────────────────
 
+# Chrome插件
+## 鼠标手势 Chrome 插件的后台服务器域名
+DOMAIN-SUFFIX, mousegesturesapi.com
+
 # Amplitude，用户行为分析与实验追踪（Tiger Trade、Kick 等 App 使用）
 DOMAIN-SUFFIX, amplitude.com
 
