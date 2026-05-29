@@ -156,6 +156,10 @@ DOMAIN, chaturbate.jjgirls.com
 # 母公司 HighWebMedia 旗下平台；strpssts 系列负责静态资源
 DOMAIN, assets.striiiipst.com
 DOMAIN, assets.strpssts-ana.com
+## Stripchat 为了分散流量、提高速度和规避部分封锁，会使用大量混淆/变体域名。coconts.com 就是其中之一（类似你之前见过的 strpssts.net、strpssts-ana.com、doppiocdn.org 等）。_这是 Stripchat 用来显示页面内容和图片的资源服务器。
+### 主播照片、预览图、头像。_页面静态资源（图片、CSS、JS）。_部分视频流或缩略图。
+DOMAIN, coconts.com
+#@！
 DOMAIN-SUFFIX, highwebmedia.com
 DOMAIN-SUFFIX, hpjav.tv
 DOMAIN-SUFFIX, hplives.com
