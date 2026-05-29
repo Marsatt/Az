@@ -453,3 +453,7 @@ DOMAIN, mc.thedd.online
 
 # Cloudflare 共享 CDN 可疑流量节点
 IP-CIDR, 104.21.26.21/32, no-resolve
+
+# 哔哩哔哩上传视频出现的网址
+## eSheep.com（电子羊）是一个中国主流的 AIGC / AI 绘画社区，类似 Civitai，用户可以上传、分享、生成 AI 图片模型（Stable Diffusion 模型、LoRA 等）。
+DOMAIN-SUFFIX, esheep.com
