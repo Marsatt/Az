@@ -1,3 +1,6 @@
+# 哔哩哔哩视频上传存储域名（必须直连，否则无法上传视频）
+DOMAIN-SUFFIX, aikobo.cn
+
 # iPad网页版账号登陆需要网址
 DOMAIN, passport.huasheng.cn 
 

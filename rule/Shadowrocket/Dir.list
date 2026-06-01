@@ -35,15 +35,14 @@ DOMAIN-SUFFIX, autonavi.com
 DOMAIN, www.douyuex.com
 DOMAIN-SUFFIX, doseeing.com
 
-# 哔哩哔哩阿里 CDN（个人主页 / 图片等资源）
-DOMAIN, at.alicdn.com
-
 # GeeTest 行为验证码（B 站登录验证）
 DOMAIN-SUFFIX, geetest.com
 
 # B 站空降助手（视频时间点跳转工具）
 DOMAIN-SUFFIX, bsbsb.top
 
+# 哔哩哔哩阿里 CDN（个人主页 / 图片等资源）
+DOMAIN, at.alicdn.com
 # 哔哩哔哩视频下载插件 LemonDownload
 DOMAIN-SUFFIX, lemondl.com
 
