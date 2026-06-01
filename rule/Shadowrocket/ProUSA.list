@@ -194,8 +194,10 @@ DOMAIN-SUFFIX, sukebei.nyaa.si
 DOMAIN-SUFFIX, afreecatv.com
 DOMAIN-SUFFIX, sooplive.co.kr
 
-# ── Naver / YoonFroggy（韩国直播）────
-# pstatic.net 是 Naver 的静态资源 CDN
+# ── Naver / YoonFroggy / Toonation（韩国直播）────
+## Toonation
+DOMAIN-SUFFIX, toon.at
+## pstatic.net 是 Naver 的静态资源 CDN
 DOMAIN, nng-phinf.pstatic.net
 DOMAIN, ntm.pstatic.net
 DOMAIN, scv.band.us
