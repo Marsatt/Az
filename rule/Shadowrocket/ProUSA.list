@@ -63,6 +63,10 @@ DOMAIN, vod-license-b.bytepluscdn.com
 DOMAIN, ws-subscriptions-clob.polymarket.com
 DOMAIN, www.gnmobile1.com
 DOMAIN, www.gnmobile2.com
+
+## Arbitrum One
+DOMAIN-SUFFIX, arbiscan.io
+
 DOMAIN-SUFFIX, binance.com
 DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.vision
@@ -71,6 +75,10 @@ DOMAIN-SUFFIX, blastapi.io
 DOMAIN-SUFFIX, bnbchain.org
 DOMAIN-SUFFIX, coingecko.com
 DOMAIN-SUFFIX, defibit.io
+
+## 以太坊主网
+DOMAIN-SUFFIX, etherscan.io
+
 DOMAIN-SUFFIX, fantom.network
 DOMAIN-SUFFIX, isafepal.com
 DOMAIN-SUFFIX, mexc.com
