@@ -57,6 +57,9 @@ DOMAIN-SUFFIX, 95516.net
 DOMAIN-SUFFIX, cup.com.cn
 
 # ── 支付宝 ───────────────────────
+# 支付宝 App 深度集成了蚂蚁财富的理财功能（余额宝、基金、黄金、股票、定期理财等）。即使你没有主动进入理财页面，支付宝在以下情况也会后台调用这个域名：_启动支付宝时预加载理财相关内容。_检查基金/余额宝收益。_加载首页理财入口或推荐。_更新财富相关数据（如收益、产品列表）。_打开任何和理财、基金、保险相关的页面或小程序。
+DOMAIN, open.antfortune.com
+
 DOMAIN, acs-mum.alibabachengdun.com
 DOMAIN, cdn.ynuf.aliapp.org
 IP-CIDR, 36.104.139.25/32, no-resolve
