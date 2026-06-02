@@ -91,13 +91,18 @@ DOMAIN-SUFFIX, zendesk.com
 
 
 # ── SafePal 钱包 ──────────────────
-# 覆盖 api / wallet / support 等所有子域名
+## SafePal bank 需要的网址
+DOMAIN-SUFFIX,marqeta.com
+DOMAIN-SUFFIX,trongrid.io
+## 覆盖 api / wallet / support 等所有子域名
 DOMAIN-SUFFIX, safepal.com
 DOMAIN-SUFFIX, walletconnect.org
 
 
 # ── OKX 欧易 ──────────────────────
-# okex 是 OKX 的旧域名，apollox 是旗下衍生品平台
+## OKX需要的阿里云。
+DOMAIN, okg-pri-hk.oss-cn-hongkong.aliyuncs.com
+## okex 是 OKX 的旧域名，apollox 是旗下衍生品平台
 DOMAIN-SUFFIX, apollox.finance
 DOMAIN-SUFFIX, okex-api.com
 DOMAIN-SUFFIX, okex.com
@@ -105,9 +110,10 @@ DOMAIN-SUFFIX, okcoin.com
 DOMAIN-SUFFIX, okx-api.com
 DOMAIN-SUFFIX, okx.com
 DOMAIN-SUFFIX, okx.com.cdn.cloudflare.net
-# CoinAll 是 OKX 早期合作交易所，此域名用于静态资源加速
+## CoinAll 是 OKX 早期合作交易所，此域名用于静态资源加速
 DOMAIN-SUFFIX, static.coinall.ltd
 DOMAIN-KEYWORD, www.okx-dns
+
 
 
 # ==============================
