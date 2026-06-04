@@ -237,6 +237,8 @@ DOMAIN-SUFFIX, sooplive.co.kr
 # ── Naver / YoonFroggy / Toonation（韩国直播）────
 ## Toonation
 DOMAIN-SUFFIX, toon.at
+DOMAIN-SUFFIX, gcdn.ntruss.com
+
 ## pstatic.net 是 Naver 的静态资源 CDN
 DOMAIN, nng-phinf.pstatic.net
 DOMAIN, ntm.pstatic.net
