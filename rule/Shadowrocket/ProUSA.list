@@ -1,7 +1,6 @@
 # ==============================
 # 🎁 购物
 # ==============================
-
 # 土耳其购买礼品卡网站
 DOMAIN-SUFFIX, oyunfor.com
 
@@ -9,6 +8,7 @@ DOMAIN-SUFFIX, oyunfor.com
 # ==============================
 # ✈️ 机场 / 代理节点
 # ==============================
+## 赔钱机场
 DOMAIN, pqjc.site
 DOMAIN, xn--mes358aby2apfg.com
 
@@ -37,7 +37,6 @@ DOMAIN, flare.rpc.thirdweb.com
 DOMAIN, flare.solidifi.app
 DOMAIN, icons.llama.fi
 DOMAIN, icons.llamao.fi
-DOMAIN, id.fiat24.com
 DOMAIN, klaytn.api.onfinality.io
 DOMAIN, klaytn.blockpi.network
 DOMAIN, mainnet.base.org
@@ -55,7 +54,6 @@ DOMAIN, rpc-mainnet.matic.quiknode.pro
 DOMAIN, s.pvcliping.com
 DOMAIN, sapphire.oasis.io
 DOMAIN, sgb.ftso.com.au
-DOMAIN, solana-mainnet.g.alchemy.com
 DOMAIN, songbird-api.flare.network
 DOMAIN, static.sosovalue.com
 DOMAIN, static.zdassets.com
@@ -91,9 +89,28 @@ DOMAIN-SUFFIX, zendesk.com
 
 
 # ── SafePal 钱包 ──────────────────
+## Alchemy 是区块链基础设施提供商（类似 Infura），提供以太坊、Polygon 等链的 RPC 节点服务。_SafePal App 使用 Alchemy 作为部分区块链网络的节点，用于查询余额、发送交易、加载 DeFi 数据等。_这是 SafePal 的核心功能域名。
+DOMAIN-SUFFIX, alchemy.com
+
+## Airbrake 是错误监控和日志上报平台。_SafePal 用它来收集 App 崩溃日志、错误报告，帮助开发者修复 Bug。
+DOMAIN-SUFFIX, airbrake.io
+
+## Arbitrum 是以太坊 Layer 2 扩容链。_SafePal 支持 Arbitrum 网络（转账、DeFi、NFT 等），会连接 Arbitrum 官方节点或相关服务。
+DOMAIN-SUFFIX, arbitrum.io
+
+## Web3Modal 是目前最流行的 Web3 钱包连接组件（Connect Wallet 弹窗）。_SafePal 使用 Web3Modal 来实现连接 DApp（去中心化应用）的功能。
+DOMAIN-SUFFIX, web3modal.org
+
+## Coinbase 是美国大型交易所。_SafePal 集成了 Coinbase Pay（通过 Coinbase 进行法币买币），或者在某些功能中调用 Coinbase 的行情/数据。
+DOMAIN-SUFFIX, coinbase.com
+
+## Fiat24 是 SafePal 集成的法币支付服务（支持银行卡、信用卡等法币入金）。_SafePal 用户可以通过 Fiat24 进行法币充值。
+DOMAIN-SUFFIX, fiat24.com
+
 ## SafePal bank 需要的网址
 DOMAIN-SUFFIX,marqeta.com
 DOMAIN-SUFFIX,trongrid.io
+
 ## 覆盖 api / wallet / support 等所有子域名
 DOMAIN-SUFFIX, safepal.com
 DOMAIN-SUFFIX, walletconnect.org
