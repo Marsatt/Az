@@ -133,6 +133,9 @@ DOMAIN, okg-pri-hk.oss-accelerate.aliyuncs.com
 
 # OKX需要的阿里云。
 DOMAIN, okg-pri-hk.oss-cn-hongkong.aliyuncs.com
+DOMAIN, okg-pub-hk.oss-cn-hongkong.aliyuncs.com
+DOMAIN, okg-pri-hz.oss-cn-hangzhou.aliyuncs.com
+
 
 # okex 是 OKX 的旧域名，apollox 是旗下衍生品平台
 DOMAIN-SUFFIX, apollox.finance
