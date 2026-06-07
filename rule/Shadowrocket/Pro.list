@@ -103,6 +103,8 @@ DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.vision
 DOMAIN-SUFFIX, binance.cloud
 DOMAIN-SUFFIX, binance.me
+# Binance 官方信息域名（部分公告、帮助中心、合规信息等）。
+DOMAIN-SUFFIX, binance.info
 
 # 静态资源 CDN（页面图片、JS、CSS）
 DOMAIN-SUFFIX, bnbstatic.com
@@ -112,6 +114,26 @@ DOMAIN-SUFFIX, saasexch.co
 DOMAIN-SUFFIX, saasexch.com
 DOMAIN-SUFFIX, saasexch.cc
 DOMAIN-SUFFIX, saasexch.io
+
+# 主要承担 API 请求、行情推送、交易撮合、账户查询等功能。
+## 币安的业务服务器（分布在 AWS、日本）：
+IP-CIDR, 18.180.191.237/32,no-resolve
+IP-CIDR, 13.192.105.128/32,no-resolve
+## 币安的业务服务器（阿里云）：
+IP-CIDR, 106.15.179.166/32,no-resolve
+IP-CIDR, 120.24.233.110/32,no-resolve
+IP-CIDR, 47.106.171.207/32,no-resolve
+IP-CIDR, 116.62.79.64/32,no-resolve
+## 币安的业务服务器（AWS）：
+IP-CIDR, 52.198.187.114/32,no-resolve
+
+# Binance 用于上传文件的 AWS S3 存储（如 KYC 身份验证照片、身份证、视频等）。
+DOMAIN, upload-bnbstatic-com.s3.ap-northeast-1.amazonaws.com
+
+# Binance 的静态资源 CDN（图片、JS、CSS、图标、活动页面等）。
+DOMAIN-SUFFIX, bscdnweb.com
+
+
 
 # NFT 静态资源
 DOMAIN-SUFFIX, nftstatic.com
