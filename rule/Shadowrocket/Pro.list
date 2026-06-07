@@ -97,15 +97,38 @@ DOMAIN, www.gnmobile2.com
 
 
 # ── Binance 币安 ─────────────────
+# 主域名
 DOMAIN-SUFFIX, binance.com
 DOMAIN-SUFFIX, binance.org
 DOMAIN-SUFFIX, binance.vision
+DOMAIN-SUFFIX, binance.cloud
+DOMAIN-SUFFIX, binance.me
+
+# 静态资源 CDN（页面图片、JS、CSS）
+DOMAIN-SUFFIX, bnbstatic.com
+
+# saasexch 系列（币安核心业务域名，登录/交易必需）
+DOMAIN-SUFFIX, saasexch.co
+DOMAIN-SUFFIX, saasexch.com
+DOMAIN-SUFFIX, saasexch.cc
+DOMAIN-SUFFIX, saasexch.io
+
+# NFT 静态资源
+DOMAIN-SUFFIX, nftstatic.com
+
+# 链上追踪 / 浏览器
+DOMAIN-SUFFIX, bntrace.com
+
+# BSC 链相关
+DOMAIN-SUFFIX, bsappapi.com
+DOMAIN-SUFFIX, bscscan.com
+
 
 # ── CoinGecko ────────────────────
 DOMAIN-SUFFIX, coingecko.com
 
-# ── SafePal 钱包 ──────────────────
 
+# ── SafePal 钱包 ──────────────────
 ## Alchemy 是区块链基础设施提供商（类似 Infura），提供以太坊、Polygon 等链的 RPC 节点服务。_SafePal App 使用 Alchemy 作为部分区块链网络的节点，用于查询余额、发送交易、加载 DeFi 数据等。_这是 SafePal 的核心功能域名。
 DOMAIN-SUFFIX, alchemy.com
 
@@ -134,7 +157,6 @@ DOMAIN-SUFFIX, isafepal.com
 
 
 # ── OKX 欧易 ──────────────────────
-
 # 字节跳动（ByteDance）Video On Demand（VOD） 的国际化视频云服务域名。_OKX 用它来加载视频资源，例如：平台内的宣传视频。_教程视频。_活动视频。_KOL 直播回放等。
 DOMAIN, videocloud-i18n.byteplusvod.com
 # 字节跳动 Video Cloud 的视频许可证 / 版权验证域名。_用于验证视频播放权限、DRM 保护等。
