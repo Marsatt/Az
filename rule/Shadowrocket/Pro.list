@@ -543,11 +543,9 @@ DOMAIN-SUFFIX, wangwangit.com
 # ==============================
 
 # ⏬ Downie 下载软件
-## Downie 统计与数据上报服务器（Downie 4/5 使用，收集使用数据、检查更新等）
-DOMAIN, www.downiestatistics.com
 
-## Downie 许可证验证服务器（软件激活、正版校验）
-DOMAIN, licensing.charliemonroe.net
+## Downie 更新
+DOMAIN, software.charliemonroe.net
 
 
 # IINA（开源播放器）
