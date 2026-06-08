@@ -89,6 +89,7 @@ DOMAIN-SUFFIX, alicdn.com
 # 国内开票网址
 DOMAIN, etaxpro.bizapps.cn
 DOMAIN-SUFFIX, ikea.com
+DOMAIN-SUFFIX, ikeait.cn
 
 # ── 沃尔玛中国 ───────────────────
 DOMAIN-SUFFIX, ghsmpwalmart.com

@@ -56,10 +56,8 @@ URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.dou
 DOMAIN, api.feelgood.cn
 DOMAIN-SUFFIX, byted-static.com
 DOMAIN-SUFFIX, applogcdn.com
-DOMAIN-SUFFIX, bytedance.com
 DOMAIN-SUFFIX, bytednsdoc.com
 DOMAIN-SUFFIX, bytefcdnrd.com
-DOMAIN-SUFFIX, bytegecko.com
 DOMAIN-SUFFIX, bytegoofy.com
 DOMAIN-SUFFIX, bytetos.com
 DOMAIN-SUFFIX, bytetcc.com
@@ -131,6 +129,4 @@ DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com

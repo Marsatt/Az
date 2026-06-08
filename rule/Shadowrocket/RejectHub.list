@@ -240,14 +240,30 @@ DOMAIN, metrics.tigerbrokers.com
 
 
 # ──────────────────────────────
-# 🀄 抖音 / 字节跳动 — 追踪埋点
+# 🀄 抖音/ TikTok / 字节跳动 — 追踪埋点
 # ──────────────────────────────
+## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。_字节跳动非常老的基础域名家族，用于数据上报、日志收集、API 接口、埋点统计等。
+DOMAIN-SUFFIX, snssdk.com
 
+## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。字节跳动的静态资源 CDN（图片、视频封面、JS、CSS 等）。_以前是抖音主要图片域名，现在两者都在使用。
+DOMAIN-SUFFIX, pstatp.com
+
+## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。字节跳动集团主域名，包含大量子服务（API、配置、监控等）。_这是最广泛的域名，几乎所有字节产品都会用到。
+DOMAIN-SUFFIX, bytedance.com
+
+# ──────────────────────────────
+# TikTok 字节跳动用来规避封锁和分散流量的混淆域名（随机字母组合是典型特征）。_TikTok 国际版经常使用这类奇怪的域名加载资源、视频流或JS脚本。
+DOMAIN-SUFFIX, qrstuvwxyzab.com
+
+# TikTok（国际版）为主。_字节跳动内部的性能监控、A/B 测试、配置下发服务。_TikTok 国际版使用较多，用于动态调整功能和收集性能数据。
+DOMAIN-SUFFIX, bytegecko.com
+
+# ──────────────────────────────
 ## 字节跳动（抖音）实时音视频通信（RTC） 专用域名。_主要用于抖音的直播连麦、视频通话、PK 直播、多人互动直播 等实时互动功能。_当你打开抖音网页版或 App 观看/参与直播，尤其是主播开启连麦、PK、合唱等功能时，就会请求这个域名进行实时音视频传输。
-DOMAIN-SUFFIX,rtcxyz.com
+DOMAIN-SUFFIX, rtcxyz.com
 
 ## 字节跳动内部的 JavaScript 动态加载域名（JS 资源服务器）。_用于加载抖音网页版的一些动态脚本，包括：A/B 测试配置。_个性化推荐算法相关脚本。_部分功能模块的按需加载。_埋点 / 数据上报相关的 JS。
-DOMAIN-SUFFIX,yirujs.com
+DOMAIN-SUFFIX, yirujs.com
 
 # 抖音设备指纹上报服务器
 DOMAIN-SUFFIX, dahhxxttxs.com
