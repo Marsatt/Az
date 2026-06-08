@@ -1,6 +1,33 @@
 # 关联 Tencent.list
 DOMAIN-SUFFIX, smtcdns.net
 
+
+# 这些都是抖音视频和直播的核心 CDN 域名，主要负责加载视频内容。
+## 抖音普通视频源 CDN（主要视频内容加载）
+domain, lf-dy-sourcecdn-tos.bytegecko.com
+
+## 抖音视频 CDN 节点（视频分片加载）
+domain, lf26-dy-cdn-tos.bytegecko.com
+
+## 抖音直播 CDN 节点（直播视频流）
+domain, lf5-webcast-cdn-tos.bytegecko.com
+
+## 抖音直播 CDN 节点（直播视频流）
+domain, lf85-webcast-cdn-tos-ncdn.bytegecko.com
+
+## 抖音直播 CDN 节点（直播视频流）
+domain, lf9-webcast-cdn-tos-ncdn.bytegecko.com
+
+## 抖音直播全球源站 CDN（直播相关）
+domain, lf-webcast-gr-sourcecdn.bytegecko.com
+
+## 抖音推荐/长视频 CDN 节点
+domain, n98-lf-cj-cdn-tos-ncdn.bytegecko.com
+
+## 抖音直播 CDN 节点（直播视频流）
+domain, n98-lf-webcast-cdn-tos-ncdn.bytegecko.com
+
+
 # 抖音官网
 DOMAIN-SUFFIX, douyin.com
 
