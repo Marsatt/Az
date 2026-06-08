@@ -1,12 +1,4 @@
 # ==============================
-# ✈️ 机场 / 代理节点
-# ==============================
-## 赔钱机场
-DOMAIN, pqjc.site
-DOMAIN, xn--mes358aby2apfg.com
-
-
-# ==============================
 # 🤖 AI 工具
 # ==============================
 
@@ -486,6 +478,11 @@ DOMAIN, server.arcgisonline.com
 # ==============================
 # 📚 学习 / 阅读
 # ==============================
+
+# notion
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.so
 
 # 在线词典
 DOMAIN-SUFFIX, collinsdictionary.com
