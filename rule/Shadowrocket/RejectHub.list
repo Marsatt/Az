@@ -242,6 +242,8 @@ DOMAIN, metrics.tigerbrokers.com
 # ──────────────────────────────
 # 🀄 抖音/ TikTok / 字节跳动 — 追踪埋点
 # ──────────────────────────────
+# 抖音&TikTok共用
+
 ## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。_字节跳动非常老的基础域名家族，用于数据上报、日志收集、API 接口、埋点统计等。
 DOMAIN-SUFFIX, snssdk.com
 
@@ -252,6 +254,38 @@ DOMAIN-SUFFIX, pstatp.com
 DOMAIN-SUFFIX, bytedance.com
 
 # ──────────────────────────────
+# TikTok
+
+# Disney 相关服务（TikTok 可能用于品牌合作、广告或内容推荐）
+DOMAIN-SUFFIX, disney.com
+
+# Disney 旗下域名（同上，常用于广告投放或合作内容）
+DOMAIN-SUFFIX, go.com
+
+# Jimmy Choo 奢侈品牌（TikTok 广告/品牌合作相关）
+DOMAIN-SUFFIX, jimmychoo.com
+
+# Dynamic Yield - 个性化推荐和 A/B 测试平台（TikTok 用于优化内容推荐）
+DOMAIN-SUFFIX, dynamicyield.com
+
+# Klarna - 支付分期服务（TikTok 购物功能可能调用）
+DOMAIN-SUFFIX, klarnacdn.net
+
+# Pingdom - 网站性能监控和可用性监测服务（TikTok 用于内部性能监控）
+DOMAIN-SUFFIX, pingdom.net
+
+# ACSB - 无障碍访问与合规服务（TikTok 用于满足部分地区的无障碍要求）
+DOMAIN-SUFFIX, acsbapp.com
+
+# Click2Cart - 电商购物车转化追踪服务（TikTok Shop 相关）
+DOMAIN-SUFFIX, click2cart.com
+
+# Linktree - 链接聚合工具（TikTok 创作者经常用来放个人链接）
+DOMAIN-SUFFIX, linktr.ee
+
+# 通用占位/测试域名（部分 TikTok 广告或外包服务使用）
+DOMAIN-SUFFIX, site.com
+
 # TikTok 字节跳动用来规避封锁和分散流量的混淆域名（随机字母组合是典型特征）。_TikTok 国际版经常使用这类奇怪的域名加载资源、视频流或JS脚本。
 DOMAIN-SUFFIX, qrstuvwxyzab.com
 
@@ -259,6 +293,8 @@ DOMAIN-SUFFIX, qrstuvwxyzab.com
 DOMAIN-SUFFIX, bytegecko.com
 
 # ──────────────────────────────
+# 抖音
+
 ## 字节跳动（抖音）实时音视频通信（RTC） 专用域名。_主要用于抖音的直播连麦、视频通话、PK 直播、多人互动直播 等实时互动功能。_当你打开抖音网页版或 App 观看/参与直播，尤其是主播开启连麦、PK、合唱等功能时，就会请求这个域名进行实时音视频传输。
 DOMAIN-SUFFIX, rtcxyz.com
 
