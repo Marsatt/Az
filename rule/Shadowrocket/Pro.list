@@ -479,6 +479,10 @@ DOMAIN, server.arcgisonline.com
 # 📚 学习 / 阅读
 # ==============================
 
+# 句乐部
+DOMAIN,scripts.refgrowcdn.com
+DOMAIN-SUFFIX,julebu.ai
+
 # notion
 DOMAIN-SUFFIX,notionusercontent.com
 DOMAIN-SUFFIX,notion.com
