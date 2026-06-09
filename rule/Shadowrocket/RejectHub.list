@@ -264,6 +264,9 @@ DOMAIN-SUFFIX, bytedance.com
 # ──────────────────────────────
 # TikTok
 
+# TikTok / 抖音国际版 Pitaya ClientAI 资源 CDN（AI特效、功能插件包、资源下载）
+DOMAIN, lf19-pkgcdn.pitaya-clientai.com
+
 # Disney 相关服务（TikTok 可能用于品牌合作、广告或内容推荐）
 DOMAIN-SUFFIX, disney.com
 
