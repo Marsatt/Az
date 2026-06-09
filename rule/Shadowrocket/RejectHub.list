@@ -507,6 +507,9 @@ DOMAIN-SUFFIX, ldhy.click
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
 
+# BuyMeACoffee 赞助平台 - 静态资源 CDN。_常见于创作者打赏按钮，属于第三方嵌入内容
+DOMAIN-SUFFIX, buymeacoffee.com
+
 # 盗版程序广告模块域名，未知来源软件
 # ⚠️ 建议检查 Mac 是否安装了未知来源的软件或扩展
 DOMAIN-SUFFIX, no-mad-world.club
