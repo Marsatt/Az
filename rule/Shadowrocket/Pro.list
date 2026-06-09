@@ -263,17 +263,24 @@ DOMAIN-SUFFIX, pstatic.net
 DOMAIN, chaturbate.jjgirls.com
 
 # ── Stripchat / HPLives / XLoveCam / CAM4
+# Stripchat 变体 CDN 资源域名（必须直连，否则页面图片大量缺失、可能白屏或无法正常加载）
+DOMAIN-SUFFIX, coconts.com
+
+# Stripchat 静态资源服务器（加载主播图片、头像、CSS、JS 等核心页面元素）
+DOMAIN, assets.strpssts.net
+
+# Stripchat 另一个常用静态资源变体域名（同样用于图片和页面资源加载）
+DOMAIN, assets.strpssts-ana.com
+
 # 母公司 HighWebMedia 旗下平台；strpssts 系列域名负责静态资源加载
 DOMAIN, assets.chapturist.com
 DOMAIN, assets.striiiipst.com
-DOMAIN, assets.strpssts-ana.com
 DOMAIN-SUFFIX, highwebmedia.com
 DOMAIN-SUFFIX, hpjav.tv
 DOMAIN-SUFFIX, hplives.com
 DOMAIN-SUFFIX, loo3laej.com
 DOMAIN-SUFFIX, sc-app.com
 DOMAIN-SUFFIX, stripchat.com
-DOMAIN-SUFFIX, strpssts.net
 DOMAIN-SUFFIX, strpst.com
 
 # ── Doppio CDN（直播流与静态资源加速）──
