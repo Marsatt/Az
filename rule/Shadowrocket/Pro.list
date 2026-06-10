@@ -172,6 +172,9 @@ DOMAIN-SUFFIX, isafepal.com
 
 
 # ── OKX 欧易 ──────────────────────
+# 群内直播
+DOMAIN-SUFFIX, livepull.qhcmc.com
+
 # 字节跳动（ByteDance）Video On Demand（VOD） 的国际化视频云服务域名。_OKX 用它来加载视频资源，例如：平台内的宣传视频。_教程视频。_活动视频。_KOL 直播回放等。
 DOMAIN, videocloud-i18n.byteplusvod.com
 # 字节跳动 Video Cloud 的视频许可证 / 版权验证域名。_用于验证视频播放权限、DRM 保护等。
@@ -273,8 +276,8 @@ DOMAIN, assets.strpssts.net
 DOMAIN, assets.strpssts-ana.com
 
 # 母公司 HighWebMedia 旗下平台；strpssts 系列域名负责静态资源加载
-DOMAIN, assets.chapturist.com
-DOMAIN, assets.striiiipst.com
+DOMAIN-SUFFIX, assets.striiiipst.com
+DOMAIN-SUFFIX, assets.chapturist.com
 DOMAIN-SUFFIX, highwebmedia.com
 DOMAIN-SUFFIX, hpjav.tv
 DOMAIN-SUFFIX, hplives.com
