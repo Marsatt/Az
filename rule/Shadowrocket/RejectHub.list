@@ -53,6 +53,11 @@ DOMAIN-SUFFIX, mmcdn.com
 # ──────────────────────────────
 
 # Chrome插件
+## Picture-in-Picture 画中画扩展的后端服务器（用于更新、配置和统计）
+DOMAIN-SUFFIX, pictureinpicture.xyz
+
+# CrxMouse 鼠标手势插件后台 API（用于数据统计、配置同步和更新检查）
+DOMAIN-SUFFIX, api.crxmouse.com
 ## 鼠标手势 Chrome 插件的后台服务器域名
 DOMAIN-SUFFIX, mousegesturesapi.com
 
@@ -517,6 +522,9 @@ DOMAIN-SUFFIX, ldhy.click
 # ──────────────────────────────
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
+
+## Remote pro app iPad控制mac
+DOMAIN-SUFFIX, cherpake.s3.amazonaws.com
 
 # BuyMeACoffee 赞助平台 - 静态资源 CDN。_常见于创作者打赏按钮，属于第三方嵌入内容
 DOMAIN-SUFFIX, buymeacoffee.com
