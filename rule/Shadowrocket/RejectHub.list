@@ -25,6 +25,12 @@ DOMAIN-SUFFIX, online-metrix.net
 # 📡 通用追踪 / 行为上报
 # ──────────────────────────────
 
+# ── Ably（英国实时消息推送服务，提供 WebSocket 实时通信）────
+DOMAIN-SUFFIX, ably.net
+
+# ── Prelude（第三方反欺诈与手机号验证服务，会采集设备信号）────
+DOMAIN-SUFFIX, prelude.dev
+
 # 是 Mac 统计 / 监控类软件 的后台数据收集域名。
 ## 常见关联软件包括：CleanMyMac 的部分统计模块。_某些 Mac 优化/清理工具（System Monitor、Mac Cleaner、Stats 类 App）。_部分浏览器扩展或后台工具，用于收集 Mac 硬件信息、使用数据、性能统计等。
 ## 主要作用：上报 Mac 的硬件配置（CPU、内存、硬盘使用情况）。_软件使用统计。_性能监控数据。_检查更新。
