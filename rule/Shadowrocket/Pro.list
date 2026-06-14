@@ -625,6 +625,9 @@ DOMAIN-SUFFIX, maxmind.com
 # 🛍️ 其他工具 / 网站
 # ==============================
 
+# Stack Overflow（全球最大程序员问答社区）
+DOMAIN-SUFFIX, stackoverflow.com
+
 # xConvert（批量格式转换）
 DOMAIN-SUFFIX, xconvert.com
 
