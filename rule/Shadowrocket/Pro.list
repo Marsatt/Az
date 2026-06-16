@@ -284,6 +284,9 @@ DOMAIN, assets.strpssts-ana.com
 DOMAIN, assets.striiiipst.com
 DOMAIN, mc.thedd.online
 
+# Paymentico（塞浦路斯支付处理商，用于成人直播平台代币充值，如 Stripchat）
+DOMAIN-SUFFIX, paymentico.com
+
 # ── Doppio CDN（直播流与静态资源加速）──
 DOMAIN, chunks.doppiostreams.com
 DOMAIN-SUFFIX, doppiocdn.com
