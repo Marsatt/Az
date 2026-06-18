@@ -2,30 +2,49 @@
 DOMAIN-SUFFIX, smtcdns.net
 
 
-# 这些都是抖音视频和直播的核心 CDN 域名，主要负责加载视频内容。
-## 抖音普通视频源 CDN（主要视频内容加载）
-domain, lf-dy-sourcecdn-tos.bytegecko.com
+# ── 抖音核心 API（视频播放、评论、点赞等核心功能，必须直连）──
+DOMAIN, aweme.snssdk.com
 
-## 抖音视频 CDN 节点（视频分片加载）
-domain, lf26-dy-cdn-tos.bytegecko.com
+# ── 头条系老域名（部分基础接口仍在用，需直连）────────
+DOMAIN, is.snssdk.com
+DOMAIN, i.snssdk.com
 
-## 抖音直播 CDN 节点（直播视频流）
-domain, lf5-webcast-cdn-tos.bytegecko.com
+# ── 频道/内容推送相关（影响内容加载，需直连）──────────
+DOMAIN, ichannel.snssdk.com
 
-## 抖音直播 CDN 节点（直播视频流）
-domain, lf85-webcast-cdn-tos-ncdn.bytegecko.com
+# ── 网络检测/接入层（影响登录连接，需直连）───────────
+DOMAIN, ib.snssdk.com
 
-## 抖音直播 CDN 节点（直播视频流）
-domain, lf9-webcast-cdn-tos-ncdn.bytegecko.com
 
-## 抖音直播全球源站 CDN（直播相关）
-domain, lf-webcast-gr-sourcecdn.bytegecko.com
+# ══════════════════════════════════════════
+# 字节跳动 CDN 资源（bytegecko.com 系列）
+# 抖音（国内版）专属视频与直播内容加载域名
+# TikTok 国际版不使用此域名体系，互不冲突，可放心直连
+# ══════════════════════════════════════════
+DOMAIN-SUFFIX, bytegecko.com
 
-## 抖音推荐/长视频 CDN 节点
-domain, n98-lf-cj-cdn-tos-ncdn.bytegecko.com
 
-## 抖音直播 CDN 节点（直播视频流）
-domain, n98-lf-webcast-cdn-tos-ncdn.bytegecko.com
+# ══════════════════════════════════════════
+# ══════════════════════════════════════════
+# 字节跳动 CDN 资源（bytegecko.com 系列）
+# 抖音视频与直播内容加载，主要负责视频流传输，需直连
+# ══════════════════════════════════════════
+
+# ── 视频源站（全球源 CDN）──────────────────
+#DOMAIN, lf-normal-gr-sourcecdn.bytegecko.com
+#DOMAIN, lf-dy-sourcecdn-tos.bytegecko.com
+
+# ── 普通视频 CDN 节点（视频分片加载）──────────
+#DOMAIN, lf26-dy-cdn-tos.bytegecko.com
+#DOMAIN, n98-lf-cj-cdn-tos-ncdn.bytegecko.com
+
+# ── 直播 CDN 节点（直播视频流）──────────────
+#DOMAIN, lf-webcast-gr-sourcecdn.bytegecko.com
+#DOMAIN, lf5-webcast-cdn-tos.bytegecko.com
+#DOMAIN, lf9-webcast-cdn-tos-ncdn.bytegecko.com
+#DOMAIN, lf85-webcast-cdn-tos-ncdn.bytegecko.com
+#DOMAIN, n98-lf-webcast-cdn-tos-ncdn.bytegecko.com
+# ══════════════════════════════════════════
 
 
 # 抖音官网
