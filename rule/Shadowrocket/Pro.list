@@ -422,6 +422,19 @@ DOMAIN, dl.snapcdn.app
 # 🧩 Chrome 浏览器插件
 # ==============================
 
+# Mass Block Twitter
+## ── Mass Block Twitter 插件服务端（同步社区黑名单数据）────
+DOMAIN, mass-block-twitter-server.rxliuli.com
+## ── Mass Block Twitter 插件官网/文档────────────────────
+DOMAIN, mass-block-twitter.rxliuli.com
+## ── WhatIsMyIP 插件节点（检测你的出口 IP）────────────────
+DOMAIN, 1.whatismyip.click
+DOMAIN, 3.whatismyip.click
+
+# Twitter Filter 新版插件官网（store.rxliuli.com）
+DOMAIN, store.rxliuli.com
+
+
 # 沉浸式翻译（粉色图标）
 DOMAIN, config.immersivetranslate.com
 
