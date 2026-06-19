@@ -60,6 +60,9 @@ DOMAIN-SUFFIX, mmcdn.com
 
 # Chrome插件 ──────────────────────────────
 
+## rxliuli Extensions 官网（浏览器扩展付费商店，主营Twitter/X工具扩展）用于屏蔽X的垃圾账号的工具
+DOMAIN-SUFFIX, store.rxliuli.com
+
 ## Tab Translate（Chrome 翻译插件，回连自身服务器）
 DOMAIN-SUFFIX, tabtranslate.com
 
