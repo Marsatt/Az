@@ -1,0 +1,196 @@
+# ==============================
+# 🌐 Web3 / 区块链 / 钱包 RPC & API
+# ==============================
+
+# ── 通用 RPC / API ───────────────
+DOMAIN, 1rpc.io
+DOMAIN, api.onesignal.com
+DOMAIN, cloudflare-eth.com
+DOMAIN, flare.rpc.thirdweb.com
+DOMAIN, flare.solidifi.app
+DOMAIN, icons.llama.fi
+DOMAIN, icons.llamao.fi
+DOMAIN, klaytn.api.onfinality.io
+DOMAIN, klaytn.blockpi.network
+DOMAIN, mainnet.base.org
+DOMAIN, mainnet.infura.io
+DOMAIN, polygon.drpc.org
+DOMAIN, relay.walletconnect.com
+DOMAIN, rpc.ankr.com
+DOMAIN, rpc.bitlayer-rpc.com
+DOMAIN, rpc.bitlayer.org
+DOMAIN, rpc.blast.io
+DOMAIN, rpc.coredao.org
+DOMAIN, rpc.xlayer.tech
+DOMAIN, rpc-core.icecreamswap.com
+DOMAIN, rpc-mainnet.matic.quiknode.pro
+DOMAIN, sapphire.oasis.io
+DOMAIN, sgb.ftso.com.au
+DOMAIN, songbird-api.flare.network
+DOMAIN, ws-subscriptions-clob.polymarket.com
+
+## Arbitrum One
+DOMAIN-SUFFIX, arbiscan.io
+
+DOMAIN-SUFFIX, blastapi.io
+DOMAIN-SUFFIX, bnbchain.org
+DOMAIN-SUFFIX, defibit.io
+
+## 以太坊主网
+DOMAIN-SUFFIX, etherscan.io
+
+DOMAIN-SUFFIX, fantom.network
+DOMAIN-SUFFIX, ninicoin.io
+DOMAIN-SUFFIX, nodereal.io
+DOMAIN-SUFFIX, rsk.co
+DOMAIN-SUFFIX, taiko.xyz
+DOMAIN-SUFFIX, walletconnect.com
+DOMAIN-SUFFIX, walletconnect.org
+DOMAIN-SUFFIX, zendesk.com
+
+# ── 其他 Web3 辅助 ────────────────
+DOMAIN, bnp.safehw.com
+DOMAIN, cloudauth-device.cn-hongkong.aliyuncs.com
+DOMAIN, contendvc.cnouyi.pizza
+DOMAIN, cypress.fautor.app
+DOMAIN, ekr.zdassets.com
+DOMAIN, s.pvcliping.com
+DOMAIN, static.sosovalue.com
+DOMAIN, static.zdassets.com
+DOMAIN, www.gnmobile1.com
+DOMAIN, www.gnmobile2.com
+
+
+# ── Binance 币安 ─────────────────
+# 币安_人脸识别登陆通信网址
+DOMAIN,api-sgp.megvii.com,PRO💍👑👛🧢⛑️👠👙👜🌂
+DOMAIN,odm.app-ads-services.com,PRO💍👑👛🧢⛑️👠👙👜🌂
+
+# 主域名
+DOMAIN-SUFFIX, binance.com
+DOMAIN-SUFFIX, binance.org
+DOMAIN-SUFFIX, binance.vision
+DOMAIN-SUFFIX, binance.cloud
+DOMAIN-SUFFIX, binance.me
+DOMAIN-SUFFIX, binance.info
+
+# 静态资源 CDN（页面图片、JS、CSS）
+DOMAIN-SUFFIX, bnbstatic.com
+
+# saasexch 系列（币安核心业务域名，登录/交易必需）
+DOMAIN-SUFFIX, saasexch.co
+DOMAIN-SUFFIX, saasexch.com
+DOMAIN-SUFFIX, saasexch.cc
+DOMAIN-SUFFIX, saasexch.io
+
+## 币安的业务服务器（AWS 东京）
+IP-CIDR, 18.180.191.237/32, no-resolve
+IP-CIDR, 13.192.105.128/32, no-resolve
+IP-CIDR, 52.198.187.114/32, no-resolve
+IP-CIDR, 57.180.143.38/32, no-resolve
+## 币安的业务服务器（阿里云）
+IP-CIDR, 106.15.179.166/32, no-resolve
+IP-CIDR, 120.24.233.110/32, no-resolve
+IP-CIDR, 47.106.171.207/32, no-resolve
+IP-CIDR, 116.62.79.64/32, no-resolve
+
+# AWS 东京负载均衡（ELB）
+DOMAIN, aad90d5c0e88c4b4285bd912f64d970d-1403944741.ap-northeast-1.elb.amazonaws.com
+
+# KYC 身份验证文件上传（AWS S3 东京）
+DOMAIN, upload-bnbstatic-com.s3.ap-northeast-1.amazonaws.com
+
+# 静态资源 CDN
+DOMAIN-SUFFIX, bscdnweb.com
+
+# NFT 静态资源
+DOMAIN-SUFFIX, nftstatic.com
+
+# 链上追踪 / 浏览器
+DOMAIN-SUFFIX, bntrace.com
+
+# BSC 链相关
+DOMAIN-SUFFIX, bsappapi.com
+DOMAIN-SUFFIX, bscscan.com
+
+
+# ── CoinGecko ────────────────────
+DOMAIN-SUFFIX, coingecko.com
+
+
+# ── SafePal 钱包 ──────────────────
+# dRPC 以太坊公共 RPC 节点（Web3 / 加密钱包 / DApp 连接用）
+DOMAIN, eth.drpc.org
+# Hyperliquid 去中心化交易所的官方接口域名，用于行情获取、下单交易、账户查询等核心功能（SafePal 集成交易功能时会调用，属于资金相关接口，高敏感）
+DOMAIN-SUFFIX, hyperliquid.xyz
+# 区块链 RPC 节点服务（以太坊、Polygon 等）
+DOMAIN-SUFFIX, alchemy.com
+# 错误监控与崩溃日志上报
+DOMAIN-SUFFIX, airbrake.io
+# 以太坊 Layer 2 扩容链
+DOMAIN-SUFFIX, arbitrum.io
+# Web3 钱包连接组件
+DOMAIN-SUFFIX, web3modal.org
+# Coinbase 行情 / 法币买币
+DOMAIN-SUFFIX, coinbase.com
+# 法币充值服务
+DOMAIN-SUFFIX, fiat24.com
+# SafePal Bank 相关
+DOMAIN-SUFFIX, marqeta.com
+DOMAIN-SUFFIX, trongrid.io
+# 核心域名
+DOMAIN-SUFFIX, safepal.com
+DOMAIN-SUFFIX, isafepal.com
+
+
+# ── OKX 欧易 ──────────────────────
+DOMAIN-SUFFIX, apollox.finance
+DOMAIN-SUFFIX, okex-api.com
+DOMAIN-SUFFIX, okex.com
+DOMAIN-SUFFIX, okcoin.com
+DOMAIN-SUFFIX, okx-api.com
+DOMAIN-SUFFIX, okx.com
+DOMAIN-SUFFIX, okx.com.cdn.cloudflare.net
+DOMAIN-KEYWORD, www.okx-dns
+# CoinAll 静态资源加速
+DOMAIN-SUFFIX, static.coinall.ltd
+# 邀请返佣短链接
+DOMAIN-SUFFIX, oyidl.net
+# 群内直播
+DOMAIN-SUFFIX, livepull.qhcmc.com
+# 字节跳动视频云（OKX 宣传/教程视频）
+DOMAIN, videocloud-i18n.byteplusvod.com
+DOMAIN, vod-license-m.bytepluscdn.com
+DOMAIN, vod-license-b.bytepluscdn.com
+# 阿里云 OSS 静态资源（香港/杭州节点）
+DOMAIN, okg-pri-hk.oss-accelerate.aliyuncs.com
+DOMAIN, okg-pri-hk.oss-cn-hongkong.aliyuncs.com
+DOMAIN, okg-pub-hk.oss-cn-hongkong.aliyuncs.com
+DOMAIN, okg-pri-hz.oss-cn-hangzhou.aliyuncs.com
+
+
+# ── Bitget ────────────────────────
+DOMAIN, api.bitget.com
+DOMAIN-SUFFIX, bitgetapp.com
+
+# ── MEXC ──────────────────────────
+DOMAIN, api.mexc.co
+DOMAIN-SUFFIX, mexc.com
+
+
+# ==============================
+# 🐯 Tiger Trade 老虎证券 / 星财富
+# ==============================
+
+DOMAIN, tigr-api.com
+DOMAIN, tigr-quote.com
+DOMAIN-SUFFIX, itigerup.com
+DOMAIN-SUFFIX, itiger.com
+DOMAIN-SUFFIX, tigerbrokers.com
+DOMAIN-SUFFIX, tigerbrokers.com.hk
+DOMAIN-SUFFIX, tigertrade.app
+DOMAIN-SUFFIX, fosunhanig.com
+
+# 看股票
+DOMAIN-SUFFIX, tradingview.com
+DOMAIN-SUFFIX, webullfintech.com
