@@ -157,6 +157,8 @@ DOMAIN-SUFFIX, coingecko.com
 
 
 # ── SafePal 钱包 ──────────────────
+# dRPC 以太坊公共 RPC 节点（Web3 / 加密钱包 / DApp 连接用）
+DOMAIN, eth.drpc.org
 # Hyperliquid 去中心化交易所的官方接口域名，用于行情获取、下单交易、账户查询等核心功能（SafePal 集成交易功能时会调用，属于资金相关接口，高敏感）
 DOMAIN-SUFFIX, hyperliquid.xyz
 # 区块链 RPC 节点服务（以太坊、Polygon 等）
