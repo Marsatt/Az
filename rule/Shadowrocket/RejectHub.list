@@ -559,6 +559,9 @@ DOMAIN, earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
 
+# 小米云存储 CDN（北京2区节点，石头扫地机器人用于固件更新/地图数据同步）
+DOMAIN, cdn.cnbj2.fds.api.mi-img.com
+
 # Ideogram（美国 AI 图片生成网站）
 DOMAIN-SUFFIX, ideogram.ai
 

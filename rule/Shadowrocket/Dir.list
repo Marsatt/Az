@@ -201,8 +201,10 @@ DOMAIN, launchwxacode.wxqcloud.qq.com.cn
 
 # ── 石头扫地机器人 ────────────────
 DOMAIN-SUFFIX, roborock.com
-IP-CIDR, 222.169.89.181/32, no-resolve
 IP-CIDR, 59.110.82.207/32, no-resolve
+IP-CIDR, 101.200.232.151/32, no-resolve
+IP-CIDR, 222.169.89.181/32, no-resolve
+
 
 # ── 美的空调 App & IoT ────────────
 DOMAIN, iotsdk.midea.com
