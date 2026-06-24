@@ -113,10 +113,11 @@ DOMAIN-SUFFIX, bntrace.com
 DOMAIN-SUFFIX, bsappapi.com
 DOMAIN-SUFFIX, bscscan.com
 
-
 # ── CoinGecko ────────────────────
 DOMAIN-SUFFIX, coingecko.com
 
+# ── Kraken ──────────────────
+DOMAIN-SUFFIX, kraken.com
 
 # ── SafePal 钱包 ──────────────────
 # dRPC 以太坊公共 RPC 节点（Web3 / 加密钱包 / DApp 连接用）
