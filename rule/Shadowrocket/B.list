@@ -118,8 +118,14 @@ DOMAIN-SUFFIX, coingecko.com
 
 # ── Kraken ──────────────────
 DOMAIN-SUFFIX, kraken.com
-# 这是Sardine（一个被各大银行和商户使用的反欺诈与反洗钱风险防控平台）的设备指纹/行为分析数据采集子域名（带随机字符前缀是其SDK为每个客户生成的专属采集节点，用于收集设备和浏览器指纹、IP和地理位置、模拟器检测、代理与VPN检测等信息以识别欺诈行为）。
-DOMAIN-SUFFIX, d.sardine.ai
+# Braze（一款被众多App使用的客户互动/消息推送营销平台）的SDK数据上报节点，用于上报推送通知、应用内消息、用户行为事件等数据，iad-05表示其在美国弗吉尼亚（IAD机房）的第5号数据中心节点。
+DOMAIN-SUFFIX, iad-05.braze.com
+# bitdrift（一家移动端可观测性/日志监控公司）的域名，其SDK集成在App中后会收集设备日志、性能数据、崩溃信息、网络状况等遥测数据并上报，用于帮助开发者远程调试问题。
+DOMAIN-SUFFIX, bitdrift.io
+# nSure.ai（一家支付反欺诈服务商，主要服务于加密货币、跨境汇款、游戏点卡等行业）的API/SDK域名，用于实时检测交易中的欺诈风险。
+DOMAIN-SUFFIX, nsureapi.com
+# Sardine（一个被各大银行和商户使用的反欺诈与反洗钱风险防控平台）的设备指纹/行为分析数据采集子域名（带随机字符前缀是其SDK为每个客户生成的专属采集节点，用于收集设备和浏览器指纹、IP和地理位置、模拟器检测、代理与VPN检测等信息以识别欺诈行为）。
+DOMAIN-SUFFIX, sardine.ai
 
 # ── SafePal 钱包 ──────────────────
 # dRPC 以太坊公共 RPC 节点（Web3 / 加密钱包 / DApp 连接用）
