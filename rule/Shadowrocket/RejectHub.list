@@ -219,7 +219,8 @@ DOMAIN, icons.pawwalls.com
 DOMAIN, middleman.apps.readdle.com
 
 # Bose 耳机 App 数据上报接口
-DOMAIN, nadc.data.api.bose.io
+DOMAIN-SUFFIX, bose.io
+DOMAIN, bose.my.onetrust.com
 
 # iPad 更新 App 后自动访问的监控域名
 DOMAIN-SUFFIX, dpdns.org
