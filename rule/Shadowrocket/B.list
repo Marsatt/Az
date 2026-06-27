@@ -118,6 +118,8 @@ DOMAIN-SUFFIX, coingecko.com
 
 # ── Kraken ──────────────────
 DOMAIN-SUFFIX, kraken.com
+# CoinLedger（一个独立的第三方加密货币报税软件，通过API/CSV导入Kraken等交易所交易记录生成报税单），不是Kraken网页版自身发起的请求，无需加入Kraken专属代理列表
+DOMAIN-SUFFIX, coinledger.io
 # Braze（一款被众多App使用的客户互动/消息推送营销平台）的SDK数据上报节点，用于上报推送通知、应用内消息、用户行为事件等数据，iad-05表示其在美国弗吉尼亚（IAD机房）的第5号数据中心节点。
 DOMAIN-SUFFIX, iad-05.braze.com
 # bitdrift（一家移动端可观测性/日志监控公司）的域名，其SDK集成在App中后会收集设备日志、性能数据、崩溃信息、网络状况等遥测数据并上报，用于帮助开发者远程调试问题。

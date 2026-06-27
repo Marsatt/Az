@@ -353,6 +353,18 @@ DOMAIN-SUFFIX, ldoceonline.com
 DOMAIN-SUFFIX, merriam-webster.com
 DOMAIN-SUFFIX, oxfordlearnersdictionaries.com
 
+# BBC Learning English
+DOMAIN-SUFFIX, bbc.co.uk
+
+# IELTS官方练习
+DOMAIN-SUFFIX, britishcouncil.org
+
+# IDP雅思
+DOMAIN-SUFFIX, idp.com
+
+# cambridge
+DOMAIN-SUFFIX, cambridgeenglish.cn
+
 # Write & Improve（剑桥英语写作练习）
 DOMAIN-SUFFIX, englishlanguageitutoring.com
 DOMAIN, writeandimprove.com
