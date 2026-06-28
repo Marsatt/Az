@@ -9,21 +9,26 @@ DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 
+# perplexity
+DOMAIN-SUFFIX, perplexity.ai
+DOMAIN-SUFFIX, pplx.ai
+DOMAIN-SUFFIX, cloudinary.com
+DOMAIN-SUFFIX, perplexity.com
 
-#grok
+# grok
 DOMAIN-SUFFIX, x.ai
-DOMAIN-KEYWORD,grok
+DOMAIN-KEYWORD, grok
 DOMAIN, xai.chronosphere.io
 DOMAIN, prodregistryv2.org
 DOMAIN, api.mixpanel.com
 DOMAIN, featureassets.org
 
 
-#OpenAI浏览器_ChatGPT Atlas
+# OpenAI浏览器_ChatGPT Atlas
 DOMAIN, browser-intake-datadoghq.com
 
 
-#claude
+# claude
 DOMAIN,www.claudeusercontent.com
 
 # NAME: Claude
