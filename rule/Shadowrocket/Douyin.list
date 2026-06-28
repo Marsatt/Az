@@ -74,6 +74,8 @@ DOMAIN, tos-d-x-hl.bytedancevod.com
 
 # 豆包
 DOMAIN-SUFFIX, doubao.com
+## 99uri.com 是豆包网页版的必要访问域名，拒绝会导致无法使用
+DOMAIN, 99uri.com
 ## 豆包生成视频播放需要网址
 DOMAIN-SUFFIX, 365yg.com
 ## 豆包去水印_github开源项目
