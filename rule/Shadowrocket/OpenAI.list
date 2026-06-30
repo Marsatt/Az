@@ -29,7 +29,8 @@ DOMAIN, browser-intake-datadoghq.com
 
 
 # claude
-DOMAIN,www.claudeusercontent.com
+DOMAIN, www.claudeusercontent.com
+DOMAIN-SUFFIX, claude.com
 
 # NAME: Claude
 # AUTHOR: blackmatrix7
