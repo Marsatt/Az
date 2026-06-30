@@ -11,6 +11,7 @@ DOMAIN-SUFFIX, polymk.com
 DOMAIN-SUFFIX, pmarket.io
 DOMAIN-SUFFIX, polymkt.net
 DOMAIN-SUFFIX, poly.market
+DOMAIN, auth.magic.link
 
 # Cloudflare Pages 镜像
 DOMAIN-SUFFIX, polymarket.pages.dev
