@@ -2,17 +2,18 @@
 # 🎰 PolyMarket
 # ==============================
 # 官方主域名（已覆盖 app.polymarket.com）
-DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX, polymarket.com
 
 # 常用镜像 / 备用域名
-DOMAIN-SUFFIX,polymarket.xyz
-DOMAIN-SUFFIX,polymk.com
-DOMAIN-SUFFIX,pmarket.io
-DOMAIN-SUFFIX,polymkt.net
-DOMAIN-SUFFIX,poly.market
+DOMAIN-SUFFIX, platform.grcv.io
+DOMAIN-SUFFIX, polymarket.xyz
+DOMAIN-SUFFIX, polymk.com
+DOMAIN-SUFFIX, pmarket.io
+DOMAIN-SUFFIX, polymkt.net
+DOMAIN-SUFFIX, poly.market
 
 # Cloudflare Pages 镜像
-DOMAIN-SUFFIX,polymarket.pages.dev
+DOMAIN-SUFFIX, polymarket.pages.dev
 
 
 # ==============================
