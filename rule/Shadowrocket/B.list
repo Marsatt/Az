@@ -7,12 +7,14 @@ DOMAIN-SUFFIX, polymarket.com
 # 常用镜像 / 备用域名
 DOMAIN-SUFFIX, platform.grcv.io
 DOMAIN-SUFFIX, polymarket.xyz
+DOMAIN-SUFFIX, polymarket.sh
 DOMAIN-SUFFIX, polymk.com
 DOMAIN-SUFFIX, pmarket.io
 DOMAIN-SUFFIX, polymkt.net
 DOMAIN-SUFFIX, poly.market
 DOMAIN-SUFFIX, magic.link
 DOMAIN, tee.express.magiclabs.com
+
 
 
 # Cloudflare Pages 镜像
