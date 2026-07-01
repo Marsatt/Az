@@ -1,4 +1,12 @@
 # ==============================
+# 🏦 Backpack
+# ==============================
+DOMAIN, backpack-api.xnfts.dev
+DOMAIN-SUFFIX, backpack.app
+DOMAIN-SUFFIX, backpack.exchange
+
+
+# ==============================
 # 🎰 PolyMarket
 # ==============================
 # 官方主域名（已覆盖 app.polymarket.com）
@@ -14,8 +22,6 @@ DOMAIN-SUFFIX, polymkt.net
 DOMAIN-SUFFIX, poly.market
 DOMAIN-SUFFIX, magic.link
 DOMAIN, tee.express.magiclabs.com
-
-
 
 # Cloudflare Pages 镜像
 DOMAIN-SUFFIX, polymarket.pages.dev
