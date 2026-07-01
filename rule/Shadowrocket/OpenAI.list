@@ -54,6 +54,7 @@ DOMAIN-SUFFIX, perplexity.com
 
 # grok
 DOMAIN-SUFFIX, x.ai
+DOMAIN-SUFFIX, grok.com
 DOMAIN-KEYWORD, grok
 DOMAIN, xai.chronosphere.io
 DOMAIN, prodregistryv2.org
