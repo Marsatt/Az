@@ -1,3 +1,40 @@
+# ==============================
+# 🤖 AI 工具 需要🇺🇸节点
+# ==============================
+
+# HuggingFace（开源模型平台）
+DOMAIN-SUFFIX, huggingface.co
+
+# Suno（AI 音乐制作）
+DOMAIN, img.clerk.com
+DOMAIN-SUFFIX, suno.ai
+DOMAIN-SUFFIX, suno.com
+
+# Udio（AI 音乐制作）
+DOMAIN-SUFFIX, udio.com
+
+# Replicate（AI 模型推理）
+DOMAIN, replicate.delivery
+
+# AISaver（文字转语音，有限免费）
+DOMAIN-SUFFIX, aisaver.io
+DOMAIN, extensiondock.com
+
+# Fish Audio（语音合成与下载）
+DOMAIN-SUFFIX, fish.audio
+DOMAIN-SUFFIX, r2.cloudflarestorage.com
+
+# Groq（免费 AI 模型 API）
+DOMAIN-SUFFIX, groq.io
+
+# Midjourney（AI 图片生成）
+DOMAIN, midjourney.ghost.io
+DOMAIN-SUFFIX, midjourney.com
+DOMAIN-SUFFIX, statuspage.io
+
+
+
+
 #cloudflare.com（验证网站）
 DOMAIN-SUFFIX, cloudflare.com
 DOMAIN-SUFFIX, cloudflare-dns.com
