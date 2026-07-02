@@ -75,7 +75,8 @@ DOMAIN, ssl.pstatic.net
 # ==============================
 
 # ── Chaturbate ────────────────────
-DOMAIN, chaturbate.jjgirls.com
+DOMAIN-SUFFIX, chaturbate.com
+DOMAIN-SUFFIX, chaturbate.jjgirls.com
 
 # 这具体是 Stripchat 平台的子域名（互动游戏/功能服务器/直播画面右边的转盘，reject后会变成灰色大方框）
 DOMAIN, battleship.sc-apps.com
