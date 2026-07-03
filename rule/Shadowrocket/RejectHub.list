@@ -171,6 +171,13 @@ DOMAIN, m.stripe.network
 # 🛠️ 软件 / App 功能域名
 # ──────────────────────────────
 
+# OpenCat 模型数据库
+DOMAIN-SUFFIX, models.dev
+# OpenCat 主要后端 API
+DOMAIN-SUFFIX, catapi.fastify.cc
+# OpenCat 后端服务器 IP
+IP-CIDR, 172.67.135.41/32, no-resolve
+
 # Alfred，macOS 效率工具
 DOMAIN-SUFFIX, alfred.app
 
