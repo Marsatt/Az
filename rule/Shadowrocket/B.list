@@ -101,8 +101,8 @@ DOMAIN, www.gnmobile2.com
 
 # ── Binance 币安 ─────────────────
 # 币安_人脸识别登陆通信网址
-DOMAIN,api-sgp.megvii.com,PRO💍👑👛🧢⛑️👠👙👜🌂
-DOMAIN,odm.app-ads-services.com,PRO💍👑👛🧢⛑️👠👙👜🌂
+DOMAIN, api-sgp.megvii.com
+DOMAIN, odm.app-ads-services.com
 
 # 主域名
 DOMAIN-SUFFIX, binance.com
@@ -153,6 +153,23 @@ DOMAIN-SUFFIX, bscscan.com
 
 # ── CoinGecko ────────────────────
 DOMAIN-SUFFIX, coingecko.com
+
+# ── Bybit ──────────────────
+# Bybit 全球官网主域名
+DOMAIN-SUFFIX, bybitglobal.com
+# Bybit API 接口（交易、下单、行情等核心服务）
+DOMAIN-SUFFIX, wsot2022.com
+# Bybit 相关域名（交易辅助）
+DOMAIN-SUFFIX, byabcde.com
+DOMAIN-SUFFIX, byd3c3.com
+DOMAIN-SUFFIX, bybdc6.com
+# Bybit 风控 / 反作弊系统（Turing）
+DOMAIN, www.turingfraud.net
+# Bybit 备用域名
+DOMAIN-SUFFIX, bybit.biz
+# Bybit App / 移动端相关
+DOMAIN-SUFFIX, byapps.net
+
 
 # ── Kraken ──────────────────
 DOMAIN-SUFFIX, kraken.com
