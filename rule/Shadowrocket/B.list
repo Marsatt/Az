@@ -156,6 +156,7 @@ DOMAIN-SUFFIX, coingecko.com
 
 # ── Bybit ──────────────────
 # Bybit 全球官网主域名
+DOMAIN-SUFFIX, bybit.com
 DOMAIN-SUFFIX, bybitglobal.com
 # Bybit API 接口（交易、下单、行情等核心服务）
 DOMAIN-SUFFIX, wsot2022.com
