@@ -155,6 +155,8 @@ DOMAIN-SUFFIX, bscscan.com
 DOMAIN-SUFFIX, coingecko.com
 
 # ── Bybit ──────────────────
+# Bybit 客服 / 客户服务域名
+DOMAIN-SUFFIX, bycsi.com
 # Bybit 全球官网主域名
 DOMAIN-SUFFIX, bybit.com
 DOMAIN-SUFFIX, bybitglobal.com

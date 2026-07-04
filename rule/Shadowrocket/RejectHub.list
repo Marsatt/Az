@@ -18,6 +18,7 @@ DOMAIN, display.lovense-api.com
 # ──────────────────────────────
 # Bybit 数据上报节点（埋点 / 风控）
 DOMAIN, sc-datasink.ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN, sc-abtest.ffe390afd658c19dcbf707e0597b846d.de
 
 
 # ──────────────────────────────
