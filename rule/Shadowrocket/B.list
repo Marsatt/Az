@@ -12,6 +12,12 @@ DOMAIN-SUFFIX, backpack.exchange
 # 官方主域名（已覆盖 app.polymarket.com）
 DOMAIN-SUFFIX, polymarket.com
 
+# Fun.xyz 数据 API（区块链支付 / 充值相关）
+DOMAIN, data-api.fun.xyz
+
+# Sportradar 体育数据小部件（比分、比赛数据）
+DOMAIN, widgets.sir.sportradar.com
+
 # 常用镜像 / 备用域名
 DOMAIN-SUFFIX, platform.grcv.io
 DOMAIN-SUFFIX, polymarket.xyz
@@ -212,6 +218,8 @@ DOMAIN-SUFFIX, trongrid.io
 # 核心域名
 DOMAIN-SUFFIX, safepal.com
 DOMAIN-SUFFIX, isafepal.com
+# Google Firebase Crashlytics 配置（SafePal 「预测-充值」等 App 初始化必需）
+DOMAIN, firebase-settings.crashlytics.com
 
 
 # ── OKX 欧易 ──────────────────────
