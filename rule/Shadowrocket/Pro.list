@@ -5,7 +5,10 @@
 DOMAIN-SUFFIX, polymarket.com
 
 # Fun.xyz 数据 API（区块链支付 / 充值相关）
-DOMAIN, data-api.fun.xyz
+DOMAIN-SUFFIX, fun.xyz
+
+# Relay.link 跨链支付 API（充值、桥接用）
+DOMAIN-SUFFIX, relay.link
 
 # Sportradar 体育数据小部件（比分、比赛数据）
 DOMAIN, widgets.sir.sportradar.com
