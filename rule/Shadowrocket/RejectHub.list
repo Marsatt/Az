@@ -42,6 +42,9 @@ DOMAIN-SUFFIX, online-metrix.net
 # 📡 通用追踪 / 行为上报
 # ──────────────────────────────
 
+# Customer.io CDP 数据追踪平台
+DOMAIN-SUFFIX, cdp.customer.io
+
 # ── Ably（英国实时消息推送服务，提供 WebSocket 实时通信）────
 DOMAIN-SUFFIX, ably.net
 
