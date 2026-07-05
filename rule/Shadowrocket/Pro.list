@@ -1,6 +1,9 @@
 # ==============================
 # 🎰 PolyMarket
 # ==============================
+# Alchemy 的以太坊主网节点域名，Polymarket 必须访问它
+DOMAIN, eth-mainnet.g.alchemy.com
+
 # AWS KMS 密钥管理服务（Polymarket 用于加密与签名）
 DOMAIN, kms.us-west-2.amazonaws.com
 
