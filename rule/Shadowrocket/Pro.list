@@ -1,6 +1,25 @@
 # ==============================
-# 🤖 AI 工具 不需要🇺🇸节点
+# 🎰 PolyMarket
 # ==============================
+# 官方主域名（已覆盖 app.polymarket.com）
+DOMAIN-SUFFIX, polymarket.com
 
-# Gemini google
-DOMAIN-SUFFIX, gemini.google.com
+# Fun.xyz 数据 API（区块链支付 / 充值相关）
+DOMAIN, data-api.fun.xyz
+
+# Sportradar 体育数据小部件（比分、比赛数据）
+DOMAIN, widgets.sir.sportradar.com
+
+# 常用镜像 / 备用域名
+DOMAIN-SUFFIX, platform.grcv.io
+DOMAIN-SUFFIX, polymarket.xyz
+DOMAIN-SUFFIX, polymarket.sh
+DOMAIN-SUFFIX, polymk.com
+DOMAIN-SUFFIX, pmarket.io
+DOMAIN-SUFFIX, polymkt.net
+DOMAIN-SUFFIX, poly.market
+DOMAIN-SUFFIX, magic.link
+DOMAIN, tee.express.magiclabs.com
+
+# Cloudflare Pages 镜像
+DOMAIN-SUFFIX, polymarket.pages.dev
