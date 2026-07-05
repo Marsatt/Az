@@ -68,9 +68,6 @@ DOMAIN-SUFFIX, mmcdn.com
 # No-Mad-Sub 订阅相关服务
 DOMAIN-SUFFIX, no-mad-sub.one
 
-# Meshor 边缘服务
-DOMAIN-SUFFIX, meshor.info
-
 
 # Chrome插件 ──────────────────────────────
 
