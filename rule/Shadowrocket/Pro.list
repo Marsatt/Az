@@ -1,6 +1,9 @@
 # ==============================
 # 🎰 PolyMarket
 # ==============================
+# AWS KMS 密钥管理服务（Polymarket 用于加密与签名）
+DOMAIN, kms.us-west-2.amazonaws.com
+
 # Polymarket 使用的 AWS S3 文件上传域名，拒绝会导致图片/文件无法加载
 DOMAIN, polymarket-upload.s3.us-east-2.amazonaws.com
 
