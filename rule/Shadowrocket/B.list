@@ -151,6 +151,9 @@ DOMAIN, www.turingfraud.net
 DOMAIN-SUFFIX, bybit.biz
 # Bybit App / 移动端相关
 DOMAIN-SUFFIX, byapps.net
+# Bybit 数据上报节点（埋点 / 风控）
+DOMAIN, sc-datasink.ffbbbdc6d3c353211fe2ba39c9f744cd.com
+DOMAIN, sc-abtest.ffe390afd658c19dcbf707e0597b846d.de
 
 
 # ── Kraken ──────────────────
@@ -219,6 +222,10 @@ DOMAIN, okg-pri-hk.oss-accelerate.aliyuncs.com
 DOMAIN, okg-pri-hk.oss-cn-hongkong.aliyuncs.com
 DOMAIN, okg-pub-hk.oss-cn-hongkong.aliyuncs.com
 DOMAIN, okg-pri-hz.oss-cn-hangzhou.aliyuncs.com
+
+# 是什么：ThreatMetrix（现属于 LexisNexis）的设备指纹与风险评估服务域名。_作用：OKX 用于风控和反欺诈的核心服务。_收集你的设备指纹（浏览器、屏幕分辨率、字体、硬件信息等）。_行为分析（鼠标轨迹、输入习惯等）。_判断账号风险等级。
+## reject 后的影响：。_OKX 可能会认为你的设备“风险较高”。_可能出现：登录需要额外验证、交易限额、提现审核变严、甚至部分功能被限制。_但不会导致完全无法使用。_隐私角度：这是高强度追踪域名，很多重度隐私用户都会 block 它。
+DOMAIN-SUFFIX, online-metrix.net
 
 
 # ── Bitget ────────────────────────
