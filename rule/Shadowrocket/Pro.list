@@ -30,3 +30,6 @@ DOMAIN-SUFFIX, meshor.info
 # MoonPay（充值通道）- 建议走代理
 DOMAIN-SUFFIX, moonpay.com
 DOMAIN-SUFFIX, moonpayassets.com
+
+# Sportradar 是全球最大的体育数据供应商之一，为媒体、比分 App、博彩公司、预测市场等提供实时比赛数据和统计。
+DOMAIN-SUFFIX, sportradar.com
