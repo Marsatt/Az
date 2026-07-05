@@ -1,6 +1,9 @@
 # ==============================
 # 🎰 PolyMarket
 # ==============================
+# Polymarket 使用的 AWS S3 文件上传域名，拒绝会导致图片/文件无法加载
+DOMAIN, polymarket-upload.s3.us-east-2.amazonaws.com
+
 # 官方主域名（已覆盖 app.polymarket.com）
 DOMAIN-SUFFIX, polymarket.com
 
