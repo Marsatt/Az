@@ -561,8 +561,6 @@ DOMAIN-SUFFIX, ldhy.click
 # 🌐 网页内容 - 句乐部
 # ──────────────────────────────
 
-#句乐部
-
 # julebu.ai 等 AI 网站常用，属于隐私收集域名
 DOMAIN-SUFFIX, oaistatsig.com
 # Statsig 用户行为分析平台（A/B 测试 + 埋点）
@@ -572,6 +570,9 @@ DOMAIN-SUFFIX, refgrow.com
 DOMAIN-SUFFIX, iconify.design
 
 DOMAIN, earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com
+
+# doppiocdn.media 是视频流媒体的 HLS 分发域名，拒绝会导致视频无法播放
+DOMAIN, edge-hls.doppiocdn.media
 
 
 # ──────────────────────────────
