@@ -1,14 +1,20 @@
 # ==============================
 # 🎰 PolyMarket
 # ==============================
+## 关联 B.list-------------------
+# Alchemy 的 Polygon 主网节点域名，Polymarket 必须访问它
+DOMAIN, polygon-mainnet.g.alchemy.com
 # Alchemy 的以太坊主网节点域名，Polymarket 必须访问它
 DOMAIN, eth-mainnet.g.alchemy.com
 
+## 关联 Amazon_Facebook.list-------------------
 # AWS KMS 密钥管理服务（Polymarket 用于加密与签名）
 DOMAIN, kms.us-west-2.amazonaws.com
-
 # Polymarket 使用的 AWS S3 文件上传域名，拒绝会导致图片/文件无法加载
 DOMAIN, polymarket-upload.s3.us-east-2.amazonaws.com
+
+
+
 
 # 官方主域名（已覆盖 app.polymarket.com）
 DOMAIN-SUFFIX, polymarket.com
