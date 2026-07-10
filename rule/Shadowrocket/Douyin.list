@@ -28,12 +28,15 @@ DOMAIN, ib.snssdk.com
 
 
 # ══════════════════════════════════════════
-# 字节跳动 CDN 资源（bytegecko.com 系列）
-# 抖音（国内版）专属视频与直播内容加载域名
-# TikTok 国际版不使用此域名体系，互不冲突，可放心直连
+# 字节跳动 CDN 资源（bytegecko.com 系列）_抖音（国内版）专属视频与直播内容加载域名_TikTok 国际版不使用此域名体系，互不冲突，可放心直连
 # ══════════════════════════════════════════
-DOMAIN-SUFFIX, bytegecko.com
-
+### 变成key --------------------------
+###DOMAIN-SUFFIX, bytegecko.com
+DOMAIN-KEYWORD, -sourcecdn.bytegecko.com
+DOMAIN-KEYWORD, -ncdn.bytegecko.com
+DOMAIN-KEYWORD, -tos.bytegecko.com
+DOMAIN-KEYWORD, -sub.bytegecko.com
+###  --------------------------
 
 
 
@@ -51,7 +54,7 @@ DOMAIN, sf1-cdn-tos.huoshanstatic.com
 
 # iPad抖音
 ## 字节跳动（抖音/火山） 的图片 CDN 服务器。_视频封面图_用户头像_动态图片_特效素材等
-DOMAIN-KEYWORD,-sign.huoshanimg.com
+DOMAIN-KEYWORD, -sign.huoshanimg.com
 ## 字节跳动专门用于特效（Effects） 相关的域名（effect = 特效）。_抖音（尤其是播放带特效、滤镜、美颜、贴纸的视频时）会从这个 CDN 拉取特效资源。_很多热门视频都使用了字节的特效模板，播放时必须加载这些资源才能正常显示效果。如果屏蔽或加载失败，视频可能会出现无特效、画面异常、卡顿或直接无法正常播放。
 DOMAIN-SUFFIX, byteeffecttos.com
 
@@ -113,7 +116,7 @@ DOMAIN-SUFFIX, yhgfb-cn-static.com
 DOMAIN-SUFFIX, z1cdn.com
 
 
-# iPhone抖音
+# iPhone & iPad 抖音
 
 ## 抖音评价上传图片
 DOMAIN, tos-d-x-lq.bytedancevod.com
@@ -125,7 +128,13 @@ DOMAIN-SUFFIX, ahdohpiechei.com
 DOMAIN-SUFFIX, bytemastatic.com
 ## 抖音优衣库需要的网址
 DOMAIN-SUFFIX, byteimg.com
-DOMAIN-SUFFIX, ecombdapi.com
+
+### 变成key --------------------------
+###DOMAIN-SUFFIX, ecombdapi.com
+DOMAIN-KEYWORD, -lf.ecombdapi.com
+DOMAIN-KEYWORD, -m.ecombdapi.com
+###  --------------------------
+
 DOMAIN-SUFFIX, ecombdimg.com
 DOMAIN-SUFFIX, ecombdstatic.com
 ## 抖音，消息查看物流，reject对应取消掉
@@ -136,7 +145,15 @@ DOMAIN-SUFFIX, jinritemai.com
 ## fxg.jinritemai.com 迪卡侬会员积分兑换
 DOMAIN-SUFFIX, siomxity.net
 DOMAIN-SUFFIX, tt.x.bsgslb.cn
-DOMAIN-SUFFIX, zijieapi.com
+
+### 变成key --------------------------
+###DOMAIN-SUFFIX, zijieapi.com
+DOMAIN-KEYWORD, -zjg.zijieapi.com
+DOMAIN-KEYWORD, -hj.zijieapi.com
+DOMAIN-KEYWORD, -lf.zijieapi.com
+DOMAIN-KEYWORD, -aliec2.zijieapi.com
+###  --------------------------
+
 ## 抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
 IP-CIDR, 36.104.134.75/32, no-resolve

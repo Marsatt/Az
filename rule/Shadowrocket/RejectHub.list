@@ -349,6 +349,12 @@ DOMAIN-SUFFIX, bytegecko.com
 # ──────────────────────────────
 # 抖音
 
+## 广告SDK数据上报_抖音广告系统用于埋点与推荐算法
+DOMAIN-SUFFIX, coconts.com
+
+## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
+DOMAIN-SUFFIX, manlaxycloud.com
+
 ## 字节跳动（抖音）实时音视频通信（RTC） 专用域名。_主要用于抖音的直播连麦、视频通话、PK 直播、多人互动直播 等实时互动功能。_当你打开抖音网页版或 App 观看/参与直播，尤其是主播开启连麦、PK、合唱等功能时，就会请求这个域名进行实时音视频传输。
 DOMAIN-SUFFIX, rtcxyz.com
 
@@ -578,6 +584,9 @@ DOMAIN, edge-hls.doppiocdn.media
 # ──────────────────────────────
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
+
+# 未知
+IP-CIDR, 45.152.64.78/32, no-resolve
 
 # copilot AI 的第三方 AI 代理域名
 DOMAIN, copilot.fun
