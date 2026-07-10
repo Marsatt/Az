@@ -96,6 +96,9 @@ DOMAIN,assetsconfigcdn.org
 HOST-SUFFIX,sora.com,OpenAI
 
 
+# 打开ChatGPT会出现这个请求，第三方服务接口（高概率订阅/内购SDK）
+DOMAIN, api-production.8-lives-cat.io
+
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script

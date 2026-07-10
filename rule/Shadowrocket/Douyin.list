@@ -1,11 +1,22 @@
-# 关联 Tencent.list
-DOMAIN-SUFFIX, smtcdns.net
+# ══════════════════════════════════════════
+# ── 关联 RejectHub.list ──────────
+# 视频图片CDN资源加载_字节跳动用于抖音的静态内容分发
+DOMAIN-KEYWORD, -cdn-tos.toutiaostatic.com
 
 
-# ── 抖音核心 API（视频播放、评论、点赞等核心功能，必须直连）──
+# 字体文件与签名校验_抖音用于界面字体加载与安全验证
+DOMAIN-KEYWORD, -font-sign.bytehwm.com
+
+
+# ── 关联 Tencent.list ──────────
+#$DOMAIN-SUFFIX, smtcdns.net
+
+
+# ══════════════════════════════════════════
+# ── 抖音核心 API（视频播放、评论、点赞等核心功能，必须直连）──────────
 DOMAIN, aweme.snssdk.com
 
-# ── 头条系老域名（部分基础接口仍在用，需直连）────────
+# ── 头条系老域名（部分基础接口仍在用，需直连）──────────
 DOMAIN, is.snssdk.com
 DOMAIN, i.snssdk.com
 
@@ -24,27 +35,6 @@ DOMAIN, ib.snssdk.com
 DOMAIN-SUFFIX, bytegecko.com
 
 
-# ══════════════════════════════════════════
-# ══════════════════════════════════════════
-# 字节跳动 CDN 资源（bytegecko.com 系列）
-# 抖音视频与直播内容加载，主要负责视频流传输，需直连
-# ══════════════════════════════════════════
-
-# ── 视频源站（全球源 CDN）──────────────────
-#DOMAIN, lf-normal-gr-sourcecdn.bytegecko.com
-#DOMAIN, lf-dy-sourcecdn-tos.bytegecko.com
-
-# ── 普通视频 CDN 节点（视频分片加载）──────────
-#DOMAIN, lf26-dy-cdn-tos.bytegecko.com
-#DOMAIN, n98-lf-cj-cdn-tos-ncdn.bytegecko.com
-
-# ── 直播 CDN 节点（直播视频流）──────────────
-#DOMAIN, lf-webcast-gr-sourcecdn.bytegecko.com
-#DOMAIN, lf5-webcast-cdn-tos.bytegecko.com
-#DOMAIN, lf9-webcast-cdn-tos-ncdn.bytegecko.com
-#DOMAIN, lf85-webcast-cdn-tos-ncdn.bytegecko.com
-#DOMAIN, n98-lf-webcast-cdn-tos-ncdn.bytegecko.com
-# ══════════════════════════════════════════
 
 
 # 抖音官网
@@ -56,8 +46,8 @@ DOMAIN-SUFFIX, 100ycdn.com
 DOMAIN-SUFFIX, iesdouyin.com
 ## 抖音创作者
 DOMAIN-SUFFIX, bytedanceapi.com
-DOMAIN,122-188-134-199-ad92b9c9.ldhy.click
-DOMAIN,sf1-cdn-tos.huoshanstatic.com
+DOMAIN, 122-188-134-199-ad92b9c9.ldhy.click
+DOMAIN, sf1-cdn-tos.huoshanstatic.com
 
 # iPad抖音
 ## 字节跳动（抖音/火山） 的图片 CDN 服务器。_视频封面图_用户头像_动态图片_特效素材等
@@ -85,7 +75,7 @@ DOMAIN, www.jiagev.com
 DOMAIN, dyapi.phpnbw.com
 
 # 这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
-DOMAIN-SUFFIX, v.smtcdns.com
+#$DOMAIN-SUFFIX, v.smtcdns.com
 
 # 关联 ChinaMax.list
 DOMAIN-SUFFIX, livehwc3.cn
@@ -93,11 +83,8 @@ DOMAIN-SUFFIX, livehwc3.cn
 # 即梦AI
 DOMAIN, jimeng.jianying.com
 DOMAIN, lf3-lv-buz.vlabstatic.com
-DOMAIN-SUFFIX,byteacctimg.com
-DOMAIN-SUFFIX,vlabvod.com
-
-
-URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
+DOMAIN-SUFFIX, byteacctimg.com
+DOMAIN-SUFFIX, vlabvod.com
 
 
 ## 直播录制需要网址
@@ -135,7 +122,6 @@ DOMAIN, render.ecombdpage.com
 ## 抖音寄件详情
 DOMAIN, ttxyajs.data.kuiniuca.com
 DOMAIN-SUFFIX, ahdohpiechei.com
-DOMAIN-SUFFIX, byteeffecttos.com
 DOMAIN-SUFFIX, bytemastatic.com
 ## 抖音优衣库需要的网址
 DOMAIN-SUFFIX, byteimg.com
@@ -167,14 +153,14 @@ DOMAIN-SUFFIX, zjcdn.com
 # DOMAIN: 2
 # DOMAIN-SUFFIX: 11
 # TOTAL: 13
-DOMAIN,lf3-static.bytednsdoc.com
-DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,idouyinvod.com
-DOMAIN-SUFFIX,ixigua.com
-DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,toutiao.com
+DOMAIN, lf3-static.bytednsdoc.com
+DOMAIN, v5-dy-o-abtest.zjcdn.com
+DOMAIN-SUFFIX, amemv.com
+DOMAIN-SUFFIX, douyincdn.com
+DOMAIN-SUFFIX, douyinpic.com
+DOMAIN-SUFFIX, douyinstatic.com
+DOMAIN-SUFFIX, douyinvod.com
+DOMAIN-SUFFIX, idouyinvod.com
+DOMAIN-SUFFIX, ixigua.com
+DOMAIN-SUFFIX, ixiguavideo.com
+DOMAIN-SUFFIX, toutiao.com
