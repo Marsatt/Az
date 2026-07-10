@@ -2,8 +2,6 @@
 # 🤖 AI 工具 需要🇺🇸节点
 # ==============================
 
-# Gemini google
-DOMAIN-SUFFIX, gemini.google.com
 
 # HuggingFace（开源模型平台）
 DOMAIN-SUFFIX, huggingface.co
