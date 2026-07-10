@@ -1,0 +1,8 @@
+# ==============================
+# 🤖 AI 工具 不需要🇺🇸节点
+# ==============================
+
+# Gemini google
+DOMAIN-SUFFIX, gemini.com
+DOMAIN-SUFFIX, gemini.google.com
+DOMAIN-SUFFIX, gemini.gstatic.com
