@@ -290,8 +290,6 @@ DOMAIN, metrics.tigerbrokers.com
 # 抖音&TikTok共用
 
 ## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。_字节跳动非常老的基础域名家族，用于数据上报、日志收集、API 接口、埋点统计等。
-#DOMAIN, log.snssdk.com
-#DOMAIN, mon.snssdk.com
 DOMAIN-SUFFIX, snssdk.com
 
 ### ── 日志/监控上报（用户行为追踪，可拒绝，不影响使用）────
@@ -401,7 +399,10 @@ DOMAIN-SUFFIX, bdgp.cc
 DOMAIN-SUFFIX, bjmxy.net
 DOMAIN-SUFFIX, bytecdn.com
 DOMAIN-SUFFIX, bytehwm.com
+
+## 关联 (Douyin.list)
 DOMAIN-SUFFIX, bytemaimg.com
+
 DOMAIN-SUFFIX, cjjd14.com
 DOMAIN-SUFFIX, ks-live.com
 DOMAIN-SUFFIX, ksyun.com
@@ -420,8 +421,12 @@ DOMAIN-SUFFIX, wasu.tv
 DOMAIN-SUFFIX, wuchuyun.com
 DOMAIN-SUFFIX, wuchuyun.net
 DOMAIN-SUFFIX, xinqiucc.com
-DOMAIN-SUFFIX, ydycdn.com
 DOMAIN-SUFFIX, yingt.fun
+
+## 关联 (Douyin.list)
+DOMAIN-SUFFIX, ydycdn.com
+
+
 
 
 # ──────────────────────────────
@@ -533,6 +538,7 @@ DOMAIN-SUFFIX, tianwenca.com
 # ──────────────────────────────
 
 DOMAIN-SUFFIX, oceancloudapi.com
+## 第三方 SDK 链接跟踪域名（广告/统计），可拒绝以保护隐私 DOMAIN, zlink.ugsdk.cn
 DOMAIN-SUFFIX, ugsdk.cn
 
 

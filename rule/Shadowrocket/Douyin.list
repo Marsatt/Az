@@ -8,11 +8,20 @@ DOMAIN-KEYWORD, -cdn-tos.toutiaostatic.com
 DOMAIN-KEYWORD, -font-sign.bytehwm.com
 
 
-# ── 关联 Tencent.list ──────────
-#$DOMAIN-SUFFIX, smtcdns.net
 
+# 关联 RejectHub.list ══════════════════════════════════════════
+# ── 字节跳动图片 CDN（头像、封面），必须直连 ──────────
+DOMAIN, p3-developer.bytemaimg.com
 
-# ══════════════════════════════════════════
+# ── 抖音 ABTest 配置下发（界面、推荐算法），可拒绝但可能影响推荐质量 ──────────
+DOMAIN, abtest-ch.snssdk.com
+
+# ── 抖音电商用户接口（地址、订单、优惠券），核心服务不可拒绝 ──────────
+DOMAIN, ecomuser.snssdk.com
+
+# ── 抖音电商主接口（商品详情、购物车、订单），核心服务不可拒绝 ──────────
+DOMAIN, ecom.snssdk.com
+
 # ── 抖音核心 API（视频播放、评论、点赞等核心功能，必须直连）──────────
 DOMAIN, aweme.snssdk.com
 
@@ -58,8 +67,12 @@ DOMAIN-KEYWORD, -sign.huoshanimg.com
 ## 字节跳动专门用于特效（Effects） 相关的域名（effect = 特效）。_抖音（尤其是播放带特效、滤镜、美颜、贴纸的视频时）会从这个 CDN 拉取特效资源。_很多热门视频都使用了字节的特效模板，播放时必须加载这些资源才能正常显示效果。如果屏蔽或加载失败，视频可能会出现无特效、画面异常、卡顿或直接无法正常播放。
 DOMAIN-SUFFIX, byteeffecttos.com
 
-# 手机版抖音播放视频
-DOMAIN, 6f38f926.ydycdn.com
+# ── 关联 RejectHub.list ──────────
+# 手机版抖音播放视频_抖音视频 CDN 节点，用于视频分片加载，必须直连
+## 匹配例如：https://6f38f926.ydycdn.com https://6f38f926.ydycdn.com/ https://6f38f926.ydycdn.com:443 https://6f38f926.ydycdn.com:443/
+URL-REGEX,^https?://[A-Za-z0-9]{8}\.ydycdn\.com(:\d+)?/?$
+
+
 
 # 抖音购物_好评上传图片
 DOMAIN, tos-d-x-lf.bytedancevod.com
@@ -133,6 +146,8 @@ DOMAIN-SUFFIX, byteimg.com
 ###DOMAIN-SUFFIX, ecombdapi.com
 DOMAIN-KEYWORD, -lf.ecombdapi.com
 DOMAIN-KEYWORD, -m.ecombdapi.com
+# 抖音电商内容接口（商品推荐、榜单），核心服务不可拒绝
+DOMAIN, ec.ecombdapi.com
 ###  --------------------------
 
 DOMAIN-SUFFIX, ecombdimg.com
@@ -152,7 +167,12 @@ DOMAIN-KEYWORD, -zjg.zijieapi.com
 DOMAIN-KEYWORD, -hj.zijieapi.com
 DOMAIN-KEYWORD, -lf.zijieapi.com
 DOMAIN-KEYWORD, -aliec2.zijieapi.com
+
+# 字节跳动内部 Gecko 配置/实验参数下发接口，用于抖音功能灰度与配置同步，属于核心服务不可拒绝
+DOMAIN, gecko.zijieapi.com
+
 ###  --------------------------
+
 
 ## 抖音看视频，一半后会卡，解决办法。
 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
