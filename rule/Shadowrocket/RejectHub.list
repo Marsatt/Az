@@ -346,6 +346,8 @@ DOMAIN-SUFFIX, bytegecko.com
 
 # ──────────────────────────────
 # 抖音
+## 实时日志上报（行为数据、错误日志）
+DOMAIN-SUFFIX, snsssdk.com
 
 ## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
 DOMAIN-SUFFIX, bdcgslb.com
@@ -389,7 +391,6 @@ IP-CIDR, 8.133.123.140/32, no-resolve
 IP-CIDR, 8.134.241.67/32, no-resolve
 
 # 抖音附属域名（无核心功能，属数据服务 / 冗余 CDN）
-DOMAIN, api.doupay.com
 DOMAIN, m.baike.com
 DOMAIN, mon.toutiaocloud.com
 DOMAIN, mon.toutiaocloud.net

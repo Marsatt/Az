@@ -1,5 +1,24 @@
-# ══════════════════════════════════════════
-# ── 关联 RejectHub.list ──────────
+# 关联 Douyin.list ══════════════════════════════════════════
+## Pitaya 平台（AI特效、资源热更新、客户端AI）_可能影响 AI 滤镜、特效
+DOMAIN, pitaya.bytedance.com
+
+
+# 抖音支付相关（抖音支付、商城支付）_影响：支付、下单失败
+DOMAIN, api.doupay.com
+
+# 电商核心 API（商城数据、订单）_商城功能异常
+ec5-core.ecombdbapi.com
+
+
+
+
+# 关联 RejectHub.list ══════════════════════════════════════════
+# 抖音前沿实时连接（WebSocket，长连接推送、推荐流_拒绝后视频卡顿、无法刷新、切账号失败
+DOMAIN, frontier.snsssdk.com
+
+# 电商 / 商城核心服务（下单、支付、订单）_拒绝后商城无法下单
+DOMAIN, ec.snsssdk.com
+
 # 视频图片CDN资源加载_字节跳动用于抖音的静态内容分发
 DOMAIN-KEYWORD, -cdn-tos.toutiaostatic.com
 
@@ -7,9 +26,6 @@ DOMAIN-KEYWORD, -cdn-tos.toutiaostatic.com
 # 字体文件与签名校验_抖音用于界面字体加载与安全验证
 DOMAIN-KEYWORD, -font-sign.bytehwm.com
 
-
-
-# 关联 RejectHub.list ══════════════════════════════════════════
 # ── 字节跳动图片 CDN（头像、封面），必须直连 ──────────
 DOMAIN, p3-developer.bytemaimg.com
 
@@ -35,6 +51,12 @@ DOMAIN, ichannel.snssdk.com
 # ── 网络检测/接入层（影响登录连接，需直连）───────────
 DOMAIN, ib.snssdk.com
 
+# 手机版抖音播放视频_抖音视频 CDN 节点，用于视频分片加载，必须直连
+## 匹配例如：https://6f38f926.ydycdn.com https://6f38f926.ydycdn.com/ https://6f38f926.ydycdn.com:443 https://6f38f926.ydycdn.com:443/
+URL-REGEX,^https?://[A-Za-z0-9]{8}\.ydycdn\.com(:\d+)?/?$
+
+
+
 
 # ══════════════════════════════════════════
 # 字节跳动 CDN 资源（bytegecko.com 系列）_抖音（国内版）专属视频与直播内容加载域名_TikTok 国际版不使用此域名体系，互不冲突，可放心直连
@@ -49,10 +71,14 @@ DOMAIN-KEYWORD, -sub.bytegecko.com
 
 
 
+
 # 抖音官网
 DOMAIN-SUFFIX, douyin.com
 
-# 电脑版
+
+
+
+# 电脑版 --------------------------
 DOMAIN-SUFFIX, 100ycdn.com
 ## 抖音整个社交模块
 DOMAIN-SUFFIX, iesdouyin.com
@@ -61,16 +87,59 @@ DOMAIN-SUFFIX, bytedanceapi.com
 DOMAIN, 122-188-134-199-ad92b9c9.ldhy.click
 DOMAIN, sf1-cdn-tos.huoshanstatic.com
 
-# iPad抖音
+
+
+# iPad抖音 --------------------------
 ## 字节跳动（抖音/火山） 的图片 CDN 服务器。_视频封面图_用户头像_动态图片_特效素材等
 DOMAIN-KEYWORD, -sign.huoshanimg.com
 ## 字节跳动专门用于特效（Effects） 相关的域名（effect = 特效）。_抖音（尤其是播放带特效、滤镜、美颜、贴纸的视频时）会从这个 CDN 拉取特效资源。_很多热门视频都使用了字节的特效模板，播放时必须加载这些资源才能正常显示效果。如果屏蔽或加载失败，视频可能会出现无特效、画面异常、卡顿或直接无法正常播放。
 DOMAIN-SUFFIX, byteeffecttos.com
 
-# ── 关联 RejectHub.list ──────────
-# 手机版抖音播放视频_抖音视频 CDN 节点，用于视频分片加载，必须直连
-## 匹配例如：https://6f38f926.ydycdn.com https://6f38f926.ydycdn.com/ https://6f38f926.ydycdn.com:443 https://6f38f926.ydycdn.com:443/
-URL-REGEX,^https?://[A-Za-z0-9]{8}\.ydycdn\.com(:\d+)?/?$
+
+
+# iPhone & iPad 抖音 --------------------------
+## 抖音评价上传图片
+DOMAIN, tos-d-x-lq.bytedancevod.com
+DOMAIN, conf-darwin.xycdn.com
+DOMAIN, render.ecombdpage.com
+## 抖音寄件详情
+DOMAIN, ttxyajs.data.kuiniuca.com
+DOMAIN-SUFFIX, ahdohpiechei.com
+DOMAIN-SUFFIX, bytemastatic.com
+## 抖音优衣库需要的网址
+DOMAIN-SUFFIX, byteimg.com
+
+### 变成key --------------------------
+###DOMAIN-SUFFIX, ecombdapi.com
+DOMAIN-KEYWORD, -lf.ecombdapi.com
+DOMAIN-KEYWORD, -m.ecombdapi.com
+# 抖音电商内容接口（商品推荐、榜单），核心服务不可拒绝
+DOMAIN, ec.ecombdapi.com
+###  --------------------------
+
+DOMAIN-SUFFIX, ecombdimg.com
+DOMAIN-SUFFIX, ecombdstatic.com
+## 抖音，消息查看物流，reject对应取消掉
+DOMAIN-SUFFIX, erer.homeborn.cn
+DOMAIN-SUFFIX, ietheivaicai.com
+DOMAIN-SUFFIX, jinritemai.com
+## ffh.jinritemai.com 抖音店铺排行榜
+## fxg.jinritemai.com 迪卡侬会员积分兑换
+DOMAIN-SUFFIX, siomxity.net
+DOMAIN-SUFFIX, tt.x.bsgslb.cn
+
+### 变成key --------------------------
+###DOMAIN-SUFFIX, zijieapi.com
+DOMAIN-KEYWORD, -zjg.zijieapi.com
+DOMAIN-KEYWORD, -hj.zijieapi.com
+DOMAIN-KEYWORD, -lf.zijieapi.com
+DOMAIN-KEYWORD, -aliec2.zijieapi.com
+
+# 字节跳动内部 Gecko 配置/实验参数下发接口，用于抖音功能灰度与配置同步，属于核心服务不可拒绝
+DOMAIN, gecko.zijieapi.com
+
+###  --------------------------
+
 
 
 
@@ -129,49 +198,7 @@ DOMAIN-SUFFIX, yhgfb-cn-static.com
 DOMAIN-SUFFIX, z1cdn.com
 
 
-# iPhone & iPad 抖音
 
-## 抖音评价上传图片
-DOMAIN, tos-d-x-lq.bytedancevod.com
-DOMAIN, conf-darwin.xycdn.com
-DOMAIN, render.ecombdpage.com
-## 抖音寄件详情
-DOMAIN, ttxyajs.data.kuiniuca.com
-DOMAIN-SUFFIX, ahdohpiechei.com
-DOMAIN-SUFFIX, bytemastatic.com
-## 抖音优衣库需要的网址
-DOMAIN-SUFFIX, byteimg.com
-
-### 变成key --------------------------
-###DOMAIN-SUFFIX, ecombdapi.com
-DOMAIN-KEYWORD, -lf.ecombdapi.com
-DOMAIN-KEYWORD, -m.ecombdapi.com
-# 抖音电商内容接口（商品推荐、榜单），核心服务不可拒绝
-DOMAIN, ec.ecombdapi.com
-###  --------------------------
-
-DOMAIN-SUFFIX, ecombdimg.com
-DOMAIN-SUFFIX, ecombdstatic.com
-## 抖音，消息查看物流，reject对应取消掉
-DOMAIN-SUFFIX, erer.homeborn.cn
-DOMAIN-SUFFIX, ietheivaicai.com
-DOMAIN-SUFFIX, jinritemai.com
-## ffh.jinritemai.com 抖音店铺排行榜
-## fxg.jinritemai.com 迪卡侬会员积分兑换
-DOMAIN-SUFFIX, siomxity.net
-DOMAIN-SUFFIX, tt.x.bsgslb.cn
-
-### 变成key --------------------------
-###DOMAIN-SUFFIX, zijieapi.com
-DOMAIN-KEYWORD, -zjg.zijieapi.com
-DOMAIN-KEYWORD, -hj.zijieapi.com
-DOMAIN-KEYWORD, -lf.zijieapi.com
-DOMAIN-KEYWORD, -aliec2.zijieapi.com
-
-# 字节跳动内部 Gecko 配置/实验参数下发接口，用于抖音功能灰度与配置同步，属于核心服务不可拒绝
-DOMAIN, gecko.zijieapi.com
-
-###  --------------------------
 
 
 ## 抖音看视频，一半后会卡，解决办法。
