@@ -349,6 +349,15 @@ DOMAIN-SUFFIX, bytegecko.com
 # ──────────────────────────────
 # 抖音
 
+## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
+DOMAIN-SUFFIX, bdcgslb.com
+
+## 电商与广告接口_抖音电商与广告系统用于商品数据与埋点上报
+DOMAIN-SUFFIX, ecombdapi.com
+
+## 物联网与设备服务接口_抖音广告SDK可能调用的第三方IoT云服务用于埋点与设备数据上报
+DOMAIN-SUFFIX, jikeiot.cloud
+
 ## 广告SDK数据上报_抖音广告系统用于埋点与推荐算法
 DOMAIN-SUFFIX, coconts.com
 
