@@ -292,8 +292,8 @@ DOMAIN, metrics.tigerbrokers.com
 ## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。_字节跳动非常老的基础域名家族，用于数据上报、日志收集、API 接口、埋点统计等。
 DOMAIN-SUFFIX, snssdk.com
 
-### ── 日志/监控上报（用户行为追踪，可拒绝，不影响使用）────
-DOMAIN, mon.zijieapi.com
+### ── 日志/监控上报（用户行为追踪）────
+DOMAIN-SUFFIX, zijieapi.com
 
 
 ## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。字节跳动的静态资源 CDN（图片、视频封面、JS、CSS 等）。_以前是抖音主要图片域名，现在两者都在使用。
