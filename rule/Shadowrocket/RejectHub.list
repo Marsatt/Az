@@ -346,6 +346,10 @@ DOMAIN-SUFFIX, bytegecko.com
 
 # ──────────────────────────────
 # 抖音
+
+# 这是 Fastly 的 ohttp 中继节点，用于隐私请求转发，不是普通访问的网站 (ohttp-relay1.fastly-edge.com)
+DOMAIN-SUFFIX, fastly-edge.com
+
 ## 实时日志上报（行为数据、错误日志）
 DOMAIN-SUFFIX, snsssdk.com
 
@@ -603,6 +607,9 @@ DOMAIN, edge-hls.doppiocdn.media
 
 # 未知
 IP-CIDR, 45.152.64.78/32, no-resolve
+
+# Gigya 不知道是什么
+DOMAIN-SUFFIX, gigya.com
 
 # copilot AI 的第三方 AI 代理域名
 DOMAIN, copilot.fun

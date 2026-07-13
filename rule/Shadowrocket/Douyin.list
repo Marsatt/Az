@@ -2,6 +2,11 @@
 ## Pitaya 平台（AI特效、资源热更新、客户端AI）_可能影响 AI 滤镜、特效
 DOMAIN, pitaya.bytedance.com
 
+# 查看订单物流信息，这是抖音系的 connect 接口域名，多用于应用内部连接服务
+DOMAIN, connect.douyinec.com
+
+# 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
+DOMAIN, ecom5-normal-m-zjg.ecombdapi.com
 
 # 抖音支付相关（抖音支付、商城支付）_影响：支付、下单失败
 DOMAIN, api.doupay.com
@@ -109,12 +114,13 @@ DOMAIN-SUFFIX, bytemastatic.com
 ## 抖音优衣库需要的网址
 DOMAIN-SUFFIX, byteimg.com
 
-### 变成key --------------------------
-###DOMAIN-SUFFIX, ecombdapi.com
+### DOMAIN-KEYWORD 关联 RejectHub.list --------------------------
 DOMAIN-KEYWORD, -lf.ecombdapi.com
 DOMAIN-KEYWORD, -m.ecombdapi.com
 # 抖音电商内容接口（商品推荐、榜单），核心服务不可拒绝
 DOMAIN, ec.ecombdapi.com
+# 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
+DOMAIN-KEYWORD, -normal-m-zjg.ecombdapi.com
 ###  --------------------------
 
 DOMAIN-SUFFIX, ecombdimg.com
