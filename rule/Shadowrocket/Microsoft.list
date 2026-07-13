@@ -733,23 +733,12 @@ DOMAIN-KEYWORD,github
 # DOMAIN-SUFFIX: 12
 # USER-AGENT: 2
 # TOTAL: 17
-DOMAIN-SUFFIX,1drv.com
-DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,oneclient.sfx.ms
-DOMAIN-SUFFIX,onedrive.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,photos.live.com
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,skydrive.wns.windows.com
-DOMAIN-SUFFIX,spoprod-a.akamaihd.net
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,storage.msn.com
-DOMAIN-KEYWORD,1drv
-DOMAIN-KEYWORD,onedrive
-DOMAIN-KEYWORD,skydrive
-USER-AGENT,OneDrive*
-USER-AGENT,OneDriveiOSApp*
 
 
 
@@ -790,15 +779,6 @@ DOMAIN,msedge.api.cdp.microsoft.com
 # UPDATED: 2024-07-03 16:18:28
 # DOMAIN-SUFFIX: 9
 # TOTAL: 9
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.com.cn
-DOMAIN-SUFFIX,bing.net
-DOMAIN-SUFFIX,bingads.com
-DOMAIN-SUFFIX,bingagencyawards.com
-DOMAIN-SUFFIX,bingapistatistics.com
-DOMAIN-SUFFIX,bingsandbox.com
-DOMAIN-SUFFIX,bingvisualsearch.com
-DOMAIN-SUFFIX,bingworld.com
 
 
 

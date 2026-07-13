@@ -734,11 +734,6 @@ IP-CIDR,74.125.0.0/16,no-resolve
 DOMAIN,www.googleapis.com
 DOMAIN-SUFFIX,docs.google.com
 DOMAIN-SUFFIX,drive.google.com
-DOMAIN-SUFFIX,googledrive.com
-DOMAIN-SUFFIX,googleusercontent.com
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,*com.google.Drive*
-USER-AGENT,Google.Drive*
 
 
 
@@ -866,7 +861,6 @@ DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
@@ -883,15 +877,6 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 7
 # TOTAL: 13
-DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
