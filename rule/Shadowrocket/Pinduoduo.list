@@ -11,8 +11,6 @@ DOMAIN, m.pinduoduo.net
 DOMAIN, xg.pinduoduo.com
 
 # ── 图片 CDN ─────────────────────────────
-# 商品图片 CDN
-DOMAIN-SUFFIX, pddpic.com
 # 用户生成内容（评价图、详情图等）
 DOMAIN-SUFFIX, pddugc.com
 
