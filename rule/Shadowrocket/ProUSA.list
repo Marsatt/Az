@@ -273,7 +273,6 @@ DOMAIN-SUFFIX, hlsloader.com
 DOMAIN-SUFFIX, languagereactor.com
 DOMAIN-SUFFIX, languagelearningwithnetflix.com
 DOMAIN-SUFFIX, dioco.io
-DOMAIN, extension.dioco.io
 
 # Twitch VOD 下载插件
 DOMAIN-SUFFIX, streamrecorder.io
