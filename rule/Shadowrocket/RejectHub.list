@@ -190,6 +190,10 @@ DOMAIN, m.stripe.network
 # 🛠️ 软件 / App 功能域名
 # ──────────────────────────────
 
+# Marine Traffic（船舶追踪）
+## Customer.io 用户营销与推送服务（in-app 消息）
+DOMAIN, consumer.inapp.customer.io
+
 # OpenCat 模型数据库
 DOMAIN-SUFFIX, models.dev
 # OpenCat 主要后端 API

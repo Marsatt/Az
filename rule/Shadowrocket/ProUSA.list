@@ -315,6 +315,12 @@ DOMAIN, cdn.jetphotos.com
 
 # Marine Traffic（船舶追踪）
 DOMAIN-SUFFIX, marinetraffic.com
+## GrowthBook A/B测试与功能旗帜 CDN（实验、灰度发布用）
+DOMAIN, cdn.growthbook.io
+## Mapbox 地图配置服务（地图样式、配置加载）
+DOMAIN, config.mapbox.com
+## Mapbox 地图核心 API（地图数据、搜索、导航等）
+DOMAIN, api.mapbox.com
 
 # Nullschool（PM2.5 地球可视化）
 DOMAIN-SUFFIX, nullschool.net
