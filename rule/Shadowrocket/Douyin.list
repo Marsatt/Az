@@ -1,5 +1,9 @@
 # 关联 Douyin.list ══════════════════════════════════════════
-## Pitaya 平台（AI特效、资源热更新、客户端AI）_可能影响 AI 滤镜、特效
+
+# 这是字节跳动的短链与资源分发节点，属于核心服务，建议放行
+DOMAIN, dig.bdurl.net
+
+# Pitaya 平台（AI特效、资源热更新、客户端AI）_可能影响 AI 滤镜、特效
 DOMAIN, pitaya.bytedance.com
 
 # 查看订单物流信息，这是抖音系的 connect 接口域名，多用于应用内部连接服务
@@ -21,6 +25,12 @@ ec5-core.ecombdbapi.com
 
 
 # 关联 RejectHub.list ══════════════════════════════════════════
+
+# 这是 Fastly 的隐私中继/CDN 加速节点，用于内容分发，建议放行
+DOMAIN, ohttp-relay1.fastly-edge.com
+
+# 这是抖音直播/视频的 AI 分析与调度接口，属于核心服务，建议放行
+DOMAIN, vc-brain.ndcpp.com
 
 # 这是字节跳动旗下的加速/调度节点，属于抖音内容服务，不建议拒绝
 DOMAIN, orzonera.yingt.fun
