@@ -356,14 +356,9 @@ DOMAIN-SUFFIX, qrstuvwxyzab.com
 # TikTok（国际版）为主。_字节跳动内部的性能监控、A/B 测试、配置下发服务。_TikTok 国际版使用较多，用于动态调整功能和收集性能数据。
 DOMAIN-SUFFIX, bytegecko.com
 
+
 # ──────────────────────────────
 # 抖音
-
-# 这是 Fastly 的 ohttp 中继节点，用于隐私请求转发，不是普通访问的网站 (ohttp-relay1.fastly-edge.com)
-DOMAIN-SUFFIX, fastly-edge.com
-
-## 实时日志上报（行为数据、错误日志）
-DOMAIN-SUFFIX, snsssdk.com
 
 ## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
 DOMAIN-SUFFIX, bdcgslb.com
@@ -383,15 +378,12 @@ DOMAIN-SUFFIX, manlaxycloud.com
 ## 字节跳动（抖音）实时音视频通信（RTC） 专用域名。_主要用于抖音的直播连麦、视频通话、PK 直播、多人互动直播 等实时互动功能。_当你打开抖音网页版或 App 观看/参与直播，尤其是主播开启连麦、PK、合唱等功能时，就会请求这个域名进行实时音视频传输。
 DOMAIN-SUFFIX, rtcxyz.com
 
-## 字节跳动内部的 JavaScript 动态加载域名（JS 资源服务器）。_用于加载抖音网页版的一些动态脚本，包括：A/B 测试配置。_个性化推荐算法相关脚本。_部分功能模块的按需加载。_埋点 / 数据上报相关的 JS。
-DOMAIN-SUFFIX, yirujs.com
-
 # 抖音设备指纹上报服务器
 DOMAIN-SUFFIX, dahhxxttxs.com
 
 # 抖音电脑版无用静态资源域名
 DOMAIN-SUFFIX, huoshanstatic.com
-DOMAIN-SUFFIX, toutiaostatic.com
+
 
 # 抖音手机版无用 URL（精准匹配 /trace/ 路径请求）
 URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
@@ -415,16 +407,9 @@ DOMAIN-SUFFIX, 0kkkkkt.com
 DOMAIN-SUFFIX, bdgp.cc
 DOMAIN-SUFFIX, bjmxy.net
 DOMAIN-SUFFIX, bytecdn.com
-DOMAIN-SUFFIX, bytehwm.com
-
-## 关联 (Douyin.list)
-DOMAIN-SUFFIX, bytemaimg.com
-
-DOMAIN-SUFFIX, cjjd14.com
 DOMAIN-SUFFIX, ks-live.com
 DOMAIN-SUFFIX, ksyun.com
 DOMAIN-SUFFIX, kuiniuca.com
-DOMAIN-SUFFIX, ndcpp.com
 DOMAIN-SUFFIX, ndcppx.com
 DOMAIN-SUFFIX, onethingpcs.com
 DOMAIN-SUFFIX, open-douyin.com
@@ -438,10 +423,31 @@ DOMAIN-SUFFIX, wasu.tv
 DOMAIN-SUFFIX, wuchuyun.com
 DOMAIN-SUFFIX, wuchuyun.net
 DOMAIN-SUFFIX, xinqiucc.com
-DOMAIN-SUFFIX, yingt.fun
 
-## 关联 (Douyin.list)
+
+
+## 关联 (Douyin.list) DOMAIN 或 DOMAIN-KEYWORD ────────────────────────────────────────────────────────────
+DOMAIN-SUFFIX, bytemaimg.com
+DOMAIN-SUFFIX, cjjd14.com
 DOMAIN-SUFFIX, ydycdn.com
+DOMAIN-SUFFIX, ndcpp.com
+DOMAIN-SUFFIX, yingt.fun
+DOMAIN-SUFFIX, bytehwm.com
+
+# 这是 Fastly 的 ohttp 中继节点，用于隐私请求转发，不是普通访问的网站 (ohttp-relay1.fastly-edge.com)
+DOMAIN-SUFFIX, fastly-edge.com
+
+# 字节跳动内部的 JavaScript 动态加载域名（JS 资源服务器）。_用于加载抖音网页版的一些动态脚本，包括：A/B 测试配置。_个性化推荐算法相关脚本。_部分功能模块的按需加载。_埋点 / 数据上报相关的 JS。
+DOMAIN-SUFFIX, yirujs.com
+
+# 实时日志上报（行为数据、错误日志）
+DOMAIN-SUFFIX, snsssdk.com
+
+# 抖音app_未知
+DOMAIN-SUFFIX, toutiaostatic.com
+
+
+# ──────────────────────────────
 
 
 
