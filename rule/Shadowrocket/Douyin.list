@@ -8,6 +8,9 @@ DOMAIN, connect.douyinec.com
 # 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
 DOMAIN, ecom5-normal-m-zjg.ecombdapi.com
 
+# 这是字节跳动电商核心接口，抖音内部服务，不建议拒绝
+DOMAIN, ecset5-core-m-zjg.ecombdapi.com
+
 # 抖音支付相关（抖音支付、商城支付）_影响：支付、下单失败
 DOMAIN, api.doupay.com
 
@@ -18,6 +21,13 @@ ec5-core.ecombdbapi.com
 
 
 # 关联 RejectHub.list ══════════════════════════════════════════
+
+# 这是字节跳动旗下的加速/调度节点，属于抖音内容服务，不建议拒绝
+DOMAIN, orzonera.yingt.fun
+
+# 这是直播流媒体的拉流地址，属于视频播放服务，不是隐私上报接口
+DOMAIN-KEYWORD, -pull.yirujs.com
+
 # 抖音前沿实时连接（WebSocket，长连接推送、推荐流_拒绝后视频卡顿、无法刷新、切账号失败
 DOMAIN, frontier.snsssdk.com
 
@@ -143,6 +153,9 @@ DOMAIN-KEYWORD, -aliec2.zijieapi.com
 
 # 字节跳动内部 Gecko 配置/实验参数下发接口，用于抖音功能灰度与配置同步，属于核心服务不可拒绝
 DOMAIN, gecko.zijieapi.com
+
+# 这是字节跳动主 API 接口，抖音核心服务，不建议拒绝
+DOMAIN, tnc0-alisc1.zijieapi.com
 
 ###  --------------------------
 
