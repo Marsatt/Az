@@ -13,11 +13,37 @@ DOMAIN-SUFFIX, neverless.com
 
 
 # ==============================
-# 🏦 iFast
+# 🏦 iFAST GB
 # ==============================
+# iFAST 或金融安全 SDK 使用的 User-Agent 标识
+USER-AGENT, zreq_agent5.7.73*
+
+# 微软网络连接检测服务_主要用于 Windows 判断是否联网_与 iFAST 无直接关系
+DOMAIN, www.msftncsi.com
+# Zimperium 安全测试接口_iFAST App 启动或登录时可能调用_屏蔽可能导致安全检测失败
+DOMAIN, stest.zimperium.com
+# OneTrust 隐私合规平台_用于 Cookie 管理、隐私设置、用户授权提示_不是交易核心
+DOMAIN, geolocation.onetrust.com
+
+# iFAST 英国官方业务域名_iFAST GB 主站、接口、账户服务可能使用
 DOMAIN-SUFFIX, ifastgb.com
+# iFAST 集团相关域名_可能用于集团服务或接口
 DOMAIN-SUFFIX, ifastcorp.com
+# iFAST 网络服务域名_部分服务可能使用
 DOMAIN-SUFFIX, ifastnet.com
+# 和金融 App 关系非常大_Sumsub 是身份验证/KYC/活体检测/身份证护照验证服务_iFAST 开户、投资账户认证可能使用
+DOMAIN-SUFFIX, sumsub.com
+# AWS WAF 安全防护服务_用于防机器人、防攻击、验证请求真实性_金融 App 登录交易常使用
+DOMAIN-SUFFIX, edge.sdk.awswaf.com
+# Trustpilot 用户评价平台_iFAST 网站可能嵌入用户评分和评价组件_不是核心交易功能_静态资源域名_用于加载评价组件资源
+DOMAIN-SUFFIX, trustpilot.com
+
+# 网络连通性检测 IP_不是 iFAST 官方服务器_可能被安全 SDK 或网络检测使用
+IP-CIDR, 8.8.8.1/32, no-resolve
+# 网络连通性检测 IP_不是 iFAST 官方服务器_可能被安全 SDK 或网络检测使用
+IP-CIDR, 8.8.8.2/32, no-resolve
+# 网络连通性检测 IP_不是 iFAST 官方服务器_可能被安全 SDK 或网络检测使用
+IP-CIDR, 8.8.8.3/32, no-resolve
 
 
 # ==============================
