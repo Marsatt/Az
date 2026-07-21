@@ -511,6 +511,9 @@ DOMAIN, images.unsplash.com
 # 🛍️ 购物 / 其他
 # ==============================
 
+# Bitly（bit.ly）公司是一家美国纽约的短链接与链接管理公司_成立于 2008 年_提供 URL 缩短、点击统计、品牌短链等服务
+DOMAIN, bit.ly
+
 # IKEA
 DOMAIN-SUFFIX, ikea.com
 
