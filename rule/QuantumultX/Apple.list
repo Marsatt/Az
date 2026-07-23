@@ -1,14 +1,20 @@
 # 苹果支付服务
-host,cn-smp-paymentservices.apple.com
+host, cn-smp-paymentservices.apple.com
 
 # 苹果CDN定位服务
-host,lcdn-locator.apple.com
+host, lcdn-locator.apple.com
 
 # Apple Bag 苹果购买验证接口等_下面很多重复的。
 host-suffix, itunes.apple.com,Apple
 
 # 苹果时间同步服务
-host,time.apple.com
+host, time.apple.com
+
+# Web Push Service_Apple Push 相关服务_可能涉及：通知_推送注册_后台服务
+host, wps.apple.com
+
+# Apple 服务验证_证书/连接有效性检查_系统服务验证
+host, valid.apple.com
 
 #Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
 host, apple-finance.query.yahoo.com,Apple

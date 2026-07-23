@@ -1,6 +1,11 @@
 #Chrome & Safari  设置👉隐私与安全👉安全👉不保护（不建议） & 设置👉安全性👉欺骗性站点❌
 DOMAIN, safebrowsing.urlsec.qq.com
 
+# Apple内部数据/性能服务
+DOMAIN, pancake.apple.com
+
+# Apple 搜索广告/广告归因服务
+DOMAIN, gsas.apple.com
 
 
 # NAME: SystemOTA

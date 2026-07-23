@@ -12,6 +12,9 @@ DOMAIN-SUFFIX, mail.me.com
 # 🍎 苹果系统 & App Store
 # ==============================
 
+# Apple亚洲时间同步服务_NTP
+DOMAIN, time.asia.apple.com
+
 # 苹果中国官网（部分服务重定向）
 DOMAIN-SUFFIX, apple.com.cn
 
