@@ -236,6 +236,8 @@ HOST-SUFFIX, safepal.com
 HOST-SUFFIX, isafepal.com
 # Google Firebase Crashlytics 配置（SafePal 「预测-充值」等 App 初始化必需）
 HOST, firebase-settings.crashlytics.com
+# 点小心，进入永续合约界面显示
+HOST-SUFFIX, asterdex.com
 
 
 # 🪙 ── OKX 欧易 ──────────────────────
