@@ -360,6 +360,9 @@ HOST-SUFFIX, bytegecko.com
 # ──────────────────────────────
 # 抖音
 
+## 抖音直播CDN_用于观看直播视频流
+HOST-SUFFIX, huoshanlive.com
+
 ## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
 HOST-SUFFIX, bdcgslb.com
 
@@ -415,7 +418,6 @@ HOST-SUFFIX, onethingpcs.com
 HOST-SUFFIX, open-douyin.com
 HOST-SUFFIX, qiezibenpao.com
 HOST-SUFFIX, qishui.com
-HOST-SUFFIX, qtaeixd.com
 HOST-SUFFIX, simoxity.net
 HOST-SUFFIX, siomxity.com
 HOST-SUFFIX, wasu.tv

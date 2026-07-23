@@ -1,3 +1,5 @@
+HOST-SUFFIX, qtaeixd.com
+
 # 这是字节跳动的内容调度节点，负责抖音视频与直播分发，建议放行
 HOST-SUFFIX, jomoxc.com
 
@@ -28,7 +30,7 @@ HOST, ec5-core.ecombdbapi.com
 # 关联 RejectHub.list ══════════════════════════════════════════
 
 # 这是字节跳动的内容加速/调度节点，属于抖音视频与直播服务，建议放行
-HOST, 1pyorok.z.cjjd14.com
+HOST-SUFFIX, z.cjjd14.com
 
 # 这是 Fastly 的隐私中继/CDN 加速节点，用于内容分发，建议放行
 HOST, ohttp-relay1.fastly-edge.com
