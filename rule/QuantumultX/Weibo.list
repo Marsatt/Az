@@ -1,14 +1,124 @@
 #新浪微博顯示縮略圖。
-host-suffix, sinaimg.cn, Weibo
+HOST-SUFFIX, sinaimg.cn
 
-# NAME: Weibo
+#邮件APP绑定新浪邮箱
+HOST, p29-smtp.mail.me.com
+HOST, p29-imap.mail.me.com
+
+
+
+# NAME: Sina
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:03:05
+# UPDATED: 2025-06-06 09:17:01
 # HOST-KEYWORD: 1
-# HOST-SUFFIX: 3
-# TOTAL: 4
-HOST-SUFFIX,weibo.cn,Weibo
-HOST-SUFFIX,weibo.com,Weibo
-HOST-SUFFIX,weibocdn.com,Weibo
-HOST-KEYWORD,weibo,Weibo
+# HOST-SUFFIX: 107
+# TOTAL: 108
+HOST-SUFFIX,001wifi.com
+HOST-SUFFIX,1kapp.com
+HOST-SUFFIX,4sender.com
+HOST-SUFFIX,4sender.net
+HOST-SUFFIX,51xiancheng.com
+HOST-SUFFIX,7g8g.cn
+HOST-SUFFIX,97973.com
+HOST-SUFFIX,adimages.sina.com.hk
+HOST-SUFFIX,aduspot.com
+HOST-SUFFIX,appchizi.com
+HOST-SUFFIX,applinzi.com
+HOST-SUFFIX,appsina.com
+HOST-SUFFIX,ctws.com.cn
+HOST-SUFFIX,cva.com.cn
+HOST-SUFFIX,dnssina.com
+HOST-SUFFIX,huoxing.com
+HOST-SUFFIX,ikaola.cn
+HOST-SUFFIX,ilangqu.cn
+HOST-SUFFIX,ilangqu.com
+HOST-SUFFIX,ilangqu.com.cn
+HOST-SUFFIX,imark.cn
+HOST-SUFFIX,kandian.cn
+HOST-SUFFIX,kandian.com
+HOST-SUFFIX,kandian.net
+HOST-SUFFIX,kandian.tv
+HOST-SUFFIX,kanyouxi.cn
+HOST-SUFFIX,kanyouxi.com
+HOST-SUFFIX,kanyouxi.com.cn
+HOST-SUFFIX,kanyouxi.tv
+HOST-SUFFIX,leju.com
+HOST-SUFFIX,maileds.com
+HOST-SUFFIX,miaopai.com
+HOST-SUFFIX,mingxigu.com
+HOST-SUFFIX,oascentral.sina.com.hk
+HOST-SUFFIX,paogame.cn
+HOST-SUFFIX,picself.cn
+HOST-SUFFIX,picself.com.cn
+HOST-SUFFIX,qingmail.cn
+HOST-SUFFIX,qingmail.com
+HOST-SUFFIX,saebbs.com
+HOST-SUFFIX,sc2yun.com
+HOST-SUFFIX,senderline.com
+HOST-SUFFIX,senderline.net
+HOST-SUFFIX,simadata.cn
+HOST-SUFFIX,sina.cn
+HOST-SUFFIX,sina.com
+HOST-SUFFIX,sina.com.cn
+HOST-SUFFIX,sina.net
+HOST-SUFFIX,sinaapp.cn
+HOST-SUFFIX,sinaapp.com
+HOST-SUFFIX,sinacdn.com
+HOST-SUFFIX,sinacloud.cn
+HOST-SUFFIX,sinacloud.com
+HOST-SUFFIX,sinacloud.com.cn
+HOST-SUFFIX,sinacloud.net
+HOST-SUFFIX,sinacorp.cn
+HOST-SUFFIX,sinadaxue.cn
+HOST-SUFFIX,sinadaxue.com
+HOST-SUFFIX,sinadaxue.com.cn
+HOST-SUFFIX,sinaedge.cn
+HOST-SUFFIX,sinaedge.com
+HOST-SUFFIX,sinaimg.cn
+HOST-SUFFIX,sinaimg.com
+HOST-SUFFIX,sinaimg.com.cn
+HOST-SUFFIX,sinajs.cn
+HOST-SUFFIX,sinajs.com
+HOST-SUFFIX,sinanet.com
+HOST-SUFFIX,sinanode.com
+HOST-SUFFIX,sinas3.com
+HOST-SUFFIX,sinas3.net
+HOST-SUFFIX,sinastorage.cn
+HOST-SUFFIX,sinastorage.com
+HOST-SUFFIX,sinasws.com
+HOST-SUFFIX,sinauda.com
+HOST-SUFFIX,sinaurl.cn
+HOST-SUFFIX,smtcdn.com
+HOST-SUFFIX,t.cn
+HOST-SUFFIX,talldns.cn
+HOST-SUFFIX,talldns.com
+HOST-SUFFIX,talldns.net
+HOST-SUFFIX,twgame.cn
+HOST-SUFFIX,twgame.com.cn
+HOST-SUFFIX,ufc.cn
+HOST-SUFFIX,videoself.cn
+HOST-SUFFIX,vipappsina.com
+HOST-SUFFIX,vipsinaapp.com
+HOST-SUFFIX,vmoso.cn
+HOST-SUFFIX,volleychina.org
+HOST-SUFFIX,vshoucang.com
+HOST-SUFFIX,wan68.com
+HOST-SUFFIX,wapone.net
+HOST-SUFFIX,wbimg.cn
+HOST-SUFFIX,wbimg.com
+HOST-SUFFIX,wbimg.com.cn
+HOST-SUFFIX,wcdn.cn
+HOST-SUFFIX,weibo.com.cn
+HOST-SUFFIX,weibo.tv
+HOST-SUFFIX,weibocdn.cn
+HOST-SUFFIX,weiboums.com
+HOST-SUFFIX,weipan.cn
+HOST-SUFFIX,weipan.com.cn
+HOST-SUFFIX,xhaiwai.com
+HOST-SUFFIX,xiaoka.tv
+HOST-SUFFIX,yangfan.org.cn
+HOST-SUFFIX,weibo.cn
+HOST-SUFFIX,weibo.com
+HOST-SUFFIX,weibocdn.com
+HOST-KEYWORD,weibo

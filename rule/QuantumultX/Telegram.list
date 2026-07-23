@@ -1,3 +1,13 @@
+# TON 区块链官方 API 服务（The Open Network）。_提供 TON 链上的余额查询、交易记录、转账、NFT 查询等功能。_Telegram 官方钱包（Telegram Wallet）底层就是基于 TON 区块链。当你点击钱包、查看余额、发送 TON、查看交易记录时，都会调用 tonapi.io 获取链上数据。
+HOST, tonapi.io
+
+# STON.fi —— TON 链上最大的去中心化交易所（DEX），类似 Uniswap。_提供代币兑换、流动性挖矿、交易等 DeFi 服务。_你在 Telegram 钱包里点击“交易”、“兑换”、“Discover”或浏览热门代币时，会跳转或调用 STON.fi 的接口加载交易数据和流动性信息。
+HOST-SUFFIX, ston.fi
+
+# Telegram 官方钱包的机器人后端服务域名。_处理钱包内的各种操作请求、用户会话、支付确认、设置同步等。_这是 Telegram Wallet 的内部通信域名，几乎每次打开钱包、进行操作时都会请求。
+HOST-SUFFIX, walletbot.me
+
+
 # NAME: Telegram
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script

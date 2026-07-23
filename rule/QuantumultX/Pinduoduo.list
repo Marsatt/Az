@@ -1,12 +1,21 @@
-host-keyword,Pinduoduo,Pinduoduo
+# ═══════════════════════════════════════════
+# 拼多多 (Pinduoduo / 多多买菜 / 杨客多多)
+# ═══════════════════════════════════════════
 
-#202408251047
-ip-cidr,140.206.232.17/24,Pinduoduo
+# ── 核心域名 ──────────────────────────────
+# 主站及 H5
+HOST-SUFFIX, pinduoduo.com
+# iPad / 移动端入口
+HOST, m.pinduoduo.net
+# 多多买菜微信支付
+HOST, xg.pinduoduo.com
 
-ip-cidr,153.3.240.57/24,Pinduoduo
-ip-cidr,114.110.97.97/24,Pinduoduo
-ip-cidr,220.196.137.227/24,Pinduoduo
-ip-cidr,114.110.97.30/24,Pinduoduo
+# ── 图片 CDN ─────────────────────────────
+# 用户生成内容（评价图、详情图等）
+HOST-SUFFIX, pddugc.com
+
+
+
 
 # NAME: Pinduoduo
 # AUTHOR: blackmatrix7
@@ -14,6 +23,7 @@ ip-cidr,114.110.97.30/24,Pinduoduo
 # UPDATED: 2024-07-03 16:16:17
 # HOST-SUFFIX: 3
 # TOTAL: 3
-HOST-SUFFIX,pddpic.com,Pinduoduo
-HOST-SUFFIX,pinduoduo.com,Pinduoduo
-HOST-SUFFIX,yangkeduo.com,Pinduoduo
+HOST-SUFFIX, pddpic.com
+HOST-SUFFIX, pinduoduo.com
+# 杨客多多（拼多多旧域名，现仍在用）
+HOST-SUFFIX, yangkeduo.com

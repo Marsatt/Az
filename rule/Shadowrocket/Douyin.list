@@ -19,7 +19,7 @@ DOMAIN, ecset5-core-m-zjg.ecombdapi.com
 DOMAIN, api.doupay.com
 
 # 电商核心 API（商城数据、订单）_商城功能异常
-ec5-core.ecombdbapi.com
+DOMAIN, ec5-core.ecombdbapi.com
 
 
 

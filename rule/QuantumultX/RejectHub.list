@@ -1,220 +1,661 @@
-#未知
-host-suffix, hotfree123.com,RejectHub
-host-suffix, narakahunter.mvw,RejectHub
-#@!开机打开Chrome后显示的
-host, ws-us2.pusher.com,RejectHub
-host, geoip.furman.im,RejectHub
-
-#阿里小号_拒绝
-host, zconfig.alibabausercontent.com
-
-#iPhone&iPad控制mac_app
-host, rs.ltd
-
-#chrome插件
-#油猴_沉浸式翻译
-host, ai.immersivetranslate.com
-host, s.immersivetranslate.com
-#chrome插件鼠标手势
-DOMAIN, api.mousegesturesapi.com,RejectHub
-#chrome & safari &... 浏览器开启隐私保护后会访问下面的网址。
-host, safebrowsing.urlsec.qq.com,RejectHub
-
-#app_picsew
-host-suffix, picsew.app,RejectHub
-
-#Wechat微信_iPhone
-IP-CIDR, 42.202.141.12/32,RejectHub
-IP-CIDR, 42.202.141.13/32,RejectHub
-IP-CIDR, 42.202.141.116/32,RejectHub
-IP-CIDR, 42.202.153.25/32,RejectHub
-IP-CIDR, 42.202.153.50/32,RejectHub
-IP-CIDR, 42.202.154.19/32,RejectHub
-IP-CIDR, 42.202.154.21/32,RejectHub
-IP-CIDR, 42.202.154.211/32,RejectHub
-IP-CIDR, 42.202.154.212/32,RejectHub
-IP-CIDR, 42.202.153.15/32,RejectHub
-IP-CIDR, 42.202.153.23/32,RejectHub
-IP-CIDR, 42.202.153.25/32,RejectHub
-IP-CIDR, 42.202.153.33/32,RejectHub
-IP-CIDR, 42.202.153.37/32,RejectHub
-IP-CIDR, 42.202.153.50/32,RejectHub
-IP-CIDR, 42.202.153.120/32,RejectHub
-IP-CIDR, 42.202.154.212/32,RejectHub
-IP-CIDR, 123.172.120.22/32,RejectHub
-IP-CIDR, 123.172.120.37/32,RejectHub
-IP-CIDR, 123.172.120.41/32,RejectHub
-IP-CIDR, 123.172.120.54/32,RejectHub
-IP-CIDR, 123.172.120.75/32,RejectHub
-IP-CIDR, 123.172.120.78/32,RejectHub
-IP-CIDR, 123.172.120.87/32,RejectHub
-IP-CIDR, 123.172.120.88/32,RejectHub
-IP-CIDR, 123.172.120.93/32,RejectHub
-IP-CIDR, 123.172.120.94/32,RejectHub
-IP-CIDR, 123.172.120.95/32,RejectHub
-IP-CIDR, 123.172.120.99/32,RejectHub
-IP-CIDR, 123.172.120.115/32,RejectHub
-IP-CIDR, 123.172.120.120/32,RejectHub
-IP-CIDR, 123.172.120.140/32,RejectHub
-IP-CIDR, 123.172.120.142/32,RejectHub
-IP-CIDR, 183.60.8.74/32,RejectHub
+# ==============================
+# 🚫 REJECT 拦截规则
+# 说明：主动拦截追踪 / 广告 / 上报 / 第三方 SDK /
+#       软件激活验证 / 支付接口 / 客服平台等域名
+# ==============================
 
 
 
-#Deepseek
-host-suffix, intercom.com,RejectHub
-host-suffix, zztfly.com,RejectHub
-host-suffix, cmpassport.com,RejectHub
+# ==============================
+# 🧩 Chrome 浏览器插件
+# ==============================
+# Language Reactor 上传你访问了哪个视频和网页_（语言学习）_第三方内容解析服务，Language Reactor 用于解析视频/网页元数据，可拒绝但会影响字幕与词典功能
+HOST-SUFFIX, noembed.com
 
-#豆包
-host-suffix, ugsdk.cn,RejectHub
-host-suffix, oceancloudapi.com,RejectHub
 
-#Zoom Earth
-host-suffix, revenuecat.com,RejectHub
+# ──────────────────────────────
+# 📍 本地局域网
+# ──────────────────────────────
+# 屏蔽 IPv6 mDNS 多播（推荐）
+IP6-CIDR, ff02::fb/128
 
-#用户行为分析 & 实验性追踪 API
-host-suffix, amplitude.com,RejectHub
+# 如果想同时屏蔽 IPv4 mDNS（强烈建议一起加）
+IP-CIDR, 224.0.0.251/32
 
-#多用于成人直播、色情广告平台，有追踪行为和加载风险脚本的可能
-host-suffix, mg-cdn.com,RejectHub
 
-#fpjs.io 是 FingerprintJS 浏览器指纹识别库
-host-suffix, fpjs.io,RejectHub
+# ──────────────────────────────
+# 💃 Stripchat
+# ──────────────────────────────
+# Lovense 成人智能玩具控制 API（直播间互动玩具必需）
+# 用于显示和控制玩具震动等功能
+HOST, display.lovense-api.com
 
-#Twtich
-host-suffix, imrworldwide.com,RejectHub
 
-#微信电脑版，无用的网址。
-host, dldir1v6.qq.com,RejectHub
-#属于 GlobalSign，是一个全球知名的 SSL/TLS 证书颁发机构（CA，Certificate Authority）。
-#根证书屏蔽
-host-suffix, globalsign.com,RejectHub
-IP-CIDR, 42.59.25.1/24,RejectHub
-IP-CIDR, 116.140.44.1/24,RejectHub
-IP-CIDR, 124.95.177.1/24,RejectHub
-IP-CIDR, 218.61.162.1/24,RejectHub
+# ──────────────────────────────
+# 📡 通用追踪 / 行为上报
+# ──────────────────────────────
 
-#拼多多_无用的网址。
-IP-CIDR, 81.69.105.47/32,RejectHub
+# Customer.io CDP 数据追踪平台
+HOST-SUFFIX, cdp.customer.io
 
-#网易有道词典
-host, gorgon.youdao.com,RejectHub
-host, rlogs.youdao.com,RejectHub
-host, mind.youdao.com,RejectHub
+# ── Ably（英国实时消息推送服务，提供 WebSocket 实时通信）────
+HOST-SUFFIX, ably.net
 
-#PDFgear_Mac版本
-host-suffix, pdfgear.com,RejectHub
+# ── Prelude（第三方反欺诈与手机号验证服务，会采集设备信号）────
+HOST-SUFFIX, prelude.dev
 
-#抖音
-##抖音电脑版，无用的网址。
-host-suffix, huoshanstatic.com,RejectHub
-host-suffix, toutiaostatic.com,RejectHub
-IP-CIDR, 221.204.46.250/32,RejectHub
-host, wiki5.baike.com,RejectHub
-host, m.baike.com,RejectHub
-host-suffix, 0kkkkkt.com,RejectHub
-host-suffix, bytecdn.com,RejectHub
-host-suffix, byteeffecttos.com,RejectHub
-host-suffix, bytehwm.com,RejectHub
-host-suffix, bytemaimg.com,RejectHub
-host-suffix, cjjd14.com,RejectHub
-host-suffix, ks-live.com,RejectHub
-host-suffix, kuiniuca.com,RejectHub
-host-suffix, ndcpp.com,RejectHub
-host-suffix, ndcppx.com,RejectHub
-host-suffix, onethingpcs.com,RejectHub
-host-suffix, open-douyin.com,RejectHub
-host-suffix, qishui.com,RejectHub
-host-suffix, simoxity.net,RejectHub
-host-suffix, siomxity.com,RejectHub
-host-suffix, wasu.tv,RejectHub
-host-suffix, zhicyun.com,RejectHub
+# 是 Mac 统计 / 监控类软件 的后台数据收集域名。
+## 常见关联软件包括：CleanMyMac 的部分统计模块。_某些 Mac 优化/清理工具（System Monitor、Mac Cleaner、Stats 类 App）。_部分浏览器扩展或后台工具，用于收集 Mac 硬件信息、使用数据、性能统计等。
+## 主要作用：上报 Mac 的硬件配置（CPU、内存、硬盘使用情况）。_软件使用统计。_性能监控数据。_检查更新。
+HOST-SUFFIX, mac-stats.com
 
-#剪映dwg_Ulike Cam 相关，这是一个提供直播或视频互动服务的平台。
-host-suffix, likecam.com,RejectHub
-host-suffix, ulikecam.com,RejectHub
+# Firebase 行为追踪，记录 App 内操作并上报给 Google
+HOST, firebaselogging-pa.googleapis.com
 
-#sessions.bugsnag.com:443 属于 Bugsnag，一个用于 错误监控和崩溃分析 的服务。
-host, sessions.bugsnag.com,RejectHub
+# 被 Norton 标记为恶意追踪，Apple 隐私报告亦有记录
+HOST, app-analytics-services.com
 
-#Mac开机运行监控系统开源工具，Stats。
-host, api.serhiy.io,RejectHub
+# Facebook 跨 App / 跨网站追踪像素
+HOST, ep2.facebook.com
 
-#analytics65.techsmith.com 是 TechSmith 公司提供的一个分析服务域名。TechSmith 是一家开发屏幕录像和视频编辑软件的公司，其知名产品包括 Camtasia 和 Snagit。
-host-suffix, techsmith.com,RejectHub
+# 网页流量分析追踪服务
+HOST, api64.com
+HOST, score.traficmetrics.com
 
-#由 Objective Development 提供的服务，主要用于地理位置相关的功能。
-host, geolocation.obdev.at,RejectHub
+# MeetMe CDN，用于用户行为上报与 CSP 安全报告收集
+# 被 Chaturbate、Stripchat 等多个成人平台共用
+HOST-SUFFIX, mmcdn.com
 
-#ViewerAttack 相关，这是一个与网络流量或用户行为分析有关的服务。
-host, api.viewerattack.com,RejectHub
 
-#盗版程序
-#这个域名看起来像一个非官方的、个性化或定制的域名。使用 .club 的域名通常是一些小型企业、个人网站或特殊应用在使用。如果你没有主动访问该网址，但它出现在你的流量记录中，可能是某个应用或扩展程序无意间进行了连接，或者是某些应用程序中的广告模块触发了这个访问。建议检查你的 Mac 上是否安装了未知来源的软件或扩展。
-host-suffix, no-mad-world.club,RejectHub
-host-suffix, club,RejectHub
+# ──────────────────────────────
+# 📊 用户行为分析 / A-B 实验平台
+# ──────────────────────────────
 
-#网站的附加访问
-#stripchat.com & hplives.com,RejectHub
-host-suffix, ststandard.com,RejectHub
-host-suffix, display.lovense-api.com,RejectHub
-#Instagram
-host, www.fbsbx.com,RejectHub
-#bilibili
-host, passport.bilicomic.com,RejectHub
-#文字转语音_国内_ttsmaker.cn,RejectHub
-host-suffix, tts-file.com,RejectHub
-#文字转语音_aisaver.io,RejectHub
-host, cdn.zbaseglobal.com,RejectHub
+# macOS 电脑开机后的无用网址 ──────────────────────────────
 
-#谷歌浏览器插件
-#bilibili哔哩哔哩下载助手
-host-suffix, csser.top,RejectHub
+# No-Mad-Sub 订阅相关服务
+HOST-SUFFIX, no-mad-sub.one
 
-#Downie4_这个网址是 Charlie Monroe 的个人网站，提供与他开发的软件和工具相关的内容。
-host-suffix, software.charliemonroe.net,RejectHub
-host-suffix, downiestatistics.com,RejectHub
 
-#屏蔽该网址可能导致无法正常激活或使用依赖于 Nalpeiron 授权的应用程序，可能影响软件的正常运行。因此，如果你使用需要 Nalpeiron 服务的应用，建议不屏蔽此网址。
-host, my.nalpeiron.com,RejectHub
+# Chrome插件 ──────────────────────────────
 
-#这个网址是 Paddle 的支付处理平台，用于处理在线支付和交易。
-host-suffix, paddle.com,RejectHub
-host-suffix, paddleapi.com,RejectHub
+## rxliuli Extensions 官网（浏览器扩展付费商店，主营Twitter/X工具扩展）用于屏蔽X的垃圾账号的工具
+HOST-SUFFIX, store.rxliuli.com
 
-#alfred.app 是 Alfred 的官方网站。Alfred 是一款流行的 macOS 应用程序，用于提高工作效率。它通过键盘快捷键、文本扩展和自定义工作流，帮助用户更快捷地启动应用、查找文件、执行系统命令和网络搜索等操作。许多 Mac 用户安装 Alfred 来替代或增强 macOS 自带的 Spotlight 功能。
-host-suffix, alfred.app,RejectHub
+## Tab Translate（Chrome 翻译插件，回连自身服务器）
+HOST-SUFFIX, tabtranslate.com
 
-#开源-输入法切换工具Input Source Pro
-host-suffix, inputsource.pro,RejectHub
+## Picture-in-Picture 画中画扩展的后端服务器（用于更新、配置和统计）
+HOST-SUFFIX, pictureinpicture.xyz
 
-#这是 AutoPagerize 的数据库，AutoPagerize 是一个可以自动加载网页下一页内容的插件。访问该链接意味着系统上可能安装了 AutoPagerize 插件，或浏览器在访问特定网页时调用了自动分页功能。该插件会从数据库中获取设置和配置文件以支持不同网站的自动分页功能，从而生成访问记录。
-host-suffix, wedata.net,RejectHub
+## CrxMouse 鼠标手势插件后台 API（用于数据统计、配置同步和更新检查）
+HOST-SUFFIX, api.crxmouse.com
+## 鼠标手势 Chrome 插件的后台服务器域名
+HOST-SUFFIX, mousegesturesapi.com
 
-#AdGuard
-host-suffix, adtidy.org,RejectHub
+# Amplitude，用户行为分析与实验追踪（Tiger Trade、Kick 等 App 使用）
+HOST-SUFFIX, amplitude.com
 
-#火狐浏览器_流氓站点
-host-suffix, mozilla.cloudflare-dns.com,RejectHub
+# AppsFlyer，移动端广告归因与追踪 SDK
+HOST-SUFFIX, appsflyer.com
 
-#这个链接可能与 Cherpake 的产品或服务有关。Cherpake 开发了一些 Mac 和 iOS 上的应用程序，主要涉及远程控制、屏幕镜像等功能。countly 是一个开源的分析平台，用于跟踪应用程序的用户活动和行为。因此，countly.cherpake.com 可能用于这些应用程序的用户数据分析和统计，帮助开发者更好地理解用户使用模式。
-host-suffix, cherpake.com,RejectHub
+# FingerprintJS，浏览器 / 设备指纹识别库
+HOST-SUFFIX, fpjs.io
 
-#与 Dark Reader 插件相关，它是一款用于在浏览器中启用暗色模式的扩展程序。这个链接可能是为了更新扩展程序或发送一些使用统计数据。
-host, darkreader.org,RejectHub
+# Nielsen IMRS，第三方受众测量与跨站追踪（Twitch 使用）
+HOST-SUFFIX, imrworldwide.com
 
-#该网站可能与一些系统或网络管理相关的API服务有关，帮助优化网络性能或跟踪访问流量。
-host, api64.com,RejectHub
+# Bugsnag，崩溃分析与错误监控上报
+HOST, sessions.bugsnag.com
 
-#这个域名可能是一个与流量分析或广告投放相关的网站，通常被用于网络分析和用户行为跟踪。
-host, score.traficmetrics.com,RejectHub
+# Stats（开源 Mac 系统监控工具的统计接口）
+HOST, api.serhiy.io
 
-#shottr
-host, shottr.cc,RejectHub
+# ViewerAttack，网络流量或用户行为分析服务
+HOST, api.viewerattack.com
 
-#163
-host-suffix, 163.com,RejectHub
+# TechSmith 分析服务（Camtasia / Snagit 使用）
+HOST-SUFFIX, techsmith.com
 
-#sina
-host-suffix, sina.com,RejectHub
+
+# ──────────────────────────────
+# 🎯 广告投放 / 营销平台
+# ──────────────────────────────
+
+# Agentio，AI 创作者广告平台，已被多个广告拦截工具列入 blocklist
+HOST-SUFFIX, agentio.com
+
+# MG CDN，多用于成人直播 / 色情广告平台，有追踪脚本加载风险
+HOST-SUFFIX, mg-cdn.com
+
+# Ststandard，Stripchat 附属广告域名
+HOST-SUFFIX, ststandard.com
+
+# MetricUser，用户行为周期性上报平台
+# 常见于 Instagram / TikTok 下载类 Chrome 插件
+HOST-SUFFIX, metricuser.com
+
+# GetHogRider，浏览器扩展开发者工具
+# 常被 TikTok 下载器、YouTube 工具类插件使用
+HOST-SUFFIX, gethogrider.com
+
+# Hotfree123，免费成人直播网站，大量第三方追踪器与恶意脚本
+HOST-SUFFIX, hotfree123.com
+
+# MoEngage CDN，用户行为分析 + 推送服务 CDN（Stripchat 使用）
+HOST-SUFFIX, cdn.moengage.com
+
+# OneTrust，Cookie 合规 / 隐私同意弹窗脚本
+HOST-SUFFIX, cookielaw.org
+
+# Localize JS CDN，网站多语言翻译工具资源服务器
+HOST-SUFFIX, cdn.localizejs.com
+
+
+# ──────────────────────────────
+# 💬 客服 / 用户增长平台
+# ──────────────────────────────
+
+# Braze，用户增长与营销平台（推送通知 / App 内消息 / 行为分析）
+HOST-SUFFIX, braze.com
+HOST-SUFFIX, braze.eu
+
+# Intercom，客服消息平台（App 内聊天 / 用户引导 / 推送）
+# Deepseek 也使用此服务
+HOST-SUFFIX, intercom.com
+HOST-SUFFIX, intercomassets.com
+HOST-SUFFIX, intercomcdn.com
+
+
+# ──────────────────────────────
+# 💳 支付 / 软件授权验证
+# ──────────────────────────────
+
+# Paddle，独立开发软件常用支付 / 验证网关（Shottr、Alfred 等使用）
+HOST-SUFFIX, paddle.com
+HOST-SUFFIX, paddleapi.com
+
+# RevenueCat，订阅管理服务（Zoom Earth 等使用）
+HOST-SUFFIX, revenuecat.com
+
+# Nalpeiron，软件授权验证服务
+HOST, my.nalpeiron.com
+
+# Stripe，在线支付处理平台
+HOST, b.stripecdn.com
+HOST, m.stripe.network
+
+
+# ──────────────────────────────
+# 🛠️ 软件 / App 功能域名
+# ──────────────────────────────
+
+# Marine Traffic（船舶追踪）
+## Customer.io 用户营销与推送服务（in-app 消息）
+HOST, consumer.inapp.customer.io
+
+# OpenCat 模型数据库
+HOST-SUFFIX, models.dev
+# OpenCat 主要后端 API
+HOST-SUFFIX, catapi.fastify.cc
+# OpenCat 后端服务器 IP
+IP-CIDR, 172.67.135.41/32
+
+# Alfred，macOS 效率工具
+HOST-SUFFIX, alfred.app
+
+# Input Source Pro，输入法切换工具
+HOST-SUFFIX, inputsource.pro
+
+# AdGuard 更新服务
+HOST-SUFFIX, adtidy.org
+
+# AutoPagerize，自动加载下一页插件配置文件服务
+HOST-SUFFIX, wedata.net
+
+# Firefox 流氓站点（Mozilla 的 Cloudflare DNS）
+HOST-SUFFIX, mozilla.cloudflare-dns.com
+
+# Cherpake，Mac / iOS 远程控制 App，含用户行为分析 SDK
+HOST-SUFFIX, cherpake.com
+
+# Shutter Encoder，开源视频编码工具
+HOST-SUFFIX, shutterencoder.com
+
+# CleanMyMac / MacPaw 旗下工具
+HOST-SUFFIX, cleanmymac.com
+HOST-SUFFIX, devmate.com
+HOST-SUFFIX, macpaw.com
+HOST-SUFFIX, moonlock.com
+
+# Expo 更新服务，React Native App 配置拉取与推送（Kick App 使用）
+HOST-SUFFIX, expo.dev
+
+# Objective Development（Little Snitch 等 Mac 安全工具）地理位置服务
+HOST, geolocation.obdev.at
+
+# Dark Reader，浏览器暗色模式扩展更新 / 统计
+HOST, darkreader.org
+
+# Pusher 实时 WebSocket 推送（Chrome 开机触发 / Kick 使用）
+HOST, ws-us2.pusher.com
+
+# Datadog，应用性能监控 + 日志 + 错误追踪（Kick App 使用）
+HOST-SUFFIX, datadog.pool.ntp.org
+
+# Document by Readdle — 订阅页面资源 / 图标 / 通信中间件
+HOST, assets.pawwalls.com
+HOST, icons.pawwalls.com
+HOST, middleman.apps.readdle.com
+
+# Bose 耳机 App 数据上报接口
+HOST-SUFFIX, bose.io
+HOST, bose.my.onetrust.com
+
+# iPad 更新 App 后自动访问的监控域名
+HOST-SUFFIX, dpdns.org
+
+# iPhone / iPad 控制 Mac
+HOST, rs.ltd
+
+# Picsew，截图拼接工具
+HOST-SUFFIX, picsew.app
+
+# PDFgear（Mac 版）
+HOST-SUFFIX, pdfgear.com
+
+# Shottr，截图工具
+HOST, shottr.cc
+
+# TTS 文字转语音 — TTSMaker（ttsmaker.cn）
+HOST-SUFFIX, tts-file.com
+
+# TTS 文字转语音 — AISaver（aisaver.io）
+HOST, cdn.zbaseglobal.com
+
+# Deepseek 使用的第三方域名
+HOST-SUFFIX, cmpassport.com
+HOST-SUFFIX, zztfly.com
+
+# macOS 开源输入法 Rime / 鼠鬚管
+HOST-SUFFIX, rime.im
+
+# bilibili 漫画登录
+HOST, passport.bilicomic.com
+
+# Instagram 资源域名
+HOST, www.fbsbx.com
+
+
+# ──────────────────────────────
+# 🔴 Tiger Trade 老虎证券 — 追踪埋点
+# ──────────────────────────────
+
+# 老虎证券 App 内部统计与埋点上报接口
+HOST, analytics.tigerbrokers.com
+HOST, metrics.tigerbrokers.com
+
+
+# ──────────────────────────────
+# 🀄 抖音/ TikTok / 字节跳动 — 追踪埋点
+# ──────────────────────────────
+# 抖音&TikTok共用
+
+## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。_字节跳动非常老的基础域名家族，用于数据上报、日志收集、API 接口、埋点统计等。
+HOST-SUFFIX, snssdk.com
+
+### ── 日志/监控上报（用户行为追踪）────
+HOST-SUFFIX, zijieapi.com
+
+
+## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。字节跳动的静态资源 CDN（图片、视频封面、JS、CSS 等）。_以前是抖音主要图片域名，现在两者都在使用。
+HOST-SUFFIX, pstatp.com
+
+## 关联 (dir.list & TikTok.list) 抖音（国内版） + TikTok（国际版）共用。字节跳动集团主域名，包含大量子服务（API、配置、监控等）。_这是最广泛的域名，几乎所有字节产品都会用到。
+HOST-SUFFIX, bytedance.com
+
+# ──────────────────────────────
+# TikTok
+
+# TikTok / 抖音国际版 Pitaya ClientAI 资源 CDN（AI特效、功能插件包、资源下载）
+HOST, lf19-pkgcdn.pitaya-clientai.com
+
+# Disney 相关服务（TikTok 可能用于品牌合作、广告或内容推荐）
+HOST-SUFFIX, disney.com
+
+# Disney 旗下域名（同上，常用于广告投放或合作内容）
+HOST-SUFFIX, go.com
+
+# Jimmy Choo 奢侈品牌（TikTok 广告/品牌合作相关）
+HOST-SUFFIX, jimmychoo.com
+
+# Dynamic Yield - 个性化推荐和 A/B 测试平台（TikTok 用于优化内容推荐）
+HOST-SUFFIX, dynamicyield.com
+
+# Klarna - 支付分期服务（TikTok 购物功能可能调用）
+HOST-SUFFIX, klarnacdn.net
+
+# Pingdom - 网站性能监控和可用性监测服务（TikTok 用于内部性能监控）
+HOST-SUFFIX, pingdom.net
+
+# ACSB - 无障碍访问与合规服务（TikTok 用于满足部分地区的无障碍要求）
+HOST-SUFFIX, acsbapp.com
+
+# Click2Cart - 电商购物车转化追踪服务（TikTok Shop 相关）
+HOST-SUFFIX, click2cart.com
+
+# Linktree - 链接聚合工具（TikTok 创作者经常用来放个人链接）
+HOST-SUFFIX, linktr.ee
+
+# 通用占位/测试域名（部分 TikTok 广告或外包服务使用）
+HOST-SUFFIX, site.com
+
+# TikTok 字节跳动用来规避封锁和分散流量的混淆域名（随机字母组合是典型特征）。_TikTok 国际版经常使用这类奇怪的域名加载资源、视频流或JS脚本。
+HOST-SUFFIX, qrstuvwxyzab.com
+
+# TikTok（国际版）为主。_字节跳动内部的性能监控、A/B 测试、配置下发服务。_TikTok 国际版使用较多，用于动态调整功能和收集性能数据。
+HOST-SUFFIX, bytegecko.com
+
+
+# ──────────────────────────────
+# 抖音
+
+## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
+HOST-SUFFIX, bdcgslb.com
+
+## 电商与广告接口_抖音电商与广告系统用于商品数据与埋点上报
+HOST-SUFFIX, ecombdapi.com
+
+## 物联网与设备服务接口_抖音广告SDK可能调用的第三方IoT云服务用于埋点与设备数据上报
+HOST-SUFFIX, jikeiot.cloud
+
+## 广告SDK数据上报_抖音广告系统用于埋点与推荐算法
+HOST-SUFFIX, coconts.com
+
+## 广告SDK混淆域名_抖音广告系统用于埋点与行为数据上报
+HOST-SUFFIX, manlaxycloud.com
+
+## 字节跳动（抖音）实时音视频通信（RTC） 专用域名。_主要用于抖音的直播连麦、视频通话、PK 直播、多人互动直播 等实时互动功能。_当你打开抖音网页版或 App 观看/参与直播，尤其是主播开启连麦、PK、合唱等功能时，就会请求这个域名进行实时音视频传输。
+HOST-SUFFIX, rtcxyz.com
+
+# 抖音设备指纹上报服务器
+HOST-SUFFIX, dahhxxttxs.com
+
+# 抖音电脑版无用静态资源域名
+HOST-SUFFIX, huoshanstatic.com
+
+
+# 抖音手机版无用 URL（精准匹配 /trace/ 路径请求）
+#!# ⭕❌不支持的格式 URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
+
+# 抖音手机版无用 IP
+IP-CIDR, 221.204.46.250/32
+
+# 抖音使用的阿里巴巴服务器 IP 段
+IP-CIDR, 8.133.123.137/32
+IP-CIDR, 8.133.123.138/32
+IP-CIDR, 8.133.123.139/32
+IP-CIDR, 8.133.123.140/32
+IP-CIDR, 8.134.241.67/32
+
+# 抖音附属域名（无核心功能，属数据服务 / 冗余 CDN）
+HOST, m.baike.com
+HOST, mon.toutiaocloud.com
+HOST, mon.toutiaocloud.net
+HOST, wiki5.baike.com
+HOST-SUFFIX, 0kkkkkt.com
+HOST-SUFFIX, bdgp.cc
+HOST-SUFFIX, bjmxy.net
+HOST-SUFFIX, bytecdn.com
+HOST-SUFFIX, ks-live.com
+HOST-SUFFIX, ksyun.com
+HOST-SUFFIX, kuiniuca.com
+HOST-SUFFIX, ndcppx.com
+HOST-SUFFIX, onethingpcs.com
+HOST-SUFFIX, open-douyin.com
+HOST-SUFFIX, qiezibenpao.com
+HOST-SUFFIX, qishui.com
+HOST-SUFFIX, qtaeixd.com
+HOST-SUFFIX, simoxity.net
+HOST-SUFFIX, siomxity.com
+HOST-SUFFIX, sjxydc.com
+HOST-SUFFIX, wasu.tv
+HOST-SUFFIX, wuchuyun.com
+HOST-SUFFIX, wuchuyun.net
+HOST-SUFFIX, xinqiucc.com
+
+
+
+## 关联 (Douyin.list) HOST 或 HOST-KEYWORD ────────────────────────────────────────────────────────────
+HOST-SUFFIX, bytemaimg.com
+HOST-SUFFIX, cjjd14.com
+HOST-SUFFIX, ydycdn.com
+HOST-SUFFIX, ndcpp.com
+HOST-SUFFIX, yingt.fun
+HOST-SUFFIX, bytehwm.com
+
+# 这是 Fastly 的 ohttp 中继节点，用于隐私请求转发，不是普通访问的网站 (ohttp-relay1.fastly-edge.com)
+HOST-SUFFIX, fastly-edge.com
+
+# 字节跳动内部的 JavaScript 动态加载域名（JS 资源服务器）。_用于加载抖音网页版的一些动态脚本，包括：A/B 测试配置。_个性化推荐算法相关脚本。_部分功能模块的按需加载。_埋点 / 数据上报相关的 JS。
+HOST-SUFFIX, yirujs.com
+
+# 实时日志上报（行为数据、错误日志）
+HOST-SUFFIX, snsssdk.com
+
+# 抖音app_未知
+HOST-SUFFIX, toutiaostatic.com
+
+
+# ──────────────────────────────
+
+
+
+
+# ──────────────────────────────
+# ✂️ 剪映 / Ulike Cam — 追踪埋点
+# ──────────────────────────────
+
+HOST-SUFFIX, likecam.com
+HOST-SUFFIX, ulikecam.com
+
+
+# ──────────────────────────────
+# 🛍️ 拼多多 — 追踪埋点
+# ──────────────────────────────
+
+# 精准匹配 Host 必须是 IP_并且 Query 必须同时拥有:appid= os= clientVersion= scene= front= titanId= type=ADDRS 少一个参数都不会命中。
+#!# ⭕❌不支持的格式 URL-REGEX,^http://(\[[0-9A-Fa-f:]+\]|(?:\d{1,3}\.){3}\d{1,3})/d4\?(?=.*(?:^|&)appid=\d+)(?=.*(?:^|&)os=\d+)(?=.*(?:^|&)clientVersion=[^&]+)(?=.*(?:^|&)scene=\d+)(?=.*(?:^|&)front=\d+)(?=.*(?:^|&)titanId=[^&]+)(?=.*(?:^|&)type=ADDRS)(?:.*)$
+
+# 精准匹配 /d?id= 参数请求
+#!# ⭕❌不支持的格式 URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d\?id=[^&]+
+
+# 精准匹配 /d4?appid= 参数请求
+#!# ⭕❌不支持的格式 URL-REGEX, ^https?://(?:\d{1,3}\.){3}\d{1,3}(?::\d+)?/d4\?appid=[^&]+
+
+
+# ──────────────────────────────
+# 📦 淘宝 / 阿里巴巴 — 追踪埋点
+# ──────────────────────────────
+
+# 阿里巴巴统一用户 / 设备管理与风控平台（设备指纹）
+HOST-SUFFIX, alibabachengdun.net
+
+# 阿里巴巴客户端数据同步 / 行为上报接口
+HOST, client-ccrc.alibaba.com
+
+# 阿里小号配置接口
+HOST, zconfig.alibabausercontent.com
+
+# Nike 订单查询使用的阿里系追踪域名，与 Nike 核心功能无关
+HOST-SUFFIX, aliapp.org
+HOST-SUFFIX, tdum.alibaba.com
+
+
+# ──────────────────────────────
+# 🔴 微信 / 腾讯 — 追踪埋点
+# ──────────────────────────────
+
+# 微信电脑版无用域名
+HOST, dldir1v6.qq.com
+
+# 腾讯安全防护上报
+HOST, safebrowsing.urlsec.qq.com
+
+# 微信 / QQ 腾讯云节点（关闭网页版微信后发送的退出心跳包）
+IP-CIDR, 42.81.179.153/32
+
+# 微信 iPhone IP 段
+IP-CIDR, 42.202.141.12/32
+IP-CIDR, 42.202.141.13/32
+IP-CIDR, 42.202.141.116/32
+IP-CIDR, 42.202.153.15/32
+IP-CIDR, 42.202.153.23/32
+IP-CIDR, 42.202.153.25/32
+IP-CIDR, 42.202.153.33/32
+IP-CIDR, 42.202.153.37/32
+IP-CIDR, 42.202.153.50/32
+IP-CIDR, 42.202.153.120/32
+IP-CIDR, 42.202.154.19/32
+IP-CIDR, 42.202.154.21/32
+IP-CIDR, 42.202.154.211/32
+IP-CIDR, 42.202.154.212/32
+IP-CIDR, 123.172.120.22/32
+IP-CIDR, 123.172.120.37/32
+IP-CIDR, 123.172.120.41/32
+IP-CIDR, 123.172.120.54/32
+IP-CIDR, 123.172.120.75/32
+IP-CIDR, 123.172.120.78/32
+IP-CIDR, 123.172.120.87/32
+IP-CIDR, 123.172.120.88/32
+IP-CIDR, 123.172.120.93/32
+IP-CIDR, 123.172.120.94/32
+IP-CIDR, 123.172.120.95/32
+IP-CIDR, 123.172.120.99/32
+IP-CIDR, 123.172.120.115/32
+IP-CIDR, 123.172.120.120/32
+IP-CIDR, 123.172.120.142/32
+IP-CIDR, 183.60.8.74/32
+
+
+# ──────────────────────────────
+# ⏬ Downie
+# ──────────────────────────────
+# Downie 统计与数据上报服务器（Downie 4/5 使用，收集使用数据、检查更新等）
+HOST, www.downiestatistics.com
+
+# Downie 许可证验证服务器（软件激活、正版校验）
+HOST, licensing.charliemonroe.net
+
+
+# ──────────────────────────────
+# 📱 小红书 — 追踪埋点
+# ──────────────────────────────
+
+# 点点 AI 助手（小红书收购）
+HOST-SUFFIX, askdiandian.com
+
+# 天文茶，行为遥测 / 数据采集 SDK
+HOST-SUFFIX, tianwenca.com
+
+
+# ──────────────────────────────
+# 🎵 豆包 — 追踪埋点
+# ──────────────────────────────
+
+HOST-SUFFIX, oceancloudapi.com
+## 第三方 SDK 链接跟踪域名（广告/统计），可拒绝以保护隐私 HOST, zlink.ugsdk.cn
+HOST-SUFFIX, ugsdk.cn
+
+
+# ──────────────────────────────
+# 📖 有道词典 — 追踪埋点
+# ──────────────────────────────
+
+HOST, gorgon.youdao.com
+HOST, mind.youdao.com
+HOST, rlogs.youdao.com
+
+
+# ──────────────────────────────
+# 🗺️ 百度地图 — 追踪埋点
+# ──────────────────────────────
+
+# 百度广告投放 / 广告素材分发系统
+HOST-SUFFIX, h2tcbox.baidu.com
+
+# 百度地图广告 SDK（商业推广联动）
+HOST-SUFFIX, ubixioe.com
+
+
+# ──────────────────────────────
+# 🗺️ 高德地图 — 追踪埋点
+# ──────────────────────────────
+
+# 位置 / 行为埋点上报（苹果地图中国区亦使用）
+HOST-SUFFIX, qchannel01.cn
+
+
+# ──────────────────────────────
+# 📹 SenPlayer — 追踪埋点
+# ──────────────────────────────
+
+# 统计用户播放行为，可能含第三方数据采集 SDK
+HOST-SUFFIX, ldhy.click
+
+
+# ──────────────────────────────
+# 🌐 网页内容 - 句乐部
+# ──────────────────────────────
+
+# julebu.ai 等 AI 网站常用，属于隐私收集域名
+HOST-SUFFIX, oaistatsig.com
+# Statsig 用户行为分析平台（A/B 测试 + 埋点）
+HOST-SUFFIX, statsig.com
+
+HOST-SUFFIX, refgrow.com
+HOST-SUFFIX, iconify.design
+
+HOST, earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com
+
+# doppiocdn.media 是视频流媒体的 HLS 分发域名，拒绝会导致视频无法播放
+HOST, edge-hls.doppiocdn.media
+
+
+# ──────────────────────────────
+# ⚠️ 恶意 / 可疑域名
+# ──────────────────────────────
+
+# 未知
+IP-CIDR, 45.152.64.78/32
+
+# Gigya 不知道是什么
+HOST-SUFFIX, gigya.com
+
+# copilot AI 的第三方 AI 代理域名
+HOST, copilot.fun
+
+# 小米云存储 CDN（北京2区节点，石头扫地机器人用于固件更新/地图数据同步）
+HOST, cdn.cnbj2.fds.api.mi-img.com
+
+# Ideogram（美国 AI 图片生成网站）
+HOST-SUFFIX, ideogram.ai
+
+# Remote pro app iPad控制mac
+HOST-SUFFIX, cherpake.s3.amazonaws.com
+
+# BuyMeACoffee 赞助平台 - 静态资源 CDN。_常见于创作者打赏按钮，属于第三方嵌入内容
+HOST-SUFFIX, buymeacoffee.com
+
+# 盗版程序广告模块域名，未知来源软件_⚠️ 建议检查 Mac 是否安装了未知来源的软件或扩展
+HOST-SUFFIX, no-mad-world.club
+
+# Missav 追踪跳转链接
+HOST, r.trackwilltrk.com
+
+# Stripchat / 成人平台数据上报节点
+HOST, mc.thedd.online
+
+# 哔哩哔哩上传视频出现的网址
+## eSheep.com（电子羊）是一个中国主流的 AIGC / AI 绘画社区，类似 Civitai，用户可以上传、分享、生成 AI 图片模型（Stable Diffusion 模型、LoRA 等）。
+HOST-SUFFIX, esheep.com

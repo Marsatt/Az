@@ -1,0 +1,32 @@
+# ==============================
+# 🤖 AI 工具 不需要🇺🇸节点
+# ==============================
+
+#Gemini API
+HOST, api.rc-backup.com
+
+# Gemini google
+HOST-SUFFIX, gemini.com
+HOST-SUFFIX, gemini.gstatic.com
+
+
+# NAME: Gemini
+HOST,ai.google.dev
+HOST,alkalimakersuite-pa.clients6.google.com
+HOST,makersuite.google.com
+HOST-SUFFIX,bard.google.com
+HOST-SUFFIX,deepmind.com
+HOST-SUFFIX,deepmind.google
+HOST-SUFFIX,gemini.google.com
+HOST-SUFFIX,generativeai.google
+HOST-SUFFIX,proactivebackend-pa.googleapis.com
+HOST-SUFFIX,apis.google.com
+HOST-KEYWORD,colab
+HOST-KEYWORD,developerprofiles
+HOST-KEYWORD,generativelanguage
+
+HOST,generativelanguage.googleapis.com
+
+
+
+

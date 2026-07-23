@@ -3,29 +3,22 @@ DOMAIN, safebrowsing.urlsec.qq.com
 
 
 
-# NAME: SystemOTA（屏蔽苹果系统自动更新）
-## UPDATED: 2026-05-24 23:14:16
-
-
-# appldnld（系统固件下载）
-DOMAIN-SUFFIX,appldnld.apple.com
-DOMAIN-SUFFIX,appldnld.apple.com.akadns.net
-DOMAIN-SUFFIX,appldnld-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,appldnld.g.aaplimg.com
+# NAME: SystemOTA
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:15:11
+# DOMAIN: 65
+# DOMAIN-SUFFIX: 13
+# TOTAL: 78
 DOMAIN,appldnld-cdn.apple.com.akadns.net
 DOMAIN,appldnld-cdn.origin-apple.com.akadns.net
 DOMAIN,appldnld.apple.com.mwcname.com
-
-# gdmf（设备固件更新元数据）
-DOMAIN-SUFFIX,gdmf.apple.com
-DOMAIN-SUFFIX,gdmf.apple.com.akadns.net
+DOMAIN,configuration.apple.com
 DOMAIN,gdmf-cdn.apple.com.akadns.net
 DOMAIN,gdmf-cdn.origin-apple.com.akadns.net
 DOMAIN,gdmf-lb.apple.com.akadns.net
 DOMAIN,gdmf.apple.com.mwcname.com
 DOMAIN,gdmf.g.aaplimg.com
-
-# gg（系统更新 CDN 节点）
 DOMAIN,gg-cdn.apple.com.akadns.net
 DOMAIN,gg-cdn.origin-apple.com.akadns.net
 DOMAIN,gg-lb.apple.com.akadns.net
@@ -33,24 +26,10 @@ DOMAIN,gg.apple.com
 DOMAIN,gg.apple.com.akadns.net
 DOMAIN,gg.apple.com.mwcname.com
 DOMAIN,gg.g.aaplimg.com
-
-# gnf（系统更新通知推送）
 DOMAIN,gnf-mdn.apple.com
 DOMAIN,gnf-mr.apple.com
-
-# gs（苹果核心服务网关）
 DOMAIN,gs.apple.com
-
-# ig（系统镜像下载）
 DOMAIN,ig.apple.com
-
-# ns（iTunes 软件更新）
-DOMAIN,ns.itunes.apple.com
-
-# skl（系统内核更新）
-DOMAIN,skl.apple.com
-
-# iphonesubmissions（设备信息上报）
 DOMAIN,iphonesubmissions-cdn.apple.com.akadns.net
 DOMAIN,iphonesubmissions-cdn.origin-apple.com.akadns.net
 DOMAIN,iphonesubmissions-lb.apple.com.akadns.net
@@ -58,28 +37,16 @@ DOMAIN,iphonesubmissions.apple.com
 DOMAIN,iphonesubmissions.apple.com.akadns.net
 DOMAIN,iphonesubmissions.apple.com.mwcname.com
 DOMAIN,iphonesubmissions.g.aaplimg.com
-
-# mesu（系统更新目录服务）
-DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,mesu.g.aaplimg.com
-DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,mesu-cdn.origin-apple.com.akadns.net
 DOMAIN,mesu-lb.apple.com.akadns.net
+DOMAIN,mesu.apple.com.akadns.net
 DOMAIN,mesu.apple.com.mwcname.com
-
-# ocsp（证书在线状态验证）
-DOMAIN-SUFFIX,ocsp.apple.com
-DOMAIN-SUFFIX,ocsp.g.aaplimg.com
-DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
+DOMAIN,ns.itunes.apple.com
 DOMAIN,ocsp-cdn.apple.com.akadns.net
 DOMAIN,ocsp-cdn.origin-apple.com.akadns.net
+DOMAIN,ocsp.apple.com.akadns.net
 DOMAIN,ocsp.apple.com.mwcname.com
-
-# oscdn / osrecovery（系统恢复镜像下载）
 DOMAIN,oscdn.apple.com
 DOMAIN,osrecovery.apple.com
-
-# radarsubmissions（崩溃日志与错误上报）
 DOMAIN,radarsubmissions-cdn.apple.com.akadns.net
 DOMAIN,radarsubmissions-cdn.origin-apple.com.akadns.net
 DOMAIN,radarsubmissions-lb.apple.com.akadns.net
@@ -87,8 +54,7 @@ DOMAIN,radarsubmissions.apple.com
 DOMAIN,radarsubmissions.apple.com.akadns.net
 DOMAIN,radarsubmissions.apple.com.mwcname.com
 DOMAIN,radarsubmissions.g.aaplimg.com
-
-# sw（软件更新核心服务）
+DOMAIN,skl.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,swdist.apple.com
 DOMAIN,swdownload.apple.com
@@ -100,12 +66,8 @@ DOMAIN,swscan.apple.com
 DOMAIN,swscan.apple.com.akadns.net
 DOMAIN,swscan.apple.com.mwcname.com
 DOMAIN,swscan.g.aaplimg.com
-
-# updates（系统更新文件 CDN）
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN,updates.cdn-apple.com
-
-# xp（系统体验数据上报）
 DOMAIN,xp-cdn.apple.com.akadns.net
 DOMAIN,xp-cdn.origin-apple.com.akadns.net
 DOMAIN,xp-lb.apple.com.akadns.net
@@ -113,3 +75,16 @@ DOMAIN,xp.apple.com
 DOMAIN,xp.apple.com.akadns.net
 DOMAIN,xp.apple.com.mwcname.com
 DOMAIN,xp.g.aaplimg.com
+DOMAIN-SUFFIX,appldnld-lb.apple.com.akadns.net
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN-SUFFIX,appldnld.apple.com.akadns.net
+DOMAIN-SUFFIX,appldnld.g.aaplimg.com
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
+DOMAIN-SUFFIX,mesu-cdn.origin-apple.com.akadns.net
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,mesu.g.aaplimg.com
+DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp.g.aaplimg.com

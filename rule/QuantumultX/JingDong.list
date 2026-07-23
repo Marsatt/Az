@@ -5,12 +5,13 @@ HOST-SUFFIX, muniao.com,JingDong
 #手机版京东app
 IP-CIDR, 211.144.24.231/32,JingDong
 
+
 # NAME: JingDong
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:03:52
-# HOST-SUFFIX: 248
-# TOTAL: 248
+# UPDATED: 2026-02-14 02:16:19
+# HOST-SUFFIX: 249
+# TOTAL: 249
 HOST-SUFFIX,1huizhan.com,JingDong
 HOST-SUFFIX,3.cn,JingDong
 HOST-SUFFIX,300hu.com,JingDong
@@ -242,6 +243,7 @@ HOST-SUFFIX,qianxun.com,JingDong
 HOST-SUFFIX,qingzhouip.com,JingDong
 HOST-SUFFIX,sgsic.com,JingDong
 HOST-SUFFIX,shlsyb.com,JingDong
+HOST-SUFFIX,tjjt360.com,JingDong
 HOST-SUFFIX,toplife.com,JingDong
 HOST-SUFFIX,vg.com,JingDong
 HOST-SUFFIX,wanggou.com,JingDong

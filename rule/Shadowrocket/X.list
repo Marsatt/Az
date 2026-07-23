@@ -1,6 +1,3 @@
-##14-line
-#DOMAIN-SUFFIX,grok.com
-
 # X申诉需要的网址。_是一個非常重要的安全與驗證相關的網域，它通常出現在您進行登入或提交表單的過程中。
 DOMAIN-SUFFIX, iframe.arkoselabs.com
 

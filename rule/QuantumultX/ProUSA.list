@@ -1,334 +1,574 @@
-#✈️
-HOST, pqjc.site, ProUSA
+# ==============================
+# 🍎 Apple 苹果
+# ==============================
+# 设备配置与激活、iCloud 同步、推送通知、Apple ID 验证
+HOST, configuration.apple.com
 
-#SSL.com 是一家全球知名的证书颁发机构（CA，Certificate Authority
-HOST-SUFFIX, ssl.com, ProUSA
 
-# v2ex.com
-#显示图片
-HOST-SUFFIX, imgur.com, ProUSA
-HOST-SUFFIX, v2ex.com, ProUSA
-HOST-SUFFIX, v2ex.co, ProUSA
+# NAME: Whatsapp
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:16:56
+# HOST: 1
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 4
+# IP-CIDR: 11
+# TOTAL: 17
+HOST,graph.facebook.com
+HOST-SUFFIX,bintray.com
+HOST-SUFFIX,whatsapp.biz
+HOST-SUFFIX,whatsapp.com
+HOST-SUFFIX,whatsapp.net
+HOST-KEYWORD,whatsapp
+IP-CIDR,158.85.224.160/27
+IP-CIDR,158.85.46.128/27
+IP-CIDR,158.85.5.192/27
+IP-CIDR,173.192.222.160/27
+IP-CIDR,173.192.231.32/27
+IP-CIDR,18.194.0.0/15
+IP-CIDR,184.173.128.0/17
+IP-CIDR,208.43.122.128/27
+IP-CIDR,34.224.0.0/12
+IP-CIDR,50.22.198.204/30
+IP-CIDR,54.242.0.0/15
 
-#Folo
-##未知
-HOST,media.zenfs.com, ProUSA
-##端传媒
-HOST,theinitium.com, ProUSA
-HOST, unavatar.webp.se, ProUSA
-HOST-SUFFIX, follow.is, ProUSA
 
-#纽约时报
-HOST-SUFFIX, nytimes.com, ProUSA
-HOST-SUFFIX, nyt.com, ProUSA
 
-#华尔街日报
-HOST-SUFFIX, wsj.com, ProUSA
-HOST-SUFFIX, wsj.net, ProUSA
-HOST-SUFFIX, captcha-delivery.com, ProUSA
+# ==============================
+# 📱 直播平台（非成人）
+# ==============================
 
-#v2ex
-HOST, v2ex.com, ProUSA
+# ── Twitch ───────────────────────
+# Amazon CloudFront CDN（Twitch 视频流）
+HOST-SUFFIX, cloudfront.net
 
-#字幕转换网站
-HOST, www.syedgakbar.com, ProUSA
+# ── Kick 直播 ────────────────────
+HOST-SUFFIX, kick.com
+HOST-SUFFIX, kick-video.download
+# Pusher 实时通信（直播聊天室弹幕/礼物）
+HOST, js.pusher.com
+HOST, sockjs-us2.pusher.com
+# 播放录像（AWS MediaTailor）
+HOST, segments.mediatailor.us-west-2.amazonaws.com
 
-#比特币信息查看
-HOST, mempool.space, ProUSA
+# ── AfreecaTV / SoopLive / Pandalive（韩国直播）──
+HOST-SUFFIX, afreecatv.com
+HOST-SUFFIX, sooplive.com
+HOST-SUFFIX, sooplive.co.kr
+HOST-SUFFIX, pandalive.co.kr
+HOST-SUFFIX, pandalive.com
 
-#IP、域名、ASN查询
-HOST, ping0.cc, ProUSA
+# ── Naver / YoonFroggy / Toonation（韩国直播）────
+HOST-SUFFIX, toon.at
+HOST-SUFFIX, naver.com
+HOST-SUFFIX, navercorp.com
+HOST-SUFFIX, pstatic.net
+HOST-SUFFIX, akamaized.net
+HOST, nng-phinf.pstatic.net
+HOST, ntm.pstatic.net
+HOST, scv.band.us
+HOST, ssl.pstatic.net
 
-#抖音 & TikTok 视频下载
-HOST-SUFFIX, tiksave.io, ProUSA
-HOST, dl.snapcdn.app, ProUSA
 
-# Twitch播放关联，Amazon CloudFront 的官方域名，它是 亚马逊 AWS 提供的一项全球 CDN（内容分发网络）服务。
-HOST-SUFFIX, cloudfront.net, ProUSA
+# ==============================
+# 🔞 成人直播平台
+# ==============================
 
-#spankbang.com
-HOST-SUFFIX, ptgncdn.com, ProUSA
-HOST-SUFFIX, sb-cd.com, ProUSA
-HOST-SUFFIX, spankbang.com, ProUSA
+# ── Chaturbate ────────────────────
+HOST-SUFFIX, chaturbate.com
+HOST-SUFFIX, chaturbate.jjgirls.com
 
-#爱壹帆
-HOST-SUFFIX, iyf.tv, ProUSA
+# 这具体是 Stripchat 平台的子域名（互动游戏/功能服务器/直播画面右边的转盘，reject后会变成灰色大方框）
+HOST, battleship.sc-apps.com
 
-#模块_重写 & 规则集转换
-HOST, script.hub, ProUSA
+# ── Stripchat / HPLives / XLoveCam / CAM4 ────────
+HOST-SUFFIX, highwebmedia.com
+HOST-SUFFIX, stripchat.com
+HOST-SUFFIX, hplives.com
+HOST-SUFFIX, hpjav.tv
+HOST-SUFFIX, sc-app.com
+HOST-SUFFIX, strpst.com
+HOST-SUFFIX, loo3laej.com
+HOST-SUFFIX, mmcdn.com
+HOST-SUFFIX, chapturist.com
+HOST, assets.strpssts.net
+HOST, assets.strpssts-ana.com
+HOST, assets.striiiipst.com
+HOST, mc.thedd.online
 
-#naver & yoonfroggy韩国直播网站
-HOST-SUFFIX, akamaized.net, ProUSA
-HOST-SUFFIX, navercorp.com, ProUSA
-HOST-SUFFIX, pstatic.net, ProUSA
-HOST-SUFFIX, naver.com, ProUSA
-HOST, ssl.pstatic.net, ProUSA
-HOST, scv.band.us, ProUSA
-HOST, nng-phinf.pstatic.net, ProUSA
-HOST, ntm.pstatic.net, ProUSA
+# Paymentico（塞浦路斯支付处理商，用于成人直播平台代币充值，如 Stripchat）
+HOST-SUFFIX, paymentico.com
 
-#chaturbate.jjgirls.com
-##成人直播平台母公司域名，stripchat.com、hplives.com、xlovecam.com、cam4.com 等.
-HOST-SUFFIX, highwebmedia.com, ProUSA
-#成人直播/色情内容平台 上，如 Chaturbate、Stripchat、hplives.com 等，成人网站、直播平台、图片/视频内容加速。
-##是一个用于收集和报告数据的 URL，主要用于检测和分析内容安全策略（CSP）或其他安全相关的报告请求。这个域名属于 MeetMe Inc. 的 CDN（内容分发网络），常用于应用和网站的数据报告功能。它会捕捉并报告可能的网络错误、安全策略违规、或内容加载问题，以帮助开发人员改善用户体验和安全性。
-HOST-SUFFIX, mmcdn.com, ProUSA
-HOST, chaturbate.jjgirls.com, ProUSA
-HOST, internet-up.ably-realtime.com, ProUSA
+# ── Doppio CDN（直播流与静态资源加速）──
+HOST, chunks.doppiostreams.com
+HOST-SUFFIX, doppiocdn.com
+HOST-SUFFIX, doppiocdn.live
+HOST-SUFFIX, doppiocdn.net
+HOST-SUFFIX, doppiocdn.org
+HOST-SUFFIX, oppiocdn.media
 
-# Maxming_GeoLite2
-HOST-SUFFIX, maxmind.com, ProUSA
+# ── Lovense（互动设备 API）────────────
+HOST, api.lovense-api.com
 
-#LULU防火墙
-HOST, objective-see.org, ProUSA
+# ── Ably（实时通信）──────────────────
+HOST, internet-up.ably-realtime.com
+HOST, ws-up.ably-realtime.com
+HOST-SUFFIX, ably.net
 
-#Objective-See 是一个提供 macOS 安全工具的开源网站，专门开发针对 macOS 系统的免费安全工具。这个网站包含许多针对 macOS 的安全应用，如 Little Snitch、RansomWhere? 等，用于监测和防止恶意软件的攻击。443 是 HTTPS 端口号，表示这是一个安全的访问。
-HOST-SUFFIX, objective-see.com, ProUSA
+# ── MissAV ───────────────────────
+HOST-KEYWORD, missav
+HOST-SUFFIX, njav.tv
+HOST, fourhoi.com
+HOST, surrit.com
+HOST, r.trackwilltrk.com
 
-#ikea.com
-HOST-SUFFIX, ikea.com, ProUSA
+# ── SpankBang ────────────────────
+HOST-SUFFIX, spankbang.com
+HOST-SUFFIX, ptgncdn.com
+HOST-SUFFIX, sb-cd.com
 
-#Zoom Earth
-HOST-SUFFIX, zoom.earth, ProUSA
+# ── fbjav / svjav ─────────────────
+HOST-SUFFIX, fbjav.com
+HOST-SUFFIX, svjav.com
+HOST-SUFFIX, images.imfb.xyz
+HOST-SUFFIX, player.imcontent.me
 
-#windy weather
-HOST-SUFFIX, windy.com, ProUSA
+# ── jable.tv ─────────────────────
+HOST-SUFFIX, jable.tv
+HOST-SUFFIX, mushroomtrack.com
 
-#Write&Improve
-HOST, s3-eu-west-1.amazonaws.com, ProUSA
-HOST, wandi-6402.kxcdn.com, ProUSA
-HOST, writeandimprove.com, ProUSA
-HOST-SUFFIX, englishlanguageitutoring.com, ProUSA
+# ── xvideos ──────────────────────
+HOST-SUFFIX, xvideos.com
+HOST-SUFFIX, xvideos-cdn.com
 
-#Transcribe AI app
-HOST, firebaselogging-pa.googleapis.com, ProUSA
-HOST, app-analytics-services.com, ProUSA
-HOST, ep2.facebook.com, ProUSA
+# ── xnxx ─────────────────────────
+HOST-SUFFIX, xnxx.com
+HOST-SUFFIX, xnxx-cdn.com
 
-#AV_BT搜索
-HOST-SUFFIX, sukebei.nyaa.si, ProUSA
+# ── MyFreeCams ───────────────────
+HOST-SUFFIX, myfreecams.com
+HOST-SUFFIX, mfcimg.com
 
-#missav.com
-HOST-KEYWORD, missav, ProUSA
-HOST-SUFFIX, njav.tv, ProUSA
-HOST, surrit.com, ProUSA
-HOST, fourhoi.com, ProUSA
-HOST, r.trackwilltrk.com, ProUSA
+# ── AV / BT 搜索 ──────────────────
+HOST-SUFFIX, sukebei.nyaa.si
 
-#文字转语音
-#aisaver.io 有限制的免费
-HOST, replicate.delivery, ProUSA
-HOST-SUFFIX, aisaver.io, ProUSA
-HOST, extensiondock.com, ProUSA
-# fish.audio
-HOST-SUFFIX, fish.audio, ProUSA
-# fish.audio_下载语音
-HOST-SUFFIX, r2.cloudflarestorage.com, ProUSA
 
-# NEW
-HOST-SUFFIX, bbc.com, ProUSA
-HOST-SUFFIX, bbci.co.uk, ProUSA
-HOST-SUFFIX, cnn.com, ProUSA
-HOST-SUFFIX, dailymail.co.uk, ProUSA
-HOST-SUFFIX, reuters.com, ProUSA
-HOST-SUFFIX, aljazeera.com, ProUSA
-HOST-SUFFIX, aljazeera.net, ProUSA
+# ==============================
+# 🔞 成人平台
+# ==============================
 
-#huggingface
-HOST-SUFFIX, huggingface.co, ProUSA
+# Pornhub 系列
+HOST-SUFFIX, pornhub.com
+HOST-SUFFIX, pornhubpremium.com
+HOST-SUFFIX, pornhub.org
+HOST-SUFFIX, phncdn.com
+HOST-SUFFIX, phncdn.net
+HOST-SUFFIX, phprcdn.com
+HOST-SUFFIX, youporn.com
+HOST-SUFFIX, redtube.com
+HOST-SUFFIX, tube8.com
+HOST-SUFFIX, thumbzilla.com
+HOST, video.sacdnssedge.com
 
-#姿勢小王子
-HOST-SUFFIX, bbs.zsxwz.com, ProUSA
 
-#TTS
-HOST-SUFFIX, wangwangit.com, ProUSA
+# ==============================
+# 📰 新闻媒体
+# ==============================
 
-#boxjs
-HOST-SUFFIX, boxjs.com, ProUSA
+# BBC
+HOST-SUFFIX, bbc.com
+HOST-SUFFIX, bbci.co.uk
 
-#udio AI音乐制作
-HOST-SUFFIX, udio.com, ProUSA
+# CNN
+HOST-SUFFIX, cnn.com
 
-#suno AI音乐制作
-HOST, img.clerk.com, ProUSA
-HOST-SUFFIX, suno.com, ProUSA
-HOST-SUFFIX, suno.ai, ProUSA
+# Daily Mail
+HOST-SUFFIX, dailymail.co.uk
 
-#IMDB
-HOST-SUFFIX, imdb.com, ProUSA
+# Reuters
+HOST-SUFFIX, reuters.com
 
-#MacOS破解網站 xm
-HOST-SUFFIX, mediafire.com, ProUSA
-HOST, psv4.userapi.com, ProUSA
-HOST, unpkg.com, ProUSA
-HOST-SUFFIX, vk.com, ProUSA
-HOST, unpkg.com, ProUSA
-HOST-SUFFIX, vk.com, ProUSA
-HOST-SUFFIX, appstorrent.ru, ProUSA
-HOST-SUFFIX, xmac.app, ProUSA
+# Al Jazeera
+HOST-SUFFIX, aljazeera.com
+HOST-SUFFIX, aljazeera.net
 
-#MacOS破解網站 appstorrent
-HOST, appstorrent.org, ProUSA
+# 纽约时报
+HOST-SUFFIX, nytimes.com
+HOST-SUFFIX, nyt.com
 
-#開源播放器iina
-HOST, www.iina.io, ProUSA
+# 华尔街日报
+HOST-SUFFIX, wsj.com
+HOST-SUFFIX, wsj.net
+HOST-SUFFIX, captcha-delivery.com
 
-#mega下載網站
-HOST-SUFFIX, mega.nz, ProUSA
-HOST-SUFFIX, mega.co.nz, ProUSA
+# 端传媒（香港独立媒体）
+HOST, theinitium.com
 
-#afreecatv & sooplive, ProUSA
-HOST-SUFFIX, afreecatv.com, ProUSA
-HOST-SUFFIX, sooplive.co.kr, ProUSA
 
-#fbjav.com
-HOST-SUFFIX, player.imcontent.me, ProUSA
-HOST-SUFFIX, images.imfb.xyz, ProUSA
-HOST-SUFFIX, fbjav.com, ProUSA
-HOST-SUFFIX, svjav.com, ProUSA
+# ==============================
+# 🎵 音乐 / 视频娱乐
+# ==============================
 
-#jable.tv
-HOST-SUFFIX, mushroomtrack.com, ProUSA
-HOST-SUFFIX, jable.tv, ProUSA
+# Reddit
+HOST-SUFFIX, reddit.com
+HOST-SUFFIX, redd.it
+HOST-SUFFIX, redditmail.com
+HOST-SUFFIX, redditmedia.com
+HOST-SUFFIX, redditstatic.com
+HOST-SUFFIX, reddituploads.com
+HOST-SUFFIX, reddituploads.com.cdn-cf.behance.net
+HOST-SUFFIX, reddituploads.com.cdn-cf.dropbox.com
 
-#www.xvideos.com
-HOST-SUFFIX, xvideos.com, ProUSA
-HOST-SUFFIX, xvideos-cdn.com, ProUSA
+# TikTok / 抖音视频下载
+HOST-SUFFIX, tiksave.io
+HOST, dl.snapcdn.app
 
-#www.xnxx.com
-HOST-SUFFIX, xnxx-cdn.com, ProUSA
-HOST-SUFFIX, xnxx.com, ProUSA
 
-#myfreecams.com
-HOST-SUFFIX, mfcimg.com, ProUSA
-HOST-SUFFIX, myfreecams.com, ProUSA
+# ==============================
+# 🧩 Chrome 浏览器插件
+# ==============================
 
-#reddit.com
-HOST-SUFFIX, redd.it, ProUSA
-HOST-SUFFIX, reddit.com, ProUSA
-HOST-SUFFIX, redditmail.com, ProUSA
-HOST-SUFFIX, redditmedia.com, ProUSA
-HOST-SUFFIX, redditstatic.com, ProUSA
-HOST-SUFFIX, reddituploads.com, ProUSA
-HOST-SUFFIX, reddituploads.com.cdn-cf.behance.net, ProUSA
-HOST-SUFFIX, reddituploads.com.cdn-cf.dropbox.com, ProUSA
+# Mass Block Twitter & Twitter Filter 插件
+HOST-SUFFIX, rxliuli.com
 
-#WIKI
-HOST-SUFFIX,mediawiki.org, ProUSA
-HOST-SUFFIX,wikibooks.org, ProUSA
-HOST-SUFFIX,wikidata.org, ProUSA
-HOST-SUFFIX,wikileaks.org, ProUSA
-HOST-SUFFIX,wikimedia.org, ProUSA
-HOST-SUFFIX,wikinews.org, ProUSA
-HOST-SUFFIX,wikipedia.org, ProUSA
-HOST-SUFFIX,wikiquote.org, ProUSA
-HOST-SUFFIX,wikisource.org, ProUSA
-HOST-SUFFIX,wikiversity.org, ProUSA
-HOST-SUFFIX,wikivoyage.org, ProUSA
-HOST-SUFFIX,wiktionary.org, ProUSA
+# 沉浸式翻译（粉色图标）
+HOST, config.immersivetranslate.com
 
-#kick直播平台
-HOST-SUFFIX, kick.com, ProUSA
+# 划词翻译 hcfy.ai
+HOST-SUFFIX, hcfy.ai
 
-#MAC keka
-HOST, u.keka.io, ProUSA
+# Ghostery（隐私保护插件）
+HOST-SUFFIX, ghostery.com
+HOST-SUFFIX, ghostery.net
 
-#Goodnote 6 app
-HOST-SUFFIX, goodnotes.email, ProUSA
-HOST-SUFFIX, goodnotes.com, ProUSA
-HOST, api.sprig.com, ProUSA
+# VidIQ（YouTube 数据分析）
+HOST-SUFFIX, vidiq.com
 
-# Flightradar24 app
-HOST-SUFFIX, privacy-center.org, ProUSA
-HOST-SUFFIX, flightradar24.com, ProUSA
-HOST, mobile-data.onetrust.io, ProUSA
-#AR顯示飛機照片（信息框下面，第二個框）。
-HOST, cdn.jetphotos.com, ProUSA
+# FetchV（网页视频下载）
+HOST, fetchv.net
 
-#Marine Traffic
-HOST-SUFFIX, marinetraffic.com, ProUSA
+# Click & Clean（浏览器清理）
+HOST, cdn.hotcleaner.com
+HOST, www.hotcleaner.com
 
-#嗯背單詞
-#牛津
-HOST-SUFFIX, oxfordlearnersdictionaries.com, ProUSA
-#韋氏
-HOST-SUFFIX, merriam-webster.com, ProUSA
-#朗文
-HOST-SUFFIX, ldoceonline.com, ProUSA
-#柯林斯
-HOST-SUFFIX, collinsdictionary.com, ProUSA
+# Return YouTube Dislike（恢复踩数显示）
+HOST, returnyoutubedislikeapi.com
 
-#github
-HOST-SUFFIX, ghproxy.com, ProUSA
+# IP Address and HOST Information（显示旗帜）
+HOST-SUFFIX, dnslytics.com
+HOST-SUFFIX, dnslytics.org
+HOST-SUFFIX, dnslytics.uk
 
-#JDownloader 2-下載工具自動更新。
-HOST-SUFFIX, jdownloader.org, ProUSA
-HOST-SUFFIX, appwork.org, ProUSA
+# WhatIsMyIP（显示 IP 旗帜）
+HOST-SUFFIX, whatismyip.click
 
-#書籤-it-轉換類-批量全能轉換器
-HOST-SUFFIX, xconvert.com, ProUSA
+# 蛊惑狼进度条
+HOST, custom-progress-bar.com
+HOST, custom-progressbar.com
 
-#Chrome瀏覽器插件
-#沉浸式翻译（粉色图标）
-HOST, config.immersivetranslate.com, ProUSA
-#TikTok视频下载、AI脚本与数据洞察-达人精灵
-HOST-SUFFIX, kolsprite.com, ProUSA
-#应该是谷歌插件的第一个，显示旗子。
-HOST, geoip.furman.im, ProUSA
-#hcfy.ai 是谷歌浏览器插件"划词翻译"扩展的官方网站。
-HOST-SUFFIX, hcfy.ai, ProUSA
-#Chrome插件-Ghostery数据传输
-HOST-SUFFIX, ghostery.net, ProUSA
-HOST-SUFFIX, ghostery.com, ProUSA
-#vidiq.com，YouTube查看播放量工具
-HOST-SUFFIX, vidiq.com, ProUSA
-#fetchv，网页视频下载工具。
-HOST, fetchv.net, ProUSA
-#Click&Clean
-HOST, cdn.hotcleaner.com, ProUSA
-HOST, www.hotcleaner.com, ProUSA
-#Return YouTube Dislike API 是一个社区驱动的项目，旨在通过API恢复 YouTube 的 "不喜欢" 计数功能。在 2021 年，YouTube 官方移除了视频的公开不喜欢数量，该网站提供了恢复该功能的浏览器插件和 API。
-HOST, returnyoutubedislikeapi.com, ProUSA
-#chrome瀏覽器，第3個flag顯示。
-HOST-SUFFIX, whatismyip.click, ProUSA
-#chrome瀏覽器，图标是ip。IP Address and HOST Information。
-HOST-SUFFIX, dnslytics.com, ProUSA
-HOST-SUFFIX, dnslytics.org, ProUSA
-HOST-SUFFIX, dnslytics.uk, ProUSA
+# Stream Recorder（直播录制）
+HOST-SUFFIX, hlsloader.com
 
-#蠱惑狼進度條
-HOST, custom-progress-bar.com, ProUSA
-HOST, custom-progressbar.com, ProUSA
-#Stream Recorder
-HOST-SUFFIX, hlsloader.com, ProUSA
-#Language Reactor
-HOST-SUFFIX, dioco.io, ProUSA
-HOST-SUFFIX, languagelearningwithnetflix.com, ProUSA
-HOST-SUFFIX, languagereactor.com, ProUSA
-#TwitchVodDownload
-HOST, sockjs-us2.pusher.com, ProUSA
-HOST-SUFFIX, eu.srcdn.net, ProUSA
-HOST-SUFFIX, streamrecorder.io, ProUSA
-HOST-SUFFIX, streamscharts.com, ProUSA
-HOST-SUFFIX, sullygnome.com, ProUSA
-HOST-SUFFIX, voddownloader.com, ProUSA
+# Language Reactor（语言学习）
+HOST-SUFFIX, languagereactor.com
+HOST-SUFFIX, languagelearningwithnetflix.com
+HOST-SUFFIX, dioco.io
 
-#YouTuBe 雙語翻譯
-HOST, extension.dioco.io, ProUSA
+# Twitch VOD 下载插件
+HOST-SUFFIX, streamrecorder.io
+HOST-SUFFIX, voddownloader.com
+HOST-SUFFIX, streamscharts.com
+HOST-SUFFIX, sullygnome.com
+HOST-SUFFIX, eu.srcdn.net
 
-#Z-Libly图书馆
-HOST, dln1.ncdn.ec, ProUSA
-HOST, z-library.sk, ProUSA
+# TikTok 数据分析 / 达人精灵
+HOST-SUFFIX, kolsprite.com
 
-#油猴
-HOST-SUFFIX, greasyfork.org, ProUSA
-HOST-SUFFIX, tampermonkey.net, ProUSA
+# GeoIP 显示旗帜
+HOST, geoip.furman.im
 
-#天时，地球看pm2.5
-HOST-SUFFIX, nullschool.net, ProUSA
+# Tab Translate（Chrome 翻译插件）
+HOST-SUFFIX, tabtranslate.com
 
-#美國大使館，地球顯示mp2.5
-HOST, aqicn.org, ProUSA
-HOST, mapq.waqi.info, ProUSA
-HOST, api2.waqi.info, ProUSA
-HOST, server.arcgisonline.com, ProUSA
+# Pekka（TikTok 视频下载）
+HOST, api.tuhocvangioi.com
+
+# Stack Overflow（全球最大程序员问答社区）
+HOST-SUFFIX, stackoverflow.com
+
+
+# ==============================
+# 🌍 地图 / 天气 / 航班
+# ==============================
+
+# Windy（天气预报）
+HOST-SUFFIX, windy.com
+
+# Zoom Earth（卫星地图）
+HOST-SUFFIX, zoom.earth
+
+# Flightradar24（航班追踪）
+HOST-SUFFIX, flightradar24.com
+HOST-SUFFIX, privacy-center.org
+HOST, mobile-data.onetrust.io
+HOST, cdn.jetphotos.com
+
+# Marine Traffic（船舶追踪）
+HOST-SUFFIX, marinetraffic.com
+## GrowthBook A/B测试与功能旗帜 CDN（实验、灰度发布用）
+HOST, cdn.growthbook.io
+## Mapbox 地图配置服务（地图样式、配置加载）
+HOST, config.mapbox.com
+## Mapbox 地图核心 API（地图数据、搜索、导航等）
+HOST, api.mapbox.com
+
+# Nullschool（PM2.5 地球可视化）
+HOST-SUFFIX, nullschool.net
+
+# AQICN（美国大使馆 PM2.5 数据）
+HOST, aqicn.org
+HOST, mapq.waqi.info
+HOST, api2.waqi.info
+HOST, server.arcgisonline.com
+
+
+# ==============================
+# 📚 学习 / 阅读
+# ==============================
+
+# 句乐部
+HOST, scripts.refgrowcdn.com
+HOST-SUFFIX, julebu.ai
+
+# Notion
+HOST-SUFFIX, notion.so
+HOST-SUFFIX, notion.com
+HOST-SUFFIX, notionstats.com
+HOST, cdn.cr-relay.com
+HOST, http-inputs-notion.splunkcloud.com
+HOST, img.notionusercontent.com
+HOST, prod-files-secure.s3.us-west-2.amazonaws.com
+HOST, s3-us-west-2.amazonaws.com
+HOST, s3.us-west-2.amazonaws.com
+
+# 在线词典
+HOST-SUFFIX, collinsdictionary.com
+HOST-SUFFIX, ldoceonline.com
+HOST-SUFFIX, merriam-webster.com
+HOST-SUFFIX, oxfordlearnersdictionaries.com
+
+# BBC Learning English
+HOST-SUFFIX, bbc.co.uk
+
+# IELTS官方练习
+HOST-SUFFIX, britishcouncil.org
+
+# IDP雅思
+HOST-SUFFIX, idp.com
+
+# cambridge
+HOST-SUFFIX, cambridgeenglish.cn
+
+# Write & Improve（剑桥英语写作练习）
+HOST-SUFFIX, englishlanguageitutoring.com
+HOST, writeandimprove.com
+HOST, wandi-6402.kxcdn.com
+HOST, s3-eu-west-1.amazonaws.com
+
+# Z-Library（电子书图书馆）
+HOST-SUFFIX, z-library.sk
+HOST, dln1.ncdn.ec
+
+# Wikipedia & Wikimedia 系列
+HOST-SUFFIX, mediawiki.org
+HOST-SUFFIX, wikibooks.org
+HOST-SUFFIX, wikidata.org
+HOST-SUFFIX, wikileaks.org
+HOST-SUFFIX, wikimedia.org
+HOST-SUFFIX, wikinews.org
+HOST-SUFFIX, wikipedia.org
+HOST-SUFFIX, wikiquote.org
+HOST-SUFFIX, wikisource.org
+HOST-SUFFIX, wikiversity.org
+HOST-SUFFIX, wikivoyage.org
+HOST-SUFFIX, wiktionary.org
+
+# IMDB（电影数据库）
+HOST-SUFFIX, imdb.com
+
+# V2EX（技术社区）
+HOST-SUFFIX, v2ex.com
+HOST-SUFFIX, v2ex.co
+HOST-SUFFIX, imgur.com
+HOST, media.zenfs.com
+
+# Folo / Follow（RSS 阅读器）
+HOST-SUFFIX, follow.is
+HOST-SUFFIX, folo.is
+HOST, unavatar.webp.se
+
+# 姿势小王子（论坛）
+HOST-SUFFIX, bbs.zsxwz.com
+
+# TTS 文字转语音工具
+HOST-SUFFIX, wangwangit.com
+
+
+# ==============================
+# 💻 macOS 软件
+# ==============================
+
+# Downie 4（下载软件）
+HOST, licensing.charliemonroe.net
+HOST-SUFFIX, software.charliemonroe.net
+HOST-SUFFIX, downiestatistics.com
+HOST-SUFFIX, lizhi.shop
+
+# IINA（开源播放器）
+HOST, www.iina.io
+
+# Keka（解压工具自动更新）
+HOST, u.keka.io
+
+# JDownloader 2（下载工具自动更新）
+HOST-SUFFIX, jdownloader.org
+HOST-SUFFIX, appwork.org
+
+# macOS 破解站 XMac
+HOST-SUFFIX, xmac.app
+HOST-SUFFIX, appstorrent.ru
+HOST-SUFFIX, mediafire.com
+HOST-SUFFIX, vk.com
+HOST, psv4.userapi.com
+HOST, unpkg.com
+
+# macOS 破解站 AppStorrent
+HOST, appstorrent.org
+
+# Mega 云存储下载
+HOST-SUFFIX, mega.nz
+HOST-SUFFIX, mega.co.nz
+
+# LuLu 防火墙（macOS 安全工具）
+HOST-SUFFIX, objective-see.com
+HOST, objective-see.org
+
+
+# ==============================
+# 📱 其他 App
+# ==============================
+
+# Goodnotes 6
+HOST-SUFFIX, goodnotes.com
+HOST-SUFFIX, goodnotes.email
+HOST, api.sprig.com
+
+# Drafts App（验证订阅）
+HOST, backend.getdrafts.com
+
+# Transcribe AI
+HOST, firebaselogging-pa.googleapis.com
+HOST, app-analytics-services.com
+HOST, ep2.facebook.com
+
+# QuantumultX 系统更新
+HOST, receiptcheck.quantumult.app
+
+
+# ==============================
+# 🛠️ 开发者工具
+# ==============================
+
+# GitHub 加速代理
+HOST-SUFFIX, ghproxy.com
+
+# Script Hub（模块转换）
+HOST, script.hub
+
+# BoxJS（脚本管理）
+HOST-SUFFIX, boxjs.com
+
+# Shadowrocket 配置分发（dpdns 免费子域名）
+HOST, lowertop.dpdns.org
+
+# SSL.com（SSL 证书颁发机构）
+HOST-SUFFIX, ssl.com
+
+# DigiCert（SSL 证书颁发机构，国际版）
+HOST-SUFFIX, digicert.com
+
+# MaxMind GeoLite2（IP 地理位置数据库）
+HOST-SUFFIX, maxmind.com
+
+# jsDelivr CDN（Fastly 节点）
+HOST, fastly.jsdelivr.net
+
+# Unsplash（免版权图库 CDN）
+HOST, images.unsplash.com
+
+
+# ==============================
+# 🛍️ 购物 / 其他
+# ==============================
+
+# Bitly（bit.ly）公司是一家美国纽约的短链接与链接管理公司_成立于 2008 年_提供 URL 缩短、点击统计、品牌短链等服务
+HOST, bit.ly
+
+# IKEA
+HOST-SUFFIX, ikea.com
+
+# 土耳其礼品卡网站
+HOST-SUFFIX, oyunfor.com
+
+# 机票相关
+HOST, pqjc.site
+HOST, xn--mes358aby2apfg.com
+
+# xConvert（批量格式转换）
+HOST-SUFFIX, xconvert.com
+
+# 油猴脚本（用户脚本管理）
+HOST-SUFFIX, greasyfork.org
+HOST-SUFFIX, sleazyfork.org
+HOST-SUFFIX, tampermonkey.net
+
+# Bitcoin 链上数据查看
+HOST, mempool.space
+
+# IP / 域名 / ASN 查询
+HOST, ping0.cc
+
+# 字幕转换工具
+HOST, www.syedgakbar.com
+
+
+# ==============================
+# 🔍 隐私检测 / VPN
+# ==============================
+
+# ── 隐私与泄露检测工具（检测 DNS/IP/浏览器指纹泄露）────
+HOST-SUFFIX, dnsleaktest.com
+HOST-SUFFIX, dnsleak.com
+HOST-SUFFIX, dnsleak.asn247.net
+HOST-SUFFIX, ipleak.net
+HOST-SUFFIX, browserleaks.com
+HOST-SUFFIX, browserleaks.org
+HOST-SUFFIX, pixelscan.net
+HOST-SUFFIX, whoer.net
+HOST-SUFFIX, whrq.net
+HOST, ipv4.ping0.cc
+HOST, ipv6.ping0.cc
+
+# ── IP 信息查询 ──────────────────────────────────────
+HOST-SUFFIX, ipapi.co
+HOST, ip-scan.adspower.net
+
+# ── VPN 服务商官网（境外，需走代理）────────────────────
+HOST-SUFFIX, astrill.com
+HOST-SUFFIX, astrill.org
+HOST-SUFFIX, expressvpn.com
+HOST-SUFFIX, nordvpn.com
+HOST-SUFFIX, perfect-privacy.com
+HOST-SUFFIX, surfshark.com
+HOST-SUFFIX, surfsharkdns.com
+HOST-SUFFIX, vpnunlimited.com

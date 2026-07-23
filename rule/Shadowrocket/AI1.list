@@ -91,7 +91,7 @@ DOMAIN-SUFFIX, groq.com
 DOMAIN,sora-cdn.oaistatic.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,assetsconfigcdn.org
-HOST-SUFFIX,sora.com,OpenAI
+DOMAIN-SUFFIX,sora.com,OpenAI
 
 
 # 打开ChatGPT会出现这个请求，第三方服务接口（高概率订阅/内购SDK）

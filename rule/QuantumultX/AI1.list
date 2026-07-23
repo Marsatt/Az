@@ -1,0 +1,209 @@
+# ==============================
+# 🤖 AI 工具 需要🇺🇸节点
+# ==============================
+
+
+# HuggingFace（开源模型平台）
+HOST-SUFFIX, huggingface.co
+
+# Suno（AI 音乐制作）
+HOST, img.clerk.com
+HOST-SUFFIX, suno.ai
+HOST-SUFFIX, suno.com
+
+# Udio（AI 音乐制作）
+HOST-SUFFIX, udio.com
+
+# Replicate（AI 模型推理）
+HOST, replicate.delivery
+
+# AISaver（文字转语音，有限免费）
+HOST-SUFFIX, aisaver.io
+HOST, extensiondock.com
+
+# Fish Audio（语音合成与下载）
+HOST-SUFFIX, fish.audio
+HOST-SUFFIX, r2.cloudflarestorage.com
+
+# Groq（免费 AI 模型 API）
+HOST-SUFFIX, groq.io
+
+# Midjourney（AI 图片生成）
+HOST, midjourney.ghost.io
+HOST-SUFFIX, midjourney.com
+HOST-SUFFIX, statuspage.io
+
+
+
+
+#cloudflare.com（验证网站）
+HOST-SUFFIX, cloudflare.com
+HOST-SUFFIX, cloudflare-dns.com
+HOST-SUFFIX, cloudflareinsights.com
+
+
+#Intercom 是一个很常见的客户消息/客服聊天平台（类似 Zendesk、客服小助手），很多 App 会集成它的 SDK，让用户在 App 里直接聊天咨询、查看帮助文档、接收推送等。你在 Shadowrocket 里看到这个域名请求，几乎可以肯定是你手机上安装的某个 App 集成了 Intercom SDK，正在尝试连接它的客服/消息服务。
+HOST-SUFFIX,intercom.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+
+# perplexity
+HOST-SUFFIX, perplexity.ai
+HOST-SUFFIX, pplx.ai
+HOST-SUFFIX, cloudinary.com
+HOST-SUFFIX, perplexity.com
+
+# grok
+HOST-SUFFIX, x.ai
+HOST-SUFFIX, grok.com
+HOST-KEYWORD, grok
+HOST, xai.chronosphere.io
+HOST, prodregistryv2.org
+HOST, api.mixpanel.com
+HOST, featureassets.org
+
+
+# OpenAI浏览器_ChatGPT Atlas
+HOST, browser-intake-datadoghq.com
+
+
+# claude
+HOST, www.claudeusercontent.com
+HOST-SUFFIX, claude.com
+
+# NAME: Claude
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:28
+# HOST: 1
+# HOST-SUFFIX: 2
+# TOTAL: 3
+HOST,cdn.usefathom.com
+HOST-SUFFIX,anthropic.com
+HOST-SUFFIX,claude.ai
+
+
+#grop
+HOST-SUFFIX, groq.com
+
+
+#Sora
+HOST,sora-cdn.oaistatic.com
+HOST,browser-intake-datadoghq.com
+HOST,assetsconfigcdn.org
+HOST-SUFFIX,sora.com,OpenAI
+
+
+# 打开ChatGPT会出现这个请求，第三方服务接口（高概率订阅/内购SDK）
+HOST, api-production.8-lives-cat.io
+
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:20:00
+# HOST: 7
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 24
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 35
+HOST,browser-intake-datadoghq.com
+HOST,chat.openai.com.cdn.cloudflare.net
+HOST,openai-api.arkoselabs.com
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+HOST,openaicomproductionae4b.blob.core.windows.net
+HOST,production-openaicom-storage.azureedge.net
+HOST,static.cloudflareinsights.com
+HOST-SUFFIX,ai.com
+HOST-SUFFIX,algolia.net
+HOST-SUFFIX,api.statsig.com
+HOST-SUFFIX,auth0.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,chatgpt.livekit.cloud
+HOST-SUFFIX,client-api.arkoselabs.com
+HOST-SUFFIX,events.statsigapi.net
+HOST-SUFFIX,featuregates.org
+HOST-SUFFIX,host.livekit.cloud
+HOST-SUFFIX,identrust.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST-SUFFIX,launchdarkly.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,observeit.net
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,openaiapi-site.azureedge.net
+HOST-SUFFIX,openaicom.imgix.net
+HOST-SUFFIX,segment.io
+HOST-SUFFIX,sentry.io
+HOST-SUFFIX,stripe.com
+HOST-SUFFIX,turn.livekit.cloud
+HOST-KEYWORD,openai
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32
+IP-ASN,20473
+
+
+
+
+# NAME: Copilot
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:30
+# HOST: 20
+# HOST-KEYWORD: 1
+# HOST-SUFFIX: 26
+# IP-ASN: 2
+# IP-CIDR: 2
+# TOTAL: 51
+HOST,api.msn.com
+HOST,api.statsig.com
+HOST,assets.msn.com
+HOST,browser-intake-datadoghq.com
+HOST,chat.openai.com.cdn.cloudflare.net
+HOST,copilot.microsoft.com
+HOST,gateway.bingviz.microsoft.net
+HOST,gateway.bingviz.microsoftapp.net
+HOST,in.appcenter.ms
+HOST,location.microsoft.com
+HOST,odc.officeapps.live.com
+HOST,openai-api.arkoselabs.com
+HOST,openaicomproductionae4b.blob.core.windows.net
+HOST,production-openaicom-storage.azureedge.net
+HOST,r.bing.com
+HOST,self.events.data.microsoft.com
+HOST,services.bingapis.com
+HOST,static.cloudflareinsights.com
+HOST,sydney.bing.com
+HOST,www.bing.com
+HOST-SUFFIX,algolia.net
+HOST-SUFFIX,api.microsoftapp.net
+HOST-SUFFIX,auth0.com
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io
+HOST-SUFFIX,challenges.cloudflare.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,chatgpt.livekit.cloud
+HOST-SUFFIX,client-api.arkoselabs.com
+HOST-SUFFIX,edgeservices.bing.com
+HOST-SUFFIX,events.statsigapi.net
+HOST-SUFFIX,featuregates.org
+HOST-SUFFIX,host.livekit.cloud
+HOST-SUFFIX,identrust.com
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST-SUFFIX,launchdarkly.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,observeit.net
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,openaiapi-site.azureedge.net
+HOST-SUFFIX,openaicom.imgix.net
+HOST-SUFFIX,segment.io
+HOST-SUFFIX,sentry.io
+HOST-SUFFIX,stripe.com
+HOST-SUFFIX,turn.livekit.cloud
+HOST-KEYWORD,openaicom-api
+IP-CIDR,24.199.123.28/32
+IP-CIDR,64.23.132.171/32
+IP-ASN,14061
+IP-ASN,20473

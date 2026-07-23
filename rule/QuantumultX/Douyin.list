@@ -1,87 +1,247 @@
-#关联 Tencent.list
-HOST-SUFFIX, smtcdns.net,DouYin
+# 关联 Douyin.list ══════════════════════════════════════════
 
-#抖音_Chrome_油猴_显示抖音过万的真实人数
-HOST, dyapi.phpnbw.com,DouYin
+# 这是字节跳动的短链与资源分发节点，属于核心服务，建议放行
+HOST, dig.bdurl.net
 
-#这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
-HOST-SUFFIX, v.smtcdns.com,DouYin
+# Pitaya 平台（AI特效、资源热更新、客户端AI）_可能影响 AI 滤镜、特效
+HOST, pitaya.bytedance.com
 
-#关联 ChinaMax.list
-HOST-SUFFIX, livehwc3.cn,DouYin
+# 查看订单物流信息，这是抖音系的 connect 接口域名，多用于应用内部连接服务
+HOST, connect.douyinec.com
 
+# 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
+HOST, ecom5-normal-m-zjg.ecombdapi.com
 
-HOST-KEYWORD, douyin,DouYin
-HOST-KEYWORD, douyincdn,DouYin
+# 这是字节跳动电商核心接口，抖音内部服务，不建议拒绝
+HOST, ecset5-core-m-zjg.ecombdapi.com
 
-#####
+# 抖音支付相关（抖音支付、商城支付）_影响：支付、下单失败
+HOST, api.doupay.com
 
-#电脑版
-HOST-SUFFIX, 100ycdn.com,DouYin
-#抖音创作者
-HOST-SUFFIX, bytedanceapi.com,DouYin
-HOST,122-188-134-199-ad92b9c9.ldhy.click,DouYin
-HOST,sf1-cdn-tos.huoshanstatic.com,DouYin
-
-
-#@!直播录制需要网址
-#HOST, api.feelgood.cn,DouYin
-HOST-SUFFIX, byted-static.com,DouYin
-HOST-SUFFIX, applogcdn.com,DouYin
-HOST-SUFFIX, bytedance.com,DouYin
-HOST-SUFFIX, bytednsdoc.com,DouYin
-HOST-SUFFIX, bytefcdnrd.com,DouYin
-HOST-SUFFIX, bytegecko.com,DouYin
-HOST-SUFFIX, bytegoofy.com,DouYin
-HOST-SUFFIX, bytetos.com,DouYin
-HOST-SUFFIX, bytetcc.com,DouYin
-HOST-SUFFIX, bytescm.com,DouYin
-HOST-SUFFIX, douyinliving.com,DouYin
-HOST-SUFFIX, ibytedapm.com,DouYin
-HOST-SUFFIX, jomodns.com,DouYin
-HOST-SUFFIX, ksyungslb.com,DouYin
-HOST-SUFFIX, livehwc4.com,DouYin
-HOST-SUFFIX, mobgslb.tbcache.com,DouYin
-HOST-SUFFIX, ourdvsssvip.com,DouYin
-HOST-SUFFIX, sealaly.net,DouYin
-HOST-SUFFIX, vegslb.com,DouYin
-HOST-SUFFIX, volcvideo.com,DouYin
-HOST-SUFFIX, volcvideos.com,DouYin
-HOST-SUFFIX, volcsiriusbd.com,DouYin
-HOST-SUFFIX, yhgfb-cn-static.com,DouYin
-HOST-SUFFIX, z1cdn.com,DouYin
-
-
-#手机版
-HOST, conf-darwin.xycdn.com,DouYin
-HOST, render.ecombdpage.com,DouYin
-#@!抖音寄件详情
-HOST, ttxyajs.data.kuiniuca.com,DouYin
-HOST-SUFFIX, ahdohpiechei.com,DouYin
-HOST-SUFFIX, byteeffecttos.com,DouYin
-HOST-SUFFIX, bytemastatic.com,DouYin
-#@!优衣库需要的网址
-HOST-SUFFIX, byteimg.com,DouYin
-HOST-SUFFIX, ecombdapi.com,DouYin
-HOST-SUFFIX, ecombdimg.com,DouYin
-HOST-SUFFIX, ecombdstatic.com,DouYin
-#@!抖音，消息查看物流，reject对应取消掉
-HOST-SUFFIX, erer.homeborn.cn,DouYin
-HOST-SUFFIX, ietheivaicai.com,DouYin
-HOST-SUFFIX, jinritemai.com,DouYin
-#@!ffh.jinritemai.com 抖音店铺排行榜
-#@!fxg.jinritemai.com 迪卡侬会员积分兑换
-HOST-SUFFIX, siomxity.net,DouYin
-HOST-SUFFIX, tt.x.bsgslb.cn,DouYin
-HOST-SUFFIX, zijieapi.com,DouYin
-#抖音看视频，一半后会卡，解决办法。
-#URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*),DouYin
-IP-CIDR, 36.104.134.75/32, no-resolve
+# 电商核心 API（商城数据、订单）_商城功能异常
+HOST, ec5-core.ecombdbapi.com
 
 
 
 
+# 关联 RejectHub.list ══════════════════════════════════════════
 
+# 这是字节跳动的内容加速/调度节点，属于抖音视频与直播服务，建议放行
+HOST, 1pyorok.z.cjjd14.com
+
+# 这是 Fastly 的隐私中继/CDN 加速节点，用于内容分发，建议放行
+HOST, ohttp-relay1.fastly-edge.com
+
+# 这是抖音直播/视频的 AI 分析与调度接口，属于核心服务，建议放行
+HOST, vc-brain.ndcpp.com
+
+# 这是字节跳动旗下的加速/调度节点，属于抖音内容服务，不建议拒绝
+HOST, orzonera.yingt.fun
+
+# 这是直播流媒体的拉流地址，属于视频播放服务，不是隐私上报接口
+HOST-KEYWORD, -pull.yirujs.com
+
+# 抖音前沿实时连接（WebSocket，长连接推送、推荐流_拒绝后视频卡顿、无法刷新、切账号失败
+HOST, frontier.snsssdk.com
+
+# 电商 / 商城核心服务（下单、支付、订单）_拒绝后商城无法下单
+HOST, ec.snsssdk.com
+
+# 视频图片CDN资源加载_字节跳动用于抖音的静态内容分发
+HOST-KEYWORD, -cdn-tos.toutiaostatic.com
+
+
+# 字体文件与签名校验_抖音用于界面字体加载与安全验证
+HOST-KEYWORD, -font-sign.bytehwm.com
+
+# ── 字节跳动图片 CDN（头像、封面），必须直连 ──────────
+HOST, p3-developer.bytemaimg.com
+
+# ── 抖音 ABTest 配置下发（界面、推荐算法），可拒绝但可能影响推荐质量 ──────────
+HOST, abtest-ch.snssdk.com
+
+# ── 抖音电商用户接口（地址、订单、优惠券），核心服务不可拒绝 ──────────
+HOST, ecomuser.snssdk.com
+
+# ── 抖音电商主接口（商品详情、购物车、订单），核心服务不可拒绝 ──────────
+HOST, ecom.snssdk.com
+
+# ── 抖音核心 API（视频播放、评论、点赞等核心功能，必须直连）──────────
+HOST, aweme.snssdk.com
+
+# ── 头条系老域名（部分基础接口仍在用，需直连）──────────
+HOST, is.snssdk.com
+HOST, i.snssdk.com
+
+# ── 频道/内容推送相关（影响内容加载，需直连）──────────
+HOST, ichannel.snssdk.com
+
+# ── 网络检测/接入层（影响登录连接，需直连）───────────
+HOST, ib.snssdk.com
+
+# 手机版抖音播放视频_抖音视频 CDN 节点，用于视频分片加载，必须直连
+## 匹配例如：https://6f38f926.ydycdn.com https://6f38f926.ydycdn.com/ https://6f38f926.ydycdn.com:443 https://6f38f926.ydycdn.com:443/
+#!# ⭕❌不支持这个格式 URL-REGEX,^https?://[A-Za-z0-9]{8}\.ydycdn\.com(:\d+)?/?$
+
+
+
+
+# ══════════════════════════════════════════
+# 字节跳动 CDN 资源（bytegecko.com 系列）_抖音（国内版）专属视频与直播内容加载域名_TikTok 国际版不使用此域名体系，互不冲突，可放心直连
+# ══════════════════════════════════════════
+### 变成key --------------------------
+###HOST-SUFFIX, bytegecko.com
+HOST-KEYWORD, -sourcecdn.bytegecko.com
+HOST-KEYWORD, -ncdn.bytegecko.com
+HOST-KEYWORD, -tos.bytegecko.com
+HOST-KEYWORD, -sub.bytegecko.com
+###  --------------------------
+
+
+
+
+# 抖音官网
+HOST-SUFFIX, douyin.com
+
+
+
+
+# 电脑版 --------------------------
+HOST-SUFFIX, 100ycdn.com
+## 抖音整个社交模块
+HOST-SUFFIX, iesdouyin.com
+## 抖音创作者
+HOST-SUFFIX, bytedanceapi.com
+HOST, 122-188-134-199-ad92b9c9.ldhy.click
+HOST, sf1-cdn-tos.huoshanstatic.com
+
+
+
+# iPad抖音 --------------------------
+## 字节跳动（抖音/火山） 的图片 CDN 服务器。_视频封面图_用户头像_动态图片_特效素材等
+HOST-KEYWORD, -sign.huoshanimg.com
+## 字节跳动专门用于特效（Effects） 相关的域名（effect = 特效）。_抖音（尤其是播放带特效、滤镜、美颜、贴纸的视频时）会从这个 CDN 拉取特效资源。_很多热门视频都使用了字节的特效模板，播放时必须加载这些资源才能正常显示效果。如果屏蔽或加载失败，视频可能会出现无特效、画面异常、卡顿或直接无法正常播放。
+HOST-SUFFIX, byteeffecttos.com
+
+
+
+# iPhone & iPad 抖音 --------------------------
+## 抖音评价上传图片
+HOST, tos-d-x-lq.bytedancevod.com
+HOST, conf-darwin.xycdn.com
+HOST, render.ecombdpage.com
+## 抖音寄件详情
+HOST, ttxyajs.data.kuiniuca.com
+HOST-SUFFIX, ahdohpiechei.com
+HOST-SUFFIX, bytemastatic.com
+## 抖音优衣库需要的网址
+HOST-SUFFIX, byteimg.com
+
+### HOST-KEYWORD 关联 RejectHub.list --------------------------
+HOST-KEYWORD, -lf.ecombdapi.com
+HOST-KEYWORD, -m.ecombdapi.com
+# 抖音电商内容接口（商品推荐、榜单），核心服务不可拒绝
+HOST, ec.ecombdapi.com
+# 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
+HOST-KEYWORD, -normal-m-zjg.ecombdapi.com
+###  --------------------------
+
+HOST-SUFFIX, ecombdimg.com
+HOST-SUFFIX, ecombdstatic.com
+## 抖音，消息查看物流，reject对应取消掉
+HOST-SUFFIX, erer.homeborn.cn
+HOST-SUFFIX, ietheivaicai.com
+HOST-SUFFIX, jinritemai.com
+## ffh.jinritemai.com 抖音店铺排行榜
+## fxg.jinritemai.com 迪卡侬会员积分兑换
+HOST-SUFFIX, siomxity.net
+HOST-SUFFIX, tt.x.bsgslb.cn
+
+### 变成key --------------------------
+###HOST-SUFFIX, zijieapi.com
+HOST-KEYWORD, -zjg.zijieapi.com
+HOST-KEYWORD, -hj.zijieapi.com
+HOST-KEYWORD, -lf.zijieapi.com
+HOST-KEYWORD, -aliec2.zijieapi.com
+
+# 字节跳动内部 Gecko 配置/实验参数下发接口，用于抖音功能灰度与配置同步，属于核心服务不可拒绝
+HOST, gecko.zijieapi.com
+
+# 这是字节跳动主 API 接口，抖音核心服务，不建议拒绝
+HOST, tnc0-alisc1.zijieapi.com
+
+###  --------------------------
+
+
+
+
+# 抖音购物_好评上传图片
+HOST, tos-d-x-lf.bytedancevod.com
+HOST, tos-d-x-hl.bytedancevod.com
+
+# 豆包
+HOST-SUFFIX, doubao.com
+## 99uri.com 是豆包网页版的必要访问域名，拒绝会导致无法使用
+HOST, 99uri.com
+## 豆包生成视频播放需要网址
+HOST-SUFFIX, 365yg.com
+## 豆包去水印_github开源项目
+HOST, www.jiagev.com
+
+# 抖音_Chrome_油猴_显示抖音过万的真实人数
+HOST, dyapi.phpnbw.com
+
+# 这个属于“内容提供商的 CDN 辅助域”，不是广告跟踪或隐私侵犯型域名，但确实是“核心功能相关”。如果你屏蔽它而应用仍能使用，可能是使用了备用域名或本地缓存。
+#$HOST-SUFFIX, v.smtcdns.com
+
+# 关联 ChinaMax.list
+HOST-SUFFIX, livehwc3.cn
+
+# 即梦AI
+HOST, jimeng.jianying.com
+HOST, lf3-lv-buz.vlabstatic.com
+HOST-SUFFIX, byteacctimg.com
+HOST-SUFFIX, vlabvod.com
+
+
+## 直播录制需要网址
+HOST, api.feelgood.cn
+HOST-SUFFIX, byted-static.com
+HOST-SUFFIX, applogcdn.com
+HOST-SUFFIX, bytednsdoc.com
+HOST-SUFFIX, bytefcdnrd.com
+HOST-SUFFIX, bytegoofy.com
+HOST-SUFFIX, bytetos.com
+HOST-SUFFIX, bytetcc.com
+HOST-SUFFIX, bytescm.com
+HOST-SUFFIX, douyinliving.com
+HOST-SUFFIX, ibytedapm.com
+HOST-SUFFIX, jomodns.com
+HOST-SUFFIX, ksyungslb.com
+HOST-SUFFIX, livehwc4.com
+HOST-SUFFIX, mobgslb.tbcache.com
+HOST-SUFFIX, ourdvsssvip.com
+HOST-SUFFIX, sealaly.net
+HOST-SUFFIX, vegslb.com
+HOST-SUFFIX, volcvideo.com
+HOST-SUFFIX, volcvideos.com
+HOST-SUFFIX, volcsiriusbd.com
+HOST-SUFFIX, yhgfb-cn-static.com
+HOST-SUFFIX, z1cdn.com
+
+
+
+
+
+## 抖音看视频，一半后会卡，解决办法。
+#!# ⭕❌不支持这个格式 URL-REGEX,^https?://\d+\.\d+\.\d+\.\d+(:\d+)?/([^/]*\.douyincdn\.com/|[^/]*\.douyinliving\.com/|stage/.*|gamereplay/.*|thirdgame/.*|third/.*)
+IP-CIDR, 36.104.134.75/32
+HOST, m16.zhicyun.com
+
+
+
+## 播放视频不卡了
+HOST-SUFFIX, zjcdn.com
 # NAME: DouYin
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -89,16 +249,14 @@ IP-CIDR, 36.104.134.75/32, no-resolve
 # HOST: 2
 # HOST-SUFFIX: 11
 # TOTAL: 13
-HOST,lf3-static.bytednsdoc.com,DouYin
-HOST,v5-dy-o-abtest.zjcdn.com,DouYin
-HOST-SUFFIX,amemv.com,DouYin
-HOST-SUFFIX,douyincdn.com,DouYin
-HOST-SUFFIX,douyinpic.com,DouYin
-HOST-SUFFIX,douyinstatic.com,DouYin
-HOST-SUFFIX,douyinvod.com,DouYin
-HOST-SUFFIX,idouyinvod.com,DouYin
-HOST-SUFFIX,ixigua.com,DouYin
-HOST-SUFFIX,ixiguavideo.com,DouYin
-HOST-SUFFIX,pstatp.com,DouYin
-HOST-SUFFIX,snssdk.com,DouYin
-HOST-SUFFIX,toutiao.com,DouYin
+HOST, lf3-static.bytednsdoc.com
+HOST, v5-dy-o-abtest.zjcdn.com
+HOST-SUFFIX, amemv.com
+HOST-SUFFIX, douyincdn.com
+HOST-SUFFIX, douyinpic.com
+HOST-SUFFIX, douyinstatic.com
+HOST-SUFFIX, douyinvod.com
+HOST-SUFFIX, idouyinvod.com
+HOST-SUFFIX, ixigua.com
+HOST-SUFFIX, ixiguavideo.com
+HOST-SUFFIX, toutiao.com
