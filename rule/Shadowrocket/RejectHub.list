@@ -627,6 +627,9 @@ DOMAIN, edge-hls.doppiocdn.media
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
 
+# 网络错误报告服务_NEL(Network Error Logging)_非核心业务_可拒绝
+DOMAIN-SUFFIX, nelreports.net
+
 # 未知
 IP-CIDR, 45.152.64.78/32, no-resolve
 
