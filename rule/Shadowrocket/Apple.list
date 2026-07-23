@@ -1,11 +1,8 @@
 # 苹果应用资源
 DOMAIN, s.mzstatic.com
 
-# Apple App Store 初始化服务_目前测试代理
-DOMAIN, init.itunes.apple.com
-
-# Apple Bag 苹果购买验证接口
-DOMAIN, bag.itunes.apple.com
+# Apple Bag 苹果购买验证接口等_下面很多重复的。
+DOMAIN-SUFFIX, itunes.apple.com
 
 #Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
 DOMAIN, apple-finance.query.yahoo.com

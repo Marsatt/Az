@@ -1,11 +1,8 @@
 # 苹果应用资源
 HOST, s.mzstatic.com
 
-# Apple App Store 初始化服务_目前测试代理
-HOST, init.itunes.apple.com
-
-# Apple Bag 苹果购买验证接口
-HOST, bag.itunes.apple.com
+# Apple Bag 苹果购买验证接口等_下面很多重复的。
+host-suffix, itunes.apple.com,Apple
 
 #Apple 的某些小组件或应用可能会使用 Yahoo 的数据源获取股票、财经新闻和其他相关信息。
 HOST, apple-finance.query.yahoo.com,Apple
