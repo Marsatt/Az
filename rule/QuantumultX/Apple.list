@@ -1,6 +1,3 @@
-# 苹果应用资源
-HOST, s.mzstatic.com
-
 # Apple Bag 苹果购买验证接口等_下面很多重复的。
 host-suffix, itunes.apple.com,Apple
 
