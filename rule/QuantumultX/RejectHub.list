@@ -627,6 +627,12 @@ HOST, edge-hls.doppiocdn.media
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
 
+# OneTrust隐私合规组件CDN_用于Cookie弹窗和隐私设置_非核心业务
+HOST-SUFFIX, onetrust.com
+
+# 未知第三方Cloudflare Worker服务_iOS定位相关_非系统必需
+HOST-SUFFIX, cyberhandyman.workers.dev
+
 # 网络错误报告服务_NEL(Network Error Logging)_非核心业务_可拒绝
 HOST-SUFFIX, nelreports.net
 
