@@ -1,5 +1,11 @@
 DOMAIN-SUFFIX, qtaeixd.com
 
+# 这是字节跳动的内容分发 CDN 节点，负责抖音视频与直播加速，建议放行
+DOMAIN-SUFFIX, ydycdn.com
+
+# 这是字节跳动的内容调度节点，负责抖音视频与直播分发，建议放行
+DOMAIN-WILDCARD, *-9.sjxydc.com
+
 # 这是字节跳动的内容调度节点，负责抖音视频与直播分发，建议放行
 DOMAIN-SUFFIX, jomoxc.com
 

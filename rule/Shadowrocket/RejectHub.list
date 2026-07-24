@@ -363,6 +363,12 @@ DOMAIN-SUFFIX, bytegecko.com
 # ──────────────────────────────
 # 抖音
 
+# 这是抖音的直播与视频分发的直连节点，属于核心服务，建议放行
+IP-CIDR, 192.167.255.224/32, no-resolve
+
+## 这是腾讯的账号连接接口，用于 QQ/微信登录，与抖音无关，可拒绝
+DOMAIN, cgi.connect.qq.com
+
 ## 抖音直播CDN_用于观看直播视频流
 DOMAIN-SUFFIX, huoshanlive.com
 
@@ -433,7 +439,6 @@ DOMAIN-SUFFIX, xinqiucc.com
 ## 关联 (Douyin.list) DOMAIN 或 DOMAIN-KEYWORD ────────────────────────────────────────────────────────────
 DOMAIN-SUFFIX, bytemaimg.com
 DOMAIN-SUFFIX, cjjd14.com
-DOMAIN-SUFFIX, ydycdn.com
 DOMAIN-SUFFIX, ndcpp.com
 DOMAIN-SUFFIX, yingt.fun
 DOMAIN-SUFFIX, bytehwm.com
