@@ -627,6 +627,9 @@ DOMAIN, edge-hls.doppiocdn.media
 # ⚠️ 恶意 / 可疑域名
 # ──────────────────────────────
 
+# 公共DNS解析服务
+DOMAIN-SUFFIX, doh.pub
+
 # OneTrust隐私合规组件CDN_用于Cookie弹窗和隐私设置_非核心业务
 DOMAIN-SUFFIX, onetrust.com
 
