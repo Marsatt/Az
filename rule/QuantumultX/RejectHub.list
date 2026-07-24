@@ -190,6 +190,9 @@ HOST, m.stripe.network
 # 🛠️ 软件 / App 功能域名
 # ──────────────────────────────
 
+# LosslessCut 3.68.0，macOS 视频分段合并工具
+HOST-SUFFIX, mifi.no
+
 # Marine Traffic（船舶追踪）
 ## Customer.io 用户营销与推送服务（in-app 消息）
 HOST, consumer.inapp.customer.io
