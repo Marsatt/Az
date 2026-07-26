@@ -265,6 +265,9 @@ HOST, nadc.data.api.bose.io
 # 📚 学习 / 词典 / 百科
 # ==============================
 
+# 句乐部-国区
+HOST-SUFFIX, julebu.co
+
 # ── 有道词典 ─────────────────────
 # HOST-SUFFIX 覆盖主域名及 www / dict 子域
 HOST-SUFFIX, youdao.com
