@@ -1,3 +1,9 @@
+# GitHub文件部署类的网址
+DOMAIN-SUFFIX, pypi.org
+DOMAIN-SUFFIX, pythonhosted.org
+
+
+
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
