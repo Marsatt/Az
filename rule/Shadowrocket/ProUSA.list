@@ -74,6 +74,33 @@ DOMAIN, ssl.pstatic.net
 # 🔞 成人直播平台
 # ==============================
 
+# ── streamate 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, streamate.com
+
+# ── livejasmin 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, livejasmin.com
+
+# ── flirt4free 录制直播平台的平台 ────关联 AdGuardSDNFliter.list────────────────
+DOMAIN-SUFFIX, flirt4free.com
+
+# ── xlovecam 录制直播平台的平台 ────关联 AdGuardSDNFliter.list────────────────
+DOMAIN-SUFFIX, xlovecam.com
+
+# ── fc2 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, fc2.com
+
+# ── dreamcamtrue 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, dreamcamtrue.com
+
+# ── camsoda 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, camsoda.com
+
+# ── cam4 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, cam4.com
+
+# ── bongacams 录制直播平台的平台 ────────────────────
+DOMAIN-SUFFIX, bongacams.com
+
 # ── camwhoresbay 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, camwhoresbay.com
 
