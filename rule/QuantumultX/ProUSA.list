@@ -421,6 +421,9 @@ HOST-SUFFIX, wangwangit.com
 # 💻 macOS 软件
 # ==============================
 
+# CTBRec 官方 API 服务
+HOST-SUFFIX, ctbrec.com
+
 # Downie 4（下载软件）
 HOST, licensing.charliemonroe.net
 HOST-SUFFIX, software.charliemonroe.net

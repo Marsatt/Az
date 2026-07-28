@@ -421,6 +421,9 @@ DOMAIN-SUFFIX, wangwangit.com
 # 💻 macOS 软件
 # ==============================
 
+# CTBRec 官方 API 服务
+DOMAIN-SUFFIX, ctbrec.com
+
 # Downie 4（下载软件）
 DOMAIN, licensing.charliemonroe.net
 DOMAIN-SUFFIX, software.charliemonroe.net
