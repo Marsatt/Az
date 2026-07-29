@@ -76,13 +76,15 @@ DOMAIN, ssl.pstatic.net
 
 # ── streamate 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, streamate.com
-DOMAIN-SUFFIX, naiadsystems.com
+DOMAIN, member.naiadsystems.com
+DOMAIN, img.dditscdn.com
 
 # ── livejasmin 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, livejasmin.com
 
 # ── flirt4free 录制直播平台的平台 ────关联 AdGuardSDNFliter.list────────────────
 DOMAIN-SUFFIX, flirt4free.com
+DOMAIN, live-screencaps.vscdns.com
 
 # ── xlovecam 录制直播平台的平台 ────关联 AdGuardSDNFliter.list────────────────
 DOMAIN-SUFFIX, xlovecam.com
@@ -92,19 +94,19 @@ DOMAIN-SUFFIX, fc2.com
 
 # ── dreamcamtrue 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, dreamcamtrue.com
-DOMAIN-SUFFIX, dreamcam.com
+DOMAIN, bss-cdn.dreamcam.com
 
 # ── camsoda 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, camsoda.com
-DOMAIN-SUFFIX, livemediahost.com
+DOMAIN, media.livemediahost.com
 
 # ── cam4 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, cam4.com
-DOMAIN-SUFFIX, xcdnpro.com
+DOMAIN, snapshots.xcdnpro.com
 
 # ── bongacams 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, bongacams.com
-DOMAIN-SUFFIX, bgicdn.com
+DOMAIN, i.bgicdn.com
 
 # ── camwhoresbay 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, camwhoresbay.com
