@@ -109,6 +109,7 @@ DOMAIN, snapshots.xcdnpro.com
 # ── bongacams 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, bongacams.com
 DOMAIN, i.bgicdn.com
+DOMAIN-WILDCARD, live-edge*.bcvcdn.com
 
 # ── camwhoresbay 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, camwhoresbay.com
