@@ -78,6 +78,7 @@ DOMAIN, ssl.pstatic.net
 DOMAIN-SUFFIX, streamate.com
 DOMAIN, member.naiadsystems.com
 DOMAIN, img.dditscdn.com
+DOMAIN, cdn.nsimg.net
 
 # ── livejasmin 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, livejasmin.com
