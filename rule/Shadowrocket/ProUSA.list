@@ -101,6 +101,7 @@ DOMAIN, bss-cdn.dreamcam.com
 # ── camsoda 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, camsoda.com
 DOMAIN, media.livemediahost.com
+DOMAIN, streaming-edge-front.livemediahost.com
 
 # ── cam4 录制直播平台的平台 ────────────────────
 DOMAIN-SUFFIX, cam4.com
