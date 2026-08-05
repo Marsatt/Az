@@ -524,6 +524,9 @@ DOMAIN, receiptcheck.quantumult.app
 # 🛠️ 开发者工具
 # ==============================
 
+# brew 安装其他工具需要的网址
+DOMAIN-SUFFIX, brew.sh
+
 # GitHub 加速代理
 DOMAIN-SUFFIX, ghproxy.com
 
