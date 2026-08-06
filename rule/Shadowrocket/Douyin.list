@@ -35,6 +35,9 @@ DOMAIN, ec5-core.ecombdbapi.com
 
 # 关联 RejectHub.list ══════════════════════════════════════════
 
+# 网页版搜索功能需要这个direct，字节跳动字体资源_仅用于网页字体和图标显示_非核心接口
+DOMAIN, fonts.bytedance.com
+
 # 这是字节跳动的内容加速/调度节点，属于抖音视频与直播服务，建议放行
 DOMAIN-SUFFIX, z.cjjd14.com
 
