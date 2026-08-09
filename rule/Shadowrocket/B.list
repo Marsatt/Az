@@ -128,6 +128,10 @@ DOMAIN, www.gnmobile1.com
 DOMAIN, www.gnmobile2.com
 
 
+# ── Binance 币安 内部购买礼品卡的网站可以使用USDT ─────────────────
+DOMAIN-SUFFIX, tokenstore.io
+
+
 # ── Binance 币安 ─────────────────
 # 币安_人脸识别登陆通信网址
 DOMAIN, api-sgp.megvii.com
