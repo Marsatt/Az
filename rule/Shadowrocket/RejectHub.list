@@ -73,6 +73,9 @@ DOMAIN-SUFFIX, mmcdn.com
 
 # macOS 电脑开机后的无用网址 ──────────────────────────────
 
+# Pekka （来源未知，建议观察）
+DOMAIN-SUFFIX, getpekka.com
+
 # No-Mad-Sub 订阅相关服务
 DOMAIN-SUFFIX, no-mad-sub.one
 
