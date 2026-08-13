@@ -306,12 +306,6 @@ DOMAIN, dl.snapcdn.app
 # Mass Block Twitter & Twitter Filter 插件
 DOMAIN-SUFFIX, rxliuli.com
 
-# 沉浸式翻译（粉色图标）
-DOMAIN, config.immersivetranslate.com
-
-# 划词翻译 hcfy.ai
-DOMAIN-SUFFIX, hcfy.ai
-
 # Ghostery（隐私保护插件）
 DOMAIN-SUFFIX, ghostery.com
 DOMAIN-SUFFIX, ghostery.net
@@ -591,6 +585,9 @@ DOMAIN, images.unsplash.com
 # ==============================
 # 🛍️ 购物 / 其他
 # ==============================
+
+# Linktree - 链接聚合工具（TikTok 创作者经常用来放个人链接）
+DOMAIN, linktr.ee
 
 # Bitly（bit.ly）公司是一家美国纽约的短链接与链接管理公司_成立于 2008 年_提供 URL 缩短、点击统计、品牌短链等服务
 DOMAIN, bit.ly

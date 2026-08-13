@@ -353,9 +353,6 @@ DOMAIN-SUFFIX, acsbapp.com
 # Click2Cart - 电商购物车转化追踪服务（TikTok Shop 相关）
 DOMAIN-SUFFIX, click2cart.com
 
-# Linktree - 链接聚合工具（TikTok 创作者经常用来放个人链接）
-DOMAIN-SUFFIX, linktr.ee
-
 # 通用占位/测试域名（部分 TikTok 广告或外包服务使用）
 DOMAIN-SUFFIX, site.com
 
