@@ -12,20 +12,11 @@ DOMAIN-SUFFIX, mail.me.com
 # 🍎 苹果系统 & App Store
 # ==============================
 
-# Apple亚洲时间同步服务_NTP
-DOMAIN, time.asia.apple.com
-
 # 苹果中国官网（部分服务重定向）
 DOMAIN-SUFFIX, apple.com.cn
 
-# Apple 位置服务 / 地图 / 查找设备等后端
-DOMAIN-SUFFIX, ls.apple.com
-
 # App Store 搜索接口（走代理会导致无法搜索，必须直连）
 DOMAIN, amp-api-search-edge.apps.apple.com
-
-# 高德地图（苹果地图在中国大陆底层数据来源）
-DOMAIN-SUFFIX, autonavi.com
 
 
 # ==============================

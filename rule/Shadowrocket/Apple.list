@@ -1,3 +1,12 @@
+# 高德地图（苹果地图在中国大陆底层数据来源）
+DOMAIN-SUFFIX, autonavi.com
+
+# Apple亚洲时间同步服务_NTP
+DOMAIN, time.asia.apple.com
+
+# Apple 位置服务 / 地图 / 查找设备等后端
+DOMAIN-SUFFIX, ls.apple.com
+
 # 苹果CDN定位服务
 DOMAIN, lcdn-locator.apple.com
 
