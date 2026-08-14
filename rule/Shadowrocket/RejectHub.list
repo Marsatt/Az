@@ -636,11 +636,11 @@ DOMAIN-SUFFIX, statsig.com
 DOMAIN-SUFFIX, refgrow.com
 DOMAIN-SUFFIX, iconify.design
 
-DOMAIN, earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com
-
 # doppiocdn.media 是视频流媒体的 HLS 分发域名，拒绝会导致视频无法播放
 DOMAIN, edge-hls.doppiocdn.media
 
+# 火山引擎APMPlus应用性能监控服务，句乐部/Earthworm网站可能用于性能监控、错误分析和运行数据采集
+DOMAIN, apmplus.volces.com
 
 # ──────────────────────────────
 # ⚠️ 恶意 / 可疑域名

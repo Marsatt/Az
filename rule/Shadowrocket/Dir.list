@@ -256,8 +256,10 @@ DOMAIN, nadc.data.api.bose.io
 # 📚 学习 / 词典 / 百科
 # ==============================
 
-# 句乐部-国区
+# ── 句乐部-国区 ─────────────────────
 DOMAIN-SUFFIX, julebu.co
+# Earthworm/句乐部使用的腾讯云COS北京对象存储，用于存放和分发网站的图片、音频、课程素材等资源
+DOMAIN, earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com
 
 # ── 有道词典 ─────────────────────
 # DOMAIN-SUFFIX 覆盖主域名及 www / dict 子域
