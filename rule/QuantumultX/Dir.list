@@ -27,6 +27,9 @@ HOST, amp-api-search-edge.apps.apple.com
 # 高德地图（苹果地图在中国大陆底层数据来源）
 HOST-SUFFIX, autonavi.com
 
+# 苹果支付服务
+host, cn-smp-paymentservices.apple.com
+
 
 # ==============================
 # 🔧 Chrome 插件 & 视频增强

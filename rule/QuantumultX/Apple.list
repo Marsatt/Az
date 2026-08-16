@@ -1,6 +1,3 @@
-# 苹果支付服务
-host, cn-smp-paymentservices.apple.com
-
 # 苹果CDN定位服务
 host, lcdn-locator.apple.com
 
