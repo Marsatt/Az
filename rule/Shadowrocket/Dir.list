@@ -303,8 +303,8 @@ DOMAIN-SUFFIX, zimuku.org
 # 🔧 工具 & 查询
 # ==============================
 
-# itdog 国内能否直连网址查询
-DOMAIN, www.itdog.cn
+# 17ce 国内能否直连网址查询
+DOMAIN, www.17ce.com
 
 # IP / 网站安全查询
 DOMAIN, ipinfo.io
