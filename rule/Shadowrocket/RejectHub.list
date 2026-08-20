@@ -73,8 +73,11 @@ DOMAIN-SUFFIX, mmcdn.com
 
 # macOS 电脑开机后的无用网址 ──────────────────────────────
 
+# 二次元图片API服务
+DOMAIN-SUFFIX, loliapi.com
+
 # 火山引擎APMPlus监控服务
-DOMAIN,apmplus.volces.com
+DOMAIN-SUFFIX, apmplus.volces.com
 
 # Pekka （来源未知，建议观察）
 DOMAIN-SUFFIX, getpekka.com
