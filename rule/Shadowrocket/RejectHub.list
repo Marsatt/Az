@@ -73,6 +73,10 @@ DOMAIN-SUFFIX, mmcdn.com
 
 # macOS 电脑开机后的无用网址 ──────────────────────────────
 
+# Akamai CDN节点
+IP-CIDR,23.212.62.92/32, no-resolve
+IP-CIDR,23.212.62.70/32, no-resolve
+
 # 二次元图片API服务
 DOMAIN-SUFFIX, loliapi.com
 
