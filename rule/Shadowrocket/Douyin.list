@@ -1,4 +1,7 @@
-DOMAIN-SUFFIX, qtaeixd.com
+#DOMAIN-SUFFIX, qtaeixd.com
+
+# 抖音风控验证服务
+DOMAIN,verify.snssdk.com
 
 # 这是字节跳动的内容分发 CDN 节点，负责抖音视频与直播加速，建议放行
 DOMAIN-SUFFIX, ydycdn.com
