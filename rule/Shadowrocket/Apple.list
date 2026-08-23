@@ -111,7 +111,7 @@ DOMAIN,client-api.itunes.apple.com
 DOMAIN,clientflow.apple.com
 DOMAIN,clientflow.apple.com.akadns.net
 DOMAIN,cma.itunes.apple.com
-DOMAIN,cn-smp-paymentservices.apple.com
+#DOMAIN,cn-smp-paymentservices.apple.com
 DOMAIN,communities.apple.com
 DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net

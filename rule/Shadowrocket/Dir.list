@@ -18,6 +18,9 @@ DOMAIN-SUFFIX, apple.com.cn
 # App Store 搜索接口（走代理会导致无法搜索，必须直连）
 DOMAIN, amp-api-search-edge.apps.apple.com
 
+# 苹果支付（国内）
+DOMAIN, cn-smp-paymentservices.apple.com
+
 
 # ==============================
 # 🔧 Chrome 插件 & 视频增强
