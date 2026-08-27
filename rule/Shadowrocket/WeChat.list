@@ -78,6 +78,9 @@ IP-CIDR, 119.188.206.100/32, no-resolve
 # 20250708124147_微信钱包账单查询_iPhone
 DOMAIN-SUFFIX, wechatpay.cn
 
+# 20260827214855_微信朋友圈缩略图查看-----与 Chinamedia.list 冲突
+DOMAIN, shzjwxsns.video.qq.com
+
 
 
 
