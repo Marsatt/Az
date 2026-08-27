@@ -203,6 +203,10 @@ DOMAIN, m.stripe.network
 # 🛠️ 软件 / App 功能域名
 # ──────────────────────────────
 
+# ── 支付宝 +（香港） ───────────────────────
+DOMAIN, activityservice.alibaba.com
+DOMAIN, ant-hkbank-linkd.cn-hongkong.log.aliyuncs.com
+
 # LosslessCut 3.68.0，macOS 视频分段合并工具
 DOMAIN-SUFFIX, mifi.no
 
