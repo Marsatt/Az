@@ -377,6 +377,8 @@ DOMAIN-SUFFIX, bytegecko.com
 # ──────────────────────────────
 # 抖音
 
+DOMAIN-SUFFIX, qtaeixd.com
+
 # 这是抖音的直播与视频分发的直连节点，属于核心服务，建议放行
 IP-CIDR, 192.167.255.224/32, no-resolve
 

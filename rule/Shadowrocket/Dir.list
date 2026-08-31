@@ -800,6 +800,9 @@ DOMAIN-SUFFIX,ccbxt.com
 
 
 
+# 苹果 钱包 招行万事达卡现实卡片信息
+DOMAIN, apple-interp.masternetchina.net
+
 # NAME: CMB_招商银行
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
