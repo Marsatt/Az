@@ -41,7 +41,7 @@ DOMAIN-SUFFIX, cdp.customer.io
 # ── Ably（英国实时消息推送服务，提供 WebSocket 实时通信）────
 DOMAIN-SUFFIX, ably.net
 
-# ── Prelude（第三方反欺诈与手机号验证服务，会采集设备信号）────
+# ── 登录x网页版，需要验证谷歌6为验证码，可能和这个有关联。Prelude（第三方反欺诈与手机号验证服务，会采集设备信号）────
 DOMAIN-SUFFIX, prelude.dev
 
 # 是 Mac 统计 / 监控类软件 的后台数据收集域名。
