@@ -81,7 +81,8 @@ DOMAIN-SUFFIX, wechatpay.cn
 # 20260827214855_微信朋友圈缩略图查看-----与 Chinamedia.list 冲突
 DOMAIN, shzjwxsns.video.qq.com
 
-
+# 20260909172432_微信扫二维码付款
+DOMAIN, prewxacode.wxqcloud.qq.com.cn
 
 
 # NAME: WeChat
