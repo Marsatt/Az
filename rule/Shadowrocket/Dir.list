@@ -319,6 +319,9 @@ DOMAIN-SUFFIX, zimuku.org
 # 🔧 工具 & 查询
 # ==============================
 
+# 视频号复制链接下载视频
+DOMAIN, sph.miuistore.com
+
 # 17ce 国内能否直连网址查询
 DOMAIN, www.17ce.com
 DOMAIN, wsapi.17ce.com
