@@ -234,6 +234,15 @@ DOMAIN, bgsub.cn
 # 📱 其他常用 App & 服务
 # ==============================
 
+# ── ✈️ 飞常准 ────────────────
+DOMAIN, file.veryzhun.com
+DOMAIN, file.variflight.com
+DOMAIN, radar-c.variflight.com
+DOMAIN, m.ctrip.com
+DOMAIN, ticket.variflight.com
+DOMAIN, app.variflight.com
+DOMAIN, static.variflight.com
+
 # ── 腾讯挪车码（微信小程序）─────────
 DOMAIN, appcfg.v.qq.com
 DOMAIN, launchwxacode.wxqcloud.qq.com.cn
