@@ -459,7 +459,7 @@ DOMAIN-SUFFIX, ndcpp.com
 DOMAIN-SUFFIX, yingt.fun
 DOMAIN-SUFFIX, bytehwm.com
 
-# 这是 Fastly 的 ohttp 中继节点，用于隐私请求转发，不是普通访问的网站 (ohttp-relay1.fastly-edge.com)
+# 关联 (Apple.list) 这是 Fastly 的 ohttp 中继节点，用于隐私请求转发，不是普通访问的网站 (ohttp-relay1.fastly-edge.com)
 DOMAIN-SUFFIX, fastly-edge.com
 
 # 字节跳动内部的 JavaScript 动态加载域名（JS 资源服务器）。_用于加载抖音网页版的一些动态脚本，包括：A/B 测试配置。_个性化推荐算法相关脚本。_部分功能模块的按需加载。_埋点 / 数据上报相关的 JS。
