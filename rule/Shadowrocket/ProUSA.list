@@ -507,9 +507,11 @@ DOMAIN-SUFFIX, jdownloader.org
 DOMAIN-SUFFIX, appwork.org
 
 # macOS 破解站 XMac
+DOMAIN-SUFFIX, xmac.store
 DOMAIN-SUFFIX, xmac.app
 DOMAIN-SUFFIX, appstorrent.ru
 DOMAIN-SUFFIX, mediafire.com
+DOMAIN-SUFFIX, vk.ru
 DOMAIN-SUFFIX, vk.com
 DOMAIN, psv4.userapi.com
 DOMAIN, unpkg.com
