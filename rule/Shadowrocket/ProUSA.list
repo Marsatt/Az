@@ -405,10 +405,6 @@ DOMAIN, server.arcgisonline.com
 # 📚 学习 / 阅读
 # ==============================
 
-# 句乐部
-DOMAIN, scripts.refgrowcdn.com
-DOMAIN-SUFFIX, julebu.ai
-
 # Notion
 DOMAIN-SUFFIX, notion.so
 DOMAIN-SUFFIX, notion.com
