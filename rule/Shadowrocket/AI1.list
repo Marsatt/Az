@@ -54,6 +54,8 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN,aisandbox-pa.googleapis.com
+# 5 后添加的漏网之鱼
+DOMAIN-SUFFIX,usercontent.goog
 
 
 # Claude
