@@ -28,39 +28,107 @@ DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,fbsbx.com
 
 
-# Gemini API
-DOMAIN, api.rc-backup.com
-
-# Gemini google
-DOMAIN-SUFFIX, gemini.com
-DOMAIN-SUFFIX, gemini.gstatic.com
-
-
-# NAME: Gemini
+# Gemini
+#  第三方 Gemini API 中转域名（非 Google 官方；不用中转服务可删除）
+DOMAIN,api.rc-backup.com
+#  Google AI Studio（aistudio.google.com 为现用域名）及 AI 开发者站点
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+#  Gemini 网页版及相关前端资源（bard.google.com 现已跳转到 Gemini）
+DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.gstatic.com
+#  DeepMind 相关域名
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
+#  Gemini API 与生成式 AI 后端接口
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
-DOMAIN,generativelanguage.googleapis.com
+#  以下三条过宽易误伤，已注释备用，需要时去掉行首 # 启用
+# DOMAIN-SUFFIX,apis.google.com
+# DOMAIN-KEYWORD,colab
+# DOMAIN-KEYWORD,developerprofiles
 
 
-# claude
-DOMAIN, www.claudeusercontent.com
-DOMAIN-SUFFIX, claude.com
-
-# NAME: Claude
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
+# Claude
+#  Claude 官网及 App（claude.ai 负责网页版/登录/下载，claude.com 负责平台与文档）
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+#  Anthropic 官方域名（含 api.anthropic.com 等 API 与自有服务）
+DOMAIN-SUFFIX,anthropic.com
+#  Claude Artifacts 内容预览域名
+DOMAIN-SUFFIX,claudeusercontent.com
+
+
+#  xAI 官方域名（含 api.x.ai 等 API 与账号服务）
+DOMAIN-SUFFIX,x.ai
+#  Grok 网页版及 App
+DOMAIN-SUFFIX,grok.com
+#  Grok 功能域名（图片/文件预览、沙盒、知识百科等官方配套服务）
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,grok-sandbox.com
+DOMAIN-SUFFIX,groktpcontent.com
+DOMAIN-SUFFIX,grok.me
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,featureassets.org
+#  关键词 grok 过宽易误伤，已注释备用，需要时去掉行首 # 启用
+# DOMAIN-KEYWORD,grok
+
+
+
+#  第三方内购/订阅 SDK（非 OpenAI 官方；打开 ChatGPT 时出现的请求，不需要可删除）
+DOMAIN,api-production.8-lives-cat.io
+#  ChatGPT 核心域名（网页版、API、主站，ai.com 为 OpenAI 持有）
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ai.com
+#  静态资源与用户内容 CDN（图片、文件、站点资源）
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+#  登录鉴权（Auth0）
+DOMAIN-SUFFIX,auth0.com
+#  语音通话 Voice Mode（走 LiveKit）
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+#  人机验证（ArkoseLabs 验证码）
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+#  支付（仅网页订阅 Plus 时需要）
+DOMAIN-SUFFIX,stripe.com
+#  以下为第三方统计/分析/实验平台，非必需，已注释备用
+# DOMAIN,browser-intake-datadoghq.com
+# DOMAIN,static.cloudflareinsights.com
+# DOMAIN-SUFFIX,algolia.net
+# DOMAIN-SUFFIX,api.statsig.com
+# DOMAIN-SUFFIX,events.statsigapi.net
+# DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,identrust.com
+# DOMAIN-SUFFIX,intercom.io
+# DOMAIN-SUFFIX,intercomcdn.com
+# DOMAIN-SUFFIX,launchdarkly.com
+# DOMAIN-SUFFIX,observeit.net
+# DOMAIN-SUFFIX,segment.io
+# DOMAIN-SUFFIX,sentry.io
+# 关键词 openai 过宽易误伤，已注释备用
+# DOMAIN-KEYWORD,openai
+# 官方规则集收录的相关 IP
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+
+
+
 
 
 # HuggingFace（开源模型平台）
@@ -104,15 +172,6 @@ DOMAIN-SUFFIX, pplx.ai
 DOMAIN-SUFFIX, cloudinary.com
 DOMAIN-SUFFIX, perplexity.com
 
-# grok
-DOMAIN-SUFFIX, x.ai
-DOMAIN-SUFFIX, grok.com
-DOMAIN-KEYWORD, grok
-DOMAIN, xai.chronosphere.io
-DOMAIN, prodregistryv2.org
-DOMAIN, api.mixpanel.com
-DOMAIN, featureassets.org
-
 
 # OpenAI浏览器_ChatGPT Atlas
 DOMAIN, browser-intake-datadoghq.com
@@ -127,56 +186,6 @@ DOMAIN,sora-cdn.oaistatic.com
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,assetsconfigcdn.org
 DOMAIN-SUFFIX,sora.com,OpenAI
-
-
-# 打开ChatGPT会出现这个请求，第三方服务接口（高概率订阅/内购SDK）
-DOMAIN, api-production.8-lives-cat.io
-
-# NAME: OpenAI
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:00
-# DOMAIN: 7
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 24
-# IP-ASN: 1
-# IP-CIDR: 2
-# TOTAL: 35
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-KEYWORD,openai
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,20473,no-resolve
 
 
 
