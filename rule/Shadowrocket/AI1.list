@@ -9,7 +9,26 @@ DOMAIN-SUFFIX, cloudflareinsights.com
 # ==============================
 
 
-#Gemini API
+# Muse
+#  Muse 后端服务的接入域名（App 与云端虚拟机通信的入口）
+DOMAIN,hatch.metaaivm.com
+#  Meta 主域名后缀（覆盖 agent.meta.ai、www.meta.ai 等子域名，含账号与连接服务）
+DOMAIN-SUFFIX,meta.com
+#  Facebook 域名后缀（登录与账号体系相关，www.facebook.com 这类都被覆盖）
+DOMAIN-SUFFIX,facebook.com
+#  Muse 官网及子域名
+DOMAIN-SUFFIX,muse.ai
+#  Meta 图谱 API 后缀（App 内数据接口，ar.graph.meta.com 也被覆盖）
+DOMAIN-SUFFIX,graph.meta.com
+#  Meta AI 官网及子域名（meta.ai 相关服务）
+DOMAIN-SUFFIX,meta.ai
+#  Meta 官方的 CDN 域名（xx.fbcdn.net 是 Facebook/Meta 的内容分发网络，图片、头像、附件这类静态资源都走这里，不只 scontent 开头）
+DOMAIN-SUFFIX,fbcdn.net
+#  Meta 的附件沙盒 CDN（聊天里的文件、图片可能走 fbsbx.com 这个域名）
+DOMAIN-SUFFIX,fbsbx.com
+
+
+# Gemini API
 DOMAIN, api.rc-backup.com
 
 # Gemini google
@@ -39,12 +58,6 @@ DOMAIN, www.claudeusercontent.com
 DOMAIN-SUFFIX, claude.com
 
 # NAME: Claude
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-07-03 16:18:28
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 3
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
