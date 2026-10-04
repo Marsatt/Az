@@ -4,8 +4,8 @@
 # UPDATED: 2025-06-06 09:15:11
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
-DOMAIN-SUFFIX, mail.icloud.com.cn
-DOMAIN-SUFFIX, mail.me.com
+#DOMAIN-SUFFIX, mail.icloud.com.cn
+#DOMAIN-SUFFIX, mail.me.com
 
 
 # ==============================
@@ -13,10 +13,10 @@ DOMAIN-SUFFIX, mail.me.com
 # ==============================
 
 # 苹果中国官网（部分服务重定向）
-DOMAIN-SUFFIX, apple.com.cn
+#DOMAIN-SUFFIX, apple.com.cn
 
 # App Store 搜索接口（走代理会导致无法搜索，必须直连）
-DOMAIN, amp-api-search-edge.apps.apple.com
+#DOMAIN, amp-api-search-edge.apps.apple.com
 
 # 苹果支付（国内）
 DOMAIN, cn-smp-paymentservices.apple.com
