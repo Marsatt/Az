@@ -129,6 +129,9 @@ DOMAIN-SUFFIX, alicdn.com
 DOMAIN, etaxpro.bizapps.cn
 DOMAIN-SUFFIX, ikea.com
 DOMAIN-SUFFIX, ikeait.cn
+# 宜家app使用了华为云服务器_2026.10.04
+IP-CIDR,1.92.91.219/32, no-resolve
+IP-CIDR,124.70.220.123/32, no-resolve
 
 # ── 沃尔玛中国 ───────────────────
 DOMAIN-SUFFIX, ghsmpwalmart.com
