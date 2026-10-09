@@ -12,11 +12,8 @@
 # 🍎 苹果系统 & App Store
 # ==============================
 
-# 苹果中国官网（部分服务重定向）
-#DOMAIN-SUFFIX, apple.com.cn
-
-# App Store 搜索接口（走代理会导致无法搜索，必须直连）
-#DOMAIN, amp-api-search-edge.apps.apple.com
+# 邮件可以正常使用，这个需要放进direct.list里，除非有可以放行SMTP端口的代理节点。
+#DOMAIN-SUFFIX,mail.me.com
 
 # 苹果支付（国内）
 DOMAIN, cn-smp-paymentservices.apple.com
