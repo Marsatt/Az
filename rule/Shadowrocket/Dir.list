@@ -13,7 +13,7 @@
 # ==============================
 
 # 邮件可以正常使用，这个需要放进direct.list里，除非有可以放行SMTP端口的代理节点。
-#DOMAIN-SUFFIX,mail.me.com
+DOMAIN-SUFFIX, mail.me.com
 
 # 苹果支付（国内）
 DOMAIN, cn-smp-paymentservices.apple.com
