@@ -19,8 +19,10 @@ DOMAIN, pitaya.bytedance.com
 # 查看订单物流信息，这是抖音系的 connect 接口域名，多用于应用内部连接服务
 DOMAIN, connect.douyinec.com
 
-# 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
+# 这是 ecombdapi.com 的子域名，抖音电商接口（订单列表、支付下单），必须放行，REJECT 会导致订单/支付页一直转圈。
 DOMAIN, ecom5-normal-m-zjg.ecombdapi.com
+DOMAIN, ec5-core.ecombdapi.com
+DOMAIN, ecom-normal.ecombdapi.com
 
 # 这是字节跳动电商核心接口，抖音内部服务，不建议拒绝
 DOMAIN, ecset5-core-m-zjg.ecombdapi.com
