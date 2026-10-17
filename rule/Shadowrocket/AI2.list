@@ -1,54 +1,257 @@
+#cloudflare.com（验证网站）
+DOMAIN-SUFFIX, cloudflare.com
+DOMAIN-SUFFIX, cloudflare-dns.com
+DOMAIN-SUFFIX, cloudflareinsights.com
+
+
 # ==============================
 # 🤖 AI
 # ==============================
 
-# ==========================================
-# Google Gemini & AI 精确分流规则 (走 AI2 分流)
-# 放置在 Google 通用规则之前，互不抢流
-# ==========================================
 
-# 1. Gemini 核心网页与静态资源 (全部改为精确匹配)
-DOMAIN,gemini.google
-DOMAIN,www.gemini.google
-DOMAIN,gemini.google.com
-DOMAIN,bard.google.com
-DOMAIN,gemini.gstatic.com
-DOMAIN,ai.google
-DOMAIN,www.ai.google
+# Muse
+#  Muse 后端服务的接入域名（App 与云端虚拟机通信的入口）
+DOMAIN,hatch.metaaivm.com
+#  Meta 主域名后缀（覆盖 agent.meta.ai、www.meta.ai 等子域名，含账号与连接服务）
+DOMAIN-SUFFIX,meta.com
+#  Facebook 域名后缀（登录与账号体系相关，www.facebook.com 这类都被覆盖）
+DOMAIN-SUFFIX,facebook.com
+#  Muse 官网及子域名
+DOMAIN-SUFFIX,muse.ai
+#  Meta 图谱 API 后缀（App 内数据接口，ar.graph.meta.com 也被覆盖）
+DOMAIN-SUFFIX,graph.meta.com
+#  Meta AI 官网及子域名（meta.ai 相关服务）
+DOMAIN-SUFFIX,meta.ai
+#  Meta 官方的 CDN 域名（xx.fbcdn.net 是 Facebook/Meta 的内容分发网络，图片、头像、附件这类静态资源都走这里，不只 scontent 开头）
+DOMAIN-SUFFIX,fbcdn.net
+#  Meta 的附件沙盒 CDN（聊天里的文件、图片可能走 fbsbx.com 这个域名）
+DOMAIN-SUFFIX,fbsbx.com
 
-# 2. 移动端 App 关键后台与握手接口 (原本就是精确匹配)
-DOMAIN,robinfrontend-pa.googleapis.com
-DOMAIN,geller-pa.googleapis.com
-DOMAIN,geminiweb-pa.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,waa-pa.clients6.google.com
 
-# 3. Google AI Studio & 开发者生态 (全部改为精确匹配)
-DOMAIN,aistudio.google.com
-DOMAIN,makersuite.google.com
-DOMAIN,ai.google.dev
-DOMAIN,www.ai.google.dev
-DOMAIN,generativeai.google
-DOMAIN,www.generativeai.google
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,idx.google.com
-DOMAIN,jules.google.com
+# Google Gemini & AI 服务分流规则
+# 1 Gemini 核心域名
+#DOMAIN-SUFFIX,gemini.google
+#DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,bard.google.com
+#DOMAIN-SUFFIX,gemini.gstatic.com
+# 2 移动端 App 关键后台与握手接口（解决 App 报错关键）
+#DOMAIN,robinfrontend-pa.googleapis.com
+#DOMAIN,geller-pa.googleapis.com
+#DOMAIN,geminiweb-pa.googleapis.com
+#DOMAIN,proactivebackend-pa.googleapis.com
+#DOMAIN,alkalicore-pa.clients6.google.com
+#DOMAIN,alkalimakersuite-pa.clients6.google.com
+#DOMAIN,waa-pa.clients6.google.com
+# 3 Google AI Studio & 开发者生态
+#DOMAIN-SUFFIX,aistudio.google.com
+#DOMAIN,ai.google.dev
+#D#OMAIN,makersuite.google.com
+#DOMAIN-SUFFIX,generativeai.google
+#DOMAIN-KEYWORD,generativelanguage
+# 4 DeepMind & 扩展实验室（含 NotebookLM）
+#DOMAIN-SUFFIX,deepmind.com
+#DOMAIN-SUFFIX,deepmind.google
+#DOMAIN-SUFFIX,notebooklm.google
+#DOMAIN-SUFFIX,notebooklm.google.com
+#DOMAIN,aisandbox-pa.googleapis.com
+# 5 后添加的漏网之鱼
+#DOMAIN-SUFFIX,usercontent.goog
 
-# 4. DeepMind、NotebookLM & AI 实验室 (全部改为精确匹配)
-DOMAIN,deepmind.com
-DOMAIN,www.deepmind.com
-DOMAIN,deepmind.google
-DOMAIN,www.deepmind.google
-DOMAIN,notebooklm.google
-DOMAIN,www.notebooklm.google
-DOMAIN,notebooklm.google.com
-DOMAIN,labs.google
-DOMAIN,www.labs.google
-DOMAIN,aisandbox-pa.googleapis.com
 
-# 5. 动态沙盒域名 (唯一必须保留 SUFFIX 的地方)
-# 原因：Gemini 运行代码或渲染组件时，会生成类似 a1b2c3-apidata.googleusercontent.com 
-# 或 xxx-yyy.usercontent.goog 的随机一次性子域名，无法穷举，且该域名不出现在你的 B 分流中。
-DOMAIN-SUFFIX,usercontent.goog
+# Claude
+#  Claude 官网及 App（claude.ai 负责网页版/登录/下载，claude.com 负责平台与文档）
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+#  Anthropic 官方域名（含 api.anthropic.com 等 API 与自有服务）
+DOMAIN-SUFFIX,anthropic.com
+#  Claude Artifacts 内容预览域名
+DOMAIN-SUFFIX,claudeusercontent.com
+
+
+#  xAI 官方域名（含 api.x.ai 等 API 与账号服务）
+DOMAIN-SUFFIX,x.ai
+#  Grok 网页版及 App
+DOMAIN-SUFFIX,grok.com
+#  Grok 功能域名（图片/文件预览、沙盒、知识百科等官方配套服务）
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,grok-sandbox.com
+DOMAIN-SUFFIX,groktpcontent.com
+DOMAIN-SUFFIX,grok.me
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,featureassets.org
+#  关键词 grok 过宽易误伤，已注释备用，需要时去掉行首 # 启用
+# DOMAIN-KEYWORD,grok
+
+
+
+#  第三方内购/订阅 SDK（非 OpenAI 官方；打开 ChatGPT 时出现的请求，不需要可删除）
+DOMAIN,api-production.8-lives-cat.io
+#  ChatGPT 核心域名（网页版、API、主站，ai.com 为 OpenAI 持有）
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,ai.com
+#  静态资源与用户内容 CDN（图片、文件、站点资源）
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+#  登录鉴权（Auth0）
+DOMAIN-SUFFIX,auth0.com
+#  语音通话 Voice Mode（走 LiveKit）
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+#  人机验证（ArkoseLabs 验证码）
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+#  支付（仅网页订阅 Plus 时需要）
+DOMAIN-SUFFIX,stripe.com
+#  以下为第三方统计/分析/实验平台，非必需，已注释备用
+# DOMAIN,browser-intake-datadoghq.com
+# DOMAIN,static.cloudflareinsights.com
+# DOMAIN-SUFFIX,algolia.net
+# DOMAIN-SUFFIX,api.statsig.com
+# DOMAIN-SUFFIX,events.statsigapi.net
+# DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,identrust.com
+# DOMAIN-SUFFIX,intercom.io
+# DOMAIN-SUFFIX,intercomcdn.com
+# DOMAIN-SUFFIX,launchdarkly.com
+# DOMAIN-SUFFIX,observeit.net
+# DOMAIN-SUFFIX,segment.io
+# DOMAIN-SUFFIX,sentry.io
+# 关键词 openai 过宽易误伤，已注释备用
+# DOMAIN-KEYWORD,openai
+# 官方规则集收录的相关 IP
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+
+
+
+
+
+# HuggingFace（开源模型平台）
+DOMAIN-SUFFIX, huggingface.co
+
+# Suno（AI 音乐制作）
+DOMAIN, img.clerk.com
+DOMAIN-SUFFIX, suno.ai
+DOMAIN-SUFFIX, suno.com
+
+# Udio（AI 音乐制作）
+DOMAIN-SUFFIX, udio.com
+
+# Replicate（AI 模型推理）
+DOMAIN, replicate.delivery
+
+# AISaver（文字转语音，有限免费）
+DOMAIN-SUFFIX, aisaver.io
+DOMAIN, extensiondock.com
+
+# Fish Audio（语音合成与下载）
+DOMAIN-SUFFIX, fish.audio
+DOMAIN-SUFFIX, r2.cloudflarestorage.com
+
+# Groq（免费 AI 模型 API）
+DOMAIN-SUFFIX, groq.io
+
+# Midjourney（AI 图片生成）
+DOMAIN, midjourney.ghost.io
+DOMAIN-SUFFIX, midjourney.com
+DOMAIN-SUFFIX, statuspage.io
+
+#Intercom 是一个很常见的客户消息/客服聊天平台（类似 Zendesk、客服小助手），很多 App 会集成它的 SDK，让用户在 App 里直接聊天咨询、查看帮助文档、接收推送等。你在 Shadowrocket 里看到这个域名请求，几乎可以肯定是你手机上安装的某个 App 集成了 Intercom SDK，正在尝试连接它的客服/消息服务。
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# perplexity
+DOMAIN-SUFFIX, perplexity.ai
+DOMAIN-SUFFIX, pplx.ai
+DOMAIN-SUFFIX, cloudinary.com
+DOMAIN-SUFFIX, perplexity.com
+
+
+# OpenAI浏览器_ChatGPT Atlas
+DOMAIN, browser-intake-datadoghq.com
+
+
+#grop
+DOMAIN-SUFFIX, groq.com
+
+
+#Sora
+DOMAIN,sora-cdn.oaistatic.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,assetsconfigcdn.org
+DOMAIN-SUFFIX,sora.com,OpenAI
+
+
+
+
+# NAME: Copilot
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-07-03 16:18:30
+# DOMAIN: 20
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# IP-ASN: 2
+# IP-CIDR: 2
+# TOTAL: 51
+DOMAIN,api.msn.com
+DOMAIN,api.statsig.com
+DOMAIN,assets.msn.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-KEYWORD,openaicom-api
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,14061,no-resolve
+IP-ASN,20473,no-resolve
