@@ -30,32 +30,32 @@ DOMAIN-SUFFIX,fbsbx.com
 
 # Google Gemini & AI 服务分流规则
 # 1 Gemini 核心域名
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.gstatic.com
+#DOMAIN-SUFFIX,gemini.google
+#DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,bard.google.com
+#DOMAIN-SUFFIX,gemini.gstatic.com
 # 2 移动端 App 关键后台与握手接口（解决 App 报错关键）
-DOMAIN,robinfrontend-pa.googleapis.com
-DOMAIN,geller-pa.googleapis.com
-DOMAIN,geminiweb-pa.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,waa-pa.clients6.google.com
+#DOMAIN,robinfrontend-pa.googleapis.com
+#DOMAIN,geller-pa.googleapis.com
+#DOMAIN,geminiweb-pa.googleapis.com
+#DOMAIN,proactivebackend-pa.googleapis.com
+#DOMAIN,alkalicore-pa.clients6.google.com
+#DOMAIN,alkalimakersuite-pa.clients6.google.com
+#DOMAIN,waa-pa.clients6.google.com
 # 3 Google AI Studio & 开发者生态
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN,ai.google.dev
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-KEYWORD,generativelanguage
+#DOMAIN-SUFFIX,aistudio.google.com
+#DOMAIN,ai.google.dev
+#D#OMAIN,makersuite.google.com
+#DOMAIN-SUFFIX,generativeai.google
+#DOMAIN-KEYWORD,generativelanguage
 # 4 DeepMind & 扩展实验室（含 NotebookLM）
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN,aisandbox-pa.googleapis.com
+#DOMAIN-SUFFIX,deepmind.com
+#DOMAIN-SUFFIX,deepmind.google
+#DOMAIN-SUFFIX,notebooklm.google
+#DOMAIN-SUFFIX,notebooklm.google.com
+#DOMAIN,aisandbox-pa.googleapis.com
 # 5 后添加的漏网之鱼
-DOMAIN-SUFFIX,usercontent.goog
+#DOMAIN-SUFFIX,usercontent.goog
 
 
 # Claude

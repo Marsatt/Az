@@ -1,3 +1,54 @@
 # ==============================
 # 🤖 AI
 # ==============================
+
+# ==========================================
+# Google Gemini & AI 精确分流规则 (走 AI2 分流)
+# 放置在 Google 通用规则之前，互不抢流
+# ==========================================
+
+# 1. Gemini 核心网页与静态资源 (全部改为精确匹配)
+DOMAIN,gemini.google
+DOMAIN,www.gemini.google
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,gemini.gstatic.com
+DOMAIN,ai.google
+DOMAIN,www.ai.google
+
+# 2. 移动端 App 关键后台与握手接口 (原本就是精确匹配)
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,geminiweb-pa.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,waa-pa.clients6.google.com
+
+# 3. Google AI Studio & 开发者生态 (全部改为精确匹配)
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
+DOMAIN,ai.google.dev
+DOMAIN,www.ai.google.dev
+DOMAIN,generativeai.google
+DOMAIN,www.generativeai.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,idx.google.com
+DOMAIN,jules.google.com
+
+# 4. DeepMind、NotebookLM & AI 实验室 (全部改为精确匹配)
+DOMAIN,deepmind.com
+DOMAIN,www.deepmind.com
+DOMAIN,deepmind.google
+DOMAIN,www.deepmind.google
+DOMAIN,notebooklm.google
+DOMAIN,www.notebooklm.google
+DOMAIN,notebooklm.google.com
+DOMAIN,labs.google
+DOMAIN,www.labs.google
+DOMAIN,aisandbox-pa.googleapis.com
+
+# 5. 动态沙盒域名 (唯一必须保留 SUFFIX 的地方)
+# 原因：Gemini 运行代码或渲染组件时，会生成类似 a1b2c3-apidata.googleusercontent.com 
+# 或 xxx-yyy.usercontent.goog 的随机一次性子域名，无法穷举，且该域名不出现在你的 B 分流中。
+DOMAIN-SUFFIX,usercontent.goog
