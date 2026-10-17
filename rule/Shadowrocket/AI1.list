@@ -52,3 +52,12 @@ DOMAIN,aisandbox-pa.googleapis.com
 # 原因：Gemini 运行代码或渲染组件时，会生成类似 a1b2c3-apidata.googleusercontent.com 
 # 或 xxx-yyy.usercontent.goog 的随机一次性子域名，无法穷举，且该域名不出现在你的 B 分流中。
 DOMAIN-SUFFIX,usercontent.goog
+
+# 6. 解决“出了点问题(1)”的鉴权与握手接口（纯文本信令，几乎零流量）
+DOMAIN,accounts.google.com
+DOMAIN,ogs.google.com
+DOMAIN,play.googleapis.com
+DOMAIN,signaler-pa.clients6.google.com
+DOMAIN,clients6.google.com
+DOMAIN,content-autofill.googleapis.com
+DOMAIN,optimizationguide-pa.googleapis.com
