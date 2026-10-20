@@ -61,3 +61,9 @@ DOMAIN,signaler-pa.clients6.google.com
 DOMAIN,clients6.google.com
 DOMAIN,content-autofill.googleapis.com
 DOMAIN,optimizationguide-pa.googleapis.com
+
+# 7. 补齐 Gemini 依赖与信令握手
+DOMAIN-KEYWORD,apidata.googleusercontent.com
+DOMAIN,apis.google.com
+DOMAIN,clients4.google.com
+DOMAIN,id.google.com
