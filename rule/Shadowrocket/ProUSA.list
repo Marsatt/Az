@@ -75,14 +75,30 @@ IP-CIDR,54.242.0.0/15,no-resolve
 # Amazon CloudFront CDN（Twitch 视频流）
 DOMAIN-SUFFIX, cloudfront.net
 
-# ── Kick 直播 ────────────────────
+# ── Kick 直播 (精准通配版) ────────────────────
+# 核心主站与短链
 DOMAIN-SUFFIX, kick.com
+DOMAIN-SUFFIX, kick.ac
+# 核心直播视频流 (AWS IVS)
+DOMAIN-SUFFIX, live-video.net
+DOMAIN-SUFFIX, ivs.amazonaws.com
+# 播放录像与回放 (仅精准放行 AWS 美西2区 MediaTailor)
+DOMAIN-SUFFIX, mediatailor.us-west-2.amazonaws.com
+# Pusher 实时通信 (弹幕/礼物)
+DOMAIN-SUFFIX, pusher.com
+DOMAIN-SUFFIX, pusherapp.com
+# 第三方录像下载工具
 DOMAIN-SUFFIX, kick-video.download
+
+
+#DOMAIN-SUFFIX, kick.com
+#DOMAIN-SUFFIX, kick-video.download
 # Pusher 实时通信（直播聊天室弹幕/礼物）
-DOMAIN, js.pusher.com
-DOMAIN, sockjs-us2.pusher.com
+#DOMAIN, js.pusher.com
+#DOMAIN, sockjs-us2.pusher.com
 # 播放录像（AWS MediaTailor）
-DOMAIN, segments.mediatailor.us-west-2.amazonaws.com
+#DOMAIN, segments.mediatailor.us-west-2.amazonaws.com
+
 
 # ── AfreecaTV / SoopLive / Pandalive（韩国直播）──
 DOMAIN-SUFFIX, afreecatv.com
