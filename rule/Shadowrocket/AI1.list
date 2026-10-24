@@ -2,12 +2,72 @@
 # 🤖 AI
 # ==============================
 
-# ==========================================
-# Google Gemini & AI 精确分流规则 (走 AI2 分流)
-# 放置在 Google 通用规则之前，互不抢流
-# ==========================================
+# Meta AI / Muse
 
-# 1. Gemini 核心网页与静态资源 (全部改为精确匹配)
+# Muse 后端接入域名（App 与云端虚拟机通信入口）
+DOMAIN,hatch.metaaivm.com
+# Meta 主域名后缀（覆盖 agent.meta.ai、www.meta.ai 等，含账号与连接服务）
+DOMAIN-SUFFIX,meta.com
+# Facebook 域名后缀（登录与账号体系相关）
+DOMAIN-SUFFIX,facebook.com
+# Muse 官网及子域名
+DOMAIN-SUFFIX,muse.ai
+# Meta 图谱 API 后缀（App 内数据接口）
+DOMAIN-SUFFIX,graph.meta.com
+# Meta AI 官网及子域名
+DOMAIN-SUFFIX,meta.ai
+# Meta 官方 CDN（图片、头像、附件等静态资源）
+DOMAIN-SUFFIX,fbcdn.net
+# Meta 附件沙盒 CDN（聊天里的文件、图片）
+DOMAIN-SUFFIX,fbsbx.com
+
+
+# ChatGPT（OpenAI）
+
+# ChatGPT 网页版/主站
+DOMAIN-SUFFIX,chatgpt.com
+# OpenAI 官网/API/文档
+DOMAIN-SUFFIX,openai.com
+# ai.com 为 OpenAI 持有，会跳转到 ChatGPT
+DOMAIN-SUFFIX,ai.com
+# Sora 视频生成（OpenAI 旗下）
+DOMAIN-SUFFIX,sora.com
+# Sora CDN 节点（精确域名）
+DOMAIN,sora-cdn.oaistatic.com
+# Sora 资源配置 CDN
+DOMAIN,assetsconfigcdn.org
+# OpenAI 静态资源 CDN
+DOMAIN-SUFFIX,oaistatic.com
+# OpenAI 用户内容 CDN（图片/文件）
+DOMAIN-SUFFIX,oaiusercontent.com
+# OpenAI 图片 CDN
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+# OpenAI CDN 精确节点
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+# 登录鉴权（Auth0）
+DOMAIN-SUFFIX,auth0.com
+# 语音通话 Voice Mode（LiveKit）
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+# 人机验证（ArkoseLabs 验证码）
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+# 网页订阅 Plus 支付（Stripe）
+DOMAIN-SUFFIX,stripe.com
+# OpenAI 官方规则集收录的 IP
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+
+
+# Gemini（Google）
+
+# Gemini 网页版核心域名（精确匹配）
 DOMAIN,gemini.google
 DOMAIN,www.gemini.google
 DOMAIN,gemini.google.com
@@ -15,8 +75,7 @@ DOMAIN,bard.google.com
 DOMAIN,gemini.gstatic.com
 DOMAIN,ai.google
 DOMAIN,www.ai.google
-
-# 2. 移动端 App 关键后台与握手接口 (原本就是精确匹配)
+# Gemini 移动端 App 后台与握手接口
 DOMAIN,robinfrontend-pa.googleapis.com
 DOMAIN,geller-pa.googleapis.com
 DOMAIN,geminiweb-pa.googleapis.com
@@ -24,8 +83,7 @@ DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,waa-pa.clients6.google.com
-
-# 3. Google AI Studio & 开发者生态 (全部改为精确匹配)
+# Google AI Studio & 开发者生态
 DOMAIN,aistudio.google.com
 DOMAIN,makersuite.google.com
 DOMAIN,ai.google.dev
@@ -35,8 +93,7 @@ DOMAIN,www.generativeai.google
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,idx.google.com
 DOMAIN,jules.google.com
-
-# 4. DeepMind、NotebookLM & AI 实验室 (全部改为精确匹配)
+# DeepMind、NotebookLM & AI 实验室
 DOMAIN,deepmind.com
 DOMAIN,www.deepmind.com
 DOMAIN,deepmind.google
@@ -47,13 +104,9 @@ DOMAIN,notebooklm.google.com
 DOMAIN,labs.google
 DOMAIN,www.labs.google
 DOMAIN,aisandbox-pa.googleapis.com
-
-# 5. 动态沙盒域名 (唯一必须保留 SUFFIX 的地方)
-# 原因：Gemini 运行代码或渲染组件时，会生成类似 a1b2c3-apidata.googleusercontent.com 
-# 或 xxx-yyy.usercontent.goog 的随机一次性子域名，无法穷举，且该域名不出现在你的 B 分流中。
+# 动态沙盒域名（Gemini 运行代码/渲染组件时生成随机一次性子域名，无法穷举，唯一保留 SUFFIX 的地方）
 DOMAIN-SUFFIX,usercontent.goog
-
-# 6. 解决“出了点问题(1)”的鉴权与握手接口（纯文本信令，几乎零流量）
+# 登录鉴权与握手接口（纯文本信令，几乎零流量）
 DOMAIN,accounts.google.com
 DOMAIN,ogs.google.com
 DOMAIN,play.googleapis.com
@@ -61,9 +114,82 @@ DOMAIN,signaler-pa.clients6.google.com
 DOMAIN,clients6.google.com
 DOMAIN,content-autofill.googleapis.com
 DOMAIN,optimizationguide-pa.googleapis.com
-
-# 7. 补齐 Gemini 依赖与信令握手
+# Gemini 依赖补齐（含沙盒动态子域名关键词）
 DOMAIN-KEYWORD,apidata.googleusercontent.com
 DOMAIN,apis.google.com
 DOMAIN,clients4.google.com
 DOMAIN,id.google.com
+
+
+# Claude（Anthropic）
+
+# Claude 官网及 App（claude.ai 负责网页版/登录/下载，claude.com 负责平台与文档）
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+# Anthropic 官方域名（含 api.anthropic.com 等 API 与自有服务）
+DOMAIN-SUFFIX,anthropic.com
+# Claude Artifacts 内容预览域名
+DOMAIN-SUFFIX,claudeusercontent.com
+
+
+# Midjourney
+
+# Midjourney 官网及 App
+DOMAIN-SUFFIX,midjourney.com
+# Midjourney 帮助/状态页（Ghost）
+DOMAIN,midjourney.ghost.io
+# 状态页服务（通用第三方，可选）
+DOMAIN-SUFFIX,statuspage.io
+
+
+# AI 音乐（Suno / Udio）
+
+# Suno 登录鉴权（Clerk）
+DOMAIN,img.clerk.com
+# Suno 官网及 App
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+# Udio 官网
+DOMAIN-SUFFIX,udio.com
+
+
+# 开源与 API 平台（HuggingFace / Replicate / Groq）
+
+# HuggingFace 开源模型平台
+DOMAIN-SUFFIX,huggingface.co
+# Replicate 官网
+DOMAIN-SUFFIX,replicate.com
+# Replicate 模型文件分发
+DOMAIN,replicate.delivery
+# Groq 免费 AI 模型 API
+DOMAIN-SUFFIX,groq.com
+
+
+# AI 语音工具（AISaver / Fish Audio）
+
+# AISaver 文字转语音
+DOMAIN-SUFFIX,aisaver.io
+DOMAIN,extensiondock.com
+# Fish Audio 语音合成
+DOMAIN-SUFFIX,fish.audio
+# Fish Audio 文件存储（Cloudflare R2 通用域名，可选）
+DOMAIN-SUFFIX,r2.cloudflarestorage.com
+
+
+# ==============================
+# 以下为通用第三方（非 AI），按需使用
+# ==============================
+
+# Cloudflare 验证/网站
+
+# Cloudflare 官网与验证
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+
+# Intercom 客服 SDK
+
+# Intercom 是很多 App 集成的客服/消息 SDK，非 AI 专用；如只想走 AI 流量可整段删除
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
