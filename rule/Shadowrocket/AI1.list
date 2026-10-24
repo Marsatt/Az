@@ -64,6 +64,18 @@ IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
 
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN,ws.chatgpt.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.platform.openai.com
+DOMAIN,oaistatsig.com
+DOMAIN,statsigapi.net
+DOMAIN,events.statsigapi.net
+DOMAIN,featuregates.org
+# Cloudflare 验证（ChatGPT 官方网络要求）
+DOMAIN,challenges.cloudflare.com
+
+
 
 # Gemini（Google）
 
@@ -180,14 +192,10 @@ DOMAIN-SUFFIX,r2.cloudflarestorage.com
 # 以下为通用第三方（非 AI），按需使用
 # ==============================
 
-# Cloudflare 验证/网站
-
 # Cloudflare 官网与验证
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN-SUFFIX,cloudflareinsights.com
-
-# Intercom 客服 SDK
+#DOMAIN-SUFFIX,cloudflare.com
+#DOMAIN-SUFFIX,cloudflare-dns.com
+#DOMAIN-SUFFIX,cloudflareinsights.com
 
 # Intercom 是很多 App 集成的客服/消息 SDK，非 AI 专用；如只想走 AI 流量可整段删除
 DOMAIN-SUFFIX,intercom.com
