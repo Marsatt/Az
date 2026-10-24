@@ -89,6 +89,9 @@ DOMAIN-SUFFIX, pusher.com
 DOMAIN-SUFFIX, pusherapp.com
 # 第三方录像下载工具
 DOMAIN-SUFFIX, kick-video.download
+# Cloudflare 人机验证域名，kick.com 的"验证你是人类"页面从这里加载，不要 REJECT，否则验证页一直转圈过不去。
+DOMAIN, brunhild.challenges.cloudflare.com
+
 
 
 #DOMAIN-SUFFIX, kick.com
