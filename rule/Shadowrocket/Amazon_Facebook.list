@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,alexa.com
 DOMAIN-SUFFIX,alexafund.cn
 DOMAIN-SUFFIX,alexafund.com.cn
 DOMAIN-SUFFIX,amaaozn.com
-DOMAIN-SUFFIX,amazon
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amazon-fashions.com
 DOMAIN-SUFFIX,amazon-jp-recruiting.com
@@ -113,7 +112,6 @@ DOMAIN-SUFFIX,assoc-amazon.cn
 DOMAIN-SUFFIX,associates-amazon.com
 DOMAIN-SUFFIX,audible.com
 DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net
-DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,aws-iot-hackathon.com
 DOMAIN-SUFFIX,awsautopilot.com
 DOMAIN-SUFFIX,awsautoscaling.com
@@ -140,10 +138,8 @@ DOMAIN-SUFFIX,elasticbeanstalk.com
 DOMAIN-SUFFIX,gameon-masters.com
 DOMAIN-SUFFIX,gdansk-amazon.com
 DOMAIN-SUFFIX,images-amazon.com
-DOMAIN-SUFFIX,imdb
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
-DOMAIN-SUFFIX,kindle
 DOMAIN-SUFFIX,kindle.cn
 DOMAIN-SUFFIX,kindle.co.jp
 DOMAIN-SUFFIX,kindle.co.uk
@@ -194,7 +190,6 @@ DOMAIN-SUFFIX,yamaxun
 DOMAIN-SUFFIX,yamaxun.cn
 DOMAIN-SUFFIX,yamaxun.com
 DOMAIN-SUFFIX,z.cn
-DOMAIN-SUFFIX,zappos
 DOMAIN-KEYWORD,avoddashs
 USER-AGENT,InstantVideo.US*
 USER-AGENT,Prime%20Video*

@@ -17,9 +17,9 @@ DOMAIN-SUFFIX,graph.meta.com
 # Meta AI 官网及子域名
 DOMAIN-SUFFIX,meta.ai
 # Meta 官方 CDN（图片、头像、附件等静态资源）
-DOMAIN-SUFFIX,fbcdn.net
+#DOMAIN-SUFFIX,fbcdn.net
 # Meta 附件沙盒 CDN（聊天里的文件、图片）
-DOMAIN-SUFFIX,fbsbx.com
+#DOMAIN-SUFFIX,fbsbx.com
 
 
 # ChatGPT（OpenAI）

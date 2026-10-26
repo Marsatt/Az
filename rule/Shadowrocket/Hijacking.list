@@ -1,12 +1,14 @@
-# NAME: Hijacking
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2024-02-25 16:01:02
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 185
-# IP-CIDR: 42
-# TOTAL: 228
+# ========================================================
+# NAME: Hijacking (优化版)
+# 作用: 拦截运营商劫持 IP、假官网与流氓软件代理分发站
+# 策略: REJECT
+# ========================================================
+
+# [Adobe 地区验证]
+# 注意：如果你使用 Adobe 破解版，可手动解开下一行的注释；正版用户请保持注释/删除状态
 DOMAIN,geo2.adobe.com
+
+# [流氓软件特供版与假官网代理站拦截]
 DOMAIN-SUFFIX,17gouwuba.com
 DOMAIN-SUFFIX,186078.com
 DOMAIN-SUFFIX,189key.com
@@ -192,6 +194,8 @@ DOMAIN-SUFFIX,zmlled.cn
 DOMAIN-SUFFIX,zryydi.com
 DOMAIN-SUFFIX,zunmi.cn
 DOMAIN-SUFFIX,zzd6.com
+
+# [运营商网络劫持 IP 拦截]
 IP-CIDR,103.49.209.27/32,no-resolve
 IP-CIDR,106.75.231.48/32,no-resolve
 IP-CIDR,111.175.220.163/32,no-resolve

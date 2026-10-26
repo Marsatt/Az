@@ -1,95 +1,40 @@
+# ========================================================
+# NAME: BlockAppleOTA (安全精简版)
+# 作用: 拦截 iOS / iPadOS / macOS 系统更新检测与下载
+# 策略: REJECT
+# 提示: 已彻底剔除导致 App 闪退的 ocsp.apple.com
+# ========================================================
+
+# [通用安全与搜索广告（保留用户原有自定义配置）]
 #Chrome & Safari  设置👉隐私与安全👉安全👉不保护（不建议） & 设置👉安全性👉欺骗性站点❌
-DOMAIN, safebrowsing.urlsec.qq.com
-
+DOMAIN,safebrowsing.urlsec.qq.com
 # Apple内部数据/性能服务
-DOMAIN, pancake.apple.com
-
+DOMAIN,pancake.apple.com
 # Apple 搜索广告/广告归因服务
-DOMAIN, gsas.apple.com
+DOMAIN,gsas.apple.com
 
-
-# NAME: SystemOTA
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:15:11
-# DOMAIN: 65
-# DOMAIN-SUFFIX: 13
-# TOTAL: 78
-DOMAIN,appldnld-cdn.apple.com.akadns.net
-DOMAIN,appldnld-cdn.origin-apple.com.akadns.net
-DOMAIN,appldnld.apple.com.mwcname.com
+# [核心：版本更新检查与固件清单资产]
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
 DOMAIN,configuration.apple.com
-DOMAIN,gdmf-cdn.apple.com.akadns.net
-DOMAIN,gdmf-cdn.origin-apple.com.akadns.net
-DOMAIN,gdmf-lb.apple.com.akadns.net
-DOMAIN,gdmf.apple.com.mwcname.com
-DOMAIN,gdmf.g.aaplimg.com
-DOMAIN,gg-cdn.apple.com.akadns.net
-DOMAIN,gg-cdn.origin-apple.com.akadns.net
-DOMAIN,gg-lb.apple.com.akadns.net
-DOMAIN,gg.apple.com
-DOMAIN,gg.apple.com.akadns.net
-DOMAIN,gg.apple.com.mwcname.com
-DOMAIN,gg.g.aaplimg.com
-DOMAIN,gnf-mdn.apple.com
-DOMAIN,gnf-mr.apple.com
-DOMAIN,gs.apple.com
-DOMAIN,ig.apple.com
-DOMAIN,iphonesubmissions-cdn.apple.com.akadns.net
-DOMAIN,iphonesubmissions-cdn.origin-apple.com.akadns.net
-DOMAIN,iphonesubmissions-lb.apple.com.akadns.net
-DOMAIN,iphonesubmissions.apple.com
-DOMAIN,iphonesubmissions.apple.com.akadns.net
-DOMAIN,iphonesubmissions.apple.com.mwcname.com
-DOMAIN,iphonesubmissions.g.aaplimg.com
-DOMAIN,mesu-lb.apple.com.akadns.net
-DOMAIN,mesu.apple.com.akadns.net
-DOMAIN,mesu.apple.com.mwcname.com
-DOMAIN,ns.itunes.apple.com
-DOMAIN,ocsp-cdn.apple.com.akadns.net
-DOMAIN,ocsp-cdn.origin-apple.com.akadns.net
-DOMAIN,ocsp.apple.com.akadns.net
-DOMAIN,ocsp.apple.com.mwcname.com
+
+# [核心：系统升级包与固件下载]
+DOMAIN-SUFFIX,appldnld.apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,updates-http.cdn-apple.com
 DOMAIN,oscdn.apple.com
 DOMAIN,osrecovery.apple.com
-DOMAIN,radarsubmissions-cdn.apple.com.akadns.net
-DOMAIN,radarsubmissions-cdn.origin-apple.com.akadns.net
-DOMAIN,radarsubmissions-lb.apple.com.akadns.net
-DOMAIN,radarsubmissions.apple.com
-DOMAIN,radarsubmissions.apple.com.akadns.net
-DOMAIN,radarsubmissions.apple.com.mwcname.com
-DOMAIN,radarsubmissions.g.aaplimg.com
-DOMAIN,skl.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,swdist.apple.com
 DOMAIN,swdownload.apple.com
 DOMAIN,swpost.apple.com
-DOMAIN,swscan-cdn.apple.com.akadns.net
-DOMAIN,swscan-cdn.origin-apple.com.akadns.net
-DOMAIN,swscan-lb.apple.com.akadns.net
 DOMAIN,swscan.apple.com
-DOMAIN,swscan.apple.com.akadns.net
-DOMAIN,swscan.apple.com.mwcname.com
-DOMAIN,swscan.g.aaplimg.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,updates.cdn-apple.com
-DOMAIN,xp-cdn.apple.com.akadns.net
-DOMAIN,xp-cdn.origin-apple.com.akadns.net
-DOMAIN,xp-lb.apple.com.akadns.net
+
+# [签名与辅助服务]
+DOMAIN,gg.apple.com
+DOMAIN,gnf-mdn.apple.com
+DOMAIN,gnf-mr.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,ig.apple.com
+DOMAIN,skl.apple.com
 DOMAIN,xp.apple.com
-DOMAIN,xp.apple.com.akadns.net
-DOMAIN,xp.apple.com.mwcname.com
-DOMAIN,xp.g.aaplimg.com
-DOMAIN-SUFFIX,appldnld-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,appldnld.apple.com
-DOMAIN-SUFFIX,appldnld.apple.com.akadns.net
-DOMAIN-SUFFIX,appldnld.g.aaplimg.com
-DOMAIN-SUFFIX,gdmf.apple.com
-DOMAIN-SUFFIX,gdmf.apple.com.akadns.net
-DOMAIN-SUFFIX,mesu-cdn.apple.com.akadns.net
-DOMAIN-SUFFIX,mesu-cdn.origin-apple.com.akadns.net
-DOMAIN-SUFFIX,mesu.apple.com
-DOMAIN-SUFFIX,mesu.g.aaplimg.com
-DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
-DOMAIN-SUFFIX,ocsp.apple.com
-DOMAIN-SUFFIX,ocsp.g.aaplimg.com
