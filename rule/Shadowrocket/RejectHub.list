@@ -665,13 +665,11 @@ DOMAIN, apmplus.volces.com
 # ──────────────────────────────
 # 📹 涂鸦 温度计 app （正常使用需要ChinaMax直连）
 # ──────────────────────────────
-DOMAIN, tuyasmartiot.applink.smart321.com
-DOMAIN, images.tuyacn.com
-DOMAIN, m1-cn.iotwish.com
-DOMAIN, tuyasmartiot.app.tuya.com
-DOMAIN, a.c.smart321.com
-DOMAIN, thing.miniapp.com
-DOMAIN, a1-cn.iotwish.com
+DOMAIN-SUFFIX, iotwish.com
+DOMAIN-SUFFIX, tuya.com
+DOMAIN-SUFFIX, smart321.com
+DOMAIN-SUFFIX, miniapp.com
+
 
 
 # ──────────────────────────────
