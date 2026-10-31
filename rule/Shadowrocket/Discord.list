@@ -1,6 +1,15 @@
 # Wait! Are you human?
 DOMAIN-SUFFIX, hcaptcha.com
 
+
+# Discord 官网首页资源（Webflow 样式、脚本、图片），REJECT 会导致首页无法显示。
+DOMAIN, cdn.prod.website-files.com
+# HubSpot 营销脚本（Discord 官网首页用）。
+DOMAIN, hubspotonwebflow.com
+# 网站翻译服务 Localize 的资源（Discord 官网首页用）。
+DOMAIN, cdn.localizeapi.com
+
+
 # NAME: Discord
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
