@@ -1,3 +1,6 @@
+# 新浪邮箱登录验证码（网易易盾），REJECT 会导致验证码加载不出来、无法登录。
+DOMAIN, cstaticdun.126.net
+
 #新浪微博顯示縮略圖。
 DOMAIN-SUFFIX, sinaimg.cn
 
