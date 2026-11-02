@@ -2,21 +2,22 @@
 # 🤖 AI
 # ==============================
 
-# xAI（Grok，马斯克）
 
-# xAI 官方域名（含 api.x.ai 等 API 与账号服务）
-DOMAIN-SUFFIX,x.ai
-# Grok 网页版及 App
-DOMAIN-SUFFIX,grok.com
-# Grok 图片/文件预览
-DOMAIN-SUFFIX,grokusercontent.com
-# Grok 沙盒
-DOMAIN-SUFFIX,grok-sandbox.com
-# Grok 内容分发
-DOMAIN-SUFFIX,groktpcontent.com
-# Grok 短链
-DOMAIN-SUFFIX,grok.me
-# Grok 百科
-DOMAIN-SUFFIX,grokipedia.com
-# Grok 功能资源
-DOMAIN-SUFFIX,featureassets.org
+# Meta AI / Muse
+
+# Muse 后端接入域名（App 与云端虚拟机通信入口）
+DOMAIN,hatch.metaaivm.com
+# Meta 主域名后缀（覆盖 agent.meta.ai、www.meta.ai 等，含账号与连接服务）
+DOMAIN-SUFFIX,meta.com
+# Facebook 域名后缀（登录与账号体系相关）
+DOMAIN-SUFFIX,facebook.com
+# Muse 官网及子域名
+DOMAIN-SUFFIX,muse.ai
+# Meta 图谱 API 后缀（App 内数据接口）
+DOMAIN-SUFFIX,graph.meta.com
+# Meta AI 官网及子域名
+DOMAIN-SUFFIX,meta.ai
+# Meta 官方 CDN（图片、头像、附件等静态资源）
+#DOMAIN-SUFFIX,fbcdn.net
+# Meta 附件沙盒 CDN（聊天里的文件、图片）
+#DOMAIN-SUFFIX,fbsbx.com
