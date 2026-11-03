@@ -21,3 +21,25 @@ DOMAIN-SUFFIX,meta.ai
 #DOMAIN-SUFFIX,fbcdn.net
 # Meta 附件沙盒 CDN（聊天里的文件、图片）
 #DOMAIN-SUFFIX,fbsbx.com
+
+
+
+
+# xAI（Grok，马斯克）
+
+# xAI 官方域名（含 api.x.ai 等 API 与账号服务）
+DOMAIN-SUFFIX,x.ai
+# Grok 网页版及 App
+DOMAIN-SUFFIX,grok.com
+# Grok 图片/文件预览
+DOMAIN-SUFFIX,grokusercontent.com
+# Grok 沙盒
+DOMAIN-SUFFIX,grok-sandbox.com
+# Grok 内容分发
+DOMAIN-SUFFIX,groktpcontent.com
+# Grok 短链
+DOMAIN-SUFFIX,grok.me
+# Grok 百科
+DOMAIN-SUFFIX,grokipedia.com
+# Grok 功能资源
+DOMAIN-SUFFIX,featureassets.org
