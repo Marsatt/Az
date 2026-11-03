@@ -20,6 +20,15 @@ DOMAIN, cn-smp-paymentservices.apple.com
 
 
 # ==============================
+# 🦴 Oracle 官网与云控制台直连
+# ==============================
+
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-SUFFIX,oraclecloudapps.com
+
+
+# ==============================
 # 🔧 Chrome 插件 & 视频增强
 # ==============================
 
