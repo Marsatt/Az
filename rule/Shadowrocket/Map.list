@@ -116,6 +116,9 @@ DOMAIN, upl.baidu.com
 # 百度 WAP 登录认证服务，账号登录相关
 DOMAIN, wappass.baidu.com
 
+# 百度地图看公交车的网址
+DOMAIN, pms-cdn.bdstatic.com
+
 
 # ==============================
 # 高德地图 / 苹果地图 Direct 分流规则
