@@ -3,6 +3,12 @@ DOMAIN-SUFFIX, pypi.org
 DOMAIN-SUFFIX, pythonhosted.org
 
 
+# 微软live.com的hotmail信箱登录需要的网址
+## 微软登录静态资源，成功登录时拉了 14 次
+DOMAIN,res.public.onecdn.static.microsoft
+## 微软 Copilot 单点登录，输完密码后换票
+DOMAIN,ms-sso.copilot.com
+
 
 # NAME: Microsoft
 # AUTHOR: blackmatrix7
