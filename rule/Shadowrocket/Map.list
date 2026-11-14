@@ -126,6 +126,12 @@ DOMAIN, pms-cdn.bdstatic.com
 # ==============================
 
 
+# 苹果地图图块，中国的图从国内下，走直连
+DOMAIN-SUFFIX,apple-mapkit.com
+# 苹果定位服务，中国定位服务器，走直连
+DOMAIN-SUFFIX,ls.apple.com
+
+
 # ── 高德/苹果地图核心域名 ──────
 
 # 高德地图主域名（高德 App、高德 SDK、苹果地图底层数据均使用此域名）
