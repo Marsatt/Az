@@ -378,7 +378,7 @@ DOMAIN-SUFFIX, bytegecko.com
 # 抖音
 
 # 抖音/字节内部服务域名（含所有子节点），用于长连接推送、行为埋点、性能监控及配置下发
-DOMAIN-SUFFIX,shenzhyu.work
+DOMAIN-SUFFIX, shenzhyu.work
 
 # 字节跳动（穿山甲/抖音）广告请求与数据上报（可安全屏蔽）
 DOMAIN-SUFFIX, qtaeixd.com
@@ -647,23 +647,6 @@ DOMAIN-SUFFIX, midea.com
 DOMAIN-SUFFIX, ximalaya.com
 
 
-# ──────────────────────────────
-# 🌐 网页内容 - 句乐部
-# ──────────────────────────────
-
-# julebu.ai 等 AI 网站常用，属于隐私收集域名
-DOMAIN-SUFFIX, oaistatsig.com
-# Statsig 用户行为分析平台（A/B 测试 + 埋点）
-DOMAIN-SUFFIX, statsig.com
-
-DOMAIN-SUFFIX, refgrow.com
-DOMAIN-SUFFIX, iconify.design
-
-# doppiocdn.media 是视频流媒体的 HLS 分发域名，拒绝会导致视频无法播放
-DOMAIN, edge-hls.doppiocdn.media
-
-# 火山引擎APMPlus应用性能监控服务，句乐部/Earthworm网站可能用于性能监控、错误分析和运行数据采集
-DOMAIN, apmplus.volces.com
 
 
 # ──────────────────────────────
@@ -725,3 +708,24 @@ DOMAIN, mc.thedd.online
 # 哔哩哔哩上传视频出现的网址
 ## eSheep.com（电子羊）是一个中国主流的 AIGC / AI 绘画社区，类似 Civitai，用户可以上传、分享、生成 AI 图片模型（Stable Diffusion 模型、LoRA 等）。
 DOMAIN-SUFFIX, esheep.com
+
+
+
+# xAI（Grok，马斯克）
+
+# xAI 官方域名（含 api.x.ai 等 API 与账号服务）
+DOMAIN-SUFFIX,x.ai
+# Grok 网页版及 App
+DOMAIN-SUFFIX,grok.com
+# Grok 图片/文件预览
+DOMAIN-SUFFIX,grokusercontent.com
+# Grok 沙盒
+DOMAIN-SUFFIX,grok-sandbox.com
+# Grok 内容分发
+DOMAIN-SUFFIX,groktpcontent.com
+# Grok 短链
+DOMAIN-SUFFIX,grok.me
+# Grok 百科
+DOMAIN-SUFFIX,grokipedia.com
+# Grok 功能资源
+DOMAIN-SUFFIX,featureassets.org

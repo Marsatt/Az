@@ -1,3 +1,7 @@
+# PostHog 是一个开源的产品分析平台（类似 Mixpanel、神策、GrowingIO），被很多 App 用来做：_用户行为追踪（点击、页面浏览、停留时间等）。_事件埋点。_A/B 测试。_Session Replay（用户会话录像）。_功能旗帜（Feature Flags）。_错误监控等
+HOST-SUFFIX, posthog.com
+
+
 # NAME: AdGuardSDNSFilter
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script

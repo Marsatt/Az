@@ -116,11 +116,20 @@ HOST, upl.baidu.com
 # 百度 WAP 登录认证服务，账号登录相关
 HOST, wappass.baidu.com
 
+# 百度地图看公交车的网址
+HOST, pms-cdn.bdstatic.com
+
 
 # ==============================
 # 高德地图 / 苹果地图 Direct 分流规则
 # （苹果地图在中国大陆底层使用高德数据，autonavi.com 两者共用）
 # ==============================
+
+
+# 苹果地图图块，中国的图从国内下，走直连
+HOST-SUFFIX,apple-mapkit.com
+# 苹果定位服务，中国定位服务器，走直连
+HOST-SUFFIX,ls.apple.com
 
 
 # ── 高德/苹果地图核心域名 ──────

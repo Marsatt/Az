@@ -5,6 +5,39 @@
 HOST, configuration.apple.com
 
 
+# NAME: Line
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-06-06 09:16:54
+# HOST-SUFFIX: 8
+# IP-CIDR: 16
+# TOTAL: 24
+HOST-SUFFIX,lin.ee,Line
+HOST-SUFFIX,line-apps.com,Line
+HOST-SUFFIX,line-cdn.net,Line
+HOST-SUFFIX,line-scdn.net,Line
+HOST-SUFFIX,line.me,Line
+HOST-SUFFIX,linecorp.com,Line
+HOST-SUFFIX,naver.jp,Line
+HOST-SUFFIX,nhncorp.jp,Line
+IP-CIDR,103.2.28.0/22,Line
+IP-CIDR,119.235.224.0/21,Line
+IP-CIDR,119.235.232.0/23,Line
+IP-CIDR,119.235.235.0/24,Line
+IP-CIDR,119.235.236.0/23,Line
+IP-CIDR,125.209.208.0/20,Line
+IP-CIDR,125.209.252.103/32,Line
+IP-CIDR,125.209.252.208/32,Line
+IP-CIDR,125.6.146.0/24,Line
+IP-CIDR,125.6.149.0/24,Line
+IP-CIDR,125.6.190.0/24,Line
+IP-CIDR,147.92.128.0/17,Line
+IP-CIDR,203.104.103.0/24,Line
+IP-CIDR,203.104.128.0/19,Line
+IP-CIDR,203.174.66.64/26,Line
+IP-CIDR,203.174.77.0/24,Line
+
+
 # NAME: Whatsapp
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
@@ -42,14 +75,25 @@ IP-CIDR,54.242.0.0/15
 # Amazon CloudFront CDN（Twitch 视频流）
 HOST-SUFFIX, cloudfront.net
 
-# ── Kick 直播 ────────────────────
+# ── Kick 直播 (精准通配版) ────────────────────
+# 核心主站与短链
 HOST-SUFFIX, kick.com
+HOST-SUFFIX, kick.ac
+# 核心直播视频流 (AWS IVS)
+HOST-SUFFIX, live-video.net
+HOST-SUFFIX, ivs.amazonaws.com
+# 播放录像与回放 (仅精准放行 AWS 美西2区 MediaTailor)
+HOST-SUFFIX, mediatailor.us-west-2.amazonaws.com
+# Pusher 实时通信 (弹幕/礼物)
+HOST-SUFFIX, pusher.com
+HOST-SUFFIX, pusherapp.com
+# 第三方录像下载工具
 HOST-SUFFIX, kick-video.download
-# Pusher 实时通信（直播聊天室弹幕/礼物）
-HOST, js.pusher.com
-HOST, sockjs-us2.pusher.com
-# 播放录像（AWS MediaTailor）
-HOST, segments.mediatailor.us-west-2.amazonaws.com
+# Cloudflare 人机验证域名，kick.com 的"验证你是人类"页面从这里加载，不要 REJECT，否则验证页一直转圈过不去。
+HOST, brunhild.challenges.cloudflare.com
+
+
+
 
 # ── AfreecaTV / SoopLive / Pandalive（韩国直播）──
 HOST-SUFFIX, afreecatv.com
@@ -76,30 +120,42 @@ HOST, ssl.pstatic.net
 
 # ── streamate 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, streamate.com
+HOST, member.naiadsystems.com
+HOST, img.dditscdn.com
+HOST, cdn.nsimg.net
 
 # ── livejasmin 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, livejasmin.com
 
 # ── flirt4free 录制直播平台的平台 ────关联 AdGuardSDNFliter.list────────────────
 HOST-SUFFIX, flirt4free.com
+HOST, live-screencaps.vscdns.com
 
 # ── xlovecam 录制直播平台的平台 ────关联 AdGuardSDNFliter.list────────────────
 HOST-SUFFIX, xlovecam.com
+HOST, spcdn1.wlresources.com
+HOST, spg1-eu-nl.wlresources.com
 
 # ── fc2 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, fc2.com
 
 # ── dreamcamtrue 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, dreamcamtrue.com
+HOST, bss-cdn.dreamcam.com
 
 # ── camsoda 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, camsoda.com
+HOST, media.livemediahost.com
+HOST, streaming-edge-front.livemediahost.com
 
 # ── cam4 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, cam4.com
+HOST, snapshots.xcdnpro.com
 
 # ── bongacams 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, bongacams.com
+HOST, i.bgicdn.com
+HOST-WILDCARD,live-edge*.bcvcdn.com
 
 # ── camwhoresbay 录制直播平台的平台 ────────────────────
 HOST-SUFFIX, camwhoresbay.com
@@ -261,12 +317,6 @@ HOST, dl.snapcdn.app
 # Mass Block Twitter & Twitter Filter 插件
 HOST-SUFFIX, rxliuli.com
 
-# 沉浸式翻译（粉色图标）
-HOST, config.immersivetranslate.com
-
-# 划词翻译 hcfy.ai
-HOST-SUFFIX, hcfy.ai
-
 # Ghostery（隐私保护插件）
 HOST-SUFFIX, ghostery.com
 HOST-SUFFIX, ghostery.net
@@ -366,10 +416,6 @@ HOST, server.arcgisonline.com
 # 📚 学习 / 阅读
 # ==============================
 
-# 句乐部
-HOST, scripts.refgrowcdn.com
-HOST-SUFFIX, julebu.ai
-
 # Notion
 HOST-SUFFIX, notion.so
 HOST-SUFFIX, notion.com
@@ -468,10 +514,13 @@ HOST-SUFFIX, jdownloader.org
 HOST-SUFFIX, appwork.org
 
 # macOS 破解站 XMac
+HOST-SUFFIX, xmac.store
 HOST-SUFFIX, xmac.app
 HOST-SUFFIX, appstorrent.ru
 HOST-SUFFIX, mediafire.com
+HOST-SUFFIX, vk.ru
 HOST-SUFFIX, vk.com
+HOST, psv4.vkuserphoto.ru
 HOST, psv4.userapi.com
 HOST, unpkg.com
 
@@ -512,6 +561,9 @@ HOST, receiptcheck.quantumult.app
 # 🛠️ 开发者工具
 # ==============================
 
+# brew 安装其他工具需要的网址
+HOST-SUFFIX, brew.sh
+
 # GitHub 加速代理
 HOST-SUFFIX, ghproxy.com
 
@@ -543,6 +595,12 @@ HOST, images.unsplash.com
 # ==============================
 # 🛍️ 购物 / 其他
 # ==============================
+
+# 跳转链接聚合工具
+HOST-SUFFIX, link.me
+
+# Linktree - 跳转链接聚合工具（TikTok 创作者经常用来放个人链接）
+HOST-SUFFIX, linktr.ee
 
 # Bitly（bit.ly）公司是一家美国纽约的短链接与链接管理公司_成立于 2008 年_提供 URL 缩短、点击统计、品牌短链等服务
 HOST, bit.ly

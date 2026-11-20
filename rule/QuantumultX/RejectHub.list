@@ -73,6 +73,19 @@ HOST-SUFFIX, mmcdn.com
 
 # macOS 电脑开机后的无用网址 ──────────────────────────────
 
+# Akamai CDN节点
+IP-CIDR,23.212.62.92/32, no-resolve
+IP-CIDR,23.212.62.70/32, no-resolve
+
+# 二次元图片API服务
+HOST-SUFFIX, loliapi.com
+
+# 火山引擎APMPlus监控服务
+HOST-SUFFIX, apmplus.volces.com
+
+# Pekka （来源未知，建议观察）
+HOST-SUFFIX, getpekka.com
+
 # No-Mad-Sub 订阅相关服务
 HOST-SUFFIX, no-mad-sub.one
 
@@ -189,6 +202,10 @@ HOST, m.stripe.network
 # ──────────────────────────────
 # 🛠️ 软件 / App 功能域名
 # ──────────────────────────────
+
+# ── 支付宝 +（香港） ───────────────────────
+HOST, activityservice.alibaba.com
+HOST, ant-hkbank-linkd.cn-hongkong.log.aliyuncs.com
 
 # LosslessCut 3.68.0，macOS 视频分段合并工具
 HOST-SUFFIX, mifi.no
@@ -347,9 +364,6 @@ HOST-SUFFIX, acsbapp.com
 # Click2Cart - 电商购物车转化追踪服务（TikTok Shop 相关）
 HOST-SUFFIX, click2cart.com
 
-# Linktree - 链接聚合工具（TikTok 创作者经常用来放个人链接）
-HOST-SUFFIX, linktr.ee
-
 # 通用占位/测试域名（部分 TikTok 广告或外包服务使用）
 HOST-SUFFIX, site.com
 
@@ -362,6 +376,12 @@ HOST-SUFFIX, bytegecko.com
 
 # ──────────────────────────────
 # 抖音
+
+# 抖音/字节内部服务域名（含所有子节点），用于长连接推送、行为埋点、性能监控及配置下发
+HOST-SUFFIX, shenzhyu.work
+
+# 字节跳动（穿山甲/抖音）广告请求与数据上报（可安全屏蔽）
+HOST-SUFFIX, qtaeixd.com
 
 # 这是抖音的直播与视频分发的直连节点，属于核心服务，建议放行
 IP-CIDR, 192.167.255.224/32
@@ -397,7 +417,7 @@ HOST-SUFFIX, dahhxxttxs.com
 HOST-SUFFIX, huoshanstatic.com
 
 
-# 抖音手机版无用 URL（精准匹配 /trace/ 路径请求）
+# 抖音手机版无用 URL（精准匹配 /trace/ 路径请求）已经添加到圈x的覆写了：^http:\/\/\d+\.\d+\.\d+\.\d+(:\d+)?\/trace\/ url reject-200
 # URL-REGEX, ^http://\d+\.\d+\.\d+\.\d+(:\d+)?/(trace/.*)
 
 # 抖音手机版无用 IP
@@ -558,6 +578,12 @@ HOST, licensing.charliemonroe.net
 
 
 # ──────────────────────────────
+# 📝 keystats
+# ──────────────────────────────
+HOST, keystats-sync.istiancz.workers.dev
+
+
+# ──────────────────────────────
 # 📱 小红书 — 追踪埋点
 # ──────────────────────────────
 
@@ -621,22 +647,16 @@ HOST-SUFFIX, midea.com
 HOST-SUFFIX, ximalaya.com
 
 
+
+
 # ──────────────────────────────
-# 🌐 网页内容 - 句乐部
+# 📹 涂鸦 温度计 app （正常使用需要ChinaMax直连）
 # ──────────────────────────────
+DOMAIN-SUFFIX, iotwish.com
+DOMAIN-SUFFIX, tuya.com
+DOMAIN-SUFFIX, smart321.com
+DOMAIN-SUFFIX, miniapp.com
 
-# julebu.ai 等 AI 网站常用，属于隐私收集域名
-HOST-SUFFIX, oaistatsig.com
-# Statsig 用户行为分析平台（A/B 测试 + 埋点）
-HOST-SUFFIX, statsig.com
-
-HOST-SUFFIX, refgrow.com
-HOST-SUFFIX, iconify.design
-
-HOST, earthworm-prod-1312884695.cos.ap-beijing.myqcloud.com
-
-# doppiocdn.media 是视频流媒体的 HLS 分发域名，拒绝会导致视频无法播放
-HOST, edge-hls.doppiocdn.media
 
 
 # ──────────────────────────────
@@ -688,3 +708,24 @@ HOST, mc.thedd.online
 # 哔哩哔哩上传视频出现的网址
 ## eSheep.com（电子羊）是一个中国主流的 AIGC / AI 绘画社区，类似 Civitai，用户可以上传、分享、生成 AI 图片模型（Stable Diffusion 模型、LoRA 等）。
 HOST-SUFFIX, esheep.com
+
+
+
+# xAI（Grok，马斯克）
+
+# xAI 官方域名（含 api.x.ai 等 API 与账号服务）
+HOST-SUFFIX,x.ai
+# Grok 网页版及 App
+HOST-SUFFIX,grok.com
+# Grok 图片/文件预览
+HOST-SUFFIX,grokusercontent.com
+# Grok 沙盒
+HOST-SUFFIX,grok-sandbox.com
+# Grok 内容分发
+HOST-SUFFIX,groktpcontent.com
+# Grok 短链
+HOST-SUFFIX,grok.me
+# Grok 百科
+HOST-SUFFIX,grokipedia.com
+# Grok 功能资源
+HOST-SUFFIX,featureassets.org

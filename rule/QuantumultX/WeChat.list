@@ -31,6 +31,9 @@ IP-CIDR, 218.60.51.1/24
 
 #/32 --------------------------
 
+# 20261030153619_iPhone 微信购物付款需要的网址
+IP-CIDR,59.36.153.157/32
+
 # 20260727153126_iPhone 微信购物付款需要的网址
 IP-CIDR,113.96.240.145/32
 
@@ -78,7 +81,11 @@ IP-CIDR, 119.188.206.100/32
 # 20250708124147_微信钱包账单查询_iPhone
 HOST-SUFFIX, wechatpay.cn
 
+# 20260827214855_微信朋友圈缩略图查看-----与 Chinamedia.list 冲突
+HOST, shzjwxsns.video.qq.com
 
+# 20260909172432_微信扫二维码付款
+HOST, prewxacode.wxqcloud.qq.com.cn
 
 
 # NAME: WeChat

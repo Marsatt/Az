@@ -94,14 +94,6 @@ DOMAIN, brunhild.challenges.cloudflare.com
 
 
 
-#DOMAIN-SUFFIX, kick.com
-#DOMAIN-SUFFIX, kick-video.download
-# Pusher 实时通信（直播聊天室弹幕/礼物）
-#DOMAIN, js.pusher.com
-#DOMAIN, sockjs-us2.pusher.com
-# 播放录像（AWS MediaTailor）
-#DOMAIN, segments.mediatailor.us-west-2.amazonaws.com
-
 
 # ── AfreecaTV / SoopLive / Pandalive（韩国直播）──
 DOMAIN-SUFFIX, afreecatv.com

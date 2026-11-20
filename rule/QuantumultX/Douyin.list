@@ -1,4 +1,5 @@
-HOST-SUFFIX, qtaeixd.com
+# 抖音风控验证服务
+HOST,verify.snssdk.com
 
 # 这是字节跳动的内容分发 CDN 节点，负责抖音视频与直播加速，建议放行
 HOST-SUFFIX, ydycdn.com
@@ -18,8 +19,10 @@ HOST, pitaya.bytedance.com
 # 查看订单物流信息，这是抖音系的 connect 接口域名，多用于应用内部连接服务
 HOST, connect.douyinec.com
 
-# 这是 ecombdapi.com 的子域名，多用于电商接口服务，并不是普通访问的网站
+# 这是 ecombdapi.com 的子域名，抖音电商接口（订单列表、支付下单），必须放行，REJECT 会导致订单/支付页一直转圈。
 HOST, ecom5-normal-m-zjg.ecombdapi.com
+HOST, ec5-core.ecombdapi.com
+HOST, ecom-normal.ecombdapi.com
 
 # 这是字节跳动电商核心接口，抖音内部服务，不建议拒绝
 HOST, ecset5-core-m-zjg.ecombdapi.com
@@ -34,6 +37,9 @@ HOST, ec5-core.ecombdbapi.com
 
 
 # 关联 RejectHub.list ══════════════════════════════════════════
+
+# 网页版搜索功能需要这个direct，字节跳动字体资源_仅用于网页字体和图标显示_非核心接口
+HOST, fonts.bytedance.com
 
 # 这是字节跳动的内容加速/调度节点，属于抖音视频与直播服务，建议放行
 HOST-SUFFIX, z.cjjd14.com
@@ -89,9 +95,8 @@ HOST, ichannel.snssdk.com
 HOST, ib.snssdk.com
 
 # 手机版抖音播放视频_抖音视频 CDN 节点，用于视频分片加载，必须直连
-## 匹配例如：https://6f38f926.ydycdn.com https://6f38f926.ydycdn.com/ https://6f38f926.ydycdn.com:443 https://6f38f926.ydycdn.com:443/
-#!# ⭕❌不支持这个格式 URL-REGEX,^https?://[A-Za-z0-9]{8}\.ydycdn\.com(:\d+)?/?$
-
+## 匹配例如：https://6f38f926.ydycdn.com https://6f38f926.ydycdn.com/ https://6f38f926.ydycdn.com:443 https://6f38f926.ydycdn.com:443/ #!# ⭕❌不支持这个格式 URL-REGEX,^https?://[A-Za-z0-9]{8}\.ydycdn\.com(:\d+)?/?$
+HOST-WILDCARD,????????.ydycdn.com
 
 
 

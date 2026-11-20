@@ -1,34 +1,21 @@
-# NAME: AppleMail
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:15:11
-# HOST-SUFFIX: 2
-# TOTAL: 2
-HOST-SUFFIX, mail.icloud.com.cn
-HOST-SUFFIX, mail.me.com
-
-
 # ==============================
 # 🍎 苹果系统 & App Store
 # ==============================
 
-# Apple亚洲时间同步服务_NTP
-HOST, time.asia.apple.com
+# 邮件可以正常使用，这个需要放进direct.list里，除非有可以放行SMTP端口的代理节点。
+HOST-SUFFIX, mail.me.com
 
-# 苹果中国官网（部分服务重定向）
-HOST-SUFFIX, apple.com.cn
+# 苹果支付（国内）
+HOST, cn-smp-paymentservices.apple.com
 
-# Apple 位置服务 / 地图 / 查找设备等后端
-HOST-SUFFIX, ls.apple.com
 
-# App Store 搜索接口（走代理会导致无法搜索，必须直连）
-HOST, amp-api-search-edge.apps.apple.com
+# ==============================
+# 🦴 Oracle 官网与云控制台直连
+# ==============================
 
-# 高德地图（苹果地图在中国大陆底层数据来源）
-HOST-SUFFIX, autonavi.com
-
-# 苹果支付服务
-host, cn-smp-paymentservices.apple.com
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,oraclecloud.com
+DOMAIN-SUFFIX,oraclecloudapps.com
 
 
 # ==============================
@@ -36,19 +23,19 @@ host, cn-smp-paymentservices.apple.com
 # ==============================
 
 # 斗鱼直播增强插件（DouyuEx）数据接口与排行榜
-HOST, www.douyuex.com
-HOST-SUFFIX, doseeing.com
+HOST,www.douyuex.com
+HOST-SUFFIX,doseeing.com
 
 # GeeTest 行为验证码（B 站登录验证）
-HOST-SUFFIX, geetest.com
+HOST-SUFFIX,geetest.com
 
 # B 站空降助手（视频时间点跳转工具）
-HOST-SUFFIX, bsbsb.top
+HOST-SUFFIX,bsbsb.top
 
 # 哔哩哔哩阿里 CDN（个人主页 / 图片等资源）
-HOST, at.alicdn.com
+HOST,at.alicdn.com
 # 哔哩哔哩视频下载插件 LemonDownload
-HOST-SUFFIX, lemondl.com
+HOST-SUFFIX,lemondl.com
 
 
 # ==============================
@@ -57,10 +44,23 @@ HOST-SUFFIX, lemondl.com
 
 # ── 云闪付 ───────────────────────
 # 银联商户平台、核心服务、品牌域名
-HOST, mpool.unionpay.com
-HOST-SUFFIX, 95516.com
-HOST-SUFFIX, 95516.net
-HOST-SUFFIX, cup.com.cn
+HOST,mpool.unionpay.com
+HOST-SUFFIX,95516.com
+HOST-SUFFIX,95516.net
+HOST-SUFFIX,cup.com.cn
+
+
+
+
+# ── 支付宝 +（香港） ───────────────────────
+HOST,raccoon.antbank.hk
+HOST,umdc.alibabachengdun.com
+HOST,cdn.marmot-cloud.com
+HOST,antbank-cdn.marmot-cloud.com
+HOST,sdk.marmot-cloud.com
+HOST,site-ac.marmot-cloud.com
+HOST,bailingual.marmot-cloud.com
+
 
 # ── 支付宝 ───────────────────────
 # NAME: AliPay
@@ -93,23 +93,23 @@ HOST-SUFFIX,sinopayment.com.cn
 
 
 # 支付宝 App 深度集成了蚂蚁财富的理财功能（余额宝、基金、黄金、股票、定期理财等）。即使你没有主动进入理财页面，支付宝在以下情况也会后台调用这个域名：_启动支付宝时预加载理财相关内容。_检查基金/余额宝收益。_加载首页理财入口或推荐。_更新财富相关数据（如收益、产品列表）。_打开任何和理财、基金、保险相关的页面或小程序。
-HOST, open.antfortune.com
+HOST,open.antfortune.com
 
-HOST, acs-mum.alibabachengdun.com
-HOST, cdn.ynuf.aliapp.org
-IP-CIDR, 36.104.139.25/32
-IP-CIDR, 42.101.76.243/32
-IP-CIDR, 42.101.76.244/32
-IP-CIDR, 42.202.152.237/32
-IP-CIDR, 42.202.213.231/32
-IP-CIDR, 42.202.213.232/32
-IP-CIDR, 123.184.145.101/32
-IP-CIDR, 123.184.145.102/32
-IP-CIDR, 182.201.241.91/32
+HOST,acs-mum.alibabachengdun.com
+HOST,cdn.ynuf.aliapp.org
+IP-CIDR,36.104.139.25/32
+IP-CIDR,42.101.76.243/32
+IP-CIDR,42.101.76.244/32
+IP-CIDR,42.202.152.237/32
+IP-CIDR,42.202.213.231/32
+IP-CIDR,42.202.213.232/32
+IP-CIDR,123.184.145.101/32
+IP-CIDR,123.184.145.102/32
+IP-CIDR,182.201.241.91/32
 
 # ── 网商银行（余利宝等）────────────
-HOST-SUFFIX, mybank.cn
-IP-CIDR, 36.104.134.83/32
+HOST-SUFFIX,mybank.cn
+IP-CIDR,36.104.134.83/32
 
 
 # ==============================
@@ -118,63 +118,66 @@ IP-CIDR, 36.104.134.83/32
 
 # ── 阿里巴巴 CDN ──────────────────
 # HOST-SUFFIX 已覆盖所有子域名（mdn / img / aeu 无需单独列出）
-HOST-SUFFIX, alicdn.com
+HOST-SUFFIX,alicdn.com
 
 # ── 宜家 ─────────────────────────
 # 国内开票网址
-HOST, etaxpro.bizapps.cn
-HOST-SUFFIX, ikea.com
-HOST-SUFFIX, ikeait.cn
+HOST,etaxpro.bizapps.cn
+HOST-SUFFIX,ikea.com
+HOST-SUFFIX,ikeait.cn
+# 宜家app使用了华为云服务器_2026.10.04
+IP-CIDR,1.92.91.219/32
+IP-CIDR,124.70.220.123/32
 
 # ── 沃尔玛中国 ───────────────────
-HOST-SUFFIX, ghsmpwalmart.com
-HOST-SUFFIX, walmartmobile.cn
+HOST-SUFFIX,ghsmpwalmart.com
+HOST-SUFFIX,walmartmobile.cn
 
 # ── 迪卡侬中国 ───────────────────
-HOST-SUFFIX, decathlon.com.cn
+HOST-SUFFIX,decathlon.com.cn
 
 # ── 拼多多 ───────────────────────
-IP-CIDR, 81.69.105.47/32
-IP-CIDR, 114.110.96.1/32
+IP-CIDR,81.69.105.47/32
+IP-CIDR,114.110.96.1/32
 
 # ── 京东 ─────────────────────────
 # 京东比价 & 比价狗
-HOST, apapia-history.manmanbuy.com
-HOST-SUFFIX, bijiago.com
+HOST,apapia-history.manmanbuy.com
+HOST-SUFFIX,bijiago.com
 # 京东去广告模块
-HOST-SUFFIX, kelee.one
+HOST-SUFFIX,kelee.one
 
 # ── 优衣库中国 ───────────────────
-HOST, t-web-data.fastretailing.cn
+HOST,t-web-data.fastretailing.cn
 # TalkingData 微信小程序埋点（优衣库等小程序使用）
-HOST-SUFFIX, udrig.com
-HOST-SUFFIX, uniqlo.cn
+HOST-SUFFIX,udrig.com
+HOST-SUFFIX,uniqlo.cn
 
 # ── 慢慢买（比价工具）────────────
-HOST, mmb-spu.oss-cn-shenzhen.aliyuncs.com
-HOST-SUFFIX, manmanbuy.com
+HOST,mmb-spu.oss-cn-shenzhen.aliyuncs.com
+HOST-SUFFIX,manmanbuy.com
 
 # ── 顺丰快递 ─────────────────────
-HOST-SUFFIX, sf-express.com
+HOST-SUFFIX,sf-express.com
 
 # ── 麦当劳中国 ───────────────────
-HOST-SUFFIX, mcd.cn
-HOST-SUFFIX, mcdonalds.com.cn
+HOST-SUFFIX,mcd.cn
+HOST-SUFFIX,mcdonalds.com.cn
 
 # ── 肯德基中国 ───────────────────
 # geevisit 用于账号登录验证
-HOST, api.geevisit.com
-HOST-SUFFIX, hwwt8.com
-HOST-SUFFIX, kfc.com.cn
+HOST,api.geevisit.com
+HOST-SUFFIX,hwwt8.com
+HOST-SUFFIX,kfc.com.cn
 
 # ── adidas 中国 ──────────────────
-HOST-SUFFIX, adidas.com.cn
+HOST-SUFFIX,adidas.com.cn
 
 # ── 优惠券相关资源 ────────────────
 # 腾讯云 COS 图片存储
-HOST-SUFFIX, cos.ap-shanghai.myqcloud.com
+HOST-SUFFIX,cos.ap-shanghai.myqcloud.com
 # 优惠券展示页面
-HOST, static.portal101.cn
+HOST,static.portal101.cn
 
 
 # ==============================
@@ -182,32 +185,32 @@ HOST, static.portal101.cn
 # ==============================
 
 # Nike 核心域名
-HOST-SUFFIX, nike.com.cn
+HOST-SUFFIX,nike.com.cn
 # TalkingData 数据追踪（Nike 使用）
-HOST, api.talkingdata.com
+HOST,api.talkingdata.com
 
 # Nike 网页版视频 / 资源（Brightcove 视频平台）
-HOST, manifest.prod.boltdns.net
-HOST, secure.brightcove.com
+HOST,manifest.prod.boltdns.net
+HOST,secure.brightcove.com
 
 # Nike 阿里云验证码 & WAF
-HOST, cf-app-waf.cfc.aliyuncs.com
-HOST-SUFFIX, captcha-pro-open.aliyuncs.com
+HOST,cf-app-waf.cfc.aliyuncs.com
+HOST-SUFFIX,captcha-pro-open.aliyuncs.com
 
 # Nike 订单与 CRM 相关
-HOST, nikegroup.publicisgrowthos.com
-HOST-SUFFIX, baozun.cn
-HOST-SUFFIX, baozun.com
-HOST-SUFFIX, cpatrk.net
-HOST-SUFFIX, maiscrm.com
+HOST,nikegroup.publicisgrowthos.com
+HOST-SUFFIX,baozun.cn
+HOST-SUFFIX,baozun.com
+HOST-SUFFIX,cpatrk.net
+HOST-SUFFIX,maiscrm.com
 
 # Nike 购买礼品卡设备认证
-HOST, cloudauth-device.aliyuncs.com
+HOST,cloudauth-device.aliyuncs.com
 
 # Nike App 启动依赖的火山引擎加速网关（屏蔽会卡在 Logo 界面）
-HOST, gator.volces.com
-HOST, tab.volces.com
-HOST, ab.volices.com
+HOST,gator.volces.com
+HOST,tab.volces.com
+HOST,ab.volices.com
 
 
 # ==============================
@@ -215,120 +218,130 @@ HOST, ab.volices.com
 # ==============================
 
 # DeepSeek AI 聊天
-HOST, chat.deepseek.com
+HOST,chat.deepseek.com
 
 # OpenCat（AI 聊天工具）
-HOST, api.opencat.app
+HOST,api.opencat.app
 # OpenCat 工坊服务（LeanCloud）
-HOST, t3wflvcn.lc-cn-n1-shared.com
+HOST,t3wflvcn.lc-cn-n1-shared.com
 
 # AI 免费抠图工具
-HOST, bgsub.cn
+HOST,bgsub.cn
 
 
 # ==============================
 # 📱 其他常用 App & 服务
 # ==============================
 
+# ── ✈️ 飞常准 ────────────────
+HOST,file.veryzhun.com
+HOST,file.variflight.com
+HOST,radar-c.variflight.com
+HOST,m.ctrip.com
+HOST,ticket.variflight.com
+HOST,app.variflight.com
+HOST,static.variflight.com
+
 # ── 腾讯挪车码（微信小程序）─────────
-HOST, appcfg.v.qq.com
-HOST, launchwxacode.wxqcloud.qq.com.cn
+HOST,appcfg.v.qq.com
+HOST,launchwxacode.wxqcloud.qq.com.cn
 
 # ── 石头扫地机器人 ────────────────
-HOST-SUFFIX, roborock.com
-IP-CIDR, 59.110.82.207/32
-IP-CIDR, 101.200.232.151/32
-IP-CIDR, 222.169.89.181/32
+HOST-SUFFIX,roborock.com
+IP-CIDR,59.110.82.207/32
+IP-CIDR,101.200.232.151/32
+IP-CIDR,222.169.89.181/32
 
 
 # ── 美的空调 App & IoT ────────────
-HOST, iotsdk.midea.com
-HOST, meijuresources.smartmidea.net
-HOST, mjfile-pro.smartmidea.net
-HOST, mp-prod.smartmidea.net
-HOST, recv.bi.ainirobot.com
-HOST, sse.smartmidea.net
+HOST,iotsdk.midea.com
+HOST,meijuresources.smartmidea.net
+HOST,mjfile-pro.smartmidea.net
+HOST,mp-prod.smartmidea.net
+HOST,recv.bi.ainirobot.com
+HOST,sse.smartmidea.net
 
 # ── 剂安安（药品 / 健康 App）────────
-HOST, app.jichacha.vip
-HOST-SUFFIX, dcloud.net.cn
+HOST,app.jichacha.vip
+HOST-SUFFIX,dcloud.net.cn
 
 # ── 网易新闻 ─────────────────────
-HOST-SUFFIX, cache.netease.com
-HOST-SUFFIX, ws.126.net
+HOST-SUFFIX,cache.netease.com
+HOST-SUFFIX,ws.126.net
 
 # ── 财联社 ───────────────────────
-HOST-SUFFIX, cls.cn
+HOST-SUFFIX,cls.cn
 
 # ── Bose 耳机 App ─────────────────
-HOST, nadc.data.api.bose.io
+HOST,nadc.data.api.bose.io
 
 
 # ==============================
 # 📚 学习 / 词典 / 百科
 # ==============================
 
-# 句乐部-国区
-HOST-SUFFIX, julebu.co
-
 # ── 有道词典 ─────────────────────
 # HOST-SUFFIX 覆盖主域名及 www / dict 子域
-HOST-SUFFIX, youdao.com
-HOST, shared-https.ydstatic.com
-HOST, shared.ydstatic.com
-HOST, ydlunacommon-cdn.nosdn.127.net
+HOST-SUFFIX,youdao.com
+HOST,shared-https.ydstatic.com
+HOST,shared.ydstatic.com
+HOST,ydlunacommon-cdn.nosdn.127.net
 
 # ── 百度百科 ─────────────────────
-HOST, baike.baidu.com
-HOST, baikevideo.cdn.bcebos.com
-HOST, bkimg.cdn.bcebos.com
-HOST, bkssl.bdimg.com
+HOST,baike.baidu.com
+HOST,baikevideo.cdn.bcebos.com
+HOST,bkimg.cdn.bcebos.com
+HOST,bkssl.bdimg.com
 
 # ── 剑桥词典 ─────────────────────
-HOST, dictionary.cambridge.org
+HOST,dictionary.cambridge.org
 
 # ── Bing 中国搜索 ─────────────────
-HOST, cn.bing.com
+HOST,cn.bing.com
 
 # ── 豆瓣 ─────────────────────────
-HOST-KEYWORD, douban
+HOST-KEYWORD,douban
 
 # ── 知乎 ─────────────────────────
-HOST-SUFFIX, zhihu.com
-HOST-SUFFIX, zhimg.com
-IP-CIDR, 103.41.167.226/32
-IP-CIDR, 103.41.167.234/32
-IP-CIDR, 103.41.167.236/32
-IP-CIDR, 118.89.204.198/32
+HOST-SUFFIX,zhihu.com
+HOST-SUFFIX,zhimg.com
+IP-CIDR,103.41.167.226/32
+IP-CIDR,103.41.167.234/32
+IP-CIDR,103.41.167.236/32
+IP-CIDR,118.89.204.198/32
 
 # ── CSDN（技术博客）──────────────
-HOST-SUFFIX, csdn.net
-HOST-SUFFIX, csdnimg.cn
+HOST-SUFFIX,csdn.net
+HOST-SUFFIX,csdnimg.cn
 
 # ── 字幕库 ───────────────────────
-HOST-SUFFIX, zimuku.org
+HOST-SUFFIX,zimuku.org
 
 
 # ==============================
 # 🔧 工具 & 查询
 # ==============================
 
-# itdog 国内能否直连网址查询
-HOST, www.itdog.cn
+# 视频号复制链接下载视频
+HOST,sph.miuistore.com
+
+# 17ce 国内能否直连网址查询
+HOST,www.17ce.com
+HOST,wsapi.17ce.com
 
 # IP / 网站安全查询
-HOST, ipinfo.io
-HOST, scamalytics.com
-HOST, website-cdn.ipinfo.io
+HOST,ipinfo.io
+HOST,scamalytics.com
+HOST,website-cdn.ipinfo.io
 
 # 繁简转换工具
-HOST, youtils.cc
+HOST,youtils.cc
 
 # Google / Firebase 行为测量（部分国内 App 依赖，直连避免功能异常）
-HOST, app-measurement.com
+HOST,app-measurement.com
 
 # GlobalSign 根证书颁发机构（SSL/TLS CA）
-HOST-SUFFIX, globalsign.com
+HOST-SUFFIX,globalsign.com
 
 
 
@@ -792,6 +805,9 @@ HOST-SUFFIX,ccbxt.com
 
 
 
+
+# 苹果 钱包 招行万事达卡现实卡片信息
+DOMAIN, apple-interp.masternetchina.net
 
 # NAME: CMB_招商银行
 # AUTHOR: blackmatrix7

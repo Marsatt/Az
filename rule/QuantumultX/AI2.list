@@ -1,32 +1,19 @@
 # ==============================
-# 🤖 AI 工具 不需要🇺🇸节点
+# 🤖 AI
 # ==============================
 
-#Gemini API
-HOST, api.rc-backup.com
 
-# Gemini google
-HOST-SUFFIX, gemini.com
-HOST-SUFFIX, gemini.gstatic.com
+# Meta AI / Muse
 
-
-# NAME: Gemini
-HOST,ai.google.dev
-HOST,alkalimakersuite-pa.clients6.google.com
-HOST,makersuite.google.com
-HOST-SUFFIX,bard.google.com
-HOST-SUFFIX,deepmind.com
-HOST-SUFFIX,deepmind.google
-HOST-SUFFIX,gemini.google.com
-HOST-SUFFIX,generativeai.google
-HOST-SUFFIX,proactivebackend-pa.googleapis.com
-HOST-SUFFIX,apis.google.com
-HOST-KEYWORD,colab
-HOST-KEYWORD,developerprofiles
-HOST-KEYWORD,generativelanguage
-
-HOST,generativelanguage.googleapis.com
-
-
-
-
+# Muse 后端接入域名（App 与云端虚拟机通信入口）
+HOST,hatch.metaaivm.com
+# Meta 主域名后缀（覆盖 agent.meta.ai、www.meta.ai 等，含账号与连接服务）
+HOST-SUFFIX,meta.com
+# Facebook 域名后缀（登录与账号体系相关）
+HOST-SUFFIX,facebook.com
+# Muse 官网及子域名
+HOST-SUFFIX,muse.ai
+# Meta 图谱 API 后缀（App 内数据接口）
+HOST-SUFFIX,graph.meta.com
+# Meta AI 官网及子域名
+HOST-SUFFIX,meta.ai

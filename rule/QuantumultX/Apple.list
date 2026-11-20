@@ -1,8 +1,20 @@
+# 关联 (RejectHub.list) 苹果 图乐园 创建图片
+host, apple-relay.fastly-edge.com
+
+# 苹果相片AI编辑服务器
+host, api.caiyunapp.com
+
+# 高德地图（苹果地图在中国大陆底层数据来源）
+host-suffix, autonavi.com
+
+# Apple亚洲时间同步服务_NTP
+host, time.asia.apple.com
+
+# Apple 位置服务 / 地图 / 查找设备等后端
+host-suffix, ls.apple.com
+
 # 苹果CDN定位服务
 host, lcdn-locator.apple.com
-
-# Apple Bag 苹果购买验证接口等_下面很多重复的。
-host-suffix, itunes.apple.com,Apple
 
 # 苹果时间同步服务
 host, time.apple.com

@@ -175,11 +175,6 @@ DOMAIN-SUFFIX,r2.cloudflarestorage.com
 # 以下为通用第三方（非 AI），按需使用
 # ==============================
 
-# Cloudflare 官网与验证
-#DOMAIN-SUFFIX,cloudflare.com
-#DOMAIN-SUFFIX,cloudflare-dns.com
-#DOMAIN-SUFFIX,cloudflareinsights.com
-
 # Intercom 是很多 App 集成的客服/消息 SDK，非 AI 专用；如只想走 AI 流量可整段删除
 DOMAIN-SUFFIX,intercom.com
 DOMAIN-SUFFIX,intercom.io

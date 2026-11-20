@@ -7,6 +7,16 @@ HOST-SUFFIX, backpack.exchange
 
 
 # ==============================
+# 🏦 Starryblu
+# ==============================
+HOST-SUFFIX, starryblu.com
+HOST, static.pandaremit.com
+HOST, resolve.umeng.com
+HOST, cnlogs.umengcloud.com
+
+
+
+# ==============================
 # 🏦 Neverless
 # ==============================
 HOST-SUFFIX, neverless.com
@@ -116,6 +126,10 @@ HOST, static.sosovalue.com
 HOST, static.zdassets.com
 HOST, www.gnmobile1.com
 HOST, www.gnmobile2.com
+
+
+# ── Binance 币安 内部购买礼品卡的网站可以使用USDT ─────────────────
+HOST-SUFFIX, tokenstore.io
 
 
 # ── Binance 币安 ─────────────────
@@ -238,6 +252,7 @@ HOST-SUFFIX, isafepal.com
 HOST, firebase-settings.crashlytics.com
 # 点小心，进入永续合约界面显示
 HOST-SUFFIX, asterdex.com
+
 
 
 # 🪙 ── OKX 欧易 ──────────────────────
