@@ -9,6 +9,10 @@
 # ==============================
 # 🧩 Chrome 浏览器插件
 # ==============================
+
+# Chrome 上那个 SaveAI 插件的配置接口，就是帮你导出 ChatGPT、Copilot 那些 AI 对话的插件。
+DOMAIN-SUFFIX, cdn-conf.saveai.net
+
 # Language Reactor 上传你访问了哪个视频和网页_（语言学习）_第三方内容解析服务，Language Reactor 用于解析视频/网页元数据，可拒绝但会影响字幕与词典功能
 DOMAIN-SUFFIX, noembed.com
 
