@@ -956,7 +956,8 @@ DOMAIN,hmma.baidu.com,REJECT
 # hostname = dss0.bdstatic.com, tb1.bdstatic.com, tb2.bdstatic.com, ss0.bdstatic.com, gss0.bdstatic.com, newclient.map.baidu.com
 DOMAIN,afd.baidu.com,REJECT
 DOMAIN,afdconf.baidu.com,REJECT
-DOMAIN,httpdns.baidubce.com,REJECT
+DOMAIN,httpdns.baidu.com,REJECT
+DOMAIN-SUFFIX,httpdns.baidubce.com,REJECT
 DOMAIN,lc.map.baidu.com,REJECT
 
 # > 百度贴吧
