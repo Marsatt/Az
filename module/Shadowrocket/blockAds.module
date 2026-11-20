@@ -961,7 +961,7 @@ DOMAIN,lc.map.baidu.com,REJECT
 
 # > 百度贴吧
 # hostname = tiebac.baidu.com
-DOMAIN,180.76.76.200,REJECT
+DOMAIN,180.76.76.200,REJECT-DROP
 # 屏蔽域名dns查询, REJECT
 IP-CIDR,180.76.76.200/32,REJECT-DROP,no-resolve
 IP-CIDR,180.76.76.76/32,REJECT-DROP,no-resolve
